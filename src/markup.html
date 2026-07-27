@@ -1,0 +1,608 @@
+<div class="mast">
+  <div class="brand">Culin<span>AI</span></div>
+  <div style="display:flex; align-items:center; gap:1rem;">
+    <div class="mast-note">Workspace · duck breast</div>
+    <div class="scope-control">
+      <button class="scope-btn" id="scope-btn" onclick="toggleScopeMenu()">
+        <span class="scope-lbl">Cuisine scope</span>
+        <span id="scope-val">None</span>
+        <span class="scope-x" id="scope-clear" style="display:none;" onclick="event.stopPropagation(); clearCuisine();">✕</span>
+      </button>
+      <div class="scope-menu" id="scope-menu">
+        <div class="scope-menu-lbl">Lock to a documented region</div>
+        <div class="scope-picks" id="scope-picks"></div>
+        <div class="scope-menu-note">Only regions with a real documented thread are listed above. Type anything else below — if it isn't documented yet, you'll get an honest answer, not a guess.</div>
+        <div class="scope-input-row">
+          <input type="text" id="scope-input" placeholder="e.g. India, Malabar, Latin/Caribbean…" onkeydown="if(event.key==='Enter') lockCuisineFromInput()">
+          <button onclick="lockCuisineFromInput()">Lock</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="shell">
+
+  <!-- ================= LEFT: THE DISH ================= -->
+  <aside class="dish">
+    <div class="dish-eyebrow">The dish</div>
+    <div class="dish-title">Untitled — duck breast</div>
+
+    <div class="phase search" id="phase"><span class="ph-l">Searching</span>Gathering possibilities. Nothing is committed to a dish yet.</div>
+
+    <div class="dish-sec" id="form-sec" style="display:none;">
+      <h4><span>Form</span><button class="clearf" onclick="clearForm()">clear</button></h4>
+      <div id="form-show"></div>
+    </div>
+
+    <div class="dish-sec">
+      <h4><span>Committed</span><span id="count">0</span></h4>
+      <div id="dish-list">
+        <div class="dish-empty">Nothing committed yet. Add ingredients from the right — the dish builds here.</div>
+      </div>
+    </div>
+
+    <div class="dish-sec">
+      <h4>Balance read</h4>
+      <div class="balance" id="balance">
+        <div class="axis" data-axis="umami"><span class="an" id="an-umami">Umami</span><div class="bar"><div class="fill" style="width:0%"></div><div class="synergy" id="syn-mark"></div></div></div>
+        <div class="axis" data-axis="salt"><span class="an">Salt</span><div class="bar"><div class="fill" style="width:0%"></div></div></div>
+        <div class="axis" data-axis="fat"><span class="an">Fat</span><div class="bar"><div class="fill" style="width:60%"></div></div></div>
+        <div class="axis" data-axis="acid"><span class="an">Acid</span><div class="bar"><div class="fill" style="width:0%"></div></div></div>
+        <div class="axis" data-axis="sweet"><span class="an">Sweet</span><div class="bar"><div class="fill" style="width:0%"></div></div></div>
+        <div class="axis" data-axis="heat"><span class="an" id="an-heat">Heat</span><div class="bar"><div class="fill" style="width:0%"></div></div></div>
+      </div>
+      <div class="bal-gate" id="bal-msg">Balance check begins at 3 ingredients.</div>
+    </div>
+  </aside>
+
+  <!-- ================= RIGHT: PROVOCATION SURFACE ================= -->
+  <main class="surface">
+    <div class="chefline">I want to create a new dish with duck breast.</div>
+
+    <div class="lens-tabs">
+      <button class="tab tab-c on" onclick="lens('c',this)"><span class="dot"></span>Compound</button>
+      <button class="tab tab-t" onclick="lens('t',this)"><span class="dot"></span>Tradition</button>
+      <button class="tab tab-o" onclick="lens('o',this)"><span class="dot"></span>Co-occurrence</button>
+      <button class="tab tab-f" onclick="lens('f',this)"><span class="dot"></span>Form</button>
+      <button class="tab tab-b" id="tab-brain" onclick="lens('b',this)"><span class="dot"></span>Brainstorm<span class="tab-badge" id="brain-badge"></span></button>
+    </div>
+
+    <!-- ---------- COMPOUND ---------- -->
+    <section class="pane pane-c on" id="pane-c">
+      <p class="pane-intro">Grouped by the sensory job each ingredient does around duck's fat and browned surface. Nothing here is ranked — pick what interests you.</p>
+
+      <div class="group">
+        <div class="g-label">Fat carries these <span class="posture p-est">established</span></div>
+        <div class="g-why">Rendered fat changes how these aromas release as you eat — they don't sit on top of the dish, they unfold through it.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'rosemary','compound')"><span class="plus">+</span>rosemary</span>
+          <span class="chip" onclick="add(this,'juniper','compound')"><span class="plus">+</span>juniper</span>
+          <span class="chip" onclick="add(this,'bay','compound')"><span class="plus">+</span>bay</span>
+          <span class="chip" onclick="add(this,'bergamot','compound')"><span class="plus">+</span>bergamot</span>
+          <span class="chip" onclick="add(this,'orange peel','compound')"><span class="plus">+</span>orange peel</span>
+          <span class="chip" onclick="add(this,'spruce','compound')"><span class="plus">+</span>spruce</span>
+          <span class="chip" onclick="add(this,'fir','compound')"><span class="plus">+</span>fir</span>
+          <span class="chip" onclick="add(this,'thyme','compound')"><span class="plus">+</span>thyme</span>
+          <span class="chip" onclick="add(this,'sage','compound')"><span class="plus">+</span>sage</span>
+          <span class="chip" onclick="add(this,'lavender','compound')"><span class="plus">+</span>lavender</span>
+          <span class="chip" onclick="add(this,'makrut lime','compound')"><span class="plus">+</span>makrut lime</span>
+          <span class="chip" onclick="add(this,'cardamom','compound')"><span class="plus">+</span>cardamom</span>
+          <span class="chip" onclick="add(this,'pink peppercorn','compound')"><span class="plus">+</span>pink peppercorn</span>
+          <span class="chip" onclick="add(this,'star anise','compound')"><span class="plus">+</span>star anise</span>
+        </div>
+        <button class="deeper" onclick="why('w1',this)">Why these →</button>
+        <div class="why-box" id="w1">
+          <div class="why-lbl">Evidence register · aroma chemistry</div>
+          <p>Food lipids change how hydrophobic aroma compounds are retained and released; fat type and compound hydrophobicity both matter. Skin-on duck breast creates an active rendered-fat phase during cooking and eating.</p>
+          <div class="why-lbl">Chef register</div>
+          <p class="chefreg">Don't ask which herb goes with duck. Ask which aromatics you want the fat to carry: forest, citrus peel, resin, or floral lift.</p>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="g-label">These deepen the browning <span class="posture p-est">established</span></div>
+        <div class="g-why">Searing builds fatty, roasty, meaty and earthy aroma. Browned, fermented and fungal ingredients extend that same register.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'roasted onion','compound')"><span class="plus">+</span>roasted onion</span>
+          <span class="chip" onclick="add(this,'black garlic','compound')"><span class="plus">+</span>black garlic</span>
+          <span class="chip" onclick="add(this,'miso','compound')"><span class="plus">+</span>miso</span>
+          <span class="chip" onclick="add(this,'porcini','compound')"><span class="plus">+</span>porcini</span>
+          <span class="chip" onclick="add(this,'shiitake','compound')"><span class="plus">+</span>shiitake</span>
+          <span class="chip" onclick="add(this,'toasted grain','compound')"><span class="plus">+</span>toasted grain</span>
+          <span class="chip" onclick="add(this,'cocoa','compound')"><span class="plus">+</span>cocoa</span>
+          <span class="chip" onclick="add(this,'coffee','compound')"><span class="plus">+</span>coffee</span>
+          <span class="chip" onclick="add(this,'soy','compound')"><span class="plus">+</span>soy</span>
+          <span class="chip" onclick="add(this,'fish sauce','compound')"><span class="plus">+</span>fish sauce</span>
+          <span class="chip" onclick="add(this,'aged cheese','compound')"><span class="plus">+</span>aged cheese</span>
+          <span class="chip" onclick="add(this,'dried shrimp','compound')"><span class="plus">+</span>dried shrimp</span>
+          <span class="chip" onclick="add(this,'yeast extract','compound')"><span class="plus">+</span>yeast extract</span>
+        </div>
+        <button class="deeper" onclick="why('w2',this)">Why these →</button>
+        <div class="why-box" id="w2">
+          <div class="why-lbl">Evidence register · aroma chemistry</div>
+          <p>Roasted-duck aroma studies identify odorants including 2-furfurylthiol, dimethyl trisulfide, methional, hexanal, nonanal and 1-octen-3-ol — a fatty, roasty, meaty, sulfurous and earthy register. This is broader cooked-meat chemistry, not unique to duck.</p>
+          <div class="why-lbl">Chef register</div>
+          <p class="chefreg">This path doesn't ask what goes with duck. It asks what browned world the duck should live in: roasted allium, fermented depth, toasted grain, mushroom earth, bitter cocoa.</p>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="g-label">These reset the palate <span class="posture p-est">established</span></div>
+        <div class="g-why">Two different mechanisms, kept separate — sourness brings brightness and salivation; astringency is a drying counterweight to fat. "Acid cuts fat" is shorthand, not chemistry.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'verjus','compound')"><span class="plus">+</span>verjus</span>
+          <span class="chip" onclick="add(this,'cider vinegar','compound')"><span class="plus">+</span>cider vinegar</span>
+          <span class="chip" onclick="add(this,'tart cherry','compound')"><span class="plus">+</span>tart cherry</span>
+          <span class="chip" onclick="add(this,'blood orange','compound')"><span class="plus">+</span>blood orange</span>
+          <span class="chip" onclick="add(this,'black tea','compound')"><span class="plus">+</span>black tea</span>
+          <span class="chip" onclick="add(this,'wine reduction','compound')"><span class="plus">+</span>wine reduction</span>
+          <span class="chip" onclick="add(this,'pomegranate','compound')"><span class="plus">+</span>pomegranate</span>
+          <span class="chip" onclick="add(this,'sumac','compound')"><span class="plus">+</span>sumac</span>
+          <span class="chip" onclick="add(this,'tamarind','compound')"><span class="plus">+</span>tamarind</span>
+          <span class="chip" onclick="add(this,'green apple','compound')"><span class="plus">+</span>green apple</span>
+          <span class="chip" onclick="add(this,'sorrel','compound')"><span class="plus">+</span>sorrel</span>
+          <span class="chip" onclick="add(this,'pickled walnut','compound')"><span class="plus">+</span>pickled walnut</span>
+          <span class="chip" onclick="add(this,'red wine','compound')"><span class="plus">+</span>red wine</span>
+        </div>
+        <button class="deeper" onclick="why('w3',this)">Why these →</button>
+        <div class="why-box" id="w3">
+          <div class="why-lbl">Evidence register · taste physiology + oral somatosensation</div>
+          <p>Astringency has direct evidence as a counterweight to oral fat sensation — alternating mild astringent stimuli with fatty foods decreases perceived fattiness. Sourness and salivation sit adjacent to this, but are a separate mechanism.</p>
+          <div class="why-lbl">Chef register</div>
+          <p class="chefreg">Don't think "acid cuts fat." Ask what kind of reset you want: bright, tart, drying, fermented, fruity, or wine-like.</p>
+        </div>
+      </div>
+
+      <div class="closer">Add what interests you — or move to another lens. Nothing commits you to a direction.</div>
+    </section>
+
+    <!-- ---------- TRADITION ---------- -->
+    <section class="pane pane-t" id="pane-t">
+      <p class="pane-intro">Across documented duck threads, the first question is often not <em>what goes with duck</em> but <em>what state of duck are you designing?</em> Each thread below is named — never a whole cuisine.</p>
+
+      <div class="group" data-region="china">
+        <div class="g-label">Assembled bite — crisp, cool, rich, sweet-fermented at once
+          <span class="g-thread">one Beijing roast-duck thread</span>
+          <span class="posture p-doc">documented</span>
+        </div>
+        <div class="g-why">Duck as a bite system the diner builds: lacquered skin, soft wrapper, cool crunch, fresh allium, sweet-fermented sauce.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'pancake','tradition')"><span class="plus">+</span>pancake</span>
+          <span class="chip" onclick="add(this,'cucumber','tradition')"><span class="plus">+</span>cucumber</span>
+          <span class="chip" onclick="add(this,'scallion','tradition')"><span class="plus">+</span>scallion</span>
+          <span class="chip" onclick="add(this,'sweet bean sauce','tradition')"><span class="plus">+</span>sweet bean sauce</span>
+          <span class="chip" onclick="add(this,'radish','tradition')"><span class="plus">+</span>radish</span>
+          <span class="chip" onclick="add(this,'hoisin','tradition')"><span class="plus">+</span>hoisin</span>
+          <span class="chip" onclick="add(this,'garlic paste','tradition')"><span class="plus">+</span>garlic paste</span>
+          <span class="chip" onclick="add(this,'sugar','tradition')"><span class="plus">+</span>sugar</span>
+        </div>
+        <div class="extend">
+          <span class="x-lbl">Extends the principle · not in this thread <span class="posture p-inf" style="margin-left:.3rem;">inferred · CulinAI</span></span>
+          <p class="x-why">The principle is an assembled bite: a soft carrier, a cool crunch, a sweet-fermented sauce, a fresh allium. These break the Beijing thread but serve the same architecture.</p>
+        <div class="chips">
+          <span class="chip xchip" onclick="add(this,'lettuce cup','tradition')"><span class="plus">+</span>lettuce cup</span>
+          <span class="chip xchip" onclick="add(this,'crepe','tradition')"><span class="plus">+</span>crepe</span>
+          <span class="chip xchip" onclick="add(this,'pickled cucumber','tradition')"><span class="plus">+</span>pickled cucumber</span>
+          <span class="chip xchip" onclick="add(this,'black vinegar','tradition')"><span class="plus">+</span>black vinegar</span>
+          <span class="chip xchip" onclick="add(this,'chive oil','tradition')"><span class="plus">+</span>chive oil</span>
+          <span class="chip xchip" onclick="add(this,'shiso','tradition')"><span class="plus">+</span>shiso</span>
+        </div></div>
+        <button class="deeper" onclick="why('w4',this)" data-requires="crisp-skin,fresh-crunch,soft-carrier" data-thread="the Beijing assembled-bite thread">What transfers →</button>
+        <div class="why-box" id="w4">
+          <div class="why-lbl">Design frame · service architecture</div>
+          <p>This isn't a mechanism — it's a service architecture. It changes what's downstream: who assembles the bite, portion logic, whether the skin stays crisp to the table, whether the sauce is glaze or condiment.</p>
+          <div class="why-lbl">Chef question</div>
+          <p class="chefreg">Do you want duck as a composed plate — or as a bite the diner assembles?</p>
+        </div>
+      </div>
+
+      <div class="group" data-region="vietnam">
+        <div class="g-label">Fermented broth — richness becomes broth structure
+          <span class="g-thread">one Vietnamese vịt nấu chao thread</span>
+          <span class="posture p-doc">documented</span>
+        </div>
+        <div class="g-why">Duck leaves the roast format entirely: fermented bean curd, taro body, greens as reset, communal service.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'fermented bean curd','tradition')"><span class="plus">+</span>fermented bean curd</span>
+          <span class="chip" onclick="add(this,'taro','tradition')"><span class="plus">+</span>taro</span>
+          <span class="chip" onclick="add(this,'water spinach','tradition')"><span class="plus">+</span>water spinach</span>
+          <span class="chip" onclick="add(this,'ginger','tradition')"><span class="plus">+</span>ginger</span>
+          <span class="chip" onclick="add(this,'rice noodle','tradition')"><span class="plus">+</span>rice noodle</span>
+          <span class="chip" onclick="add(this,'mustard greens','tradition')"><span class="plus">+</span>mustard greens</span>
+          <span class="chip" onclick="add(this,'coconut water','tradition')"><span class="plus">+</span>coconut water</span>
+          <span class="chip" onclick="add(this,'chile','tradition')"><span class="plus">+</span>chile</span>
+          <span class="chip" onclick="add(this,'lime','tradition')"><span class="plus">+</span>lime</span>
+        </div>
+        <div class="extend">
+          <span class="x-lbl">Extends the principle · not in this thread <span class="posture p-inf" style="margin-left:.3rem;">inferred · CulinAI</span></span>
+          <p class="x-why">The principle is fermented depth plus starchy body plus a green reset. Other ferments and starches can hold the same structure.</p>
+        <div class="chips">
+          <span class="chip xchip" onclick="add(this,'miso','tradition')"><span class="plus">+</span>miso</span>
+          <span class="chip xchip" onclick="add(this,'white beans','tradition')"><span class="plus">+</span>white beans</span>
+          <span class="chip xchip" onclick="add(this,'fennel','tradition')"><span class="plus">+</span>fennel</span>
+          <span class="chip xchip" onclick="add(this,'kale','tradition')"><span class="plus">+</span>kale</span>
+          <span class="chip xchip" onclick="add(this,'celeriac','tradition')"><span class="plus">+</span>celeriac</span>
+          <span class="chip xchip" onclick="add(this,'rice ferment','tradition')"><span class="plus">+</span>rice ferment</span>
+        </div></div>
+        <button class="deeper" onclick="why('w5',this)" data-requires="dispersed-fat,liquid-body" data-thread="the Vietnamese broth thread">What transfers →</button>
+        <div class="why-box" id="w5">
+          <div class="why-lbl">Design frame · broth system</div>
+          <p>Documented as duck with fermented bean curd in a hot-pot format — red bean curd in the soup, white in the dipping sauce, taro, greens, ginger. The frame reorganizes format, duck state, body, and service all at once.</p>
+          <div class="why-lbl">Chef question</div>
+          <p class="chefreg">Should the duck stay a sliced breast — or become the richness inside a broth system?</p>
+        </div>
+      </div>
+
+      <div class="group" data-region="thailand">
+        <div class="g-label">Curry translation — a finished duck form migrates
+          <span class="g-thread">one Thai red roast-duck curry thread</span>
+          <span class="posture p-doc">documented</span>
+        </div>
+        <div class="g-why">Roast duck becomes curry material, reframed through coconut, chile, fruit and herbs. The thread teaches lineage, not a pairing.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'coconut milk','tradition')"><span class="plus">+</span>coconut milk</span>
+          <span class="chip" onclick="add(this,'red curry paste','tradition')"><span class="plus">+</span>red curry paste</span>
+          <span class="chip" onclick="add(this,'lychee','tradition')"><span class="plus">+</span>lychee</span>
+          <span class="chip" onclick="add(this,'thai basil','tradition')"><span class="plus">+</span>thai basil</span>
+          <span class="chip" onclick="add(this,'makrut lime leaf','tradition')"><span class="plus">+</span>makrut lime leaf</span>
+          <span class="chip" onclick="add(this,'fish sauce','tradition')"><span class="plus">+</span>fish sauce</span>
+          <span class="chip" onclick="add(this,'pineapple','tradition')"><span class="plus">+</span>pineapple</span>
+          <span class="chip" onclick="add(this,'cherry tomato','tradition')"><span class="plus">+</span>cherry tomato</span>
+          <span class="chip" onclick="add(this,'galangal','tradition')"><span class="plus">+</span>galangal</span>
+        </div>
+        <div class="extend">
+          <span class="x-lbl">Extends the principle · not in this thread <span class="posture p-inf" style="margin-left:.3rem;">inferred · CulinAI</span></span>
+          <p class="x-why">The principle is translation: a finished duck form entering a sauce medium with fruit, chile, salt-ferment and herb. The fruit and the herb are variables, not fixtures.</p>
+        <div class="chips">
+          <span class="chip xchip" onclick="add(this,'grape','tradition')"><span class="plus">+</span>grape</span>
+          <span class="chip xchip" onclick="add(this,'apricot','tradition')"><span class="plus">+</span>apricot</span>
+          <span class="chip xchip" onclick="add(this,'tamarind','tradition')"><span class="plus">+</span>tamarind</span>
+          <span class="chip xchip" onclick="add(this,'peanut','tradition')"><span class="plus">+</span>peanut</span>
+          <span class="chip xchip" onclick="add(this,'curry leaf','tradition')"><span class="plus">+</span>curry leaf</span>
+          <span class="chip xchip" onclick="add(this,'coconut cream','tradition')"><span class="plus">+</span>coconut cream</span>
+        </div></div>
+        <button class="deeper" onclick="why('w6',this)" data-requires="chopped-meat,sauce-medium" data-thread="the Thai curry-translation thread">What transfers →</button>
+        <div class="why-box" id="w6">
+          <div class="why-lbl">Design frame · form migration</div>
+          <p>A finished form can be raw material for another system. Chinese roast duck reworked through Thai coconut curry — the technique that transfers is <em>translation itself</em>, not the ingredients.</p>
+          <div class="why-lbl">Chef question</div>
+          <p class="chefreg">Do you want to build a duck dish from scratch — or translate an existing duck form into another system?</p>
+        </div>
+      </div>
+
+      <div class="group" data-region="italy">
+        <div class="g-label">Ragù — duck as ground meat, not centrepiece
+          <span class="g-thread">one Tuscan/Umbrian anatra thread</span>
+          <span class="posture p-doc">documented</span>
+        </div>
+        <div class="g-why">Italian duck cookery largely ignores the breast-as-steak question. Duck goes into ragù — slow-cooked, often ground or shredded, served with pappardelle. The fat enriches the sauce rather than crisping on a plate.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'pappardelle','tradition')"><span class="plus">+</span>pappardelle</span>
+          <span class="chip" onclick="add(this,'soffritto','tradition')"><span class="plus">+</span>soffritto</span>
+          <span class="chip" onclick="add(this,'red wine','tradition')"><span class="plus">+</span>red wine</span>
+          <span class="chip" onclick="add(this,'tomato','tradition')"><span class="plus">+</span>tomato</span>
+          <span class="chip" onclick="add(this,'sage','tradition')"><span class="plus">+</span>sage</span>
+          <span class="chip" onclick="add(this,'juniper','tradition')"><span class="plus">+</span>juniper</span>
+          <span class="chip" onclick="add(this,'parmesan','tradition')"><span class="plus">+</span>parmesan</span>
+          <span class="chip" onclick="add(this,'celery','tradition')"><span class="plus">+</span>celery</span>
+          <span class="chip" onclick="add(this,'carrot','tradition')"><span class="plus">+</span>carrot</span>
+          <span class="chip" onclick="add(this,'porcini','tradition')"><span class="plus">+</span>porcini</span>
+          <span class="chip" onclick="add(this,'bay','tradition')"><span class="plus">+</span>bay</span>
+        </div>
+        <div class="extend">
+          <span class="x-lbl">Extends the principle · not in this thread <span class="posture p-inf" style="margin-left:.3rem;">inferred · CulinAI</span></span>
+          <p class="x-why">The principle is duck disappearing into a sauce — fat dispersed, legs and trim as the point. Anything that deepens a long-cooked sauce serves it.</p>
+        <div class="chips">
+          <span class="chip xchip" onclick="add(this,'pecorino','tradition')"><span class="plus">+</span>pecorino</span>
+          <span class="chip xchip" onclick="add(this,'chestnut','tradition')"><span class="plus">+</span>chestnut</span>
+          <span class="chip xchip" onclick="add(this,'black olive','tradition')"><span class="plus">+</span>black olive</span>
+          <span class="chip xchip" onclick="add(this,'orange zest','tradition')"><span class="plus">+</span>orange zest</span>
+          <span class="chip xchip" onclick="add(this,'rosemary','tradition')"><span class="plus">+</span>rosemary</span>
+          <span class="chip xchip" onclick="add(this,'anchovy','tradition')"><span class="plus">+</span>anchovy</span>
+        </div></div>
+        <button class="deeper" onclick="why('w7',this)" data-requires="dispersed-fat,long-cook" data-thread="the Italian ragù thread">What transfers →</button>
+        <div class="why-box" id="w7">
+          <div class="why-lbl">Design frame · form migration</div>
+          <p>The duck stops being a protein you plate and becomes a sauce component. Fat is dispersed into the ragù rather than rendered on a skin. This also reframes the bird's cheaper cuts — legs, thighs, trim — as the point rather than the offcut.</p>
+          <div class="why-lbl">Chef question</div>
+          <p class="chefreg">Does the duck need to be seen on the plate — or should it disappear into the sauce and be tasted instead?</p>
+        </div>
+      </div>
+
+      <div class="group" data-region="italy,france">
+        <div class="g-label">Bitter orange as sauce architecture
+          <span class="g-thread">Italian anatra all'arancia / French bigarade threads</span>
+          <span class="posture p-doc">documented</span>
+        </div>
+        <div class="g-why">Fruit becomes structure, not garnish: bitter citrus, vinegar, sugar and stock reduced into a sauce with body. The Italian and French threads on this are entangled — a useful reminder that culinary lineage rarely runs in one direction.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'bitter orange','tradition')"><span class="plus">+</span>bitter orange</span>
+          <span class="chip" onclick="add(this,'gastrique','tradition')"><span class="plus">+</span>gastrique</span>
+          <span class="chip" onclick="add(this,'duck jus','tradition')"><span class="plus">+</span>duck jus</span>
+          <span class="chip" onclick="add(this,'wine vinegar','tradition')"><span class="plus">+</span>wine vinegar</span>
+          <span class="chip" onclick="add(this,'sugar','tradition')"><span class="plus">+</span>sugar</span>
+          <span class="chip" onclick="add(this,'shallot','tradition')"><span class="plus">+</span>shallot</span>
+          <span class="chip" onclick="add(this,'stock','tradition')"><span class="plus">+</span>stock</span>
+        </div>
+        <div class="extend">
+          <span class="x-lbl">Extends the principle · not in this thread <span class="posture p-inf" style="margin-left:.3rem;">inferred · CulinAI</span></span>
+          <p class="x-why">The principle is fruit as structure — bitter, sweet, sour and savoury reduced into a sauce with body and gloss. Bitter orange is the classic; it is not the only fruit that can carry it.</p>
+        <div class="chips">
+          <span class="chip xchip" onclick="add(this,'blood orange','tradition')"><span class="plus">+</span>blood orange</span>
+          <span class="chip xchip" onclick="add(this,'quince','tradition')"><span class="plus">+</span>quince</span>
+          <span class="chip xchip" onclick="add(this,'sour cherry','tradition')"><span class="plus">+</span>sour cherry</span>
+          <span class="chip xchip" onclick="add(this,'pomegranate molasses','tradition')"><span class="plus">+</span>pomegranate molasses</span>
+          <span class="chip xchip" onclick="add(this,'verjus','tradition')"><span class="plus">+</span>verjus</span>
+          <span class="chip xchip" onclick="add(this,'grapefruit','tradition')"><span class="plus">+</span>grapefruit</span>
+        </div></div>
+        <button class="deeper" onclick="why('w8',this)" data-requires="rendered-jus,intact-roast" data-thread="the bigarade sauce thread">What transfers →</button>
+        <div class="why-box" id="w8">
+          <div class="why-lbl">Design frame · sauce architecture</div>
+          <p>Bitter-sweet-sour-savory built into a single glossy reduction, integrated with the roast rather than served beside it. The transferable move is treating fruit as a <em>structural</em> element with body and gloss — not as a sweet accent.</p>
+          <div class="why-lbl">Chef question</div>
+          <p class="chefreg">Should fruit sit beside the duck — or become the structure of the sauce?</p>
+        </div>
+      </div>
+
+      <div class="group" data-region="mexico">
+        <div class="g-label">Seed-and-chile sauce as a dark-meat frame
+          <span class="g-thread">one Mexican mole / pipián thread</span>
+          <span class="posture p-doc">documented</span>
+        </div>
+        <div class="g-why">Duck is not the baseline protein in Mexican cooking, but it carries these sauce systems well: chile, seed, nut, spice and roasted complexity build a dark, layered frame that rich dark meat can hold up under.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'ancho chile','tradition')"><span class="plus">+</span>ancho chile</span>
+          <span class="chip" onclick="add(this,'pumpkin seed','tradition')"><span class="plus">+</span>pumpkin seed</span>
+          <span class="chip" onclick="add(this,'tomatillo','tradition')"><span class="plus">+</span>tomatillo</span>
+          <span class="chip" onclick="add(this,'cocoa','tradition')"><span class="plus">+</span>cocoa</span>
+          <span class="chip" onclick="add(this,'cinnamon','tradition')"><span class="plus">+</span>cinnamon</span>
+          <span class="chip" onclick="add(this,'sesame','tradition')"><span class="plus">+</span>sesame</span>
+          <span class="chip" onclick="add(this,'pasilla chile','tradition')"><span class="plus">+</span>pasilla chile</span>
+          <span class="chip" onclick="add(this,'almond','tradition')"><span class="plus">+</span>almond</span>
+          <span class="chip" onclick="add(this,'clove','tradition')"><span class="plus">+</span>clove</span>
+          <span class="chip" onclick="add(this,'raisin','tradition')"><span class="plus">+</span>raisin</span>
+        </div>
+        <div class="extend">
+          <span class="x-lbl">Extends the principle · not in this thread <span class="posture p-inf" style="margin-left:.3rem;">inferred · CulinAI</span></span>
+          <p class="x-why">The principle inverts the plate: the sauce is the dish and the duck is the vehicle. Seeds and nuts supply body where a reduction would use fat. Other nuts and dark fruits do the same job.</p>
+        <div class="chips">
+          <span class="chip xchip" onclick="add(this,'hazelnut','tradition')"><span class="plus">+</span>hazelnut</span>
+          <span class="chip xchip" onclick="add(this,'walnut','tradition')"><span class="plus">+</span>walnut</span>
+          <span class="chip xchip" onclick="add(this,'black garlic','tradition')"><span class="plus">+</span>black garlic</span>
+          <span class="chip xchip" onclick="add(this,'coffee','tradition')"><span class="plus">+</span>coffee</span>
+          <span class="chip xchip" onclick="add(this,'prune','tradition')"><span class="plus">+</span>prune</span>
+          <span class="chip xchip" onclick="add(this,'smoked paprika','tradition')"><span class="plus">+</span>smoked paprika</span>
+        </div></div>
+        <button class="deeper" onclick="why('w9',this)" data-requires="sauce-medium,dark-meat" data-thread="the mole/pipián thread">What transfers →</button>
+        <div class="why-box" id="w9">
+          <div class="why-lbl">Design frame · sauce architecture</div>
+          <p>The sauce is the dish and the protein is the vehicle — an inversion of the European roast logic. Seeds and nuts supply body where a French sauce would use reduction and fat, which changes the entire texture of the plate.</p>
+          <div class="why-lbl">Chef question</div>
+          <p class="chefreg">Should the sauce serve the duck — or should the duck serve the sauce?</p>
+        </div>
+      </div>
+
+      <div class="group" data-region="czech,poland,hungary,germany">
+        <div class="g-label">Feast plate — fat stabilised by starch and sweet-sour
+          <span class="g-thread">Czech, Polish, Hungarian and Germanic roast-duck threads</span>
+          <span class="posture p-doc">documented</span>
+        </div>
+        <div class="g-why">Fatty roast duck is not lightened — it's <em>counterweighted</em>. Starch absorbs the fat, sweet-sour cabbage and apple cut across it, and the plate is built for abundance rather than restraint.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'red cabbage','tradition')"><span class="plus">+</span>red cabbage</span>
+          <span class="chip" onclick="add(this,'apple','tradition')"><span class="plus">+</span>apple</span>
+          <span class="chip" onclick="add(this,'dumpling','tradition')"><span class="plus">+</span>dumpling</span>
+          <span class="chip" onclick="add(this,'caraway','tradition')"><span class="plus">+</span>caraway</span>
+          <span class="chip" onclick="add(this,'potato','tradition')"><span class="plus">+</span>potato</span>
+          <span class="chip" onclick="add(this,'prune','tradition')"><span class="plus">+</span>prune</span>
+          <span class="chip" onclick="add(this,'marjoram','tradition')"><span class="plus">+</span>marjoram</span>
+          <span class="chip" onclick="add(this,'bacon','tradition')"><span class="plus">+</span>bacon</span>
+          <span class="chip" onclick="add(this,'vinegar','tradition')"><span class="plus">+</span>vinegar</span>
+        </div>
+        <div class="extend">
+          <span class="x-lbl">Extends the principle · not in this thread <span class="posture p-inf" style="margin-left:.3rem;">inferred · CulinAI</span></span>
+          <p class="x-why">Two mechanisms at once: starch as a fat receiver, sweet-sour as a palate reset. Any starch and any sweet-sour can fill those two jobs.</p>
+        <div class="chips">
+          <span class="chip xchip" onclick="add(this,'quince','tradition')"><span class="plus">+</span>quince</span>
+          <span class="chip xchip" onclick="add(this,'celeriac','tradition')"><span class="plus">+</span>celeriac</span>
+          <span class="chip xchip" onclick="add(this,'rye bread','tradition')"><span class="plus">+</span>rye bread</span>
+          <span class="chip xchip" onclick="add(this,'horseradish','tradition')"><span class="plus">+</span>horseradish</span>
+          <span class="chip xchip" onclick="add(this,'lingonberry','tradition')"><span class="plus">+</span>lingonberry</span>
+          <span class="chip xchip" onclick="add(this,'buckwheat','tradition')"><span class="plus">+</span>buckwheat</span>
+        </div></div>
+        <button class="deeper" onclick="why('w10',this)" data-requires="intact-roast,rendered-fat" data-thread="the Central European feast-plate thread">What transfers →</button>
+        <div class="why-box" id="w10">
+          <div class="why-lbl">Design frame · plate architecture</div>
+          <p>Two counterweights working at once: starch as a fat <em>receiver</em>, and sweet-sour as a palate <em>reset</em>. These are different mechanisms doing different jobs, which is why the plate can carry so much richness without collapsing.</p>
+          <div class="why-lbl">Chef question</div>
+          <p class="chefreg">Do you want to reduce the richness — or build something that can carry it?</p>
+        </div>
+      </div>
+
+      <div class="closer">A note on what's here: ducks are farmed overwhelmingly in Asia, but production is not the same as cookery. Italy, Mexico and Central Europe all have documented duck traditions a chef can use — and a lens built only on where the birds live would miss all of them.</div>
+    </section>
+
+    <!-- ---------- FORM ---------- -->
+    <section class="pane pane-f" id="pane-f">
+      <p class="pane-intro">Across documented threads, duck has been made into very different things. These aren't options to pick from — they're states cooks have arrived at, and what each one opens downstream. Commit to one if it's useful, ignore them all if it isn't.</p>
+
+      <div class="group">
+        <div class="g-label">Seared magret — duck breast as red meat <span class="posture p-doc">documented</span></div>
+        <div class="g-why">The fat cap becomes the design problem. A widely repeated Gascon account credits André Daguin with popularising this around 1959 — cooking the fatty breast like steak rather than confiting it.</div>
+        <div class="craft-row"><span class="ck">Texture</span><span class="cv">crisp fat cap against rosy interior</span></div>
+        <div class="craft-row"><span class="ck">Temp</span><span class="cv">hot, rested, sliced</span></div>
+        <div class="craft-row"><span class="ck">Sauce</span><span class="cv">jus, pepper, reduction — not glaze</span></div>
+        <button class="commitf" onclick="commitForm(this,'Seared magret','Fat cap as the design problem; rosy, sliced, jus-led.')">Commit this state</button>
+      </div>
+
+      <div class="group">
+        <div class="g-label">Confit — duck becomes a different ingredient <span class="posture p-est">established</span></div>
+        <div class="g-why">A delivery principle that <em>produces</em> a new state: salt cure, low heat in fat, oxygen exclusion. The result is preserved, spoon-tender, crispable, make-ahead — not roast duck at all.</div>
+        <div class="craft-row"><span class="ck">Texture</span><span class="cv">spoon-tender, later crispable</span></div>
+        <div class="craft-row"><span class="ck">Temp</span><span class="cv">reheated, crisped, or cold</span></div>
+        <div class="craft-row"><span class="ck">Sauce</span><span class="cv">fat is the medium, not an addition</span></div>
+        <button class="commitf" onclick="commitForm(this,'Confit','Preserved, shreddable, crispable; fat as medium; make-ahead.')">Commit this state</button>
+      </div>
+
+      <div class="group">
+        <div class="g-label">Crisp-skinned roast — skin engineering <span class="posture p-doc">documented</span></div>
+        <div class="g-why">Whole-bird logic. The crisp is the technical problem and everything else is designed around protecting it.</div>
+        <div class="craft-row"><span class="ck">Texture</span><span class="cv">lacquered, shattering skin</span></div>
+        <div class="craft-row"><span class="ck">Temp</span><span class="cv">hot, carved to order</span></div>
+        <div class="craft-row"><span class="ck">Sauce</span><span class="cv">glaze or condiment, not jus</span></div>
+        <button class="commitf" onclick="commitForm(this,'Crisp-skinned roast','Skin is the technical problem; glaze not jus; carved.')">Commit this state</button>
+      </div>
+
+      <div class="group">
+        <div class="g-label">Cold salted — restraint instead of roast <span class="posture p-doc">documented</span></div>
+        <div class="g-why">Salt, brine, aromatics, chill. Duck does not always need browning to be the point — one Nanjing thread makes this the whole idea.</div>
+        <div class="craft-row"><span class="ck">Texture</span><span class="cv">firm, sliceable, clean</span></div>
+        <div class="craft-row"><span class="ck">Temp</span><span class="cv">cold or barely warm</span></div>
+        <div class="craft-row"><span class="ck">Sauce</span><span class="cv">dipping, dressing, condiment</span></div>
+        <button class="commitf" onclick="commitForm(this,'Cold salted','Salt and chill over browning; clean, sliced, restrained.')">Commit this state</button>
+      </div>
+
+      <div class="group">
+        <div class="g-label">Broth system — richness becomes structure <span class="posture p-doc">documented</span></div>
+        <div class="g-why">Duck leaves the plate. It stops being a slice and becomes the base of something fermented, communal, spoonable.</div>
+        <div class="craft-row"><span class="ck">Texture</span><span class="cv">yielding meat, starchy body</span></div>
+        <div class="craft-row"><span class="ck">Temp</span><span class="cv">hot, communal, sustained</span></div>
+        <div class="craft-row"><span class="ck">Sauce</span><span class="cv">the broth is the sauce</span></div>
+        <button class="commitf" onclick="commitForm(this,'Broth system','Duck as base, not slice; broth is the sauce; communal.')">Commit this state</button>
+      </div>
+
+      <div class="g-section">If duck is red meat, everything done to red meat is available</div>
+      <p class="pane-intro" style="margin-bottom:1.3rem;">The magret insight isn't just about searing. Once the bird is treated as red meat rather than poultry, the whole butchery-and-charcuterie repertoire opens — and most of it is under-explored with duck.</p>
+
+      <div class="group">
+        <div class="g-label">Braise — leg and thigh, not breast <span class="posture p-doc">documented</span></div>
+        <div class="g-why">The breast gets the attention; the legs reward long cooking. Collagen breaks down, fat renders into the braising liquid, and the meat shreds. Ragù, stew, cassoulet, sugo all live here.</div>
+        <div class="craft-row"><span class="ck">Texture</span><span class="cv">shredding, gelatinous, spoon-yielding</span></div>
+        <div class="craft-row"><span class="ck">Temp</span><span class="cv">long, low, hot at service</span></div>
+        <div class="craft-row"><span class="ck">Sauce</span><span class="cv">the braising liquid becomes the sauce</span></div>
+        <button class="commitf" onclick="commitForm(this,'Braise','Leg and thigh, long and low; braising liquid becomes the sauce; shredding texture.')">Commit this state</button>
+      </div>
+
+      <div class="group">
+        <div class="g-label">Ground — ragù, sausage, meatball <span class="posture p-doc">documented</span></div>
+        <div class="g-why">Grinding redistributes the fat through the meat instead of leaving it as a cap. Duck ragù with pappardelle is a documented Tuscan and Umbrian thread; duck sausage and duck meatballs follow the same logic.</div>
+        <div class="craft-row"><span class="ck">Texture</span><span class="cv">fat dispersed, not layered</span></div>
+        <div class="craft-row"><span class="ck">Fat ratio</span><span class="cv">skin and fat ground in, or trimmed out</span></div>
+        <div class="craft-row"><span class="ck">Binding</span><span class="cv">egg, panade, or nothing</span></div>
+        <button class="commitf" onclick="commitForm(this,'Ground','Fat dispersed through the meat; ragù, sausage, meatball logic.')">Commit this state</button>
+      </div>
+
+      <div class="group">
+        <div class="g-label">Cured — ham, prosciutto, bresaola logic <span class="posture p-doc">documented</span></div>
+        <div class="g-why">Salt, time, air. Duck breast cured and air-dried behaves like a small bresaola — sliced thin, eaten raw, intensely savory. A pantry item, not a plated protein.</div>
+        <div class="craft-row"><span class="ck">Texture</span><span class="cv">dense, sliceable, chewy</span></div>
+        <div class="craft-row"><span class="ck">Temp</span><span class="cv">cold, room temperature</span></div>
+        <div class="craft-row"><span class="ck">Time</span><span class="cv">weeks; make-ahead by definition</span></div>
+        <button class="commitf" onclick="commitForm(this,'Cured','Salt and time; sliced thin, eaten raw; a pantry item, not a plated protein.')">Commit this state</button>
+      </div>
+
+      <div class="group">
+        <div class="g-label">Smoked — aroma as the transformation <span class="posture p-doc">documented</span></div>
+        <div class="g-why">Duck's fat is an excellent smoke carrier — smoke compounds are fat-soluble, so the same rendered-fat phase that carries terpenes carries phenols. Tea-smoked duck is one documented Sichuan thread; cold-smoked breast is another route entirely.</div>
+        <div class="craft-row"><span class="ck">Texture</span><span class="cv">varies — cold-smoked stays raw; hot-smoked cooks</span></div>
+        <div class="craft-row"><span class="ck">Aroma</span><span class="cv">smoke phenols carried in the fat</span></div>
+        <div class="craft-row"><span class="ck">Fuel</span><span class="cv">tea and rice, fruitwood, hay, pine</span></div>
+        <button class="commitf" onclick="commitForm(this,'Smoked','Fat carries smoke phenols; tea-smoked, cold-smoked, or hot-smoked.')">Commit this state</button>
+      </div>
+
+      <div class="group">
+        <div class="g-label">Terrine, rillette, pâté — fat as binder <span class="posture p-doc">documented</span></div>
+        <div class="g-why">Confit's cousin. The fat that made the duck rich becomes the thing holding it together. Rillettes, terrines and pâtés turn duck into something spreadable, sliceable and keepable.</div>
+        <div class="craft-row"><span class="ck">Texture</span><span class="cv">spreadable to sliceable, depending on set</span></div>
+        <div class="craft-row"><span class="ck">Temp</span><span class="cv">cold; served from the fridge</span></div>
+        <div class="craft-row"><span class="ck">Sauce</span><span class="cv">none — needs acid alongside, not on top</span></div>
+        <button class="commitf" onclick="commitForm(this,'Terrine / rillette','Fat as binder; spreadable or sliceable; cold, keepable, needs acid alongside.')">Commit this state</button>
+      </div>
+
+      <div class="group">
+        <div class="g-label">Raw — tartare, carpaccio <span class="posture p-est">use with care</span></div>
+        <div class="g-why">If it's red meat, it can be treated raw — though sourcing and food-safety handling matter more here than anywhere else on this list. Duck tartare and thin-sliced raw breast both appear on contemporary menus.</div>
+        <div class="craft-row"><span class="ck">Texture</span><span class="cv">yielding, dense, cool</span></div>
+        <div class="craft-row"><span class="ck">Temp</span><span class="cv">cold</span></div>
+        <div class="craft-row"><span class="ck">Seasoning</span><span class="cv">acid, salt and fat do all the work</span></div>
+        <button class="commitf" onclick="commitForm(this,'Raw / tartare','Treated as red meat, served raw; acid, salt and fat carry it. Sourcing is the constraint.')">Commit this state</button>
+      </div>
+
+      <div class="closer">This still isn't a closed list. Duck has been aged, pressed, dry-aged whole, and confited then fried — and whatever you do next may not be on anyone's list. These are what's documented, not what's permitted.</div>
+    </section>
+
+    <section class="pane pane-o" id="pane-o">
+      <div class="notice"><strong>Framework shown; live data patching in.</strong> The functional-community structure is built and running against the 1M+ recipe corpus now. These are the communities the lens produces — verified corpus counts attach when the parse completes. Frequency is used internally as confidence only; nothing here is ranked by how often it appears.</div>
+
+      <div class="group">
+        <div class="g-label">Fat reset <span class="posture p-corp">corpus pending</span></div>
+        <div class="g-why">A recurring job, not a pairing: something sour, tart, fresh or tannic that changes the eating rhythm between bites.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'vinegar','co-occurrence')"><span class="plus">+</span>vinegar</span>
+          <span class="chip" onclick="add(this,'cherry','co-occurrence')"><span class="plus">+</span>cherry</span>
+          <span class="chip" onclick="add(this,'pickled shallot','co-occurrence')"><span class="plus">+</span>pickled shallot</span>
+          <span class="chip" onclick="add(this,'cabbage','co-occurrence')"><span class="plus">+</span>cabbage</span>
+          <span class="chip" onclick="add(this,'pomegranate','co-occurrence')"><span class="plus">+</span>pomegranate</span>
+          <span class="chip" onclick="add(this,'orange','co-occurrence')"><span class="plus">+</span>orange</span>
+          <span class="chip" onclick="add(this,'plum','co-occurrence')"><span class="plus">+</span>plum</span>
+          <span class="chip" onclick="add(this,'sauerkraut','co-occurrence')"><span class="plus">+</span>sauerkraut</span>
+          <span class="chip" onclick="add(this,'fennel','co-occurrence')"><span class="plus">+</span>fennel</span>
+          <span class="chip" onclick="add(this,'green apple','co-occurrence')"><span class="plus">+</span>green apple</span>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="g-label">Fat carrier <span class="posture p-corp">corpus pending</span></div>
+        <div class="g-why">Rendered fat wants somewhere to go. Recipes give it a vehicle that absorbs and carries richness.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'potato','co-occurrence')"><span class="plus">+</span>potato</span>
+          <span class="chip" onclick="add(this,'white bean','co-occurrence')"><span class="plus">+</span>white bean</span>
+          <span class="chip" onclick="add(this,'bread','co-occurrence')"><span class="plus">+</span>bread</span>
+          <span class="chip" onclick="add(this,'rice','co-occurrence')"><span class="plus">+</span>rice</span>
+          <span class="chip" onclick="add(this,'dumpling','co-occurrence')"><span class="plus">+</span>dumpling</span>
+          <span class="chip" onclick="add(this,'pancake','co-occurrence')"><span class="plus">+</span>pancake</span>
+          <span class="chip" onclick="add(this,'lentils','co-occurrence')"><span class="plus">+</span>lentils</span>
+          <span class="chip" onclick="add(this,'polenta','co-occurrence')"><span class="plus">+</span>polenta</span>
+          <span class="chip" onclick="add(this,'barley','co-occurrence')"><span class="plus">+</span>barley</span>
+          <span class="chip" onclick="add(this,'chestnut','co-occurrence')"><span class="plus">+</span>chestnut</span>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="g-label">Dark depth <span class="posture p-corp">corpus pending</span></div>
+        <div class="g-why">Fermented, reduced, roasted and earthy elements that extend duck's browned register rather than adding more fat.</div>
+        <div class="chips">
+          <span class="chip" onclick="add(this,'soy','co-occurrence')"><span class="plus">+</span>soy</span>
+          <span class="chip" onclick="add(this,'red wine','co-occurrence')"><span class="plus">+</span>red wine</span>
+          <span class="chip" onclick="add(this,'mushroom','co-occurrence')"><span class="plus">+</span>mushroom</span>
+          <span class="chip" onclick="add(this,'duck jus','co-occurrence')"><span class="plus">+</span>duck jus</span>
+          <span class="chip" onclick="add(this,'star anise','co-occurrence')"><span class="plus">+</span>star anise</span>
+          <span class="chip" onclick="add(this,'black garlic','co-occurrence')"><span class="plus">+</span>black garlic</span>
+          <span class="chip" onclick="add(this,'miso','co-occurrence')"><span class="plus">+</span>miso</span>
+          <span class="chip" onclick="add(this,'port','co-occurrence')"><span class="plus">+</span>port</span>
+          <span class="chip" onclick="add(this,'bone broth','co-occurrence')"><span class="plus">+</span>bone broth</span>
+        </div>
+      </div>
+
+      <div class="closer">These are jobs that keep reappearing around duck — not the ingredients duck is "most often" paired with. That distinction is the lens.</div>
+    </section>
+
+
+    <!-- ---------- BRAINSTORM ---------- -->
+    <section class="pane pane-b" id="pane-b">
+      <p class="pane-intro">A working conversation about what to <em>do</em> with what you've gathered. The system never chooses your ingredients — you did that. Arranging them is craft, and craft can be assisted.</p>
+
+      <div class="chatlog" id="chatlog"></div>
+
+      <div class="chatbar">
+        <div class="quick" id="quick"></div>
+        <div class="chatin">
+          <input type="text" id="chatbox" placeholder="Ask, think out loud, or tell it what you're seeing…" onkeydown="if(event.key==='Enter')sendChat()">
+          <button onclick="sendChat()">Send</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>

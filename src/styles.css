@@ -1,0 +1,487 @@
+  :root {
+    --ink: #1e1714;
+    --ink-2: #574a42;
+    --ink-3: #8d8078;
+    --paper: #f7f3ec;
+    --paper-2: #ece3d5;
+    --card: #fffdfa;
+    --line: #ddd1bf;
+    --line-2: #eae0d0;
+    --skin: #b0552a;      /* compound */
+    --sage: #64714f;      /* tradition */
+    --plum: #6b3149;      /* co-occurrence */
+    --ok: #4c6141;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* ---------- Masthead ---------- */
+  .mast {
+    height: 52px;
+    border-bottom: 1.5px solid var(--ink);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 1.25rem;
+    background: var(--paper);
+  }
+  .brand { font-family: 'Fraunces', serif; font-weight: 700; font-size: 1.2rem; letter-spacing: -0.01em; }
+  .brand span { color: var(--skin); }
+  .mast-note {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.62rem;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3);
+  }
+
+  /* ---------- Cuisine scope lock ---------- */
+  .scope-control { position: relative; }
+  .scope-btn {
+    display: flex; align-items: center; gap: 0.5rem;
+    background: var(--card); border: 1px solid var(--line); cursor: pointer;
+    padding: 0.35rem 0.65rem; font-family: 'Space Grotesk', sans-serif;
+  }
+  .scope-btn:hover { border-color: var(--ink-2); }
+  .scope-btn.locked { background: var(--ink); border-color: var(--ink); }
+  .scope-lbl {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.58rem;
+    letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3);
+  }
+  .scope-btn.locked .scope-lbl { color: rgba(247,243,236,0.6); }
+  #scope-val { font-size: 0.82rem; font-weight: 500; color: var(--ink); }
+  .scope-btn.locked #scope-val { color: var(--paper); }
+  .scope-x {
+    margin-left: 0.15rem; color: rgba(247,243,236,0.7); font-size: 0.8rem; line-height: 1;
+  }
+  .scope-x:hover { color: #fff; }
+  .scope-menu {
+    display: none; position: absolute; top: calc(100% + 6px); right: 0; z-index: 20;
+    background: var(--card); border: 1px solid var(--line);
+    box-shadow: 0 6px 18px rgba(30,23,20,0.12); padding: 0.7rem; width: 300px;
+  }
+  .scope-menu.open { display: block; animation: fade 0.15s ease; }
+  .scope-menu-lbl {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.56rem;
+    letter-spacing: 0.09em; text-transform: uppercase; color: var(--ink-3);
+    margin-bottom: 0.5rem;
+  }
+  .scope-picks { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.7rem; }
+  .scope-pick {
+    background: var(--paper); border: 1px solid var(--line); cursor: pointer;
+    font-size: 0.78rem; padding: 0.3rem 0.55rem; color: var(--ink-2);
+  }
+  .scope-pick:hover { border-color: var(--sage); color: var(--ink); }
+  .scope-menu-note {
+    font-size: 0.72rem; color: var(--ink-3); line-height: 1.4; margin-bottom: 0.55rem;
+    padding-top: 0.55rem; border-top: 1px dashed var(--line);
+  }
+  .scope-input-row { display: flex; gap: 0.35rem; }
+  .scope-input-row input {
+    flex: 1; border: 1px solid var(--line); background: var(--paper);
+    padding: 0.4rem 0.55rem; font-family: 'Space Grotesk', sans-serif; font-size: 0.8rem;
+  }
+  .scope-input-row input:focus { outline: none; border-color: var(--sage); }
+  .scope-input-row button {
+    border: none; background: var(--ink); color: var(--paper); cursor: pointer;
+    padding: 0.4rem 0.7rem; font-size: 0.78rem;
+  }
+
+  /* ---------- Two-pane shell ---------- */
+  .shell { display: grid; grid-template-columns: 340px 1fr; height: calc(100vh - 52px); }
+
+  /* ---------- LEFT: the dish ---------- */
+  .dish {
+    border-right: 1.5px solid var(--line);
+    background: var(--paper-2);
+    padding: 1.25rem;
+    overflow-y: auto;
+  }
+  .dish-eyebrow {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3);
+    margin-bottom: 0.4rem;
+  }
+  .dish-title {
+    font-family: 'Fraunces', serif; font-size: 1.35rem; font-weight: 600;
+    letter-spacing: -0.01em; margin-bottom: 1.25rem; line-height: 1.2;
+  }
+  .dish-empty {
+    font-size: 0.85rem; color: var(--ink-3); font-style: italic;
+    padding: 0.9rem 0; border-top: 1px dashed var(--line);
+  }
+  .dish-sec { margin-bottom: 1.35rem; }
+  .dish-sec h4 {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3);
+    margin-bottom: 0.5rem; padding-bottom: 0.35rem; border-bottom: 1px solid var(--line);
+    display: flex; justify-content: space-between;
+  }
+  .ing {
+    display: flex; align-items: center; justify-content: space-between;
+    background: var(--card); border: 1px solid var(--line-2);
+    border-left: 3px solid var(--src, var(--skin));
+    padding: 0.45rem 0.6rem; margin-bottom: 0.35rem; font-size: 0.88rem;
+    animation: pop 0.3s ease;
+  }
+  @keyframes pop { from { opacity:0; transform: translateY(-4px);} to {opacity:1;} }
+  .ing .via {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.55rem;
+    letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3);
+  }
+  .ing button {
+    background: none; border: none; color: var(--ink-3); cursor: pointer;
+    font-size: 0.9rem; padding: 0 0 0 0.5rem; line-height: 1;
+  }
+  .ing button:hover { color: var(--skin); }
+
+  /* balance read */
+  .balance { margin-top: 0.2rem; }
+  .axis { display: grid; grid-template-columns: 52px 1fr; gap: 0.5rem; align-items: center; margin-bottom: 0.3rem; }
+  .axis .an { font-size: 0.7rem; color: var(--ink-2); }
+  .axis .bar { height: 5px; background: var(--line); position: relative; }
+  .axis .fill { height: 100%; background: var(--ink-2); transition: width 0.4s ease; }
+  .axis .bar { position: relative; overflow: visible; }
+  /* umami synergy: hatched ghost showing the amplification NOT yet unlocked */
+  .synergy {
+    display: none; position: absolute; top: 0; height: 100%;
+    background: repeating-linear-gradient(45deg, transparent, transparent 3px,
+                var(--ink-3) 3px, var(--ink-3) 4px);
+    opacity: 0.45; transition: all 0.4s ease;
+  }
+  .synergy.show { display: block; }
+  .axis .an.resolved {
+    font-weight: 600;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.02em;
+  }
+  .axis.flagged .fill { background: var(--skin); }
+  .axis.flagged .an { color: var(--skin); font-weight: 600; }
+  .bal-note {
+    font-size: 0.76rem; color: var(--skin); margin-top: 0.6rem;
+    padding: 0.5rem 0.6rem; background: #f6e7d9; border-left: 2px solid var(--skin);
+    line-height: 1.45;
+  }
+  .bal-gate { font-size: 0.76rem; color: var(--ink-3); font-style: italic; margin-top: 0.5rem; }
+
+  /* ---------- RIGHT: provocation surface ---------- */
+  .surface { overflow-y: auto; padding: 1.25rem 1.5rem 4rem; }
+  .chefline {
+    font-family: 'Fraunces', serif; font-size: 1.05rem;
+    background: var(--ink); color: var(--paper);
+    padding: 0.7rem 1rem; display: inline-block; margin-bottom: 1.1rem;
+  }
+
+  .lens-tabs { display: flex; gap: 0; border-bottom: 1.5px solid var(--line); margin-bottom: 1.3rem; }
+  .tab {
+    background: none; border: none; cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif; font-size: 0.85rem; font-weight: 500;
+    color: var(--ink-3); padding: 0.55rem 0.95rem;
+    border-bottom: 2.5px solid transparent; margin-bottom: -1.5px;
+    display: flex; align-items: center; gap: 0.4rem;
+  }
+  .tab:hover { color: var(--ink); }
+  .tab.on { color: var(--ink); border-bottom-color: var(--tc); font-weight: 600; }
+  .tab .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--tc); }
+  .tab-c { --tc: var(--skin); }
+  .tab-t { --tc: var(--sage); }
+  .tab-o { --tc: var(--plum); }
+
+  .pane { display: none; }
+  .pane.on { display: block; animation: fade 0.3s ease; }
+  @keyframes fade { from {opacity:0; transform:translateY(6px);} to {opacity:1;} }
+
+  .pane-intro { font-size: 0.9rem; color: var(--ink-2); margin-bottom: 1.4rem; max-width: 62ch; }
+
+  /* the group = principle label + real ingredients */
+  .group { margin-bottom: 1.5rem; padding-bottom: 1.3rem; border-bottom: 1px dashed var(--line); }
+  .group:last-of-type { border-bottom: none; }
+  .g-label {
+    font-family: 'Fraunces', serif; font-size: 1.02rem; font-weight: 600;
+    margin-bottom: 0.15rem; display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap;
+  }
+  .g-thread {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem;
+    letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-3); font-weight: 400;
+  }
+  .g-why { font-size: 0.85rem; color: var(--ink-2); margin-bottom: 0.7rem; max-width: 66ch; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .chip {
+    background: var(--card); border: 1px solid var(--line);
+    padding: 0.32rem 0.6rem; font-size: 0.85rem; cursor: pointer;
+    transition: all 0.14s; display: inline-flex; align-items: center; gap: 0.3rem;
+  }
+  .chip:hover { border-color: var(--ac); background: #fff; transform: translateY(-1px); }
+  .chip.added { background: var(--ac); color: #fff; border-color: var(--ac); }
+  .chip .plus { color: var(--ink-3); font-size: 0.8rem; }
+  .chip:hover .plus { color: var(--ac); }
+  .chip.added .plus { color: rgba(255,255,255,0.7); }
+
+  .pane-c { --ac: var(--skin); }
+  .pane-t { --ac: var(--sage); }
+  .pane-o { --ac: var(--plum); }
+  .pane-f { --ac: var(--ink-2); }
+  .tab-f { --tc: var(--ink-2); }
+
+  .g-section {
+    font-family:'Fraunces',serif; font-size:1.1rem; font-weight:600;
+    margin: 2.2rem 0 0.5rem; padding-top: 1.4rem; border-top: 1.5px solid var(--ink);
+  }
+  .commitf {
+    margin-top: 0.7rem; background: none; border: 1px solid var(--line);
+    cursor: pointer; font-family:'IBM Plex Mono',monospace; font-size:0.6rem;
+    letter-spacing:0.08em; text-transform:uppercase; color: var(--ink-2);
+    padding: 0.35rem 0.7rem; transition: all 0.14s;
+  }
+  .commitf:hover { border-color: var(--ink); background: var(--card); }
+  .commitf.on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+  .craft-row { display:grid; grid-template-columns: 62px 1fr; gap:0.5rem; align-items:baseline; margin-bottom:0.22rem; font-size:0.8rem; }
+  .craft-row .ck { color: var(--ink-3); font-size:0.68rem; font-family:'IBM Plex Mono',monospace; letter-spacing:0.04em; }
+  .craft-row .cv { color: var(--ink-2); }
+
+  .extend {
+    margin-top: 0.8rem; padding: 0.65rem 0.8rem;
+    background: repeating-linear-gradient(-45deg, transparent, transparent 6px, rgba(0,0,0,0.012) 6px, rgba(0,0,0,0.012) 12px);
+    border: 1px dashed var(--line); border-left: 2px solid var(--ac);
+  }
+  .extend .x-lbl {
+    display:block; font-family:'IBM Plex Mono',monospace; font-size:0.54rem;
+    letter-spacing:0.09em; text-transform:uppercase; color:var(--ink-3); margin-bottom:0.3rem;
+  }
+  .extend .x-why { font-size:0.8rem; color:var(--ink-2); margin-bottom:0.5rem; line-height:1.45; }
+  .chip.xchip { border-style: dashed; background: transparent; }
+  .chip.xchip:hover { background: var(--card); }
+  .overlay-note {
+    background: #efeadf; border-left: 3px solid var(--ink-2);
+    padding: 0.7rem 0.85rem; margin-bottom: 1.3rem; font-size: 0.85rem;
+    color: var(--ink-2); line-height: 1.5; animation: fade 0.3s ease;
+  }
+  .overlay-note .on-lbl {
+    display:block; font-family:'IBM Plex Mono',monospace; font-size:0.56rem;
+    letter-spacing:0.1em; text-transform:uppercase; color:var(--ink-3); margin-bottom:0.3rem;
+  }
+  .overlay-note .on-foot {
+    display:block; margin-top:0.5rem; font-size:0.76rem; color:var(--ink-3);
+  }
+  .tension {
+    margin-top: 0.85rem; background: #f6ece0; border: 1px solid #e2c9a8;
+    border-left: 3px solid var(--skin); padding: 0.75rem 0.9rem;
+    animation: fade 0.3s ease;
+  }
+  .tension .t-lbl {
+    display:block; font-family:'IBM Plex Mono',monospace; font-size:0.56rem;
+    letter-spacing:0.1em; text-transform:uppercase; color:var(--skin); margin-bottom:0.35rem;
+  }
+  .tension p { font-size:0.85rem; color:#6f4620; line-height:1.5; }
+  .tension .t-q {
+    margin-top:0.5rem; font-family:'Fraunces',serif; font-style:italic;
+    font-size:0.9rem; color:#8a5525;
+  }
+  /* ---- phase indicator ---- */
+  .phase {
+    font-size: 0.78rem; line-height: 1.45; padding: 0.6rem 0.7rem;
+    margin-bottom: 1.1rem; border-left: 3px solid var(--ink-3);
+    background: var(--card); color: var(--ink-2);
+  }
+  .phase .ph-l {
+    display: block; font-family:'IBM Plex Mono',monospace; font-size:0.56rem;
+    letter-spacing:0.1em; text-transform:uppercase; margin-bottom:0.25rem; color: var(--ink-3);
+  }
+  .phase.compose { border-left-color: var(--skin); }
+  .phase.compose .ph-l { color: var(--skin); }
+  .phase.done { border-left-color: var(--ok); background:#eef2ea; }
+  .phase.done .ph-l { color: var(--ok); }
+
+  /* ---- ingredient rows ---- */
+  .ing { display:block; padding:0.5rem 0.6rem; }
+  .ing.unformed { opacity: 0.62; border-style: dashed; }
+  .ing-top { display:flex; align-items:center; justify-content:space-between; gap:0.4rem; }
+  .ing-n { font-size:0.88rem; }
+  .ing-m {
+    font-family:'IBM Plex Mono',monospace; font-size:0.6rem; color:var(--ink-3);
+    letter-spacing:0.02em;
+  }
+  .ing-btns { display:flex; gap:0.2rem; flex-shrink:0; }
+  .mini {
+    background:none; border:1px solid var(--line); cursor:pointer;
+    font-family:'IBM Plex Mono',monospace; font-size:0.54rem; letter-spacing:0.04em;
+    color:var(--ink-3); padding:0.15rem 0.3rem; text-transform:uppercase;
+  }
+  .mini:hover { color:var(--ink); border-color:var(--ink-2); }
+  .mini.x { border:none; font-size:0.85rem; padding:0 0.15rem; }
+  .ing-note {
+    font-size:0.73rem; color:var(--ink-2); line-height:1.42; margin-top:0.35rem;
+    padding-top:0.35rem; border-top:1px dashed var(--line-2);
+  }
+  .no-modes { font-size:0.72rem; color:var(--ink-3); font-style:italic; line-height:1.4; padding:0.4rem 0; }
+  .nomode-tag {
+    font-family:'IBM Plex Mono',monospace; font-size:0.5rem; letter-spacing:0.05em;
+    text-transform:uppercase; color:var(--ink-3); opacity:0.7;
+  }
+  .modes { margin-top:0.5rem; display:flex; flex-direction:column; gap:0.25rem; }
+  .mode-b {
+    text-align:left; background:var(--paper); border:1px solid var(--line);
+    cursor:pointer; padding:0.4rem 0.5rem; transition:all 0.12s;
+  }
+  .mode-b:hover { border-color:var(--ink); background:#fff; }
+  .mode-n { display:block; font-size:0.8rem; font-weight:500; margin-bottom:0.1rem; }
+  .mode-w { display:block; font-size:0.7rem; color:var(--ink-2); line-height:1.4; }
+
+  /* ---- brainstorm ---- */
+  .tab-b { --tc: var(--plum); }
+  .pane-b { --ac: var(--plum); }
+  .tab-badge {
+    margin-left:0.3rem; font-family:'IBM Plex Mono',monospace; font-size:0.55rem;
+    background:var(--paper-2); padding:0.05rem 0.25rem; color:var(--ink-3);
+  }
+  .chatlog {
+    min-height:340px; max-height:52vh; overflow-y:auto; padding:0.5rem 0 1rem;
+    display:flex; flex-direction:column; gap:0.9rem;
+  }
+  .chat-empty { color:var(--ink-3); font-style:italic; font-size:0.88rem; padding:2rem 0; }
+  .msg { font-size:0.9rem; line-height:1.55; }
+  .msg p { margin-bottom:0.6rem; }
+  .msg p:last-child { margin-bottom:0; }
+  .msg.me {
+    align-self:flex-end; background:var(--ink); color:var(--paper);
+    padding:0.55rem 0.8rem; max-width:78%; font-family:'Fraunces',serif;
+  }
+  .msg.sys { align-self:flex-start; max-width:92%; }
+  .msg-l {
+    display:block; font-family:'IBM Plex Mono',monospace; font-size:0.56rem;
+    letter-spacing:0.1em; text-transform:uppercase; color:var(--plum); margin-bottom:0.35rem;
+  }
+  .msg .ask { font-family:'Fraunces',serif; font-style:italic; color:var(--ink-2); }
+  .dir {
+    border-left:2px solid var(--plum); padding:0.55rem 0 0.55rem 0.75rem; margin:0.7rem 0;
+  }
+  .dir-t { font-family:'Fraunces',serif; font-weight:600; font-size:1rem; margin-bottom:0.25rem; }
+  .dir-b { font-size:0.88rem; margin-bottom:0.35rem; }
+  .dir-w { font-size:0.8rem; color:var(--ink-3); font-style:italic; }
+  .writeup { background:var(--card); border:1px solid var(--line); padding:1rem 1.1rem; }
+  .wu-h { font-family:'Fraunces',serif; font-weight:600; font-size:1.05rem; margin-bottom:0.5rem; }
+  .wu-lead { font-family:'Fraunces',serif; font-size:1.1rem; margin-bottom:0.8rem; }
+  .wu-s {
+    font-family:'IBM Plex Mono',monospace; font-size:0.58rem; letter-spacing:0.1em;
+    text-transform:uppercase; color:var(--ink-3); margin:0.8rem 0 0.35rem;
+  }
+  .writeup ul { margin:0 0 0.3rem 1rem; font-size:0.87rem; }
+  .writeup li { margin-bottom:0.25rem; }
+  .wu-note { font-size:0.85rem; color:var(--ink-2); }
+  .wu-foot {
+    margin-top:0.9rem; padding-top:0.7rem; border-top:1px solid var(--line);
+    font-size:0.83rem; color:var(--ink-2); line-height:1.5;
+  }
+  .chatbar { border-top:1px solid var(--line); padding-top:0.8rem; }
+  .quick { display:flex; flex-wrap:wrap; gap:0.3rem; margin-bottom:0.6rem; }
+  .qb {
+    background:var(--card); border:1px solid var(--line); cursor:pointer;
+    font-size:0.75rem; padding:0.3rem 0.55rem; color:var(--ink-2);
+  }
+  .qb:hover { border-color:var(--plum); color:var(--ink); }
+  .chatin { display:flex; gap:0.4rem; }
+  .chatin input {
+    flex:1; border:1px solid var(--line); background:var(--card); padding:0.55rem 0.7rem;
+    font-family:'Space Grotesk',sans-serif; font-size:0.88rem; color:var(--ink);
+  }
+  .chatin input:focus { outline:none; border-color:var(--plum); }
+  .chatin button {
+    border:none; background:var(--ink); color:var(--paper); cursor:pointer;
+    padding:0.55rem 1rem; font-family:'Space Grotesk',sans-serif; font-size:0.85rem;
+  }
+  .fcard {
+    background: var(--card); border: 1px solid var(--line-2);
+    border-left: 3px solid var(--ink); padding: 0.6rem 0.7rem;
+    animation: pop 0.3s ease;
+  }
+  .fcard .fn { font-family:'Fraunces',serif; font-size:0.95rem; font-weight:600; margin-bottom:0.2rem; }
+  .fcard .fd { font-size:0.76rem; color: var(--ink-2); line-height:1.4; }
+  .clearf {
+    background:none; border:none; cursor:pointer; font-family:'IBM Plex Mono',monospace;
+    font-size:0.55rem; letter-spacing:0.06em; text-transform:uppercase; color:var(--ink-3);
+  }
+  .clearf:hover { color: var(--skin); }
+
+  .deeper {
+    background: none; border: none; cursor: pointer; padding: 0.4rem 0 0;
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.62rem;
+    letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3);
+  }
+  .deeper:hover { color: var(--ac); }
+  .why-box {
+    display: none; margin-top: 0.7rem; background: var(--card);
+    border: 1px solid var(--line-2); border-left: 3px solid var(--ac); padding: 0.85rem 1rem;
+  }
+  .why-box.open { display: block; animation: fade 0.25s ease; }
+  .why-lbl {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.56rem;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 0.25rem;
+  }
+  .why-box p { font-size: 0.86rem; margin-bottom: 0.8rem; }
+  .why-box p:last-child { margin-bottom: 0; }
+  .why-box .chefreg { font-family: 'Fraunces', serif; font-size: 0.95rem; color: var(--ink); }
+
+  .posture {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.54rem;
+    letter-spacing: 0.05em; text-transform: uppercase;
+    padding: 0.13rem 0.4rem; border-radius: 2px; white-space: nowrap;
+  }
+  .p-est { background: #e2eadc; color: #405136; }
+  .p-doc { background: #e6e5db; color: #55523f; }
+  .p-corp { background: #f0e2d4; color: #8c5222; }
+  .p-inf  { background: #e8e2ee; color: #574266; }
+
+  /* ---------- Cuisine-scope flags on tradition threads ----------
+     FLAG, NEVER FILTER. A locked scope never hides or disables a thread —
+     everything stays fully clickable. Only visual weight and a note change. */
+  .group.region-match { border-left: 3px solid var(--sage); padding-left: 0.75rem; margin-left: -0.75rem; }
+  .region-flag {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.54rem;
+    letter-spacing: 0.05em; text-transform: uppercase;
+    padding: 0.13rem 0.4rem; border-radius: 2px; white-space: nowrap;
+  }
+  .region-flag.match { background: #dce8d3; color: #3c5330; }
+  .region-flag.nomatch { background: var(--paper-2); color: var(--ink-3); }
+  .group.region-nomatch { opacity: 0.55; }
+  .group.region-nomatch:hover { opacity: 0.85; transition: opacity 0.15s ease; }
+  .scope-lens-note {
+    background: #eef1ea; border-left: 3px solid var(--sage);
+    padding: 0.7rem 0.85rem; margin-bottom: 1.3rem; font-size: 0.85rem;
+    color: var(--ink-2); line-height: 1.5; animation: fade 0.3s ease;
+  }
+  .scope-lens-note .sn-lbl {
+    display:block; font-family:'IBM Plex Mono',monospace; font-size:0.56rem;
+    letter-spacing:0.1em; text-transform:uppercase; color:var(--sage); margin-bottom:0.3rem;
+  }
+  /* Small, deliberately minimal — a dot, not a badge. Only ever applied to the
+     handful of ingredients with real DELIVERY entries, where function actually
+     swings by preparation (see FORM_DEPENDENT in the script). */
+  .chip.form-dependent { position: relative; }
+  .chip.form-dependent::after {
+    content: ''; position: absolute; top: 3px; right: 4px;
+    width: 4px; height: 4px; border-radius: 50%;
+    background: var(--plum); opacity: 0.6;
+  }
+
+  .notice {
+    background: #f5e8d8; border: 1px solid #e0c39b; padding: 0.75rem 0.95rem;
+    font-size: 0.82rem; color: #7c4f20; margin-bottom: 1.3rem; line-height: 1.5;
+  }
+
+  .closer {
+    font-family: 'Fraunces', serif; font-style: italic; font-size: 1rem;
+    color: var(--ink-2); margin-top: 1.6rem; padding-top: 1.1rem; border-top: 1px solid var(--line);
+  }
+
+  @media (max-width: 860px) {
+    body { overflow: auto; height: auto; }
+    .shell { grid-template-columns: 1fr; height: auto; }
+    .dish { border-right: none; border-bottom: 1.5px solid var(--line); }
+  }
