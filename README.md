@@ -46,6 +46,11 @@ rewrite, it was split into `styles.css`, `markup.html`, and `culinai.js`:
 - `main.jsx` intentionally does **not** use `<StrictMode>`, since the imperative
   `init()` should run once against a stable DOM node.
 
+## Board tasks (corpus + Palate Memory)
+
+See [`docs/corpus-and-palate-memory.md`](docs/corpus-and-palate-memory.md) for the two tasks:
+RecipeNLG → cooccur/technique artifacts, and the Postgres Palate Memory store.
+
 ## Pipeline (Lens 3 + technique layer)
 
 See [`pipeline/README.md`](pipeline/README.md). Acceptance tests drive the ETL:
