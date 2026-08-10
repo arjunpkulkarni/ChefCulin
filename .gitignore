@@ -9,3 +9,13 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# corpus (too large for git) + pipeline outputs
+src/full_dataset.csv
+data/**/*.csv
+pipeline/.venv/
+pipeline/**/__pycache__/
+pipeline/.pytest_cache/
+pipeline/artifacts/
+pipeline/.env
+*.pyc

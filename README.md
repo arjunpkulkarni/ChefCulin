@@ -46,6 +46,19 @@ rewrite, it was split into `styles.css`, `markup.html`, and `culinai.js`:
 - `main.jsx` intentionally does **not** use `<StrictMode>`, since the imperative
   `init()` should run once against a stable DOM node.
 
+## Pipeline (Lens 3 + technique layer)
+
+See [`pipeline/README.md`](pipeline/README.md). Acceptance tests drive the ETL:
+
+```bash
+cd pipeline && python3 -m venv .venv && source .venv/bin/activate
+pip install -e ".[dev]" && pytest -q
+```
+
+Artifacts: ingredient co-occurrence (NPMI) and ingredient→technique frequencies.
+The 2.1GB RecipeNLG CSV in `src/full_dataset.csv` is gitignored — use the mini
+fixture under `pipeline/tests/fixtures/` for development.
+
 ## Future work
 
 Componentize incrementally — replace the `dangerouslySetInnerHTML` + `init()`
