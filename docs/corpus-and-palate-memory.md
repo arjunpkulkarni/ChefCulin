@@ -181,3 +181,19 @@ F6 Discard ──(no write)──► nothing
 Corpus artifacts = **shared culinary evidence**.  
 Palate Memory = **this chef’s kept decisions**.  
 Different tables, different jobs; both served from `python -m culin_etl.serve` when Postgres and `artifacts/corpus` are available.
+
+---
+
+## Frontend wiring (React)
+
+The workspace is **React only** (`WorkspaceProvider` + lens components). No HTML shell.
+
+Vite proxies `/api/*` → FastAPI (`vite.config.js`). Client: `src/api.js`.
+
+`CooccurPane` loads live neighbors when the dish changes:
+
+- `GET /api/cooccur?ingredient=<seed>&n=24` — seed = last dish ingredient, else `duck`
+- `GET /api/techniques?ingredient=<seed>&n=8`
+- Hub ingredients (salt, butter, …) filtered client-side for display
+
+Staged Fat reset / carrier / depth groups remain as design framing below the live block.

@@ -474,6 +474,25 @@
     background: #f5e8d8; border: 1px solid #e0c39b; padding: 0.75rem 0.95rem;
     font-size: 0.82rem; color: #7c4f20; margin-bottom: 1.3rem; line-height: 1.5;
   }
+  .notice.ok {
+    background: #eef2ea; border-color: #c5d4b8; color: #3c5330;
+  }
+  .notice.err {
+    background: #f6e7e4; border-color: #e0b8b0; color: #6f3428;
+  }
+  .cooccur-live .chip .chip-meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.52rem;
+    letter-spacing: 0.04em;
+    color: var(--ink-3);
+    margin-left: 0.25rem;
+  }
+  .cooccur-live .chip.added .chip-meta { color: rgba(255,255,255,0.7); }
+  .tech-chips .chip {
+    cursor: default;
+    border-style: dashed;
+  }
+  .tech-chips .chip:hover { transform: none; }
 
   .closer {
     font-family: 'Fraunces', serif; font-style: italic; font-size: 1rem;
