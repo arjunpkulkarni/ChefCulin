@@ -149,6 +149,12 @@ Schema: `pipeline/sql/001_palate.sql` → table `palate_memories`.
 
 **Discard** = do not `POST`. No row is written (`PalateStore.discard()` is an explicit no-op).
 
+**F6 Save is the only writer.** The balance decisions a chef makes while composing
+(E4/E5 Accept / Adjust / Override) stay in `WorkspaceContext.balanceDecisions` and
+never reach this table — see [`trending-detection.md`](trending-detection.md). The
+Association Engine (D1/D2) writes nothing at all — see
+[`association-engine.md`](association-engine.md).
+
 ### Tests
 
 `pipeline/tests/test_palate.py` (skipped if Postgres is down):
@@ -164,6 +170,18 @@ docker compose up -d
 export DATABASE_URL=postgresql://culin:culin@127.0.0.1:5432/culin
 pytest tests/test_palate.py -q
 ```
+
+Frontend side, `npm test`:
+
+- `src/context/PalateSave.test.jsx` — Save posts `source: 'f6'`, Discard posts
+  nothing, editing re-arms, a 503 surfaces instead of failing silently, and balance
+  decisions never appear in the payload
+- `src/lib/liveApi.test.jsx` — the real app against the real backend: gather a dish,
+  read the trend, merge three lenses, Save, and read the row back out of Postgres.
+  Skips itself when the API is not running
+
+> **Note:** the API binds its Postgres store once at startup. Starting Postgres
+> *after* `culin_etl.serve` leaves `palate_db: false` until the API is restarted.
 
 ---
 
@@ -194,6 +212,36 @@ Vite proxies `/api/*` → FastAPI (`vite.config.js`). Client: `src/api.js`.
 
 - `GET /api/cooccur?ingredient=<seed>&n=24` — seed = last dish ingredient, else `duck`
 - `GET /api/techniques?ingredient=<seed>&n=8`
-- Hub ingredients (salt, butter, …) filtered client-side for display
+- Hub ingredients (salt, butter, …) filtered client-side via `HUBS`, exported from
+  `src/lib/associationEngine.js` so the pane and the merged view cannot drift apart
 
 Staged Fat reset / carrier / depth groups remain as design framing below the live block.
+
+### F6 Save / Discard — the only write in the app
+
+Lives at the bottom of `DishSidebar` ("Keep this dish"); the logic is `saveDish` /
+`discardDish` in `WorkspaceContext`.
+
+| Action | What happens |
+|--------|--------------|
+| **Save** | `POST /palate` with `{ user_id, dish, form, cuisine_scope, source: 'f6' }` |
+| **Discard** | **Nothing.** No request is made, mirroring `PalateStore.discard()` |
+
+What the snapshot carries: ingredient names, their lens and their committed form;
+the frame; the cuisine scope. **Balance decisions (E5) are deliberately excluded** —
+persisting them is out of scope for that board, and the panel says so on screen
+rather than leaving the boundary invisible.
+
+**Identity.** There is no auth, so `src/lib/user.js` mints a `chef-<uuid>` on first
+use and keeps it in `localStorage`. Enough to keep one browser's kept dishes
+separate from another's, and honest about being nothing more. It falls back to a
+shared `chef-local` where storage is blocked, because losing per-browser separation
+beats losing Save entirely.
+
+**Re-arming.** Save is answered against a signature of the plate (ingredients,
+forms, frame, scope). Edit anything and the button re-arms rather than leaving a
+stale "Saved" badge over a dish that has since changed.
+
+**When Postgres is down** the API returns 503 and the sidebar says so, with the
+command to fix it. The rest of the workspace — every lens, the balance read, the
+Association Engine — keeps working; only Save is unavailable.

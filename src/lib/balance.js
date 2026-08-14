@@ -1,5 +1,86 @@
 import { ANCHOR, AXES, FRAMES } from '../data/domain.js'
 
+/**
+ * Trending detection (E4) — fixed, non-adaptive.
+ *
+ * ONE share definition, used for every axis and for the bar widths:
+ *
+ *     share(axis) = axisTotal / n        where n = dish.length + 1
+ *
+ * `n` counts the contributors on the plate: every gathered ingredient plus the
+ * duck anchor itself, which carries fat and glutamate/inosinate of its own.
+ * This is the same normalisation `widths` already used, so a bar drawn at 40%
+ * and a trend that fires at 0.4 are literally the same number — there is no
+ * second scale to reconcile.
+ *
+ * ONE threshold for every axis. The old per-axis numbers (0.4 acid, 0.45 salt,
+ * 0.55 fat) are gone. Nothing here reads Palate Memory or adapts to the chef —
+ * adaptive thresholds are G3 and are deliberately not built. See
+ * docs/trending-detection.md.
+ */
+export const TREND_THRESHOLD = 0.4
+
+/**
+ * The only corrective pairs in the MVP. A trend may suggest nothing else.
+ *
+ * `counter` is the axis whose total answers "is this already offset?" — a trend
+ * fires only when the counterweight is carrying strictly less than the axis
+ * that is trending. That generalises the old "acidic with little to offset it"
+ * guard to every axis instead of hand-tuning each one.
+ */
+export const TREND_PAIRS = {
+  acid: {
+    pair: 'sweet',
+    counter: 'sweet',
+    suggestion: 'Trending acidic — reach for sweetness to offset it, or a drying, tannic reset.',
+    note: 'Sugars suppress perceived tartness and acids suppress perceived sweetness — a documented mutual suppression. Or reach for a drying, tannic reset instead.',
+  },
+  sweet: {
+    pair: 'acid',
+    counter: 'acid',
+    suggestion: 'Trending sweet — acid is the counterweight that keeps it from reading flat.',
+    note: 'The suppression runs both ways: acid pulls perceived sweetness down as reliably as sugar pulls perceived tartness down.',
+  },
+  salt: {
+    pair: 'fat',
+    counter: 'fat',
+    suggestion: 'Trending salty — fat is the counterweight here.',
+    note: 'Fat suppresses perceived saltiness — only free sodium ions reach the receptor, and fat impedes their release from the matrix. Note this runs one way only.',
+  },
+  fat: {
+    pair: 'acid',
+    counter: 'acid',
+    suggestion: 'Trending rich — acid is the reset.',
+    note: 'Sourness brightens; astringency dries — different mechanisms, so which do you want? Salt will not cut this; that pair only runs the other way.',
+  },
+  /* Heat is measured on the capsaicin total alone, not on the combined heat bar.
+     Fat and dairy mute capsaicin because it is lipophilic; they do nothing for
+     volatile (isothiocyanate) or trigeminal pungency, so those must never
+     produce a fat/dairy suggestion. */
+  heat: {
+    pair: 'dairy',
+    counter: 'fat',
+    suggestion: 'Trending hot — fat or dairy is the correction that actually works on capsaicin.',
+    note: 'Capsaicin is lipophilic — fat and dairy genuinely mute it. This is the one pungency where that works.',
+  },
+}
+
+/** Tie-break order when two axes trend at the same share. */
+const AXIS_ORDER = ['heat', 'acid', 'salt', 'fat', 'sweet']
+
+/** E5 — the three things a chef can do with a flag. Session vocabulary only. */
+export const BALANCE_DECISIONS = ['accept', 'adjust', 'override']
+
+/** Short chef-facing name per axis, for the flag headline. */
+export const AXIS_LABELS = {
+  acid: 'Acid',
+  sweet: 'Sweet',
+  salt: 'Salt',
+  fat: 'Fat',
+  heat: 'Heat',
+  umami: 'Umami',
+}
+
 /** Pure balance model for the dish sidebar. */
 export function computeBalance(dish, form) {
   const base = form && FRAMES[form.name] ? FRAMES[form.name].fat : 0.6
@@ -44,7 +125,7 @@ export function computeBalance(dish, form) {
     if (mechs[0].k === 'capsaicin')
       heatNote = {
         ax: 'heat',
-        note: 'Capsaicin is lipophilic — fat and dairy genuinely mute it. This is the one pungency where that works.',
+        note: TREND_PAIRS.heat.note,
       }
     if (mechs[0].k === 'pungent')
       heatNote = {
@@ -69,13 +150,32 @@ export function computeBalance(dish, form) {
     }
   }
 
+  /* Axis totals the trend rule reads. `heat` is the capsaicin total only — see
+     TREND_PAIRS.heat. The heat *bar* still shows every mechanism combined. */
+  const totals = {
+    salt: t.salt,
+    fat: t.fat,
+    acid: t.acid,
+    sweet: t.sweet,
+    heat: t.capsaicin,
+  }
+  const shares = {
+    umami: umamiHave,
+    salt: totals.salt / n,
+    fat: totals.fat / n,
+    acid: totals.acid / n,
+    sweet: totals.sweet / n,
+    heat: heatTotal / n,
+    capsaicin: totals.heat / n,
+  }
+
   const widths = {
     umami: Math.min(100, umamiHave * 100 * (synergyOn ? 2.2 : 1)),
-    salt: Math.min(100, (t.salt / n) * 100),
-    fat: Math.min(100, (t.fat / n) * 100),
-    acid: Math.min(100, (t.acid / n) * 100),
-    sweet: Math.min(100, (t.sweet / n) * 100),
-    heat: Math.min(100, (heatTotal / n) * 100),
+    salt: Math.min(100, shares.salt * 100),
+    fat: Math.min(100, shares.fat * 100),
+    acid: Math.min(100, shares.acid * 100),
+    sweet: Math.min(100, shares.sweet * 100),
+    heat: Math.min(100, shares.heat * 100),
   }
 
   const synGhost =
@@ -86,80 +186,95 @@ export function computeBalance(dish, form) {
         }
       : null
 
-  if (dish.length < 3) {
-    return {
-      widths,
-      synergyOn,
-      synGhost,
-      umamiLabel: synergyOn ? 'Umami ×' : 'Umami',
-      heatLabel,
-      heatResolved,
-      umamiResolved: synergyOn,
-      flagged: null,
-      msgClass: 'bal-gate',
-      msg: `Balance check begins at 3 ingredients. (${dish.length}/3)`,
-    }
-  }
-
-  const flags = []
-  const addedGlut = t.glut - ANCHOR.glut
-  if (addedGlut > 0) {
-    flags.push({
-      ax: 'umami',
-      note: 'The duck already brings a nucleotide — it is a red meat, and inosinate rises further with searing and ageing. So a glutamate ingredient added to duck is not accumulating umami, it is amplifying it: glutamate plus nucleotide is roughly an order of magnitude, not a sum. This is the dashi principle, and the duck is doing what the bonito does.',
-    })
-  } else if (t.nucl > 0 && addedGlut === 0) {
-    flags.push({
-      ax: 'umami',
-      note: 'Duck carries inosinate but little free glutamate. The hatched bar is the amplification sitting unclaimed — a glutamate source (miso, soy, aged cheese, tomato, kombu) multiplies the savoury depth far beyond what another meaty ingredient would.',
-    })
-  }
-  if (heatNote) flags.push(heatNote)
-  if (t.acid / n >= 0.4 && t.sweet < t.acid) {
-    flags.push({
-      ax: 'acid',
-      note: 'Trending acidic with little to offset it. Sugars suppress perceived tartness and acids suppress perceived sweetness — a documented mutual suppression. Or reach for a drying, tannic reset instead.',
-    })
-  }
-  if (t.salt / n >= 0.45) {
-    flags.push({
-      ax: 'salt',
-      note: 'Salt building. Fat suppresses perceived saltiness — only free sodium ions reach the receptor, and fat impedes their release from the matrix. Note this runs one way only.',
-    })
-  }
-  if (t.fat / n >= 0.55 && t.acid === 0) {
-    flags.push({
-      ax: 'fat',
-      note: 'Rich, with no reset committed. Sourness brightens; astringency dries — different mechanisms, so which do you want? Salt will not cut this; that pair only runs the other way.',
-    })
-  }
-
-  if (!flags.length) {
-    return {
-      widths,
-      synergyOn,
-      synGhost,
-      umamiLabel: synergyOn ? 'Umami ×' : 'Umami',
-      heatLabel,
-      heatResolved,
-      umamiResolved: synergyOn,
-      flagged: null,
-      msgClass: 'bal-gate',
-      msg: 'Nothing trending. Keep building.',
-    }
-  }
-  const f = flags[0]
-  return {
+  const shape = {
     widths,
+    shares,
     synergyOn,
     synGhost,
     umamiLabel: synergyOn ? 'Umami ×' : 'Umami',
     heatLabel,
     heatResolved,
     umamiResolved: synergyOn,
-    flagged: f.ax,
-    msgClass: 'bal-note',
-    msg: f.note,
+  }
+
+  /* Balance check begins at 3 ingredients: below that a single acidic pickle is
+     half the plate by share, and the flag would be an artefact of the divisor. */
+  if (dish.length < 3) {
+    return {
+      ...shape,
+      trends: [],
+      primaryTrend: null,
+      notes: [],
+      flaggedAxes: [],
+      msgClass: 'bal-gate',
+      msg: `Balance check begins at 3 ingredients. (${dish.length}/3)`,
+    }
+  }
+
+  /* Mechanism notes — context, not corrections. These carry no pair and are
+     never actionable, so they are kept out of `trends`. */
+  const notes = []
+  const addedGlut = t.glut - ANCHOR.glut
+  if (addedGlut > 0) {
+    notes.push({
+      ax: 'umami',
+      note: 'The duck already brings a nucleotide — it is a red meat, and inosinate rises further with searing and ageing. So a glutamate ingredient added to duck is not accumulating umami, it is amplifying it: glutamate plus nucleotide is roughly an order of magnitude, not a sum. This is the dashi principle, and the duck is doing what the bonito does.',
+    })
+  } else if (t.nucl > 0 && addedGlut === 0) {
+    notes.push({
+      ax: 'umami',
+      note: 'Duck carries inosinate but little free glutamate. The hatched bar is the amplification sitting unclaimed — a glutamate source (miso, soy, aged cheese, tomato, kombu) multiplies the savoury depth far beyond what another meaty ingredient would.',
+    })
+  }
+  if (heatNote) notes.push(heatNote)
+
+  /* One rule, every axis: share >= 0.4 and the paired counterweight is carrying
+     strictly less than the axis that is trending. */
+  const trends = AXIS_ORDER.map((axis) => {
+    const spec = TREND_PAIRS[axis]
+    const total = totals[axis]
+    const share = total / n
+    if (share < TREND_THRESHOLD) return null
+    if (totals[spec.counter] >= total) return null
+    return {
+      axis,
+      trend: 'high',
+      share,
+      pair: spec.pair,
+      suggestion: spec.suggestion,
+      note: spec.note,
+    }
+  })
+    .filter(Boolean)
+    .sort((a, b) => b.share - a.share || AXIS_ORDER.indexOf(a.axis) - AXIS_ORDER.indexOf(b.axis))
+
+  const primaryTrend = trends[0] || null
+
+  /* The trend card already renders the primary trend's own mechanism text, so
+     the prose slot shows the first note that is about a *different* axis. */
+  const msgNote = notes.find((x) => x.ax !== primaryTrend?.axis) || null
+
+  if (!primaryTrend && !msgNote) {
+    return {
+      ...shape,
+      trends,
+      primaryTrend,
+      notes,
+      flaggedAxes: [],
+      msgClass: 'bal-gate',
+      msg: 'Nothing trending. Keep building.',
+    }
+  }
+
+  const flaggedAxes = [primaryTrend?.axis, msgNote?.ax].filter(Boolean)
+  return {
+    ...shape,
+    trends,
+    primaryTrend,
+    notes,
+    flaggedAxes,
+    msgClass: msgNote ? 'bal-note' : 'bal-gate',
+    msg: msgNote ? msgNote.note : null,
   }
 }
 

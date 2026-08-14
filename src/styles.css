@@ -168,6 +168,68 @@
   }
   .bal-gate { font-size: 0.76rem; color: var(--ink-3); font-style: italic; margin-top: 0.5rem; }
 
+  /* trending flag + corrective pair (E4) and the chef's decision (E5) */
+  .trend {
+    margin-top: 0.7rem; padding: 0.55rem 0.65rem;
+    background: #f6e7d9; border-left: 2px solid var(--skin);
+  }
+  .trend-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.62rem;
+    letter-spacing: 0.06em; text-transform: uppercase; color: var(--skin);
+  }
+  .trend-ax { font-weight: 600; }
+  .trend-arrow { opacity: 0.55; }
+  .trend-share { color: var(--ink-3); }
+  .trend-sug {
+    font-size: 0.8rem; color: var(--ink); line-height: 1.4; margin-top: 0.35rem;
+  }
+  .trend-note {
+    font-size: 0.72rem; color: var(--ink-2); line-height: 1.45; margin-top: 0.3rem;
+  }
+  .trend-acts { display: flex; gap: 0.35rem; margin-top: 0.55rem; }
+  .trend-b {
+    flex: 1; background: none; cursor: pointer;
+    border: 1px solid var(--skin); color: var(--skin);
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    padding: 0.3rem 0.2rem; line-height: 1.2;
+  }
+  .trend-b:hover { background: var(--skin); color: var(--paper); }
+  .trend-b.override { border-color: var(--ink-3); color: var(--ink-3); }
+  .trend-b.override:hover { background: var(--ink-3); color: var(--paper); }
+  .trend-logged {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem;
+    letter-spacing: 0.04em; color: var(--ink-3); margin-top: 0.55rem;
+  }
+  .trend-logged strong { color: var(--ink-2); text-transform: uppercase; }
+
+  /* F6 Save / Discard — the only write in the app */
+  .dish-sec.f6 { border-top: 1px solid var(--line); padding-top: 0.9rem; }
+  .f6-acts { display: flex; gap: 0.4rem; }
+  .f6-b {
+    flex: 1; cursor: pointer; padding: 0.42rem 0.3rem; line-height: 1.2;
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.62rem;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    border: 1px solid var(--ink); background: var(--ink); color: var(--paper);
+  }
+  .f6-b.discard { background: none; color: var(--ink-2); border-color: var(--line); }
+  .f6-b.save:hover { background: var(--ink-2); border-color: var(--ink-2); }
+  .f6-b.discard:hover { border-color: var(--ink-3); color: var(--ink); }
+  .f6-b:disabled { opacity: 0.5; cursor: default; }
+  .f6-b:disabled:hover { background: var(--ink); border-color: var(--ink); }
+  .f6-b.discard:disabled:hover { background: none; border-color: var(--line); }
+  .f6-note {
+    font-size: 0.72rem; color: var(--ink-3); line-height: 1.45; margin-top: 0.5rem;
+  }
+  .f6-note.ok { color: var(--sage); }
+  .f6-note.err { color: var(--skin); }
+  .f6-hint {
+    display: block; margin-top: 0.25rem;
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.58rem;
+    letter-spacing: 0.03em; color: var(--ink-3);
+  }
+
   /* ---------- RIGHT: provocation surface ---------- */
   .surface { overflow-y: auto; padding: 1.25rem 1.5rem 4rem; }
   .chefline {
@@ -190,6 +252,7 @@
   .tab-c { --tc: var(--skin); }
   .tab-t { --tc: var(--sage); }
   .tab-o { --tc: var(--plum); }
+  .tab-a { --tc: var(--ink); }
 
   .pane { display: none; }
   .pane.on { display: block; animation: fade 0.3s ease; }
@@ -226,7 +289,72 @@
   .pane-t { --ac: var(--sage); }
   .pane-o { --ac: var(--plum); }
   .pane-f { --ac: var(--ink-2); }
+  .pane-a { --ac: var(--ink); }
   .tab-f { --tc: var(--ink-2); }
+
+  /* ---------- Association Engine (D1 + D2) ----------
+     Convergence is rendered as a count of lenses, never as a score. There is
+     deliberately no visual hierarchy between the three lens tags. */
+  .assoc-ctx {
+    background: var(--paper-2); border-left: 3px solid var(--ink-3);
+    padding: 0.65rem 0.85rem; margin-bottom: 1.3rem;
+    font-size: 0.85rem; color: var(--ink-2); line-height: 1.5;
+  }
+  .assoc-ctx .ac-lbl {
+    display: block; font-family: 'IBM Plex Mono', monospace; font-size: 0.56rem;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3);
+    margin-bottom: 0.3rem;
+  }
+  .assoc-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.7rem;
+  }
+  .assoc-hit {
+    border: 1px solid var(--line); background: var(--card);
+    padding: 0.55rem 0.6rem; display: flex; flex-direction: column; gap: 0.35rem;
+    align-items: flex-start;
+  }
+  .assoc-hit.engaged { border-color: var(--ink-3); background: #fff; }
+  .assoc-lenses { display: inline-flex; flex-wrap: wrap; gap: 0.25rem; }
+  .assoc-l {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.52rem;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    padding: 0.12rem 0.35rem; border-radius: 2px; white-space: nowrap;
+    border: 1px solid currentColor;
+  }
+  .assoc-l.l-c { color: var(--skin); }
+  .assoc-l.l-t { color: var(--sage); }
+  .assoc-l.l-o { color: var(--plum); }
+  .assoc-why {
+    font-size: 0.68rem; color: var(--ink-3); line-height: 1.35;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .assoc-more {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem;
+    letter-spacing: 0.04em; color: var(--ink-3); margin-top: 0.5rem;
+  }
+  .assoc-dis {
+    border-left: 2px solid var(--ink-3); padding: 0.15rem 0 0.15rem 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .assoc-dis .ad-theme {
+    display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem;
+    letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2);
+  }
+  .assoc-dis .ad-sum {
+    font-size: 0.84rem; color: var(--ink-2); line-height: 1.5;
+    margin: 0.35rem 0 0.45rem; max-width: 66ch;
+  }
+  .assoc-dis .ad-row {
+    display: grid; grid-template-columns: 92px 1fr; gap: 0.5rem;
+    font-size: 0.74rem; color: var(--ink-3); margin-bottom: 0.2rem;
+  }
+  .assoc-dis .ad-lens {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.56rem;
+    letter-spacing: 0.06em; text-transform: uppercase; padding-top: 0.15rem;
+  }
 
   .g-section {
     font-family:'Fraunces',serif; font-size:1.1rem; font-weight:600;

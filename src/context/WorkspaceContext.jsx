@@ -1,6 +1,8 @@
-import { createContext, useCallback, useContext, useMemo, useState } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import { COLORS, FRAMES, OVERLAYS, PROP_LABELS, modesFor } from '../data/domain.js'
-import { computeBalance, phaseOf } from '../lib/balance.js'
+import { BALANCE_DECISIONS, computeBalance, phaseOf } from '../lib/balance.js'
+import { localUserId } from '../lib/user.js'
+import * as api from '../api.js'
 import {
   buildWriteUp,
   directions,
@@ -21,6 +23,12 @@ export function WorkspaceProvider({ children }) {
   const [openWhy, setOpenWhy] = useState(() => new Set())
   const [scopeMenuOpen, setScopeMenuOpen] = useState(false)
   const [chat, setChat] = useState([])
+  /* E5 — working balance decisions. Session only: this never leaves memory.
+     Palate Memory (POST /palate) is written by F6 Save and nothing else. */
+  const [balanceDecisions, setBalanceDecisions] = useState([])
+  /* F6 — the one place this app writes to Postgres. */
+  const [saveState, setSaveState] = useState({ status: 'idle', signature: null, error: null })
+  const [kept, setKept] = useState({ loading: true, rows: [], error: null })
 
   const balance = useMemo(() => computeBalance(dish, form), [dish, form])
   const phase = useMemo(() => phaseOf(dish), [dish])
@@ -81,6 +89,112 @@ export function WorkspaceProvider({ children }) {
       return next
     })
   }, [])
+
+  /**
+   * E5 — record what the chef did with the active balance flag.
+   *
+   * Appends to session state and returns the entry. It deliberately calls no
+   * API: acknowledging a trend is a working note, not a kept dish. Anything
+   * that should survive the session goes through F6 Save → POST /palate.
+   */
+  const recordBalanceDecision = useCallback(
+    (decision, trend = balance.primaryTrend) => {
+      if (!trend || !BALANCE_DECISIONS.includes(decision)) return null
+      const entry = {
+        axis: trend.axis,
+        pair: trend.pair,
+        decision,
+        share: trend.share,
+        at: new Date().toISOString(),
+        dishSnapshot: dish.map((d) => d.name),
+      }
+      setBalanceDecisions((log) => [...log, entry])
+      return entry
+    },
+    [balance, dish]
+  )
+
+  /* The latest decision covering this trend on the dish as it stands now.
+     Change the dish and the flag comes back — the chef is answering about a
+     different plate. */
+  const balanceDecisionFor = useCallback(
+    (trend) => {
+      if (!trend) return null
+      const key = dish.map((d) => d.name).join('|')
+      for (let i = balanceDecisions.length - 1; i >= 0; i -= 1) {
+        const e = balanceDecisions[i]
+        if (e.axis === trend.axis && e.dishSnapshot.join('|') === key) return e
+      }
+      return null
+    },
+    [balanceDecisions, dish]
+  )
+
+  /* F6 — identity of the exact plate in front of the chef. Save is answered
+     against this, so editing anything re-arms the button rather than leaving a
+     stale "saved" badge over a dish that has since changed. */
+  const dishSignature = useMemo(
+    () =>
+      JSON.stringify({
+        d: dish.map((x) => `${x.name}:${x.mode || ''}`),
+        f: form?.name || null,
+        s: cuisineScope?.keys?.join(',') || null,
+      }),
+    [cuisineScope, dish, form]
+  )
+  const savedNow = saveState.status === 'saved' && saveState.signature === dishSignature
+  const discardedNow = saveState.status === 'discarded' && saveState.signature === dishSignature
+
+  const refreshKept = useCallback(async () => {
+    try {
+      const res = await api.listPalate(localUserId(), 50)
+      setKept({ loading: false, rows: res.results || [], error: null })
+    } catch (err) {
+      setKept({ loading: false, rows: [], error: err?.message || String(err) })
+    }
+  }, [])
+
+  useEffect(() => {
+    refreshKept()
+  }, [refreshKept])
+
+  /**
+   * F6 Save — the only thing in this app that writes to Postgres.
+   *
+   * Commits a snapshot of the plate: ingredients, their forms, the frame and the
+   * cuisine scope. Balance decisions (E5) are deliberately NOT sent — they are
+   * working notes, and persisting them is out of scope for that board.
+   */
+  const saveDish = useCallback(async () => {
+    if (!dish.length) return null
+    setSaveState({ status: 'saving', signature: dishSignature, error: null })
+    try {
+      const row = await api.savePalate({
+        user_id: localUserId(),
+        dish: dish.map((d) => ({ name: d.name, lens: d.lens, mode: d.mode })),
+        form: form ? { name: form.name, desc: form.desc } : null,
+        cuisine_scope: cuisineScope
+          ? { label: cuisineScope.label, keys: cuisineScope.keys }
+          : null,
+        source: 'f6',
+      })
+      setSaveState({ status: 'saved', signature: dishSignature, error: null, id: row?.id })
+      refreshKept()
+      return row
+    } catch (err) {
+      setSaveState({
+        status: 'error',
+        signature: dishSignature,
+        error: err?.message || String(err),
+      })
+      return null
+    }
+  }, [cuisineScope, dish, dishSignature, form, refreshKept])
+
+  /** F6 Discard — deliberately no write, mirroring `PalateStore.discard()`. */
+  const discardDish = useCallback(() => {
+    setSaveState({ status: 'discarded', signature: dishSignature, error: null })
+  }, [dishSignature])
 
   const commitForm = useCallback((name, desc) => {
     setForm((f) => (f && f.name === name ? null : { name, desc }))
@@ -333,6 +447,16 @@ export function WorkspaceProvider({ children }) {
     setScopeMenuOpen,
     chat,
     balance,
+    balanceDecisions,
+    recordBalanceDecision,
+    balanceDecisionFor,
+    saveDish,
+    discardDish,
+    saveState,
+    savedNow,
+    discardedNow,
+    kept,
+    refreshKept,
     phase,
     colors: COLORS,
     regionPicks: REGION_PICKS,

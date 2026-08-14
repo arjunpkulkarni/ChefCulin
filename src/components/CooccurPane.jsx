@@ -2,25 +2,9 @@ import { useEffect, useState } from 'react'
 import { COOCCUR_STAGED } from '../data/cooccurStaged.js'
 import { useWorkspace } from '../context/WorkspaceContext.jsx'
 import * as api from '../api.js'
+import { HUBS } from '../lib/associationEngine.js'
 import Chip from './Chip.jsx'
 import ChipGroup from './ChipGroup.jsx'
-
-const HUBS = new Set([
-  'salt',
-  'butter',
-  'sugar',
-  'water',
-  'pepper',
-  'black pepper',
-  'oil',
-  'olive oil',
-  'vegetable oil',
-  'flour',
-  'egg',
-  'eggs',
-  'onion',
-  'garlic',
-])
 
 export default function CooccurPane() {
   const { dish, cuisineScope } = useWorkspace()

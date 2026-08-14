@@ -3,6 +3,14 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  test: {
+    environment: 'jsdom',
+    include: ['src/**/*.test.{js,jsx}'],
+    /* Unit tests mock or inject their API client, so this only affects the
+       live integration test — which points src/api.js at the local backend and
+       skips itself when nothing is listening there. */
+    env: { VITE_API_BASE: process.env.CULIN_API || 'http://127.0.0.1:8000' },
+  },
   server: {
     port: 5173,
     open: true,
