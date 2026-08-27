@@ -6,14 +6,20 @@
   "description": "CulinAI Workspace — a static, client-side prototype scaffolded on Vite + React.",
   "scripts": {
     "dev": "vite",
+    "api": "cd pipeline && .venv/bin/python -m culin_etl.serve --port 8001",
+    "build:compound": "cd pipeline && .venv/bin/python scripts/build_compound_artifacts.py",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:agent": "vitest run src/lib/agentOptions.test.js src/lib/runAgent.test.js src/lib/matchRecipeNlg.test.js",
+    "test:agent:live": "vitest run src/lib/agentOptions.live.test.js",
+    "test:demo": "vitest run src/demo src/components src/data/ingredients.test.js src/lib/plateSeed.test.js src/lib/agentOptions.test.js src/lib/matchRecipeNlg.test.js src/lib/traditionDb.test.js"
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "sql.js": "^1.14.2"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.1",

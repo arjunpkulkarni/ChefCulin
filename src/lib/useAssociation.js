@@ -8,7 +8,7 @@ import { associate } from './associationEngine.js'
  * Cancels in flight so a slow response for an old dish cannot overwrite a fast
  * one for the current dish.
  */
-export function useAssociation(dish, form, cuisineScope, options = {}) {
+export function useAssociation(dish, form, cuisineScope, focusIngredient, options = {}) {
   const { debounceMs = 120, api } = options
   const [state, setState] = useState({ loading: true, data: null, error: null })
 
@@ -16,7 +16,7 @@ export function useAssociation(dish, form, cuisineScope, options = {}) {
     let cancelled = false
     setState((s) => ({ ...s, loading: true }))
     const timer = setTimeout(() => {
-      associate({ dish, form, cuisineScope }, { api })
+      associate({ dish, form, cuisineScope, focusIngredient }, { api })
         .then((data) => {
           if (!cancelled) setState({ loading: false, data, error: null })
         })
@@ -28,7 +28,7 @@ export function useAssociation(dish, form, cuisineScope, options = {}) {
       cancelled = true
       clearTimeout(timer)
     }
-  }, [dish, form, cuisineScope, debounceMs, api])
+  }, [dish, form, cuisineScope, focusIngredient, debounceMs, api])
 
   return state
 }

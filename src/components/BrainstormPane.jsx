@@ -22,7 +22,7 @@ export default function BrainstormPane() {
       <p className="pane-intro">
         A working conversation about what to <em>do</em> with what you&apos;ve gathered. The
         system never chooses your ingredients — you did that. Arranging them is craft, and craft
-        can be assisted.
+        can be assisted. Replies go through the OpenAI proxy on the API server.
       </p>
       <div className="chatlog" ref={logRef}>
         {!chat.length ? (

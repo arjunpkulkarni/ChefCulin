@@ -3,29 +3,87 @@ import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-li
 import { WorkspaceProvider, useWorkspace } from '../context/WorkspaceContext.jsx'
 import AssociationPanel from './AssociationPanel.jsx'
 
-/* The engine reaches the corpus through src/api.js. Every palate helper is
-   mocked too, so the test can assert the panel never writes. */
 const api = vi.hoisted(() => ({
   cooccur: vi.fn(async (seed) => ({
     canonical: seed,
     results: [
-      { ingredient: 'juniper', confidence: 0.81, freq: 900 },
+      { ingredient: 'Garlic', confidence: 0.81, freq: 900 },
       { ingredient: 'salt', confidence: 0.79, freq: 880 },
       { ingredient: 'pear', confidence: 0.52, freq: 400 },
     ],
   })),
   techniques: vi.fn(async () => ({ results: [] })),
+  compound: vi.fn(async (seed) => ({
+    canonical: seed,
+    results: [
+      { ingredient: 'garlic', display: 'Garlic', weight: 50, confidence: 0.81 },
+      { ingredient: 'miso', display: 'Miso', weight: 40, confidence: 0.6 },
+      { ingredient: 'pear', display: 'Pear', weight: 30, confidence: 0.52 },
+    ],
+  })),
   health: vi.fn(async () => ({})),
   savePalate: vi.fn(),
   listPalate: vi.fn(),
 }))
 vi.mock('../api.js', () => api)
 
+vi.mock('../lib/traditionDb.js', () => ({
+  getTraditionAssociation: vi.fn(async (seed, opts = {}) => ({
+    seed,
+    candidates: [
+      {
+        name: 'Garlic',
+        lens: 'tradition',
+        reason: 'thread',
+        meta: { inScope: opts.cuisineScope ? true : null, engaged: false, hits: 0 },
+      },
+      {
+        name: 'Miso',
+        lens: 'tradition',
+        reason: 'thread',
+        meta: { inScope: opts.cuisineScope ? true : null, engaged: false, hits: 0 },
+      },
+      {
+        name: 'hoisin',
+        lens: 'tradition',
+        reason: 'Beijing',
+        meta: { inScope: opts.cuisineScope ? true : null, engaged: false, hits: 0 },
+      },
+      {
+        name: 'ancho chile',
+        lens: 'tradition',
+        reason: 'Mexico',
+        meta: { inScope: opts.cuisineScope ? false : null, engaged: false, hits: 0 },
+      },
+    ],
+    threads: [
+      { title: 'China thread', thread: 'China', inScope: opts.cuisineScope ? true : null, engaged: false, hits: [] },
+      { title: 'Mexico thread', thread: 'Mexico', inScope: opts.cuisineScope ? false : null, engaged: false, hits: [] },
+    ],
+  })),
+  _resetDbForTests: vi.fn(),
+}))
+
+vi.mock('../lib/matchRecipeNlg.js', () => ({
+  matchRecipeNlg: vi.fn(async (name) => ({
+    canonical: String(name || 'chicken')
+      .toLowerCase()
+      .replace(/\s+/g, ' ')
+      .trim() || 'chicken',
+    source: 'test',
+  })),
+  heuristicRecipeNlg: (name) =>
+    String(name || 'chicken')
+      .toLowerCase()
+      .replace(/\s+/g, ' ')
+      .trim() || 'chicken',
+}))
+
 function Harness() {
   const ws = useWorkspace()
   return (
     <>
-      <button type="button" onClick={() => ws.addIngredient('rosemary', 'compound')}>
+      <button type="button" onClick={() => ws.addIngredient('Rosemary', 'compound')}>
         add rosemary
       </button>
       <button type="button" onClick={() => ws.lockCuisine('china', 'China')}>
@@ -47,8 +105,6 @@ const renderPanel = () =>
 const convergenceGroup = () =>
   screen.getByText(/Where the lenses converge/).closest('.group')
 
-/** The count badge on the Tradition-alone section — the full list length,
-    independent of how many chips the panel chooses to render. */
 const traditionAloneCount = () =>
   screen.getByText(/Tradition alone/).closest('.group').querySelector('.posture').textContent
 
@@ -63,23 +119,19 @@ describe('D1 — surfacing UI', () => {
     renderPanel()
     await waitFor(() => expect(api.cooccur).toHaveBeenCalled())
     expect(await screen.findByText(/Three lenses answering/)).toBeTruthy()
-
-    // the corpus is asked through the existing artifact API, seeded like the pane
-    expect(api.cooccur).toHaveBeenCalledWith('duck', 24)
+    expect(api.cooccur).toHaveBeenCalledWith('chicken', 24)
   })
 
   it('shows multi-lens agreement distinctly from single-lens items', async () => {
     renderPanel()
     const group = await waitFor(convergenceGroup)
 
-    // juniper: compound + tradition + corpus
-    const hit = within(group).getByText('juniper').closest('.assoc-hit')
+    const hit = within(group).getByText('Garlic').closest('.assoc-hit')
     expect(hit).not.toBeNull()
     expect(within(hit).getByText('Compound')).toBeTruthy()
     expect(within(hit).getByText('Tradition')).toBeTruthy()
     expect(within(hit).getByText('Corpus')).toBeTruthy()
 
-    // pear is corpus-only: it lives in its own section, not in convergence
     expect(within(group).queryByText('pear')).toBeNull()
     const corpusAlone = screen.getByText(/Corpus alone/).closest('.group')
     expect(within(corpusAlone).getByText('pear')).toBeTruthy()
@@ -95,9 +147,8 @@ describe('D1 — surfacing UI', () => {
     renderPanel()
     const group = await waitFor(convergenceGroup)
 
-    fireEvent.click(within(group).getByText('juniper'))
-    // primaryLens is first in LENSES order — compound, one of the three lenses
-    expect(screen.getByTestId('dish').textContent).toBe('juniper:compound')
+    fireEvent.click(within(group).getByText('Garlic'))
+    expect(screen.getByTestId('dish').textContent).toBe('Garlic:compound')
   })
 })
 
@@ -111,7 +162,6 @@ describe('D2 — disagreement is visible, not silent', () => {
     expect(await screen.findByText(/scope vs thread/)).toBeTruthy()
     expect(screen.getByText(/flags, it never filters/)).toBeTruthy()
 
-    // the tradition list is exactly as long as it was: a scope flags, it never filters
     expect(traditionAloneCount()).toBe(before)
     expect(Number(before)).toBeGreaterThan(0)
   })
@@ -122,8 +172,7 @@ describe('D2 — disagreement is visible, not silent', () => {
 
     expect(await screen.findByText(/Two lenses answering/)).toBeTruthy()
     expect(screen.getByText(/corpus unavailable/)).toBeTruthy()
-    // chemistry and tradition still merged
-    expect(within(convergenceGroup()).getByText('miso')).toBeTruthy()
+    expect(within(convergenceGroup()).getByText('Miso')).toBeTruthy()
   })
 })
 
@@ -133,11 +182,10 @@ describe('the panel writes nothing', () => {
     const group = await waitFor(convergenceGroup)
     const readsBefore = api.listPalate.mock.calls.length
 
-    fireEvent.click(within(group).getByText('juniper'))
+    fireEvent.click(within(group).getByText('Garlic'))
     fireEvent.click(screen.getByRole('button', { name: 'lock china' }))
 
     expect(api.savePalate).not.toHaveBeenCalled()
-    // the mount read is the provider's kept list; the panel adds no read of its own
     expect(api.listPalate.mock.calls.length).toBe(readsBefore)
   })
 })

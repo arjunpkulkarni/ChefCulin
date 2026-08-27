@@ -1,5 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
-import { COLORS, FRAMES, OVERLAYS, PROP_LABELS, modesFor } from '../data/domain.js'
+import { COLORS, FRAMES, OVERLAYS, PROP_LABELS, modesFor, DEFAULT_FOCUS, INGREDIENT_LIST, anchorFor } from '../data/domain.js'
+import { formsForIngredient } from '../data/formCards.js'
 import { BALANCE_DECISIONS, computeBalance, phaseOf } from '../lib/balance.js'
 import { localUserId } from '../lib/user.js'
 import * as api from '../api.js'
@@ -10,13 +11,20 @@ import {
   matchRegion,
   observations,
 } from '../lib/chat.js'
+import { runChat } from '../lib/runAgent.js'
 import { REGION_PICKS } from '../data/domain.js'
+
+const BRAINSTORM_SYSTEM = `You are CulinAI, a working culinary collaborator in a chef's dish workspace.
+You help arrange and think about ingredients the chef has already gathered. You never invent a shopping list or choose ingredients for them unless they explicitly ask you to brainstorm possibilities — and even then, frame them as options, not decisions.
+Be concise, concrete, and honest. Prefer short paragraphs. If the dish is empty, say so and invite them to gather from the lenses first.
+Current plate context is provided in the latest user turn when available.`
 
 const WorkspaceContext = createContext(null)
 
 export function WorkspaceProvider({ children }) {
   const [dish, setDish] = useState([])
   const [form, setForm] = useState(null)
+  const [focusIngredient, setFocusIngredient] = useState(DEFAULT_FOCUS)
   const [cuisineScope, setCuisineScope] = useState(null)
   const [activeLens, setActiveLens] = useState('c')
   const [openIdx, setOpenIdx] = useState(null)
@@ -30,7 +38,8 @@ export function WorkspaceProvider({ children }) {
   const [saveState, setSaveState] = useState({ status: 'idle', signature: null, error: null })
   const [kept, setKept] = useState({ loading: true, rows: [], error: null })
 
-  const balance = useMemo(() => computeBalance(dish, form), [dish, form])
+  const anchor = useMemo(() => anchorFor(focusIngredient), [focusIngredient])
+  const balance = useMemo(() => computeBalance(dish, form, anchor), [dish, form, anchor])
   const phase = useMemo(() => phaseOf(dish), [dish])
 
   const push = useCallback((who, content) => {
@@ -139,8 +148,9 @@ export function WorkspaceProvider({ children }) {
         d: dish.map((x) => `${x.name}:${x.mode || ''}`),
         f: form?.name || null,
         s: cuisineScope?.keys?.join(',') || null,
+        focus: focusIngredient,
       }),
-    [cuisineScope, dish, form]
+    [cuisineScope, dish, form, focusIngredient]
   )
   const savedNow = saveState.status === 'saved' && saveState.signature === dishSignature
   const discardedNow = saveState.status === 'discarded' && saveState.signature === dishSignature
@@ -201,6 +211,12 @@ export function WorkspaceProvider({ children }) {
   }, [])
 
   const clearForm = useCallback(() => setForm(null), [])
+
+  useEffect(() => {
+    if (!form) return
+    const allowed = formsForIngredient(focusIngredient).some((c) => c.name === form.name)
+    if (!allowed) setForm(null)
+  }, [focusIngredient, form])
 
   const lockCuisine = useCallback((key, label) => {
     const keys = key.split(',')
@@ -298,7 +314,7 @@ export function WorkspaceProvider({ children }) {
           blocks: [
             {
               type: 'p',
-              text: `Set the form to ${frameMatch} — you can see it under the Form tab, and change your mind any time by clicking it again. Ingredients still gather however you like; this just answers "what state of duck," not "what's in it."`,
+              text: `Set the form to ${frameMatch} — you can see it under the Form tab, and change your mind any time by clicking it again. Ingredients still gather however you like; this just answers what state ${focusIngredient} is in, not what's in the dish.`,
             },
           ],
         })
@@ -319,7 +335,7 @@ export function WorkspaceProvider({ children }) {
       }
 
       if (/suggest|direction|idea|what could|options|not sure|help me/.test(q)) {
-        const D = directions(dish)
+        const D = directions(dish, anchor)
         if (!D) {
           push('sys', {
             type: 'blocks',
@@ -348,7 +364,7 @@ export function WorkspaceProvider({ children }) {
       }
 
       if (/missing|lacking|need|gap|absent/.test(q)) {
-        const o = observations(dish).filter((x) =>
+        const o = observations(dish, anchor).filter((x) =>
           /Nothing here catches|There is no reset|No textural/.test(x)
         )
         if (!o.length) {
@@ -374,11 +390,11 @@ export function WorkspaceProvider({ children }) {
       }
 
       if (/write|recipe|outline|summar|describe|done|finish/.test(q)) {
-        push('sys', { type: 'writeup', ...buildWriteUp(dish, form) })
+        push('sys', { type: 'writeup', ...buildWriteUp(dish, form, anchor) })
         return
       }
 
-      const o = observations(dish)
+      const o = observations(dish, anchor)
       if (!o.length) {
         push('sys', {
           type: 'blocks',
@@ -402,7 +418,7 @@ export function WorkspaceProvider({ children }) {
         ],
       })
     },
-    [commitForm, dish, form, lockCuisine, lockCuisineFromInput, push]
+    [commitForm, dish, form, focusIngredient, anchor, lockCuisine, lockCuisineFromInput, push]
   )
 
   const sendChat = useCallback(
@@ -410,9 +426,62 @@ export function WorkspaceProvider({ children }) {
       const text = (txt || '').trim()
       if (!text) return
       push('me', { type: 'text', text })
-      setTimeout(() => respond(text), 320)
+
+      /* Local command path (scope lock / empty-frame shortcuts) — sync. */
+      const q = text.toLowerCase()
+      const scopeCmd = q.match(/^(?:lock|cuisine scope|scope)\s*(?:to|:)?\s+(.+)/)
+      const frameMatch = matchFrame(q)
+      if (scopeCmd || (frameMatch && dish.length === 0)) {
+        setTimeout(() => respond(text), 200)
+        return
+      }
+
+      /* Default: OpenAI via backend proxy. Falls back to local respond on failure. */
+      const history = []
+      /* Include prior turns; current user message is appended separately below. */
+      for (const m of chat) {
+        const role = m.who === 'me' ? 'user' : 'assistant'
+        const content =
+          m.content?.type === 'text'
+            ? m.content.text
+            : m.content?.type === 'blocks'
+              ? (m.content.blocks || []).map((b) => b.text).filter(Boolean).join('\n')
+              : null
+        if (content) history.push({ role, content })
+      }
+
+      const plate = dish.length
+        ? `Designing around ${focusIngredient}. Plate right now: ${dish
+            .map((d) => (d.mode ? `${d.name} (${d.mode})` : d.name))
+            .join(', ')}${form ? `. Form: ${form.name}` : ''}${
+            cuisineScope ? `. Cuisine scope: ${cuisineScope.label}` : ''
+          }.`
+        : `Designing around ${focusIngredient}. Plate is empty — nothing gathered yet.`
+
+      ;(async () => {
+        try {
+          const reply = await runChat({
+            system: BRAINSTORM_SYSTEM,
+            messages: [
+              ...history,
+              { role: 'user', content: `${plate}\n\nChef: ${text}` },
+            ],
+          })
+          push('sys', { type: 'text', text: reply })
+        } catch (err) {
+          push('sys', {
+            type: 'blocks',
+            blocks: [
+              {
+                type: 'p',
+                text: `LLM unavailable (${err?.message || err}). Set OPENAI_API_KEY on the API server and restart culin_etl.serve.`,
+              },
+            ],
+          })
+        }
+      })()
     },
-    [push, respond]
+    [chat, cuisineScope, dish, focusIngredient, form, push, respond]
   )
 
   const tensionFor = useCallback(
@@ -438,6 +507,10 @@ export function WorkspaceProvider({ children }) {
   const value = {
     dish,
     form,
+    focusIngredient,
+    setFocusIngredient,
+    ingredientList: INGREDIENT_LIST,
+    anchor,
     cuisineScope,
     activeLens,
     setActiveLens,

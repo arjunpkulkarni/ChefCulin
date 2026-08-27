@@ -1,29 +1,24 @@
-import { FORM_CARDS } from '../data/formCards.js'
+import { formsForIngredient } from '../data/formCards.js'
 import { useWorkspace } from '../context/WorkspaceContext.jsx'
 
 export default function FormPane() {
-  const { form, commitForm } = useWorkspace()
-  const primary = FORM_CARDS.slice(0, 5)
-  const redMeat = FORM_CARDS.slice(5)
+  const { form, commitForm, focusIngredient } = useWorkspace()
+  const cards = formsForIngredient(focusIngredient)
 
   return (
     <section className="pane pane-f on">
       <p className="pane-intro">
-        Across documented threads, duck has been made into very different things. These
-        aren&apos;t options to pick from — they&apos;re states cooks have arrived at. Commit
-        to one if it clarifies the dish.
+        Preparation states that fit {focusIngredient}
+        {cards[0] ? ` — ${cards.length} process frames for this kind of ingredient` : ''}. Commit
+        to one if it clarifies the plate.
       </p>
-      {primary.map((f) => (
+      {cards.map((f) => (
         <FrameCard key={f.name} card={f} active={form?.name === f.name} onCommit={commitForm} />
       ))}
-      <div className="g-section">If duck is red meat…</div>
-      <p className="pane-intro">
-        The magret insight isn&apos;t just about searing. Once the bird is treated as red meat
-        rather than poultry, the whole butchery-and-charcuterie repertoire opens.
-      </p>
-      {redMeat.map((f) => (
-        <FrameCard key={f.name} card={f} active={form?.name === f.name} onCommit={commitForm} />
-      ))}
+      <div className="closer">
+        Form answers state and process for this ingredient family. Ingredients still gather from
+        the other lenses.
+      </div>
     </section>
   )
 }

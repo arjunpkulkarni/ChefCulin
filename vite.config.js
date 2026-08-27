@@ -9,15 +9,14 @@ export default defineConfig({
     /* Unit tests mock or inject their API client, so this only affects the
        live integration test — which points src/api.js at the local backend and
        skips itself when nothing is listening there. */
-    env: { VITE_API_BASE: process.env.CULIN_API || 'http://127.0.0.1:8000' },
+    env: { VITE_API_BASE: process.env.CULIN_API || 'http://127.0.0.1:8001' },
   },
   server: {
     port: 5173,
     open: true,
     proxy: {
-      // Frontend calls /api/... → FastAPI on :8000
       '/api': {
-        target: 'http://127.0.0.1:8000',
+        target: 'http://127.0.0.1:8001',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },

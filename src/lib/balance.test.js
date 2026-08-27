@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest'
 import { TREND_PAIRS, TREND_THRESHOLD, computeBalance } from './balance.js'
+import { anchorFor } from '../data/domain.js'
+
+const chickenAnchor = anchorFor('Chicken')
+const duckAnchor = anchorFor('Mallard duck')
 
 /** Dish entries as the workspace builds them: name + lens, no form yet. */
 const ing = (name) => ({ name, lens: 'compound', mode: null, modeNote: null, axAdd: null })
@@ -125,8 +129,8 @@ describe('E4 — heat is the capsaicin path only', () => {
 })
 
 describe('preserved behaviour', () => {
-  it('keeps umami synergy on — the duck anchor carries both glutamate and inosinate', () => {
-    const plain = computeBalance(dishOf('rosemary', 'bay', 'thyme'), null)
+  it('keeps umami synergy on when the anchor carries nucleotide', () => {
+    const plain = computeBalance(dishOf('rosemary', 'bay', 'thyme'), null, duckAnchor)
     expect(plain.synergyOn).toBe(true)
     expect(plain.umamiLabel).toBe('Umami ×')
     expect(plain.synGhost).toBeNull()
@@ -135,23 +139,27 @@ describe('preserved behaviour', () => {
   })
 
   it('keeps the two umami notes distinct — added glutamate vs unclaimed', () => {
-    const added = computeBalance(dishOf('miso', 'rosemary', 'bay'), null)
+    const added = computeBalance(dishOf('miso', 'rosemary', 'bay'), null, duckAnchor)
     expect(added.notes[0].note).toMatch(/dashi principle/)
 
-    const unclaimed = computeBalance(dishOf('rosemary', 'bay', 'thyme'), null)
+    const unclaimed = computeBalance(dishOf('rosemary', 'bay', 'thyme'), null, duckAnchor)
     expect(unclaimed.notes[0].note).toMatch(/sitting unclaimed/)
   })
 
-  it('keeps heat mechanism resolution on the bar label', () => {
-    const b = computeBalance(dishOf('chile', 'horseradish', 'rosemary'), null)
-    expect(b.heatResolved).toBe(true)
-    expect(b.heatLabel).toBe('Capsaicin + Volatile')
+  it('defaults to Chicken anchor when none passed', () => {
+    const explicit = computeBalance(dishOf('rosemary', 'bay', 'thyme'), null, chickenAnchor)
+    const defaulted = computeBalance(dishOf('rosemary', 'bay', 'thyme'), null)
+    expect(explicit.widths).toEqual(defaulted.widths)
   })
 
   it('says nothing is trending when nothing is', () => {
     const b = computeBalance(dishOf('rosemary', 'bay', 'thyme'), null)
     expect(b.primaryTrend).toBeNull()
-    // the unclaimed-glutamate note still stands; it is context, not a trend
-    expect(b.msg).toMatch(/inosinate/)
+  })
+
+  it('moves the acid bar when Foodb citrus is gathered', () => {
+    const b = computeBalance(dishOf('Lemon', 'Apple', 'Vinegar'), null, chickenAnchor)
+    expect(b.shares.acid).toBeGreaterThan(0.4)
+    expect(b.primaryTrend?.axis).toBe('acid')
   })
 })

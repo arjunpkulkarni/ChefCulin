@@ -1,3 +1,5 @@
+import { lookupIngredient } from './ingredients.js'
+
 export const AXES = {
     'rosemary':{}, 'juniper':{}, 'bay':{}, 'bergamot':{}, 'orange peel':{}, 'spruce':{}, 'fir':{},
     'roasted onion':{glut:1,sweet:1}, 'black garlic':{glut:1,sweet:1}, 'miso':{glut:1,salt:1},
@@ -40,7 +42,7 @@ export const AXES = {
 export const COLORS = { compound:'var(--skin)', tradition:'var(--sage)', 'co-occurrence':'var(--plum)' };
 
 export const FRAMES = {
-    'Seared magret':      { produces:['crisp-skin','rendered-fat','intact-roast','rendered-jus'], absent:['dispersed-fat','long-cook','chopped-meat'], overlay:'sear',   fat:0.75 },
+    'Seared':             { produces:['crisp-skin','rendered-fat','intact-roast','rendered-jus'], absent:['dispersed-fat','long-cook','chopped-meat'], overlay:'sear',   fat:0.75 },
     'Crisp-skinned roast':{ produces:['crisp-skin','rendered-fat','intact-roast','rendered-jus'], absent:['dispersed-fat','chopped-meat'],             overlay:'roast',  fat:0.8  },
     /* Confit legs are routinely finished skin-down in a hot pan until crisp. The
        preservation stage and the finishing stage produce different properties —
@@ -53,7 +55,24 @@ export const FRAMES = {
     'Cured':              { produces:['salt-cured','firm','cold','dense'],                        absent:['crisp-skin','rendered-fat','tender'],       overlay:'cure',   fat:0.5  },
     'Smoked':             { produces:['smoke-phenols','rendered-fat'],                            absent:['fresh-crunch'],                             overlay:'smoke',  fat:0.7  },
     'Terrine / rillette': { produces:['fat-medium','cold','dense','tender'],                      absent:['crisp-skin','rendered-jus','intact-roast'], overlay:'terrine',fat:0.9  },
-    'Raw / tartare':      { produces:['cold','chopped-meat','firm'],                              absent:['crisp-skin','rendered-fat','long-cook'],    overlay:'raw',    fat:0.35 }
+    'Raw / tartare':      { produces:['cold','chopped-meat','firm'],                              absent:['crisp-skin','rendered-fat','long-cook'],    overlay:'raw',    fat:0.35 },
+    'Poached':            { produces:['tender','liquid-body'],                                    absent:['crisp-skin','rendered-fat'],                overlay:'broth',  fat:0.35 },
+    'Steamed':            { produces:['tender'],                                                  absent:['crisp-skin','rendered-fat','long-cook'],    overlay:'broth',  fat:0.3  },
+    'Grilled':            { produces:['crisp-skin','rendered-fat','smoke-phenols'],               absent:['dispersed-fat','long-cook'],                overlay:'sear',   fat:0.55 },
+    'Roasted':            { produces:['rendered-fat','intact-roast'],                             absent:['dispersed-fat'],                            overlay:'roast',  fat:0.45 },
+    'Charred':            { produces:['crisp-skin'],                                              absent:['long-cook','liquid-body'],                  overlay:'sear',   fat:0.4  },
+    'Pickled':            { produces:['cold','salt-cured'],                                       absent:['rendered-fat','long-cook'],                 overlay:'cure',   fat:0.2  },
+    'Puréed':             { produces:['dispersed-fat','sauce-medium','soft-carrier'],             absent:['crisp-skin','intact-roast'],                overlay:'ground', fat:0.5  },
+    'Dried':              { produces:['dense','firm'],                                            absent:['rendered-jus','liquid-body'],               overlay:'cure',   fat:0.25 },
+    'Infused':            { produces:['dispersed-fat'],                                           absent:['intact-roast'],                             overlay:'confit', fat:0.6  },
+    'Bloomed in fat':     { produces:['dispersed-fat'],                                           absent:['intact-roast','crisp-skin'],                overlay:'ground', fat:0.7  },
+    'Fresh garnish':      { produces:['fresh-crunch','cold'],                                     absent:['long-cook','rendered-fat'],                 overlay:'raw',    fat:0.2  },
+    'Toasted':            { produces:['rendered-fat'],                                            absent:['liquid-body'],                              overlay:'sear',   fat:0.4  },
+    'Boiled':             { produces:['tender','liquid-body','soft-carrier'],                     absent:['crisp-skin'],                               overlay:'broth',  fat:0.25 },
+    'Melted':             { produces:['dispersed-fat','sauce-medium'],                            absent:['crisp-skin','intact-roast'],                overlay:'terrine',fat:0.85 },
+    'Whipped':            { produces:['cold','dispersed-fat'],                                    absent:['long-cook','crisp-skin'],                   overlay:'terrine',fat:0.7  },
+    'Cultured':           { produces:['cold','sauce-medium'],                                     absent:['crisp-skin','long-cook'],                   overlay:'cure',   fat:0.45 },
+    'Fresh / raw':        { produces:['cold','fresh-crunch','firm'],                              absent:['long-cook','rendered-fat','crisp-skin'],    overlay:'raw',    fat:0.25 },
   };
 
 export const OVERLAYS = {
@@ -77,7 +96,35 @@ export const PROP_LABELS = {
     'rendered-fat':'rendered fat', 'dark-meat':'dark meat'
   };
 
-export const ANCHOR = { name:'duck breast', glut:1, nucl:1, fat:1 };
+export const ANCHOR = { name:'Chicken', glut:0, nucl:1, fat:0.45 };
+
+export { DEFAULT_FOCUS, INGREDIENT_LIST } from './ingredients.js'
+/** Nucleotide / fat baselines keyed by Foodb display names. */
+export const PROTEIN_PROFILES = {
+  Chicken: { nucl: 1, fat: 0.45 },
+  'Mallard duck': { glut: 1, nucl: 1, fat: 1 },
+  'Velvet duck': { glut: 1, nucl: 1, fat: 1 },
+  Turkey: { nucl: 1, fat: 0.4 },
+  'Cattle (Beef, Veal)': { nucl: 1, fat: 0.55 },
+  'Domestic pig': { nucl: 1, fat: 0.6 },
+  'Sheep (Mutton, Lamb)': { nucl: 1, fat: 0.55 },
+  'Domestic goat': { nucl: 1, fat: 0.45 },
+  Bison: { nucl: 1, fat: 0.45 },
+  'European rabbit': { nucl: 1, fat: 0.35 },
+  Rabbit: { nucl: 1, fat: 0.35 },
+}
+
+/** Balance anchor for whatever ingredient the chef is designing around. */
+export function anchorFor(name) {
+  const ax = AXES[String(name || '').toLowerCase()] || {}
+  const protein = PROTEIN_PROFILES[name] || PROTEIN_PROFILES[String(name || '')] || {}
+  return {
+    name: name || 'Chicken',
+    glut: protein.glut ?? ax.glut ?? 0,
+    nucl: protein.nucl ?? ax.nucl ?? 0,
+    fat: protein.fat ?? ax.fat ?? 0.5,
+  }
+}
 
 export const DELIVERY = {
     /* axAdd = what the TRANSFORMATION creates that was not there before.
@@ -240,18 +287,92 @@ export const FRAME_ALIASES = [
     { re:/\bconfit/,                        name:'Confit' },
     { re:/\bbrais/,                         name:'Braise' },
     { re:/\bcrisp|roast/,                   name:'Crisp-skinned roast' },
-    { re:/\bsear|magret/,                   name:'Seared magret' },
+    { re:/\bsear|magret/,                   name:'Seared' },
     { re:/\bcur(e|ed|ing)\b/,               name:'Cured' },
     { re:/\bbroth|soup/,                    name:'Broth system' },
     { re:/\bground|ragu|ragù|minced|sausage/, name:'Ground' },
     { re:/\bsmoke/,                         name:'Smoked' },
     { re:/\bterrine|rillette|pat[eé]/,      name:'Terrine / rillette' },
-    { re:/\braw\b|tartare/,                 name:'Raw / tartare' }
+    { re:/\braw\b|tartare|carpaccio|crudo/, name:'Raw / tartare' }
   ];
 
 export function modesFor(name) {
-  if (DELIVERY[name]) return DELIVERY[name];
-  const cls = ING_CLASS[name];
-  if (cls && CLASS_DELIVERY[cls]) return CLASS_DELIVERY[cls];
-  return null;
+  const key = String(name || '')
+  if (DELIVERY[key]) return DELIVERY[key]
+  const lower = key.toLowerCase()
+  if (DELIVERY[lower]) return DELIVERY[lower]
+  const cls = classForIngredient(key)
+  if (cls && CLASS_DELIVERY[cls]) return CLASS_DELIVERY[cls]
+  return null
+}
+
+const GROUP_AXES = {
+  Fruits: { acid: 1, sweet: 1 },
+  Nuts: { fat: 1 },
+  'Milk and milk products': { fat: 1 },
+  'Cocoa and cocoa products': { fat: 1, sweet: 1 },
+  Confectioneries: { sweet: 1 },
+  Soy: { glut: 1 },
+  'Animal foods': { nucl: 1 },
+  'Aquatic foods': { glut: 1, nucl: 1 },
+}
+
+function axesFromFoodb(name) {
+  const row = lookupIngredient(name)
+  if (!row) return {}
+  const blob = `${row.name} ${row.food_group} ${row.food_subgroup}`.toLowerCase()
+  if (/vinegar/.test(blob)) return { acid: 1 }
+  if (/capsicum|chile|chili pepper|hot pepper/.test(blob)) return { capsaicin: 1 }
+  if (/soy sauce|miso|fish sauce/.test(blob)) return { glut: 1, salt: 1 }
+  if (/citrus|lemon|lime|grapefruit/.test(blob)) return { acid: 1 }
+  if (/onion-family|garlic/.test(blob)) return {}
+  if (row.food_subgroup === 'Herbs') return {}
+  if (row.food_subgroup === 'Spices') return {}
+  return GROUP_AXES[row.food_group] || {}
+}
+
+/** Case-insensitive AXES lookup, then Foodb family fallback so bars move for the 933 list. */
+export function axesFor(name) {
+  const key = String(name || '')
+  const lower = key.toLowerCase()
+  if (AXES[key]) return AXES[key]
+  if (AXES[lower]) return AXES[lower]
+  const toks = lower.replace(/[()]/g, ' ').split(/[\s,/]+/).filter((w) => w.length >= 3)
+  for (const t of toks) {
+    if (AXES[t] && Object.keys(AXES[t]).length) return AXES[t]
+  }
+  let merged = {}
+  for (const [k, v] of Object.entries(AXES)) {
+    if (k.length >= 4 && lower.includes(k) && Object.keys(v).length) merged = { ...merged, ...v }
+  }
+  if (Object.keys(merged).length) return merged
+  return axesFromFoodb(key)
+}
+
+export function classForIngredient(name) {
+  const key = String(name || '')
+  const lower = key.toLowerCase()
+  if (ING_CLASS[key]) return ING_CLASS[key]
+  if (ING_CLASS[lower]) return ING_CLASS[lower]
+  const toks = lower.replace(/[()]/g, ' ').split(/[\s,/]+/)
+  for (const t of toks) {
+    if (ING_CLASS[t]) return ING_CLASS[t]
+  }
+  const row = lookupIngredient(name)
+  if (!row) return null
+  const g = row.food_group || ''
+  const sg = row.food_subgroup || ''
+  if (/onion/i.test(sg) || /garlic/i.test(lower)) return 'allium'
+  if (/vinegar/i.test(lower)) return 'vinegar_acid'
+  if (g === 'Fruits') return 'fruit'
+  if (sg === 'Herbs') return 'herb'
+  if (sg === 'Spices' || /capsicum|chile/i.test(`${lower} ${sg}`)) return 'spice'
+  if (g === 'Herbs and Spices') return sg === 'Herbs' ? 'herb' : 'spice'
+  if (g === 'Vegetables' || g === 'Gourds') return 'veg'
+  if (g === 'Cereals and cereal products' || g === 'Baking goods' || g === 'Pulses') return 'starch'
+  if (g === 'Nuts') return 'spice'
+  if (g === 'Milk and milk products') return 'dairy_fat'
+  if (g === 'Soy') return 'ferment'
+  if (/mushroom|fungi/i.test(`${g} ${sg}`)) return 'fungi'
+  return null
 }

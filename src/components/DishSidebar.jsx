@@ -8,6 +8,7 @@ export default function DishSidebar() {
   const {
     dish,
     form,
+    focusIngredient,
     phase,
     balance,
     balanceDecisionFor,
@@ -36,7 +37,7 @@ export default function DishSidebar() {
   return (
     <aside className="dish">
       <div className="dish-eyebrow">The dish</div>
-      <div className="dish-title">Untitled — duck breast</div>
+      <div className="dish-title">Untitled — {focusIngredient}</div>
 
       <div className={phase.className}>
         <span className="ph-l">{phase.label}</span>

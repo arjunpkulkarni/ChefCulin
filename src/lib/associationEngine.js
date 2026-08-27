@@ -1,7 +1,8 @@
-import { COMPOUND_GROUPS } from '../data/compound.js'
-import { TRADITION_GROUPS } from '../data/tradition.js'
-import { FRAMES, PROP_LABELS } from '../data/domain.js'
+import { FRAMES } from '../data/domain.js'
 import * as defaultApi from '../api.js'
+import * as defaultTraditionDb from './traditionDb.js'
+import { plateSeed } from './plateSeed.js'
+import { heuristicRecipeNlg } from './matchRecipeNlg.js'
 
 /**
  * Association Engine (D1 + D2).
@@ -36,8 +37,7 @@ export const LENS_LABELS = {
 
 /**
  * Corpus hubs — salt, butter, onion — co-occur with everything, so they carry
- * no information about duck specifically. Filtered for display only; the
- * artifact tables still hold them. Shared with CooccurPane.
+ * little information about a specific seed. Filtered for display only.
  */
 export const HUBS = new Set([
   'salt',
@@ -60,94 +60,85 @@ const nameOf = (d) => (typeof d === 'string' ? d : d?.name)
 const dishNames = (dish) => (dish || []).map(nameOf).filter(Boolean)
 
 /**
- * Compound lens.
- *
- * The static groups are duck-anchored: they answer "what register do you want
- * the fat to carry", not "what goes with the last thing you added". So every
- * chip stays a candidate, and the dish decides *emphasis* — a group the chef has
- * already drawn from is `engaged`, and its remaining chips sort first.
+ * Compound lens — flavor-network neighbors ranked by shared volatile compounds.
  */
-export function collectCompound(dish) {
-  const have = new Set(dishNames(dish))
-  const out = []
-  COMPOUND_GROUPS.forEach((group) => {
-    const hits = group.chips.filter((c) => have.has(c))
-    group.chips.forEach((name) => {
-      if (have.has(name)) return
-      out.push({
-        name,
+export async function collectCompound(dish, focusIngredient = 'Chicken', options = {}) {
+  const apiClient = options.api || defaultApi
+  const names = dishNames(dish)
+  const have = new Set(names)
+  const haveLower = new Set([...names].map((n) => n.toLowerCase()))
+  const display = plateSeed(dish, focusIngredient)
+
+  try {
+    const res = await apiClient.compound(display, options.limit || 24)
+    return (res.results || [])
+      .filter(
+        (r) =>
+          !have.has(r.display) &&
+          !have.has(r.ingredient) &&
+          !haveLower.has(String(r.display || '').toLowerCase()) &&
+          !haveLower.has(String(r.ingredient || '').toLowerCase())
+      )
+      .map((r) => ({
+        name: r.display || r.ingredient,
         lens: 'compound',
-        reason: group.title,
+        reason: `shared compounds · ${r.weight}`,
         meta: {
-          group: group.title,
-          posture: group.posture,
-          engaged: hits.length > 0,
-          hits: hits.length,
+          weight: r.weight,
+          confidence: r.confidence,
+          network: r.ingredient,
+          engaged: false,
+          hits: 0,
         },
-      })
-    })
-  })
-  return out.sort((a, b) => b.meta.hits - a.meta.hits)
+      }))
+  } catch {
+    return []
+  }
 }
 
 /**
- * Thread-level view of the Tradition lens: which documented threads the dish is
- * already drawing on, and how each sits against a locked cuisine scope.
- *
- * `inScope` is `null` when no scope is locked. A locked scope **flags, it never
- * filters** — same rule the Tradition pane already follows.
+ * Tradition lens — documented companions from the Tradition SQLite DB.
+ * Injectable `traditionDb` for tests.
  */
-export function traditionThreads(dish, cuisineScope) {
-  const have = new Set(dishNames(dish))
-  return TRADITION_GROUPS.map((group) => {
-    const chips = group.chips
-    const extend = group.extend?.chips || []
-    const keys = group.region ? group.region.split(',') : []
-    const hits = [...chips, ...extend].filter((c) => have.has(c))
-    return {
-      title: group.title,
-      thread: group.thread,
-      region: group.region,
-      regionKeys: keys,
-      inScope: cuisineScope ? keys.some((k) => cuisineScope.keys.includes(k)) : null,
-      engaged: hits.length > 0,
-      hits,
-      requires: group.whyBox?.requires || null,
-      group,
+export async function collectTradition(dish, cuisineScope, options = {}) {
+  const {
+    traditionDb = defaultTraditionDb,
+    focusIngredient = 'Chicken',
+  } = options
+  const names = dishNames(dish)
+  const display = plateSeed(dish, focusIngredient)
+  const have = new Set(names)
+  const seed = heuristicRecipeNlg(display)
+
+  const { candidates, threads } = await traditionDb.getTraditionAssociation(seed, {
+    exclude: names,
+    limit: 16,
+    cuisineScope,
+  })
+
+  const engagedThreads = threads.map((t) => {
+    const hits = candidates.filter((c) => have.has(c.name)).map((c) => c.name)
+    return { ...t, engaged: hits.length > 0, hits }
+  })
+
+  candidates.forEach((c) => {
+    const threadHits = engagedThreads.filter((t) => t.thread === c.meta?.thread)
+    c.meta = {
+      ...c.meta,
+      engaged: threadHits.some((t) => t.engaged),
+      hits: threadHits.reduce((n, t) => n + t.hits.length, 0),
     }
   })
+
+  return {
+    candidates: candidates.sort((a, b) => b.meta.hits - a.meta.hits),
+    threads: engagedThreads,
+  }
 }
 
-/**
- * Tradition lens. Includes `extend` chips — they break the thread but serve the
- * same architecture, and the pane already offers them, so hiding them here
- * would make the merged view narrower than the tab it summarises.
- */
-export function collectTradition(dish, cuisineScope, threads = traditionThreads(dish, cuisineScope)) {
-  const have = new Set(dishNames(dish))
-  const out = []
-  threads.forEach((t) => {
-    const push = (name, isExtend) => {
-      if (have.has(name)) return
-      out.push({
-        name,
-        lens: 'tradition',
-        reason: isExtend ? `${t.thread || t.title} — extends the principle` : t.thread || t.title,
-        meta: {
-          group: t.title,
-          thread: t.thread,
-          region: t.region,
-          inScope: t.inScope,
-          extend: Boolean(isExtend),
-          engaged: t.engaged,
-          hits: t.hits.length,
-        },
-      })
-    }
-    t.group.chips.forEach((n) => push(n, false))
-    ;(t.group.extend?.chips || []).forEach((n) => push(n, true))
-  })
-  return out.sort((a, b) => b.meta.hits - a.meta.hits)
+/** @deprecated static threads removed — returns [] unless threads passed in. */
+export function traditionThreads(_dish, _cuisineScope) {
+  return []
 }
 
 /**
@@ -239,7 +230,7 @@ export function findDisagreements({
   threads = [],
   cuisineScope = null,
   form = null,
-  seed = 'duck',
+  seed = 'chicken',
   cooccurStatus = 'ok',
 } = {}) {
   const out = []
@@ -271,16 +262,16 @@ export function findDisagreements({
       out.push({
         theme: 'scope vs thread',
         lenses: ['tradition'],
-        summary: `Scope is locked to ${cuisineScope.label}. ${outScope.length} documented thread${outScope.length > 1 ? 's fall' : ' falls'} outside it and ${outScope.length > 1 ? 'are' : 'is'} still listed — a scope flags, it never filters. Ingredients from an out-of-scope thread stay one click away.`,
+        summary: `Scope is locked to ${cuisineScope.label}. ${outScope.length} documented thread${outScope.length > 1 ? 's fall' : ' falls'} outside it and ${outScope.length > 1 ? 'are' : 'is'} still listed — a scope flags, it never filters.`,
         candidates: [
           {
             lens: 'tradition',
-            names: inScope.flatMap((t) => t.group.chips).slice(0, 8),
+            names: inScope.map((t) => t.title).slice(0, 8),
             note: 'in scope',
           },
           {
             lens: 'tradition',
-            names: outScope.flatMap((t) => t.group.chips).slice(0, 8),
+            names: outScope.map((t) => t.title).slice(0, 8),
             note: 'outside scope',
           },
         ],
@@ -288,26 +279,7 @@ export function findDisagreements({
     }
   }
 
-  /* Form is context, not a chip source: it can contradict a thread the dish is
-     already drawing on, and that contradiction is worth naming. */
-  const frame = form && FRAMES[form.name]
-  if (frame) {
-    const absent = new Set(frame.absent || [])
-    const clashes = threads.filter(
-      (t) => t.engaged && (t.requires || []).some((r) => absent.has(r))
-    )
-    clashes.forEach((t) => {
-      const missing = (t.requires || [])
-        .filter((r) => absent.has(r))
-        .map((r) => PROP_LABELS[r] || r)
-      out.push({
-        theme: 'form vs thread',
-        lenses: ['tradition'],
-        summary: `You are drawing on ${t.thread || t.title}, but the locked form ${form.name} does not produce ${missing.join(', ')}. Keep the form and adapt the thread, or change the form — both are real answers.`,
-        candidates: [{ lens: 'tradition', names: t.hits, note: t.thread || t.title }],
-      })
-    })
-  }
+  /* Form vs thread disagreements need static thread metadata — skipped for DB threads. */
 
   if (cooccurStatus === 'error') {
     out.push({
@@ -329,24 +301,37 @@ export function findDisagreements({
  * says so in `disagreements`, because two lenses answering is still useful.
  */
 export async function associate(state = {}, deps = {}) {
-  const { dish = [], form = null, cuisineScope = null } = state
+  const { dish = [], form = null, cuisineScope = null, focusIngredient = 'Chicken' } = state
   const names = dishNames(dish)
-  const seed = names.length ? names[names.length - 1] : 'duck'
+  const display = plateSeed(dish, focusIngredient)
+  const recipeSeed = heuristicRecipeNlg(display)
+  const matchSource = 'heuristic'
 
-  const threads = traditionThreads(dish, cuisineScope)
+  const traditionRes = await collectTradition(dish, cuisineScope, {
+    traditionDb: deps.traditionDb,
+    focusIngredient,
+  })
+  const threads = traditionRes.threads
+
   const byLens = {
-    compound: collectCompound(dish),
-    tradition: collectTradition(dish, cuisineScope, threads),
+    compound: await collectCompound(dish, focusIngredient, { api: deps.api || defaultApi }),
+    tradition: traditionRes.candidates,
     cooccurrence: [],
   }
 
-  let cooccur = { status: 'ok', seed, canonical: seed, error: null }
+  let cooccur = { status: 'ok', seed: recipeSeed, canonical: recipeSeed, error: null, matchSource }
   try {
-    const res = await collectCooccur(seed, { api: deps.api, exclude: names })
+    const res = await collectCooccur(recipeSeed, { api: deps.api, exclude: names })
     byLens.cooccurrence = res.candidates
     cooccur = { ...cooccur, canonical: res.canonical }
   } catch (err) {
-    cooccur = { status: 'error', seed, canonical: seed, error: err?.message || String(err) }
+    cooccur = {
+      status: 'error',
+      seed: recipeSeed,
+      canonical: recipeSeed,
+      error: err?.message || String(err),
+      matchSource,
+    }
   }
 
   const combined = mergeCandidates(byLens)
@@ -364,7 +349,14 @@ export async function associate(state = {}, deps = {}) {
     dish: names,
     form: form ? { name: form.name, overlay: FRAMES[form.name]?.overlay || null } : null,
     cuisineScope,
-    threads: threads.map(({ group, ...rest }) => rest),
+    threads: threads.map(({ title, thread, region, inScope, engaged, hits }) => ({
+      title,
+      thread,
+      region,
+      inScope,
+      engaged,
+      hits,
+    })),
     byLens,
     combined,
     disagreements,

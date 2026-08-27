@@ -18,4 +18,7 @@ pipeline/**/__pycache__/
 pipeline/.pytest_cache/
 pipeline/artifacts/
 pipeline/.env
+.env
+.env.*
+!.env.example
 *.pyc

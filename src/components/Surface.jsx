@@ -18,11 +18,11 @@ const TABS = [
 ]
 
 export default function Surface() {
-  const { activeLens, setActiveLens, chat } = useWorkspace()
+  const { activeLens, setActiveLens, chat, focusIngredient } = useWorkspace()
 
   return (
     <main className="surface">
-      <div className="chefline">I want to create a new dish with duck breast.</div>
+      <div className="chefline">Designing a dish around {focusIngredient}.</div>
       <div className="lens-tabs">
         {TABS.map((t) => (
           <button

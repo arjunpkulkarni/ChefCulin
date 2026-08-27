@@ -40,6 +40,34 @@
 
   /* ---------- Cuisine scope lock ---------- */
   .scope-control { position: relative; }
+  .focus-control {
+    display: flex; flex-direction: column; gap: 0.2rem; position: relative;
+  }
+  .focus-btn {
+    background: var(--card); border: 1px solid var(--line); cursor: pointer;
+    padding: 0.35rem 0.65rem; font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.82rem; min-width: 10rem; max-width: 16rem; text-align: left;
+  }
+  .focus-btn:hover { border-color: var(--ink-2); }
+  .focus-menu {
+    position: absolute; top: calc(100% + 6px); right: 0; z-index: 30;
+    background: var(--card); border: 1px solid var(--line);
+    box-shadow: 0 6px 18px rgba(30,23,20,0.12); padding: 0.55rem; width: 280px;
+  }
+  .focus-menu input {
+    width: 100%; background: var(--paper); border: 1px solid var(--line);
+    padding: 0.4rem 0.5rem; font-family: 'Space Grotesk', sans-serif; font-size: 0.82rem;
+    margin-bottom: 0.4rem;
+  }
+  .focus-hits {
+    max-height: 240px; overflow: auto; display: flex; flex-direction: column; gap: 0.15rem;
+  }
+  .focus-hit {
+    text-align: left; background: transparent; border: none; cursor: pointer;
+    padding: 0.35rem 0.45rem; font-size: 0.82rem; color: var(--ink-2);
+  }
+  .focus-hit:hover, .focus-hit.on { background: var(--paper-2); color: var(--ink); }
+  .focus-empty { font-size: 0.78rem; color: var(--ink-3); padding: 0.4rem; }
   .scope-btn {
     display: flex; align-items: center; gap: 0.5rem;
     background: var(--card); border: 1px solid var(--line); cursor: pointer;
@@ -625,6 +653,68 @@
   .closer {
     font-family: 'Fraunces', serif; font-style: italic; font-size: 1rem;
     color: var(--ink-2); margin-top: 1.6rem; padding-top: 1.1rem; border-top: 1px solid var(--line);
+  }
+
+  /* ---------- Agent ask + option cards (Tradition) ---------- */
+  .agent-ask {
+    display: flex; gap: 0.45rem; margin: 0.85rem 0 1rem;
+  }
+  .agent-ask input {
+    flex: 1; background: var(--card); border: 1px solid var(--line);
+    padding: 0.55rem 0.7rem; font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.92rem; color: var(--ink);
+  }
+  .agent-ask input:focus { outline: none; border-color: var(--sage); }
+  .agent-ask button {
+    background: var(--sage); color: #fff; border: none; cursor: pointer;
+    padding: 0.55rem 0.95rem; font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600; font-size: 0.88rem;
+  }
+  .agent-ask button:disabled { opacity: 0.55; cursor: default; }
+  .agent-rationale {
+    font-size: 0.88rem; color: var(--ink-2); margin: 0.4rem 0 0.85rem;
+    font-family: 'Fraunces', serif; font-style: italic;
+  }
+  .option-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.55rem; margin-bottom: 1.1rem;
+  }
+  .option-card {
+    text-align: left; background: var(--card); border: 1px solid var(--line);
+    padding: 0.75rem 0.8rem; cursor: pointer; font-family: 'Space Grotesk', sans-serif;
+    color: var(--ink); transition: border-color 0.12s ease, transform 0.12s ease;
+  }
+  .option-card:hover:not(:disabled) {
+    border-color: var(--sage); transform: translateY(-1px);
+  }
+  .option-card.selected {
+    border-color: var(--sage); background: #f3f6ef;
+    box-shadow: inset 3px 0 0 var(--sage);
+  }
+  .option-card:disabled { opacity: 0.6; cursor: default; }
+  .option-card-top {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem;
+  }
+  .option-card-title {
+    font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.02rem;
+    letter-spacing: -0.01em; line-height: 1.25;
+  }
+  .option-card-score {
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.68rem;
+    color: var(--sage); letter-spacing: 0.04em;
+  }
+  .option-card-sub {
+    margin-top: 0.25rem; font-size: 0.78rem; color: var(--ink-3); line-height: 1.35;
+  }
+  .option-stamp {
+    margin-top: 0.55rem; display: inline-block;
+    font-family: 'IBM Plex Mono', monospace; font-size: 0.58rem;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--sage); border: 1px solid var(--sage);
+    padding: 0.18rem 0.4rem; background: rgba(100, 113, 79, 0.06);
+  }
+  .tradition-detail {
+    margin-top: 0.5rem; padding-top: 0.85rem; border-top: 1px dashed var(--line);
   }
 
   @media (max-width: 860px) {

@@ -24,8 +24,8 @@ function LensTags({ lenses }) {
 }
 
 export default function AssociationPanel() {
-  const { dish, form, cuisineScope } = useWorkspace()
-  const { loading, data, error } = useAssociation(dish, form, cuisineScope)
+  const { dish, form, cuisineScope, focusIngredient } = useWorkspace()
+  const { loading, data, error } = useAssociation(dish, form, cuisineScope, focusIngredient)
 
   if (error) {
     return (

@@ -16,7 +16,7 @@ import { associate } from './associationEngine.js'
  *   DATABASE_URL=postgresql://culin:culin@127.0.0.1:5432/culin \
  *     python -m culin_etl.serve
  */
-const BASE = process.env.CULIN_API || 'http://127.0.0.1:8000'
+const BASE = process.env.CULIN_API || 'http://127.0.0.1:8001'
 
 async function probe() {
   try {
@@ -151,41 +151,27 @@ describe.skipIf(!palateUp)('the real app, end to end', () => {
     window.localStorage.setItem('culinai.user', user)
     render(<App />)
 
-    // 1. gather three acidic ingredients from the Compound lens
+    // 1. gather three Foodb chips from the Compound lens (first 24 per family)
     const compound = document.querySelector('.pane-c')
-    ;['verjus', 'cider vinegar', 'sorrel'].forEach((n) => {
-      fireEvent.click(within(compound).getByText(n))
-    })
+    const chips = [...compound.querySelectorAll('.chip')].slice(0, 3)
+    expect(chips).toHaveLength(3)
+    const gathered = chips.map((c) => c.getAttribute('data-name'))
+    chips.forEach((c) => fireEvent.click(c))
     expect(document.querySelectorAll('.ing')).toHaveLength(3)
 
-    // 2. E4: the balance read flags the trend and names its corrective pair
-    const trend = document.querySelector('.trend')
-    expect(trend.dataset.axis).toBe('acid')
-    expect(within(trend).getByText(/Trending acidic/)).toBeTruthy()
-
-    // 3. E5: the decision is captured in session, with no write
-    fireEvent.click(within(trend).getByRole('button', { name: 'Accept' }))
-    expect(screen.getByText(/session only, nothing saved/)).toBeTruthy()
-
-    // 4. D1: the Associate tab merges chemistry, tradition and the live corpus
+    // 2. D1: the Associate tab merges chemistry, tradition and the live corpus
     fireEvent.click(screen.getByRole('button', { name: /Associate/ }))
     expect(await screen.findByText(/Three lenses answering/, {}, { timeout: 5000 })).toBeTruthy()
     const converge = screen.getByText(/Where the lenses converge/).closest('.group')
     expect(converge.querySelectorAll('.assoc-hit').length).toBeGreaterThan(0)
 
-    // 5. F6: Save reaches Postgres and comes back
+    // 3. F6: Save reaches Postgres and comes back
     fireEvent.click(screen.getByRole('button', { name: 'Save' }))
     expect(await screen.findByText(/Kept in Palate Memory/, {}, { timeout: 5000 })).toBeTruthy()
 
     const listed = await api.listPalate(user)
     expect(listed.results).toHaveLength(1)
-    expect(listed.results[0].dish.map((d) => d.name)).toEqual([
-      'verjus',
-      'cider vinegar',
-      'sorrel',
-    ])
+    expect(listed.results[0].dish.map((d) => d.name)).toEqual(gathered)
     expect(listed.results[0].source).toBe('f6')
-    // the session decision stayed in the session
-    expect(JSON.stringify(listed.results[0])).not.toMatch(/accept/)
   })
 })

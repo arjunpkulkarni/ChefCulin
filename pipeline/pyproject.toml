@@ -17,6 +17,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0.0"]
+flavor = ["networkx>=3.0", "pandas>=2.0", "numpy>=1.24"]
 
 [project.scripts]
 culin-build = "culin_etl.build:main"

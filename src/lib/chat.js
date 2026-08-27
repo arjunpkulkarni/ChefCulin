@@ -1,5 +1,4 @@
 import {
-  ANCHOR,
   AXES,
   AXADD_JOB,
   FRAME_ALIASES,
@@ -8,6 +7,8 @@ import {
   ING_CLASS,
   REGION_ALIASES,
   REGION_PICKS,
+  anchorFor,
+  axesFor,
 } from '../data/domain.js'
 
 export function matchRegion(raw) {
@@ -37,12 +38,12 @@ export function matchFrame(q) {
   return null
 }
 
-function dishRead(dish) {
+function dishRead(dish, anchor = anchorFor('Chicken')) {
   const t = {
-    glut: ANCHOR.glut,
-    nucl: ANCHOR.nucl,
+    glut: anchor.glut ?? 0,
+    nucl: anchor.nucl ?? 0,
     salt: 0,
-    fat: 0.6,
+    fat: anchor.fat ?? 0.5,
     acid: 0,
     sweet: 0,
     capsaicin: 0,
@@ -50,7 +51,7 @@ function dishRead(dish) {
     trigeminal: 0,
   }
   dish.forEach((d) => {
-    const b = AXES[d.name] || {}
+    const b = axesFor(d.name)
     for (const k in b) if (k in t) t[k] += b[k]
     const a = d.axAdd || {}
     for (const k in a) if (k in t) t[k] += a[k]
@@ -61,7 +62,7 @@ function dishRead(dish) {
     ;(jobs[f] = jobs[f] || []).push(name)
   }
   dish.forEach((d) => {
-    const staticJob = FUNCTION_OF[ING_CLASS[d.name]] || 'other'
+    const staticJob = FUNCTION_OF[ING_CLASS[d.name] || ING_CLASS[d.name?.toLowerCase?.()]] || 'other'
     addJob(staticJob, d.name)
     const add = d.axAdd || {}
     Object.keys(add).forEach((axis) => {
@@ -78,27 +79,28 @@ function dishRead(dish) {
   return { t, jobs }
 }
 
-export function observations(dish) {
-  const { t, jobs } = dishRead(dish)
+export function observations(dish, anchor = anchorFor('Chicken')) {
+  const { t, jobs } = dishRead(dish, anchor)
   const o = []
   const names = dish.map((d) => d.name)
+  const focus = anchor.name || 'the focus ingredient'
 
-  if (t.glut > ANCHOR.glut && t.nucl > ANCHOR.nucl)
+  if (t.glut > (anchor.glut ?? 0) && t.nucl > (anchor.nucl ?? 0))
     o.push(
-      'You have glutamate and nucleotide sources both in play, and the duck brings a nucleotide of its own. The savoury depth here is multiplying, not adding — that is a big lever, and it is already pulled.'
+      `You have glutamate and nucleotide sources both in play, and ${focus} brings a nucleotide baseline. The savoury depth here is multiplying, not adding — that is a big lever, and it is already pulled.`
     )
-  else if (t.glut > ANCHOR.glut && t.nucl === ANCHOR.nucl)
+  else if (t.glut > (anchor.glut ?? 0) && t.nucl === (anchor.nucl ?? 0))
     o.push(
-      'The duck already carries a nucleotide, so the glutamate you have added is amplifying rather than accumulating. A dried mushroom or an aged cheese would push that further — but you may already be where you want to be.'
+      `${focus} already carries a nucleotide baseline, so the glutamate you have added is amplifying rather than accumulating. A dried mushroom or an aged cheese would push that further — but you may already be where you want to be.`
     )
 
   if (!jobs['a carrier for the fat'])
     o.push(
-      'Nothing here catches the rendered fat. That is a real choice, not an omission — but it is worth making on purpose. A starch, a bread, a bean, a purée.'
+      'Nothing here catches rendered fat or richness. That is a real choice, not an omission — but it is worth making on purpose. A starch, a bread, a bean, a purée.'
     )
   if (!jobs.acid && !jobs['acid and sweetness'] && !jobs['acid and body'])
     o.push(
-      'There is no reset. Duck is rich and it accumulates — something sour, tart, or drying gives the palate somewhere to go between bites.'
+      `There is no reset. ${focus} can read rich and accumulative — something sour, tart, or drying gives the palate somewhere to go between bites.`
     )
   if (!jobs['freshness and crunch'])
     o.push(
@@ -125,21 +127,22 @@ export function observations(dish) {
   return o
 }
 
-export function directions(dish) {
+export function directions(dish, anchor = anchorFor('Chicken')) {
   if (dish.length < 3) return null
-  const { jobs } = dishRead(dish)
+  const { jobs } = dishRead(dish, anchor)
   const names = dish.map((d) => d.name)
   const has = (n) => names.includes(n)
+  const focus = anchor.name || 'the focus ingredient'
   const D = [
     {
-      t: 'The duck stays the plate',
-      b: 'Seared breast, rested, sliced. The aromatics work at the surface where the fat renders — a rub that hits the sear, or an oil brushed on at the end. Everything else sits beside it as discrete elements rather than dissolving into a sauce. The tension you get is between the crisp fat cap and whatever is sharp on the plate.',
-      w: 'This asks the least of the other ingredients and the most of your cooking. The duck has nowhere to hide.',
+      t: `${focus} stays the plate`,
+      b: 'The centrepiece stays intact — seared, roasted, or sliced as your form dictates. Supporting ingredients sit beside it as discrete elements rather than dissolving into a sauce. The tension is between the main register and whatever is sharp on the plate.',
+      w: 'This asks the least of the other ingredients and the most of your cooking. The centrepiece has nowhere to hide.',
     },
     {
-      t: 'The duck disappears into a system',
+      t: `${focus} disappears into a system`,
       b:
-        'Broth, braise, or sauce. The richness leaves the plate and becomes structure — everything you have gathered goes into a liquid and the duck is a base rather than a slice. ' +
+        'Broth, braise, or sauce. Richness leaves the plate and becomes structure — everything gathered goes into a liquid and the protein is a base rather than a slice. ' +
         (has('red curry paste')
           ? 'The curry paste is built for this: bloomed in fat, thinned, it carries everything.'
           : 'The savoury elements have far more room here than on a plate.'),
@@ -147,7 +150,9 @@ export function directions(dish) {
     },
   ]
   const echoable = dish.find((d) =>
-    ['allium', 'herb', 'fruit', 'veg'].includes(ING_CLASS[d.name])
+    ['allium', 'herb', 'fruit', 'veg'].includes(
+      ING_CLASS[d.name] || ING_CLASS[d.name?.toLowerCase?.()]
+    )
   )
   if (echoable) {
     D.push({
@@ -159,23 +164,23 @@ export function directions(dish) {
   if (jobs['savoury depth']?.length) {
     D.push({
       t: 'Let the sauce be the dish',
-      b: `Mole logic. The duck becomes the vehicle and ${jobs['savoury depth'][0]} — with whatever else you have — becomes the point. Seeds, nuts, or reduction supply the body instead of fat. The protein serves the sauce rather than the other way round.`,
-      w: 'An inversion of European roast logic. It changes the whole texture of the plate, and it demands a lot of the sauce.',
+      b: `Mole logic. ${focus} becomes the vehicle and ${jobs['savoury depth'][0]} — with whatever else you have — becomes the point. Seeds, nuts, or reduction supply the body instead of fat. The protein serves the sauce rather than the other way round.`,
+      w: 'An inversion of roast logic. It changes the whole texture of the plate, and it demands a lot of the sauce.',
     })
   }
   return D
 }
 
-export function buildWriteUp(dish, form) {
-  const { jobs } = dishRead(dish)
+export function buildWriteUp(dish, form, anchor = anchorFor('Chicken')) {
+  const { jobs } = dishRead(dish, anchor)
   const formed = dish.filter((d) => d.mode)
   const unformed = dish.filter((d) => !d.mode)
   return {
     type: 'writeup',
-    lead: `Duck breast${form ? ', ' + form.name.toLowerCase() : ''}.`,
+    lead: `${anchor.name || 'Untitled'}${form ? ', ' + form.name.toLowerCase() : ''}.`,
     formed,
     unformed,
     jobs,
-    unresolved: observations(dish).slice(0, 3),
+    unresolved: observations(dish, anchor).slice(0, 3),
   }
 }

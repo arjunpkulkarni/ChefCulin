@@ -1,40 +1,45 @@
 import { useEffect, useState } from 'react'
-import { COOCCUR_STAGED } from '../data/cooccurStaged.js'
 import { useWorkspace } from '../context/WorkspaceContext.jsx'
 import * as api from '../api.js'
 import { HUBS } from '../lib/associationEngine.js'
+import { plateSeed } from '../lib/plateSeed.js'
+import { heuristicRecipeNlg } from '../lib/matchRecipeNlg.js'
 import Chip from './Chip.jsx'
-import ChipGroup from './ChipGroup.jsx'
 
 export default function CooccurPane() {
-  const { dish, cuisineScope } = useWorkspace()
+  const { dish, cuisineScope, focusIngredient } = useWorkspace()
   const [status, setStatus] = useState({ kind: 'loading', text: 'Connecting to corpus API…' })
-  const [seed, setSeed] = useState('duck')
+  const [seed, setSeed] = useState(focusIngredient)
+  const [matchMeta, setMatchMeta] = useState(null)
   const [neighbors, setNeighbors] = useState([])
   const [techs, setTechs] = useState([])
   const [why, setWhy] = useState('')
 
   useEffect(() => {
-    const s = dish.length ? dish[dish.length - 1].name : 'duck'
+    const display = plateSeed(dish, focusIngredient)
     let cancelled = false
-    setStatus({ kind: 'loading', text: `Loading corpus neighbors for ${s}…` })
+    const canonical = heuristicRecipeNlg(display)
+    setMatchMeta({ display, canonical, source: 'heuristic' })
+    setStatus({ kind: 'loading', text: `Loading corpus neighbors for ${canonical}…` })
     ;(async () => {
       try {
         const [health, co, tech] = await Promise.all([
           api.health(),
-          api.cooccur(s, 24),
-          api.techniques(s, 8),
+          api.cooccur(canonical, 24),
+          api.techniques(canonical, 8),
         ])
         if (cancelled) return
         const inDish = new Set(dish.map((d) => d.name))
         const rows = (co.results || [])
           .filter((r) => !inDish.has(r.ingredient) && !HUBS.has(r.ingredient))
           .slice(0, 16)
-        setSeed(co.canonical || s)
+        const canon = co.canonical || canonical
+        setSeed(canon)
         setNeighbors(rows)
         setTechs(tech.results || [])
+        const via = `RecipeNLG token “${canon}” (heuristic from “${display}”)`
         setWhy(
-          `Neighbors of ${co.canonical || s} from precomputed NPMI tables` +
+          `${via}. Neighbors of ${canon} from precomputed NPMI tables` +
             (health.cooccur_edges
               ? ` (${health.cooccur_edges.toLocaleString()} edges)`
               : '') +
@@ -50,14 +55,14 @@ export default function CooccurPane() {
         setTechs([])
         setStatus({
           kind: 'err',
-          text: `Corpus API unreachable. Start: cd pipeline && python -m culin_etl.serve — ${err.message || err}`,
+          text: `Corpus API unreachable. Start: npm run api — ${err.message || err}`,
         })
       }
     })()
     return () => {
       cancelled = true
     }
-  }, [dish])
+  }, [dish, focusIngredient])
 
   return (
     <section className="pane pane-o on">
@@ -127,16 +132,10 @@ export default function CooccurPane() {
         )}
       </div>
 
-      <p className="pane-intro" style={{ marginTop: '1.5rem' }}>
-        Staged functional communities (below) stay as design framing. Live neighbors above are
-        the wired corpus.
-      </p>
-      {COOCCUR_STAGED.map((g, i) => (
-        <ChipGroup key={g.title} group={g} id={`o-${i}`} />
-      ))}
       <div className="closer">
-        These are jobs that keep reappearing around duck — not the ingredients duck is
-        &quot;most often&quot; paired with.
+        Seeded from {dish.length ? 'the last ingredient on your plate' : `your focus — ${focusIngredient}`}
+        {matchMeta ? ` → RecipeNLG “${matchMeta.canonical}” (${matchMeta.source})` : ''}.
+        Neighbors come from the RecipeNLG corpus only.
       </div>
     </section>
   )

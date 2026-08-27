@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import os
 from pathlib import Path
 from typing import Any, Optional
@@ -9,11 +10,14 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from culin_etl.build import load_artifact_tables
+from culin_etl.llm import chat_completions, default_model, openai_configured
+from culin_etl.compound_network import index_neighbors, top_compound_neighbors
 from culin_etl.lookup import index_cooccur, index_techniques, top_cooccur, top_techniques
 from culin_etl.normalize import canonicalize
 from culin_etl.palate import PalateStore, get_database_url
 
 DEFAULT_ARTIFACTS = Path(__file__).resolve().parents[1] / "artifacts" / "corpus"
+DEFAULT_COMPOUND = Path(__file__).resolve().parents[1] / "artifacts" / "compound"
 
 
 class PalateSaveBody(BaseModel):
@@ -24,9 +28,42 @@ class PalateSaveBody(BaseModel):
     source: str = "f6"
 
 
+class LlmChatBody(BaseModel):
+    """Proxy body for OpenAI chat completions. Tools are executed client-side."""
+
+    messages: list[dict[str, Any]]
+    tools: Optional[list[dict[str, Any]]] = None
+    tool_choice: Optional[Any] = None
+    model: Optional[str] = None
+    temperature: float = 0.3
+    response_format: Optional[dict[str, Any]] = None
+
+
+def _load_jsonl(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    rows = []
+    with path.open(encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                rows.append(json.loads(line))
+    return rows
+
+
+def load_compound_tables(compound_dir: Path) -> dict:
+    root = Path(compound_dir)
+    meta_path = root / "meta.json"
+    meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
+    neighbors = _load_jsonl(root / "neighbors.jsonl")
+    return {"neighbors": neighbors, "meta": meta, "_dir": str(root.resolve())}
+
+
 def create_app(
     artifacts: Optional[dict] = None,
     artifacts_dir: Optional[Path] = None,
+    compound: Optional[dict] = None,
+    compound_dir: Optional[Path] = None,
     palate_store: Optional[PalateStore] = None,
 ) -> FastAPI:
     """
@@ -50,8 +87,18 @@ def create_app(
     else:
         artifacts.setdefault("_dir", "memory")
 
+    if compound is None:
+        croot = Path(compound_dir or os.environ.get("CULIN_COMPOUND", DEFAULT_COMPOUND))
+        if (croot / "neighbors.jsonl").exists():
+            compound = load_compound_tables(croot)
+        else:
+            compound = {"neighbors": [], "meta": {}, "_dir": str(croot.resolve())}
+    else:
+        compound.setdefault("_dir", "memory")
+
     co_idx = index_cooccur(artifacts["cooccur"])
     tech_idx = index_techniques(artifacts["ingredient_technique"])
+    compound_idx = index_neighbors(compound["neighbors"])
 
     store = palate_store
     if store is None and os.environ.get("CULIN_DISABLE_PALATE") != "1":
@@ -86,10 +133,28 @@ def create_app(
         return {
             "ok": True,
             "artifacts": artifacts.get("_dir"),
+            "compound_artifacts": compound.get("_dir"),
             "cooccur_edges": len(artifacts["cooccur"]),
+            "compound_edges": len(compound["neighbors"]),
             "technique_edges": len(artifacts["ingredient_technique"]),
             "palate_db": palate_ok,
+            "openai": openai_configured(),
+            "openai_model": default_model() if openai_configured() else None,
         }
+
+    @app.post("/llm/chat")
+    async def llm_chat(body: LlmChatBody):
+        """Server-side OpenAI proxy. Never expose OPENAI_API_KEY to the browser."""
+        if not body.messages:
+            raise HTTPException(status_code=400, detail="messages required")
+        return await chat_completions(
+            messages=body.messages,
+            tools=body.tools,
+            tool_choice=body.tool_choice,
+            model=body.model,
+            temperature=body.temperature,
+            response_format=body.response_format,
+        )
 
     @app.get("/meta")
     def meta():
@@ -107,6 +172,23 @@ def create_app(
             "results": top_cooccur(
                 artifacts["cooccur"], ingredient, n=n, index=co_idx
             ),
+        }
+
+    @app.get("/compound")
+    def compound_neighbors(
+        ingredient: str = Query(..., description="Focus ingredient (Foodb or common name)"),
+        n: int = Query(24, ge=1, le=100),
+    ):
+        canon, results = top_compound_neighbors(
+            compound["neighbors"],
+            ingredient,
+            n=n,
+            index=compound_idx,
+        )
+        return {
+            "ingredient": ingredient,
+            "canonical": canon,
+            "results": results,
         }
 
     @app.get("/techniques")

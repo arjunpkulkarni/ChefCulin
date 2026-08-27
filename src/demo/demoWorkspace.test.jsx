@@ -1,0 +1,308 @@
+/**
+ * Demo workspace — render every surface a chef hits in a walkthrough.
+ * API, Tradition DB and agent are mocked so `npm test` is self-contained.
+ */
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react'
+import App from '../App.jsx'
+
+const api = vi.hoisted(() => ({
+  listPalate: vi.fn(async () => ({ results: [] })),
+  savePalate: vi.fn(),
+  health: vi.fn(async () => ({
+    ok: true,
+    cooccur_edges: 69477,
+    technique_edges: 10439,
+    palate_db: false,
+    openai: true,
+  })),
+  cooccur: vi.fn(async (seed) => ({
+    canonical: seed,
+    results: [
+      { ingredient: 'onion', confidence: 0.4, freq: 900 },
+      { ingredient: 'thyme', confidence: 0.72, freq: 400 },
+      { ingredient: 'orange', confidence: 0.55, freq: 220 },
+      { ingredient: 'salt', confidence: 0.9, freq: 2000 },
+    ],
+  })),
+  compound: vi.fn(async (seed) => ({
+    canonical: 'chicken',
+    results: [
+      { ingredient: 'roasted_beef', display: 'Roasted Beef', weight: 100, confidence: 0.44 },
+      { ingredient: 'pork_sausage', display: 'Pork Sausage', weight: 84, confidence: 0.37 },
+      { ingredient: 'white_wine', display: 'White Wine', weight: 53, confidence: 0.23 },
+    ],
+  })),
+  techniques: vi.fn(async () => ({
+    results: [{ technique: 'roast', confidence: 0.6, freq: 80 }],
+  })),
+  llmChat: vi.fn(),
+}))
+
+vi.mock('../api.js', () => api)
+
+vi.mock('../lib/matchRecipeNlg.js', () => ({
+  matchRecipeNlg: vi.fn(async (name) => ({
+    canonical: String(name || 'chicken')
+      .toLowerCase()
+      .replace(/cattle \(beef, veal\)/i, 'beef')
+      .replace(/sweet orange/i, 'orange')
+      .trim(),
+    source: 'test',
+  })),
+  heuristicRecipeNlg: (name) => String(name || 'chicken').toLowerCase(),
+}))
+
+vi.mock('../lib/runAgent.js', () => ({
+  runAgent: vi.fn(async () => ({
+    options: [
+      {
+        id: 'R0001',
+        title: 'Kung Pao Chicken',
+        subtitle: 'China — Core / emblematic',
+        score: 4,
+      },
+      {
+        id: 'R0002',
+        title: 'Beggar\'s Chicken',
+        subtitle: 'China — Established',
+        score: 3,
+      },
+      {
+        id: 'R0003',
+        title: 'Dapanji',
+        subtitle: 'China — Established',
+        score: 3,
+      },
+    ],
+    rationale: 'Documented Chinese chicken dishes from the Tradition DB.',
+  })),
+  runChat: vi.fn(async () => 'Keep the chicken as the plate; let acid reset between bites.'),
+  parseAgentResult: vi.fn(),
+}))
+
+vi.mock('../lib/traditionDb.js', () => ({
+  getDishDetail: vi.fn(async ({ record_id }) => ({
+    record_id,
+    dish_id: 'CHN_demo',
+    item: 'Kung Pao Chicken',
+    cuisine: 'China',
+    traditionality_class: 'Core / emblematic',
+    companionIngredients: ['peanut', 'chili', 'scallion'],
+    preparation_or_function: 'Stir-fried chicken with chili and peanut.',
+    historical_or_cultural_note: null,
+    primary_source_url: 'https://example.test',
+    wikipedia_url: null,
+    source_thread: 'Sichuan',
+    country: 'China',
+    region_or_community: 'Sichuan',
+  })),
+  getTraditionAssociation: vi.fn(async (seed) => ({
+    seed,
+    candidates: [
+      {
+        name: 'peanut',
+        lens: 'tradition',
+        reason: 'Sichuan',
+        meta: { inScope: null, engaged: false, hits: 0 },
+      },
+      {
+        name: 'scallion',
+        lens: 'tradition',
+        reason: 'Sichuan',
+        meta: { inScope: null, engaged: false, hits: 0 },
+      },
+    ],
+    threads: [{ title: 'Sichuan', thread: 'Sichuan', inScope: null, engaged: false, hits: [] }],
+  })),
+  searchDishes: vi.fn(async () => []),
+  bestTraditionMatches: vi.fn(async () => [
+    {
+      id: 'R0001',
+      title: 'Kung Pao Chicken',
+      subtitle: 'China — Core / emblematic',
+      score: 4,
+      plateHits: 2,
+    },
+    {
+      id: 'R0002',
+      title: "Beggar's Chicken",
+      subtitle: 'China — Established',
+      score: 3,
+      plateHits: 1,
+    },
+    {
+      id: 'R0003',
+      title: 'Dapanji',
+      subtitle: 'China — Established',
+      score: 3,
+      plateHits: 1,
+    },
+  ]),
+}))
+
+import { runChat } from '../lib/runAgent.js'
+import { bestTraditionMatches, getDishDetail } from '../lib/traditionDb.js'
+
+beforeEach(() => {
+  vi.clearAllMocks()
+  api.listPalate.mockResolvedValue({ results: [] })
+})
+
+afterEach(cleanup)
+
+function renderApp() {
+  return render(<App />)
+}
+
+describe('demo shell', () => {
+  it('renders masthead, focus picker, cuisine scope, sidebar and Compound first', () => {
+    renderApp()
+    expect(screen.getByText(/Culin/)).toBeTruthy()
+    expect(screen.getByText('Focus ingredient')).toBeTruthy()
+    expect(screen.getByRole('button', { name: 'Chicken' })).toBeTruthy()
+    expect(screen.getByText('Cuisine scope')).toBeTruthy()
+    expect(screen.getByText(/Designing a dish around Chicken/)).toBeTruthy()
+    expect(screen.getByText('Untitled — Chicken')).toBeTruthy()
+    expect(document.querySelector('.pane-c')).toBeTruthy()
+    ;['Compound', 'Tradition', 'Co-occurrence', 'Associate', 'Form', 'Brainstorm'].forEach(
+      (label) => {
+        expect(screen.getByRole('button', { name: new RegExp(label) })).toBeTruthy()
+      }
+    )
+  })
+
+  it('focus picker searches the Foodb list and can switch the workspace', async () => {
+    renderApp()
+    fireEvent.click(screen.getByRole('button', { name: 'Chicken' }))
+    const search = screen.getByLabelText('Search focus ingredient')
+    fireEvent.change(search, { target: { value: 'Garlic' } })
+    const hit = await screen.findByRole('button', { name: 'Garlic' })
+    fireEvent.click(hit)
+    expect(await screen.findByText(/Designing a dish around Garlic/)).toBeTruthy()
+    expect(screen.getByText('Untitled — Garlic')).toBeTruthy()
+  })
+
+  it('locks a documented cuisine scope from the menu', () => {
+    renderApp()
+    fireEvent.click(screen.getByRole('button', { name: /Cuisine scope/ }))
+    fireEvent.click(screen.getByRole('button', { name: 'China' }))
+    expect(screen.getAllByText('China').length).toBeGreaterThan(0)
+  })
+})
+
+describe('demo Compound lens', () => {
+  it('loads flavor-network neighbors ranked by shared compounds', async () => {
+    renderApp()
+    expect(screen.getAllByText(/shared volatile compounds/i).length).toBeGreaterThan(0)
+    expect(await screen.findByText('White Wine')).toBeTruthy()
+    expect(api.compound).toHaveBeenCalled()
+    const chip = screen.getByText('White Wine').closest('.chip')
+    fireEvent.click(chip)
+    expect(document.querySelectorAll('.ing').length).toBe(1)
+    expect(document.querySelector('.ing-n').textContent).toBe('White Wine')
+  })
+})
+
+describe('demo Form lens', () => {
+  it('commits a process frame to the sidebar', () => {
+    renderApp()
+    fireEvent.click(screen.getByRole('button', { name: /^Form$/ }))
+    expect(screen.getByText(/Preparation states that fit Chicken/)).toBeTruthy()
+    expect(screen.getByText(/Seared — surface browning/)).toBeTruthy()
+    expect(screen.getByText(/Confit — fat as cooking medium/)).toBeTruthy()
+    fireEvent.click(screen.getAllByRole('button', { name: 'Commit this form' })[0])
+    expect(screen.getAllByText('Committed').length).toBeGreaterThan(0)
+    expect(document.querySelector('.fcard')).toBeTruthy()
+    expect(document.querySelector('.fn').textContent).toBe('Seared')
+  })
+})
+
+describe('demo Tradition lens', () => {
+  it('auto-loads the five best tradition matches for the focus', async () => {
+    renderApp()
+    fireEvent.click(screen.getByRole('button', { name: /^Tradition$/ }))
+    expect(await screen.findByText('Kung Pao Chicken')).toBeTruthy()
+    expect(screen.getByText("Beggar's Chicken")).toBeTruthy()
+    expect(screen.getByText('Dapanji')).toBeTruthy()
+    expect(bestTraditionMatches).toHaveBeenCalled()
+    const arg = bestTraditionMatches.mock.calls[0][0]
+    expect(arg.names).toContain('Chicken')
+    expect(arg.limit).toBe(5)
+  })
+
+  it('selecting a card adds companion ingredients to the dish', async () => {
+    renderApp()
+    fireEvent.click(screen.getByRole('button', { name: /^Tradition$/ }))
+    fireEvent.click(await screen.findByText('Kung Pao Chicken'))
+
+    await waitFor(() => expect(getDishDetail).toHaveBeenCalledWith({ record_id: 'R0001' }))
+    expect(document.querySelectorAll('.ing').length).toBeGreaterThanOrEqual(3)
+    expect([...document.querySelectorAll('.ing-n')].map((n) => n.textContent)).toEqual(
+      expect.arrayContaining(['peanut', 'chili', 'scallion'])
+    )
+  })
+})
+
+describe('demo Co-occurrence lens', () => {
+  it('loads corpus neighbors for the focus seed and filters hubs', async () => {
+    renderApp()
+    fireEvent.click(screen.getByRole('button', { name: /^Co-occurrence$/ }))
+    expect(await screen.findByText(/Live corpus/)).toBeTruthy()
+    expect(api.cooccur).toHaveBeenCalled()
+    expect(screen.getByText('thyme')).toBeTruthy()
+    expect(screen.getByText('orange')).toBeTruthy()
+    expect(screen.queryByText('salt')).toBeNull()
+    expect(screen.getByText('roast')).toBeTruthy()
+  })
+})
+
+describe('demo Associate lens', () => {
+  it('merges lenses around the current focus', async () => {
+    renderApp()
+    fireEvent.click(screen.getByRole('button', { name: /^Associate$/ }))
+    expect(await screen.findByText(/Three lenses answering/)).toBeTruthy()
+    expect(screen.getAllByText(/Where the lenses converge/).length).toBeGreaterThan(0)
+    expect(screen.getAllByText(/Chemistry alone|Tradition alone|Corpus alone/).length).toBeGreaterThan(0)
+  })
+})
+
+describe('demo Brainstorm', () => {
+  it('sends a plate-aware chat turn through the LLM', async () => {
+    renderApp()
+    fireEvent.click(screen.getByRole('button', { name: /^Brainstorm$/ }))
+    const input = screen.getByPlaceholderText(/Ask, think out loud/)
+    fireEvent.change(input, { target: { value: 'What do you notice?' } })
+    fireEvent.keyDown(input, { key: 'Enter' })
+    expect(await screen.findByText(/Keep the chicken as the plate/)).toBeTruthy()
+    expect(runChat).toHaveBeenCalled()
+  })
+})
+
+describe('demo sidebar', () => {
+  it('Save is idle with an empty plate', () => {
+    renderApp()
+    expect(screen.getByText('Nothing to keep yet.')).toBeTruthy()
+    expect(screen.getByText(/Nothing gathered yet/)).toBeTruthy()
+  })
+
+  it('keeps gathered ingredients when switching lenses', async () => {
+    renderApp()
+    const chip = await screen.findByText('White Wine')
+    fireEvent.click(chip.closest('.chip'))
+    fireEvent.click(screen.getByRole('button', { name: /^Form$/ }))
+    expect(document.querySelectorAll('.ing').length).toBe(1)
+    fireEvent.click(screen.getByRole('button', { name: /^Compound$/ }))
+    expect(document.querySelector('.ing-n').textContent).toBe('White Wine')
+  })
+})
+
+describe('demo Co-occurrence errors', () => {
+  it('explains how to start the corpus API when it is down', async () => {
+    api.cooccur.mockRejectedValueOnce(new Error('Failed to fetch'))
+    renderApp()
+    fireEvent.click(screen.getByRole('button', { name: /^Co-occurrence$/ }))
+    expect(await screen.findByText(/Corpus API unreachable/)).toBeTruthy()
+    expect(screen.getByText(/npm run api/)).toBeTruthy()
+  })
+})

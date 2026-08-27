@@ -13,7 +13,19 @@ import {
 const ing = (name) => ({ name, lens: 'compound', mode: null, modeNote: null, axAdd: null })
 const dishOf = (...names) => names.map(ing)
 
-/** A corpus stub: `results` shaped like GET /cooccur. */
+/** Compound API mock: flavor-network neighbors. */
+const stubCompoundApi = (names, extra = {}) => ({
+  compound: vi.fn(async (seed) => ({
+    canonical: extra.canonical || seed,
+    results: names.map((display, i) => ({
+      ingredient: display.toLowerCase().replace(/\s+/g, '_'),
+      display,
+      weight: 50 - i,
+      confidence: 0.9 - i * 0.05,
+    })),
+  })),
+})
+
 const stubApi = (names, extra = {}) => ({
   cooccur: vi.fn(async (seed) => ({
     canonical: extra.canonical || seed,
@@ -23,62 +35,116 @@ const stubApi = (names, extra = {}) => ({
       freq: 1000 - i * 10,
     })),
   })),
+  compound: vi.fn(async (seed) => ({
+    canonical: extra.compoundCanonical || seed,
+    results: (extra.compound || names).map((display, i) => ({
+      ingredient: display.toLowerCase().replace(/\s+/g, '_'),
+      display,
+      weight: 40 - i,
+      confidence: 0.8 - i * 0.05,
+    })),
+  })),
 })
 
 const failingApi = () => ({
   cooccur: vi.fn(async () => {
     throw new Error('Corpus API unreachable')
   }),
+  compound: vi.fn(async (seed) => ({
+    canonical: seed,
+    results: [
+      { ingredient: 'white_wine', display: 'White Wine', weight: 50, confidence: 0.8 },
+    ],
+  })),
 })
+
+/** Tradition DB mock for Associate. */
+const stubTraditionDb = (names, extra = {}) => ({
+  getTraditionAssociation: vi.fn(async (seed, opts = {}) => ({
+    seed,
+    candidates: names.map((name, i) => ({
+      name,
+      lens: 'tradition',
+      reason: extra.reason || 'documented thread',
+      meta: {
+        thread: extra.thread || 'thread',
+        inScope: extra.inScope ?? null,
+        engaged: false,
+        hits: 0,
+        dish_count: 10 - i,
+      },
+    })),
+    threads: extra.threads || [],
+  })),
+})
+
+const identityMatch = async (name) => ({
+  canonical: String(name || '')
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .trim(),
+  source: 'test',
+})
+
+/** Prefer culinary token when Foodb-style names appear in tests. */
+const smartMatch = async (name) => {
+  const { heuristicRecipeNlg } = await import('./matchRecipeNlg.js')
+  return { canonical: heuristicRecipeNlg(name), source: 'test' }
+}
 
 const nameSet = (list) => new Set(list.map((c) => c.name))
 const find = (list, name) => list.find((c) => c.name === name)
 
 describe('collectCompound', () => {
-  it('returns chips from the static groups, minus what is already on the dish', () => {
-    const c = collectCompound(dishOf('rosemary'))
-    expect(nameSet(c).has('rosemary')).toBe(false)
-    expect(nameSet(c).has('juniper')).toBe(true)
-    expect(find(c, 'juniper').lens).toBe('compound')
-    expect(find(c, 'juniper').reason).toBe('Fat carries these')
+  it('returns flavor-network neighbors, minus what is already on the dish', async () => {
+    const api = stubCompoundApi(['White Wine', 'Thyme', 'Rosemary'])
+    const c = await collectCompound(dishOf('Rosemary'), 'Chicken', { api })
+    expect(nameSet(c).has('Rosemary')).toBe(false)
+    expect(nameSet(c).has('White Wine')).toBe(true)
+    expect(find(c, 'White Wine').lens).toBe('compound')
+    expect(find(c, 'White Wine').meta.weight).toBeGreaterThan(0)
+    expect(api.compound).toHaveBeenCalled()
   })
 
-  it('marks the group the dish already draws on as engaged, and sorts it first', () => {
-    const c = collectCompound(dishOf('rosemary', 'juniper'))
-    expect(find(c, 'bay').meta).toMatchObject({ engaged: true, hits: 2 })
-    expect(find(c, 'miso').meta.engaged).toBe(false)
-    expect(c[0].meta.engaged).toBe(true)
+  it('sorts by shared compound weight from the API', async () => {
+    const api = stubCompoundApi(['White Wine', 'Thyme'])
+    const c = await collectCompound(dishOf(), 'Garlic', { api })
+    expect(c[0].meta.weight).toBeGreaterThanOrEqual(c[1]?.meta.weight ?? 0)
   })
 })
 
 describe('collectTradition', () => {
-  it('includes thread chips and extend chips, tagged by thread', () => {
-    const c = collectTradition(dishOf(), null)
-    expect(find(c, 'hoisin').meta.thread).toMatch(/Beijing/)
-    expect(find(c, 'lettuce cup').meta.extend).toBe(true)
-    expect(find(c, 'lettuce cup').reason).toMatch(/extends the principle/)
+  it('loads candidates from the Tradition DB module', async () => {
+    const traditionDb = stubTraditionDb(['hoisin', 'scallion'])
+    const { candidates } = await collectTradition(dishOf(), null, {
+      traditionDb,
+      matchIngredient: smartMatch,
+    })
+    expect(traditionDb.getTraditionAssociation).toHaveBeenCalledWith('chicken', {
+      exclude: [],
+      limit: 16,
+      cuisineScope: null,
+    })
+    expect(find(candidates, 'hoisin').lens).toBe('tradition')
   })
 
-  it('leaves inScope null when no cuisine scope is locked', () => {
-    const c = collectTradition(dishOf(), null)
-    expect(find(c, 'hoisin').meta.inScope).toBeNull()
-  })
-
-  it('flags scope without filtering anything out', () => {
-    const scoped = collectTradition(dishOf(), { label: 'China', keys: ['china'] })
-    const unscoped = collectTradition(dishOf(), null)
-
-    expect(nameSet(scoped).size).toBe(nameSet(unscoped).size)
-    expect(find(scoped, 'hoisin').meta.inScope).toBe(true)
-    // a Mexican thread ingredient is out of scope and still present
-    expect(find(scoped, 'ancho chile').meta.inScope).toBe(false)
+  it('seeds from the last dish ingredient', async () => {
+    const traditionDb = stubTraditionDb(['thyme'])
+    await collectTradition(dishOf('miso', 'cherry'), null, {
+      traditionDb,
+      matchIngredient: identityMatch,
+    })
+    expect(traditionDb.getTraditionAssociation).toHaveBeenCalledWith(
+      'cherry',
+      expect.any(Object)
+    )
   })
 })
 
 describe('collectCooccur', () => {
   it('filters hubs and anything already on the dish', async () => {
     const api = stubApi(['salt', 'butter', 'thyme', 'orange', 'cherry'])
-    const res = await collectCooccur('duck', { api, exclude: ['cherry'] })
+    const res = await collectCooccur('chicken', { api, exclude: ['cherry'] })
 
     const names = res.candidates.map((c) => c.name)
     expect(names).toEqual(['thyme', 'orange'])
@@ -87,15 +153,15 @@ describe('collectCooccur', () => {
 
   it('carries corpus confidence through as meta', async () => {
     const api = stubApi(['thyme'])
-    const res = await collectCooccur('duck', { api })
+    const res = await collectCooccur('chicken', { api })
     expect(res.candidates[0].meta.confidence).toBeCloseTo(0.9)
     expect(res.candidates[0].lens).toBe('co-occurrence')
   })
 
   it('uses the canonical name the API resolved', async () => {
-    const api = stubApi(['thyme'], { canonical: 'duck breast' })
-    const res = await collectCooccur('duck breasts', { api })
-    expect(res.canonical).toBe('duck breast')
+    const api = stubApi(['thyme'], { canonical: 'chicken breast' })
+    const res = await collectCooccur('chicken breasts', { api })
+    expect(res.canonical).toBe('chicken breast')
   })
 })
 
@@ -139,39 +205,54 @@ describe('mergeCandidates', () => {
 describe('D1 — associate', () => {
   it('asks all three lenses and returns one combined payload', async () => {
     const api = stubApi(['thyme', 'orange'])
-    const data = await associate({ dish: dishOf('rosemary') }, { api })
+    const traditionDb = stubTraditionDb(['miso', 'Garlic'])
+    const data = await associate({ dish: dishOf('Rosemary') }, { api, traditionDb, matchIngredient: smartMatch })
 
     expect(api.cooccur).toHaveBeenCalledWith('rosemary', 24)
     expect(data.byLens.compound.length).toBeGreaterThan(0)
-    expect(data.byLens.tradition.length).toBeGreaterThan(0)
+    expect(data.byLens.tradition.length).toBe(2)
     expect(data.byLens.cooccurrence.length).toBe(2)
     expect(data.combined.length).toBeGreaterThan(0)
     expect(data.seed).toBe('rosemary')
   })
 
-  it('seeds from the last dish ingredient, or duck when the dish is empty', async () => {
+  it('seeds from the last dish ingredient, or focus when the dish is empty', async () => {
     const api = stubApi(['thyme'])
-    await associate({ dish: dishOf('miso', 'cherry') }, { api })
+    const traditionDb = stubTraditionDb(['garlic'])
+    await associate(
+      { dish: dishOf('miso', 'cherry') },
+      { api, traditionDb, matchIngredient: identityMatch }
+    )
     expect(api.cooccur).toHaveBeenCalledWith('cherry', 24)
+    expect(traditionDb.getTraditionAssociation).toHaveBeenCalledWith(
+      'cherry',
+      expect.any(Object)
+    )
 
-    const empty = stubApi(['thyme'])
-    await associate({ dish: [] }, { api: empty })
-    expect(empty.cooccur).toHaveBeenCalledWith('duck', 24)
+    const emptyApi = stubApi(['thyme'])
+    const emptyTradition = stubTraditionDb(['garlic'])
+    await associate(
+      { dish: [], focusIngredient: 'Chicken' },
+      { api: emptyApi, traditionDb: emptyTradition, matchIngredient: smartMatch }
+    )
+    expect(emptyApi.cooccur).toHaveBeenCalledWith('chicken', 24)
+    expect(emptyTradition.getTraditionAssociation).toHaveBeenCalledWith(
+      'chicken',
+      expect.any(Object)
+    )
   })
 
-  it('finds the multi-lens intersection across static data and the mocked corpus', async () => {
-    // juniper is in all three; bergamot is compound + corpus; miso is compound +
-    // tradition; pear is corpus alone
-    const api = stubApi(['juniper', 'bergamot', 'pear'])
-    const data = await associate({ dish: dishOf() }, { api })
+  it('finds the multi-lens intersection across lenses', async () => {
+    const api = stubApi(['Garlic', 'bergamot', 'pear'], { compound: ['Garlic', 'Miso'] })
+    const traditionDb = stubTraditionDb(['Garlic', 'Miso'])
+    const data = await associate({ dish: dishOf() }, { api, traditionDb, matchIngredient: smartMatch })
 
-    expect(find(data.combined, 'juniper').lenses).toEqual([
+    expect(find(data.combined, 'Garlic').lenses).toEqual([
       'compound',
       'tradition',
       'co-occurrence',
     ])
-    expect(find(data.combined, 'bergamot').lenses).toEqual(['compound', 'co-occurrence'])
-    expect(find(data.combined, 'miso').lenses).toEqual(['compound', 'tradition'])
+    expect(find(data.combined, 'Miso').lenses).toEqual(['compound', 'tradition'])
     expect(find(data.combined, 'pear')).toMatchObject({
       agreement: 'single',
       lenses: ['co-occurrence'],
@@ -180,22 +261,32 @@ describe('D1 — associate', () => {
   })
 
   it('sorts three-lens convergence above two-lens', async () => {
-    const api = stubApi(['juniper', 'bergamot'])
-    const data = await associate({ dish: dishOf() }, { api })
-    expect(data.combined[0].name).toBe('juniper')
+    const api = stubApi(['Garlic', 'bergamot'])
+    const traditionDb = stubTraditionDb(['Garlic'])
+    const data = await associate({ dish: dishOf() }, { api, traditionDb, matchIngredient: smartMatch })
+    expect(data.combined[0].name).toBe('Garlic')
     expect(data.combined[0].lenses).toHaveLength(3)
   })
 
   it('includes locked form as context, never as a candidate', async () => {
     const api = stubApi(['thyme'])
-    const data = await associate({ dish: dishOf('rosemary'), form: { name: 'Confit' } }, { api })
+    const traditionDb = stubTraditionDb(['garlic'])
+    const data = await associate(
+      { dish: dishOf('Rosemary'), form: { name: 'Confit' } },
+      { api, traditionDb, matchIngredient: smartMatch }
+    )
 
     expect(data.form).toMatchObject({ name: 'Confit', overlay: 'confit' })
     expect(nameSet(data.combined).has('Confit')).toBe(false)
   })
 
   it('degrades to two lenses when the corpus is down, and says so', async () => {
-    const data = await associate({ dish: dishOf('rosemary') }, { api: failingApi() })
+    const traditionDb = stubTraditionDb(['miso'])
+    const data = await associate({ dish: dishOf('Rosemary') }, {
+      api: failingApi(),
+      traditionDb,
+      matchIngredient: smartMatch,
+    })
 
     expect(data.cooccur.status).toBe('error')
     expect(data.byLens.cooccurrence).toEqual([])
@@ -205,16 +296,24 @@ describe('D1 — associate', () => {
 
   it('writes nothing — no palate helper exists on the injected client', async () => {
     const api = stubApi(['thyme'])
-    const data = await associate({ dish: dishOf('rosemary') }, { api })
-    expect(Object.keys(api)).toEqual(['cooccur'])
+    const traditionDb = stubTraditionDb(['garlic'])
+    const data = await associate({ dish: dishOf('Rosemary') }, {
+      api,
+      traditionDb,
+      matchIngredient: smartMatch,
+    })
+    expect(Object.keys(api).sort()).toEqual(['cooccur', 'compound'].sort())
     expect(data).not.toHaveProperty('saved')
   })
 })
 
 describe('D2 — disagreement handling: flag, do not suppress', () => {
   it('flags corpus vs tradition when nothing overlaps', async () => {
-    const api = stubApi(['nothing-culinary-here', 'another-unknown'])
-    const data = await associate({ dish: dishOf() }, { api })
+    const api = stubApi(['nothing-culinary-here', 'another-unknown'], {
+      compound: ['compound-only-ingredient'],
+    })
+    const traditionDb = stubTraditionDb(['tradition-only'])
+    const data = await associate({ dish: dishOf() }, { api, traditionDb, matchIngredient: smartMatch })
 
     const themes = data.disagreements.map((d) => d.theme)
     expect(themes).toContain('corpus vs tradition')
@@ -227,8 +326,9 @@ describe('D2 — disagreement handling: flag, do not suppress', () => {
   })
 
   it('does not flag divergence when the lenses do overlap', async () => {
-    const api = stubApi(['miso', 'juniper'])
-    const data = await associate({ dish: dishOf() }, { api })
+    const api = stubApi(['Miso', 'Garlic'], { compound: ['Miso', 'Garlic'] })
+    const traditionDb = stubTraditionDb(['Miso', 'Garlic'])
+    const data = await associate({ dish: dishOf() }, { api, traditionDb, matchIngredient: smartMatch })
     const themes = data.disagreements.map((d) => d.theme)
     expect(themes).not.toContain('corpus vs tradition')
     expect(themes).not.toContain('corpus vs chemistry')
@@ -236,15 +336,20 @@ describe('D2 — disagreement handling: flag, do not suppress', () => {
 
   it('keeps every tradition candidate in combined when a scope is locked', async () => {
     const api = stubApi(['thyme'])
+    const traditionDb = stubTraditionDb(['hoisin', 'ancho chile'], {
+      threads: [
+        { title: 'China thread', thread: 'China', inScope: true },
+        { title: 'Mexico thread', thread: 'Mexico', inScope: false },
+      ],
+    })
     const scoped = await associate(
       { dish: dishOf(), cuisineScope: { label: 'China', keys: ['china'] } },
-      { api }
+      { api, traditionDb, matchIngredient: smartMatch }
     )
-    const open = await associate({ dish: dishOf() }, { api })
+    const open = await associate({ dish: dishOf() }, { api, traditionDb, matchIngredient: smartMatch })
 
     expect(scoped.byLens.tradition.length).toBe(open.byLens.tradition.length)
     expect(nameSet(scoped.combined).size).toBe(nameSet(open.combined).size)
-    // a Mexican thread ingredient survives a China scope
     expect(nameSet(scoped.combined).has('ancho chile')).toBe(true)
 
     const d = scoped.disagreements.find((x) => x.theme === 'scope vs thread')
@@ -252,29 +357,7 @@ describe('D2 — disagreement handling: flag, do not suppress', () => {
     expect(d.summary).toMatch(/flags, it never filters/)
   })
 
-  it('flags a locked form that contradicts a thread the dish is drawing on', () => {
-    // the Beijing thread requires crisp skin; Broth system does not produce it
-    const dish = dishOf('pancake', 'hoisin')
-    const threads = traditionThreads(dish, null)
-    const out = findDisagreements({
-      byLens: { compound: [], tradition: [], cooccurrence: [] },
-      threads,
-      form: { name: 'Broth system' },
-    })
-
-    const d = out.find((x) => x.theme === 'form vs thread')
-    expect(d).toBeTruthy()
-    expect(d.summary).toMatch(/Broth system/)
-    expect(d.summary).toMatch(/crisp skin/)
-  })
-
-  it('does not flag a form clash for a thread the dish is not using', () => {
-    const threads = traditionThreads(dishOf(), null)
-    const out = findDisagreements({
-      byLens: { compound: [], tradition: [], cooccurrence: [] },
-      threads,
-      form: { name: 'Broth system' },
-    })
-    expect(out.map((d) => d.theme)).not.toContain('form vs thread')
+  it('traditionThreads is empty — static threads removed', () => {
+    expect(traditionThreads(dishOf('pancake'), null)).toEqual([])
   })
 })

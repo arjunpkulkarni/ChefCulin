@@ -1,4 +1,4 @@
-import { ANCHOR, AXES, FRAMES } from '../data/domain.js'
+import { FRAMES, anchorFor, axesFor } from '../data/domain.js'
 
 /**
  * Trending detection (E4) — fixed, non-adaptive.
@@ -8,7 +8,7 @@ import { ANCHOR, AXES, FRAMES } from '../data/domain.js'
  *     share(axis) = axisTotal / n        where n = dish.length + 1
  *
  * `n` counts the contributors on the plate: every gathered ingredient plus the
- * duck anchor itself, which carries fat and glutamate/inosinate of its own.
+ * focus ingredient anchor itself (glutamate / nucleotide / fat baseline).
  * This is the same normalisation `widths` already used, so a bar drawn at 40%
  * and a trend that fires at 0.4 are literally the same number — there is no
  * second scale to reconcile.
@@ -82,11 +82,11 @@ export const AXIS_LABELS = {
 }
 
 /** Pure balance model for the dish sidebar. */
-export function computeBalance(dish, form) {
-  const base = form && FRAMES[form.name] ? FRAMES[form.name].fat : 0.6
+export function computeBalance(dish, form, anchor = anchorFor('Chicken')) {
+  const base = form && FRAMES[form.name] ? FRAMES[form.name].fat : anchor.fat ?? 0.5
   const t = {
-    glut: ANCHOR.glut,
-    nucl: ANCHOR.nucl,
+    glut: anchor.glut ?? 0,
+    nucl: anchor.nucl ?? 0,
     salt: 0,
     fat: base,
     acid: 0,
@@ -97,8 +97,13 @@ export function computeBalance(dish, form) {
   }
   if (form && FRAMES[form.name].produces.includes('salt-cured')) t.salt += 1
 
+  const focusAx = axesFor(anchor.name)
+  for (const k of ['salt', 'acid', 'sweet', 'capsaicin', 'pungent', 'trigeminal']) {
+    if (focusAx[k]) t[k] += focusAx[k]
+  }
+
   dish.forEach((d) => {
-    const baseAx = AXES[d.name] || {}
+    const baseAx = axesFor(d.name)
     for (const k in baseAx) if (k in t) t[k] += baseAx[k]
     const add = d.axAdd || {}
     for (const k in add) if (k in t) t[k] += add[k]
@@ -214,16 +219,17 @@ export function computeBalance(dish, form) {
   /* Mechanism notes — context, not corrections. These carry no pair and are
      never actionable, so they are kept out of `trends`. */
   const notes = []
-  const addedGlut = t.glut - ANCHOR.glut
+  const addedGlut = t.glut - (anchor.glut ?? 0)
+  const anchorLabel = anchor.name || 'the focus ingredient'
   if (addedGlut > 0) {
     notes.push({
       ax: 'umami',
-      note: 'The duck already brings a nucleotide — it is a red meat, and inosinate rises further with searing and ageing. So a glutamate ingredient added to duck is not accumulating umami, it is amplifying it: glutamate plus nucleotide is roughly an order of magnitude, not a sum. This is the dashi principle, and the duck is doing what the bonito does.',
+      note: `${anchorLabel} already brings a nucleotide baseline — a glutamate ingredient added here is not accumulating umami, it is amplifying it: glutamate plus nucleotide is roughly an order of magnitude, not a sum. This is the dashi principle.`,
     })
   } else if (t.nucl > 0 && addedGlut === 0) {
     notes.push({
       ax: 'umami',
-      note: 'Duck carries inosinate but little free glutamate. The hatched bar is the amplification sitting unclaimed — a glutamate source (miso, soy, aged cheese, tomato, kombu) multiplies the savoury depth far beyond what another meaty ingredient would.',
+      note: `${anchorLabel} carries inosinate but little free glutamate. The hatched bar is the amplification sitting unclaimed — a glutamate source (miso, soy, aged cheese, tomato, kombu) multiplies savoury depth far beyond what another meaty ingredient would.`,
     })
   }
   if (heatNote) notes.push(heatNote)
