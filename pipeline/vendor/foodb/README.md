@@ -15,14 +15,20 @@ Downloads `foodb_2020_4_7_csv.tar.gz` from [foodb.ca/downloads](https://foodb.ca
 - `Nutrient.csv`
 - `Food.csv`
 
-Large archives and `Content.csv` exceed GitHub’s file size limits and are **not** in git.
+Large archives and `Content.csv` are stored with **Git LFS** (GitHub’s 100MB blob limit).
 
-After clone, run:
+After clone:
+
+```bash
+git lfs install
+git lfs pull
+```
+
+Or fetch only the balance tables:
 
 ```bash
 npm run fetch:foodb
 ```
 
-That downloads `foodb_2020_4_7_csv.tar.gz` from [foodb.ca/downloads](https://foodb.ca/downloads) and extracts `Content.csv` plus the other tables.
-
-**Tracked in git** (under 100MB): `Food.csv`, `Compound.csv`, `Nutrient.csv`.
+**In git (LFS):** `Content.csv`, `foodb_csv.tar.gz`, `foodb_json.zip`  
+**In git (regular):** `Food.csv`, `Compound.csv`, `Nutrient.csv`
