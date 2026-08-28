@@ -6,8 +6,6 @@ import raw from './ingredients.json'
 
 export const INGREDIENTS = raw
 
-export const DEFAULT_FOCUS = 'Chicken'
-
 /** Display names, sorted. */
 export const INGREDIENT_LIST = INGREDIENTS.map((r) => r.name).sort((a, b) =>
   a.localeCompare(b)
@@ -25,14 +23,13 @@ export function lookupIngredient(name) {
 
 /** Seed string for corpus / Tradition queries (lowercase). */
 export function seedKey(name) {
-  return String(name || DEFAULT_FOCUS).trim().toLowerCase()
+  return String(name || '').trim().toLowerCase()
 }
 
 /**
- * Compound lens groups = Foodb food_group buckets.
- * Chips are real Foodb names; focus ingredient is excluded.
+ * @deprecated Compound lens uses flavor-network API — not Foodb family browse.
  */
-export function compoundGroups(focusIngredient = DEFAULT_FOCUS, { perGroup = 24 } = {}) {
+export function compoundGroups(focusIngredient = '', { perGroup = 24 } = {}) {
   const focusLower = String(focusIngredient || '').toLowerCase()
   const buckets = new Map()
   for (const row of INGREDIENTS) {

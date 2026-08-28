@@ -13,6 +13,15 @@ export default function CompoundPane() {
 
   useEffect(() => {
     const display = plateSeed(dish, focusIngredient)
+    if (!display) {
+      setStatus({
+        kind: 'empty',
+        text: 'Choose a focus ingredient or gather one on the plate to seed the compound network.',
+      })
+      setNeighbors([])
+      return
+    }
+
     let cancelled = false
     setStatus({ kind: 'loading', text: `Ranking shared volatile compounds for “${display}”…` })
     ;(async () => {
@@ -48,7 +57,7 @@ export default function CompoundPane() {
         setNeighbors([])
         setStatus({
           kind: 'err',
-          text: `Compound API unreachable. Start: npm run api — ${err.message || err}`,
+          text: `Compound API unreachable. Start: npm run demo (or npm run api) — ${err.message || err}`,
         })
       }
     })()

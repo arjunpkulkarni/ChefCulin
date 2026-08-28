@@ -7,9 +7,9 @@ describe('plateSeed', () => {
     expect(plateSeed(null, 'Garlic')).toBe('Garlic')
   })
 
-  it('defaults to Chicken when nothing is provided', () => {
-    expect(plateSeed([], null)).toBe('Chicken')
-    expect(plateSeed([])).toBe('Chicken')
+  it('returns null when nothing is provided', () => {
+    expect(plateSeed([], null)).toBeNull()
+    expect(plateSeed([])).toBeNull()
   })
 
   it('uses the last gathered ingredient once the plate has items', () => {

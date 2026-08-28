@@ -11,7 +11,6 @@ vi.mock('../api.js', () => ({
   health: vi.fn(),
   cooccur: vi.fn(),
   techniques: vi.fn(),
-  llmChat: vi.fn(),
 }))
 
 vi.mock('../lib/runAgent.js', () => ({
@@ -37,7 +36,7 @@ describe('BrainstormPane', () => {
 
   it('sends a quick prompt through the LLM proxy', async () => {
     render(
-      <WorkspaceProvider>
+      <WorkspaceProvider initialFocus="Chicken">
         <BrainstormPane />
       </WorkspaceProvider>
     )

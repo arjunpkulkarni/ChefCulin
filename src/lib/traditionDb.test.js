@@ -3,7 +3,7 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { beforeAll, describe, expect, it } from 'vitest'
 import initSqlJs from 'sql.js'
-import { cuisineSearchTerms, traditionSearchTokens } from './traditionDb.js'
+import { cuisineSearchTerms, plateTokensFromNames, traditionSearchTokens } from './traditionDb.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '../..')
 const dbPath = join(root, 'src/data/traditional_culinary_uses_database_v2.db')
@@ -99,6 +99,15 @@ describe('traditionSearchTokens', () => {
     )
     expect(traditionSearchTokens(['Cattle (Beef, Veal)'])).toEqual(
       expect.arrayContaining(['beef'])
+    )
+  })
+})
+
+describe('plateTokensFromNames', () => {
+  it('excludes focus tokens from plate ranking', () => {
+    expect(plateTokensFromNames('Chicken', ['Chicken', 'Garlic'])).toEqual(['garlic'])
+    expect(plateTokensFromNames('Chicken', ['Garlic', 'Rice'])).toEqual(
+      expect.arrayContaining(['garlic', 'rice'])
     )
   })
 })

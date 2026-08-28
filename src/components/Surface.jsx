@@ -22,7 +22,11 @@ export default function Surface() {
 
   return (
     <main className="surface">
-      <div className="chefline">Designing a dish around {focusIngredient}.</div>
+      <div className="chefline">
+        {focusIngredient
+          ? `Designing a dish around ${focusIngredient}.`
+          : 'Choose a focus ingredient in the mast to start.'}
+      </div>
       <div className="lens-tabs">
         {TABS.map((t) => (
           <button

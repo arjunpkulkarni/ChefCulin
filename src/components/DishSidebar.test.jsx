@@ -9,7 +9,6 @@ vi.mock('../api.js', () => ({
   health: vi.fn(),
   cooccur: vi.fn(),
   techniques: vi.fn(),
-  llmChat: vi.fn(),
 }))
 
 function Harness() {
@@ -33,15 +32,28 @@ function Harness() {
 afterEach(cleanup)
 
 describe('DishSidebar — demo plate', () => {
-  it('starts empty and names the default focus', () => {
+  it('starts empty and prompts for a focus ingredient', () => {
     render(
       <WorkspaceProvider>
         <Harness />
       </WorkspaceProvider>
     )
-    expect(screen.getByText('Untitled — Chicken')).toBeTruthy()
+    expect(screen.getByRole('button', { name: /Untitled — pick a focus/ })).toBeTruthy()
     expect(screen.getByText(/Nothing gathered yet/)).toBeTruthy()
     expect(screen.getByText('Nothing to keep yet.')).toBeTruthy()
+  })
+
+  it('lets the chef name the dish by clicking the title', () => {
+    render(
+      <WorkspaceProvider>
+        <Harness />
+      </WorkspaceProvider>
+    )
+    fireEvent.click(screen.getByRole('button', { name: /Untitled — pick a focus/ }))
+    const input = screen.getByLabelText('Dish name')
+    fireEvent.change(input, { target: { value: 'Spring lamb' } })
+    fireEvent.keyDown(input, { key: 'Enter' })
+    expect(screen.getByRole('button', { name: /Spring lamb — pick a focus/ })).toBeTruthy()
   })
 
   it('lists a gathered ingredient and can remove it', () => {

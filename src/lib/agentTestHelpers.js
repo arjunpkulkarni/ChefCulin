@@ -201,24 +201,10 @@ export function scriptedLlmChat(script) {
   }
 }
 
-/** Direct OpenAI chat completions for live tests (key stays in env). */
+/** Direct OpenAI chat completions for live tests (key from env). */
 export async function openAiChat(body) {
-  const key = process.env.OPENAI_API_KEY
-  if (!key) throw new Error('OPENAI_API_KEY not set')
-  const model = process.env.OPENAI_MODEL || 'gpt-4o-mini'
-  const res = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${key}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ model, ...body }),
-  })
-  if (!res.ok) {
-    const text = await res.text()
-    throw new Error(`OpenAI ${res.status}: ${text.slice(0, 400)}`)
-  }
-  return res.json()
+  const { llmChat } = await import('./openai.js')
+  return llmChat(body)
 }
 
 export function optionsMentionIngredient(options, ingredient) {

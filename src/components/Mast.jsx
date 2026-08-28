@@ -37,47 +37,49 @@ export default function Mast() {
         Culin<span>AI</span>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-        <div className="focus-control" ref={focusCtrl}>
+        <div className="focus-control">
           <span className="scope-lbl">Focus ingredient</span>
-          <button
-            type="button"
-            className="focus-btn"
-            onClick={() => setFocusOpen((o) => !o)}
-            aria-expanded={focusOpen}
-          >
-            {focusIngredient}
-          </button>
-          {focusOpen && (
-            <div className="focus-menu">
-              <input
-                type="search"
-                value={focusQuery}
-                autoFocus
-                placeholder="Search Foodb list (933)…"
-                onChange={(e) => setFocusQuery(e.target.value)}
-                aria-label="Search focus ingredient"
-              />
-              <div className="focus-hits">
-                {focusHits.map((name) => (
-                  <button
-                    key={name}
-                    type="button"
-                    className={`focus-hit${name === focusIngredient ? ' on' : ''}`}
-                    onClick={() => {
-                      setFocusIngredient(name)
-                      setFocusOpen(false)
-                      setFocusQuery('')
-                    }}
-                  >
-                    {name}
-                  </button>
-                ))}
-                {!focusHits.length && <div className="focus-empty">No matches</div>}
+          <div className="mast-dropdown" ref={focusCtrl}>
+            <button
+              type="button"
+              className="focus-btn"
+              onClick={() => setFocusOpen((o) => !o)}
+              aria-expanded={focusOpen}
+            >
+              {focusIngredient || 'Choose ingredient…'}
+            </button>
+            {focusOpen && (
+              <div className="focus-menu">
+                <input
+                  type="search"
+                  value={focusQuery}
+                  autoFocus
+                  placeholder="Search Foodb list (933)…"
+                  onChange={(e) => setFocusQuery(e.target.value)}
+                  aria-label="Search focus ingredient"
+                />
+                <div className="focus-hits">
+                  {focusHits.map((name) => (
+                    <button
+                      key={name}
+                      type="button"
+                      className={`focus-hit${name === focusIngredient ? ' on' : ''}`}
+                      onClick={() => {
+                        setFocusIngredient(name)
+                        setFocusOpen(false)
+                        setFocusQuery('')
+                      }}
+                    >
+                      {name}
+                    </button>
+                  ))}
+                  {!focusHits.length && <div className="focus-empty">No matches</div>}
+                </div>
               </div>
-            </div>
-          )}
+            )}
+          </div>
         </div>
-        <div className="scope-control" ref={ctrl}>
+        <div className="scope-control mast-dropdown" ref={ctrl}>
           <button
             type="button"
             className={`scope-btn${cuisineScope ? ' locked' : ''}`}

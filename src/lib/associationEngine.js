@@ -2,7 +2,8 @@ import { FRAMES } from '../data/domain.js'
 import * as defaultApi from '../api.js'
 import * as defaultTraditionDb from './traditionDb.js'
 import { plateSeed } from './plateSeed.js'
-import { heuristicRecipeNlg } from './matchRecipeNlg.js'
+import { matchRecipeNlg } from './matchRecipeNlg.js'
+import { getFrame } from './frameRegistry.js'
 
 /**
  * Association Engine (D1 + D2).
@@ -62,12 +63,13 @@ const dishNames = (dish) => (dish || []).map(nameOf).filter(Boolean)
 /**
  * Compound lens — flavor-network neighbors ranked by shared volatile compounds.
  */
-export async function collectCompound(dish, focusIngredient = 'Chicken', options = {}) {
+export async function collectCompound(dish, focusIngredient = null, options = {}) {
   const apiClient = options.api || defaultApi
   const names = dishNames(dish)
   const have = new Set(names)
   const haveLower = new Set([...names].map((n) => n.toLowerCase()))
   const display = plateSeed(dish, focusIngredient)
+  if (!display) return []
 
   try {
     const res = await apiClient.compound(display, options.limit || 24)
@@ -103,12 +105,13 @@ export async function collectCompound(dish, focusIngredient = 'Chicken', options
 export async function collectTradition(dish, cuisineScope, options = {}) {
   const {
     traditionDb = defaultTraditionDb,
-    focusIngredient = 'Chicken',
+    focusIngredient = null,
   } = options
   const names = dishNames(dish)
   const display = plateSeed(dish, focusIngredient)
+  if (!display) return { candidates: [], threads: [] }
   const have = new Set(names)
-  const seed = heuristicRecipeNlg(display)
+  const seed = display
 
   const { candidates, threads } = await traditionDb.getTraditionAssociation(seed, {
     exclude: names,
@@ -301,11 +304,33 @@ export function findDisagreements({
  * says so in `disagreements`, because two lenses answering is still useful.
  */
 export async function associate(state = {}, deps = {}) {
-  const { dish = [], form = null, cuisineScope = null, focusIngredient = 'Chicken' } = state
+  const { dish = [], form = null, cuisineScope = null, focusIngredient = null } = state
   const names = dishNames(dish)
   const display = plateSeed(dish, focusIngredient)
-  const recipeSeed = heuristicRecipeNlg(display)
-  const matchSource = 'heuristic'
+
+  if (!display) {
+    return {
+      seed: null,
+      dish: names,
+      form: form ? { name: form.name, overlay: getFrame(form.name)?.overlay || null } : null,
+      cuisineScope,
+      threads: [],
+      byLens: { compound: [], tradition: [], cooccurrence: [] },
+      combined: [],
+      disagreements: [],
+      cooccur: {
+        status: 'idle',
+        seed: null,
+        canonical: null,
+        error: null,
+        matchSource: null,
+      },
+    }
+  }
+
+  const matched = await matchRecipeNlg(display)
+  const recipeSeed = matched.canonical
+  const matchSource = matched.source
 
   const traditionRes = await collectTradition(dish, cuisineScope, {
     traditionDb: deps.traditionDb,
@@ -347,7 +372,7 @@ export async function associate(state = {}, deps = {}) {
   return {
     seed: cooccur.canonical,
     dish: names,
-    form: form ? { name: form.name, overlay: FRAMES[form.name]?.overlay || null } : null,
+    form: form ? { name: form.name, overlay: getFrame(form.name)?.overlay || null } : null,
     cuisineScope,
     threads: threads.map(({ title, thread, region, inScope, engaged, hits }) => ({
       title,

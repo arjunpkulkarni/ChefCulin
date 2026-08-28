@@ -38,12 +38,13 @@ export function matchFrame(q) {
   return null
 }
 
-function dishRead(dish, anchor = anchorFor('Chicken')) {
+function dishRead(dish, anchor = anchorFor(null)) {
+  const hasFocus = Boolean(anchor?.name)
   const t = {
-    glut: anchor.glut ?? 0,
-    nucl: anchor.nucl ?? 0,
+    glut: hasFocus ? (anchor.glut ?? 0) : 0,
+    nucl: hasFocus ? (anchor.nucl ?? 0) : 0,
     salt: 0,
-    fat: anchor.fat ?? 0.5,
+    fat: hasFocus ? (anchor.fat ?? 0) : 0,
     acid: 0,
     sweet: 0,
     capsaicin: 0,
@@ -79,7 +80,7 @@ function dishRead(dish, anchor = anchorFor('Chicken')) {
   return { t, jobs }
 }
 
-export function observations(dish, anchor = anchorFor('Chicken')) {
+export function observations(dish, anchor = anchorFor(null)) {
   const { t, jobs } = dishRead(dish, anchor)
   const o = []
   const names = dish.map((d) => d.name)
@@ -127,7 +128,7 @@ export function observations(dish, anchor = anchorFor('Chicken')) {
   return o
 }
 
-export function directions(dish, anchor = anchorFor('Chicken')) {
+export function directions(dish, anchor = anchorFor(null)) {
   if (dish.length < 3) return null
   const { jobs } = dishRead(dish, anchor)
   const names = dish.map((d) => d.name)
@@ -171,7 +172,7 @@ export function directions(dish, anchor = anchorFor('Chicken')) {
   return D
 }
 
-export function buildWriteUp(dish, form, anchor = anchorFor('Chicken')) {
+export function buildWriteUp(dish, form, anchor = anchorFor(null)) {
   const { jobs } = dishRead(dish, anchor)
   const formed = dish.filter((d) => d.mode)
   const unformed = dish.filter((d) => !d.mode)

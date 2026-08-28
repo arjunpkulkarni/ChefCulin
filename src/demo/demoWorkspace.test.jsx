@@ -14,7 +14,6 @@ const api = vi.hoisted(() => ({
     cooccur_edges: 69477,
     technique_edges: 10439,
     palate_db: false,
-    openai: true,
   })),
   cooccur: vi.fn(async (seed) => ({
     canonical: seed,
@@ -36,10 +35,16 @@ const api = vi.hoisted(() => ({
   techniques: vi.fn(async () => ({
     results: [{ technique: 'roast', confidence: 0.6, freq: 80 }],
   })),
+}))
+
+const openai = vi.hoisted(() => ({
   llmChat: vi.fn(),
+  openaiConfigured: vi.fn(() => true),
 }))
 
 vi.mock('../api.js', () => api)
+
+vi.mock('../lib/openai.js', () => openai)
 
 vi.mock('../lib/matchRecipeNlg.js', () => ({
   matchRecipeNlg: vi.fn(async (name) => ({
@@ -139,7 +144,42 @@ vi.mock('../lib/traditionDb.js', () => ({
       plateHits: 1,
     },
   ]),
+  listRegionPicks: vi.fn(async () => [
+    { key: 'china', label: 'China', dish_count: 120 },
+    { key: 'mexico', label: 'Mexico', dish_count: 80 },
+  ]),
+  matchTraditionRegion: vi.fn(async (text) =>
+    /china/i.test(text) ? { label: 'China', keys: ['china'] } : null
+  ),
 }))
+
+const demoFormPayload = {
+  rationale: 'Chicken centrepiece frames.',
+  forms: [
+    {
+      name: 'Seared',
+      title: 'Seared — surface browning, intact piece',
+      desc: 'High heat, surface browning.',
+      craft: [
+        { k: 'Texture', v: 'browned exterior' },
+        { k: 'Temp', v: 'hot, rested' },
+        { k: 'Sauce', v: 'pan jus' },
+      ],
+      balance: { produces: ['crisp-skin'], absent: ['long-cook'], overlay: 'sear', fat: 0.75 },
+    },
+    {
+      name: 'Confit',
+      title: 'Confit — fat as cooking medium',
+      desc: 'Slow cook in fat.',
+      craft: [
+        { k: 'Texture', v: 'spoon-tender' },
+        { k: 'Temp', v: 'reheated or crisped' },
+        { k: 'Sauce', v: 'fat is the medium' },
+      ],
+      balance: { produces: ['tender'], absent: ['crisp-skin'], overlay: 'confit', fat: 0.95 },
+    },
+  ],
+}
 
 import { runChat } from '../lib/runAgent.js'
 import { bestTraditionMatches, getDishDetail } from '../lib/traditionDb.js'
@@ -147,12 +187,19 @@ import { bestTraditionMatches, getDishDetail } from '../lib/traditionDb.js'
 beforeEach(() => {
   vi.clearAllMocks()
   api.listPalate.mockResolvedValue({ results: [] })
+  openai.llmChat.mockImplementation(async (body) => {
+    const sys = body?.messages?.[0]?.content || ''
+    if (String(sys).includes('preparation frames')) {
+      return { choices: [{ message: { content: JSON.stringify(demoFormPayload) } }] }
+    }
+    return { choices: [{ message: { content: 'ok' } }] }
+  })
 })
 
 afterEach(cleanup)
 
 function renderApp() {
-  return render(<App />)
+  return render(<App initialFocus="Chicken" />)
 }
 
 describe('demo shell', () => {
@@ -163,7 +210,7 @@ describe('demo shell', () => {
     expect(screen.getByRole('button', { name: 'Chicken' })).toBeTruthy()
     expect(screen.getByText('Cuisine scope')).toBeTruthy()
     expect(screen.getByText(/Designing a dish around Chicken/)).toBeTruthy()
-    expect(screen.getByText('Untitled — Chicken')).toBeTruthy()
+    expect(screen.getByRole('button', { name: /Untitled — Chicken/ })).toBeTruthy()
     expect(document.querySelector('.pane-c')).toBeTruthy()
     ;['Compound', 'Tradition', 'Co-occurrence', 'Associate', 'Form', 'Brainstorm'].forEach(
       (label) => {
@@ -180,13 +227,13 @@ describe('demo shell', () => {
     const hit = await screen.findByRole('button', { name: 'Garlic' })
     fireEvent.click(hit)
     expect(await screen.findByText(/Designing a dish around Garlic/)).toBeTruthy()
-    expect(screen.getByText('Untitled — Garlic')).toBeTruthy()
+    expect(screen.getByRole('button', { name: /Untitled — Garlic/ })).toBeTruthy()
   })
 
-  it('locks a documented cuisine scope from the menu', () => {
+  it('locks a documented cuisine scope from the menu', async () => {
     renderApp()
     fireEvent.click(screen.getByRole('button', { name: /Cuisine scope/ }))
-    fireEvent.click(screen.getByRole('button', { name: 'China' }))
+    fireEvent.click(await screen.findByRole('button', { name: 'China' }))
     expect(screen.getAllByText('China').length).toBeGreaterThan(0)
   })
 })
@@ -205,11 +252,11 @@ describe('demo Compound lens', () => {
 })
 
 describe('demo Form lens', () => {
-  it('commits a process frame to the sidebar', () => {
+  it('commits a process frame to the sidebar', async () => {
     renderApp()
     fireEvent.click(screen.getByRole('button', { name: /^Form$/ }))
-    expect(screen.getByText(/Preparation states that fit Chicken/)).toBeTruthy()
-    expect(screen.getByText(/Seared — surface browning/)).toBeTruthy()
+    expect(await screen.findByText(/Preparation states for Chicken/)).toBeTruthy()
+    expect(await screen.findByText(/Seared — surface browning/)).toBeTruthy()
     expect(screen.getByText(/Confit — fat as cooking medium/)).toBeTruthy()
     fireEvent.click(screen.getAllByRole('button', { name: 'Commit this form' })[0])
     expect(screen.getAllByText('Committed').length).toBeGreaterThan(0)
@@ -227,7 +274,7 @@ describe('demo Tradition lens', () => {
     expect(screen.getByText('Dapanji')).toBeTruthy()
     expect(bestTraditionMatches).toHaveBeenCalled()
     const arg = bestTraditionMatches.mock.calls[0][0]
-    expect(arg.names).toContain('Chicken')
+    expect(arg.focus).toBe('Chicken')
     expect(arg.limit).toBe(5)
   })
 

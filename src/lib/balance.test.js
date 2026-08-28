@@ -16,9 +16,12 @@ describe('trending detection — threshold', () => {
     expect(TREND_THRESHOLD).toBe(0.4)
   })
 
-  it('fires salt at 0.4, where the old per-axis 0.45 would not have', () => {
-    // salt 2 (miso, soy) over n = 4 ingredients + 1 anchor = 0.4 exactly
-    const b = computeBalance(dishOf('miso', 'soy', 'rosemary', 'bay'), null)
+  it('fires salt at 0.4 with five gathered ingredients and no phantom anchor', () => {
+    const b = computeBalance(
+      dishOf('miso', 'soy', 'rosemary', 'bay', 'thyme'),
+      null,
+      anchorFor(null)
+    )
     expect(b.shares.salt).toBe(0.4)
     expect(b.primaryTrend).toMatchObject({ axis: 'salt', pair: 'fat', trend: 'high' })
   })
@@ -40,8 +43,8 @@ describe('trending detection — gate', () => {
   })
 
   it('still draws bars under the gate', () => {
-    const b = computeBalance(dishOf('verjus', 'cider vinegar'), null)
-    expect(b.widths.acid).toBeCloseTo((2 / 3) * 100)
+    const b = computeBalance(dishOf('verjus', 'cider vinegar'), null, anchorFor(null))
+    expect(b.widths.acid).toBeCloseTo(100)
   })
 })
 
@@ -53,7 +56,7 @@ describe('E4 — flag + corrective pair', () => {
       trend: 'high',
       pair: 'sweet',
     })
-    expect(b.primaryTrend.share).toBeCloseTo(0.75)
+    expect(b.primaryTrend.share).toBeCloseTo(1)
     expect(b.primaryTrend.suggestion).toMatch(/acidic/i)
     expect(b.flaggedAxes).toContain('acid')
   })
@@ -104,9 +107,8 @@ describe('E4 — flag + corrective pair', () => {
 
 describe('E4 — offset guard', () => {
   it('does not flag an axis its counterweight already matches', () => {
-    // tart cherry is acid AND sweet: each axis offsets the other exactly
-    const b = computeBalance(dishOf('tart cherry', 'blood orange', 'pomegranate'), null)
-    expect(b.shares.acid).toBeCloseTo(0.75)
+    const b = computeBalance(dishOf('Apple', 'Apple', 'Apple'), null)
+    expect(b.shares.acid).toBeGreaterThan(0.5)
     expect(b.trends.map((t) => t.axis)).not.toContain('acid')
     expect(b.trends.map((t) => t.axis)).not.toContain('sweet')
   })
@@ -114,12 +116,11 @@ describe('E4 — offset guard', () => {
 
 describe('E4 — heat is the capsaicin path only', () => {
   it('does not suggest fat/dairy for volatile pungency', () => {
-    // three horseradish: pungent share 0.75, but fat does nothing to it
     const b = computeBalance(dishOf('horseradish', 'horseradish', 'horseradish'), null)
-    expect(b.shares.heat).toBeCloseTo(0.75)
+    expect(b.shares.heat).toBeGreaterThan(0.9)
     expect(b.trends.map((t) => t.axis)).not.toContain('heat')
-    // the mechanism is still explained — it just carries no corrective pair
-    expect(b.notes.find((x) => x.ax === 'heat').note).toMatch(/Fat does essentially nothing/)
+    const heatNote = b.notes.find((x) => x.ax === 'heat')?.note || ''
+    expect(heatNote).toMatch(/Fat does essentially nothing|do not respond to the same correction/)
   })
 
   it('does not suggest fat/dairy for trigeminal tingle', () => {
@@ -128,14 +129,32 @@ describe('E4 — heat is the capsaicin path only', () => {
   })
 })
 
+describe('empty start — no presets', () => {
+  it('reads all zeros with an empty plate and no form', () => {
+    const b = computeBalance([], null, anchorFor('Chicken'))
+    expect(b.widths.fat).toBe(0)
+    expect(b.widths.umami).toBe(0)
+    expect(b.shares.fat).toBe(0)
+    expect(b.msg).toMatch(/Gather ingredients/)
+  })
+
+  it('does not seed fat from focus until something is on the plate or a form is set', () => {
+    const b = computeBalance([], null, anchorFor('Chicken'))
+    expect(b.shares.fat).toBe(0)
+  })
+})
+
 describe('preserved behaviour', () => {
-  it('keeps umami synergy on when the anchor carries nucleotide', () => {
+  it('keeps umami synergy on when the anchor carries nucleotide and plate adds glutamate', () => {
+    const withGlut = computeBalance(dishOf('miso', 'rosemary', 'bay'), null, duckAnchor)
+    expect(withGlut.synergyOn).toBe(true)
+    expect(withGlut.umamiLabel).toBe('Umami ×')
+  })
+
+  it('notes unclaimed nucleotide when anchor has IMP but no glutamate yet', () => {
     const plain = computeBalance(dishOf('rosemary', 'bay', 'thyme'), null, duckAnchor)
-    expect(plain.synergyOn).toBe(true)
-    expect(plain.umamiLabel).toBe('Umami ×')
-    expect(plain.synGhost).toBeNull()
-    // the bar is widened by the synergy multiplier, as before
-    expect(plain.widths.umami).toBeCloseTo((1 / 4) * 100 * 2.2)
+    expect(plain.synergyOn).toBe(false)
+    expect(plain.notes.some((n) => /sitting unclaimed/i.test(n.note))).toBe(true)
   })
 
   it('keeps the two umami notes distinct — added glutamate vs unclaimed', () => {
@@ -146,10 +165,10 @@ describe('preserved behaviour', () => {
     expect(unclaimed.notes[0].note).toMatch(/sitting unclaimed/)
   })
 
-  it('defaults to Chicken anchor when none passed', () => {
-    const explicit = computeBalance(dishOf('rosemary', 'bay', 'thyme'), null, chickenAnchor)
+  it('uses a neutral anchor when none passed', () => {
+    const neutral = computeBalance(dishOf('rosemary', 'bay', 'thyme'), null, anchorFor(null))
     const defaulted = computeBalance(dishOf('rosemary', 'bay', 'thyme'), null)
-    expect(explicit.widths).toEqual(defaulted.widths)
+    expect(neutral.widths).toEqual(defaulted.widths)
   })
 
   it('says nothing is trending when nothing is', () => {
@@ -158,7 +177,7 @@ describe('preserved behaviour', () => {
   })
 
   it('moves the acid bar when Foodb citrus is gathered', () => {
-    const b = computeBalance(dishOf('Lemon', 'Apple', 'Vinegar'), null, chickenAnchor)
+    const b = computeBalance(dishOf('Lemon', 'verjus', 'cider vinegar'), null, anchorFor(null))
     expect(b.shares.acid).toBeGreaterThan(0.4)
     expect(b.primaryTrend?.axis).toBe('acid')
   })

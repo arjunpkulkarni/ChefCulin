@@ -30,10 +30,11 @@ describe('demo Form frames', () => {
 })
 
 describe('Foodb names move the balance axes', () => {
-  it('maps common Foodb labels onto acid / salt / heat', () => {
-    expect(axesFor('Lemon')).toMatchObject({ acid: 1 })
-    expect(axesFor('Soy sauce')).toMatchObject({ glut: 1, salt: 1 })
-    expect(axesFor('Vinegar')).toMatchObject({ acid: 1 })
-    expect(axesFor('miso')).toMatchObject({ glut: 1, salt: 1 })
+  it('maps common Foodb labels onto acid / salt / umami from FooDB compounds', () => {
+    expect(axesFor('Lemon').acid).toBeGreaterThan(0.4)
+    expect(axesFor('Soy sauce').glut).toBeGreaterThan(0.3)
+    expect(axesFor('Soy sauce').salt).toBeGreaterThan(0.3)
+    expect(axesFor('Vinegar').acid).toBeGreaterThan(0.25)
+    expect(axesFor('miso').glut).toBeGreaterThan(0.3)
   })
 })

@@ -1,4 +1,5 @@
-import { FRAMES, anchorFor, axesFor } from '../data/domain.js'
+import { anchorFor, axesFor } from '../data/domain.js'
+import { getFrame } from './frameRegistry.js'
 
 /**
  * Trending detection (E4) — fixed, non-adaptive.
@@ -7,8 +8,8 @@ import { FRAMES, anchorFor, axesFor } from '../data/domain.js'
  *
  *     share(axis) = axisTotal / n        where n = dish.length + 1
  *
- * `n` counts the contributors on the plate: every gathered ingredient plus the
- * focus ingredient anchor itself (glutamate / nucleotide / fat baseline).
+ * `n` counts contributors on the plate: gathered ingredients plus the focus
+ * anchor when a focus ingredient is set. No phantom anchor at an empty start.
  * This is the same normalisation `widths` already used, so a bar drawn at 40%
  * and a trend that fires at 0.4 are literally the same number — there is no
  * second scale to reconcile.
@@ -19,6 +20,13 @@ import { FRAMES, anchorFor, axesFor } from '../data/domain.js'
  * docs/trending-detection.md.
  */
 export const TREND_THRESHOLD = 0.4
+
+/** FooDB-normalised score at or above this counts as axis presence for trend flags. */
+export const AXIS_PRESENCE = 0.2
+
+function axisPresence(value) {
+  return (Number(value) || 0) >= AXIS_PRESENCE ? 1 : 0
+}
 
 /**
  * The only corrective pairs in the MVP. A trend may suggest nothing else.
@@ -82,11 +90,34 @@ export const AXIS_LABELS = {
 }
 
 /** Pure balance model for the dish sidebar. */
-export function computeBalance(dish, form, anchor = anchorFor('Chicken')) {
-  const base = form && FRAMES[form.name] ? FRAMES[form.name].fat : anchor.fat ?? 0.5
+const EMPTY_BALANCE = {
+  widths: { umami: 0, salt: 0, fat: 0, acid: 0, sweet: 0, heat: 0 },
+  shares: { umami: 0, salt: 0, fat: 0, acid: 0, sweet: 0, heat: 0, capsaicin: 0 },
+  synergyOn: false,
+  synGhost: null,
+  umamiLabel: 'Umami',
+  heatLabel: 'Heat',
+  heatResolved: false,
+  umamiResolved: false,
+  trends: [],
+  primaryTrend: null,
+  notes: [],
+  flaggedAxes: [],
+  msgClass: 'bal-gate',
+  msg: 'Gather ingredients or set a form to start the balance read.',
+}
+
+export function computeBalance(dish, form, anchor = anchorFor(null)) {
+  if (!dish.length && !form) {
+    return { ...EMPTY_BALANCE }
+  }
+
+  const hasFocus = Boolean(anchor?.name)
+  const frame = form ? getFrame(form.name) : null
+  const base = frame ? frame.fat : hasFocus ? (anchor.fat ?? 0) : 0
   const t = {
-    glut: anchor.glut ?? 0,
-    nucl: anchor.nucl ?? 0,
+    glut: hasFocus ? (anchor.glut ?? 0) : 0,
+    nucl: hasFocus ? (anchor.nucl ?? 0) : 0,
     salt: 0,
     fat: base,
     acid: 0,
@@ -95,23 +126,55 @@ export function computeBalance(dish, form, anchor = anchorFor('Chicken')) {
     pungent: 0,
     trigeminal: 0,
   }
-  if (form && FRAMES[form.name].produces.includes('salt-cured')) t.salt += 1
+  const presence = {
+    glut: axisPresence(t.glut),
+    nucl: axisPresence(t.nucl),
+    salt: 0,
+    fat: axisPresence(base),
+    acid: 0,
+    sweet: 0,
+    capsaicin: 0,
+    pungent: 0,
+    trigeminal: 0,
+  }
+  if (frame?.produces?.includes('salt-cured')) {
+    t.salt += 1
+    presence.salt += 1
+  }
 
-  const focusAx = axesFor(anchor.name)
-  for (const k of ['salt', 'acid', 'sweet', 'capsaicin', 'pungent', 'trigeminal']) {
-    if (focusAx[k]) t[k] += focusAx[k]
+  if (hasFocus) {
+    const focusAx = axesFor(anchor.name)
+    for (const k of ['salt', 'acid', 'sweet', 'capsaicin', 'pungent', 'trigeminal']) {
+      if (focusAx[k]) {
+        t[k] += focusAx[k]
+        presence[k] += axisPresence(focusAx[k])
+      }
+    }
   }
 
   dish.forEach((d) => {
     const baseAx = axesFor(d.name)
-    for (const k in baseAx) if (k in t) t[k] += baseAx[k]
+    for (const k in baseAx) {
+      if (k in t) {
+        t[k] += baseAx[k]
+        presence[k] += axisPresence(baseAx[k])
+      }
+    }
     const add = d.axAdd || {}
-    for (const k in add) if (k in t) t[k] += add[k]
+    for (const k in add) {
+      if (k in t) {
+        t[k] += add[k]
+        presence[k] += axisPresence(add[k])
+      }
+    }
   })
 
-  const n = dish.length + 1
+  const n = dish.length + (hasFocus ? 1 : 0)
+  if (n === 0) {
+    return { ...EMPTY_BALANCE }
+  }
   const umamiHave = t.glut > 0 ? t.glut / n : 0
-  const synergyOn = t.glut > 0 && t.nucl > 0
+  const synergyOn = presence.glut > 0 && presence.nucl > 0
 
   const mechs = [
     { k: 'capsaicin', label: 'Capsaicin', v: t.capsaicin },
@@ -158,11 +221,11 @@ export function computeBalance(dish, form, anchor = anchorFor('Chicken')) {
   /* Axis totals the trend rule reads. `heat` is the capsaicin total only — see
      TREND_PAIRS.heat. The heat *bar* still shows every mechanism combined. */
   const totals = {
-    salt: t.salt,
-    fat: t.fat,
-    acid: t.acid,
-    sweet: t.sweet,
-    heat: t.capsaicin,
+    salt: presence.salt,
+    fat: presence.fat,
+    acid: presence.acid,
+    sweet: presence.sweet,
+    heat: presence.capsaicin,
   }
   const shares = {
     umami: umamiHave,
@@ -219,14 +282,17 @@ export function computeBalance(dish, form, anchor = anchorFor('Chicken')) {
   /* Mechanism notes — context, not corrections. These carry no pair and are
      never actionable, so they are kept out of `trends`. */
   const notes = []
-  const addedGlut = t.glut - (anchor.glut ?? 0)
+  const plateGlutPresent = dish.some((d) => {
+    const ax = axesFor(d.name)
+    return axisPresence(ax.glut) || axisPresence((d.axAdd || {}).glut)
+  })
   const anchorLabel = anchor.name || 'the focus ingredient'
-  if (addedGlut > 0) {
+  if (plateGlutPresent && axisPresence(anchor.nucl ?? 0)) {
     notes.push({
       ax: 'umami',
       note: `${anchorLabel} already brings a nucleotide baseline — a glutamate ingredient added here is not accumulating umami, it is amplifying it: glutamate plus nucleotide is roughly an order of magnitude, not a sum. This is the dashi principle.`,
     })
-  } else if (t.nucl > 0 && addedGlut === 0) {
+  } else if (hasFocus && axisPresence(anchor.nucl ?? 0) && !plateGlutPresent) {
     notes.push({
       ax: 'umami',
       note: `${anchorLabel} carries inosinate but little free glutamate. The hatched bar is the amplification sitting unclaimed — a glutamate source (miso, soy, aged cheese, tomato, kombu) multiplies savoury depth far beyond what another meaty ingredient would.`,

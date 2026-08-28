@@ -10,7 +10,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from culin_etl.build import load_artifact_tables
-from culin_etl.llm import chat_completions, default_model, openai_configured
 from culin_etl.compound_network import index_neighbors, top_compound_neighbors
 from culin_etl.lookup import index_cooccur, index_techniques, top_cooccur, top_techniques
 from culin_etl.normalize import canonicalize
@@ -26,17 +25,6 @@ class PalateSaveBody(BaseModel):
     form: Optional[dict] = None
     cuisine_scope: Optional[dict] = None
     source: str = "f6"
-
-
-class LlmChatBody(BaseModel):
-    """Proxy body for OpenAI chat completions. Tools are executed client-side."""
-
-    messages: list[dict[str, Any]]
-    tools: Optional[list[dict[str, Any]]] = None
-    tool_choice: Optional[Any] = None
-    model: Optional[str] = None
-    temperature: float = 0.3
-    response_format: Optional[dict[str, Any]] = None
 
 
 def _load_jsonl(path: Path) -> list[dict]:
@@ -138,23 +126,7 @@ def create_app(
             "compound_edges": len(compound["neighbors"]),
             "technique_edges": len(artifacts["ingredient_technique"]),
             "palate_db": palate_ok,
-            "openai": openai_configured(),
-            "openai_model": default_model() if openai_configured() else None,
         }
-
-    @app.post("/llm/chat")
-    async def llm_chat(body: LlmChatBody):
-        """Server-side OpenAI proxy. Never expose OPENAI_API_KEY to the browser."""
-        if not body.messages:
-            raise HTTPException(status_code=400, detail="messages required")
-        return await chat_completions(
-            messages=body.messages,
-            tools=body.tools,
-            tool_choice=body.tool_choice,
-            model=body.model,
-            temperature=body.temperature,
-            response_format=body.response_format,
-        )
 
     @app.get("/meta")
     def meta():

@@ -1,0 +1,33 @@
+{
+  "source_tsv": "/Users/vedbuddaraju/CodeBases/ChefCulin/pipeline/vendor/flavor_network/compound_ingredient_health_mapping.tsv",
+  "content_csv": "/Users/vedbuddaraju/CodeBases/ChefCulin/pipeline/vendor/foodb/foodb_2020_04_07_csv/Content.csv",
+  "foodb_count": 933,
+  "compound_backed": 556,
+  "content_backed": 702,
+  "compound_ingredients": 578,
+  "compound_axis_scales": {
+    "glut": 1.0,
+    "nucl": 2.0,
+    "salt": 4.0,
+    "fat": 6.599999999999999,
+    "acid": 3.0,
+    "sweet": 1.0,
+    "capsaicin": 1.0,
+    "pungent": 3.0,
+    "trigeminal": 1.0
+  },
+  "content_axis_scales": {
+    "glut": 3790.0,
+    "nucl": 5.050000000000001,
+    "salt": 495.0,
+    "fat": 39100.0,
+    "acid": 2640.0,
+    "sweet": 35625.0,
+    "capsaicin": 16442.575,
+    "pungent": 55.703,
+    "trigeminal": 5350.0
+  },
+  "version": "foodb_content_v1",
+  "content_rows_scanned": 5145532,
+  "content_foods": 702
+}

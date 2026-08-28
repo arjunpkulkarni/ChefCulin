@@ -1,6 +1,5 @@
 import { describe, expect, it } from 'vitest'
 import {
-  DEFAULT_FOCUS,
   INGREDIENT_LIST,
   INGREDIENTS,
   compoundGroups,
@@ -13,7 +12,6 @@ describe('Foodb ingredient list', () => {
   it('covers hundreds of culinary foods', () => {
     expect(INGREDIENTS.length).toBe(933)
     expect(INGREDIENT_LIST.length).toBe(933)
-    expect(DEFAULT_FOCUS).toBe('Chicken')
     expect(INGREDIENT_LIST).toContain('Chicken')
     expect(INGREDIENT_LIST).toContain('Garlic')
     expect(INGREDIENT_LIST).toContain('Cattle (Beef, Veal)')
@@ -28,7 +26,7 @@ describe('Foodb ingredient list', () => {
 
   it('seedKey lowercases for corpus queries', () => {
     expect(seedKey('Chicken')).toBe('chicken')
-    expect(seedKey('')).toBe('chicken')
+    expect(seedKey('')).toBe('')
   })
 
   it('searchIngredients finds Foodb names', () => {

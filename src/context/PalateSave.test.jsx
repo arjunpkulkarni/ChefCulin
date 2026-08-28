@@ -12,6 +12,12 @@ const api = vi.hoisted(() => ({
 }))
 vi.mock('../api.js', () => api)
 
+vi.mock('../lib/traditionDb.js', () => ({
+  listRegionPicks: vi.fn(async () => []),
+  matchTraditionRegion: vi.fn(async () => null),
+  bestTraditionMatches: vi.fn(async () => []),
+}))
+
 /* Three acidic ingredients so a balance trend is live at the same time — the
    point being that its decisions never reach the save payload. */
 const DISH = ['verjus', 'cider vinegar', 'sorrel']

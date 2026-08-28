@@ -5,8 +5,22 @@
 
 const BASE = import.meta.env.VITE_API_BASE || '/api'
 
+function requestUrl(path) {
+  const p = path.startsWith('/') ? path : `/${path}`
+  if (BASE.startsWith('http')) {
+    const root = BASE.replace(/\/$/, '')
+    return new URL(p, `${root}/`)
+  }
+  if (typeof window !== 'undefined' && window.location?.origin) {
+    return new URL(BASE + p, window.location.origin)
+  }
+  const api =
+    (typeof process !== 'undefined' && process.env?.CULIN_API) || 'http://127.0.0.1:8001'
+  return new URL(p, `${api.replace(/\/$/, '')}/`)
+}
+
 async function get(path, params = {}) {
-  const url = new URL(BASE + path, window.location.origin)
+  const url = requestUrl(path)
   Object.entries(params).forEach(([k, v]) => {
     if (v !== undefined && v !== null) url.searchParams.set(k, String(v))
   })
@@ -19,7 +33,7 @@ async function get(path, params = {}) {
 }
 
 async function post(path, body) {
-  const res = await fetch(new URL(BASE + path, window.location.origin), {
+  const res = await fetch(requestUrl(path), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
@@ -54,9 +68,4 @@ export async function listPalate(userId, limit = 50) {
 
 export async function savePalate(body) {
   return post('/palate', body)
-}
-
-/** OpenAI proxy — key never leaves the API server. */
-export async function llmChat(body) {
-  return post('/llm/chat', body)
 }

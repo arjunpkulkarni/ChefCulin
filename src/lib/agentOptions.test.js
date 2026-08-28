@@ -12,11 +12,11 @@ import { TRADITION_SYSTEM, traditionTools } from './agentTools/tradition.js'
 import { heuristicRecipeNlg } from './matchRecipeNlg.js'
 import { parseAgentResult } from './runAgent.js'
 
-vi.mock('../api.js', () => ({
+vi.mock('./openai.js', () => ({
   llmChat: vi.fn(),
 }))
 
-import { llmChat } from '../api.js'
+import { llmChat } from './openai.js'
 import { runAgent } from './runAgent.js'
 
 describe('agent option parsing (schema gate)', () => {

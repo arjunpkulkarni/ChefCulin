@@ -1,6 +1,8 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
-import { COLORS, FRAMES, OVERLAYS, PROP_LABELS, modesFor, DEFAULT_FOCUS, INGREDIENT_LIST, anchorFor } from '../data/domain.js'
-import { formsForIngredient } from '../data/formCards.js'
+import { COLORS, FRAMES, PROP_LABELS, modesFor, INGREDIENT_LIST, anchorFor } from '../data/domain.js'
+import { getFrame, getOverlayNote } from '../lib/frameRegistry.js'
+import { fetchFormCards } from '../lib/formSuggestions.js'
+import { listRegionPicks, matchTraditionRegion } from '../lib/traditionDb.js'
 import { BALANCE_DECISIONS, computeBalance, phaseOf } from '../lib/balance.js'
 import { localUserId } from '../lib/user.js'
 import * as api from '../api.js'
@@ -8,11 +10,9 @@ import {
   buildWriteUp,
   directions,
   matchFrame,
-  matchRegion,
   observations,
 } from '../lib/chat.js'
 import { runChat } from '../lib/runAgent.js'
-import { REGION_PICKS } from '../data/domain.js'
 
 const BRAINSTORM_SYSTEM = `You are CulinAI, a working culinary collaborator in a chef's dish workspace.
 You help arrange and think about ingredients the chef has already gathered. You never invent a shopping list or choose ingredients for them unless they explicitly ask you to brainstorm possibilities — and even then, frame them as options, not decisions.
@@ -21,16 +21,25 @@ Current plate context is provided in the latest user turn when available.`
 
 const WorkspaceContext = createContext(null)
 
-export function WorkspaceProvider({ children }) {
+export function WorkspaceProvider({ children, initialFocus = null }) {
   const [dish, setDish] = useState([])
+  const [dishName, setDishName] = useState('')
   const [form, setForm] = useState(null)
-  const [focusIngredient, setFocusIngredient] = useState(DEFAULT_FOCUS)
+  const [focusIngredient, setFocusIngredient] = useState(initialFocus)
   const [cuisineScope, setCuisineScope] = useState(null)
   const [activeLens, setActiveLens] = useState('c')
   const [openIdx, setOpenIdx] = useState(null)
   const [openWhy, setOpenWhy] = useState(() => new Set())
   const [scopeMenuOpen, setScopeMenuOpen] = useState(false)
   const [chat, setChat] = useState([])
+  const [regionPicks, setRegionPicks] = useState([])
+  const [formCatalog, setFormCatalog] = useState({
+    loading: false,
+    forms: [],
+    source: null,
+    error: null,
+    rationale: null,
+  })
   /* E5 — working balance decisions. Session only: this never leaves memory.
      Palate Memory (POST /palate) is written by F6 Save and nothing else. */
   const [balanceDecisions, setBalanceDecisions] = useState([])
@@ -149,8 +158,9 @@ export function WorkspaceProvider({ children }) {
         f: form?.name || null,
         s: cuisineScope?.keys?.join(',') || null,
         focus: focusIngredient,
+        name: dishName?.trim() || null,
       }),
-    [cuisineScope, dish, form, focusIngredient]
+    [cuisineScope, dish, dishName, form, focusIngredient]
   )
   const savedNow = saveState.status === 'saved' && saveState.signature === dishSignature
   const discardedNow = saveState.status === 'discarded' && saveState.signature === dishSignature
@@ -167,6 +177,44 @@ export function WorkspaceProvider({ children }) {
   useEffect(() => {
     refreshKept()
   }, [refreshKept])
+
+  useEffect(() => {
+    let cancelled = false
+    ;(async () => {
+      try {
+        const picks = await listRegionPicks({ limit: 24 })
+        if (!cancelled) setRegionPicks(picks)
+      } catch {
+        if (!cancelled) setRegionPicks([])
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  useEffect(() => {
+    if (!focusIngredient) {
+      setFormCatalog({ loading: false, forms: [], source: null, error: null, rationale: null })
+      return
+    }
+    let cancelled = false
+    setFormCatalog((c) => ({ ...c, loading: true, error: null }))
+    ;(async () => {
+      const res = await fetchFormCards(focusIngredient)
+      if (cancelled) return
+      setFormCatalog({
+        loading: false,
+        forms: res.forms || [],
+        source: res.source,
+        error: res.error || null,
+        rationale: res.rationale || null,
+      })
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [focusIngredient])
 
   /**
    * F6 Save — the only thing in this app that writes to Postgres.
@@ -213,10 +261,10 @@ export function WorkspaceProvider({ children }) {
   const clearForm = useCallback(() => setForm(null), [])
 
   useEffect(() => {
-    if (!form) return
-    const allowed = formsForIngredient(focusIngredient).some((c) => c.name === form.name)
+    if (!form || !formCatalog.forms.length) return
+    const allowed = formCatalog.forms.some((c) => c.name === form.name)
     if (!allowed) setForm(null)
-  }, [focusIngredient, form])
+  }, [focusIngredient, form, formCatalog.forms])
 
   const lockCuisine = useCallback((key, label) => {
     const keys = key.split(',')
@@ -233,16 +281,16 @@ export function WorkspaceProvider({ children }) {
   }, [])
 
   const lockCuisineFromInput = useCallback(
-    (raw) => {
+    async (raw) => {
       const text = raw.trim()
       if (!text) return
       setScopeMenuOpen(false)
-      const match = matchRegion(text)
+      const match = await matchTraditionRegion(text)
       if (match) lockCuisine(match.keys.join(','), match.label)
       else {
         setActiveLens('b')
         push('me', { type: 'text', text: `Cuisine scope: ${text}` })
-        const known = REGION_PICKS.map((p) => p.label).join(', ')
+        const known = regionPicks.map((p) => p.label).join(', ')
         push('sys', {
           type: 'blocks',
           blocks: [
@@ -253,7 +301,9 @@ export function WorkspaceProvider({ children }) {
             },
             {
               type: 'p',
-              text: `What's actually documented right now: ${known}. If ${text} is close to one of these, say which — otherwise this stays open until a real thread is authored.`,
+              text: known
+                ? `What's actually documented right now: ${known}. If ${text} is close to one of these, say which — otherwise this stays open until a real thread is authored.`
+                : `No cuisine regions loaded from the Tradition database yet.`,
             },
             {
               type: 'ask',
@@ -263,7 +313,7 @@ export function WorkspaceProvider({ children }) {
         })
       }
     },
-    [lockCuisine, push]
+    [lockCuisine, push, regionPicks]
   )
 
   const toggleWhy = useCallback((id) => {
@@ -281,21 +331,23 @@ export function WorkspaceProvider({ children }) {
       const scopeCmd = q.match(/^(?:lock|cuisine scope|scope)\s*(?:to|:)?\s+(.+)/)
       if (scopeCmd) {
         const raw = scopeCmd[1].trim()
-        const match = matchRegion(raw)
-        if (match) {
-          lockCuisine(match.keys.join(','), match.label)
-          push('sys', {
-            type: 'blocks',
-            blocks: [
-              {
-                type: 'p',
-                text: `Locked to ${match.label}. Tradition threads are flagged accordingly — nothing is hidden, and compound and co-occurrence stay fully unfiltered.`,
-              },
-            ],
-          })
-        } else {
-          lockCuisineFromInput(raw)
-        }
+        void (async () => {
+          const match = await matchTraditionRegion(raw)
+          if (match) {
+            lockCuisine(match.keys.join(','), match.label)
+            push('sys', {
+              type: 'blocks',
+              blocks: [
+                {
+                  type: 'p',
+                  text: `Locked to ${match.label}. Tradition threads are flagged accordingly — nothing is hidden, and compound and co-occurrence stay fully unfiltered.`,
+                },
+              ],
+            })
+          } else {
+            lockCuisineFromInput(raw)
+          }
+        })()
         return
       }
 
@@ -418,7 +470,7 @@ export function WorkspaceProvider({ children }) {
         ],
       })
     },
-    [commitForm, dish, form, focusIngredient, anchor, lockCuisine, lockCuisineFromInput, push]
+    [commitForm, dish, form, focusIngredient, anchor, lockCuisine, lockCuisineFromInput, push, regionPicks]
   )
 
   const sendChat = useCallback(
@@ -474,7 +526,7 @@ export function WorkspaceProvider({ children }) {
             blocks: [
               {
                 type: 'p',
-                text: `LLM unavailable (${err?.message || err}). Set OPENAI_API_KEY on the API server and restart culin_etl.serve.`,
+                text: `LLM unavailable (${err?.message || err}). Set VITE_OPENAI_API_KEY in .env and restart npm run dev.`,
               },
             ],
           })
@@ -486,8 +538,9 @@ export function WorkspaceProvider({ children }) {
 
   const tensionFor = useCallback(
     (requires) => {
-      if (!form || !FRAMES[form.name] || !requires?.length) return null
-      const absent = new Set(FRAMES[form.name].absent || [])
+      const frame = form ? getFrame(form.name) : null
+      if (!frame || !requires?.length) return null
+      const absent = new Set(frame.absent || [])
       const hits = requires.filter((r) => absent.has(r))
       if (!hits.length) return null
       return {
@@ -499,13 +552,14 @@ export function WorkspaceProvider({ children }) {
   )
 
   const overlayNote = useMemo(() => {
-    if (!form || !FRAMES[form.name]) return null
-    const key = FRAMES[form.name].overlay
-    return OVERLAYS[key] || null
+    if (!form) return null
+    return getOverlayNote(form.name)
   }, [form])
 
   const value = {
     dish,
+    dishName,
+    setDishName,
     form,
     focusIngredient,
     setFocusIngredient,
@@ -532,7 +586,8 @@ export function WorkspaceProvider({ children }) {
     refreshKept,
     phase,
     colors: COLORS,
-    regionPicks: REGION_PICKS,
+    regionPicks,
+    formCatalog,
     addIngredient,
     removeIngredient,
     removeAt,

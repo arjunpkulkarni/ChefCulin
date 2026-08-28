@@ -5,13 +5,24 @@ CulinAI Workspace — Vite + React frontend, FastAPI artifact/palate backend.
 ## Getting started
 
 ```bash
-# backend (corpus + palate)
+cp .env.example .env   # add VITE_OPENAI_API_KEY for Form / Brainstorm
+npm install
+npm run demo           # API :8001 + Vite :5173 (one command)
+```
+
+Optional — Palate Save needs Postgres:
+
+```bash
 cd pipeline && docker compose up -d
 export DATABASE_URL=postgresql://culin:culin@127.0.0.1:5432/culin
-python -m culin_etl.serve          # :8000
+# restart npm run demo if Postgres was started after the API
+```
 
-# frontend (proxies /api → :8000)
-cd .. && npm install && npm run dev   # :5173
+Run frontend or API alone:
+
+```bash
+npm run dev            # :5173 (proxies /api → :8001)
+npm run api            # corpus + compound artifacts
 ```
 
 Vite proxies `/api/*` to FastAPI. Co-occurrence lens loads live neighbors from `GET /cooccur`.
@@ -23,7 +34,7 @@ npm test              # vitest
 ```
 
 `npm test` includes an end-to-end suite that drives the real app against a running
-backend and **skips itself** when nothing is listening on `:8000`, so it is green
+backend and **skips itself** when nothing is listening on `:8001`, so it is green
 either way. Point it elsewhere with `CULIN_API=http://host:port npm test`.
 
 > The API binds its Postgres store at startup. If you start Postgres *after*

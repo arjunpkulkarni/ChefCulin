@@ -188,7 +188,7 @@ export async function getDishDetail(id = {}) {
   }
 }
 
-/** Convenience for demos / console: list distinct cuisines. */
+/** Distinct cuisines in the Tradition DB, ranked by record count. */
 export async function listCuisines() {
   const db = await getDb()
   return runQuery(
@@ -196,10 +196,86 @@ export async function listCuisines() {
     `
     SELECT cuisine, COUNT(*) AS dish_count
     FROM use_records
+    WHERE cuisine IS NOT NULL AND TRIM(cuisine) != ''
     GROUP BY cuisine
     ORDER BY dish_count DESC, cuisine ASC
     `
   )
+}
+
+/**
+ * Cuisine scope picks for the mast — from documented Tradition records, not a static list.
+ * @returns {Promise<Array<{ key: string, label: string, dish_count: number }>>}
+ */
+export async function listRegionPicks({ limit = 24 } = {}) {
+  const db = await getDb()
+  const cap = Math.min(Math.max(Number(limit) || 24, 1), 60)
+  const rows = runQuery(
+    db,
+    `
+    SELECT country, cuisine, COUNT(*) AS dish_count
+    FROM use_records
+    WHERE (country IS NOT NULL AND TRIM(country) != '')
+       OR (cuisine IS NOT NULL AND TRIM(cuisine) != '')
+    GROUP BY country, cuisine
+    ORDER BY dish_count DESC, country ASC, cuisine ASC
+    LIMIT ?
+    `,
+    [cap]
+  )
+  const seen = new Set()
+  const picks = []
+  for (const row of rows) {
+    const label = row.country || row.cuisine
+    if (!label) continue
+    const key = String(label).toLowerCase().replace(/\s+/g, '_')
+    if (seen.has(key)) continue
+    seen.add(key)
+    picks.push({
+      key,
+      label,
+      dish_count: Number(row.dish_count) || 0,
+      cuisine: row.cuisine || null,
+    })
+  }
+  return picks
+}
+
+/**
+ * Match free-text region input against Tradition DB geography fields.
+ * @returns {Promise<{ label: string, keys: string[] } | null>}
+ */
+export async function matchTraditionRegion(raw) {
+  const text = String(raw || '').trim()
+  if (!text) return null
+  const terms = cuisineSearchTerms(text)
+  const db = await getDb()
+  const clause = terms
+    .map(
+      () =>
+        `(LOWER(country) LIKE LOWER(?) OR LOWER(cuisine) LIKE LOWER(?) OR LOWER(region_or_community) LIKE LOWER(?) OR LOWER(source_thread) LIKE LOWER(?))`
+    )
+    .join(' OR ')
+  const params = terms.flatMap((t) => [`%${t}%`, `%${t}%`, `%${t}%`, `%${t}%`])
+  const rows = runQuery(
+    db,
+    `
+    SELECT country, cuisine, region_or_community, COUNT(*) AS dish_count
+    FROM use_records
+    WHERE ${clause}
+    GROUP BY country, cuisine, region_or_community
+    ORDER BY dish_count DESC
+    LIMIT 1
+    `,
+    params
+  )
+  if (!rows.length) return null
+  const row = rows[0]
+  const label = row.country || row.cuisine || row.region_or_community
+  const keys = [row.country, row.cuisine, row.region_or_community]
+    .filter(Boolean)
+    .map((s) => String(s).toLowerCase().replace(/\s+/g, '_'))
+  return { label, keys: [...new Set(keys)] }
 }
 
 /**
@@ -369,39 +445,52 @@ function rowToOption(row) {
   }
 }
 
-/**
- * Top documented dishes for the focus ingredient plus anything already gathered.
- * Ranked by how many plate tokens hit companions / dish text, then traditionality.
- */
-export async function bestTraditionMatches({
-  names = [],
-  cuisine = null,
-  cuisineScope = null,
-  limit = 5,
-} = {}) {
-  const db = await getDb()
-  const tokens = traditionSearchTokens(names)
-  const cap = Math.min(Math.max(Number(limit) || 5, 1), 12)
-  if (!tokens.length) return []
+function mergeOptions(primary, extra, cap) {
+  const seen = new Set(primary.map((r) => r.id))
+  const out = [...primary]
+  for (const row of extra) {
+    if (seen.has(row.id)) continue
+    seen.add(row.id)
+    out.push(row)
+    if (out.length >= cap) break
+  }
+  return out
+}
 
-  const cuisineTerms = cuisine
-    ? cuisineSearchTerms(cuisine)
-    : cuisineScope?.label
-      ? cuisineSearchTerms(cuisineScope.label)
-      : []
+export function plateTokensFromNames(focusName, plateNames = []) {
+  const focusSet = new Set(traditionSearchTokens([focusName]))
+  return traditionSearchTokens(plateNames).filter((t) => !focusSet.has(t))
+}
 
-  const hitLikes = tokens.map(() => 'LOWER(COALESCE(ci.ingredient_name,\'\')) LIKE ?').join(' OR ')
+function tokenWhereClause(tokens) {
+  if (!tokens.length) return { sql: '1=0', params: [] }
   const whereLikes = tokens
     .map(
       () =>
         `(LOWER(ur.item) LIKE ? OR LOWER(COALESCE(ur.use_or_dish,'')) LIKE ? OR LOWER(COALESCE(ci.ingredient_name,'')) LIKE ?)`
     )
     .join(' OR ')
-  const hitParams = tokens.map((t) => `%${t}%`)
-  const whereParams = tokens.flatMap((t) => {
+  const params = tokens.flatMap((t) => {
     const like = `%${t}%`
     return [like, like, like]
   })
+  return { sql: `(${whereLikes})`, params }
+}
+
+function companionHitClause(tokens) {
+  if (!tokens.length) return { sql: '0', params: [] }
+  const hitLikes = tokens.map(() => "LOWER(COALESCE(ci.ingredient_name,'')) LIKE ?").join(' OR ')
+  return { sql: `(${hitLikes})`, params: tokens.map((t) => `%${t}%`) }
+}
+
+function queryTraditionRows(
+  db,
+  { focusTokens, plateTokens = [], cuisineTerms = [], limit = 5, excludeIds = new Set() }
+) {
+  if (!focusTokens.length) return []
+
+  const focus = tokenWhereClause(focusTokens)
+  const plateHits = companionHitClause(plateTokens)
 
   let cuisineSql = ''
   const cuisineParams = []
@@ -412,6 +501,7 @@ export async function bestTraditionMatches({
     for (const t of cuisineTerms) cuisineParams.push(`%${t}%`, `%${t}%`)
   }
 
+  const fetchCap = Math.min(limit + excludeIds.size + 8, 32)
   const rows = runQuery(
     db,
     `
@@ -425,18 +515,71 @@ export async function bestTraditionMatches({
       ur.traditionality_score,
       ur.source_thread,
       ur.region_or_community,
-      COUNT(DISTINCT CASE WHEN (${hitLikes}) THEN LOWER(ci.ingredient_name) END) AS plate_hits
+      COUNT(DISTINCT CASE WHEN ${plateHits.sql} THEN LOWER(ci.ingredient_name) END) AS plate_hits
     FROM use_records ur
     LEFT JOIN companion_ingredients ci ON ci.dish_id = ur.dish_id
-    WHERE (${whereLikes})
+    WHERE ${focus.sql}
     ${cuisineSql}
     GROUP BY ur.record_id
     ORDER BY plate_hits DESC, COALESCE(ur.traditionality_score, -1) DESC, ur.item ASC
     LIMIT ?
     `,
-    [...hitParams, ...whereParams, ...cuisineParams, cap]
+    [...plateHits.params, ...focus.params, ...cuisineParams, fetchCap]
   )
 
-  return rows.map(rowToOption)
+  return rows.filter((r) => !excludeIds.has(r.record_id)).slice(0, limit)
+}
+
+/**
+ * Top documented dishes for the focus (core) ingredient.
+ * Core match is mandatory; other gathered plate items boost rank via plate_hits.
+ * Fills to `limit` (default 5) by relaxing cuisine scope only — never drops the core.
+ */
+export async function bestTraditionMatches({
+  names = [],
+  focus = null,
+  cuisine = null,
+  cuisineScope = null,
+  limit = 5,
+} = {}) {
+  const db = await getDb()
+  const focusName = focus || names[0]
+  if (!focusName) return []
+
+  const plateNames = focus != null ? names.filter((n) => n !== focusName) : names.slice(1)
+  const focusTokens = traditionSearchTokens([focusName])
+  const plateTokens = plateTokensFromNames(focusName, plateNames)
+  const cap = Math.min(Math.max(Number(limit) || 5, 1), 12)
+  if (!focusTokens.length) return []
+
+  const cuisineTerms = cuisine
+    ? cuisineSearchTerms(cuisine)
+    : cuisineScope?.label
+      ? cuisineSearchTerms(cuisineScope.label)
+      : []
+
+  const excludeIds = new Set()
+  const take = (rows) => {
+    const options = rows.map(rowToOption)
+    options.forEach((o) => excludeIds.add(o.id))
+    return options
+  }
+
+  const query = (cuisineFilter, n) =>
+    queryTraditionRows(db, {
+      focusTokens,
+      plateTokens,
+      cuisineTerms: cuisineFilter,
+      limit: n,
+      excludeIds,
+    })
+
+  let options = take(query(cuisineTerms, cap))
+
+  if (options.length < cap && cuisineTerms.length) {
+    options = mergeOptions(options, take(query([], cap - options.length)), cap)
+  }
+
+  return options
 }
 

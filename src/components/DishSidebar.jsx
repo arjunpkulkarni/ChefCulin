@@ -1,12 +1,70 @@
+import { useState } from 'react'
 import { useWorkspace } from '../context/WorkspaceContext.jsx'
 import { COLORS } from '../data/domain.js'
 import { AXIS_LABELS, BALANCE_DECISIONS } from '../lib/balance.js'
 
 const DECISION_LABELS = { accept: 'Accept', adjust: 'Adjust', override: 'Override' }
 
+function DishTitle({ dishName, setDishName, focusIngredient }) {
+  const [editing, setEditing] = useState(false)
+  const [draft, setDraft] = useState('')
+  const focus = focusIngredient || 'pick a focus'
+  const named = Boolean(dishName?.trim())
+
+  const startEdit = () => {
+    setDraft(dishName || '')
+    setEditing(true)
+  }
+
+  const commit = () => {
+    setDishName(draft.trim())
+    setEditing(false)
+  }
+
+  const cancel = () => {
+    setDraft(dishName || '')
+    setEditing(false)
+  }
+
+  if (editing) {
+    return (
+      <input
+        className="dish-title-input"
+        aria-label="Dish name"
+        value={draft}
+        autoFocus
+        placeholder="Name this dish"
+        onChange={(e) => setDraft(e.target.value)}
+        onBlur={commit}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter') {
+            e.preventDefault()
+            commit()
+          }
+          if (e.key === 'Escape') {
+            e.preventDefault()
+            cancel()
+          }
+        }}
+      />
+    )
+  }
+
+  return (
+    <button type="button" className="dish-title" onClick={startEdit} title="Click to name this dish">
+      <span className={named ? 'dish-title-name' : 'dish-title-name dish-title-placeholder'}>
+        {named ? dishName.trim() : 'Untitled'}
+      </span>
+      <span className="dish-title-focus"> — {focus}</span>
+    </button>
+  )
+}
+
 export default function DishSidebar() {
   const {
     dish,
+    dishName,
+    setDishName,
     form,
     focusIngredient,
     phase,
@@ -37,7 +95,11 @@ export default function DishSidebar() {
   return (
     <aside className="dish">
       <div className="dish-eyebrow">The dish</div>
-      <div className="dish-title">Untitled — {focusIngredient}</div>
+      <DishTitle
+        dishName={dishName}
+        setDishName={setDishName}
+        focusIngredient={focusIngredient}
+      />
 
       <div className={phase.className}>
         <span className="ph-l">{phase.label}</span>

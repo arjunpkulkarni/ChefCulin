@@ -1,4 +1,16 @@
 import { describe, expect, it, vi } from 'vitest'
+
+vi.mock('./matchRecipeNlg.js', async (importOriginal) => {
+  const mod = await importOriginal()
+  return {
+    ...mod,
+    matchRecipeNlg: vi.fn(async (name) => ({
+      canonical: mod.heuristicRecipeNlg(name),
+      source: 'test',
+    })),
+  }
+})
+
 import {
   HUBS,
   associate,
@@ -118,9 +130,9 @@ describe('collectTradition', () => {
     const traditionDb = stubTraditionDb(['hoisin', 'scallion'])
     const { candidates } = await collectTradition(dishOf(), null, {
       traditionDb,
-      matchIngredient: smartMatch,
+      focusIngredient: 'Chicken',
     })
-    expect(traditionDb.getTraditionAssociation).toHaveBeenCalledWith('chicken', {
+    expect(traditionDb.getTraditionAssociation).toHaveBeenCalledWith('Chicken', {
       exclude: [],
       limit: 16,
       cuisineScope: null,
@@ -132,7 +144,6 @@ describe('collectTradition', () => {
     const traditionDb = stubTraditionDb(['thyme'])
     await collectTradition(dishOf('miso', 'cherry'), null, {
       traditionDb,
-      matchIngredient: identityMatch,
     })
     expect(traditionDb.getTraditionAssociation).toHaveBeenCalledWith(
       'cherry',
@@ -237,7 +248,7 @@ describe('D1 — associate', () => {
     )
     expect(emptyApi.cooccur).toHaveBeenCalledWith('chicken', 24)
     expect(emptyTradition.getTraditionAssociation).toHaveBeenCalledWith(
-      'chicken',
+      'Chicken',
       expect.any(Object)
     )
   })
@@ -245,7 +256,7 @@ describe('D1 — associate', () => {
   it('finds the multi-lens intersection across lenses', async () => {
     const api = stubApi(['Garlic', 'bergamot', 'pear'], { compound: ['Garlic', 'Miso'] })
     const traditionDb = stubTraditionDb(['Garlic', 'Miso'])
-    const data = await associate({ dish: dishOf() }, { api, traditionDb, matchIngredient: smartMatch })
+    const data = await associate({ dish: dishOf(), focusIngredient: 'Chicken' }, { api, traditionDb, matchIngredient: smartMatch })
 
     expect(find(data.combined, 'Garlic').lenses).toEqual([
       'compound',
@@ -263,7 +274,7 @@ describe('D1 — associate', () => {
   it('sorts three-lens convergence above two-lens', async () => {
     const api = stubApi(['Garlic', 'bergamot'])
     const traditionDb = stubTraditionDb(['Garlic'])
-    const data = await associate({ dish: dishOf() }, { api, traditionDb, matchIngredient: smartMatch })
+    const data = await associate({ dish: dishOf(), focusIngredient: 'Chicken' }, { api, traditionDb, matchIngredient: smartMatch })
     expect(data.combined[0].name).toBe('Garlic')
     expect(data.combined[0].lenses).toHaveLength(3)
   })
@@ -313,7 +324,7 @@ describe('D2 — disagreement handling: flag, do not suppress', () => {
       compound: ['compound-only-ingredient'],
     })
     const traditionDb = stubTraditionDb(['tradition-only'])
-    const data = await associate({ dish: dishOf() }, { api, traditionDb, matchIngredient: smartMatch })
+    const data = await associate({ dish: dishOf(), focusIngredient: 'Chicken' }, { api, traditionDb, matchIngredient: smartMatch })
 
     const themes = data.disagreements.map((d) => d.theme)
     expect(themes).toContain('corpus vs tradition')
@@ -328,7 +339,7 @@ describe('D2 — disagreement handling: flag, do not suppress', () => {
   it('does not flag divergence when the lenses do overlap', async () => {
     const api = stubApi(['Miso', 'Garlic'], { compound: ['Miso', 'Garlic'] })
     const traditionDb = stubTraditionDb(['Miso', 'Garlic'])
-    const data = await associate({ dish: dishOf() }, { api, traditionDb, matchIngredient: smartMatch })
+    const data = await associate({ dish: dishOf(), focusIngredient: 'Chicken' }, { api, traditionDb, matchIngredient: smartMatch })
     const themes = data.disagreements.map((d) => d.theme)
     expect(themes).not.toContain('corpus vs tradition')
     expect(themes).not.toContain('corpus vs chemistry')
@@ -343,10 +354,10 @@ describe('D2 — disagreement handling: flag, do not suppress', () => {
       ],
     })
     const scoped = await associate(
-      { dish: dishOf(), cuisineScope: { label: 'China', keys: ['china'] } },
+      { dish: dishOf(), focusIngredient: 'Chicken', cuisineScope: { label: 'China', keys: ['china'] } },
       { api, traditionDb, matchIngredient: smartMatch }
     )
-    const open = await associate({ dish: dishOf() }, { api, traditionDb, matchIngredient: smartMatch })
+    const open = await associate({ dish: dishOf(), focusIngredient: 'Chicken' }, { api, traditionDb, matchIngredient: smartMatch })
 
     expect(scoped.byLens.tradition.length).toBe(open.byLens.tradition.length)
     expect(nameSet(scoped.combined).size).toBe(nameSet(open.combined).size)

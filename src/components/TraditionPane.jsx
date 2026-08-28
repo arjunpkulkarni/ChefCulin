@@ -21,27 +21,34 @@ export default function TraditionPane() {
   }, [focusIngredient, cuisineScope])
 
   useEffect(() => {
+    if (!focusIngredient) {
+      setStatus({ kind: 'empty', text: 'Choose a focus ingredient to load tradition matches.' })
+      setOptions([])
+      return
+    }
+
     let cancelled = false
     setBusy(true)
     setStatus({ kind: 'loading', text: 'Loading tradition matches…' })
     ;(async () => {
       try {
-        const names = [focusIngredient, ...dish.map((d) => d.name)]
+        const plateNames = dish.map((d) => d.name)
         const rows = await bestTraditionMatches({
-          names,
+          focus: focusIngredient,
+          names: plateNames,
           cuisine: cuisineScope?.label,
           cuisineScope,
           limit: 5,
         })
         if (cancelled) return
         setOptions(rows)
-        const plate = dish.length
-          ? `${focusIngredient} plus ${dish.map((d) => d.name).join(', ')}`
+        const plate = plateNames.length
+          ? `${focusIngredient} plus ${plateNames.join(', ')}`
           : focusIngredient
         setRationale(
           rows.length
-            ? `Five strongest Tradition-DB matches for ${plate}. Ranked by how many of those names appear as companions or in the dish text, then by documented traditionality.`
-            : `No Tradition-DB rows mention ${plate}.`
+            ? `Five Tradition-DB dishes featuring ${focusIngredient}. Cards that share more of your gathered plate rank higher; cuisine scope only widens the pool when needed.`
+            : `No Tradition-DB rows mention ${focusIngredient}.`
         )
         setStatus({
           kind: rows.length ? 'ok' : 'empty',
@@ -95,9 +102,9 @@ export default function TraditionPane() {
   return (
     <section className="pane pane-t on">
       <p className="pane-intro">
-        Documented dishes that mention {focusIngredient}
-        {dish.length ? ' and what you have already gathered' : ''}. These five are loaded from the
-        Tradition database — pick a card to pull its companion ingredients onto the plate.
+        Documented dishes that feature <strong>{focusIngredient}</strong>
+        {dish.length ? ' — ranked by how many other gathered ingredients they share' : ''}.
+        Pick a card to pull its companion ingredients onto the plate.
       </p>
 
       {cuisineScope && (

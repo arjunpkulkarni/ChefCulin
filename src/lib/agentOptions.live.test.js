@@ -1,8 +1,8 @@
 /**
  * Live Tradition agent tests — real OpenAI + real Tradition SQLite.
  *
- * Skips unless OPENAI_API_KEY is set:
- *   OPENAI_API_KEY=sk-... npm run test:agent:live
+ * Skips unless VITE_OPENAI_API_KEY or OPENAI_API_KEY is set:
+ *   VITE_OPENAI_API_KEY=sk-... npm run test:agent:live
  *
  * Never hardcode keys in this file.
  */
@@ -10,18 +10,23 @@ import { beforeAll, describe, expect, it, vi } from 'vitest'
 import {
   assertAgentResult,
   makeTraditionToolHandler,
-  openAiChat,
   openTraditionDb,
   optionsMatchCuisine,
   optionsMentionIngredient,
 } from './agentTestHelpers.js'
 import { TRADITION_SYSTEM, traditionTools } from './agentTools/tradition.js'
 
-const HAS_KEY = Boolean(process.env.OPENAI_API_KEY?.trim())
+const HAS_KEY = Boolean(
+  process.env.VITE_OPENAI_API_KEY?.trim() || process.env.OPENAI_API_KEY?.trim()
+)
 
-vi.mock('../api.js', () => ({
-  llmChat: vi.fn(async (body) => openAiChat(body)),
-}))
+vi.mock('./openai.js', async () => {
+  const { openAiChat } = await import('./agentTestHelpers.js')
+  return {
+    llmChat: vi.fn(async (body) => openAiChat(body)),
+    openaiConfigured: () => HAS_KEY,
+  }
+})
 
 import { runAgent } from './runAgent.js'
 import { matchRecipeNlg, _clearMatchCache } from './matchRecipeNlg.js'

@@ -1,15 +1,14 @@
 import { useEffect, useState } from 'react'
 import { useWorkspace } from '../context/WorkspaceContext.jsx'
 import * as api from '../api.js'
-import { HUBS } from '../lib/associationEngine.js'
 import { plateSeed } from '../lib/plateSeed.js'
-import { heuristicRecipeNlg } from '../lib/matchRecipeNlg.js'
+import { matchRecipeNlg } from '../lib/matchRecipeNlg.js'
 import Chip from './Chip.jsx'
 
 export default function CooccurPane() {
   const { dish, cuisineScope, focusIngredient } = useWorkspace()
   const [status, setStatus] = useState({ kind: 'loading', text: 'Connecting to corpus API…' })
-  const [seed, setSeed] = useState(focusIngredient)
+  const [seed, setSeed] = useState('')
   const [matchMeta, setMatchMeta] = useState(null)
   const [neighbors, setNeighbors] = useState([])
   const [techs, setTechs] = useState([])
@@ -17,12 +16,26 @@ export default function CooccurPane() {
 
   useEffect(() => {
     const display = plateSeed(dish, focusIngredient)
+    if (!display) {
+      setStatus({
+        kind: 'empty',
+        text: 'Choose a focus ingredient or gather one on the plate to seed the corpus.',
+      })
+      setNeighbors([])
+      setTechs([])
+      return
+    }
+
     let cancelled = false
-    const canonical = heuristicRecipeNlg(display)
-    setMatchMeta({ display, canonical, source: 'heuristic' })
-    setStatus({ kind: 'loading', text: `Loading corpus neighbors for ${canonical}…` })
+    setStatus({ kind: 'loading', text: `Resolving RecipeNLG token for “${display}”…` })
     ;(async () => {
       try {
+        const matched = await matchRecipeNlg(display)
+        if (cancelled) return
+        const canonical = matched.canonical
+        setMatchMeta({ display, canonical, source: matched.source })
+        setStatus({ kind: 'loading', text: `Loading corpus neighbors for ${canonical}…` })
+
         const [health, co, tech] = await Promise.all([
           api.health(),
           api.cooccur(canonical, 24),
@@ -37,9 +50,9 @@ export default function CooccurPane() {
         setSeed(canon)
         setNeighbors(rows)
         setTechs(tech.results || [])
-        const via = `RecipeNLG token “${canon}” (heuristic from “${display}”)`
+        const via = `RecipeNLG token “${canon}” (${matched.source} from “${display}”)`
         setWhy(
-          `${via}. Neighbors of ${canon} from precomputed NPMI tables` +
+          `${via}. Neighbors from precomputed NPMI tables` +
             (health.cooccur_edges
               ? ` (${health.cooccur_edges.toLocaleString()} edges)`
               : '') +
@@ -55,7 +68,7 @@ export default function CooccurPane() {
         setTechs([])
         setStatus({
           kind: 'err',
-          text: `Corpus API unreachable. Start: npm run api — ${err.message || err}`,
+          text: `Corpus API unreachable. Start: npm run demo (or npm run api) — ${err.message || err}`,
         })
       }
     })()
@@ -91,7 +104,7 @@ export default function CooccurPane() {
         <div className="group">
           <div className="g-label">
             Corpus neighbors{' '}
-            <span className="posture p-corp">{status.kind === 'loading' ? 'loading' : seed}</span>
+            <span className="posture p-corp">{status.kind === 'loading' ? 'loading' : seed || '—'}</span>
           </div>
           <div className="g-why">{why || 'Live co-occurrence from RecipeNLG artifact tables (NPMI).'}</div>
           <div className="chips">
@@ -134,9 +147,26 @@ export default function CooccurPane() {
 
       <div className="closer">
         Seeded from {dish.length ? 'the last ingredient on your plate' : `your focus — ${focusIngredient}`}
-        {matchMeta ? ` → RecipeNLG “${matchMeta.canonical}” (${matchMeta.source})` : ''}.
-        Neighbors come from the RecipeNLG corpus only.
+        {matchMeta ? ` → RecipeNLG “${matchMeta.canonical}” (${matchMeta.source})` : ''}. Neighbors
+        come from the RecipeNLG corpus only.
       </div>
     </section>
   )
 }
+
+const HUBS = new Set([
+  'salt',
+  'butter',
+  'sugar',
+  'water',
+  'pepper',
+  'black pepper',
+  'oil',
+  'olive oil',
+  'vegetable oil',
+  'flour',
+  'egg',
+  'eggs',
+  'onion',
+  'garlic',
+])

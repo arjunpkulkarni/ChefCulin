@@ -62,6 +62,9 @@ vi.mock('../lib/traditionDb.js', () => ({
     ],
   })),
   _resetDbForTests: vi.fn(),
+  listRegionPicks: vi.fn(async () => [{ key: 'china', label: 'China', dish_count: 1 }]),
+  matchTraditionRegion: vi.fn(async () => null),
+  bestTraditionMatches: vi.fn(async () => []),
 }))
 
 vi.mock('../lib/matchRecipeNlg.js', () => ({
@@ -97,7 +100,7 @@ function Harness() {
 
 const renderPanel = () =>
   render(
-    <WorkspaceProvider>
+    <WorkspaceProvider initialFocus="Chicken">
       <Harness />
     </WorkspaceProvider>
   )

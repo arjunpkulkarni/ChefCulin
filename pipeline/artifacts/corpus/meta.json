@@ -1,0 +1,13 @@
+{
+  "source": "/Users/vedbuddaraju/CodeBases/culin-wiki-test/data/recipenlg/full_dataset.csv",
+  "scanned": 248335,
+  "kept": 247719,
+  "dumped": 616,
+  "cooccur_recipes": 247719,
+  "cooccur_edges": 69477,
+  "technique_edges": 10439,
+  "unique_ingredients": 21323,
+  "min_pair_freq": 5,
+  "min_tech_freq": 3,
+  "seconds": 54.77
+}

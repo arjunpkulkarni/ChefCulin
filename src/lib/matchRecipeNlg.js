@@ -3,7 +3,7 @@
  * Corpus tables use simple lowercase tokens (chicken, orange, beef); Foodb uses
  * "Cattle (Beef, Veal)", "Sweet orange", "Mallard duck", etc.
  */
-import { llmChat } from '../api.js'
+import { llmChat } from './openai.js'
 import { seedKey } from '../data/ingredients.js'
 
 const MEMORY = new Map()
@@ -59,7 +59,7 @@ loadStorage()
 /** Deterministic guesses before calling the LLM. */
 export function heuristicRecipeNlg(name) {
   const raw = String(name || '').trim()
-  if (!raw) return 'chicken'
+  if (!raw) return ''
 
   // Prefer parenthetical culinary names: "Cattle (Beef, Veal)" → beef
   const paren = raw.match(/\(([^)]+)\)/)

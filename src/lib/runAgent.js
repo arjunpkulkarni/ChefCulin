@@ -1,9 +1,9 @@
-import { llmChat } from '../api.js'
+import { llmChat } from './openai.js'
 
 const MAX_ROUNDS = 6
 
 /**
- * Shared tool-calling loop. Tools run in the browser; OpenAI is proxied via /api/llm/chat.
+ * Shared tool-calling loop. Tools run in the browser; OpenAI via VITE_OPENAI_API_KEY.
  *
  * @param {{
  *   system: string,

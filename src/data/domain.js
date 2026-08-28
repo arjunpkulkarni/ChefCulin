@@ -1,4 +1,5 @@
 import { lookupIngredient } from './ingredients.js'
+import { anchorProfileFor, axesForDb } from './balanceAxes.js'
 
 export const AXES = {
     'rosemary':{}, 'juniper':{}, 'bay':{}, 'bergamot':{}, 'orange peel':{}, 'spruce':{}, 'fir':{},
@@ -96,34 +97,16 @@ export const PROP_LABELS = {
     'rendered-fat':'rendered fat', 'dark-meat':'dark meat'
   };
 
-export const ANCHOR = { name:'Chicken', glut:0, nucl:1, fat:0.45 };
+export { INGREDIENT_LIST } from './ingredients.js'
 
-export { DEFAULT_FOCUS, INGREDIENT_LIST } from './ingredients.js'
-/** Nucleotide / fat baselines keyed by Foodb display names. */
 export const PROTEIN_PROFILES = {
-  Chicken: { nucl: 1, fat: 0.45 },
-  'Mallard duck': { glut: 1, nucl: 1, fat: 1 },
-  'Velvet duck': { glut: 1, nucl: 1, fat: 1 },
-  Turkey: { nucl: 1, fat: 0.4 },
-  'Cattle (Beef, Veal)': { nucl: 1, fat: 0.55 },
-  'Domestic pig': { nucl: 1, fat: 0.6 },
-  'Sheep (Mutton, Lamb)': { nucl: 1, fat: 0.55 },
-  'Domestic goat': { nucl: 1, fat: 0.45 },
-  Bison: { nucl: 1, fat: 0.45 },
-  'European rabbit': { nucl: 1, fat: 0.35 },
-  Rabbit: { nucl: 1, fat: 0.35 },
+  /* Deprecated — anchor axes now come from balance_axes.json (FooDB compounds). */
 }
 
 /** Balance anchor for whatever ingredient the chef is designing around. */
 export function anchorFor(name) {
-  const ax = AXES[String(name || '').toLowerCase()] || {}
-  const protein = PROTEIN_PROFILES[name] || PROTEIN_PROFILES[String(name || '')] || {}
-  return {
-    name: name || 'Chicken',
-    glut: protein.glut ?? ax.glut ?? 0,
-    nucl: protein.nucl ?? ax.nucl ?? 0,
-    fat: protein.fat ?? ax.fat ?? 0.5,
-  }
+  if (!name) return { name: '', glut: 0, nucl: 0, fat: 0 }
+  return anchorProfileFor(name)
 }
 
 export const DELIVERY = {
@@ -331,8 +314,11 @@ function axesFromFoodb(name) {
   return GROUP_AXES[row.food_group] || {}
 }
 
-/** Case-insensitive AXES lookup, then Foodb family fallback so bars move for the 933 list. */
+/** FooDB compound DB first, then legacy demo nicknames, then taxonomy hints. */
 export function axesFor(name) {
+  const db = axesForDb(name)
+  if (Object.keys(db).length) return db
+
   const key = String(name || '')
   const lower = key.toLowerCase()
   if (AXES[key]) return AXES[key]

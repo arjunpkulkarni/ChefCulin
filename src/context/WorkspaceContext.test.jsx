@@ -14,7 +14,13 @@ const palate = vi.hoisted(() => ({
 }))
 vi.mock('../api.js', () => palate)
 
-/* Three acidic ingredients, no sweetness: acid share 3/4, sweet 0. */
+vi.mock('../lib/traditionDb.js', () => ({
+  listRegionPicks: vi.fn(async () => []),
+  matchTraditionRegion: vi.fn(async () => null),
+  bestTraditionMatches: vi.fn(async () => []),
+}))
+
+/* Three acidic ingredients, no sweetness: acid share 3/3 without a focus anchor. */
 const ACID_DISH = ['verjus', 'cider vinegar', 'sorrel']
 
 function Harness({ seed = ACID_DISH }) {
@@ -56,10 +62,10 @@ afterEach(() => {
 })
 
 describe('E4 — the flag reaches the UI', () => {
-  it('shows nothing before the 3-ingredient gate', () => {
+  it('shows nothing before ingredients are gathered', () => {
     renderWorkspace()
     expect(document.querySelector('.trend')).toBeNull()
-    expect(screen.getByText(/Balance check begins at 3 ingredients/)).toBeTruthy()
+    expect(screen.getByText(/Gather ingredients or set a form/)).toBeTruthy()
   })
 
   it('renders the flagged axis, its pair and the suggestion', () => {
@@ -99,7 +105,7 @@ describe('E5 — decisions are session state', () => {
       decision: 'accept',
       dishSnapshot: ACID_DISH,
     })
-    expect(log[0].share).toBeCloseTo(0.75)
+    expect(log[0].share).toBeCloseTo(1)
     expect(Date.parse(log[0].at)).not.toBeNaN()
   })
 
