@@ -1,0 +1,36 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# pipeline dev / secrets
+pipeline/.venv/
+pipeline/**/__pycache__/
+pipeline/.pytest_cache/
+pipeline/.env
+.env
+.env.*
+!.env.example
+*.pyc
+
+# FooDB — too large for GitHub; kept locally (npm run fetch:foodb)
+pipeline/vendor/foodb/*.tar.gz
+pipeline/vendor/foodb/*.zip
+pipeline/vendor/foodb/foodb_2020_04_07_csv/Content.csv
+
+# VCF compound layer — pipeline output, tracked in git.
+# 2026-08-30: reviewed and lifted the blanket exclude — these artifacts are
+# load-bearing at runtime, not purely derived/rebuildable (see meta.json,
+# which is the pipeline's audit trail and needs version history).
+# The two large intermediate tables are excluded pending Git LFS or a
+# documented regeneration step: each is a single ~25-30MB file that churns
+# heavily on every rebuild.
+pipeline/artifacts/vcf/quantities.jsonl
+pipeline/artifacts/vcf/form_diffs.jsonl
