@@ -2,7 +2,60 @@
 
 CulinAI Workspace — Vite + React frontend, FastAPI artifact/palate backend.
 
-## Getting started
+## Send the demo to founders
+
+GitHub cannot host the full FooDB dataset (~1.8 GB). **Bundle the project folder** and send it directly.
+
+```bash
+npm run pack:demo
+```
+
+Creates `dist/chefculin-demo-YYYYMMDD.zip` (~1–2 GB) with all vendor data, artifacts, and code. **Too large to email as an attachment** — upload to Google Drive, Dropbox, or WeTransfer and send the link plus `setupinstructios.md`.
+
+Founders unzip and follow **[setupinstructios.md](setupinstructios.md)** — about 5 minutes to `npm run demo`.
+
+The zip includes `.env` with the demo OpenAI key (founder handoff only — do not commit or publish the zip).
+
+---
+
+## Local demo (your machine)
+
+The demo runs entirely on your machine. **You do not need to push large FooDB files to GitHub** — keep them local or fetch once after clone.
+
+**You already have the data on this machine** if `pipeline/vendor/foodb/.../Content.csv` exists (~744MB). Git only needs the code + small tables.
+
+```bash
+cp .env.example .env          # add VITE_OPENAI_API_KEY
+npm install
+npm run setup:demo            # venv, FooDB if missing, build artifacts
+npm run demo                  # API :8001 + Vite :5173
+```
+
+Open **http://localhost:5173**. Compound, Tradition, Co-occurrence, Balance, and Associate work offline; Form / Brainstorm need the OpenAI key in `.env`.
+
+Optional — Palate Save (F6) needs Postgres:
+
+```bash
+cd pipeline && docker compose up -d
+# restart npm run demo if Postgres was started after the API
+```
+
+### What stays local (not on GitHub)
+
+| File | Size | How to get it |
+|------|------|----------------|
+| `Content.csv` | ~744 MB | `npm run fetch:foodb` |
+| `foodb_csv.tar.gz` | ~953 MB | same script (cached) |
+
+Smaller FooDB tables (`Food.csv`, `Compound.csv`, `Nutrient.csv`), `balance_axes.json`, and `pipeline/artifacts/` **are** in git when committed.
+
+### Hand off without the zip
+
+Clone from GitHub + `npm run setup:demo` downloads FooDB (~1 GB) on first run. Slower but works if you only push code.
+
+---
+
+## Getting started (quick)
 
 ```bash
 cp .env.example .env   # add VITE_OPENAI_API_KEY for Form / Brainstorm

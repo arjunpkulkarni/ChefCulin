@@ -1,34 +1,15 @@
-# FooDB vendor data
+# FooDB vendor data (local)
 
-Balance axes use FooDB **Content** tables (mg/100g glutamate, sodium, sugars, fat, etc.).
+Balance axes read **Content.csv** (mg/100g glutamate, sodium, sugars, etc.).
 
-## Fetch
+## On this machine
 
-```bash
-npm run fetch:foodb
-```
-
-Downloads `foodb_2020_4_7_csv.tar.gz` from [foodb.ca/downloads](https://foodb.ca/downloads) and extracts:
-
-- `Content.csv`
-- `Compound.csv`
-- `Nutrient.csv`
-- `Food.csv`
-
-Large archives and `Content.csv` are stored with **Git LFS** (GitHub’s 100MB blob limit).
-
-After clone:
+Keep the full vendor tree under `pipeline/vendor/foodb/`. It is **not** pushed to GitHub (file size limits).
 
 ```bash
-git lfs install
-git lfs pull
+npm run fetch:foodb    # download + extract if missing (~1GB once)
+npm run build:balance  # refresh src/data/balance_axes.json
 ```
 
-Or fetch only the balance tables:
-
-```bash
-npm run fetch:foodb
-```
-
-**In git (LFS):** `Content.csv`, `foodb_csv.tar.gz`, `foodb_json.zip`  
-**In git (regular):** `Food.csv`, `Compound.csv`, `Nutrient.csv`
+**In git:** `Food.csv`, `Compound.csv`, `Nutrient.csv`  
+**Local only:** `Content.csv`, `*.tar.gz`, `*.zip`

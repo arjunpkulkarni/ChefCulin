@@ -19,3 +19,8 @@ pipeline/.env
 .env.*
 !.env.example
 *.pyc
+
+# FooDB — too large for GitHub; kept locally (npm run fetch:foodb)
+pipeline/vendor/foodb/*.tar.gz
+pipeline/vendor/foodb/*.zip
+pipeline/vendor/foodb/foodb_2020_04_07_csv/Content.csv

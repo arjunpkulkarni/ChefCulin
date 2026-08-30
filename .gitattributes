@@ -1,4 +1,0 @@
-# Git LFS — FooDB vendor files exceed GitHub's 100MB blob limit
-pipeline/vendor/foodb/*.tar.gz filter=lfs diff=lfs merge=lfs -text
-pipeline/vendor/foodb/*.zip filter=lfs diff=lfs merge=lfs -text
-pipeline/vendor/foodb/foodb_2020_04_07_csv/Content.csv filter=lfs diff=lfs merge=lfs -text

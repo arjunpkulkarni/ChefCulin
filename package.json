@@ -10,6 +10,8 @@
     "demo": "concurrently -k -n api,web -c cyan,magenta \"npm run api\" \"npm run dev\"",
     "build:compound": "cd pipeline && .venv/bin/python scripts/build_compound_artifacts.py",
     "fetch:foodb": "cd pipeline && .venv/bin/python scripts/fetch_foodb_vendor.py",
+    "setup:demo": "bash scripts/setup-demo.sh",
+    "pack:demo": "bash scripts/pack-demo.sh",
     "build:balance": "cd pipeline && .venv/bin/python scripts/build_balance_artifacts.py",
     "build": "vite build",
     "preview": "vite preview",
