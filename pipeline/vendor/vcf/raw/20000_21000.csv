@@ -1,0 +1,623 @@
+Product,Product Category,Product Group,Compound,Compound Group,Quantity Lower Bound,Quantity Upper Bound
+NECTARINE,,Fruits,2-methylpentane (=isohexane),Hydrocarbons,,
+NECTARINE,,Fruits,3-methylpentane,Hydrocarbons,,
+NECTARINE,,Fruits,heptane,Hydrocarbons,,
+NECTARINE,,Fruits,octane,Hydrocarbons,,
+NECTARINE,,Fruits,decane,Hydrocarbons,,
+NECTARINE,,Fruits,tridecane,Hydrocarbons,,
+NECTARINE,,Fruits,tetradecane,Hydrocarbons,,
+NECTARINE,,Fruits,pentadecane,Hydrocarbons,,
+NECTARINE,,Fruits,hexadecane,Hydrocarbons,,
+NECTARINE,,Fruits,heptadecane,Hydrocarbons,,
+NECTARINE,,Fruits,(Z)-β-ocimene,Hydrocarbons,trace,trace
+NECTARINE,,Fruits,(E)-β-ocimene,Hydrocarbons,,
+NECTARINE,,Fruits,β-myrcene (=myrcene),Hydrocarbons,,
+NECTARINE,,Fruits,α-phellandrene,Hydrocarbons,<0.01,0.02
+NECTARINE,,Fruits,β-phellandrene,Hydrocarbons,trace,trace
+NECTARINE,,Fruits,α-terpinene,Hydrocarbons,<0.01,<0.01
+NECTARINE,,Fruits,γ-terpinene,Hydrocarbons,<0.01,0.03
+NECTARINE,,Fruits,terpinolene,Hydrocarbons,0,0.01
+NECTARINE,,Fruits,limonene,Hydrocarbons,,
+NECTARINE,,Fruits,α-pinene,Hydrocarbons,,
+NECTARINE,,Fruits,benzene,Hydrocarbons,,
+NECTARINE,,Fruits,methylbenzene (=toluene),Hydrocarbons,,
+NECTARINE,,Fruits,vinylbenzene (=styrene),Hydrocarbons,,
+NECTARINE,,Fruits,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+NECTARINE,,Fruits,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+NECTARINE,,Fruits,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,,
+NECTARINE,,Fruits,1-ethyl-2-methylbenzene (=o-ethyltoluene),Hydrocarbons,,
+NECTARINE,,Fruits,1-ethyl-3-methylbenzene (=m-ethyltoluene),Hydrocarbons,,
+NECTARINE,,Fruits,1-ethyl-4-methylbenzene (=p-ethyltoluene),Hydrocarbons,,
+NECTARINE,,Fruits,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+NECTARINE,,Fruits,"1,2,4-trimethylbenzene (=pseudocumene)",Hydrocarbons,,
+NECTARINE,,Fruits,naphthalene,Hydrocarbons,,
+NECTARINE,,Fruits,1-methylnaphthalene,Hydrocarbons,,
+NECTARINE,,Fruits,2-methylnaphthalene,Hydrocarbons,,
+NECTARINE,,Fruits,2-methyl-1-propanol (=isobutanol),Alcohols,,
+NECTARINE,,Fruits,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+NECTARINE,,Fruits,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+NECTARINE,,Fruits,1-pentanol (=amyl alcohol),Alcohols,,
+NECTARINE,,Fruits,3-pentanol,Alcohols,,
+NECTARINE,,Fruits,(Z)-2-penten-1-ol,Alcohols,,
+NECTARINE,,Fruits,1-penten-3-ol,Alcohols,,
+NECTARINE,,Fruits,1-hexanol,Alcohols,0.05,0.18
+NECTARINE,,Fruits,(E)-2-hexen-1-ol,Alcohols,0.03,0.17
+NECTARINE,,Fruits,(Z)-2-hexen-1-ol,Alcohols,,
+NECTARINE,,Fruits,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,0.03,0.11
+NECTARINE,,Fruits,(E)-3-hexen-1-ol,Alcohols,,
+NECTARINE,,Fruits,2-ethyl-1-hexanol,Alcohols,,
+NECTARINE,,Fruits,1-heptanol,Alcohols,,
+NECTARINE,,Fruits,1-octanol,Alcohols,,
+NECTARINE,,Fruits,"3,7-dimethyl-1,5,7-octatrien-3-ol (=hotrienol)",Alcohols,<0.01,0.09
+NECTARINE,,Fruits,1-nonanol,Alcohols,,
+NECTARINE,,Fruits,(E)-2-nonen-1-ol,Alcohols,,
+NECTARINE,,Fruits,geraniol,Alcohols,,
+NECTARINE,,Fruits,linalool,Alcohols,0,0.5
+NECTARINE,,Fruits,benzyl alcohol (=benzenemethanol),Alcohols,,
+NECTARINE,,Fruits,α-terpineol,Alcohols,,
+NECTARINE,,Fruits,4-terpineol (=terpinen-4-ol),Alcohols,,
+NECTARINE,,Fruits,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0.58,1.95
+NECTARINE,,Fruits,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",0.96,3.95
+NECTARINE,,Fruits,(Z)-2-hexenal,"Carbonyls, aldehydes",<0.01,0.04
+NECTARINE,,Fruits,(Z)-3-hexenal,"Carbonyls, aldehydes",<0.01,0.04
+NECTARINE,,Fruits,(E)-3-hexenal,"Carbonyls, aldehydes",<0.01,<0.01
+NECTARINE,,Fruits,benzaldehyde,"Carbonyls, aldehydes",0.02,0.2
+NECTARINE,,Fruits,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+NECTARINE,,Fruits,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",<0.01,<0.01
+NECTARINE,,Fruits,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+NECTARINE,,Fruits,3-pentanone,"Carbonyls, ketones",,
+NECTARINE,,Fruits,4-methyl-3-penten-2-one (=mesityl oxide),"Carbonyls, ketones",,
+NECTARINE,,Fruits,2-hexanone,"Carbonyls, ketones",,
+NECTARINE,,Fruits,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+NECTARINE,,Fruits,3-octanone,"Carbonyls, ketones",,
+NECTARINE,,Fruits,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",,
+NECTARINE,,Fruits,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+NECTARINE,,Fruits,tetradecanoic acid (=myristic acid),Acids,,
+NECTARINE,,Fruits,hexadecanoic acid (=palmitic acid),Acids,,
+NECTARINE,,Fruits,methyl acetate,Esters,,
+NECTARINE,,Fruits,ethyl acetate,Esters,,
+NECTARINE,,Fruits,propyl acetate,Esters,,
+NECTARINE,,Fruits,isopropyl acetate,Esters,,
+NECTARINE,,Fruits,butyl acetate,Esters,,
+NECTARINE,,Fruits,isobutyl acetate (=2-methylpropyl acetate),Esters,,
+NECTARINE,,Fruits,2-methylbutyl acetate,Esters,,
+NECTARINE,,Fruits,3-methyl-2-butenyl acetate (=2-isopentenyl acetate),Esters,,
+NECTARINE,,Fruits,3-methyl-3-butenyl acetate,Esters,,
+NECTARINE,,Fruits,pentyl acetate (=amyl acetate),Esters,,
+NECTARINE,,Fruits,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+NECTARINE,,Fruits,hexyl acetate,Esters,<0.01,0.02
+NECTARINE,,Fruits,(E)-2-hexenyl acetate,Esters,<0.01,<0.01
+NECTARINE,,Fruits,(Z)-3-hexenyl acetate,Esters,<0.01,0.05
+NECTARINE,,Fruits,octyl acetate,Esters,,
+NECTARINE,,Fruits,ethyl propanoate,Esters,,
+NECTARINE,,Fruits,ethyl 2-methylpropanoate (=ethyl isobutyrate),Esters,,
+NECTARINE,,Fruits,methyl butanoate,Esters,,
+NECTARINE,,Fruits,ethyl butanoate,Esters,,
+NECTARINE,,Fruits,hexyl butanoate,Esters,,
+NECTARINE,,Fruits,(Z)-3-hexenyl butanoate,Esters,,
+NECTARINE,,Fruits,methyl 3-methylbutanoate (=methyl isovalerate),Esters,,
+NECTARINE,,Fruits,hexyl 3-methylbutanoate (=hexyl isovalerate),Esters,,
+NECTARINE,,Fruits,(Z)-3-hexenyl 3-methylbutanoate,Esters,,
+NECTARINE,,Fruits,methyl hexanoate,Esters,,
+NECTARINE,,Fruits,ethyl hexanoate (=ethyl caproate),Esters,,
+NECTARINE,,Fruits,hexyl hexanoate,Esters,,
+NECTARINE,,Fruits,(E)-2-hexenyl hexanoate,Esters,,
+NECTARINE,,Fruits,(Z)-3-hexenyl hexanoate,Esters,,
+NECTARINE,,Fruits,methyl (E)-3-hexenoate,Esters,,
+NECTARINE,,Fruits,methyl heptanoate,Esters,,
+NECTARINE,,Fruits,ethyl heptanoate,Esters,,
+NECTARINE,,Fruits,(Z)-3-hexenyl heptanoate,Esters,,
+NECTARINE,,Fruits,methyl octanoate,Esters,,
+NECTARINE,,Fruits,ethyl octanoate (=ethyl caprylate),Esters,,
+NECTARINE,,Fruits,isopropyl octanoate,Esters,,
+NECTARINE,,Fruits,(Z)-3-hexenyl octanoate,Esters,,
+NECTARINE,,Fruits,ethyl (E)-2-octenoate,Esters,,
+NECTARINE,,Fruits,methyl (Z)-3-octenoate,Esters,,
+NECTARINE,,Fruits,ethyl (E)-4-octenoate,Esters,,
+NECTARINE,,Fruits,ethyl nonanoate,Esters,,
+NECTARINE,,Fruits,methyl decanoate,Esters,,
+NECTARINE,,Fruits,ethyl decanoate (=ethyl caprate),Esters,,
+NECTARINE,,Fruits,methyl (Z)-4-decenoate,Esters,,
+NECTARINE,,Fruits,ethyl (Z)-4-decenoate,Esters,,
+NECTARINE,,Fruits,"4-hydroxyhexanoic acid lactone (=γ-hexalactone, γ-caprolactone, 4-hexanolide)",Lactones,0.27,0.35
+NECTARINE,,Fruits,"4-hydroxyheptanoic acid lactone (=4-heptanolide, γ-heptalactone)",Lactones,0.01,0.04
+NECTARINE,,Fruits,"4-hydroxyoctanoic acid lactone (=4-octanolide, γ-octalactone, 5-butyldihydro-2(3H)-furanone)",Lactones,0.01,0.3
+NECTARINE,,Fruits,"5-hydroxyoctanoic acid lactone (=5-octanolide, δ-octalactone)",Lactones,<0.01,0.14
+NECTARINE,,Fruits,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,<0.01,<0.01
+NECTARINE,,Fruits,"4-hydroxydecanoic acid lactone (=4-decanolide, γ-decalactone)",Lactones,0.22,2.2
+NECTARINE,,Fruits,"5-hydroxydecanoic acid lactone (=5-decanolide, δ-decalactone)",Lactones,0.19,1.4
+NECTARINE,,Fruits,"(Z)-5-hydroxy-7-decenoic acid lactone (=δ-jasmolactone, (Z)-jasmin lactone)",Lactones,0.03,0.31
+NECTARINE,,Fruits,"5-hydroxy-2,4-decadienoic acid lactone (=6-methyl-α-pyrone)",Lactones,0.07,0.28
+NECTARINE,,Fruits,"4-hydroxydodecanoic acid lactone (=4-dodecanolide, γ-dodecalactone)",Lactones,<0.01,0.23
+NECTARINE,,Fruits,benzothiazole,Sulfur compounds,,
+NECTARINE,,Fruits,trichloromethane (=chloroform),Halogens,,
+NECTARINE,,Fruits,"1,1,1-trichloroethane (=methylchloroform)",Halogens,,
+NECTARINE,,Fruits,"1,1,2-trichloroethene (=trichloroethylene)",Halogens,,
+NECTARINE,,Fruits,tetrachloroethene (=tetrachloroethylene),Halogens,,
+NECTARINE,,Fruits,"linalool oxide A (trans, 5-ring)",Furans,,
+NECTARINE,,Fruits,2-methylfuran,Furans,,
+NECTARINE,,Fruits,2-pentylfuran,Furans,,
+NECTARINE,,Fruits,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,<0.01,<0.01
+NECTARINE,,Fruits,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,<0.01,<0.01
+NECTARINE,,Fruits,"linalool oxide D (cis, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+NECTARINE,,Fruits,"linalool oxide C (trans, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,methanol,Alcohols,320,320
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,ethanol,Alcohols,Present,Present
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,1-propanol (=propyl alcohol),Alcohols,8.8,8.8
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,2-methyl-1-propanol (=isobutanol),Alcohols,7.2,7.2
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,acetaldehyde (=ethanal),"Carbonyls, aldehydes",19,19
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,ethyl formate,Esters,2.4,2.4
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,methyl acetate,Esters,0.8,0.8
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,ethyl acetate,Esters,48,48
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,ethyl hexanoate (=ethyl caproate),Esters,0.16,0.16
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,ethyl octanoate (=ethyl caprylate),Esters,0.6,0.6
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,ethyl decanoate (=ethyl caprate),Esters,0.8,0.8
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,ethyl dodecanoate (=ethyl laurate),Esters,1.2,1.2
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,ethyl tetradecanoate (=ethyl myristate),Esters,0.7,0.7
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,ethyl hexadecanoate (=ethyl palmitate),Esters,4.7,4.7
+BLACKBERRY BRANDY,,Alcoholic Beverages > 20% alc.,"1,1-diethoxyethane (=acetal, acetaldehyde diethyl acetal)",Acetals,15,15
+,STAR ANISE,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,3200,4300
+,STAR ANISE,Spices & Condiments,(E)-β-ocimene,Hydrocarbons,700,900
+,STAR ANISE,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,800,6000
+,STAR ANISE,Spices & Condiments,"(E,E)-α-farnesene (=α-farnesene)",Hydrocarbons,2300,6800
+,STAR ANISE,Spices & Condiments,β-farnesene,Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,(Z)-β-farnesene,Hydrocarbons,600,800
+,STAR ANISE,Spices & Condiments,α-phellandrene,Hydrocarbons,1600,4800
+,STAR ANISE,Spices & Condiments,β-phellandrene,Hydrocarbons,4200,16700
+,STAR ANISE,Spices & Condiments,α-terpinene,Hydrocarbons,0,3000
+,STAR ANISE,Spices & Condiments,γ-terpinene,Hydrocarbons,trace,13000
+,STAR ANISE,Spices & Condiments,terpinolene,Hydrocarbons,trace,7000
+,STAR ANISE,Spices & Condiments,limonene,Hydrocarbons,6800,104400
+,STAR ANISE,Spices & Condiments,β-elemene,Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,β-bisabolene,Hydrocarbons,1000,1500
+,STAR ANISE,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,α-pinene,Hydrocarbons,trace,20700
+,STAR ANISE,Spices & Condiments,β-pinene,Hydrocarbons,trace,3000
+,STAR ANISE,Spices & Condiments,camphene,Hydrocarbons,trace,400
+,STAR ANISE,Spices & Condiments,α-thujene,Hydrocarbons,4000,4000
+,STAR ANISE,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,trace,14000
+,STAR ANISE,Spices & Condiments,3-carene,Hydrocarbons,trace,9300
+,STAR ANISE,Spices & Condiments,cis-α-bergamotene,Hydrocarbons,1000,1000
+,STAR ANISE,Spices & Condiments,trans-α-bergamotene,Hydrocarbons,0,3200
+,STAR ANISE,Spices & Condiments,γ-cadinene,Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,δ-cadinene,Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,α-muurolene,Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,"β-selinene (=4(14),11-selinadiene)",Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,β-caryophyllene,Hydrocarbons,0,6300
+,STAR ANISE,Spices & Condiments,α-cubebene,Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,trace,800
+,STAR ANISE,Spices & Condiments,β-copaene,Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,alloaromadendrene,Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,longifolene,Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,β-santalene,Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,200,4000
+,STAR ANISE,Spices & Condiments,"1-isopropenyl-4-methylbenzene (=α,p-dimethyl styrene, p-cymenene, dehydro-p-cymene)",Hydrocarbons,,
+,STAR ANISE,Spices & Condiments,linalool,Alcohols,1000,101000
+,STAR ANISE,Spices & Condiments,nerolidol,Alcohols,3000,8000
+,STAR ANISE,Spices & Condiments,4-methoxybenzyl alcohol (=anis alcohol),Alcohols,,
+,STAR ANISE,Spices & Condiments,3-phenyl-2-propen-1-ol (=cinnamic alcohol),Alcohols,1000,1000
+,STAR ANISE,Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,,
+,STAR ANISE,Spices & Condiments,α-terpineol,Alcohols,0,33000
+,STAR ANISE,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,1000,39000
+,STAR ANISE,Spices & Condiments,"cis-p-1-menthene-3,6-diol",Alcohols,,
+,STAR ANISE,Spices & Condiments,4-methoxybenzaldehyde (=anisaldehyde),"Carbonyls, aldehydes",3800,17000
+,STAR ANISE,Spices & Condiments,cinnamaldehyde (=3-phenyl-2-propenal),"Carbonyls, aldehydes",,
+,STAR ANISE,Spices & Condiments,4-methoxyacetophenone (=acetanisole),"Carbonyls, ketones",,
+,STAR ANISE,Spices & Condiments,1-(4-methoxyphenyl)-2-propanone (=anisketone),"Carbonyls, ketones",1500,2000
+,STAR ANISE,Spices & Condiments,"carvone (=p-6,8-menthadien-2-one)","Carbonyls, ketones",,
+,STAR ANISE,Spices & Condiments,fenchone,"Carbonyls, ketones",,
+,STAR ANISE,Spices & Condiments,4-methoxybenzoic acid (=p-anisic acid),Acids,,
+,STAR ANISE,Spices & Condiments,cinnamyl acetate,Esters,2100,2500
+,STAR ANISE,Spices & Condiments,α-terpinyl acetate,Esters,68000,68000
+,STAR ANISE,Spices & Condiments,4-terpinenyl acetate,Esters,15000,15000
+,STAR ANISE,Spices & Condiments,methyl 4-methoxybenzoate (=methyl anisate),Esters,trace,6000
+,STAR ANISE,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,5000,181000
+,STAR ANISE,Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,5600,66500
+,STAR ANISE,Spices & Condiments,anethole (=1-methoxy-4-(1-propenyl)benzene),Phenols,,
+,STAR ANISE,Spices & Condiments,(Z)-anethole (=(Z)-1-methoxy-4-(1-propenyl)benzene),Phenols,trace,3900
+,STAR ANISE,Spices & Condiments,"(E)-anethole (=(E)-1-methoxy-4-(1-propenyl)benzene, anise camphor)",Phenols,12000,910000
+,STAR ANISE,Spices & Condiments,acetylmethoxybenzene (unkn.str.) (=acetylanisole),Phenols,,
+,STAR ANISE,Spices & Condiments,foeniculin,Phenols,51000,145700
+,STAR ANISE,Spices & Condiments,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,98000,98000
+,STAR ANISE,Spices & Condiments,"(E)-1,2-dimethoxy-4-(1-propenyl)-benzene (=(E)-methylisoeugenol)",Phenols,1200,1200
+,STAR ANISE,Spices & Condiments,"5-allyl-1,3-benzodioxole (=safrole)",Phenols,66000,66000
+,STAR ANISE,Spices & Condiments,"1-allyl-2,4,5-trimethoxybenzene (=γ-asarone)",Phenols,,
+,STAR ANISE,Spices & Condiments,"6-allyl-4-methoxy-1,3-benzodioxole (=myristicin)",Phenols,35000,35000
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,"(Z,Z)-α-farnesene",Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,"(E,E)-α-farnesene (=α-farnesene)",Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,(Z)-β-farnesene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,(E)-β-farnesene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,farnesene (unkn.str.),Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,γ-elemene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,δ-elemene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,α-humulene (=humulene),Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,α-bergamotene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,γ-amorphene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,γ-cadinene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,δ-cadinene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,α-muurolene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,γ-muurolene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,β-caryophyllene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,α-cubebene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,β-cubebene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,α-copaene (=copaene),Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,α-ylangene (=ylangene),Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,β-bourbonene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,aromadendrene,Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,vinylbenzene (=styrene),Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,calacorene (unkn.str.),Hydrocarbons,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,1-pentanol (=amyl alcohol),Alcohols,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,1-hexanol,Alcohols,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,(E)-3-hexen-1-ol,Alcohols,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,1-dodecanol,Alcohols,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,geraniol,Alcohols,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,linalool,Alcohols,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,benzyl alcohol (=benzenemethanol),Alcohols,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,benzaldehyde,"Carbonyls, aldehydes",,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,2-pentadecanone,"Carbonyls, ketones",,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,2-heptadecanone,"Carbonyls, ketones",,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,2-nonadecanone,"Carbonyls, ketones",,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,3-methylbutanoic acid (=isovaleric acid),Acids,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,ethyl acetate,Esters,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,ethyl 3-methylbutanoate (=ethyl isovalerate),Esters,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,"isopentyl 3-methylbutanoate (=3-methylbutyl 3-methylbutanoate, isoamyl isovalerate)",Esters,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,"5-hydroxypentanoic acid lactone (=δ-pentalactone, tetrahydro-2-pyrone)",Lactones,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,ethyl nicotinate,Bases,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,"linalool oxide B (cis, 5-ring)",Furans,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,"linalool oxide A (trans, 5-ring)",Furans,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,5-(hydroxymethyl)furfural,Furans,,
+MARULA (Sclerocarya birrea subsp. caffra),,Fruits,"2,5-furandicarbaldehyde",Furans,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,2-methyl-1-propanol (=isobutanol),Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,1-butanol,Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,1-pentanol (=amyl alcohol),Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,2-pentanol,Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,3-pentanol,Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,1-hexanol,Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,"2,4-hexadien-1-ol",Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,linalool,Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,benzyl alcohol (=benzenemethanol),Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,α-terpineol,Alcohols,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,(Z)-3-hexenal,"Carbonyls, aldehydes",,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,acetic acid,Acids,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,butanoic acid (=butyric acid),Acids,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,phenylacetic acid,Acids,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl acetate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,"1,2-ethanediol diacetate (=ethylene acetate, 1,2-diacetoxyethane)",Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,"1,2-propanediol diacetate",Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,butyl acetate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,isobutyl acetate (=2-methylpropyl acetate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,hexyl acetate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,2-hexenyl acetate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,(Z)-3-hexenyl acetate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,benzyl acetate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,phenethyl acetate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl propanoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl propanoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl 2-methylpropanoate (=methyl isobutyrate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl 2-methylpropanoate (=ethyl isobutyrate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl butanoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl butanoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,1-methyl-2-oxopropyl butanoate (=acetoin butanoate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl (E)-2-butenoate (=methyl (E)-crotonate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl (Z)-2-butenoate (=ethyl (Z)-crotonate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl (E)-2-butenoate (=ethyl (E)-crotonate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl 3-methylbutanoate (=ethyl isovalerate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl (E)-2-methyl-2-butenoate (=methyl tiglate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl (E)-2-methyl-2-butenoate (=ethyl tiglate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl 3-hydroxybutanoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl pentanoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl hexanoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl hexanoate (=ethyl caproate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl 3-hydroxyhexanoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl 3-hydroxyhexanoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl 3-acetoxyhexanoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl octanoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl octanoate (=ethyl caprylate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl hexadecanoate (=methyl palmitate),Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,"ethyl 9,12-octadecadienoate",Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,"ethyl 9,12,15-octadecatrienoate",Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl benzoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,ethyl benzoate,Esters,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,"4-hydroxyhexanoic acid lactone (=γ-hexalactone, γ-caprolactone, 4-hexanolide)",Lactones,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,"4-hydroxydodecanoic acid lactone (=4-dodecanolide, γ-dodecalactone)",Lactones,,
+NARANJILLA FRUIT (Solanum quitoense Lam.),,Fruits,methyl 3-(methylthio)propanoate,Sulfur compounds,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,(E)-β-ocimene,Hydrocarbons,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,γ-terpinene,Hydrocarbons,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,1-butanol,Alcohols,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,3-methyl-2-buten-1-ol (=prenol),Alcohols,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,3-methyl-3-buten-1-ol,Alcohols,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,2-methyl-3-buten-2-ol,Alcohols,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,1-hexanol,Alcohols,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,2-ethyl-1-hexanol,Alcohols,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,1-nonanol,Alcohols,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,(Z)-6-nonen-1-ol,Alcohols,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,4-terpineol (=terpinen-4-ol),Alcohols,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+PEPINO FRUIT (Solanum muricatum),,Fruits,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+PEPINO FRUIT (Solanum muricatum),,Fruits,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+PEPINO FRUIT (Solanum muricatum),,Fruits,(E)-2-nonenal,"Carbonyls, aldehydes",,
+PEPINO FRUIT (Solanum muricatum),,Fruits,(Z)-6-nonenal,"Carbonyls, aldehydes",,
+PEPINO FRUIT (Solanum muricatum),,Fruits,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+PEPINO FRUIT (Solanum muricatum),,Fruits,2-nonanone,"Carbonyls, ketones",,
+PEPINO FRUIT (Solanum muricatum),,Fruits,dodecanoic acid (=lauric acid),Acids,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,tetradecanoic acid (=myristic acid),Acids,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,hexadecanoic acid (=palmitic acid),Acids,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,ethyl acetate,Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,propyl acetate,Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,butyl acetate,Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,isobutyl acetate (=2-methylpropyl acetate),Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,2-methylbutyl acetate,Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,3-methyl-2-butenyl acetate (=2-isopentenyl acetate),Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,3-methyl-3-butenyl acetate,Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,pentyl acetate (=amyl acetate),Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,hexyl acetate,Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,nonyl acetate,Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,(Z)-6-nonenyl acetate,Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,3-methyl-2-butenyl 3-methylbutanoate,Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,3-methyl-3-butenyl 3-methylbutanoate,Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,methyl 3-methyl-2-butenoate (=methyl senecioate),Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,3-methyl-2-butenyl 3-methyl-2-butenoate (=3-methyl-2-butenyl senecioate),Esters,,
+PEPINO FRUIT (Solanum muricatum),,Fruits,3-methyl-3-butenyl 3-methyl-2-butenoate (=3-methyl-3-butenyl senecioate),Esters,,
+WATER YAM (Dioscorea alata),,Vegetables,β-myrcene (=myrcene),Hydrocarbons,,
+WATER YAM (Dioscorea alata),,Vegetables,terpinolene,Hydrocarbons,,
+WATER YAM (Dioscorea alata),,Vegetables,limonene,Hydrocarbons,,
+WATER YAM (Dioscorea alata),,Vegetables,α-pinene,Hydrocarbons,,
+WATER YAM (Dioscorea alata),,Vegetables,β-pinene,Hydrocarbons,,
+WATER YAM (Dioscorea alata),,Vegetables,methylbenzene (=toluene),Hydrocarbons,,
+WATER YAM (Dioscorea alata),,Vegetables,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+WATER YAM (Dioscorea alata),,Vegetables,methylbutanol (unkn.str.),Alcohols,,
+WATER YAM (Dioscorea alata),,Vegetables,1-pentanol (=amyl alcohol),Alcohols,,
+WATER YAM (Dioscorea alata),,Vegetables,1-hexanol,Alcohols,,
+WATER YAM (Dioscorea alata),,Vegetables,2-ethyl-1-hexanol,Alcohols,,
+WATER YAM (Dioscorea alata),,Vegetables,1-octen-3-ol,Alcohols,,
+WATER YAM (Dioscorea alata),,Vegetables,linalool,Alcohols,,
+WATER YAM (Dioscorea alata),,Vegetables,α-terpineol,Alcohols,,
+WATER YAM (Dioscorea alata),,Vegetables,4-terpineol (=terpinen-4-ol),Alcohols,,
+WATER YAM (Dioscorea alata),,Vegetables,methylbutanal (unkn.str.),"Carbonyls, aldehydes",,
+WATER YAM (Dioscorea alata),,Vegetables,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+WATER YAM (Dioscorea alata),,Vegetables,2-heptenal,"Carbonyls, aldehydes",,
+WATER YAM (Dioscorea alata),,Vegetables,2-octenal,"Carbonyls, aldehydes",,
+WATER YAM (Dioscorea alata),,Vegetables,2-nonenal,"Carbonyls, aldehydes",,
+WATER YAM (Dioscorea alata),,Vegetables,"(E,Z)-2,4-decadienal","Carbonyls, aldehydes",,
+WATER YAM (Dioscorea alata),,Vegetables,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+WATER YAM (Dioscorea alata),,Vegetables,benzaldehyde,"Carbonyls, aldehydes",,
+WATER YAM (Dioscorea alata),,Vegetables,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+WATER YAM (Dioscorea alata),,Vegetables,2-pentanone,"Carbonyls, ketones",,
+WATER YAM (Dioscorea alata),,Vegetables,2-heptanone,"Carbonyls, ketones",,
+WATER YAM (Dioscorea alata),,Vegetables,2-undecanone,"Carbonyls, ketones",,
+WATER YAM (Dioscorea alata),,Vegetables,4-phenyl-2-butanone (=benzylacetone),"Carbonyls, ketones",,
+WATER YAM (Dioscorea alata),,Vegetables,hydrogen sulfide,Sulfur compounds,,
+WATER YAM (Dioscorea alata),,Vegetables,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+WATER YAM (Dioscorea alata),,Vegetables,2-pentylfuran,Furans,,
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,0.02,0.02
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,(E)-2-hexen-1-ol,Alcohols,0.03,0.03
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,1-octen-3-ol,Alcohols,0.02,0.02
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0.31,0.31
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",0.49,0.49
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,(Z)-3-hexenal,"Carbonyls, aldehydes",0.02,0.02
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,(E)-2-heptenal,"Carbonyls, aldehydes",0.04,0.04
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",0.03,0.03
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,"(E,E)-2,4-nonadienal","Carbonyls, aldehydes",0.04,0.04
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",0.14,0.14
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,benzaldehyde,"Carbonyls, aldehydes",0.0004,0.0004
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,hexyl formate,Esters,0.23,0.23
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,ethyl acetate,Esters,0.05,0.05
+"WAX GOURD, WINTER MELON (Benincasa hispada Cogn)",,Vegetables,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,trace,trace
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,undecane,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,dodecane,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,tridecane,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,tetradecane,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,pentadecane,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,hexadecane,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,heptadecane,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,octadecane,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,nonadecane,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,limonene,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,methylbenzene (=toluene),Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,1-ethyl-2-methylbenzene (=o-ethyltoluene),Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,naphthalene,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,1-methylnaphthalene,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,2-methylnaphthalene,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,phenanthrene,Hydrocarbons,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,2-methyl-1-propanol (=isobutanol),Alcohols,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,1-butanol,Alcohols,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,2-methyl-3-buten-2-ol,Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,1-pentanol (=amyl alcohol),Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,3-pentanol,Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(Z)-2-penten-1-ol,Alcohols,0.2,0.5
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(Z)-3-penten-1-ol,Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,1-penten-3-ol,Alcohols,0.2,0.5
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,3-methyl-1-pentanol,Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,4-methyl-1-pentanol,Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,1-hexanol,Alcohols,0.2,0.5
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(E)-2-hexen-1-ol,Alcohols,1,1
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,0.2,0.5
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,4-methyl-1-hexanol,Alcohols,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,2-ethyl-1-hexanol,Alcohols,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,1-heptanol,Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,1-octanol,Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,1-octen-3-ol,Alcohols,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,citronellol,Alcohols,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,geraniol,Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,nerol,Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,linalool,Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,farnesol,Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,benzyl alcohol (=benzenemethanol),Alcohols,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,2-phenylethanol (=phenethyl alcohol),Alcohols,0.5,1
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"carveol (=p-1(6),8-menthadien-2-ol)",Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"perilla alcohol (=p-1,8-menthadien-7-ol)",Alcohols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,myrtenol,Alcohols,0.5,1
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,2-butenal (=crotonaldehyde),"Carbonyls, aldehydes",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,pentanal (=valeraldehyde),"Carbonyls, aldehydes",0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(E)-2-pentenal,"Carbonyls, aldehydes",0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(Z)-2-pentenal,"Carbonyls, aldehydes",0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,2-methyl-2-pentenal,"Carbonyls, aldehydes",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",1,1
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(Z)-3-hexenal,"Carbonyls, aldehydes",0.2,0.5
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,heptanal,"Carbonyls, aldehydes",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(E)-2-nonenal,"Carbonyls, aldehydes",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"(E,E,E)-2,4,6-nonatrienal","Carbonyls, aldehydes",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,decanal (=capraldehyde),"Carbonyls, aldehydes",0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"citronellal (=3,7-dimethyl-6-octenal)","Carbonyls, aldehydes",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,myrtenal,"Carbonyls, aldehydes",0.2,0.5
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,2-pentanone,"Carbonyls, ketones",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,2-methyl-3-hexanone,"Carbonyls, ketones",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"2,6,6-trimethyl-2-cyclohexene-1,4-dione","Carbonyls, ketones",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,camphor (=alcanfor),"Carbonyls, ketones",,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,ethyl acetate,Esters,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,hexyl acetate,Esters,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(E)-2-hexenyl acetate,Esters,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(Z)-3-hexenyl acetate,Esters,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,phenethyl acetate,Esters,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,phenethyl butanoate,Esters,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,methyl 3-methylbutanoate (=methyl isovalerate),Esters,0.2,0.5
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,butyl 3-methylbutanoate (=butyl isovalerate),Esters,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,isobutyl 3-methylbutanoate (=isobutyl isovalerate),Esters,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"isopentyl 3-methylbutanoate (=3-methylbutyl 3-methylbutanoate, isoamyl isovalerate)",Esters,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(E)-2-pentenyl 3-methylbutanoic acid,Esters,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,hexyl 3-methylbutanoate (=hexyl isovalerate),Esters,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(E)-2-hexenyl 3-methylbutanoate,Esters,0.5,1
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,(Z)-3-hexenyl 3-methylbutanoate,Esters,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,octyl 3-methylbutanoate,Esters,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,benzyl 3-methylbutanoate,Esters,0.5,1
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,phenethyl 3-methylbutanoate (=phenethyl isovalerate),Esters,1,1
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,methyl hexanoate,Esters,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,phenethyl hexanoate,Esters,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,methyl heptanoate,Esters,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,methyl octanoate,Esters,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,2-pyrrolecarbaldehyde (=2-formylpyrrole),Bases,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,phenethyl isothiocyanate,Sulfur compounds,0.03,0.2
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,phenol (=hydroxybenzene),Phenols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,2-methylphenol (=o-cresol),Phenols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,3-methylphenol (=m-cresol),Phenols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,4-methylphenol (=p-cresol),Phenols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,3-ethylphenol,Phenols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"2,3-dimethylphenol",Phenols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"2,6-dimethylphenol",Phenols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,5-methylfurfural,Furans,,
+LAMB'S LETTUCE (Valerianella locusta),,Vegetables,"α-pinene oxide (=1,2-epoxypinane)","(Ep)oxides, pyrans, coumarins",0.03,0.2
+OKRA (Hibiscus esculentus L.),,Vegetables,pentane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,hexane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,heptane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,octane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,octane (branched),Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,decane (branched),Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,undecane (branched),Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,octadecane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,nonadecane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,eicosane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,heneicosane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-heneicosene,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,docosane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,tricosane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,tetracosane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,pentacosane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,cyclohexane,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,dimethylcyclohexane (unkn.str.),Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,limonene,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,p-menthatriene (unkn.str.),Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,β-caryophyllene,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,methylbenzene (=toluene),Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,vinylbenzene (=styrene),Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"1,2-diethylbenzene",Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,dimethyl-vinylbenzene (unkn.str.),Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,dihydrotrimethylnaphthalene (unkn.str.),Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-methylnaphthalene,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-vinylnaphthalene,Hydrocarbons,,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-penten-3-ol,Alcohols,,
+OKRA (Hibiscus esculentus L.),,Vegetables,citronellol,Alcohols,,
+OKRA (Hibiscus esculentus L.),,Vegetables,linalool,Alcohols,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,,
+OKRA (Hibiscus esculentus L.),,Vegetables,α-terpineol,Alcohols,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+OKRA (Hibiscus esculentus L.),,Vegetables,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+OKRA (Hibiscus esculentus L.),,Vegetables,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+OKRA (Hibiscus esculentus L.),,Vegetables,neral (=β-citral),"Carbonyls, aldehydes",,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-methylcyclohexenylpropanal (unkn.str.),"Carbonyls, aldehydes",,
+OKRA (Hibiscus esculentus L.),,Vegetables,benzaldehyde,"Carbonyls, aldehydes",,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-phenyl-2-butenal,"Carbonyls, aldehydes",,
+OKRA (Hibiscus esculentus L.),,Vegetables,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+OKRA (Hibiscus esculentus L.),,Vegetables,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+OKRA (Hibiscus esculentus L.),,Vegetables,dimethyl-2-cyclohexenone (unkn.str.),"Carbonyls, ketones",,
+OKRA (Hibiscus esculentus L.),,Vegetables,"3,5,5-trimethyl-2-cyclohexen-1-one (=isophorone)","Carbonyls, ketones",,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-phenyl-2-propanone,"Carbonyls, ketones",,
+OKRA (Hibiscus esculentus L.),,Vegetables,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",,
+OKRA (Hibiscus esculentus L.),,Vegetables,octyl butanoate,Esters,,
+OKRA (Hibiscus esculentus L.),,Vegetables,methyl hexadecanoate (=methyl palmitate),Esters,,
+OKRA (Hibiscus esculentus L.),,Vegetables,dibutyl phthalate,Esters,,
+OKRA (Hibiscus esculentus L.),,Vegetables,pyrrole,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-butylpyrrole,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-pentylpyrrole,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-isopentylpyrrole,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-phenethylpyrrole,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-furfurylpyrrole,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-(5-methylfurfuryl)pyrrole,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-methyl-2-pyrrolecarbaldehyde (=2-formyl-1-methylpyrrole),Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,1-isobutyl-5-methyl-2-pyrrolecarbaldehyde,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-acetylpyrrole (=methyl 2-pyrrolyl ketone),Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-acetyl-1-methylpyrrole,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-acetyl-1-furfurylpyrrole,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,indole,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,pyridine,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-methylpyridine (=α-picoline),Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,methylpyridine (unkn.str.) (=picoline (unkn.str.)),Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,methylpyrazine,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,ethylpyrazine,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,(2-furyl)pyrazine,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"2,5-dimethylpyrazine",Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"2,6-dimethylpyrazine",Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-ethyl-3-methylpyrazine,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-ethyl-5-methylpyrazine,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-ethyl-6-methylpyrazine,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-methyl-6-vinylpyrazine,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-(2-furyl)-5(or 6)-methyl-pyrazine,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,trimethylpyrazine,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"3-ethyl-2,5-dimethylpyrazine",Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-isobutyl-3-methoxypyrazine,Bases,,
+OKRA (Hibiscus esculentus L.),,Vegetables,hydrogen sulfide,Sulfur compounds,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+OKRA (Hibiscus esculentus L.),,Vegetables,5-methyl-2-thiophenecarbaldehyde,Sulfur compounds,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"2,5-dimethyl-3-thiophenecarbaldehyde",Sulfur compounds,,
+OKRA (Hibiscus esculentus L.),,Vegetables,diethyl ether,Ethers,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"1,8-cineole (=eucalyptol)",Ethers,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-methylbutanenitrile (=sec-butyl cyanide),Nitriles and amides,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-methoxy-4-vinylphenol (=4-vinylguaiacol),Phenols,,
+OKRA (Hibiscus esculentus L.),,Vegetables,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-butylfuran,Furans,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-pentylfuran,Furans,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"2,5-dimethylfuran",Furans,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+OKRA (Hibiscus esculentus L.),,Vegetables,5-methylfurfural,Furans,,
+OKRA (Hibiscus esculentus L.),,Vegetables,2-methyldihydro-3(2H)-furanone,Furans,,
+OKRA (Hibiscus esculentus L.),,Vegetables,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+OKRA (Hibiscus esculentus L.),,Vegetables,cis-5-methyltetrahydrofurfuryl alcohol,Furans,,
+OKRA (Hibiscus esculentus L.),,Vegetables,trans-5-methyltetrahydrofurfuryl alcohol,Furans,,
+OKRA (Hibiscus esculentus L.),,Vegetables,methyl 2-furancarboxylate,Furans,,

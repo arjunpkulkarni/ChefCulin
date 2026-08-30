@@ -1,0 +1,2337 @@
+﻿Product,Product Category,Product Group,Compound,Compound Group,Quantity Lower Bound,Quantity Upper Bound
+LAUREL (Laurus nobilis L.),,Spices & Condiments,nonane,Hydrocarbons,<10000,<10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,decane,Hydrocarbons,10000,50000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,undecane,Hydrocarbons,<10000,<10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,tridecane,Hydrocarbons,<10000,<10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,tetradecane,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,hexadecane,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,trace,trace
+LAUREL (Laurus nobilis L.),,Spices & Condiments,(E)-β-ocimene,Hydrocarbons,trace,trace
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,2600,13500
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-phellandrene,Hydrocarbons,<100,10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-phellandrene,Hydrocarbons,7000,7000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-terpinene,Hydrocarbons,2300,10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,γ-terpinene,Hydrocarbons,1700,16800
+LAUREL (Laurus nobilis L.),,Spices & Condiments,terpinolene,Hydrocarbons,600,10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,limonene,Hydrocarbons,<100,40000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-sesquiphellandrene,Hydrocarbons,<100,3700
+LAUREL (Laurus nobilis L.),,Spices & Condiments,bicyclosesquiphellandrene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,1-epibicyclosesquiphellandrene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-elemene,Hydrocarbons,400,50000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-bisabolene,Hydrocarbons,<100,3800
+LAUREL (Laurus nobilis L.),,Spices & Condiments,cis-α-bisabolene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-bisabolene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,germacrene D,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,<100,10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-humulene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-pinene,Hydrocarbons,10000,120000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-pinene,Hydrocarbons,10100,60000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,camphene,Hydrocarbons,400,20000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-thujene,Hydrocarbons,600,10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,21100,87600
+LAUREL (Laurus nobilis L.),,Spices & Condiments,3-carene,Hydrocarbons,trace,10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-amorphene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,γ-cadinene,Hydrocarbons,500,2500
+LAUREL (Laurus nobilis L.),,Spices & Condiments,δ-cadinene,Hydrocarbons,100,10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-muurolene,Hydrocarbons,2200,12700
+LAUREL (Laurus nobilis L.),,Spices & Condiments,γ-muurolene,Hydrocarbons,500,1700
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"α-selinene (=5β,7α,10α-selina-3,11-diene)",Hydrocarbons,600,600
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"β-selinene (=4(14),11-selinadiene)",Hydrocarbons,100,1400
+LAUREL (Laurus nobilis L.),,Spices & Condiments,δ-selinene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-guaiene,Hydrocarbons,<100,10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,bicyclogermacrene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-caryophyllene,Hydrocarbons,1100,50000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-cubebene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-cubebene,Hydrocarbons,300,300
+LAUREL (Laurus nobilis L.),,Spices & Condiments,cubebene (unkn.str.),Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,300,300
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-ylangene (=ylangene),Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-bourbonene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,alloaromadendrene,Hydrocarbons,8000,8000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-gurjunene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,(+)-cyclosativene,Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,methylbenzene (=toluene),Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,<100,25000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,calamenene,Hydrocarbons,200,200
+LAUREL (Laurus nobilis L.),,Spices & Condiments,viridiflorene (=ledene),Hydrocarbons,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,methanol,Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,ethanol,Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,2-methyl-1-propanol (=isobutanol),Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,1-butanol,Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,2100,2100
+LAUREL (Laurus nobilis L.),,Spices & Condiments,1-pentanol (=amyl alcohol),Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,1-penten-3-ol,Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,1-hexanol,Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,300,300
+LAUREL (Laurus nobilis L.),,Spices & Condiments,geraniol,Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,nerol,Alcohols,1000,5000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,linalool,Alcohols,15100,227200
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"4-isopropylbenzyl alcohol (=cumic alcohol, p-cymen-7-ol)",Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-terpineol,Alcohols,1500,60000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-terpineol,Alcohols,300,1800
+LAUREL (Laurus nobilis L.),,Spices & Condiments,δ-terpineol,Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,9000,46000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,terpineol (unkn.str.),Alcohols,16000,46100
+LAUREL (Laurus nobilis L.),,Spices & Condiments,p-2-menthen-1-ol,Alcohols,500,500
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"cis-p-2,8-menthadien-1-ol",Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"trans-carveol (=trans-p-1(6),8-menthadien-2-ol)",Alcohols,800,800
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"perilla alcohol (=p-1,8-menthadien-7-ol)",Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-bisabolol,Alcohols,3000,14400
+LAUREL (Laurus nobilis L.),,Spices & Condiments,myrtenol,Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,borneol,Alcohols,1600,4700
+LAUREL (Laurus nobilis L.),,Spices & Condiments,cis-2-thujen-4-ol,Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,trans-2-thujen-4-ol,Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,sabinene hydrate (=4-thujanol),Alcohols,3200,9200
+LAUREL (Laurus nobilis L.),,Spices & Condiments,cis-sabinene hydrate (=cis-4-thujanol),Alcohols,<10000,<10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,trans-sabinene hydrate (=trans-4-thujanol),Alcohols,2500,2500
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-cadinol,Alcohols,3800,19900
+LAUREL (Laurus nobilis L.),,Spices & Condiments,δ-cadinol (=torreyol),Alcohols,700,2500
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-eudesmol,Alcohols,<10000,<10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,viridiflorol,Alcohols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,spathulenol (=(+)-spathulenol),Alcohols,900,50000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",300,300
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,geranial (=α-citral),"Carbonyls, aldehydes",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,neral (=β-citral),"Carbonyls, aldehydes",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,benzaldehyde,"Carbonyls, aldehydes",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,phellandral,"Carbonyls, aldehydes",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,myrtenal,"Carbonyls, aldehydes",1700,1700
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,methylheptenone (unkn.str.),"Carbonyls, ketones",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"carvone (=p-6,8-menthadien-2-one)","Carbonyls, ketones",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,propanoic acid (=propionic acid),Acids,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,2-methylpropanoic acid (=isobutyric acid),Acids,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,pentanoic acid (=valeric acid),Acids,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,citronellyl formate,Esters,900,2700
+LAUREL (Laurus nobilis L.),,Spices & Condiments,isobutyl acetate (=2-methylpropyl acetate),Esters,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,pentyl acetate (=amyl acetate),Esters,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,geranyl acetate,Esters,200,10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,neryl acetate,Esters,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,linalyl acetate,Esters,2900,10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,eugenyl acetate (=acetyl eugenol),Esters,trace,1400
+LAUREL (Laurus nobilis L.),,Spices & Condiments,cinnamyl acetate,Esters,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,α-terpinyl acetate,Esters,23000,100000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,terpinyl acetate (unkn.str.),Esters,95400,179700
+LAUREL (Laurus nobilis L.),,Spices & Condiments,4-terpinenyl acetate,Esters,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,6-oxo-α-terpinyl 8-acetate (=8-acetoxycarvotanacetone),Esters,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,bornyl acetate,Esters,1400,10800
+LAUREL (Laurus nobilis L.),,Spices & Condiments,ethyl 2-methylpropanoate (=ethyl isobutyrate),Esters,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,isopropyl 2-methylpropanoate (=isopropyl isobutyrate),Esters,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,isobutyl 2-methylpropanoate (=isobutyl isobutyrate),Esters,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,ethyl pentanoate,Esters,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,methyl geranate,Esters,4800,9600
+LAUREL (Laurus nobilis L.),,Spices & Condiments,piperidine,Bases,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,diethyl ether,Ethers,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"1,4-cineole",Ethers,800,3600
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,254600,559000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"2,3-dehydro-1,8-cineole",Ethers,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"dehydro-1,8-cineole (unkn.str.)",Ethers,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,<10000,<10000
+LAUREL (Laurus nobilis L.),,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,<1000,44500
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,9900,88800
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"(Z)-1,2-dimethoxy-4-(1-propenyl)-benzene (=(Z)-methylisoeugenol)",Phenols,<100,2900
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"(E)-1,2-dimethoxy-4-(1-propenyl)-benzene (=(E)-methylisoeugenol)",Phenols,<1000,2900
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"5-allyl-1,2,3-trimethoxybenzene (=elemicin)",Phenols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,"6-allyl-4-methoxy-1,3-benzodioxole (=myristicin)",Phenols,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,2-ethylfuran,Furans,,
+LAUREL (Laurus nobilis L.),,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",,
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,0,10000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(E)-β-ocimene,Hydrocarbons,<400,1100
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,300,45000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-phellandrene,Hydrocarbons,<100,111000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-phellandrene,Hydrocarbons,2600,10900
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-terpinene,Hydrocarbons,300,500
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,γ-terpinene,Hydrocarbons,400,20000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,terpinolene,Hydrocarbons,300,1700
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,limonene,Hydrocarbons,10100,268000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-pinene,Hydrocarbons,700,104500
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-pinene,Hydrocarbons,<100,32200
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,camphene,Hydrocarbons,100,6500
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-fenchene,Hydrocarbons,400,400
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-fenchene,Hydrocarbons,300,600
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-thujene,Hydrocarbons,,
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,200,2700
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,3-carene,Hydrocarbons,1500,1600
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,<100,17300
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,linalool,Alcohols,100,3500
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,ocimenol,Alcohols,,
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,menthol,Alcohols,<400,1100
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-terpineol,Alcohols,,
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,0,2300
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"trans-carveol (=trans-p-1(6),8-menthadien-2-ol)",Alcohols,0,400
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,fenchol (=fenchyl alcohol),Alcohols,,
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,nonanal (unkn.str.),"Carbonyls, aldehydes",,
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,decanal (unkn.str.),"Carbonyls, aldehydes",,
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,4-methoxybenzaldehyde (=anisaldehyde),"Carbonyls, aldehydes",0,18000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,menthone,"Carbonyls, ketones",<400,<400
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"carvone (=p-6,8-menthadien-2-one)","Carbonyls, ketones",0,200
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",400,6000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,fenchone,"Carbonyls, ketones",12600,243000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(+)-fenchone,"Carbonyls, ketones",17000,17000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,thujone (=α-thujone),"Carbonyls, ketones",1000,1000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,4-methoxybenzoic acid (=p-anisic acid),Acids,10000,10000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,fenchyl acetate,Esters,trace,400
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-fenchyl acetate,Esters,1000,1000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,<100,24700
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,15400,120000
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,anethole (=1-methoxy-4-(1-propenyl)benzene),Phenols,720000,748500
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(Z)-anethole (=(Z)-1-methoxy-4-(1-propenyl)benzene),Phenols,0,34700
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"(E)-anethole (=(E)-1-methoxy-4-(1-propenyl)benzene, anise camphor)",Phenols,213600,911300
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"6-allyl-4-methoxy-1,3-benzodioxole (=myristicin)",Phenols,,
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"5-allyl-4,7-dimethoxy-1,3-benzodioxole (=apiole, parsley apiole)",Phenols,,
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"cis-limonene 1,2-oxide","(Ep)oxides, pyrans, coumarins",<100,1300
+,"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"trans-limonene 1,2-oxide","(Ep)oxides, pyrans, coumarins",<100,600
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,0,10000
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(E)-β-ocimene,Hydrocarbons,<400,1100
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,600,45000
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-phellandrene,Hydrocarbons,<100,111000
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-phellandrene,Hydrocarbons,10900,10900
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-terpinene,Hydrocarbons,500,500
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,γ-terpinene,Hydrocarbons,600,12800
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,terpinolene,Hydrocarbons,1000,1700
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,limonene,Hydrocarbons,13300,268000
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-pinene,Hydrocarbons,700,104500
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-pinene,Hydrocarbons,<100,32200
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,camphene,Hydrocarbons,100,6500
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-fenchene,Hydrocarbons,400,400
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-fenchene,Hydrocarbons,300,300
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-thujene,Hydrocarbons,,
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,200,2700
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,3-carene,Hydrocarbons,1500,1500
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,<100,17300
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,linalool,Alcohols,100,3000
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,ocimenol,Alcohols,,
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,menthol,Alcohols,1100,1100
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-terpineol,Alcohols,,
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,0,1000
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,fenchol (=fenchyl alcohol),Alcohols,,
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,nonanal (unkn.str.),"Carbonyls, aldehydes",,
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,decanal (unkn.str.),"Carbonyls, aldehydes",,
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,4-methoxybenzaldehyde (=anisaldehyde),"Carbonyls, aldehydes",0,18000
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,menthone,"Carbonyls, ketones",<400,<400
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",1000,2100
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,fenchone,"Carbonyls, ketones",54900,243000
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(+)-fenchone,"Carbonyls, ketones",,
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,4-methoxybenzoic acid (=p-anisic acid),Acids,10000,10000
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,<100,24700
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,17200,120000
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,anethole (=1-methoxy-4-(1-propenyl)benzene),Phenols,720000,748500
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(Z)-anethole (=(Z)-1-methoxy-4-(1-propenyl)benzene),Phenols,0,17000
+BITTER FENNEL (var. vulgare (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"(E)-anethole (=(E)-1-methoxy-4-(1-propenyl)benzene, anise camphor)",Phenols,213600,895200
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,<400,7000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(E)-β-ocimene,Hydrocarbons,<400,1000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,300,10000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-phellandrene,Hydrocarbons,<100,19600
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-phellandrene,Hydrocarbons,10900,10900
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-terpinene,Hydrocarbons,300,300
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,γ-terpinene,Hydrocarbons,400,20000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,terpinolene,Hydrocarbons,1000,1300
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,limonene,Hydrocarbons,24800,210300
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-pinene,Hydrocarbons,1300,37000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-pinene,Hydrocarbons,<100,5900
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,camphene,Hydrocarbons,<100,2000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-fenchene,Hydrocarbons,600,600
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-thujene,Hydrocarbons,,
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,<400,2100
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,3-carene,Hydrocarbons,1600,1600
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,800,6800
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,linalool,Alcohols,<400,3500
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,menthol,Alcohols,<400,<400
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-terpineol,Alcohols,,
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,<100,2300
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"trans-carveol (=trans-p-1(6),8-menthadien-2-ol)",Alcohols,0,400
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,4-methoxybenzaldehyde (=anisaldehyde),"Carbonyls, aldehydes",1000,13600
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,menthone,"Carbonyls, ketones",<400,<400
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"carvone (=p-6,8-menthadien-2-one)","Carbonyls, ketones",0,200
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",400,6000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,fenchone,"Carbonyls, ketones",12600,129300
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(+)-fenchone,"Carbonyls, ketones",17000,17000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,thujone (=α-thujone),"Carbonyls, ketones",1000,1000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,fenchyl acetate,Esters,<100,400
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-fenchyl acetate,Esters,1000,1000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,1800,7000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,22800,50000
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(Z)-anethole (=(Z)-1-methoxy-4-(1-propenyl)benzene),Phenols,0,34700
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"(E)-anethole (=(E)-1-methoxy-4-(1-propenyl)benzene, anise camphor)",Phenols,581200,906700
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"6-allyl-4-methoxy-1,3-benzodioxole (=myristicin)",Phenols,,
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"5-allyl-4,7-dimethoxy-1,3-benzodioxole (=apiole, parsley apiole)",Phenols,,
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"cis-limonene 1,2-oxide","(Ep)oxides, pyrans, coumarins",<100,1300
+SWEET FENNEL (var. dulce (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"trans-limonene 1,2-oxide","(Ep)oxides, pyrans, coumarins",<100,600
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,0,1400
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(E)-β-ocimene,Hydrocarbons,<400,<400
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,600,3100
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-phellandrene,Hydrocarbons,200,700
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-phellandrene,Hydrocarbons,2600,2600
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,γ-terpinene,Hydrocarbons,700,2200
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,terpinolene,Hydrocarbons,300,300
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,limonene,Hydrocarbons,10100,90500
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,α-pinene,Hydrocarbons,800,16800
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,β-pinene,Hydrocarbons,<100,600
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,camphene,Hydrocarbons,100,500
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,400,1300
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,<100,2300
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,linalool,Alcohols,<400,<400
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,menthol,Alcohols,900,900
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,0,900
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,4-methoxybenzaldehyde (=anisaldehyde),"Carbonyls, aldehydes",0,13000
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,menthone,"Carbonyls, ketones",<400,<400
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",800,1500
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,fenchone,"Carbonyls, ketones",44000,76800
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,fenchyl acetate,Esters,trace,trace
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,500,1600
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,15400,48900
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,(Z)-anethole (=(Z)-1-methoxy-4-(1-propenyl)benzene),Phenols,1400,15400
+VEGETABLE FENNEL (var. azoricum (Miller)),"FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",Spices & Condiments,"(E)-anethole (=(E)-1-methoxy-4-(1-propenyl)benzene, anise camphor)",Phenols,734800,911300
+,MALT,Bread & Cereals,decane,Hydrocarbons,0.04,0.04
+,MALT,Bread & Cereals,undecane,Hydrocarbons,,
+,MALT,Bread & Cereals,tetradecane,Hydrocarbons,,
+,MALT,Bread & Cereals,(Z)-β-ocimene,Hydrocarbons,,
+,MALT,Bread & Cereals,(E)-β-ocimene,Hydrocarbons,,
+,MALT,Bread & Cereals,β-myrcene (=myrcene),Hydrocarbons,,
+,MALT,Bread & Cereals,limonene,Hydrocarbons,,
+,MALT,Bread & Cereals,β-bisabolene,Hydrocarbons,,
+,MALT,Bread & Cereals,α-humulene (=humulene),Hydrocarbons,,
+,MALT,Bread & Cereals,α-pinene,Hydrocarbons,,
+,MALT,Bread & Cereals,β-pinene,Hydrocarbons,,
+,MALT,Bread & Cereals,sabinene (=4(10)-thujene),Hydrocarbons,,
+,MALT,Bread & Cereals,α-cadinene,Hydrocarbons,,
+,MALT,Bread & Cereals,γ-cadinene,Hydrocarbons,,
+,MALT,Bread & Cereals,δ-cadinene,Hydrocarbons,,
+,MALT,Bread & Cereals,γ-muurolene,Hydrocarbons,,
+,MALT,Bread & Cereals,β-caryophyllene,Hydrocarbons,,
+,MALT,Bread & Cereals,methylbenzene (=toluene),Hydrocarbons,,
+,MALT,Bread & Cereals,calamenene,Hydrocarbons,,
+,MALT,Bread & Cereals,α-calacorene,Hydrocarbons,,
+,MALT,Bread & Cereals,ethanol,Alcohols,,
+,MALT,Bread & Cereals,2-methyl-1-propanol (=isobutanol),Alcohols,,
+,MALT,Bread & Cereals,2-butanol (=sec-butanol),Alcohols,,
+,MALT,Bread & Cereals,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+,MALT,Bread & Cereals,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,1.2,1.2
+,MALT,Bread & Cereals,1-pentanol (=amyl alcohol),Alcohols,0.2,0.8
+,MALT,Bread & Cereals,2-pentanol,Alcohols,,
+,MALT,Bread & Cereals,2-penten-1-ol,Alcohols,0.04,0.07
+,MALT,Bread & Cereals,(Z)-2-penten-1-ol,Alcohols,,
+,MALT,Bread & Cereals,1-penten-3-ol,Alcohols,0.2,0.2
+,MALT,Bread & Cereals,2-methyl-1-pentanol,Alcohols,,
+,MALT,Bread & Cereals,1-hexanol,Alcohols,0.7,1.9
+,MALT,Bread & Cereals,2-hexen-1-ol,Alcohols,0.2,0.6
+,MALT,Bread & Cereals,(E)-2-hexen-1-ol,Alcohols,0.1,0.1
+,MALT,Bread & Cereals,3-hexen-1-ol,Alcohols,0.03,0.08
+,MALT,Bread & Cereals,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,0.03,0.03
+,MALT,Bread & Cereals,1-heptanol,Alcohols,0.01,0.05
+,MALT,Bread & Cereals,2-heptanol,Alcohols,,
+,MALT,Bread & Cereals,3-heptanol,Alcohols,,
+,MALT,Bread & Cereals,2-hepten-1-ol,Alcohols,0.02,0.03
+,MALT,Bread & Cereals,1-hepten-3-ol,Alcohols,,
+,MALT,Bread & Cereals,1-octanol,Alcohols,0.09,0.1
+,MALT,Bread & Cereals,2-octen-1-ol,Alcohols,0.05,0.06
+,MALT,Bread & Cereals,(E)-2-octen-1-ol,Alcohols,0.06,0.06
+,MALT,Bread & Cereals,1-octen-3-ol,Alcohols,0.16,0.24
+,MALT,Bread & Cereals,1-nonanol,Alcohols,0.035,0.09
+,MALT,Bread & Cereals,2-nonen-1-ol,Alcohols,0.04,0.13
+,MALT,Bread & Cereals,(E)-2-nonen-1-ol,Alcohols,,
+,MALT,Bread & Cereals,"2,6-nonadien-1-ol",Alcohols,<0.01,0.015
+,MALT,Bread & Cereals,"(E,Z)-2,6-nonadien-1-ol",Alcohols,,
+,MALT,Bread & Cereals,"(E,Z)-2,4-decadien-1-ol",Alcohols,,
+,MALT,Bread & Cereals,"(E,E)-2,4-decadien-1-ol",Alcohols,,
+,MALT,Bread & Cereals,"(E,Z)-2,6-decadien-1-ol",Alcohols,,
+,MALT,Bread & Cereals,citronellol,Alcohols,,
+,MALT,Bread & Cereals,geraniol,Alcohols,,
+,MALT,Bread & Cereals,nerol,Alcohols,,
+,MALT,Bread & Cereals,linalool,Alcohols,,
+,MALT,Bread & Cereals,"(Z,E)-farnesol",Alcohols,,
+,MALT,Bread & Cereals,nerolidol,Alcohols,,
+,MALT,Bread & Cereals,(E)-nerolidol,Alcohols,,
+,MALT,Bread & Cereals,benzyl alcohol (=benzenemethanol),Alcohols,0.04,0.04
+,MALT,Bread & Cereals,2-phenylethanol (=phenethyl alcohol),Alcohols,0.5,0.5
+,MALT,Bread & Cereals,2-(4-hydroxyphenyl)ethanol (=tyrosol),Alcohols,0.02,0.02
+,MALT,Bread & Cereals,"3-phenyl-1-propanol (=benzenepropanol, dihydrocinnamic alcohol)",Alcohols,,
+,MALT,Bread & Cereals,α-terpineol,Alcohols,,
+,MALT,Bread & Cereals,4-terpineol (=terpinen-4-ol),Alcohols,,
+,MALT,Bread & Cereals,humulol,Alcohols,,
+,MALT,Bread & Cereals,humulenol II,Alcohols,,
+,MALT,Bread & Cereals,fenchol (=fenchyl alcohol),Alcohols,,
+,MALT,Bread & Cereals,α-cadinol,Alcohols,,
+,MALT,Bread & Cereals,cadinol-T,Alcohols,,
+,MALT,Bread & Cereals,cubenol,Alcohols,,
+,MALT,Bread & Cereals,epicubenol,Alcohols,,
+,MALT,Bread & Cereals,α-eudesmol,Alcohols,,
+,MALT,Bread & Cereals,β-eudesmol,Alcohols,,
+,MALT,Bread & Cereals,11-selinen-4-ol,Alcohols,,
+,MALT,Bread & Cereals,spathulenol (=(+)-spathulenol),Alcohols,,
+,MALT,Bread & Cereals,formaldehyde (=methanal),"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",0.06,0.64
+,MALT,Bread & Cereals,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,2-butenal (=crotonaldehyde),"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",1.2,12.8
+,MALT,Bread & Cereals,(E)-2-methyl-2-butenal (=tiglicaldehyde),"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,pentanal (=valeraldehyde),"Carbonyls, aldehydes",0.88,0.9
+,MALT,Bread & Cereals,3-methylpentanal,"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0.15,6.4
+,MALT,Bread & Cereals,2-hexenal,"Carbonyls, aldehydes",0.58,0.76
+,MALT,Bread & Cereals,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,"2,4-hexadienal","Carbonyls, aldehydes",<0.01,0.02
+,MALT,Bread & Cereals,"(E,E)-2,4-hexadienal","Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,heptanal,"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,2-heptenal,"Carbonyls, aldehydes",0.01,0.06
+,MALT,Bread & Cereals,(Z)-4-heptenal,"Carbonyls, aldehydes",0.02,0.1
+,MALT,Bread & Cereals,"2,4-heptadienal","Carbonyls, aldehydes",0.02,0.06
+,MALT,Bread & Cereals,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,2-octenal,"Carbonyls, aldehydes",0.06,0.16
+,MALT,Bread & Cereals,(E)-2-octenal,"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",trace,0.01
+,MALT,Bread & Cereals,2-nonenal,"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,(E)-2-nonenal,"Carbonyls, aldehydes",0.2,0.4
+,MALT,Bread & Cereals,"2,4-nonadienal","Carbonyls, aldehydes",0.01,0.06
+,MALT,Bread & Cereals,"(E,E)-2,4-nonadienal","Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,"2,6-nonadienal","Carbonyls, aldehydes",0.01,0.05
+,MALT,Bread & Cereals,"(E,Z)-2,6-nonadienal","Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,"2,4-decadienal","Carbonyls, aldehydes",0.05,0.19
+,MALT,Bread & Cereals,"(E,Z)-2,4-decadienal","Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,"(E,Z)-2,6-decadienal","Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,"2,4,7-decatrienal","Carbonyls, aldehydes",0.01,0.025
+,MALT,Bread & Cereals,"2,4-undecadienal","Carbonyls, aldehydes",<0.01,0.02
+,MALT,Bread & Cereals,benzaldehyde,"Carbonyls, aldehydes",,
+,MALT,Bread & Cereals,4-hydroxybenzaldehyde (=4-formylphenol),"Carbonyls, aldehydes",0.05,0.2
+,MALT,Bread & Cereals,vanillin (=4-hydroxy-3-methoxybenzaldehyde),"Carbonyls, aldehydes",0.05,0.275
+,MALT,Bread & Cereals,"syringaldehyde (=4-hydroxy-3,5-dimethoxy-benzaldehyde)","Carbonyls, aldehydes",0.02,0.04
+,MALT,Bread & Cereals,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",0.06,0.5
+,MALT,Bread & Cereals,2-phenyl-2-butenal,"Carbonyls, aldehydes",0.01,0.045
+,MALT,Bread & Cereals,4-methyl-2-phenyl-2-pentenal,"Carbonyls, aldehydes",<0.01,0.02
+,MALT,Bread & Cereals,4-methyl-2-phenyl-2-hexenal,"Carbonyls, aldehydes",<0.01,0.012
+,MALT,Bread & Cereals,5-methyl-2-phenyl-2-hexenal,"Carbonyls, aldehydes",<0.01,0.065
+,MALT,Bread & Cereals,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+,MALT,Bread & Cereals,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+,MALT,Bread & Cereals,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",0.06,0.06
+,MALT,Bread & Cereals,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+,MALT,Bread & Cereals,2-pentanone,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,4-methyl-2-pentanone,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+,MALT,Bread & Cereals,"4-methyl-2,3-pentanedione","Carbonyls, ketones",,
+,MALT,Bread & Cereals,2-hexanone,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,2-heptanone,"Carbonyls, ketones",<0.01,0.08
+,MALT,Bread & Cereals,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,2-octanone,"Carbonyls, ketones",0.03,0.04
+,MALT,Bread & Cereals,"3,5-octadien-2-one","Carbonyls, ketones",<0.01,0.03
+,MALT,Bread & Cereals,2-nonanone,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,2-decanone,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,9-methyl-2-decanone,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,2-undecanone,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,2-dodecanone,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,2-tridecanone,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,tridecanone (unkn.str.),"Carbonyls, ketones",,
+,MALT,Bread & Cereals,"3-methyl-1,2-cyclopentanedione (=cyclotene)","Carbonyls, ketones",,
+,MALT,Bread & Cereals,2-hydroxy-5-methyl-2-cyclopenten-1-one,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,4-hydroxyacetophenone,"Carbonyls, ketones",0.01,0.01
+,MALT,Bread & Cereals,acetovanillone,"Carbonyls, ketones",0.08,0.09
+,MALT,Bread & Cereals,1-phenyl-2-propanone,"Carbonyls, ketones",,
+,MALT,Bread & Cereals,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",,
+,MALT,Bread & Cereals,acetic acid,Acids,,
+,MALT,Bread & Cereals,propanoic acid (=propionic acid),Acids,,
+,MALT,Bread & Cereals,2-methylpropanoic acid (=isobutyric acid),Acids,0.03,0.03
+,MALT,Bread & Cereals,2-hydroxypropanoic acid (=lactic acid),Acids,1.7,1.7
+,MALT,Bread & Cereals,butanoic acid (=butyric acid),Acids,0.02,0.02
+,MALT,Bread & Cereals,3-methylbutanoic acid (=isovaleric acid),Acids,0.27,0.27
+,MALT,Bread & Cereals,2-hydroxy-3-methylbutanoic acid,Acids,0.05,0.05
+,MALT,Bread & Cereals,pentanoic acid (=valeric acid),Acids,<0.01,<0.01
+,MALT,Bread & Cereals,4-methylpentanoic acid (=isocaproic acid),Acids,,
+,MALT,Bread & Cereals,2-hydroxy-3-methylpentanoic acid,Acids,0.03,0.03
+,MALT,Bread & Cereals,2-hydroxy-4-methylpentanoic acid,Acids,0.03,0.03
+,MALT,Bread & Cereals,hexanoic acid (=caproic acid),Acids,0.3,0.3
+,MALT,Bread & Cereals,hexenoic acid (unkn.str.),Acids,0.02,0.02
+,MALT,Bread & Cereals,heptanoic acid (=enanthic acid),Acids,0.01,0.01
+,MALT,Bread & Cereals,2-hydroxyheptanoic acid,Acids,0.02,0.02
+,MALT,Bread & Cereals,octanoic acid (=caprylic acid),Acids,0.02,0.02
+,MALT,Bread & Cereals,3-hydroxyoctanoic acid,Acids,0.04,0.04
+,MALT,Bread & Cereals,nonanoic acid (=pelargonic acid),Acids,<0.01,<0.01
+,MALT,Bread & Cereals,9-oxononanoic acid,Acids,0.1,0.1
+,MALT,Bread & Cereals,decanoic acid (=capric acid),Acids,<0.01,<0.01
+,MALT,Bread & Cereals,(E)-2-decenoic acid,Acids,,
+,MALT,Bread & Cereals,(Z)-4-decenoic acid,Acids,,
+,MALT,Bread & Cereals,3-hydroxydecanoic acid,Acids,<0.01,<0.01
+,MALT,Bread & Cereals,undecanoic acid,Acids,<0.01,<0.01
+,MALT,Bread & Cereals,dodecanoic acid (=lauric acid),Acids,0.01,0.01
+,MALT,Bread & Cereals,3-hydroxydodecanoic acid,Acids,<0.01,<0.01
+,MALT,Bread & Cereals,tridecanoic acid,Acids,<0.01,<0.01
+,MALT,Bread & Cereals,tetradecanoic acid (=myristic acid),Acids,0.09,0.09
+,MALT,Bread & Cereals,pentadecanoic acid,Acids,<0.01,<0.01
+,MALT,Bread & Cereals,hexadecanoic acid (=palmitic acid),Acids,0.5,0.5
+,MALT,Bread & Cereals,(Z)-9-hexadecenoic acid (=palmitoleic acid),Acids,0.03,0.03
+,MALT,Bread & Cereals,heptadecanoic acid (=margaric acid),Acids,<0.01,<0.01
+,MALT,Bread & Cereals,octadecanoic acid (=stearic acid),Acids,0.18,0.18
+,MALT,Bread & Cereals,(Z)-9-octadecenoic acid (=oleic acid),Acids,0.25,0.25
+,MALT,Bread & Cereals,"(Z,Z)-9,12-octadecadienoic acid (=linoleic acid)",Acids,1.4,1.4
+,MALT,Bread & Cereals,"(Z,Z,Z)-9,12,15-octadecatrienoic acid (=linolenic acid)",Acids,0.03,0.03
+,MALT,Bread & Cereals,eicosanoic acid (=arachidic acid),Acids,<0.01,<0.01
+,MALT,Bread & Cereals,malonic acid (=propanedioic acid),Acids,0.13,0.13
+,MALT,Bread & Cereals,succinic acid (=butanedioic acid),Acids,5,5
+,MALT,Bread & Cereals,pentanedioic acid (=glutaric acid),Acids,0.08,0.08
+,MALT,Bread & Cereals,hexanedioic acid (=adipic acid),Acids,0.05,0.05
+,MALT,Bread & Cereals,heptanedioic acid (=pimelic acid),Acids,0.12,0.12
+,MALT,Bread & Cereals,octanedioic acid (=suberic acid),Acids,0.24,0.24
+,MALT,Bread & Cereals,nonanedioic acid (=azelaic acid),Acids,1.8,1.8
+,MALT,Bread & Cereals,decanedioic acid (=sebacic acid),Acids,0.16,0.16
+,MALT,Bread & Cereals,undecanedioic acid,Acids,0.1,0.1
+,MALT,Bread & Cereals,dodecanedioic acid,Acids,0.12,0.12
+,MALT,Bread & Cereals,benzoic acid,Acids,0.19,0.19
+,MALT,Bread & Cereals,2-hydroxybenzoic acid (=salicylic acid),Acids,0.03,0.03
+,MALT,Bread & Cereals,4-hydroxybenzoic acid,Acids,1.8,1.8
+,MALT,Bread & Cereals,"3,4-dihydroxybenzoic acid (=protocatechuic acid)",Acids,,
+,MALT,Bread & Cereals,4-hydroxy-3-methoxybenzoic acid (=vanillic acid),Acids,,
+,MALT,Bread & Cereals,phenylacetic acid,Acids,0.5,0.5
+,MALT,Bread & Cereals,(4-hydroxyphenyl)acetic acid,Acids,0.6,0.6
+,MALT,Bread & Cereals,phenylpropanoic acid (unkn.str.),Acids,0.01,0.01
+,MALT,Bread & Cereals,cinnamic acid,Acids,,
+,MALT,Bread & Cereals,(Z)-cinnamic acid,Acids,<0.01,<0.01
+,MALT,Bread & Cereals,(E)-cinnamic acid,Acids,0.48,0.48
+,MALT,Bread & Cereals,2-hydroxy-3-phenylpropanoic acid (=3-phenyllactic acid),Acids,0.1,0.1
+,MALT,Bread & Cereals,3-(4-hydroxyphenyl)propanoic acid,Acids,0.35,0.35
+,MALT,Bread & Cereals,4-hydroxycinnamic acid (=p-coumaric acid),Acids,,
+,MALT,Bread & Cereals,(E)-4-hydroxycinnamic acid (=(E)-p-coumaric acid),Acids,2.2,2.2
+,MALT,Bread & Cereals,(Z)-4-hydroxycinnamic acid (=(Z)-p-coumaric acid),Acids,0.04,0.04
+,MALT,Bread & Cereals,4-hydroxy-3-methoxycinnamic acid (=ferulic acid),Acids,,
+,MALT,Bread & Cereals,(E)-4-hydroxy-3-methoxycinnamic acid (=(E)-ferulic acid),Acids,5.2,5.2
+,MALT,Bread & Cereals,(Z)-4-hydroxy-3-methoxycinnamic acid (=(Z)-ferulic acid),Acids,1.3,1.3
+,MALT,Bread & Cereals,phthalic acid,Acids,0.01,0.01
+,MALT,Bread & Cereals,methyl acetate,Esters,,
+,MALT,Bread & Cereals,ethyl acetate,Esters,,
+,MALT,Bread & Cereals,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+,MALT,Bread & Cereals,phenethyl acetate,Esters,,
+,MALT,Bread & Cereals,methyl hexanoate,Esters,,
+,MALT,Bread & Cereals,methyl 4-methylhexenoate (unkn.str.),Esters,,
+,MALT,Bread & Cereals,methyl heptanoate,Esters,0.05,0.05
+,MALT,Bread & Cereals,methyl 6-methylheptanoate,Esters,,
+,MALT,Bread & Cereals,methyl octanoate,Esters,,
+,MALT,Bread & Cereals,methyl nonanoate,Esters,,
+,MALT,Bread & Cereals,methyl 4-decenoate,Esters,,
+,MALT,Bread & Cereals,"methyl 4,8-decadienoate",Esters,,
+,MALT,Bread & Cereals,ethyl tetradecanoate (=ethyl myristate),Esters,,
+,MALT,Bread & Cereals,ethyl hexadecanoate (=ethyl palmitate),Esters,,
+,MALT,Bread & Cereals,diethyl phthalate,Esters,,
+,MALT,Bread & Cereals,"4-hydroxy-4-methylpentanoic acid lactone (=4,4-dimethyl-butanolide)",Lactones,,
+,MALT,Bread & Cereals,"4-hydroxyhexanoic acid lactone (=γ-hexalactone, γ-caprolactone, 4-hexanolide)",Lactones,,
+,MALT,Bread & Cereals,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,0.04,0.04
+,MALT,Bread & Cereals,"4-hydroxydecanoic acid lactone (=4-decanolide, γ-decalactone)",Lactones,,
+,MALT,Bread & Cereals,"5-hydroxydecanoic acid lactone (=5-decanolide, δ-decalactone)",Lactones,,
+,MALT,Bread & Cereals,ammonia,Bases,1192,1192
+,MALT,Bread & Cereals,methylamine,Bases,<0.1,<0.1
+,MALT,Bread & Cereals,ethylamine,Bases,0.3,0.3
+,MALT,Bread & Cereals,dimethylamine,Bases,0.5,0.5
+,MALT,Bread & Cereals,N-ethylmethylamine,Bases,<0.1,<0.1
+,MALT,Bread & Cereals,diethylamine,Bases,0.6,0.6
+,MALT,Bread & Cereals,pyrrolidine,Bases,1.5,1.5
+,MALT,Bread & Cereals,2-pyrrolidone (=γ-butyrolactam),Bases,<0.01,<0.01
+,MALT,Bread & Cereals,1-methyl-2-pyrrolidone,Bases,<0.01,<0.01
+,MALT,Bread & Cereals,1-acetylpyrrolidine,Bases,,
+,MALT,Bread & Cereals,pyrrole,Bases,0.001,0.7
+,MALT,Bread & Cereals,2-methylpyrrole,Bases,,
+,MALT,Bread & Cereals,1-furfurylpyrrole,Bases,<0.01,0.08
+,MALT,Bread & Cereals,2-pyrrolecarbaldehyde (=2-formylpyrrole),Bases,0.58,0.58
+,MALT,Bread & Cereals,1-methyl-2-pyrrolecarbaldehyde (=2-formyl-1-methylpyrrole),Bases,<0.01,<0.01
+,MALT,Bread & Cereals,5-methyl-2-pyrrolecarbaldehyde (=2-formyl-5-methylpyrrole),Bases,0.4,0.4
+,MALT,Bread & Cereals,"1-ethyl-2-pyrrolecarbaldehyde (=1-ethyl-2-formylpyrrole, 1-ethylpyrrole-2-aldehyde)",Bases,<0.01,<0.01
+,MALT,Bread & Cereals,1-furfuryl-2-pyrrolecarbaldehyde (=2-formyl-1-furfurylpyrrole),Bases,<0.01,<0.01
+,MALT,Bread & Cereals,1-acetylpyrrole,Bases,<0.01,<0.01
+,MALT,Bread & Cereals,2-acetylpyrrole (=methyl 2-pyrrolyl ketone),Bases,0.02,6.6
+,MALT,Bread & Cereals,2-acetyl-5-methylpyrrole,Bases,0.02,0.02
+,MALT,Bread & Cereals,"2,3-dihydro-6-methyl-1H-pyrrolizine-5-carbaldehyde",Bases,,
+,MALT,Bread & Cereals,"5-acetyl-2,3-dihydro-1H-pyrrolizine",Bases,,
+,MALT,Bread & Cereals,"5-acetyl-2,3-dihydro-6-methyl-1H-pyrrolizine",Bases,,
+,MALT,Bread & Cereals,indole,Bases,0.001,0.07
+,MALT,Bread & Cereals,pyrazole,Bases,,
+,MALT,Bread & Cereals,piperidine,Bases,<0.1,<0.1
+,MALT,Bread & Cereals,pyridine,Bases,,
+,MALT,Bread & Cereals,2-methylpyridine (=α-picoline),Bases,,
+,MALT,Bread & Cereals,3-methylpyridine (=β-picoline),Bases,,
+,MALT,Bread & Cereals,2-ethylpyridine,Bases,,
+,MALT,Bread & Cereals,2-butylpyridine,Bases,,
+,MALT,Bread & Cereals,"2,6-dimethylpyridine (=2,6-lutidine)",Bases,,
+,MALT,Bread & Cereals,2-acetylpyridine,Bases,0.001,0.9
+,MALT,Bread & Cereals,3-acetylpyridine,Bases,,
+,MALT,Bread & Cereals,methyl nicotinate,Bases,<0.001,0.1
+,MALT,Bread & Cereals,ethyl nicotinate,Bases,,
+,MALT,Bread & Cereals,pyrazine,Bases,0.001,1.3
+,MALT,Bread & Cereals,methylpyrazine,Bases,0.002,38.3
+,MALT,Bread & Cereals,ethylpyrazine,Bases,<0.01,1.6
+,MALT,Bread & Cereals,vinylpyrazine,Bases,0.24,0.27
+,MALT,Bread & Cereals,propylpyrazine,Bases,,
+,MALT,Bread & Cereals,isopropenylpyrazine,Bases,0.08,0.11
+,MALT,Bread & Cereals,pentylpyrazine,Bases,,
+,MALT,Bread & Cereals,(2-furyl)pyrazine,Bases,<0.01,<0.01
+,MALT,Bread & Cereals,"2,3-dimethylpyrazine",Bases,<0.01,1.4
+,MALT,Bread & Cereals,"2,5-dimethylpyrazine",Bases,0.001,13
+,MALT,Bread & Cereals,"2,6-dimethylpyrazine",Bases,0.001,4.8
+,MALT,Bread & Cereals,"2,5(or 6)-dimethylpyrazine",Bases,8.2,8.3
+,MALT,Bread & Cereals,dimethylpyrazine (unkn.str.),Bases,,
+,MALT,Bread & Cereals,2-ethyl-3-methylpyrazine,Bases,<0.01,0.38
+,MALT,Bread & Cereals,2-ethyl-5-methylpyrazine,Bases,<0.01,0.52
+,MALT,Bread & Cereals,2-ethyl-6-methylpyrazine,Bases,<0.01,0.8
+,MALT,Bread & Cereals,ethyl-methylpyrazine (unkn.str.),Bases,,
+,MALT,Bread & Cereals,2-methyl-5-vinylpyrazine,Bases,0.32,0.4
+,MALT,Bread & Cereals,2-methyl-6-vinylpyrazine,Bases,0.32,0.34
+,MALT,Bread & Cereals,2-methyl-5(or 6)-vinylpyrazine,Bases,,
+,MALT,Bread & Cereals,methyl-propenylpyrazine (unkn.str.),Bases,,
+,MALT,Bread & Cereals,"2,3-diethylpyrazine",Bases,,
+,MALT,Bread & Cereals,"2,6-diethylpyrazine",Bases,,
+,MALT,Bread & Cereals,trimethylpyrazine,Bases,0.001,2.3
+,MALT,Bread & Cereals,"5-ethyl-2,3-dimethylpyrazine",Bases,0,0.01
+,MALT,Bread & Cereals,"3-ethyl-2,5-dimethylpyrazine",Bases,trace,0.4
+,MALT,Bread & Cereals,"2-ethyl-3,5-dimethylpyrazine",Bases,<0.001,0.4
+,MALT,Bread & Cereals,"3-isobutyl-2,5-dimethylpyrazine",Bases,,
+,MALT,Bread & Cereals,"5-isobutyl-2,3-dimethylpyrazine",Bases,,
+,MALT,Bread & Cereals,"3-isopentyl-2,5-dimethylpyrazine",Bases,,
+,MALT,Bread & Cereals,triethylpyrazine,Bases,,
+,MALT,Bread & Cereals,tetramethylpyrazine,Bases,0,0.11
+,MALT,Bread & Cereals,methoxypyrazine,Bases,,
+,MALT,Bread & Cereals,2-acetyl-5-methylpyrazine,Bases,,
+,MALT,Bread & Cereals,5-methyl-5H-cyclopentapyrazine,Bases,0,0.01
+,MALT,Bread & Cereals,"6,7-dihydro-5H-cyclopentapyrazine",Bases,<0.01,<0.01
+,MALT,Bread & Cereals,"6,7-dihydro-2-methyl-5H-cyclopentapyrazine",Bases,0,0.02
+,MALT,Bread & Cereals,"6,7-dihydro-5-methyl-5H-cyclopentapyrazine",Bases,0,0.02
+,MALT,Bread & Cereals,quinoxaline,Bases,0.07,0.1
+,MALT,Bread & Cereals,maltoxazine,Bases,,
+,MALT,Bread & Cereals,hydrogen sulfide,Sulfur compounds,,
+,MALT,Bread & Cereals,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,4,19
+,MALT,Bread & Cereals,furfuryl methyl sulfide (=furfurylthiomethane),Sulfur compounds,,
+,MALT,Bread & Cereals,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+,MALT,Bread & Cereals,furfuryl methyl disulfide,Sulfur compounds,,
+,MALT,Bread & Cereals,(methylthio)acetaldehyde,Sulfur compounds,<0.01,0.04
+,MALT,Bread & Cereals,3-(methylthio)propanal (=methional),Sulfur compounds,0.03,0.3
+,MALT,Bread & Cereals,3-(methylthio)propanoic acid,Sulfur compounds,<0.01,<0.01
+,MALT,Bread & Cereals,(methylthio)acetic acid,Sulfur compounds,<0.01,<0.01
+,MALT,Bread & Cereals,methyl methanesulfonothioate,Sulfur compounds,,
+,MALT,Bread & Cereals,dimethyl sulfoxide (=methylsulfinylmethane),Sulfur compounds,,
+,MALT,Bread & Cereals,2-methyl-3(2H)-dihydrothiophenone (=2-methyl-3-thiolanone),Sulfur compounds,,
+,MALT,Bread & Cereals,2-thiophenecarbaldehyde (=2-formylthiophene),Sulfur compounds,,
+,MALT,Bread & Cereals,2-acetylthiophene,Sulfur compounds,,
+,MALT,Bread & Cereals,2-thiophenecarboxylic acid,Sulfur compounds,0.01,0.01
+,MALT,Bread & Cereals,thiazole,Sulfur compounds,0.003,1.54
+,MALT,Bread & Cereals,4-methylthiazole,Sulfur compounds,0,0.5
+,MALT,Bread & Cereals,5-ethylthiazole,Sulfur compounds,,
+,MALT,Bread & Cereals,"4,5-dimethylthiazole",Sulfur compounds,,
+,MALT,Bread & Cereals,5-ethyl-4-methylthiazole,Sulfur compounds,,
+,MALT,Bread & Cereals,benzothiazole,Sulfur compounds,0.001,0.07
+,MALT,Bread & Cereals,5-(2-hydroxyethyl)-4-methylthiazole,Sulfur compounds,,
+,MALT,Bread & Cereals,2-acetylthiazole,Sulfur compounds,0.006,1.3
+,MALT,Bread & Cereals,hop ether,Ethers,,
+,MALT,Bread & Cereals,"karahana ether (=8,8-dimethyl-2-methylene-6-oxabicyclo- [3.2.1]octane)",Ethers,,
+,MALT,Bread & Cereals,phenol (=hydroxybenzene),Phenols,0.01,0.01
+,MALT,Bread & Cereals,2-methylphenol (=o-cresol),Phenols,,
+,MALT,Bread & Cereals,3-methylphenol (=m-cresol),Phenols,,
+,MALT,Bread & Cereals,4-methylphenol (=p-cresol),Phenols,0.01,0.01
+,MALT,Bread & Cereals,4-ethylphenol,Phenols,,
+,MALT,Bread & Cereals,4-[2-(dimethylamino)ethyl]phenol (=hordenine),Phenols,10,10
+,MALT,Bread & Cereals,4-vinylphenol,Phenols,0.08,0.35
+,MALT,Bread & Cereals,4-propylphenol,Phenols,,
+,MALT,Bread & Cereals,4-butylphenol,Phenols,,
+,MALT,Bread & Cereals,2-methoxyphenol (=guaiacol),Phenols,0.01,0.025
+,MALT,Bread & Cereals,"2-methoxy-4-methylphenol (=4-methylguaiacol, creosol)",Phenols,0.02,0.02
+,MALT,Bread & Cereals,4-ethyl-2-methoxyphenol (=4-ethylguaiacol),Phenols,0.01,0.01
+,MALT,Bread & Cereals,2-methoxy-4-vinylphenol (=4-vinylguaiacol),Phenols,0.05,0.7
+,MALT,Bread & Cereals,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,0.01,0.05
+,MALT,Bread & Cereals,"4-ethyl-2,6-dimethoxyphenol (=4-ethylsyringol)",Phenols,0.01,0.03
+,MALT,Bread & Cereals,"2,6-dimethoxy-4-vinylphenol (=4-vinylsyringol)",Phenols,0.04,0.05
+,MALT,Bread & Cereals,"2,6-dimethoxy-4-propenylphenol (unkn.str.) (=4-propenyl-syringol (unkn.str.))",Phenols,0.04,0.04
+,MALT,Bread & Cereals,"2,5-dimethyltetrahydrofuran",Furans,,
+,MALT,Bread & Cereals,2-methylfuran,Furans,,
+,MALT,Bread & Cereals,2-ethylfuran,Furans,,
+,MALT,Bread & Cereals,ethylfuran (unkn.str.),Furans,<0.01,<0.01
+,MALT,Bread & Cereals,2-vinylfuran,Furans,,
+,MALT,Bread & Cereals,2-butylfuran,Furans,,
+,MALT,Bread & Cereals,2-pentylfuran,Furans,0.7,1
+,MALT,Bread & Cereals,"2,5-dimethylfuran",Furans,,
+,MALT,Bread & Cereals,2-methyl-5-vinylfuran,Furans,0.03,0.06
+,MALT,Bread & Cereals,3-phenylfuran,Furans,0,0.085
+,MALT,Bread & Cereals,"2,2'-bifuran (=2-(2-furyl)furan, di-(2-furyl))",Furans,0,0.02
+,MALT,Bread & Cereals,"2,2'-methylenebisfuran (=2,2-difurylmethane)",Furans,0,0.03
+,MALT,Bread & Cereals,"5-methyl-2,2'-methylenebisfuran (=(2-furyl)-(5-methylfuryl-2)-methane)",Furans,0.13,0.13
+,MALT,Bread & Cereals,"5,5'-dimethyl-2,2'-methylenebisfuran",Furans,0,0.085
+,MALT,Bread & Cereals,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,0.3,2.7
+,MALT,Bread & Cereals,"3-furancarbaldehyde (=3-formylfuran, 3-furaldehyde)",Furans,0.01,0.04
+,MALT,Bread & Cereals,5-methylfurfural,Furans,0.01,0.9
+,MALT,Bread & Cereals,5-(hydroxymethyl)furfural,Furans,<5,<5
+,MALT,Bread & Cereals,2-methyldihydro-3(2H)-furanone,Furans,,
+,MALT,Bread & Cereals,"5,5-dimethyl-2(5H)-furanone (=4,4-dimethyl-2-buten-1,4-olide)",Furans,,
+,MALT,Bread & Cereals,"4-hydroxy-2,5-dimethyl-3(2H)-furanone (=furaneol)",Furans,,
+,MALT,Bread & Cereals,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,0,0.54
+,MALT,Bread & Cereals,2-acetyl-5-methylfuran,Furans,<0.01,<0.01
+,MALT,Bread & Cereals,2-acetyl-3-hydroxyfuran (=isomaltol),Furans,,
+,MALT,Bread & Cereals,2-propanoylfuran,Furans,,
+,MALT,Bread & Cereals,propanoylfuran (unkn.str.),Furans,0,0.02
+,MALT,Bread & Cereals,"1-(2-furyl)-1,2-propanedione",Furans,0,0.02
+,MALT,Bread & Cereals,"1-(5-methyl-2-furyl)-1,2-propanedione",Furans,0,0.005
+,MALT,Bread & Cereals,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,2.1,2.1
+,MALT,Bread & Cereals,5-methylfurfuryl alcohol,Furans,0.01,0.01
+,MALT,Bread & Cereals,"2,5-bis(hydroxymethyl)furan",Furans,<0.01,<0.01
+,MALT,Bread & Cereals,2-furancarboxylic acid (=2-furoic acid),Furans,0.3,0.38
+,MALT,Bread & Cereals,humulene epoxide I,"(Ep)oxides, pyrans, coumarins",,
+,MALT,Bread & Cereals,humulene epoxide II,"(Ep)oxides, pyrans, coumarins",,
+,MALT,Bread & Cereals,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",,
+,MALT,Bread & Cereals,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+,MALT,Bread & Cereals,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+,MALT,Bread & Cereals,3-hydroxy-2-methyl-4-pyrone (=maltol),"(Ep)oxides, pyrans, coumarins",,
+,MALT,Bread & Cereals,"2,3-dihydro-3,5-dihydroxy-6-methyl-4-pyrone (=5,6-dihydro-5-hydroxymaltol)","(Ep)oxides, pyrans, coumarins",,
+,MALT,Bread & Cereals,"2,2,7,7-tetramethyl-1,6-dioxa-spiro[4.4]nona-3,8-diene (=spiroacetal)","(Ep)oxides, pyrans, coumarins",,
+,MALT,Bread & Cereals,2-phenyloxazole,Oxazol(in)es,,
+,MALT,Bread & Cereals,"4,5-dimethyloxazole",Oxazol(in)es,,
+,MALT,Bread & Cereals,trimethyloxazole,Oxazol(in)es,,
+,MALT,Bread & Cereals,"5-hexyl-2,4-dimethyloxazole",Oxazol(in)es,,
+,MALT,Bread & Cereals,benzoxazole,Oxazol(in)es,,
+,MALT,Bread & Cereals,2-methylbenzoxazole,Oxazol(in)es,,
+MALT,MALT,Bread & Cereals,decane,Hydrocarbons,0.04,0.04
+MALT,MALT,Bread & Cereals,methylbenzene (=toluene),Hydrocarbons,,
+MALT,MALT,Bread & Cereals,ethanol,Alcohols,,
+MALT,MALT,Bread & Cereals,2-methyl-1-propanol (=isobutanol),Alcohols,,
+MALT,MALT,Bread & Cereals,2-butanol (=sec-butanol),Alcohols,,
+MALT,MALT,Bread & Cereals,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,1.2,1.2
+MALT,MALT,Bread & Cereals,1-pentanol (=amyl alcohol),Alcohols,0.2,0.8
+MALT,MALT,Bread & Cereals,2-pentanol,Alcohols,,
+MALT,MALT,Bread & Cereals,2-penten-1-ol,Alcohols,0.04,0.07
+MALT,MALT,Bread & Cereals,(Z)-2-penten-1-ol,Alcohols,,
+MALT,MALT,Bread & Cereals,1-penten-3-ol,Alcohols,0.2,0.2
+MALT,MALT,Bread & Cereals,1-hexanol,Alcohols,0.7,1.9
+MALT,MALT,Bread & Cereals,2-hexen-1-ol,Alcohols,0.2,0.6
+MALT,MALT,Bread & Cereals,(E)-2-hexen-1-ol,Alcohols,0.1,0.1
+MALT,MALT,Bread & Cereals,3-hexen-1-ol,Alcohols,0.03,0.08
+MALT,MALT,Bread & Cereals,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,0.03,0.03
+MALT,MALT,Bread & Cereals,1-heptanol,Alcohols,0.01,0.05
+MALT,MALT,Bread & Cereals,2-hepten-1-ol,Alcohols,0.02,0.03
+MALT,MALT,Bread & Cereals,1-hepten-3-ol,Alcohols,,
+MALT,MALT,Bread & Cereals,1-octanol,Alcohols,0.09,0.1
+MALT,MALT,Bread & Cereals,2-octen-1-ol,Alcohols,0.05,0.06
+MALT,MALT,Bread & Cereals,(E)-2-octen-1-ol,Alcohols,0.06,0.06
+MALT,MALT,Bread & Cereals,1-octen-3-ol,Alcohols,0.16,0.24
+MALT,MALT,Bread & Cereals,1-nonanol,Alcohols,0.035,0.09
+MALT,MALT,Bread & Cereals,2-nonen-1-ol,Alcohols,0.04,0.13
+MALT,MALT,Bread & Cereals,(E)-2-nonen-1-ol,Alcohols,,
+MALT,MALT,Bread & Cereals,"2,6-nonadien-1-ol",Alcohols,<0.01,0.015
+MALT,MALT,Bread & Cereals,"(E,Z)-2,6-nonadien-1-ol",Alcohols,,
+MALT,MALT,Bread & Cereals,"(E,Z)-2,4-decadien-1-ol",Alcohols,,
+MALT,MALT,Bread & Cereals,"(E,E)-2,4-decadien-1-ol",Alcohols,,
+MALT,MALT,Bread & Cereals,"(E,Z)-2,6-decadien-1-ol",Alcohols,,
+MALT,MALT,Bread & Cereals,benzyl alcohol (=benzenemethanol),Alcohols,0.04,0.04
+MALT,MALT,Bread & Cereals,2-phenylethanol (=phenethyl alcohol),Alcohols,0.5,0.5
+MALT,MALT,Bread & Cereals,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",0.06,0.64
+MALT,MALT,Bread & Cereals,2-butenal (=crotonaldehyde),"Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",1.2,12.8
+MALT,MALT,Bread & Cereals,(E)-2-methyl-2-butenal (=tiglicaldehyde),"Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,pentanal (=valeraldehyde),"Carbonyls, aldehydes",0.88,0.9
+MALT,MALT,Bread & Cereals,3-methylpentanal,"Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0.15,6.4
+MALT,MALT,Bread & Cereals,2-hexenal,"Carbonyls, aldehydes",0.58,0.76
+MALT,MALT,Bread & Cereals,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,"2,4-hexadienal","Carbonyls, aldehydes",<0.01,0.02
+MALT,MALT,Bread & Cereals,"(E,E)-2,4-hexadienal","Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,heptanal,"Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,2-heptenal,"Carbonyls, aldehydes",0.01,0.06
+MALT,MALT,Bread & Cereals,(Z)-4-heptenal,"Carbonyls, aldehydes",0.02,0.1
+MALT,MALT,Bread & Cereals,"2,4-heptadienal","Carbonyls, aldehydes",0.02,0.06
+MALT,MALT,Bread & Cereals,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,2-octenal,"Carbonyls, aldehydes",0.06,0.16
+MALT,MALT,Bread & Cereals,(E)-2-octenal,"Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",trace,0.01
+MALT,MALT,Bread & Cereals,(E)-2-nonenal,"Carbonyls, aldehydes",0.2,0.4
+MALT,MALT,Bread & Cereals,"2,4-nonadienal","Carbonyls, aldehydes",0.01,0.06
+MALT,MALT,Bread & Cereals,"(E,E)-2,4-nonadienal","Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,"2,6-nonadienal","Carbonyls, aldehydes",0.01,0.05
+MALT,MALT,Bread & Cereals,"(E,Z)-2,6-nonadienal","Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,"2,4-decadienal","Carbonyls, aldehydes",0.05,0.19
+MALT,MALT,Bread & Cereals,"(E,Z)-2,4-decadienal","Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,"(E,Z)-2,6-decadienal","Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,"2,4,7-decatrienal","Carbonyls, aldehydes",0.01,0.025
+MALT,MALT,Bread & Cereals,"2,4-undecadienal","Carbonyls, aldehydes",<0.01,0.02
+MALT,MALT,Bread & Cereals,benzaldehyde,"Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,vanillin (=4-hydroxy-3-methoxybenzaldehyde),"Carbonyls, aldehydes",,
+MALT,MALT,Bread & Cereals,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",0.06,0.5
+MALT,MALT,Bread & Cereals,2-phenyl-2-butenal,"Carbonyls, aldehydes",0.01,0.045
+MALT,MALT,Bread & Cereals,4-methyl-2-phenyl-2-pentenal,"Carbonyls, aldehydes",<0.01,0.02
+MALT,MALT,Bread & Cereals,4-methyl-2-phenyl-2-hexenal,"Carbonyls, aldehydes",<0.01,0.012
+MALT,MALT,Bread & Cereals,5-methyl-2-phenyl-2-hexenal,"Carbonyls, aldehydes",<0.01,0.065
+MALT,MALT,Bread & Cereals,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+MALT,MALT,Bread & Cereals,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+MALT,MALT,Bread & Cereals,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",0.06,0.06
+MALT,MALT,Bread & Cereals,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+MALT,MALT,Bread & Cereals,2-pentanone,"Carbonyls, ketones",,
+MALT,MALT,Bread & Cereals,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+MALT,MALT,Bread & Cereals,"4-methyl-2,3-pentanedione","Carbonyls, ketones",,
+MALT,MALT,Bread & Cereals,2-heptanone,"Carbonyls, ketones",<0.01,0.08
+MALT,MALT,Bread & Cereals,2-octanone,"Carbonyls, ketones",0.03,0.04
+MALT,MALT,Bread & Cereals,"3,5-octadien-2-one","Carbonyls, ketones",<0.01,0.03
+MALT,MALT,Bread & Cereals,"3-methyl-1,2-cyclopentanedione (=cyclotene)","Carbonyls, ketones",,
+MALT,MALT,Bread & Cereals,1-phenyl-2-propanone,"Carbonyls, ketones",,
+MALT,MALT,Bread & Cereals,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",,
+MALT,MALT,Bread & Cereals,3-methylbutanoic acid (=isovaleric acid),Acids,,
+MALT,MALT,Bread & Cereals,hexanoic acid (=caproic acid),Acids,,
+MALT,MALT,Bread & Cereals,octanoic acid (=caprylic acid),Acids,,
+MALT,MALT,Bread & Cereals,tetradecanoic acid (=myristic acid),Acids,,
+MALT,MALT,Bread & Cereals,hexadecanoic acid (=palmitic acid),Acids,,
+MALT,MALT,Bread & Cereals,(Z)-9-hexadecenoic acid (=palmitoleic acid),Acids,,
+MALT,MALT,Bread & Cereals,octadecanoic acid (=stearic acid),Acids,,
+MALT,MALT,Bread & Cereals,(Z)-9-octadecenoic acid (=oleic acid),Acids,,
+MALT,MALT,Bread & Cereals,"(Z,Z)-9,12-octadecadienoic acid (=linoleic acid)",Acids,,
+MALT,MALT,Bread & Cereals,"(Z,Z,Z)-9,12,15-octadecatrienoic acid (=linolenic acid)",Acids,,
+MALT,MALT,Bread & Cereals,eicosanoic acid (=arachidic acid),Acids,,
+MALT,MALT,Bread & Cereals,4-hydroxycinnamic acid (=p-coumaric acid),Acids,,
+MALT,MALT,Bread & Cereals,4-hydroxy-3-methoxycinnamic acid (=ferulic acid),Acids,,
+MALT,MALT,Bread & Cereals,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+MALT,MALT,Bread & Cereals,methyl heptanoate,Esters,0.05,0.05
+MALT,MALT,Bread & Cereals,diethyl phthalate,Esters,,
+MALT,MALT,Bread & Cereals,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,0.04,0.04
+MALT,MALT,Bread & Cereals,"4-hydroxydecanoic acid lactone (=4-decanolide, γ-decalactone)",Lactones,,
+MALT,MALT,Bread & Cereals,ammonia,Bases,1192,1192
+MALT,MALT,Bread & Cereals,methylamine,Bases,<0.1,<0.1
+MALT,MALT,Bread & Cereals,ethylamine,Bases,0.3,0.3
+MALT,MALT,Bread & Cereals,dimethylamine,Bases,0.5,0.5
+MALT,MALT,Bread & Cereals,N-ethylmethylamine,Bases,<0.1,<0.1
+MALT,MALT,Bread & Cereals,diethylamine,Bases,0.6,0.6
+MALT,MALT,Bread & Cereals,pyrrolidine,Bases,1.5,1.5
+MALT,MALT,Bread & Cereals,2-pyrrolidone (=γ-butyrolactam),Bases,<0.01,<0.01
+MALT,MALT,Bread & Cereals,1-methyl-2-pyrrolidone,Bases,<0.01,<0.01
+MALT,MALT,Bread & Cereals,1-acetylpyrrolidine,Bases,,
+MALT,MALT,Bread & Cereals,pyrrole,Bases,<0.01,0.7
+MALT,MALT,Bread & Cereals,2-methylpyrrole,Bases,,
+MALT,MALT,Bread & Cereals,1-furfurylpyrrole,Bases,<0.01,0.08
+MALT,MALT,Bread & Cereals,2-pyrrolecarbaldehyde (=2-formylpyrrole),Bases,0.58,0.58
+MALT,MALT,Bread & Cereals,1-methyl-2-pyrrolecarbaldehyde (=2-formyl-1-methylpyrrole),Bases,<0.01,<0.01
+MALT,MALT,Bread & Cereals,5-methyl-2-pyrrolecarbaldehyde (=2-formyl-5-methylpyrrole),Bases,0.4,0.4
+MALT,MALT,Bread & Cereals,"1-ethyl-2-pyrrolecarbaldehyde (=1-ethyl-2-formylpyrrole, 1-ethylpyrrole-2-aldehyde)",Bases,<0.01,<0.01
+MALT,MALT,Bread & Cereals,1-acetylpyrrole,Bases,<0.01,<0.01
+MALT,MALT,Bread & Cereals,2-acetylpyrrole (=methyl 2-pyrrolyl ketone),Bases,0.4,6.6
+MALT,MALT,Bread & Cereals,2-acetyl-5-methylpyrrole,Bases,0.02,0.02
+MALT,MALT,Bread & Cereals,"2,3-dihydro-6-methyl-1H-pyrrolizine-5-carbaldehyde",Bases,,
+MALT,MALT,Bread & Cereals,"5-acetyl-2,3-dihydro-1H-pyrrolizine",Bases,,
+MALT,MALT,Bread & Cereals,"5-acetyl-2,3-dihydro-6-methyl-1H-pyrrolizine",Bases,,
+MALT,MALT,Bread & Cereals,indole,Bases,0.008,0.07
+MALT,MALT,Bread & Cereals,pyrazole,Bases,,
+MALT,MALT,Bread & Cereals,piperidine,Bases,<0.1,<0.1
+MALT,MALT,Bread & Cereals,pyridine,Bases,,
+MALT,MALT,Bread & Cereals,2-methylpyridine (=α-picoline),Bases,,
+MALT,MALT,Bread & Cereals,3-methylpyridine (=β-picoline),Bases,,
+MALT,MALT,Bread & Cereals,2-ethylpyridine,Bases,,
+MALT,MALT,Bread & Cereals,2-butylpyridine,Bases,,
+MALT,MALT,Bread & Cereals,"2,6-dimethylpyridine (=2,6-lutidine)",Bases,,
+MALT,MALT,Bread & Cereals,2-acetylpyridine,Bases,0.01,0.9
+MALT,MALT,Bread & Cereals,3-acetylpyridine,Bases,,
+MALT,MALT,Bread & Cereals,methyl nicotinate,Bases,0.006,0.1
+MALT,MALT,Bread & Cereals,ethyl nicotinate,Bases,,
+MALT,MALT,Bread & Cereals,pyrazine,Bases,<0.001,1.3
+MALT,MALT,Bread & Cereals,methylpyrazine,Bases,0.02,38.3
+MALT,MALT,Bread & Cereals,ethylpyrazine,Bases,<0.01,1.6
+MALT,MALT,Bread & Cereals,vinylpyrazine,Bases,0.24,0.27
+MALT,MALT,Bread & Cereals,propylpyrazine,Bases,,
+MALT,MALT,Bread & Cereals,isopropenylpyrazine,Bases,0.08,0.11
+MALT,MALT,Bread & Cereals,pentylpyrazine,Bases,,
+MALT,MALT,Bread & Cereals,(2-furyl)pyrazine,Bases,<0.01,<0.01
+MALT,MALT,Bread & Cereals,"2,3-dimethylpyrazine",Bases,<0.01,1.4
+MALT,MALT,Bread & Cereals,"2,5-dimethylpyrazine",Bases,0.006,13
+MALT,MALT,Bread & Cereals,"2,6-dimethylpyrazine",Bases,0.003,4.8
+MALT,MALT,Bread & Cereals,"2,5(or 6)-dimethylpyrazine",Bases,8.2,8.3
+MALT,MALT,Bread & Cereals,dimethylpyrazine (unkn.str.),Bases,,
+MALT,MALT,Bread & Cereals,2-ethyl-3-methylpyrazine,Bases,<0.01,0.38
+MALT,MALT,Bread & Cereals,2-ethyl-5-methylpyrazine,Bases,<0.01,0.52
+MALT,MALT,Bread & Cereals,2-ethyl-6-methylpyrazine,Bases,<0.01,0.8
+MALT,MALT,Bread & Cereals,ethyl-methylpyrazine (unkn.str.),Bases,,
+MALT,MALT,Bread & Cereals,2-methyl-5-vinylpyrazine,Bases,0.32,0.4
+MALT,MALT,Bread & Cereals,2-methyl-6-vinylpyrazine,Bases,0.32,0.34
+MALT,MALT,Bread & Cereals,2-methyl-5(or 6)-vinylpyrazine,Bases,,
+MALT,MALT,Bread & Cereals,methyl-propenylpyrazine (unkn.str.),Bases,,
+MALT,MALT,Bread & Cereals,"2,3-diethylpyrazine",Bases,,
+MALT,MALT,Bread & Cereals,"2,6-diethylpyrazine",Bases,,
+MALT,MALT,Bread & Cereals,trimethylpyrazine,Bases,0.01,2.3
+MALT,MALT,Bread & Cereals,"5-ethyl-2,3-dimethylpyrazine",Bases,0,0.01
+MALT,MALT,Bread & Cereals,"3-ethyl-2,5-dimethylpyrazine",Bases,trace,0.4
+MALT,MALT,Bread & Cereals,"2-ethyl-3,5-dimethylpyrazine",Bases,<0.001,0.4
+MALT,MALT,Bread & Cereals,"3-isobutyl-2,5-dimethylpyrazine",Bases,,
+MALT,MALT,Bread & Cereals,"5-isobutyl-2,3-dimethylpyrazine",Bases,,
+MALT,MALT,Bread & Cereals,"3-isopentyl-2,5-dimethylpyrazine",Bases,,
+MALT,MALT,Bread & Cereals,tetramethylpyrazine,Bases,0,0.11
+MALT,MALT,Bread & Cereals,methoxypyrazine,Bases,,
+MALT,MALT,Bread & Cereals,5-methyl-5H-cyclopentapyrazine,Bases,0,0.01
+MALT,MALT,Bread & Cereals,"6,7-dihydro-5H-cyclopentapyrazine",Bases,<0.01,<0.01
+MALT,MALT,Bread & Cereals,"6,7-dihydro-2-methyl-5H-cyclopentapyrazine",Bases,0,0.02
+MALT,MALT,Bread & Cereals,"6,7-dihydro-5-methyl-5H-cyclopentapyrazine",Bases,0,0.02
+MALT,MALT,Bread & Cereals,quinoxaline,Bases,0.07,0.1
+MALT,MALT,Bread & Cereals,maltoxazine,Bases,,
+MALT,MALT,Bread & Cereals,hydrogen sulfide,Sulfur compounds,,
+MALT,MALT,Bread & Cereals,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,4,19
+MALT,MALT,Bread & Cereals,furfuryl methyl sulfide (=furfurylthiomethane),Sulfur compounds,,
+MALT,MALT,Bread & Cereals,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+MALT,MALT,Bread & Cereals,furfuryl methyl disulfide,Sulfur compounds,,
+MALT,MALT,Bread & Cereals,(methylthio)acetaldehyde,Sulfur compounds,<0.01,0.04
+MALT,MALT,Bread & Cereals,3-(methylthio)propanal (=methional),Sulfur compounds,0.03,0.3
+MALT,MALT,Bread & Cereals,methyl methanesulfonothioate,Sulfur compounds,,
+MALT,MALT,Bread & Cereals,dimethyl sulfoxide (=methylsulfinylmethane),Sulfur compounds,,
+MALT,MALT,Bread & Cereals,2-methyl-3(2H)-dihydrothiophenone (=2-methyl-3-thiolanone),Sulfur compounds,,
+MALT,MALT,Bread & Cereals,2-thiophenecarbaldehyde (=2-formylthiophene),Sulfur compounds,,
+MALT,MALT,Bread & Cereals,thiazole,Sulfur compounds,0.02,1.54
+MALT,MALT,Bread & Cereals,4-methylthiazole,Sulfur compounds,0,0.5
+MALT,MALT,Bread & Cereals,5-ethylthiazole,Sulfur compounds,,
+MALT,MALT,Bread & Cereals,"4,5-dimethylthiazole",Sulfur compounds,,
+MALT,MALT,Bread & Cereals,5-ethyl-4-methylthiazole,Sulfur compounds,,
+MALT,MALT,Bread & Cereals,benzothiazole,Sulfur compounds,0.006,0.07
+MALT,MALT,Bread & Cereals,5-(2-hydroxyethyl)-4-methylthiazole,Sulfur compounds,,
+MALT,MALT,Bread & Cereals,2-acetylthiazole,Sulfur compounds,0.04,1.3
+MALT,MALT,Bread & Cereals,phenol (=hydroxybenzene),Phenols,,
+MALT,MALT,Bread & Cereals,2-methylphenol (=o-cresol),Phenols,,
+MALT,MALT,Bread & Cereals,3-methylphenol (=m-cresol),Phenols,,
+MALT,MALT,Bread & Cereals,4-methylphenol (=p-cresol),Phenols,,
+MALT,MALT,Bread & Cereals,4-ethylphenol,Phenols,,
+MALT,MALT,Bread & Cereals,4-vinylphenol,Phenols,0.1,0.1
+MALT,MALT,Bread & Cereals,4-propylphenol,Phenols,,
+MALT,MALT,Bread & Cereals,2-methoxyphenol (=guaiacol),Phenols,,
+MALT,MALT,Bread & Cereals,"2-methoxy-4-methylphenol (=4-methylguaiacol, creosol)",Phenols,,
+MALT,MALT,Bread & Cereals,4-ethyl-2-methoxyphenol (=4-ethylguaiacol),Phenols,,
+MALT,MALT,Bread & Cereals,2-methoxy-4-vinylphenol (=4-vinylguaiacol),Phenols,0.05,0.05
+MALT,MALT,Bread & Cereals,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,,
+MALT,MALT,Bread & Cereals,"2,5-dimethyltetrahydrofuran",Furans,,
+MALT,MALT,Bread & Cereals,2-methylfuran,Furans,,
+MALT,MALT,Bread & Cereals,2-ethylfuran,Furans,,
+MALT,MALT,Bread & Cereals,ethylfuran (unkn.str.),Furans,<0.01,<0.01
+MALT,MALT,Bread & Cereals,2-vinylfuran,Furans,,
+MALT,MALT,Bread & Cereals,2-butylfuran,Furans,,
+MALT,MALT,Bread & Cereals,2-pentylfuran,Furans,0.7,1
+MALT,MALT,Bread & Cereals,"2,5-dimethylfuran",Furans,,
+MALT,MALT,Bread & Cereals,2-methyl-5-vinylfuran,Furans,0.03,0.06
+MALT,MALT,Bread & Cereals,3-phenylfuran,Furans,0,0.085
+MALT,MALT,Bread & Cereals,"2,2'-bifuran (=2-(2-furyl)furan, di-(2-furyl))",Furans,0,0.02
+MALT,MALT,Bread & Cereals,"2,2'-methylenebisfuran (=2,2-difurylmethane)",Furans,0,0.03
+MALT,MALT,Bread & Cereals,"5-methyl-2,2'-methylenebisfuran (=(2-furyl)-(5-methylfuryl-2)-methane)",Furans,0.13,0.13
+MALT,MALT,Bread & Cereals,"5,5'-dimethyl-2,2'-methylenebisfuran",Furans,0,0.085
+MALT,MALT,Bread & Cereals,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,0.45,2.7
+MALT,MALT,Bread & Cereals,"3-furancarbaldehyde (=3-formylfuran, 3-furaldehyde)",Furans,0.01,0.04
+MALT,MALT,Bread & Cereals,5-methylfurfural,Furans,0.2,0.9
+MALT,MALT,Bread & Cereals,2-methyldihydro-3(2H)-furanone,Furans,,
+MALT,MALT,Bread & Cereals,"4-hydroxy-2,5-dimethyl-3(2H)-furanone (=furaneol)",Furans,,
+MALT,MALT,Bread & Cereals,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,0,0.54
+MALT,MALT,Bread & Cereals,2-acetyl-5-methylfuran,Furans,,
+MALT,MALT,Bread & Cereals,2-acetyl-3-hydroxyfuran (=isomaltol),Furans,,
+MALT,MALT,Bread & Cereals,2-propanoylfuran,Furans,,
+MALT,MALT,Bread & Cereals,propanoylfuran (unkn.str.),Furans,0,0.02
+MALT,MALT,Bread & Cereals,"1-(2-furyl)-1,2-propanedione",Furans,0,0.02
+MALT,MALT,Bread & Cereals,"1-(5-methyl-2-furyl)-1,2-propanedione",Furans,0,0.005
+MALT,MALT,Bread & Cereals,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+MALT,MALT,Bread & Cereals,5-methylfurfuryl alcohol,Furans,,
+MALT,MALT,Bread & Cereals,3-hydroxy-2-methyl-4-pyrone (=maltol),"(Ep)oxides, pyrans, coumarins",,
+MALT,MALT,Bread & Cereals,"2,3-dihydro-3,5-dihydroxy-6-methyl-4-pyrone (=5,6-dihydro-5-hydroxymaltol)","(Ep)oxides, pyrans, coumarins",,
+MALT,MALT,Bread & Cereals,2-phenyloxazole,Oxazol(in)es,,
+MALT,MALT,Bread & Cereals,"4,5-dimethyloxazole",Oxazol(in)es,,
+MALT,MALT,Bread & Cereals,trimethyloxazole,Oxazol(in)es,,
+MALT,MALT,Bread & Cereals,"5-hexyl-2,4-dimethyloxazole",Oxazol(in)es,,
+MALT,MALT,Bread & Cereals,benzoxazole,Oxazol(in)es,,
+MALT,MALT,Bread & Cereals,2-methylbenzoxazole,Oxazol(in)es,,
+PEATED MALT,MALT,Bread & Cereals,2-penten-1-ol,Alcohols,,
+PEATED MALT,MALT,Bread & Cereals,2-methyl-1-pentanol,Alcohols,,
+PEATED MALT,MALT,Bread & Cereals,1-heptanol,Alcohols,,
+PEATED MALT,MALT,Bread & Cereals,2-heptanol,Alcohols,,
+PEATED MALT,MALT,Bread & Cereals,3-heptanol,Alcohols,,
+PEATED MALT,MALT,Bread & Cereals,1-nonanol,Alcohols,,
+PEATED MALT,MALT,Bread & Cereals,benzyl alcohol (=benzenemethanol),Alcohols,,
+PEATED MALT,MALT,Bread & Cereals,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+PEATED MALT,MALT,Bread & Cereals,"3-phenyl-1-propanol (=benzenepropanol, dihydrocinnamic alcohol)",Alcohols,,
+PEATED MALT,MALT,Bread & Cereals,formaldehyde (=methanal),"Carbonyls, aldehydes",,
+PEATED MALT,MALT,Bread & Cereals,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+PEATED MALT,MALT,Bread & Cereals,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+PEATED MALT,MALT,Bread & Cereals,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+PEATED MALT,MALT,Bread & Cereals,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+PEATED MALT,MALT,Bread & Cereals,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+PEATED MALT,MALT,Bread & Cereals,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+PEATED MALT,MALT,Bread & Cereals,benzaldehyde,"Carbonyls, aldehydes",,
+PEATED MALT,MALT,Bread & Cereals,2-hydroxy-5-methyl-2-cyclopenten-1-one,"Carbonyls, ketones",,
+PEATED MALT,MALT,Bread & Cereals,acetic acid,Acids,,
+PEATED MALT,MALT,Bread & Cereals,propanoic acid (=propionic acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,2-methylpropanoic acid (=isobutyric acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,3-methylbutanoic acid (=isovaleric acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,pentanoic acid (=valeric acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,4-methylpentanoic acid (=isocaproic acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,hexanoic acid (=caproic acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,heptanoic acid (=enanthic acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,octanoic acid (=caprylic acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,nonanoic acid (=pelargonic acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,decanoic acid (=capric acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,dodecanoic acid (=lauric acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,tetradecanoic acid (=myristic acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,hexadecanoic acid (=palmitic acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,octadecanoic acid (=stearic acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,(Z)-9-octadecenoic acid (=oleic acid),Acids,,
+PEATED MALT,MALT,Bread & Cereals,"(Z,Z)-9,12-octadecadienoic acid (=linoleic acid)",Acids,,
+PEATED MALT,MALT,Bread & Cereals,benzoic acid,Acids,,
+PEATED MALT,MALT,Bread & Cereals,phenylacetic acid,Acids,,
+PEATED MALT,MALT,Bread & Cereals,cinnamic acid,Acids,,
+PEATED MALT,MALT,Bread & Cereals,methyl acetate,Esters,,
+PEATED MALT,MALT,Bread & Cereals,ethyl acetate,Esters,,
+PEATED MALT,MALT,Bread & Cereals,ethyl tetradecanoate (=ethyl myristate),Esters,,
+PEATED MALT,MALT,Bread & Cereals,ethyl hexadecanoate (=ethyl palmitate),Esters,,
+PEATED MALT,MALT,Bread & Cereals,1-furfurylpyrrole,Bases,,
+PEATED MALT,MALT,Bread & Cereals,2-acetylpyrrole (=methyl 2-pyrrolyl ketone),Bases,,
+PEATED MALT,MALT,Bread & Cereals,ethylpyrazine,Bases,,
+PEATED MALT,MALT,Bread & Cereals,propylpyrazine,Bases,,
+PEATED MALT,MALT,Bread & Cereals,"2,5-dimethylpyrazine",Bases,,
+PEATED MALT,MALT,Bread & Cereals,"2,6-diethylpyrazine",Bases,,
+PEATED MALT,MALT,Bread & Cereals,trimethylpyrazine,Bases,,
+PEATED MALT,MALT,Bread & Cereals,triethylpyrazine,Bases,,
+PEATED MALT,MALT,Bread & Cereals,2-acetyl-5-methylpyrazine,Bases,,
+PEATED MALT,MALT,Bread & Cereals,phenol (=hydroxybenzene),Phenols,,
+PEATED MALT,MALT,Bread & Cereals,2-methylphenol (=o-cresol),Phenols,,
+PEATED MALT,MALT,Bread & Cereals,3-methylphenol (=m-cresol),Phenols,,
+PEATED MALT,MALT,Bread & Cereals,4-methylphenol (=p-cresol),Phenols,,
+PEATED MALT,MALT,Bread & Cereals,4-ethylphenol,Phenols,,
+PEATED MALT,MALT,Bread & Cereals,4-vinylphenol,Phenols,,
+PEATED MALT,MALT,Bread & Cereals,4-butylphenol,Phenols,,
+PEATED MALT,MALT,Bread & Cereals,2-methoxyphenol (=guaiacol),Phenols,,
+PEATED MALT,MALT,Bread & Cereals,"2-methoxy-4-methylphenol (=4-methylguaiacol, creosol)",Phenols,,
+PEATED MALT,MALT,Bread & Cereals,4-ethyl-2-methoxyphenol (=4-ethylguaiacol),Phenols,,
+PEATED MALT,MALT,Bread & Cereals,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+PEATED MALT,MALT,Bread & Cereals,5-methylfurfural,Furans,,
+PEATED MALT,MALT,Bread & Cereals,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+PEATED MALT,MALT,Bread & Cereals,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+PEATED MALT,MALT,Bread & Cereals,2-furancarboxylic acid (=2-furoic acid),Furans,,
+WORT,MALT,Bread & Cereals,undecane,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,tetradecane,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,(Z)-β-ocimene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,(E)-β-ocimene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,β-myrcene (=myrcene),Hydrocarbons,,
+WORT,MALT,Bread & Cereals,limonene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,β-bisabolene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,α-humulene (=humulene),Hydrocarbons,,
+WORT,MALT,Bread & Cereals,α-pinene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,β-pinene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,sabinene (=4(10)-thujene),Hydrocarbons,,
+WORT,MALT,Bread & Cereals,α-cadinene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,γ-cadinene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,δ-cadinene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,γ-muurolene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,β-caryophyllene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,calamenene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,α-calacorene,Hydrocarbons,,
+WORT,MALT,Bread & Cereals,2-methyl-1-propanol (=isobutanol),Alcohols,,
+WORT,MALT,Bread & Cereals,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+WORT,MALT,Bread & Cereals,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+WORT,MALT,Bread & Cereals,1-pentanol (=amyl alcohol),Alcohols,,
+WORT,MALT,Bread & Cereals,1-hexanol,Alcohols,,
+WORT,MALT,Bread & Cereals,1-octen-3-ol,Alcohols,,
+WORT,MALT,Bread & Cereals,citronellol,Alcohols,,
+WORT,MALT,Bread & Cereals,geraniol,Alcohols,,
+WORT,MALT,Bread & Cereals,nerol,Alcohols,,
+WORT,MALT,Bread & Cereals,linalool,Alcohols,,
+WORT,MALT,Bread & Cereals,"(Z,E)-farnesol",Alcohols,,
+WORT,MALT,Bread & Cereals,nerolidol,Alcohols,,
+WORT,MALT,Bread & Cereals,(E)-nerolidol,Alcohols,,
+WORT,MALT,Bread & Cereals,benzyl alcohol (=benzenemethanol),Alcohols,,
+WORT,MALT,Bread & Cereals,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+WORT,MALT,Bread & Cereals,2-(4-hydroxyphenyl)ethanol (=tyrosol),Alcohols,0.02,0.02
+WORT,MALT,Bread & Cereals,α-terpineol,Alcohols,,
+WORT,MALT,Bread & Cereals,4-terpineol (=terpinen-4-ol),Alcohols,,
+WORT,MALT,Bread & Cereals,humulol,Alcohols,,
+WORT,MALT,Bread & Cereals,humulenol II,Alcohols,,
+WORT,MALT,Bread & Cereals,fenchol (=fenchyl alcohol),Alcohols,,
+WORT,MALT,Bread & Cereals,α-cadinol,Alcohols,,
+WORT,MALT,Bread & Cereals,cadinol-T,Alcohols,,
+WORT,MALT,Bread & Cereals,cubenol,Alcohols,,
+WORT,MALT,Bread & Cereals,epicubenol,Alcohols,,
+WORT,MALT,Bread & Cereals,α-eudesmol,Alcohols,,
+WORT,MALT,Bread & Cereals,β-eudesmol,Alcohols,,
+WORT,MALT,Bread & Cereals,11-selinen-4-ol,Alcohols,,
+WORT,MALT,Bread & Cereals,spathulenol (=(+)-spathulenol),Alcohols,,
+WORT,MALT,Bread & Cereals,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,(E)-2-methyl-2-butenal (=tiglicaldehyde),"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,2-hexenal,"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,heptanal,"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,2-heptenal,"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,2-nonenal,"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,(E)-2-nonenal,"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,benzaldehyde,"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,4-hydroxybenzaldehyde (=4-formylphenol),"Carbonyls, aldehydes",0.05,0.2
+WORT,MALT,Bread & Cereals,vanillin (=4-hydroxy-3-methoxybenzaldehyde),"Carbonyls, aldehydes",0.05,0.275
+WORT,MALT,Bread & Cereals,"syringaldehyde (=4-hydroxy-3,5-dimethoxy-benzaldehyde)","Carbonyls, aldehydes",0.02,0.04
+WORT,MALT,Bread & Cereals,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,5-methyl-2-phenyl-2-hexenal,"Carbonyls, aldehydes",,
+WORT,MALT,Bread & Cereals,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,4-methyl-2-pentanone,"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,2-hexanone,"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,2-heptanone,"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,2-octanone,"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,2-nonanone,"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,2-decanone,"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,9-methyl-2-decanone,"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,2-undecanone,"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,2-dodecanone,"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,2-tridecanone,"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,tridecanone (unkn.str.),"Carbonyls, ketones",,
+WORT,MALT,Bread & Cereals,4-hydroxyacetophenone,"Carbonyls, ketones",0.01,0.01
+WORT,MALT,Bread & Cereals,acetovanillone,"Carbonyls, ketones",0.08,0.09
+WORT,MALT,Bread & Cereals,2-methylpropanoic acid (=isobutyric acid),Acids,0.03,0.03
+WORT,MALT,Bread & Cereals,2-hydroxypropanoic acid (=lactic acid),Acids,1.7,1.7
+WORT,MALT,Bread & Cereals,butanoic acid (=butyric acid),Acids,0.02,0.02
+WORT,MALT,Bread & Cereals,3-methylbutanoic acid (=isovaleric acid),Acids,0.27,0.27
+WORT,MALT,Bread & Cereals,2-hydroxy-3-methylbutanoic acid,Acids,0.05,0.05
+WORT,MALT,Bread & Cereals,pentanoic acid (=valeric acid),Acids,<0.01,<0.01
+WORT,MALT,Bread & Cereals,4-methylpentanoic acid (=isocaproic acid),Acids,,
+WORT,MALT,Bread & Cereals,2-hydroxy-3-methylpentanoic acid,Acids,0.03,0.03
+WORT,MALT,Bread & Cereals,2-hydroxy-4-methylpentanoic acid,Acids,0.03,0.03
+WORT,MALT,Bread & Cereals,hexanoic acid (=caproic acid),Acids,0.3,0.3
+WORT,MALT,Bread & Cereals,hexenoic acid (unkn.str.),Acids,0.02,0.02
+WORT,MALT,Bread & Cereals,heptanoic acid (=enanthic acid),Acids,0.01,0.01
+WORT,MALT,Bread & Cereals,2-hydroxyheptanoic acid,Acids,0.02,0.02
+WORT,MALT,Bread & Cereals,octanoic acid (=caprylic acid),Acids,0.02,0.02
+WORT,MALT,Bread & Cereals,3-hydroxyoctanoic acid,Acids,0.04,0.04
+WORT,MALT,Bread & Cereals,nonanoic acid (=pelargonic acid),Acids,<0.01,<0.01
+WORT,MALT,Bread & Cereals,9-oxononanoic acid,Acids,0.1,0.1
+WORT,MALT,Bread & Cereals,decanoic acid (=capric acid),Acids,<0.01,<0.01
+WORT,MALT,Bread & Cereals,(E)-2-decenoic acid,Acids,,
+WORT,MALT,Bread & Cereals,(Z)-4-decenoic acid,Acids,,
+WORT,MALT,Bread & Cereals,3-hydroxydecanoic acid,Acids,<0.01,<0.01
+WORT,MALT,Bread & Cereals,undecanoic acid,Acids,<0.01,<0.01
+WORT,MALT,Bread & Cereals,dodecanoic acid (=lauric acid),Acids,0.01,0.01
+WORT,MALT,Bread & Cereals,3-hydroxydodecanoic acid,Acids,<0.01,<0.01
+WORT,MALT,Bread & Cereals,tridecanoic acid,Acids,<0.01,<0.01
+WORT,MALT,Bread & Cereals,tetradecanoic acid (=myristic acid),Acids,0.09,0.09
+WORT,MALT,Bread & Cereals,pentadecanoic acid,Acids,<0.01,<0.01
+WORT,MALT,Bread & Cereals,hexadecanoic acid (=palmitic acid),Acids,0.5,0.5
+WORT,MALT,Bread & Cereals,(Z)-9-hexadecenoic acid (=palmitoleic acid),Acids,0.03,0.03
+WORT,MALT,Bread & Cereals,heptadecanoic acid (=margaric acid),Acids,<0.01,<0.01
+WORT,MALT,Bread & Cereals,octadecanoic acid (=stearic acid),Acids,0.18,0.18
+WORT,MALT,Bread & Cereals,(Z)-9-octadecenoic acid (=oleic acid),Acids,0.25,0.25
+WORT,MALT,Bread & Cereals,"(Z,Z)-9,12-octadecadienoic acid (=linoleic acid)",Acids,1.4,1.4
+WORT,MALT,Bread & Cereals,"(Z,Z,Z)-9,12,15-octadecatrienoic acid (=linolenic acid)",Acids,0.03,0.03
+WORT,MALT,Bread & Cereals,eicosanoic acid (=arachidic acid),Acids,<0.01,<0.01
+WORT,MALT,Bread & Cereals,malonic acid (=propanedioic acid),Acids,0.13,0.13
+WORT,MALT,Bread & Cereals,succinic acid (=butanedioic acid),Acids,5,5
+WORT,MALT,Bread & Cereals,pentanedioic acid (=glutaric acid),Acids,0.08,0.08
+WORT,MALT,Bread & Cereals,hexanedioic acid (=adipic acid),Acids,0.05,0.05
+WORT,MALT,Bread & Cereals,heptanedioic acid (=pimelic acid),Acids,0.12,0.12
+WORT,MALT,Bread & Cereals,octanedioic acid (=suberic acid),Acids,0.24,0.24
+WORT,MALT,Bread & Cereals,nonanedioic acid (=azelaic acid),Acids,1.8,1.8
+WORT,MALT,Bread & Cereals,decanedioic acid (=sebacic acid),Acids,0.16,0.16
+WORT,MALT,Bread & Cereals,undecanedioic acid,Acids,0.1,0.1
+WORT,MALT,Bread & Cereals,dodecanedioic acid,Acids,0.12,0.12
+WORT,MALT,Bread & Cereals,benzoic acid,Acids,0.19,0.19
+WORT,MALT,Bread & Cereals,2-hydroxybenzoic acid (=salicylic acid),Acids,0.03,0.03
+WORT,MALT,Bread & Cereals,4-hydroxybenzoic acid,Acids,1.8,1.8
+WORT,MALT,Bread & Cereals,"3,4-dihydroxybenzoic acid (=protocatechuic acid)",Acids,,
+WORT,MALT,Bread & Cereals,4-hydroxy-3-methoxybenzoic acid (=vanillic acid),Acids,,
+WORT,MALT,Bread & Cereals,phenylacetic acid,Acids,0.5,0.5
+WORT,MALT,Bread & Cereals,(4-hydroxyphenyl)acetic acid,Acids,0.6,0.6
+WORT,MALT,Bread & Cereals,phenylpropanoic acid (unkn.str.),Acids,0.01,0.01
+WORT,MALT,Bread & Cereals,(Z)-cinnamic acid,Acids,<0.01,<0.01
+WORT,MALT,Bread & Cereals,(E)-cinnamic acid,Acids,0.48,0.48
+WORT,MALT,Bread & Cereals,2-hydroxy-3-phenylpropanoic acid (=3-phenyllactic acid),Acids,0.1,0.1
+WORT,MALT,Bread & Cereals,3-(4-hydroxyphenyl)propanoic acid,Acids,0.35,0.35
+WORT,MALT,Bread & Cereals,4-hydroxycinnamic acid (=p-coumaric acid),Acids,,
+WORT,MALT,Bread & Cereals,(E)-4-hydroxycinnamic acid (=(E)-p-coumaric acid),Acids,2.2,2.2
+WORT,MALT,Bread & Cereals,(Z)-4-hydroxycinnamic acid (=(Z)-p-coumaric acid),Acids,0.04,0.04
+WORT,MALT,Bread & Cereals,4-hydroxy-3-methoxycinnamic acid (=ferulic acid),Acids,,
+WORT,MALT,Bread & Cereals,(E)-4-hydroxy-3-methoxycinnamic acid (=(E)-ferulic acid),Acids,5.2,5.2
+WORT,MALT,Bread & Cereals,(Z)-4-hydroxy-3-methoxycinnamic acid (=(Z)-ferulic acid),Acids,1.3,1.3
+WORT,MALT,Bread & Cereals,phthalic acid,Acids,0.01,0.01
+WORT,MALT,Bread & Cereals,ethyl acetate,Esters,,
+WORT,MALT,Bread & Cereals,phenethyl acetate,Esters,,
+WORT,MALT,Bread & Cereals,methyl hexanoate,Esters,,
+WORT,MALT,Bread & Cereals,methyl 4-methylhexenoate (unkn.str.),Esters,,
+WORT,MALT,Bread & Cereals,methyl 6-methylheptanoate,Esters,,
+WORT,MALT,Bread & Cereals,methyl octanoate,Esters,,
+WORT,MALT,Bread & Cereals,methyl nonanoate,Esters,,
+WORT,MALT,Bread & Cereals,methyl 4-decenoate,Esters,,
+WORT,MALT,Bread & Cereals,"methyl 4,8-decadienoate",Esters,,
+WORT,MALT,Bread & Cereals,"4-hydroxy-4-methylpentanoic acid lactone (=4,4-dimethyl-butanolide)",Lactones,,
+WORT,MALT,Bread & Cereals,"4-hydroxyhexanoic acid lactone (=γ-hexalactone, γ-caprolactone, 4-hexanolide)",Lactones,,
+WORT,MALT,Bread & Cereals,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+WORT,MALT,Bread & Cereals,"5-hydroxydecanoic acid lactone (=5-decanolide, δ-decalactone)",Lactones,,
+WORT,MALT,Bread & Cereals,pyrrole,Bases,0.001,0.001
+WORT,MALT,Bread & Cereals,2-pyrrolecarbaldehyde (=2-formylpyrrole),Bases,,
+WORT,MALT,Bread & Cereals,1-furfuryl-2-pyrrolecarbaldehyde (=2-formyl-1-furfurylpyrrole),Bases,<0.01,<0.01
+WORT,MALT,Bread & Cereals,2-acetylpyrrole (=methyl 2-pyrrolyl ketone),Bases,0.02,0.05
+WORT,MALT,Bread & Cereals,indole,Bases,0.001,0.025
+WORT,MALT,Bread & Cereals,2-acetylpyridine,Bases,0.001,0.001
+WORT,MALT,Bread & Cereals,methyl nicotinate,Bases,<0.001,<0.001
+WORT,MALT,Bread & Cereals,pyrazine,Bases,0.001,0.01
+WORT,MALT,Bread & Cereals,methylpyrazine,Bases,0.002,0.005
+WORT,MALT,Bread & Cereals,ethylpyrazine,Bases,,
+WORT,MALT,Bread & Cereals,"2,3-dimethylpyrazine",Bases,,
+WORT,MALT,Bread & Cereals,"2,5-dimethylpyrazine",Bases,0.001,0.001
+WORT,MALT,Bread & Cereals,"2,6-dimethylpyrazine",Bases,0.001,0.001
+WORT,MALT,Bread & Cereals,2-ethyl-3-methylpyrazine,Bases,,
+WORT,MALT,Bread & Cereals,2-ethyl-5-methylpyrazine,Bases,,
+WORT,MALT,Bread & Cereals,2-ethyl-6-methylpyrazine,Bases,,
+WORT,MALT,Bread & Cereals,trimethylpyrazine,Bases,0.001,0.001
+WORT,MALT,Bread & Cereals,"3-ethyl-2,5-dimethylpyrazine",Bases,<0.001,<0.001
+WORT,MALT,Bread & Cereals,"2-ethyl-3,5-dimethylpyrazine",Bases,<0.001,<0.001
+WORT,MALT,Bread & Cereals,"6,7-dihydro-5-methyl-5H-cyclopentapyrazine",Bases,,
+WORT,MALT,Bread & Cereals,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+WORT,MALT,Bread & Cereals,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+WORT,MALT,Bread & Cereals,3-(methylthio)propanoic acid,Sulfur compounds,<0.01,<0.01
+WORT,MALT,Bread & Cereals,(methylthio)acetic acid,Sulfur compounds,<0.01,<0.01
+WORT,MALT,Bread & Cereals,2-acetylthiophene,Sulfur compounds,,
+WORT,MALT,Bread & Cereals,2-thiophenecarboxylic acid,Sulfur compounds,0.01,0.01
+WORT,MALT,Bread & Cereals,thiazole,Sulfur compounds,0.003,0.005
+WORT,MALT,Bread & Cereals,4-methylthiazole,Sulfur compounds,<0.001,<0.001
+WORT,MALT,Bread & Cereals,benzothiazole,Sulfur compounds,0.001,0.001
+WORT,MALT,Bread & Cereals,2-acetylthiazole,Sulfur compounds,0.006,0.025
+WORT,MALT,Bread & Cereals,hop ether,Ethers,,
+WORT,MALT,Bread & Cereals,"karahana ether (=8,8-dimethyl-2-methylene-6-oxabicyclo- [3.2.1]octane)",Ethers,,
+WORT,MALT,Bread & Cereals,phenol (=hydroxybenzene),Phenols,0.01,0.01
+WORT,MALT,Bread & Cereals,3-methylphenol (=m-cresol),Phenols,,
+WORT,MALT,Bread & Cereals,4-methylphenol (=p-cresol),Phenols,0.01,0.01
+WORT,MALT,Bread & Cereals,4-[2-(dimethylamino)ethyl]phenol (=hordenine),Phenols,10,10
+WORT,MALT,Bread & Cereals,4-vinylphenol,Phenols,0.08,0.35
+WORT,MALT,Bread & Cereals,2-methoxyphenol (=guaiacol),Phenols,0.01,0.025
+WORT,MALT,Bread & Cereals,"2-methoxy-4-methylphenol (=4-methylguaiacol, creosol)",Phenols,0.02,0.02
+WORT,MALT,Bread & Cereals,4-ethyl-2-methoxyphenol (=4-ethylguaiacol),Phenols,0.01,0.01
+WORT,MALT,Bread & Cereals,2-methoxy-4-vinylphenol (=4-vinylguaiacol),Phenols,0.5,0.7
+WORT,MALT,Bread & Cereals,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,0.01,0.05
+WORT,MALT,Bread & Cereals,"4-ethyl-2,6-dimethoxyphenol (=4-ethylsyringol)",Phenols,0.01,0.03
+WORT,MALT,Bread & Cereals,"2,6-dimethoxy-4-vinylphenol (=4-vinylsyringol)",Phenols,0.04,0.05
+WORT,MALT,Bread & Cereals,"2,6-dimethoxy-4-propenylphenol (unkn.str.) (=4-propenyl-syringol (unkn.str.))",Phenols,0.04,0.04
+WORT,MALT,Bread & Cereals,2-methylfuran,Furans,,
+WORT,MALT,Bread & Cereals,2-ethylfuran,Furans,,
+WORT,MALT,Bread & Cereals,2-pentylfuran,Furans,,
+WORT,MALT,Bread & Cereals,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,0.3,0.3
+WORT,MALT,Bread & Cereals,5-methylfurfural,Furans,0.01,0.01
+WORT,MALT,Bread & Cereals,5-(hydroxymethyl)furfural,Furans,<5,<5
+WORT,MALT,Bread & Cereals,"5,5-dimethyl-2(5H)-furanone (=4,4-dimethyl-2-buten-1,4-olide)",Furans,,
+WORT,MALT,Bread & Cereals,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,0.1,0.1
+WORT,MALT,Bread & Cereals,2-acetyl-5-methylfuran,Furans,<0.01,<0.01
+WORT,MALT,Bread & Cereals,2-propanoylfuran,Furans,,
+WORT,MALT,Bread & Cereals,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,2.1,2.1
+WORT,MALT,Bread & Cereals,5-methylfurfuryl alcohol,Furans,0.01,0.01
+WORT,MALT,Bread & Cereals,"2,5-bis(hydroxymethyl)furan",Furans,<0.01,<0.01
+WORT,MALT,Bread & Cereals,2-furancarboxylic acid (=2-furoic acid),Furans,0.3,0.38
+WORT,MALT,Bread & Cereals,humulene epoxide I,"(Ep)oxides, pyrans, coumarins",,
+WORT,MALT,Bread & Cereals,humulene epoxide II,"(Ep)oxides, pyrans, coumarins",,
+WORT,MALT,Bread & Cereals,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",,
+WORT,MALT,Bread & Cereals,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+WORT,MALT,Bread & Cereals,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+WORT,MALT,Bread & Cereals,"2,2,7,7-tetramethyl-1,6-dioxa-spiro[4.4]nona-3,8-diene (=spiroacetal)","(Ep)oxides, pyrans, coumarins",,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,dibromomethane,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,tribromomethane,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,tetrabromomethane,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1,3,3-tetrabromo-1-propene",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,carbonyl diiodide,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,diiodomethane,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,triiodomethane,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,bromo-iodomethane,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,dibromo-chloromethane,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,dibromo-iodomethane,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,bromo-diiodomethane,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,bromo-chloro-iodomethane,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,1-bromo-2-chloroethane,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1,3-tribromo-3-chloro-1-propene",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1-dibromo-3,3-dichloro-1-propene",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,3,3-tribromo-1-iodo-1-propene",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,2-iodoethanol,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1,3-tribromo-2-propanol",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,dibromoacetaldehyde,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"3,3-dibromo-2-propenal",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,1-bromo-2-propanone,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,1-iodo-2-propanone,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1-dibromo-2-propanone",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,3-dibromo-2-propanone",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,1-bromo-3-iodo-2-propanone,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1-dibromo-1-chloro-2-propanone",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1,1-tribromo-2-propanone",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1,3-tribromo-2-propanone",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1-dibromo-3-iodo-2-propanone",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1,3,3-tetrabromo-2-propanone",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,hexachloro-2-propanone,Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"4,4-dibromo-3-buten-2-one",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,4,4-tribromo-3-buten-2-one",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"4,4-dibromo-1-iodo-3-buten-2-one",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,4,4-tribromo-1-chloro-3-buten-2-one",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1,4-tribromo-4-chloro-3-buten-2-one",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1-dibromo-4,4-dichloro-3-buten-2-one",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,4-dibromo-1,4-dichloro-3-buten-2-one",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"1,1,4,4-tetrabromo-3-buten-2-one",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"2,2-dibromo-1-(bromomethyl)ethyl acetate",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"2,2-dibromo-1-(dibromomethyl)-ethyl acetate",Halogens,,
+"ALGA (Asparagopsis taxiformis, red algae)",,Seafood,"(E)-1,3,3-tribromo-1,2-epoxypropane",Halogens,,
+KATSUOBUSHI (dried bonito),,Seafood,octane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,decane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,undecane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,dodecane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,tridecane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,1-tridecene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,tetradecane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,1-tetradecene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,pentadecane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,6,10,14-tetramethylpentadecane (=pristane)",Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,hexadecane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,heptadecane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,octadecane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,nonadecane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,eicosane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,heneicosane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,docosane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,tricosane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,tetracosane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,pentacosane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,hexacosane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,heptacosane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,octacosane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,nonacosane,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,cyclopentene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,limonene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,α-pinene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,δ-cadinene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,benzene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,methylbenzene (=toluene),Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,biphenyl,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,indene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,methylindene (unkn.str.),Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,calamenene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,naphthalene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,1-methylnaphthalene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methylnaphthalene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,dimethylnaphthalene (unkn.str.),Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,biphenylene,Hydrocarbons,,
+KATSUOBUSHI (dried bonito),,Seafood,methanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,ethanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methyl-1-propanol (=isobutanol),Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,1-butanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-butanol (=sec-butanol),Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,1-pentanol (=amyl alcohol),Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,(Z)-2-penten-1-ol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,(E)-2-penten-1-ol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,1-penten-3-ol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,(Z)-2-penten-3-ol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,1-hexanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-hexanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,(E)-2-hexen-1-ol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-ethyl-1-hexanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,1-heptanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,4-heptanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methyl-1-heptanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,1-octanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,3-octanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,(E)-2-octen-1-ol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,1-octen-3-ol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,"(Z)-1,5-octadien-3-ol",Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,"(E)-1,5-octadien-3-ol",Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,"(Z)-1,5-undecadien-3-ol",Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,"(Z,Z)-1,5,8-undecatrien-3-ol",Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,linalool,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,cyclopentanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,benzyl alcohol (=benzenemethanol),Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-(2-hydroxyphenyl)ethanol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,α-terpineol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,elemol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,borneol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,α-cadinol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,muurolol-T,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,cedrol,Alcohols,,
+KATSUOBUSHI (dried bonito),,Seafood,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,2-methyl-2-propenal (=methacrolein),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,(E)-2-pentenal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,heptanal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,(E)-2-heptenal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,(Z)-4-heptenal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"2,4-heptadienal","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"(E,Z)-2,4-heptadienal","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,(Z)-2-octenal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,(E)-2-octenal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"2,4-octadienal","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"(E,E)-2,4-octadienal","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"(Z,E)-2,5-octadienal","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,octadienal (unkn.str.),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,(E)-2-nonenal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"(E,Z)-2,6-nonadienal","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"2,4-decadienal","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"(E,Z)-2,4-decadienal","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,(E)-2-undecenal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,tridecanal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,tetradecanal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,pentadecanal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,hexadecanal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,heptadecanal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,octadecanal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,benzaldehyde,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,4-methylbenzaldehyde (=p-tolualdehyde),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,4-isopropylbenzaldehyde (=cuminaldehyde),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,cinnamaldehyde (=3-phenyl-2-propenal),"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,2-phenyl-2-butenal,"Carbonyls, aldehydes",,
+KATSUOBUSHI (dried bonito),,Seafood,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,3-penten-2-one,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,3-hydroxy-2-pentanone (=acetyl ethyl carbinol),"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,3-hexanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-heptanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,methylheptenone (unkn.str.),"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-octanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,3-octanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"3,5-octadien-2-one","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"(E,Z)-3,5-octadien-2-one","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"(E,E)-3,5-octadien-2-one","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-nonanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-decanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-undecanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-tridecanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-pentadecanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-hexadecanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,cyclopentanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-cyclopenten-1-one,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-methylcyclopentanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,3-methylcyclopentanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-methyl-2-cyclopenten-1-one,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,3-methyl-2-cyclopenten-1-one,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,4-methyl-2-cyclopenten-1-one,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,5-methyl-2-cyclopenten-1-one,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,3-ethyl-2-cyclopenten-1-one,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"2,3-dimethyl-2-cyclopenten-1-one","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"2,4-dimethyl-2-cyclopenten-1-one","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"2,5-dimethyl-2-cyclopenten-1-one","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"3,4-dimethyl-2-cyclopenten-1-one","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"3,5-dimethyl-2-cyclopenten-1-one","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"2,3,4-trimethyl-2-cyclopenten-1-one","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,trimethyl-2-cyclopenten-1-one (unkn.str.),"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,1-indanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,methylindanone (unkn.str),"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"3-methyl-1,2-cyclopentanedione (=cyclotene)","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,cyclohexanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-cyclohexen-1-one,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-methyl-2-cyclohexen-1-one,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,3-methyl-2-cyclohexen-1-one,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,2-methylacetophenone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,4-methylacetophenone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,4-isopropylacetophenone (=p-acetylcumene),"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,"2,4-dimethylacetophenone","Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,1-phenyl-1-propanone (=propiophenone),"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,1-(4-methylphenyl)-1-propanone,"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,camphor (=alcanfor),"Carbonyls, ketones",,
+KATSUOBUSHI (dried bonito),,Seafood,acetic acid,Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,propanoic acid (=propionic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methylpropanoic acid (=isobutyric acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,2-hydroxypropanoic acid (=lactic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,butanoic acid (=butyric acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methylbutanoic acid,Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,3-methylbutanoic acid (=isovaleric acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methyl-2-butenoic acid,Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,(E)-2-methyl-2-butenoic acid (=tiglic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,pentanoic acid (=valeric acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,4-methylpentanoic acid (=isocaproic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,hexanoic acid (=caproic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,4-hexenoic acid,Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,heptanoic acid (=enanthic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,octanoic acid (=caprylic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,tetradecanoic acid (=myristic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,pentadecanoic acid,Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,hexadecanoic acid (=palmitic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,9-hexadecenoic acid,Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,benzoic acid,Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methylbenzoic acid (=o-toluic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,3-methylbenzoic acid (=m-toluic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,4-methylbenzoic acid (=p-toluic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,methylbenzoic acid (unkn.str.) (=toluic acid),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,phenylacetic acid,Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,phenylpropanoic acid (unkn.str.),Acids,,
+KATSUOBUSHI (dried bonito),,Seafood,ethyl formate,Esters,,
+KATSUOBUSHI (dried bonito),,Seafood,ethyl acetate,Esters,,
+KATSUOBUSHI (dried bonito),,Seafood,methyl benzoate,Esters,,
+KATSUOBUSHI (dried bonito),,Seafood,methyl 2-methylbenzoate,Esters,,
+KATSUOBUSHI (dried bonito),,Seafood,methyl 4-methylbenzoate,Esters,,
+KATSUOBUSHI (dried bonito),,Seafood,"4-hydroxybutanoic acid lactone (=dihydro-2(3H)-furanone, 4-butanolide, γ-butyrolactone)",Lactones,,
+KATSUOBUSHI (dried bonito),,Seafood,4-hydroxy-3-methylbutanoic acid lactone,Lactones,,
+KATSUOBUSHI (dried bonito),,Seafood,"4-hydroxypentanoic acid lactone (=γ-valerolactone, 4-pentanolide)",Lactones,,
+KATSUOBUSHI (dried bonito),,Seafood,trimethylamine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,"1,4-butanediamine (=putrescine)",Bases,3.2,4.6
+KATSUOBUSHI (dried bonito),,Seafood,"1,5-pentanediamine (=cadaverine)",Bases,3.7,20.3
+KATSUOBUSHI (dried bonito),,Seafood,"N-(3-aminopropyl)-1,4-butanediamine (=spermidine)",Bases,0,1.7
+KATSUOBUSHI (dried bonito),,Seafood,"N,N'-bis(3-aminopropyl)-1,4-butanediamine (=spermine)",Bases,2.9,9.8
+KATSUOBUSHI (dried bonito),,Seafood,phenethylamine,Bases,3.6,4
+KATSUOBUSHI (dried bonito),,Seafood,2-(4-hydroxyphenyl)ethylamine (=tyramine),Bases,0,3.8
+KATSUOBUSHI (dried bonito),,Seafood,(4-aminobutyl)guanidine (=agmatine),Bases,11.8,13.1
+KATSUOBUSHI (dried bonito),,Seafood,histamine,Bases,0.45,2.8
+KATSUOBUSHI (dried bonito),,Seafood,pyrrole,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,2-acetylpyrrole (=methyl 2-pyrrolyl ketone),Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,indole,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,3-methylindole (=skatole),Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,pyridine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methylpyridine (=α-picoline),Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,3-methylpyridine (=β-picoline),Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,4-methylpyridine (=γ-picoline),Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,2-ethylpyridine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,3-ethylpyridine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,3-vinylpyridine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,3-methoxypyridine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,quinoline,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,isoquinoline,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,pyrazine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,methylpyrazine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,ethylpyrazine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,3-dimethylpyrazine",Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,5-dimethylpyrazine",Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,6-dimethylpyrazine",Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,2-ethyl-5-methylpyrazine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,2-ethyl-6-methylpyrazine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,trimethylpyrazine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,"3-ethyl-2,5-dimethylpyrazine",Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,"2-ethyl-3,5-dimethylpyrazine",Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,tetramethylpyrazine,Bases,,
+KATSUOBUSHI (dried bonito),,Seafood,methanethiol (=methyl mercaptan),Sulfur compounds,,
+KATSUOBUSHI (dried bonito),,Seafood,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+KATSUOBUSHI (dried bonito),,Seafood,carbon disulfide,Sulfur compounds,,
+KATSUOBUSHI (dried bonito),,Seafood,3-(methylthio)propanal (=methional),Sulfur compounds,,
+KATSUOBUSHI (dried bonito),,Seafood,thiazole,Sulfur compounds,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,4-dimethylthiazole",Sulfur compounds,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,4,5-trimethylthiazole",Sulfur compounds,,
+KATSUOBUSHI (dried bonito),,Seafood,diethyl ether,Ethers,,
+KATSUOBUSHI (dried bonito),,Seafood,"1,8-cineole (=eucalyptol)",Ethers,,
+KATSUOBUSHI (dried bonito),,Seafood,"acetonitrile (=ethanenitrile, methyl cyanide)",Nitriles and amides,,
+KATSUOBUSHI (dried bonito),,Seafood,3-methylbutanenitrile (=isobutyl cyanide),Nitriles and amides,,
+KATSUOBUSHI (dried bonito),,Seafood,4-methylpentanenitrile,Nitriles and amides,,
+KATSUOBUSHI (dried bonito),,Seafood,benzonitrile,Nitriles and amides,,
+KATSUOBUSHI (dried bonito),,Seafood,"phenylacetonitrile (=benzyl cyanide, benzeneacetonitrile)",Nitriles and amides,,
+KATSUOBUSHI (dried bonito),,Seafood,phenol (=hydroxybenzene),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methylphenol (=o-cresol),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,3-methylphenol (=m-cresol),Phenols,52.6,52.6
+KATSUOBUSHI (dried bonito),,Seafood,4-methylphenol (=p-cresol),Phenols,39.4,39.4
+KATSUOBUSHI (dried bonito),,Seafood,methylphenol (unkn.str.) (=cresol (unkn.str.)),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-ethylphenol,Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,4-ethylphenol,Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,4-vinylphenol,Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-isopropylphenol,Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,3-dimethylphenol",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,4-dimethylphenol",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,5-dimethylphenol",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,6-dimethylphenol",Phenols,3,3
+KATSUOBUSHI (dried bonito),,Seafood,"3,4-dimethylphenol",Phenols,4.6,4.6
+KATSUOBUSHI (dried bonito),,Seafood,"3,5-dimethylphenol (=3,5-xylenol)",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-ethyl-5-methylphenol,Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,5-ethyl-3-methylphenol,Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,3,5-trimethylphenol",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,4,6-trimethylphenol",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,6-di-tert-butyl-4-methyl-phenol (=B.H.T.)",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,1-methoxy-3-methylbenzene (=3-methylanisole),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,1-methoxy-4-propylbenzene,Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,methoxynaphthalene (unkn.str.),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methoxyphenol (=guaiacol),Phenols,47.6,47.6
+KATSUOBUSHI (dried bonito),,Seafood,"2-methoxy-4-methylphenol (=4-methylguaiacol, creosol)",Phenols,30.4,30.4
+KATSUOBUSHI (dried bonito),,Seafood,4-ethyl-2-methoxyphenol (=4-ethylguaiacol),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methoxy-4-propylphenol (=4-propylguaiacol),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,(Z)-isoeugenol (=(Z)-2-methoxy-4-(1-propenyl)-phenol),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,(E)-isoeugenol (=(E)-2-methoxy-4-(1-propenyl)-phenol),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"1,2-dimethoxybenzene (=veratrole)",Phenols,10.2,10.2
+KATSUOBUSHI (dried bonito),,Seafood,"1,2-dimethoxy-4-methylbenzene",Phenols,8.6,8.6
+KATSUOBUSHI (dried bonito),,Seafood,"1,3-dimethoxy-5-methylbenzene",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"4-ethyl-1,2-dimethoxybenzene",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"1,2-dimethoxy-4-propylbenzene",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"methylisoeugenol (=1,2-dimethoxy-4-(1-propenyl)-benzene)",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"(Z)-1,2-dimethoxy-4-(1-propenyl)-benzene (=(Z)-methylisoeugenol)",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"(E)-1,2-dimethoxy-4-(1-propenyl)-benzene (=(E)-methylisoeugenol)",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"5-allyl-1,3-benzodioxole (=safrole)",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"5-(1-propenyl)-1,3-benzodioxole (=isosafrole)",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"1,2,3-trimethoxybenzene",Phenols,3.8,3.8
+KATSUOBUSHI (dried bonito),,Seafood,"1,3,5-trimethoxybenzene",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,6-dimethoxyphenol (=syringol)",Phenols,27.5,27.5
+KATSUOBUSHI (dried bonito),,Seafood,"2,6-dimethoxy-4-methylphenol (=4-methylsyringol)",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"4-ethyl-2,6-dimethoxyphenol (=4-ethylsyringol)",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"2,6-dimethoxy-4-propylphenol (=4-propylsyringol)",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,trimethoxy-methylphenol (unkn.str.),Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"1,2,3-trimethoxy-5-methylbenzene",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"5-ethyl-1,2,3-trimethoxybenzene",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"1,2,3-trimethoxy-5-vinylbenzene",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"1,2,3-trimethoxy-5-propylbenzene",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,"1,2,3-trimethoxy-5-(1-propenyl)benzene",Phenols,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methylfuran,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,2-ethylfuran,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,2-pentylfuran,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,(Z)-2-(2-pentenyl)furan,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,2-hexyl-5-methylfuran,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,2-ethyl-5-vinylfuran,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,benzofuran,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methylbenzofuran,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,methylbenzofuran (unkn.str.),Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,2-ethylbenzofuran,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,dimethylbenzofuran (unkn.str.),Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,dibenzofuran,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,2-methyldihydro-3(2H)-furanone,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,3-methyl-2(5H)-furanone,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,"3,4-dimethyl-2(5H)-furanone",Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,"3,4,5-trimethyl-2(3H)-furanone",Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,"3,4,5-trimethyl-2(5H)-furanone",Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,"5-ethyl-3,4-dimethyl-2(5H)-furanone",Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,"3,4-dimethyl-5-propyl-2(5H)-furanone",Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,"3,4-dimethyl-5-pentyl-2(5H)-furanone (=dihydrobovolide)",Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,2-acetyl-5-methylfuran,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,2-furancarboxylic acid (=2-furoic acid),Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,5-methyl-2-furancarboxylic acid,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,methyl 2-furancarboxylate,Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,furfuryl acetate (=2-furanmethanol acetate),Furans,,
+KATSUOBUSHI (dried bonito),,Seafood,3-hydroxy-2-methyl-4-pyrone (=maltol),"(Ep)oxides, pyrans, coumarins",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,undecane,Hydrocarbons,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,limonene,Hydrocarbons,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,bisabolene (unkn.str.),Hydrocarbons,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,zingiberene,Hydrocarbons,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,α-pinene,Hydrocarbons,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,β-pinene,Hydrocarbons,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,β-caryophyllene,Hydrocarbons,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,β-gurjunene,Hydrocarbons,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,1-hexanol,Alcohols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,3-nonanol,Alcohols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,1-nonen-3-ol,Alcohols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,geraniol,Alcohols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,nerol,Alcohols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,benzyl alcohol (=benzenemethanol),Alcohols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,2-hexenal,"Carbonyls, aldehydes",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,3-hexenal,"Carbonyls, aldehydes",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,"(E,E)-2,4-hexadienal","Carbonyls, aldehydes",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,dodecanal,"Carbonyls, aldehydes",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,geranial (=α-citral),"Carbonyls, aldehydes",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,neral (=β-citral),"Carbonyls, aldehydes",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,5-methyl-4-hexen-3-one,"Carbonyls, ketones",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,3-nonanone,"Carbonyls, ketones",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,1-(4-methoxyphenyl)-1-propanone,"Carbonyls, ketones",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,1-(4-methoxyphenyl)-2-propanone (=anisketone),"Carbonyls, ketones",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,(E)-β-ionone,"Carbonyls, ketones",,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,(E)-3-hexenyl acetate,Esters,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,non-1-enyl-3 acetate,Esters,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,nonyn-3-yl acetate (unkn.str.),Esters,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,geranyl acetate,Esters,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,geranyl propanoate,Esters,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,neryl propanoate,Esters,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,"4-hydroxydodecanoic acid lactone (=4-dodecanolide, γ-dodecalactone)",Lactones,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,4-allylphenol (=chavicol),Phenols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,5-allyl-2-methoxyphenol (=chavibetol),Phenols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,dimethoxy-vinylbenzene (unkn.str.),Phenols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,"1-allyl-2,4-dimethoxybenzene",Phenols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,,
+CHERVIL (Anthriscus cerefolium L.),,Spices & Condiments,allyl-trimethoxybenzene (unkn.str.),Phenols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,octane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,dodecane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,tridecane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,tetradecane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,pentadecane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,hexadecane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,heptadecane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,octadecane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,nonadecane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,eicosane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,heneicosane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,docosane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,tricosane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,tetracosane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,pentacosane,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,β-ocimene,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,(Z)-β-ocimene,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,(E)-β-ocimene,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,β-myrcene (=myrcene),Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,α-terpinene,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,limonene,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,β-caryophyllene,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,α-copaene (=copaene),Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,methylbenzene (=toluene),Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,tetrahydrotrimethylnaphthalene (unkn.str.),Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,naphthalene,Hydrocarbons,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethanol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-methyl-1-propanol (=isobutanol),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,1-butanol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-methyl-2-butanol (=tert-amyl alcohol),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,3-methyl-2-butanol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,3-methyl-2-buten-1-ol (=prenol),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,1-pentanol (=amyl alcohol),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,1-hexanol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,hexanol (unkn.str.),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,(E)-2-hexen-1-ol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,3-hexen-1-ol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,(E)-3-hexen-1-ol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,hexenol (unkn.str.),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-ethyl-1-hexanol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,1-heptanol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,1-octanol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,octanol (unkn.str.),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"3,7-dimethyl-1,5,7-octatrien-3-ol (=hotrienol)",Alcohols,<1,<1
+,ELDERBERRY (Sambucus nigra L.),Fruits,"3,7-dimethyl-1,6-octadiene-3,5-diol (=5-hydroxylinalool)",Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"2,6-dimethyl-3,7-octadien-2,6-diol",Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,nonenol (unkn.str.),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,1-decanol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,decenol (unkn.str.),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,citronellol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,geraniol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,nerol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,linalool,Alcohols,<1,<1
+,ELDERBERRY (Sambucus nigra L.),Fruits,benzyl alcohol (=benzenemethanol),Alcohols,<1,<1
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-phenylethanol (=phenethyl alcohol),Alcohols,2.1,10.4
+,ELDERBERRY (Sambucus nigra L.),Fruits,menthol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,α-terpineol,Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,4-terpineol (=terpinen-4-ol),Alcohols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-hexenal,"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,hexenal (unkn.str.),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,heptanal,"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,geranial (=α-citral),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,neral (=β-citral),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,benzaldehyde,"Carbonyls, aldehydes",<1,<1
+,ELDERBERRY (Sambucus nigra L.),Fruits,methylbenzaldehyde (unkn.str.) (=tolualdehyde (unkn.str.)),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,4-methoxybenzaldehyde (=anisaldehyde),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,vanillin (=4-hydroxy-3-methoxybenzaldehyde),"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",3,8.2
+,ELDERBERRY (Sambucus nigra L.),Fruits,p-1-menthen-9-al,"Carbonyls, aldehydes",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,3-buten-2-one,"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-pentanone,"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,4-methyl-2-pentanone,"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,4-methyl-3-penten-2-one (=mesityl oxide),"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-undecanone,"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,jasmone,"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",<1,2.8
+,ELDERBERRY (Sambucus nigra L.),Fruits,ionone (unkn.str.),"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,piperitone,"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"carvone (=p-6,8-menthadien-2-one)","Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,camphor (=alcanfor),"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,thujone (=α-thujone),"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,isothujone (=β-thujone),"Carbonyls, ketones",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,acetic acid,Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,propanoic acid (=propionic acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-methylpropanoic acid (=isobutyric acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,butanoic acid (=butyric acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-methylbutanoic acid,Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,3-methylbutanoic acid (=isovaleric acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,pentanoic acid (=valeric acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,hexanoic acid (=caproic acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,hexenoic acid (unkn.str.),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,heptanoic acid (=enanthic acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,octanoic acid (=caprylic acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,nonanoic acid (=pelargonic acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,decanoic acid (=capric acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,dodecanoic acid (=lauric acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,hexadecanoic acid (=palmitic acid),Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,geranic acid,Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,(E)-geranic acid,Acids,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl formate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl acetate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,butyl acetate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,hexenyl acetate (unkn.str.),Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-ethylhexyl acetate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl propanoate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,propyl propanoate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl 2-hydroxypropanoate (=ethyl lactate),Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl 2-methylbutanoate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,methyl valinate (=methyl α-aminoisovalerate),Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,(Z)-3-hexenyl 3-methylbutanoate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl 3-hydroxybutanoate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,(Z)-3-hexenyl pentanoate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,methyl isoleucinate (=methyl 2-amino-3-methylpentanoate),Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,butyl hexanoate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl nonanoate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,methyl decanoate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,methyl undecanoate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,methyl dodecanoate (=methyl laurate),Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl tetradecanoate (=ethyl myristate),Esters,<1,4.3
+,ELDERBERRY (Sambucus nigra L.),Fruits,methyl hexadecanoate (=methyl palmitate),Esters,<1,5.3
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl hexadecanoate (=ethyl palmitate),Esters,<1,<1
+,ELDERBERRY (Sambucus nigra L.),Fruits,methyl (Z)-9-hexadecenoate (=methyl palmitoleate),Esters,<1,<1
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl (Z)-9-hexadecenoate (=ethyl palmitoleate),Esters,<1,7.7
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl octadecanoate (=ethyl stearate),Esters,<1,<1
+,ELDERBERRY (Sambucus nigra L.),Fruits,methyl (Z)-9-octadecenoate (=methyl oleate),Esters,<1,<1
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl (Z)-9-octadecenoate (=ethyl oleate),Esters,<1,<1
+,ELDERBERRY (Sambucus nigra L.),Fruits,"methyl (Z,Z)-9,12-octadecadienoate (=methyl linoleate)",Esters,<1,<1
+,ELDERBERRY (Sambucus nigra L.),Fruits,"ethyl (Z,Z)-9,12-octadecadienoate (=ethyl linoleate)",Esters,<1,77.5
+,ELDERBERRY (Sambucus nigra L.),Fruits,"methyl (Z,Z,Z)-9,12,15-octadecatrienoate (=methyl linolenoate)",Esters,<1,11
+,ELDERBERRY (Sambucus nigra L.),Fruits,"ethyl (Z,Z,Z)-9,12,15-octadecatrienoate (=ethyl linolenate)",Esters,<1,50
+,ELDERBERRY (Sambucus nigra L.),Fruits,monoethyl succinate (=monoethyl butanedioate),Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,diethyl succinate (=diethyl butanedioate),Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,diethyl hexanedioate (=diethyl adipate),Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl benzoate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,methyl 2-hydroxybenzoate (=methyl salicylate),Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl 2-hydroxybenzoate (=ethyl salicylate),Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,diethyl phthalate,Esters,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"4-hydroxyoctanoic acid lactone (=4-octanolide, γ-octalactone, 5-butyldihydro-2(3H)-furanone)",Lactones,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"4-hydroxydecanoic acid lactone (=4-decanolide, γ-decalactone)",Lactones,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"4-hydroxyundecanoic acid lactone (=4-undecanolide, γ-undecalactone)",Lactones,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,indole,Bases,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,pyridine,Bases,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,benzothiazole,Sulfur compounds,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"1,1-diethoxyethane (=acetal, acetaldehyde diethyl acetal)",Acetals,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"1,8-cineole (=eucalyptol)",Ethers,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,dichloromethane (=methylene chloride),Halogens,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"phenylacetonitrile (=benzyl cyanide, benzeneacetonitrile)",Nitriles and amides,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,phenol (=hydroxybenzene),Phenols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,methylphenol (unkn.str.) (=cresol (unkn.str.)),Phenols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,thymol (=2-isopropyl-5-methylphenol),Phenols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,carvacrol (=5-isopropyl-2-methylphenol),Phenols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,1-methoxy-4-vinylbenzene (=4-vinylanisole),Phenols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,anethole (=1-methoxy-4-(1-propenyl)benzene),Phenols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"(E)-anethole (=(E)-1-methoxy-4-(1-propenyl)benzene, anise camphor)",Phenols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,linalool oxide (5),Furans,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"linalool oxide B (cis, 5-ring)",Furans,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"linalool oxide A (trans, 5-ring)",Furans,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,pentylfuran (unkn.str.),Furans,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,<1,<1
+,ELDERBERRY (Sambucus nigra L.),Fruits,5-methylfurfural,Furans,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,acetylfuran (unkn.str.),Furans,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,2-furancarboxylic acid (=2-furoic acid),Furans,,
+,ELDERBERRY (Sambucus nigra L.),Fruits,cis-rose oxide,"(Ep)oxides, pyrans, coumarins",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,trans-rose oxide,"(Ep)oxides, pyrans, coumarins",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,nerol oxide,"(Ep)oxides, pyrans, coumarins",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,linalool oxide (6),"(Ep)oxides, pyrans, coumarins",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"linalool oxide D (cis, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"linalool oxide C (trans, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"2,3-dihydro-3,5-dihydroxy-6-methyl-4-pyrone (=5,6-dihydro-5-hydroxymaltol)","(Ep)oxides, pyrans, coumarins",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"2-methyl-1,3-dioxolane","(Ep)oxides, pyrans, coumarins",,
+,ELDERBERRY (Sambucus nigra L.),Fruits,"maleic anhydride (=2,5-furandione)",Anhydrides and phthalides,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,1-hexanol,Alcohols,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,hexanol (unkn.str.),Alcohols,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,hexenol (unkn.str.),Alcohols,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,"3,7-dimethyl-1,5,7-octatrien-3-ol (=hotrienol)",Alcohols,<1,<1
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,citronellol,Alcohols,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,geraniol,Alcohols,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,nerol,Alcohols,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,linalool,Alcohols,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,benzyl alcohol (=benzenemethanol),Alcohols,<1,<1
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,2-phenylethanol (=phenethyl alcohol),Alcohols,10.4,10.4
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,α-terpineol,Alcohols,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,hexenal (unkn.str.),"Carbonyls, aldehydes",,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,benzaldehyde,"Carbonyls, aldehydes",,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",8.2,8.2
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,p-1-menthen-9-al,"Carbonyls, aldehydes",,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",2.8,2.8
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl tetradecanoate (=ethyl myristate),Esters,4.3,4.3
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,methyl hexadecanoate (=methyl palmitate),Esters,5.3,5.3
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl hexadecanoate (=ethyl palmitate),Esters,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,methyl (Z)-9-hexadecenoate (=methyl palmitoleate),Esters,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl (Z)-9-hexadecenoate (=ethyl palmitoleate),Esters,7.7,7.7
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl octadecanoate (=ethyl stearate),Esters,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,methyl (Z)-9-octadecenoate (=methyl oleate),Esters,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl (Z)-9-octadecenoate (=ethyl oleate),Esters,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,"methyl (Z,Z)-9,12-octadecadienoate (=methyl linoleate)",Esters,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,"ethyl (Z,Z)-9,12-octadecadienoate (=ethyl linoleate)",Esters,77.5,77.5
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,"methyl (Z,Z,Z)-9,12,15-octadecatrienoate (=methyl linolenoate)",Esters,11,11
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,"ethyl (Z,Z,Z)-9,12,15-octadecatrienoate (=ethyl linolenate)",Esters,50,50
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,"linalool oxide B (cis, 5-ring)",Furans,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,"linalool oxide A (trans, 5-ring)",Furans,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,pentylfuran (unkn.str.),Furans,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,<1,<1
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,5-methylfurfural,Furans,,
+ELDERBERRY FRUIT,ELDERBERRY (Sambucus nigra L.),Fruits,"linalool oxide D (cis, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,nonadecane,Hydrocarbons,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,(Z)-β-ocimene,Hydrocarbons,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,(E)-β-ocimene,Hydrocarbons,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,β-myrcene (=myrcene),Hydrocarbons,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,α-terpinene,Hydrocarbons,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,limonene,Hydrocarbons,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,β-caryophyllene,Hydrocarbons,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,methylbenzene (=toluene),Hydrocarbons,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,tetrahydrotrimethylnaphthalene (unkn.str.),Hydrocarbons,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,naphthalene,Hydrocarbons,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethanol,Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,2-methyl-1-propanol (=isobutanol),Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,1-butanol,Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,2-methyl-2-butanol (=tert-amyl alcohol),Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,3-methyl-2-butanol,Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,3-methyl-2-buten-1-ol (=prenol),Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,1-pentanol (=amyl alcohol),Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,1-hexanol,Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,(E)-2-hexen-1-ol,Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,(E)-3-hexen-1-ol,Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,hexenol (unkn.str.),Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,2-ethyl-1-hexanol,Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,1-octanol,Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"3,7-dimethyl-1,5,7-octatrien-3-ol (=hotrienol)",Alcohols,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,citronellol,Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,geraniol,Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,linalool,Alcohols,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,benzyl alcohol (=benzenemethanol),Alcohols,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,2-phenylethanol (=phenethyl alcohol),Alcohols,2.1,2.1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,α-terpineol,Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,4-terpineol (=terpinen-4-ol),Alcohols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,heptanal,"Carbonyls, aldehydes",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,benzaldehyde,"Carbonyls, aldehydes",<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,methylbenzaldehyde (unkn.str.) (=tolualdehyde (unkn.str.)),"Carbonyls, aldehydes",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,vanillin (=4-hydroxy-3-methoxybenzaldehyde),"Carbonyls, aldehydes",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",3,3
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,acetic acid,Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,propanoic acid (=propionic acid),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,2-methylpropanoic acid (=isobutyric acid),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,butanoic acid (=butyric acid),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,2-methylbutanoic acid,Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,3-methylbutanoic acid (=isovaleric acid),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,pentanoic acid (=valeric acid),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,hexanoic acid (=caproic acid),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,hexenoic acid (unkn.str.),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,heptanoic acid (=enanthic acid),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,octanoic acid (=caprylic acid),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,nonanoic acid (=pelargonic acid),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,decanoic acid (=capric acid),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,dodecanoic acid (=lauric acid),Acids,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl acetate,Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,butyl acetate,Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,2-ethylhexyl acetate,Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl 2-hydroxypropanoate (=ethyl lactate),Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl 2-methylbutanoate,Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl 3-hydroxybutanoate,Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,butyl hexanoate,Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl nonanoate,Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,methyl decanoate,Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,methyl undecanoate,Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,methyl dodecanoate (=methyl laurate),Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl tetradecanoate (=ethyl myristate),Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,methyl hexadecanoate (=methyl palmitate),Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl hexadecanoate (=ethyl palmitate),Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,methyl (Z)-9-hexadecenoate (=methyl palmitoleate),Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl (Z)-9-hexadecenoate (=ethyl palmitoleate),Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl octadecanoate (=ethyl stearate),Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,methyl (Z)-9-octadecenoate (=methyl oleate),Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl (Z)-9-octadecenoate (=ethyl oleate),Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"methyl (Z,Z)-9,12-octadecadienoate (=methyl linoleate)",Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"ethyl (Z,Z)-9,12-octadecadienoate (=ethyl linoleate)",Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"methyl (Z,Z,Z)-9,12,15-octadecatrienoate (=methyl linolenoate)",Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"ethyl (Z,Z,Z)-9,12,15-octadecatrienoate (=ethyl linolenate)",Esters,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,diethyl succinate (=diethyl butanedioate),Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,diethyl hexanedioate (=diethyl adipate),Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl benzoate,Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,diethyl phthalate,Esters,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"4-hydroxyoctanoic acid lactone (=4-octanolide, γ-octalactone, 5-butyldihydro-2(3H)-furanone)",Lactones,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"4-hydroxydecanoic acid lactone (=4-decanolide, γ-decalactone)",Lactones,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"4-hydroxyundecanoic acid lactone (=4-undecanolide, γ-undecalactone)",Lactones,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,pyridine,Bases,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,benzothiazole,Sulfur compounds,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,dichloromethane (=methylene chloride),Halogens,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"phenylacetonitrile (=benzyl cyanide, benzeneacetonitrile)",Nitriles and amides,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,phenol (=hydroxybenzene),Phenols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,methylphenol (unkn.str.) (=cresol (unkn.str.)),Phenols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,linalool oxide (5),Furans,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,<1,<1
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,5-methylfurfural,Furans,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,acetylfuran (unkn.str.),Furans,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,2-furancarboxylic acid (=2-furoic acid),Furans,,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,linalool oxide (6),"(Ep)oxides, pyrans, coumarins",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"2,3-dihydro-3,5-dihydroxy-6-methyl-4-pyrone (=5,6-dihydro-5-hydroxymaltol)","(Ep)oxides, pyrans, coumarins",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"2-methyl-1,3-dioxolane","(Ep)oxides, pyrans, coumarins",,
+ELDERBERRY JUICE,ELDERBERRY (Sambucus nigra L.),Fruits,"maleic anhydride (=2,5-furandione)",Anhydrides and phthalides,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,octane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,dodecane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,tridecane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,tetradecane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,pentadecane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,hexadecane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,heptadecane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,octadecane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,nonadecane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,eicosane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,heneicosane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,docosane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,tricosane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,tetracosane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,pentacosane,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,β-ocimene,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,β-myrcene (=myrcene),Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,limonene,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,β-caryophyllene,Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,α-copaene (=copaene),Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,ethanol,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,1-pentanol (=amyl alcohol),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,1-hexanol,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,hexanol (unkn.str.),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,3-hexen-1-ol,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,hexenol (unkn.str.),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,2-ethyl-1-hexanol,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,1-heptanol,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,octanol (unkn.str.),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"3,7-dimethyl-1,5,7-octatrien-3-ol (=hotrienol)",Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"3,7-dimethyl-1,6-octadiene-3,5-diol (=5-hydroxylinalool)",Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"2,6-dimethyl-3,7-octadien-2,6-diol",Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,nonenol (unkn.str.),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,1-decanol,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,decenol (unkn.str.),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,citronellol,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,geraniol,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,nerol,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,linalool,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,benzyl alcohol (=benzenemethanol),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,menthol,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,α-terpineol,Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,4-terpineol (=terpinen-4-ol),Alcohols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,2-hexenal,"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,hexenal (unkn.str.),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,heptanal,"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,geranial (=α-citral),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,neral (=β-citral),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,benzaldehyde,"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,4-methoxybenzaldehyde (=anisaldehyde),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,3-buten-2-one,"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,2-pentanone,"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,4-methyl-2-pentanone,"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,4-methyl-3-penten-2-one (=mesityl oxide),"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,2-undecanone,"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,jasmone,"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,ionone (unkn.str.),"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,piperitone,"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"carvone (=p-6,8-menthadien-2-one)","Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,camphor (=alcanfor),"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,thujone (=α-thujone),"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,isothujone (=β-thujone),"Carbonyls, ketones",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,hexanoic acid (=caproic acid),Acids,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,octanoic acid (=caprylic acid),Acids,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,nonanoic acid (=pelargonic acid),Acids,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,hexadecanoic acid (=palmitic acid),Acids,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,geranic acid,Acids,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,(E)-geranic acid,Acids,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl formate,Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl acetate,Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,butyl acetate,Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,hexenyl acetate (unkn.str.),Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl propanoate,Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,propyl propanoate,Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl 2-hydroxypropanoate (=ethyl lactate),Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl 2-methylbutanoate,Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,methyl valinate (=methyl α-aminoisovalerate),Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,(Z)-3-hexenyl 3-methylbutanoate,Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,(Z)-3-hexenyl pentanoate,Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,methyl isoleucinate (=methyl 2-amino-3-methylpentanoate),Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl nonanoate,Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl hexadecanoate (=ethyl palmitate),Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,monoethyl succinate (=monoethyl butanedioate),Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,methyl 2-hydroxybenzoate (=methyl salicylate),Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,ethyl 2-hydroxybenzoate (=ethyl salicylate),Esters,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,indole,Bases,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"1,1-diethoxyethane (=acetal, acetaldehyde diethyl acetal)",Acetals,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"1,8-cineole (=eucalyptol)",Ethers,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,thymol (=2-isopropyl-5-methylphenol),Phenols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,carvacrol (=5-isopropyl-2-methylphenol),Phenols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,1-methoxy-4-vinylbenzene (=4-vinylanisole),Phenols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,anethole (=1-methoxy-4-(1-propenyl)benzene),Phenols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"(E)-anethole (=(E)-1-methoxy-4-(1-propenyl)benzene, anise camphor)",Phenols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,linalool oxide (5),Furans,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"linalool oxide B (cis, 5-ring)",Furans,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"linalool oxide A (trans, 5-ring)",Furans,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,pentylfuran (unkn.str.),Furans,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,5-methylfurfural,Furans,,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,cis-rose oxide,"(Ep)oxides, pyrans, coumarins",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,trans-rose oxide,"(Ep)oxides, pyrans, coumarins",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,nerol oxide,"(Ep)oxides, pyrans, coumarins",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,linalool oxide (6),"(Ep)oxides, pyrans, coumarins",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"linalool oxide D (cis, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+ELDER FLOWER,ELDERBERRY (Sambucus nigra L.),Fruits,"linalool oxide C (trans, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+KRILL,,Seafood,dodecane,Hydrocarbons,,
+KRILL,,Seafood,tridecane,Hydrocarbons,,
+KRILL,,Seafood,tetradecane,Hydrocarbons,,
+KRILL,,Seafood,tetradecene (unkn.str.),Hydrocarbons,,
+KRILL,,Seafood,pentadecane,Hydrocarbons,,
+KRILL,,Seafood,"2,4,6,10-tetramethylpentadecane",Hydrocarbons,,
+KRILL,,Seafood,"2,6,10,14-tetramethylpentadecane (=pristane)",Hydrocarbons,,
+KRILL,,Seafood,hexadecane,Hydrocarbons,,
+KRILL,,Seafood,limonene,Hydrocarbons,,
+KRILL,,Seafood,methylbenzene (=toluene),Hydrocarbons,,
+KRILL,,Seafood,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+KRILL,,Seafood,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+KRILL,,Seafood,ethanol,Alcohols,,
+KRILL,,Seafood,2-methyl-1-propanol (=isobutanol),Alcohols,,
+KRILL,,Seafood,1-butanol,Alcohols,,
+KRILL,,Seafood,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+KRILL,,Seafood,1-penten-3-ol,Alcohols,,
+KRILL,,Seafood,1-heptanol,Alcohols,,
+KRILL,,Seafood,1-octen-3-ol,Alcohols,,
+KRILL,,Seafood,benzyl alcohol (=benzenemethanol),Alcohols,,
+KRILL,,Seafood,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+KRILL,,Seafood,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+KRILL,,Seafood,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+KRILL,,Seafood,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",0.002,0.002
+KRILL,,Seafood,(E)-2-methyl-2-butenal (=tiglicaldehyde),"Carbonyls, aldehydes",,
+KRILL,,Seafood,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+KRILL,,Seafood,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0.01,0.01
+KRILL,,Seafood,heptanal,"Carbonyls, aldehydes",,
+KRILL,,Seafood,(Z)-4-heptenal,"Carbonyls, aldehydes",0.06,0.06
+KRILL,,Seafood,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+KRILL,,Seafood,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",0.005,0.005
+KRILL,,Seafood,decanal (=capraldehyde),"Carbonyls, aldehydes",0.007,0.007
+KRILL,,Seafood,benzaldehyde,"Carbonyls, aldehydes",0.17,0.17
+KRILL,,Seafood,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+KRILL,,Seafood,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+KRILL,,Seafood,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+KRILL,,Seafood,2-pentanone,"Carbonyls, ketones",0.12,0.12
+KRILL,,Seafood,"4-methyl-2,3-pentanedione","Carbonyls, ketones",,
+KRILL,,Seafood,2-heptanone,"Carbonyls, ketones",0.014,0.014
+KRILL,,Seafood,2-octanone,"Carbonyls, ketones",0.01,0.01
+KRILL,,Seafood,"3,5-octadien-2-one","Carbonyls, ketones",,
+KRILL,,Seafood,"(E,E)-3,5-octadien-2-one","Carbonyls, ketones",0.04,0.04
+KRILL,,Seafood,2-nonanone,"Carbonyls, ketones",0.012,0.012
+KRILL,,Seafood,2-decanone,"Carbonyls, ketones",0.02,0.02
+KRILL,,Seafood,2-undecanone,"Carbonyls, ketones",0.03,0.03
+KRILL,,Seafood,acetophenone (=1-phenylethanone),"Carbonyls, ketones",0.01,0.01
+KRILL,,Seafood,methylamine,Bases,,
+KRILL,,Seafood,propylamine,Bases,,
+KRILL,,Seafood,butylamine,Bases,,
+KRILL,,Seafood,octylamine,Bases,,
+KRILL,,Seafood,dimethylamine,Bases,,
+KRILL,,Seafood,diethylamine,Bases,,
+KRILL,,Seafood,N-methylpropylamine,Bases,,
+KRILL,,Seafood,N-allylpropylamine,Bases,,
+KRILL,,Seafood,diallylamine,Bases,,
+KRILL,,Seafood,N-butylpropylamine,Bases,,
+KRILL,,Seafood,N-butylisopropylamine,Bases,,
+KRILL,,Seafood,N-butyl-sec-butylamine,Bases,,
+KRILL,,Seafood,N-sec-butylisobutylamine,Bases,,
+KRILL,,Seafood,N-tert-butylisobutylamine,Bases,,
+KRILL,,Seafood,N-tert-butylethylamine,Bases,,
+KRILL,,Seafood,N-sec-butylpentylamine,Bases,,
+KRILL,,Seafood,N-tert-butylpentylamine,Bases,,
+KRILL,,Seafood,diisopentylamine,Bases,,
+KRILL,,Seafood,N-methyl-sec-pentylamine,Bases,,
+KRILL,,Seafood,N-tert-butylhexylamine,Bases,,
+KRILL,,Seafood,N-hexylisopentylamine,Bases,,
+KRILL,,Seafood,N-heptylisobutylamine,Bases,,
+KRILL,,Seafood,N-tert-butylheptylamine,Bases,,
+KRILL,,Seafood,N-sec-heptylmethylamine,Bases,,
+KRILL,,Seafood,N-isopropyloctylamine,Bases,,
+KRILL,,Seafood,N-sec-octylpropylamine,Bases,,
+KRILL,,Seafood,N-ethyl-sec-nonylamine,Bases,,
+KRILL,,Seafood,trimethylamine,Bases,,
+KRILL,,Seafood,"N,N-diethylmethylamine",Bases,,
+KRILL,,Seafood,N-methyldipentylamine,Bases,,
+KRILL,,Seafood,"N,N-dibutylethylamine",Bases,,
+KRILL,,Seafood,N-hexyldipropylamine,Bases,,
+KRILL,,Seafood,N-butyldiethylamine,Bases,,
+KRILL,,Seafood,N-pentyldipropylamine,Bases,,
+KRILL,,Seafood,tributylamine,Bases,,
+KRILL,,Seafood,cyclohexylamine,Bases,,
+KRILL,,Seafood,N-cyclohexylisopropylamine,Bases,,
+KRILL,,Seafood,pyrrole,Bases,,
+KRILL,,Seafood,1-methylpyrrole,Bases,,
+KRILL,,Seafood,1-propylpyrrole,Bases,,
+KRILL,,Seafood,indole,Bases,,
+KRILL,,Seafood,1-methylpiperidine,Bases,,
+KRILL,,Seafood,pyridine,Bases,0.004,0.004
+KRILL,,Seafood,2-methylpyridine (=α-picoline),Bases,0.002,0.002
+KRILL,,Seafood,3-methylpyridine (=β-picoline),Bases,0.002,0.002
+KRILL,,Seafood,3-ethylpyridine,Bases,,
+KRILL,,Seafood,4-ethylpyridine,Bases,,
+KRILL,,Seafood,"2,4-dimethylpyridine (=2,4-lutidine)",Bases,,
+KRILL,,Seafood,"2,6-dimethylpyridine (=2,6-lutidine)",Bases,,
+KRILL,,Seafood,butyl-methylpyridine (unkn.str.),Bases,,
+KRILL,,Seafood,2-methylpiperazine,Bases,,
+KRILL,,Seafood,dimethylpiperazine (unkn.str.),Bases,,
+KRILL,,Seafood,"trans-2,5-dimethylpiperazine",Bases,,
+KRILL,,Seafood,pyrazine,Bases,0.007,0.007
+KRILL,,Seafood,methylpyrazine,Bases,0.026,0.026
+KRILL,,Seafood,ethylpyrazine,Bases,,
+KRILL,,Seafood,"2,3-dimethylpyrazine",Bases,0.033,0.033
+KRILL,,Seafood,"2,5-dimethylpyrazine",Bases,0.14,0.14
+KRILL,,Seafood,"2,6-dimethylpyrazine",Bases,0.086,0.086
+KRILL,,Seafood,2-ethyl-5-methylpyrazine,Bases,,
+KRILL,,Seafood,2-ethyl-6-methylpyrazine,Bases,,
+KRILL,,Seafood,2-ethyl-5(or 6)-methylpyrazine,Bases,0.01,0.01
+KRILL,,Seafood,"2,3-diethylpyrazine",Bases,,
+KRILL,,Seafood,trimethylpyrazine,Bases,0.54,0.54
+KRILL,,Seafood,"3-ethyl-2,5-dimethylpyrazine",Bases,0.004,0.004
+KRILL,,Seafood,"2-ethyl-3,5-dimethylpyrazine",Bases,0.026,0.026
+KRILL,,Seafood,"3,5-diethyl-2-methylpyrazine",Bases,,
+KRILL,,Seafood,tetramethylpyrazine,Bases,0.075,0.075
+KRILL,,Seafood,methoxypyrazine,Bases,,
+KRILL,,Seafood,2-methoxy-3-methylpyrazine,Bases,,
+KRILL,,Seafood,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+KRILL,,Seafood,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+KRILL,,Seafood,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,,
+KRILL,,Seafood,3-(methylthio)propanal (=methional),Sulfur compounds,,
+KRILL,,Seafood,3-(methylthio)butanal,Sulfur compounds,0.017,0.017
+KRILL,,Seafood,S-propyl acetothioate,Sulfur compounds,,
+KRILL,,Seafood,2-thiophenecarbaldehyde (=2-formylthiophene),Sulfur compounds,0.014,0.014
+KRILL,,Seafood,5-methyl-2-thiophenecarbaldehyde,Sulfur compounds,0.007,0.007
+KRILL,,Seafood,2-acetylthiophene,Sulfur compounds,0.01,0.01
+KRILL,,Seafood,2-acetyl-5-methylthiophene,Sulfur compounds,0.02,0.02
+KRILL,,Seafood,"2,6-dimethyl-1,3-dithiin",Sulfur compounds,,
+KRILL,,Seafood,"6-ethyl-2-methyl-1,3(4H)-dithiin",Sulfur compounds,,
+KRILL,,Seafood,"2,6-dimethyldithiin (unkn.str.)",Sulfur compounds,,
+KRILL,,Seafood,"cis-3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,,
+KRILL,,Seafood,"trans-3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,,
+KRILL,,Seafood,"cis-3,5-diethyl-1,2,4-trithiolane",Sulfur compounds,,
+KRILL,,Seafood,"trans-3,5-diethyl-1,2,4-trithiolane",Sulfur compounds,,
+KRILL,,Seafood,"cis-3-ethyl-5-methyl-1,2,4-trithiolane",Sulfur compounds,,
+KRILL,,Seafood,"trans-3-ethyl-5-methyl-1,2,4-trithiolane",Sulfur compounds,,
+KRILL,,Seafood,thiazole,Sulfur compounds,,
+KRILL,,Seafood,"2,4-dimethylthiazole",Sulfur compounds,0.002,0.002
+KRILL,,Seafood,"4,5-dimethylthiazole",Sulfur compounds,0.002,0.002
+KRILL,,Seafood,"2,4,5-trimethylthiazole",Sulfur compounds,0.13,0.13
+KRILL,,Seafood,"2-ethyl-4,5-dimethylthiazole",Sulfur compounds,0.024,0.024
+KRILL,,Seafood,"2-isopropyl-4,5-dimethylthiazole",Sulfur compounds,0.002,0.002
+KRILL,,Seafood,2-acetylthiazole,Sulfur compounds,0.007,0.007
+KRILL,,Seafood,"dihydro-2,4,6-trimethyl-1,3,5(4H)-dithiazine (=thialdine)",Sulfur compounds,0.35,0.35
+KRILL,,Seafood,"4-ethyldihydro-2,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,0.035,0.035
+KRILL,,Seafood,"2-ethyldihydro-4,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,0.02,0.02
+KRILL,,Seafood,phenol (=hydroxybenzene),Phenols,,
+KRILL,,Seafood,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+KRILL,,Seafood,dioxane (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,heptane,Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,octane,Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,octane (branched),Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,ethylcyclohexane,Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,dimethylcyclohexane (unkn.str.),Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,γ-cadinene,Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,δ-cadinene,Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,valencene,Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,guaiene (unkn.str.),Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,α-copaene (=copaene),Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,methylbenzene (=toluene),Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,methylbutenol (unkn.str.),Alcohols,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,pentenol (unkn.str.),Alcohols,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,1-hexanol,Alcohols,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,α-terpineol,Alcohols,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,hexanal (branched),"Carbonyls, aldehydes",,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,hexenal (unkn.str.),"Carbonyls, aldehydes",,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,benzaldehyde,"Carbonyls, aldehydes",,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,hexyl acetate,Esters,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,(Z)-3-hexenyl acetate,Esters,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,pyridine,Bases,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,dichloromethane (=methylene chloride),Halogens,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,5-methylfurfural,Furans,,
+MANGOSTEEN (Garcinia mangostana L.),,Fruits,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,dodecane,Hydrocarbons,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,benzene,Hydrocarbons,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,methylbenzene (=toluene),Hydrocarbons,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,vinylbenzene (=styrene),Hydrocarbons,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,isopropylbenzene (=cumene),Hydrocarbons,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,naphthalene,Hydrocarbons,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,methylnaphthalene (unkn.str.),Hydrocarbons,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,methanol,Alcohols,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,ethanol,Alcohols,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,1-propanol (=propyl alcohol),Alcohols,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,2-propanol (=isopropyl alcohol),Alcohols,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,2-methyl-1-propanol (=isobutanol),Alcohols,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,2-methyl-2-propanol (=tert-butanol),Alcohols,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,1-butanol,Alcohols,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,2-butanol (=sec-butanol),Alcohols,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,1-pentanol (=amyl alcohol),Alcohols,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,1-hexanol,Alcohols,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,methylbutanal (unkn.str.),"Carbonyls, aldehydes",,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,benzaldehyde,"Carbonyls, aldehydes",,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,2-pentanone,"Carbonyls, ketones",,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,methyl acetate,Esters,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,carbon disulfide,Sulfur compounds,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,diethyl ether,Ethers,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,trichloromethane (=chloroform),Halogens,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,dichlorobenzene (unkn.str.),Halogens,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,trichlorobenzene (unkn.str.),Halogens,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,"acetonitrile (=ethanenitrile, methyl cyanide)",Nitriles and amides,,
+SOUTHERNPEA (Vinga unguiculata L.),,Vegetables,2-pentylfuran,Furans,,

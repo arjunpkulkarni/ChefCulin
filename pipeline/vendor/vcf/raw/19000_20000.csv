@@ -1,0 +1,1586 @@
+Product,Product Category,Product Group,Compound,Compound Group,Quantity Lower Bound,Quantity Upper Bound
+,SALVIA SPECIES,Spices & Condiments,2-methyl-1-butene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,3-methyl-1-butene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,"2-methyl-1,3-butadiene (=isoprene)",Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,hexane,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,(E)-6-methyl-5-methylene-2-heptene (=E-salvene),Hydrocarbons,<400,6400
+,SALVIA SPECIES,Spices & Condiments,(Z)-6-methyl-5-methylene-2-heptene (=Z-salvene),Hydrocarbons,0,7500
+,SALVIA SPECIES,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,trace,8000
+,SALVIA SPECIES,Spices & Condiments,(E)-β-ocimene,Hydrocarbons,1000,13600
+,SALVIA SPECIES,Spices & Condiments,allo-ocimene,Hydrocarbons,trace,trace
+,SALVIA SPECIES,Spices & Condiments,"(4Z,6Z)-allo-ocimene (=(Z,Z)-alloocimene)",Hydrocarbons,trace,1000
+,SALVIA SPECIES,Spices & Condiments,"(4E,6E)-allo-ocimene (= (E,E-alloocimene)",Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,trace,32000
+,SALVIA SPECIES,Spices & Condiments,"(E,E)-α-farnesene (=α-farnesene)",Hydrocarbons,1000,1000
+,SALVIA SPECIES,Spices & Condiments,(E)-β-farnesene,Hydrocarbons,trace,trace
+,SALVIA SPECIES,Spices & Condiments,α-phellandrene,Hydrocarbons,trace,1000
+,SALVIA SPECIES,Spices & Condiments,β-phellandrene,Hydrocarbons,1000,1000
+,SALVIA SPECIES,Spices & Condiments,α-terpinene,Hydrocarbons,trace,3800
+,SALVIA SPECIES,Spices & Condiments,γ-terpinene,Hydrocarbons,trace,12000
+,SALVIA SPECIES,Spices & Condiments,terpinolene,Hydrocarbons,trace,9800
+,SALVIA SPECIES,Spices & Condiments,limonene,Hydrocarbons,trace,75700
+,SALVIA SPECIES,Spices & Condiments,β-elemene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,α-curcumene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,germacrene B,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,germacrene D,Hydrocarbons,<3500,483900
+,SALVIA SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,trace,189500
+,SALVIA SPECIES,Spices & Condiments,(Z)-α-humulene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,trace,86000
+,SALVIA SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,trace,178900
+,SALVIA SPECIES,Spices & Condiments,camphene,Hydrocarbons,trace,102900
+,SALVIA SPECIES,Spices & Condiments,α-thujene,Hydrocarbons,400,5000
+,SALVIA SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,trace,13000
+,SALVIA SPECIES,Spices & Condiments,trans-sabinene,Hydrocarbons,trace,1000
+,SALVIA SPECIES,Spices & Condiments,cis-α-bergamotene,Hydrocarbons,1000,5000
+,SALVIA SPECIES,Spices & Condiments,trans-α-bergamotene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,γ-cadinene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,δ-cadinene,Hydrocarbons,0,19400
+,SALVIA SPECIES,Spices & Condiments,γ-muurolene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,muurolene (unkn.str.),Hydrocarbons,0,15100
+,SALVIA SPECIES,Spices & Condiments,δ-selinene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,bicyclogermacrene,Hydrocarbons,55100,55100
+,SALVIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,<400,110100
+,SALVIA SPECIES,Spices & Condiments,γ-caryophyllene (=isocaryophyllene),Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,α-cubebene,Hydrocarbons,trace,trace
+,SALVIA SPECIES,Spices & Condiments,β-cubebene,Hydrocarbons,0,2300
+,SALVIA SPECIES,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,trace,30100
+,SALVIA SPECIES,Spices & Condiments,β-copaene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,α-ylangene (=ylangene),Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,α-maaliene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,β-bourbonene,Hydrocarbons,trace,4000
+,SALVIA SPECIES,Spices & Condiments,β-epibourbonene,Hydrocarbons,trace,trace
+,SALVIA SPECIES,Spices & Condiments,aromadendrene,Hydrocarbons,<3500,113000
+,SALVIA SPECIES,Spices & Condiments,alloaromadendrene,Hydrocarbons,0,9100
+,SALVIA SPECIES,Spices & Condiments,α-gurjunene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,tricyclene,Hydrocarbons,0,7700
+,SALVIA SPECIES,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,trace,19000
+,SALVIA SPECIES,Spices & Condiments,"1-isopropenyl-4-methylbenzene (=α,p-dimethyl styrene, p-cymenene, dehydro-p-cymene)",Hydrocarbons,3000,3000
+,SALVIA SPECIES,Spices & Condiments,biphenyl,Hydrocarbons,<3500,5000
+,SALVIA SPECIES,Spices & Condiments,calamenene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,trans-calamenene,Hydrocarbons,,
+,SALVIA SPECIES,Spices & Condiments,naphthalene,Hydrocarbons,<3500,9000
+,SALVIA SPECIES,Spices & Condiments,fluorene,Hydrocarbons,<3500,24000
+,SALVIA SPECIES,Spices & Condiments,acenaphthene,Hydrocarbons,15000,182000
+,SALVIA SPECIES,Spices & Condiments,phenanthrene,Hydrocarbons,<3500,17000
+,SALVIA SPECIES,Spices & Condiments,methanol,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,ethanol,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,2-propanol (=isopropyl alcohol),Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,2-methyl-1-propanol (=isobutanol),Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,2-butanol (=sec-butanol),Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,2-methyl-3-buten-2-ol,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,1-hexanol,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,(E)-2-hexen-1-ol,Alcohols,trace,1900
+,SALVIA SPECIES,Spices & Condiments,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,trace,69000
+,SALVIA SPECIES,Spices & Condiments,1-octanol,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,1-octen-3-ol,Alcohols,trace,6900
+,SALVIA SPECIES,Spices & Condiments,"2,6-dimethyl-1,5,7-octatrien-3-ol",Alcohols,<100,<100
+,SALVIA SPECIES,Spices & Condiments,"(Z)-2,6-dimethyl-1,5,7-octatrien-3-ol",Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,"3,7-dimethyl-1,5,7-octatrien-3-ol (=hotrienol)",Alcohols,trace,100
+,SALVIA SPECIES,Spices & Condiments,"2,6-dimethyl-1,7-octadiene-3,6-diol",Alcohols,1000,1000
+,SALVIA SPECIES,Spices & Condiments,"(Z)-2,6-dimethyl-3,7-octadiene-2,6-diol",Alcohols,<100,<100
+,SALVIA SPECIES,Spices & Condiments,"(E)-2,6-dimethyl-3,7-octadiene-2,6-diol",Alcohols,trace,4800
+,SALVIA SPECIES,Spices & Condiments,1-nonanol,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,geraniol,Alcohols,trace,49300
+,SALVIA SPECIES,Spices & Condiments,nerol,Alcohols,trace,16700
+,SALVIA SPECIES,Spices & Condiments,linalool,Alcohols,<400,286300
+,SALVIA SPECIES,Spices & Condiments,"(Z)-2,6-dimethyl-2,7-octadien-1,6-diol (=(Z)-8-hydroxylinalool)",Alcohols,<100,<100
+,SALVIA SPECIES,Spices & Condiments,"(E)-2,6-dimethyl-2,7-octadien-1,6-diol (=(E)-8-hydroxylinalool)",Alcohols,<100,<100
+,SALVIA SPECIES,Spices & Condiments,(E)-nerolidol,Alcohols,<3500,8000
+,SALVIA SPECIES,Spices & Condiments,benzyl alcohol (=benzenemethanol),Alcohols,<3500,6000
+,SALVIA SPECIES,Spices & Condiments,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,trace,1300
+,SALVIA SPECIES,Spices & Condiments,manool,Alcohols,trace,51900
+,SALVIA SPECIES,Spices & Condiments,α-terpineol,Alcohols,trace,78500
+,SALVIA SPECIES,Spices & Condiments,δ-terpineol,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,trace,10000
+,SALVIA SPECIES,Spices & Condiments,terpineol (unkn.str.),Alcohols,30000,30000
+,SALVIA SPECIES,Spices & Condiments,"trans-carveol (=trans-p-1(6),8-menthadien-2-ol)",Alcohols,<100,<100
+,SALVIA SPECIES,Spices & Condiments,carveol I,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,"trans-p-menthane-1,8-diol (=trans-terpin)",Alcohols,trace,trace
+,SALVIA SPECIES,Spices & Condiments,α-bisabolol,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,elemol,Alcohols,trace,trace
+,SALVIA SPECIES,Spices & Condiments,borneol,Alcohols,trace,62400
+,SALVIA SPECIES,Spices & Condiments,isoborneol,Alcohols,0,1000
+,SALVIA SPECIES,Spices & Condiments,sabinol (=4(10)-thujenol),Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,trans-sabinol (=trans-4(10)-thujenol),Alcohols,<1000,<1000
+,SALVIA SPECIES,Spices & Condiments,cis-sabinene hydrate (=cis-4-thujanol),Alcohols,<1000,<1000
+,SALVIA SPECIES,Spices & Condiments,trans-sabinene hydrate (=trans-4-thujanol),Alcohols,2000,5000
+,SALVIA SPECIES,Spices & Condiments,α-cadinol,Alcohols,<3500,27000
+,SALVIA SPECIES,Spices & Condiments,δ-cadinol (=torreyol),Alcohols,5100,5100
+,SALVIA SPECIES,Spices & Condiments,cadinol-T,Alcohols,2300,38000
+,SALVIA SPECIES,Spices & Condiments,junenol,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,α-eudesmol,Alcohols,trace,3300
+,SALVIA SPECIES,Spices & Condiments,β-eudesmol,Alcohols,trace,8900
+,SALVIA SPECIES,Spices & Condiments,10-γ-epi-eudesmol,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,sclareol,Alcohols,1000,31000
+,SALVIA SPECIES,Spices & Condiments,"2(12),6-caryophylladien-5β-ol",Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,"2(12),6(13)-caryophylladien-5-ol",Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,viridiflorol,Alcohols,trace,99100
+,SALVIA SPECIES,Spices & Condiments,globulol,Alcohols,113000,650000
+,SALVIA SPECIES,Spices & Condiments,spathulenol (=(+)-spathulenol),Alcohols,trace,17100
+,SALVIA SPECIES,Spices & Condiments,isospathulenol,Alcohols,,
+,SALVIA SPECIES,Spices & Condiments,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,2-methyl-2-propenal (=methacrolein),"Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,hexanal (=capronaldehyde),"Carbonyls, aldehydes",trace,700
+,SALVIA SPECIES,Spices & Condiments,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",trace,110000
+,SALVIA SPECIES,Spices & Condiments,(E)-3-hexenal,"Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,"(E,Z)-2,4-decadienal","Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,undecanal,"Carbonyls, aldehydes",<3500,<3500
+,SALVIA SPECIES,Spices & Condiments,geranial (=α-citral),"Carbonyls, aldehydes",2100,2100
+,SALVIA SPECIES,Spices & Condiments,neral (=β-citral),"Carbonyls, aldehydes",1600,1600
+,SALVIA SPECIES,Spices & Condiments,benzaldehyde,"Carbonyls, aldehydes",<3500,7000
+,SALVIA SPECIES,Spices & Condiments,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",0,11000
+,SALVIA SPECIES,Spices & Condiments,3-(4-methylphenyl)butanal,"Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,4-(4-methylphenyl)pentanal,"Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,(2R)-trans-5-caryophyllen-12-al,"Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,(2S)-trans-5-caryophyllen-12-al,"Carbonyls, aldehydes",,
+,SALVIA SPECIES,Spices & Condiments,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,3-buten-2-one,"Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,3-pentanone,"Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,4-methyl-2-pentanone,"Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,2-hexanone,"Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,3-octanone,"Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,"6-acetoxy-6-methyl-3,7-octadien-2-one","Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",<3500,21000
+,SALVIA SPECIES,Spices & Condiments,"6,10,14-trimethyl-2-pentadecanone (=hexahydrofarnesylacetone)","Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,(E)-β-ionone,"Carbonyls, ketones",trace,36000
+,SALVIA SPECIES,Spices & Condiments,"carvone (=p-6,8-menthadien-2-one)","Carbonyls, ketones",<3500,14000
+,SALVIA SPECIES,Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",6800,301100
+,SALVIA SPECIES,Spices & Condiments,fenchone,"Carbonyls, ketones",1000,1000
+,SALVIA SPECIES,Spices & Condiments,thujone (=α-thujone),"Carbonyls, ketones",13000,442500
+,SALVIA SPECIES,Spices & Condiments,isothujone (=β-thujone),"Carbonyls, ketones",trace,367700
+,SALVIA SPECIES,Spices & Condiments,trans-12-norcaryophyll-5-en-2-one,"Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,4(14)-salvialen-1-one,"Carbonyls, ketones",,
+,SALVIA SPECIES,Spices & Condiments,"(E)-6-hydroxy-2,6-dimethyl-2,7-octadienoic acid",Acids,,
+,SALVIA SPECIES,Spices & Condiments,ethyl formate,Esters,,
+,SALVIA SPECIES,Spices & Condiments,methyl acetate,Esters,,
+,SALVIA SPECIES,Spices & Condiments,ethyl acetate,Esters,,
+,SALVIA SPECIES,Spices & Condiments,hexyl acetate,Esters,,
+,SALVIA SPECIES,Spices & Condiments,(Z)-3-hexenyl acetate,Esters,,
+,SALVIA SPECIES,Spices & Condiments,"6,7-epoxy-3,7-dimethyl-2-octen-1-ol, acetate",Esters,,
+,SALVIA SPECIES,Spices & Condiments,"6,7-epoxy-3,7-dimethyl-1-octen-3-ol, acetate",Esters,trace,23700
+,SALVIA SPECIES,Spices & Condiments,"(Z)-3,7-dimethyl-2,7-octadiene-1,6-diol, 1-acetate",Esters,<100,<100
+,SALVIA SPECIES,Spices & Condiments,"(E)-3,7-dimethyl-2,7-octadiene-1,6-diol, 1-acetate",Esters,<100,<100
+,SALVIA SPECIES,Spices & Condiments,"(E)-3,7-dimethyl-1,5-octadiene-3,7-diol, 3-acetate",Esters,,
+,SALVIA SPECIES,Spices & Condiments,"2,6-dimethyl-1,7-octadiene-3,6-diol, 6-acetate",Esters,2500,2500
+,SALVIA SPECIES,Spices & Condiments,"2,6-dimethyl-3,7-octadiene-2,6-diol, 6-acetate",Esters,24500,24500
+,SALVIA SPECIES,Spices & Condiments,"(E)-2,6-dimethyl-3,7-octadiene-2,6-diol, 6-acetate",Esters,,
+,SALVIA SPECIES,Spices & Condiments,"2,6-dimethyl-1,7-octadiene-3,6-diol, 2,6-diacetate",Esters,,
+,SALVIA SPECIES,Spices & Condiments,geranyl acetate,Esters,trace,48300
+,SALVIA SPECIES,Spices & Condiments,neryl acetate,Esters,trace,23100
+,SALVIA SPECIES,Spices & Condiments,linalyl acetate,Esters,trace,776000
+,SALVIA SPECIES,Spices & Condiments,(R)-(-)-linalyl acetate,Esters,,
+,SALVIA SPECIES,Spices & Condiments,α-terpinyl acetate,Esters,trace,112000
+,SALVIA SPECIES,Spices & Condiments,terpinyl acetate (unkn.str.),Esters,0,2000
+,SALVIA SPECIES,Spices & Condiments,bornyl acetate,Esters,trace,57100
+,SALVIA SPECIES,Spices & Condiments,sabinyl acetate,Esters,36000,36000
+,SALVIA SPECIES,Spices & Condiments,geranyl propanoate,Esters,4200,4200
+,SALVIA SPECIES,Spices & Condiments,geranyl 2-methylpropanoate (=geranyl isobutyrate),Esters,,
+,SALVIA SPECIES,Spices & Condiments,methyl 3-methylbutanoate (=methyl isovalerate),Esters,,
+,SALVIA SPECIES,Spices & Condiments,(Z)-3-hexenyl 3-methylbutanoate,Esters,,
+,SALVIA SPECIES,Spices & Condiments,linalyl 3-methylbutanoate,Esters,,
+,SALVIA SPECIES,Spices & Condiments,ethyl hexadecanoate (=ethyl palmitate),Esters,,
+,SALVIA SPECIES,Spices & Condiments,ethyl octadecanoate (=ethyl stearate),Esters,,
+,SALVIA SPECIES,Spices & Condiments,methyl 2-hydroxybenzoate (=methyl salicylate),Esters,<3500,12000
+,SALVIA SPECIES,Spices & Condiments,4-hydroxy-4-methyl-5-hexenoic acid lactone (=lavender lactone),Lactones,<100,<100
+,SALVIA SPECIES,Spices & Condiments,indole,Bases,,
+,SALVIA SPECIES,Spices & Condiments,mintsulfide,Sulfur compounds,trace,400
+,SALVIA SPECIES,Spices & Condiments,"1,1,3-triethoxypropane",Acetals,,
+,SALVIA SPECIES,Spices & Condiments,"1,1-dimethoxy-2-methylbutane",Acetals,,
+,SALVIA SPECIES,Spices & Condiments,"1,1-dimethoxy-3-methylbutane",Acetals,,
+,SALVIA SPECIES,Spices & Condiments,hexyl methyl ether,Ethers,,
+,SALVIA SPECIES,Spices & Condiments,ethyl linalyl ether,Ethers,,
+,SALVIA SPECIES,Spices & Condiments,ethyl α-terpinyl ether,Ethers,,
+,SALVIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,1000,211000
+,SALVIA SPECIES,Spices & Condiments,phenol (=hydroxybenzene),Phenols,,
+,SALVIA SPECIES,Spices & Condiments,thymol (=2-isopropyl-5-methylphenol),Phenols,,
+,SALVIA SPECIES,Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,,
+,SALVIA SPECIES,Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,4000,4000
+,SALVIA SPECIES,Spices & Condiments,"1-isopropyl-2,5-dimethoxy-4-methylbenzene (=2,5-dimethoxy-p-cymene)",Phenols,<3500,294000
+,SALVIA SPECIES,Spices & Condiments,2-methoxy-4-vinylphenol (=4-vinylguaiacol),Phenols,<3500,17000
+,SALVIA SPECIES,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,trace,trace
+,SALVIA SPECIES,Spices & Condiments,anhydrolinalool oxide (5),Furans,,
+,SALVIA SPECIES,Spices & Condiments,(E)-anhydrolinalool oxide (5),Furans,trace,1800
+,SALVIA SPECIES,Spices & Condiments,(Z)-anhydrolinalool oxide (5),Furans,trace,200
+,SALVIA SPECIES,Spices & Condiments,"linalool oxide B (cis, 5-ring)",Furans,trace,5900
+,SALVIA SPECIES,Spices & Condiments,"linalool oxide A (trans, 5-ring)",Furans,trace,7200
+,SALVIA SPECIES,Spices & Condiments,"cis-linalool oxide (5), acetate",Furans,<100,<100
+,SALVIA SPECIES,Spices & Condiments,"trans-linalool oxide (5), acetate",Furans,<100,<100
+,SALVIA SPECIES,Spices & Condiments,2-methylfuran,Furans,,
+,SALVIA SPECIES,Spices & Condiments,3-methylfuran,Furans,,
+,SALVIA SPECIES,Spices & Condiments,2-ethylfuran,Furans,,
+,SALVIA SPECIES,Spices & Condiments,2-pentylfuran,Furans,,
+,SALVIA SPECIES,Spices & Condiments,pentylfuran (unkn.str.),Furans,0,11000
+,SALVIA SPECIES,Spices & Condiments,3-methyl-2-[3-(4-methylphenyl)-butyl]-furan,Furans,,
+,SALVIA SPECIES,Spices & Condiments,dihydro-α-agarofuran,Furans,,
+,SALVIA SPECIES,Spices & Condiments,(Z)-ocimene oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",<100,<100
+,SALVIA SPECIES,Spices & Condiments,(E)-ocimene oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",<100,<100
+,SALVIA SPECIES,Spices & Condiments,humulene epoxide II,"(Ep)oxides, pyrans, coumarins",trace,trace
+,SALVIA SPECIES,Spices & Condiments,"(2R)-trans-5-caryophyllene 2,12-oxide","(Ep)oxides, pyrans, coumarins",,
+,SALVIA SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",trace,29000
+,SALVIA SPECIES,Spices & Condiments,isocaryophyllene oxide,"(Ep)oxides, pyrans, coumarins",,
+,SALVIA SPECIES,Spices & Condiments,"caryophyllene 2,12:5,6-dioxide","(Ep)oxides, pyrans, coumarins",,
+,SALVIA SPECIES,Spices & Condiments,"4(14)-salvialene 1,5-oxide","(Ep)oxides, pyrans, coumarins",,
+,SALVIA SPECIES,Spices & Condiments,sclareol oxide,"(Ep)oxides, pyrans, coumarins",700,5300
+,SALVIA SPECIES,Spices & Condiments,nerol oxide,"(Ep)oxides, pyrans, coumarins",trace,trace
+,SALVIA SPECIES,Spices & Condiments,"anhydrolinalool oxide (6) (=2,2,6-trimethyl-6-vinyl-tetrahydropyran)","(Ep)oxides, pyrans, coumarins",,
+,SALVIA SPECIES,Spices & Condiments,"linalool oxide D (cis, 6-ring)","(Ep)oxides, pyrans, coumarins",<100,<100
+,SALVIA SPECIES,Spices & Condiments,"linalool oxide C (trans, 6-ring)","(Ep)oxides, pyrans, coumarins",<100,<100
+,SALVIA SPECIES,Spices & Condiments,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",4000,20000
+,SALVIA SPECIES,Spices & Condiments,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",3700,13000
+,SALVIA SPECIES,Spices & Condiments,coumarin (=2H-1-benzopyran-2-one),"(Ep)oxides, pyrans, coumarins",,
+,SALVIA SPECIES,Spices & Condiments,manoyl oxide,"(Ep)oxides, pyrans, coumarins",,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,hexane,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,(E)-6-methyl-5-methylene-2-heptene (=E-salvene),Hydrocarbons,<400,6400
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,(Z)-6-methyl-5-methylene-2-heptene (=Z-salvene),Hydrocarbons,0,7500
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,700,700
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,(E)-β-ocimene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,"(4E,6E)-allo-ocimene (= (E,E-alloocimene)",Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,<400,30800
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,α-phellandrene,Hydrocarbons,600,1000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,β-phellandrene,Hydrocarbons,1000,1000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,α-terpinene,Hydrocarbons,0,3800
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,γ-terpinene,Hydrocarbons,1400,10300
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,terpinolene,Hydrocarbons,600,9800
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,limonene,Hydrocarbons,<400,75700
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,<400,189500
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,(Z)-α-humulene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,2700,71700
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,2300,178900
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,camphene,Hydrocarbons,11400,102900
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,α-thujene,Hydrocarbons,400,5000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,0,7400
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,γ-cadinene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,δ-cadinene,Hydrocarbons,0,19400
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,γ-muurolene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,muurolene (unkn.str.),Hydrocarbons,0,15100
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,δ-selinene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,<400,94400
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,γ-caryophyllene (=isocaryophyllene),Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,α-cubebene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,β-cubebene,Hydrocarbons,0,2300
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,0,4500
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,β-copaene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,α-maaliene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,β-bourbonene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,aromadendrene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,alloaromadendrene,Hydrocarbons,0,9100
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,α-gurjunene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,tricyclene,Hydrocarbons,0,7700
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,1000,11200
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,"1-isopropenyl-4-methylbenzene (=α,p-dimethyl styrene, p-cymenene, dehydro-p-cymene)",Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,calamenene,Hydrocarbons,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,1-octen-3-ol,Alcohols,0,6900
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,linalool,Alcohols,<400,18000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,500,1300
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,manool,Alcohols,trace,51900
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,α-terpineol,Alcohols,1000,1000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,δ-terpineol,Alcohols,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,trace,10000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,terpineol (unkn.str.),Alcohols,30000,30000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,carveol I,Alcohols,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,borneol,Alcohols,6900,62400
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,isoborneol,Alcohols,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,sabinol (=4(10)-thujenol),Alcohols,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,trans-sabinol (=trans-4(10)-thujenol),Alcohols,<1000,<1000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,cis-sabinene hydrate (=cis-4-thujanol),Alcohols,<1000,<1000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,trans-sabinene hydrate (=trans-4-thujanol),Alcohols,2000,2000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,viridiflorol,Alcohols,trace,99100
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,(E)-3-hexenal,"Carbonyls, aldehydes",,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,"carvone (=p-6,8-menthadien-2-one)","Carbonyls, ketones",6000,6000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",19400,277000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,fenchone,"Carbonyls, ketones",1000,1000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,thujone (=α-thujone),"Carbonyls, ketones",15500,442500
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,isothujone (=β-thujone),"Carbonyls, ketones",10200,367700
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,linalyl acetate,Esters,trace,6000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,α-terpinyl acetate,Esters,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,bornyl acetate,Esters,1000,57100
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,sabinyl acetate,Esters,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,methyl 3-methylbutanoate (=methyl isovalerate),Esters,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,(Z)-3-hexenyl 3-methylbutanoate,Esters,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,7400,208700
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,thymol (=2-isopropyl-5-methylphenol),Phenols,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,4000,4000
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,humulene epoxide II,"(Ep)oxides, pyrans, coumarins",,
+SAGE (Salvia officinalis L.),SALVIA SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",trace,21700
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-methyl-1-butene,Hydrocarbons,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,3-methyl-1-butene,Hydrocarbons,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"2-methyl-1,3-butadiene (=isoprene)",Hydrocarbons,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,trace,8000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(E)-β-ocimene,Hydrocarbons,1000,13600
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,allo-ocimene,Hydrocarbons,trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(4Z,6Z)-allo-ocimene (=(Z,Z)-alloocimene)",Hydrocarbons,trace,500
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,trace,17100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(E,E)-α-farnesene (=α-farnesene)",Hydrocarbons,1000,1000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(E)-β-farnesene,Hydrocarbons,trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-phellandrene,Hydrocarbons,trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,β-phellandrene,Hydrocarbons,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-terpinene,Hydrocarbons,trace,200
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,γ-terpinene,Hydrocarbons,trace,12000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,terpinolene,Hydrocarbons,trace,3700
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,limonene,Hydrocarbons,trace,7700
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-curcumene,Hydrocarbons,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,germacrene D,Hydrocarbons,7000,483900
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,trace,4000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,trace,3000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,trace,3000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,camphene,Hydrocarbons,trace,1000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,trace,1000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,trans-sabinene,Hydrocarbons,trace,1000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,cis-α-bergamotene,Hydrocarbons,1000,5000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,δ-cadinene,Hydrocarbons,1200,6600
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,bicyclogermacrene,Hydrocarbons,55100,55100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,8600,110100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,γ-caryophyllene (=isocaryophyllene),Hydrocarbons,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-cubebene,Hydrocarbons,trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,1000,30100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,β-bourbonene,Hydrocarbons,trace,4000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,β-epibourbonene,Hydrocarbons,trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,trace,1500
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,trans-calamenene,Hydrocarbons,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,methanol,Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,ethanol,Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-propanol (=isopropyl alcohol),Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-methyl-1-propanol (=isobutanol),Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-butanol (=sec-butanol),Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-methyl-3-buten-2-ol,Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,1-hexanol,Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(E)-2-hexen-1-ol,Alcohols,trace,1900
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,trace,2900
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,1-octanol,Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,1-octen-3-ol,Alcohols,trace,300
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"2,6-dimethyl-1,5,7-octatrien-3-ol",Alcohols,<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(Z)-2,6-dimethyl-1,5,7-octatrien-3-ol",Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"3,7-dimethyl-1,5,7-octatrien-3-ol (=hotrienol)",Alcohols,trace,100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"2,6-dimethyl-1,7-octadiene-3,6-diol",Alcohols,1000,1000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(Z)-2,6-dimethyl-3,7-octadiene-2,6-diol",Alcohols,<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(E)-2,6-dimethyl-3,7-octadiene-2,6-diol",Alcohols,trace,4800
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,1-nonanol,Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,geraniol,Alcohols,trace,49300
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,nerol,Alcohols,trace,16700
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,linalool,Alcohols,1100,286300
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(Z)-2,6-dimethyl-2,7-octadien-1,6-diol (=(Z)-8-hydroxylinalool)",Alcohols,<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(E)-2,6-dimethyl-2,7-octadien-1,6-diol (=(E)-8-hydroxylinalool)",Alcohols,<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,benzyl alcohol (=benzenemethanol),Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,trace,900
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-terpineol,Alcohols,trace,78500
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,trace,3000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"trans-carveol (=trans-p-1(6),8-menthadien-2-ol)",Alcohols,<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"trans-p-menthane-1,8-diol (=trans-terpin)",Alcohols,trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-bisabolol,Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,elemol,Alcohols,trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,borneol,Alcohols,trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,isoborneol,Alcohols,0,1000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-cadinol,Alcohols,14300,14300
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,δ-cadinol (=torreyol),Alcohols,5100,5100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,cadinol-T,Alcohols,2300,2300
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,junenol,Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-eudesmol,Alcohols,trace,3300
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,β-eudesmol,Alcohols,trace,8900
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,10-γ-epi-eudesmol,Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,sclareol,Alcohols,1000,31000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"2(12),6-caryophylladien-5β-ol",Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"2(12),6(13)-caryophylladien-5-ol",Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,spathulenol (=(+)-spathulenol),Alcohols,trace,17100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,isospathulenol,Alcohols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-methyl-2-propenal (=methacrolein),"Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,hexanal (=capronaldehyde),"Carbonyls, aldehydes",trace,700
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(E,Z)-2,4-decadienal","Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,geranial (=α-citral),"Carbonyls, aldehydes",2100,2100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,neral (=β-citral),"Carbonyls, aldehydes",1600,1600
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,benzaldehyde,"Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,3-(4-methylphenyl)butanal,"Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,4-(4-methylphenyl)pentanal,"Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(2R)-trans-5-caryophyllen-12-al,"Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(2S)-trans-5-caryophyllen-12-al,"Carbonyls, aldehydes",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,3-buten-2-one,"Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,3-pentanone,"Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,4-methyl-2-pentanone,"Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-hexanone,"Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,3-octanone,"Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"6-acetoxy-6-methyl-3,7-octadien-2-one","Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"6,10,14-trimethyl-2-pentadecanone (=hexahydrofarnesylacetone)","Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(E)-β-ionone,"Carbonyls, ketones",trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",6800,6800
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,trans-12-norcaryophyll-5-en-2-one,"Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,4(14)-salvialen-1-one,"Carbonyls, ketones",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(E)-6-hydroxy-2,6-dimethyl-2,7-octadienoic acid",Acids,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,ethyl formate,Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,methyl acetate,Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,ethyl acetate,Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,hexyl acetate,Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(Z)-3-hexenyl acetate,Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"6,7-epoxy-3,7-dimethyl-2-octen-1-ol, acetate",Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"6,7-epoxy-3,7-dimethyl-1-octen-3-ol, acetate",Esters,trace,23700
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(Z)-3,7-dimethyl-2,7-octadiene-1,6-diol, 1-acetate",Esters,<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(E)-3,7-dimethyl-2,7-octadiene-1,6-diol, 1-acetate",Esters,<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(E)-3,7-dimethyl-1,5-octadiene-3,7-diol, 3-acetate",Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"2,6-dimethyl-1,7-octadiene-3,6-diol, 6-acetate",Esters,2500,2500
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"2,6-dimethyl-3,7-octadiene-2,6-diol, 6-acetate",Esters,24500,24500
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(E)-2,6-dimethyl-3,7-octadiene-2,6-diol, 6-acetate",Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"2,6-dimethyl-1,7-octadiene-3,6-diol, 2,6-diacetate",Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,geranyl acetate,Esters,trace,48300
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,neryl acetate,Esters,trace,23100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,linalyl acetate,Esters,1900,776000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(R)-(-)-linalyl acetate,Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,α-terpinyl acetate,Esters,trace,3700
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,terpinyl acetate (unkn.str.),Esters,0,2000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,bornyl acetate,Esters,trace,11000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,ethyl hexadecanoate (=ethyl palmitate),Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,ethyl octadecanoate (=ethyl stearate),Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,methyl 2-hydroxybenzoate (=methyl salicylate),Esters,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,4-hydroxy-4-methyl-5-hexenoic acid lactone (=lavender lactone),Lactones,<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,indole,Bases,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,mintsulfide,Sulfur compounds,trace,400
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"1,1,3-triethoxypropane",Acetals,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"1,1-dimethoxy-2-methylbutane",Acetals,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"1,1-dimethoxy-3-methylbutane",Acetals,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,hexyl methyl ether,Ethers,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,ethyl linalyl ether,Ethers,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,ethyl α-terpinyl ether,Ethers,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,1000,13000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,phenol (=hydroxybenzene),Phenols,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,anhydrolinalool oxide (5),Furans,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(E)-anhydrolinalool oxide (5),Furans,trace,1800
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(Z)-anhydrolinalool oxide (5),Furans,trace,200
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"linalool oxide B (cis, 5-ring)",Furans,trace,5900
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"linalool oxide A (trans, 5-ring)",Furans,trace,7200
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"cis-linalool oxide (5), acetate",Furans,<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"trans-linalool oxide (5), acetate",Furans,<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-methylfuran,Furans,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,3-methylfuran,Furans,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-ethylfuran,Furans,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,2-pentylfuran,Furans,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,3-methyl-2-[3-(4-methylphenyl)-butyl]-furan,Furans,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,dihydro-α-agarofuran,Furans,,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(Z)-ocimene oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,(E)-ocimene oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,humulene epoxide II,"(Ep)oxides, pyrans, coumarins",trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"(2R)-trans-5-caryophyllene 2,12-oxide","(Ep)oxides, pyrans, coumarins",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",1600,22000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,isocaryophyllene oxide,"(Ep)oxides, pyrans, coumarins",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"caryophyllene 2,12:5,6-dioxide","(Ep)oxides, pyrans, coumarins",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"4(14)-salvialene 1,5-oxide","(Ep)oxides, pyrans, coumarins",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,sclareol oxide,"(Ep)oxides, pyrans, coumarins",700,5300
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,nerol oxide,"(Ep)oxides, pyrans, coumarins",trace,trace
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"anhydrolinalool oxide (6) (=2,2,6-trimethyl-6-vinyl-tetrahydropyran)","(Ep)oxides, pyrans, coumarins",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"linalool oxide D (cis, 6-ring)","(Ep)oxides, pyrans, coumarins",<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,"linalool oxide C (trans, 6-ring)","(Ep)oxides, pyrans, coumarins",<100,<100
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",4000,20000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",3700,13000
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,coumarin (=2H-1-benzopyran-2-one),"(Ep)oxides, pyrans, coumarins",,
+CLARY SAGE (Salvia sclarea L.),SALVIA SPECIES,Spices & Condiments,manoyl oxide,"(Ep)oxides, pyrans, coumarins",,
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,β-elemene,Hydrocarbons,,
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,germacrene D,Hydrocarbons,<3500,37000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,<3500,40000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,<3500,8000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,<3500,29000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,α-ylangene (=ylangene),Hydrocarbons,,
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,β-bourbonene,Hydrocarbons,,
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,aromadendrene,Hydrocarbons,<3500,113000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,biphenyl,Hydrocarbons,<3500,5000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,naphthalene,Hydrocarbons,<3500,9000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,fluorene,Hydrocarbons,<3500,24000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,acenaphthene,Hydrocarbons,15000,182000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,phenanthrene,Hydrocarbons,<3500,17000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,<3500,69000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,linalool,Alcohols,<3500,10000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,(E)-nerolidol,Alcohols,<3500,8000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,benzyl alcohol (=benzenemethanol),Alcohols,<3500,6000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,<3500,<3500
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,α-cadinol,Alcohols,<3500,27000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,cadinol-T,Alcohols,<3500,38000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,globulol,Alcohols,113000,650000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",<3500,110000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,undecanal,"Carbonyls, aldehydes",<3500,<3500
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,benzaldehyde,"Carbonyls, aldehydes",<3500,7000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",0,11000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",<3500,21000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,(E)-β-ionone,"Carbonyls, ketones",<3500,36000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,"carvone (=p-6,8-menthadien-2-one)","Carbonyls, ketones",<3500,14000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,methyl 2-hydroxybenzoate (=methyl salicylate),Esters,<3500,12000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,<3500,<3500
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,"1-isopropyl-2,5-dimethoxy-4-methylbenzene (=2,5-dimethoxy-p-cymene)",Phenols,<3500,294000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,2-methoxy-4-vinylphenol (=4-vinylguaiacol),Phenols,<3500,17000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,pentylfuran (unkn.str.),Furans,0,11000
+RED SAGE (Texas sage) (S. coccinea Juss. ex Murr.),SALVIA SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",<3500,29000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,2200,2200
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,(E)-β-ocimene,Hydrocarbons,1100,4000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,"(4Z,6Z)-allo-ocimene (=(Z,Z)-alloocimene)",Hydrocarbons,1000,1000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,13400,32000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,α-phellandrene,Hydrocarbons,1000,1000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,α-terpinene,Hydrocarbons,1300,1300
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,γ-terpinene,Hydrocarbons,trace,1600
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,terpinolene,Hydrocarbons,trace,1800
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,limonene,Hydrocarbons,26500,45000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,α-curcumene,Hydrocarbons,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,germacrene B,Hydrocarbons,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,2400,2400
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,(Z)-α-humulene,Hydrocarbons,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,86000,86000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,22300,45000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,camphene,Hydrocarbons,70000,76900
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,α-thujene,Hydrocarbons,2000,2000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,3400,13000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,cis-α-bergamotene,Hydrocarbons,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,trans-α-bergamotene,Hydrocarbons,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,δ-cadinene,Hydrocarbons,4000,4000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,6100,6100
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,α-cubebene,Hydrocarbons,trace,trace
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,trace,trace
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,aromadendrene,Hydrocarbons,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,alloaromadendrene,Hydrocarbons,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,α-gurjunene,Hydrocarbons,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,tricyclene,Hydrocarbons,4600,4600
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,8400,19000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,"1-isopropenyl-4-methylbenzene (=α,p-dimethyl styrene, p-cymenene, dehydro-p-cymene)",Hydrocarbons,3000,3000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,geraniol,Alcohols,3700,4000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,nerol,Alcohols,1000,1000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,linalool,Alcohols,17000,31000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,1000,1000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,α-terpineol,Alcohols,trace,18900
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,δ-terpineol,Alcohols,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,borneol,Alcohols,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,sabinol (=4(10)-thujenol),Alcohols,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,trans-sabinene hydrate (=trans-4-thujanol),Alcohols,5000,5000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,geranial (=α-citral),"Carbonyls, aldehydes",,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",201000,301100
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,thujone (=α-thujone),"Carbonyls, ketones",13000,13000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,isothujone (=β-thujone),"Carbonyls, ketones",trace,trace
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,geranyl acetate,Esters,3300,3300
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,neryl acetate,Esters,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,linalyl acetate,Esters,3400,39000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,α-terpinyl acetate,Esters,112000,112000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,bornyl acetate,Esters,2100,9700
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,sabinyl acetate,Esters,36000,36000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,geranyl propanoate,Esters,4200,4200
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,geranyl 2-methylpropanoate (=geranyl isobutyrate),Esters,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,linalyl 3-methylbutanoate,Esters,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,118300,211000
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,thymol (=2-isopropyl-5-methylphenol),Phenols,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+SPANISH SAGE (Salvia lavandulaefolia Vahl.),SALVIA SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",,
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,heptane (unkn.str.),Hydrocarbons,1E-005,1E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,octane,Hydrocarbons,0.00022,0.00022
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,octane (branched),Hydrocarbons,,
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,hexadecane (branched),Hydrocarbons,1E-005,1E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,heptadecane,Hydrocarbons,1E-005,1E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,octadecane,Hydrocarbons,1E-005,1E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,nonadecane,Hydrocarbons,4E-005,4E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,cyclohexane,Hydrocarbons,2E-005,2E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,methylcyclohexane,Hydrocarbons,,
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,ethylcyclohexane,Hydrocarbons,2E-005,2E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,methylcyclohexene (unkn.str.),Hydrocarbons,trace,trace
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,dimethylcyclohexane (unkn.str.),Hydrocarbons,6E-005,6E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,3-carene,Hydrocarbons,8E-005,8E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,β-caryophyllene,Hydrocarbons,1E-005,1E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,benzene,Hydrocarbons,trace,trace
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,methylbenzene (=toluene),Hydrocarbons,0.00035,0.00035
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,vinylbenzene (=styrene),Hydrocarbons,1E-005,1E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,isopropylbenzene (=cumene),Hydrocarbons,trace,trace
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,0.00013,0.00013
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,dimethylbenzene (unkn.str.) (=xylene (unkn.str.)),Hydrocarbons,3E-005,3E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,ethanol,Alcohols,,
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,1-butanol,Alcohols,3E-005,3E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,8E-005,8E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,2-methyl-2-butanol (=tert-amyl alcohol),Alcohols,2E-005,2E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,1-hexanol,Alcohols,0.00017,0.00017
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,benzyl alcohol (=benzenemethanol),Alcohols,0.00013,0.00013
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,"3-phenyl-1-propanol (=benzenepropanol, dihydrocinnamic alcohol)",Alcohols,0.0002,0.0002
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",0.00024,0.00024
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,benzaldehyde,"Carbonyls, aldehydes",0.00115,0.00115
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,hydroxy-2-butanone (unkn.str.),"Carbonyls, ketones",2E-005,2E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",<1E-005,<1E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,1-phenyl-1-propanone (=propiophenone),"Carbonyls, ketones",1E-005,1E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,1-phenyl-2-propanone,"Carbonyls, ketones",0.0001,0.0001
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,hexyl acetate,Esters,2E-005,2E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,benzyl 3-methylbutanoate,Esters,,
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,methyl benzoate,Esters,0.00074,0.00074
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,ethyl benzoate,Esters,0.0002,0.0002
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,butyl benzoate,Esters,,
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,pentyl benzoate,Esters,trace,trace
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,hexyl benzoate,Esters,1E-005,1E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,methyl 2-hydroxybenzoate (=methyl salicylate),Esters,6E-005,6E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,methyl 4-methoxybenzoate (=methyl anisate),Esters,3E-005,3E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,trace,trace
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,trichloromethane (=chloroform),Halogens,2E-005,2E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,"methoxybenzene (=anisole, methyl phenyl ether)",Phenols,1E-005,1E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,3E-005,3E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,trace,trace
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,acetylfuran (unkn.str.),Furans,1E-005,1E-005
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",trace,trace
+SAPODILLA FRUIT (Achras sapota L.),,Fruits,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",2E-005,2E-005
+,SHRIMPS,Seafood,nonane,Hydrocarbons,0.0005,0.0005
+,SHRIMPS,Seafood,decane,Hydrocarbons,,
+,SHRIMPS,Seafood,"2,5-dimethylundecane",Hydrocarbons,0.0007,0.0007
+,SHRIMPS,Seafood,dodecane,Hydrocarbons,,
+,SHRIMPS,Seafood,tridecane,Hydrocarbons,,
+,SHRIMPS,Seafood,tetradecane,Hydrocarbons,,
+,SHRIMPS,Seafood,pentadecane,Hydrocarbons,,
+,SHRIMPS,Seafood,"2,4,6,10-tetramethylpentadecane",Hydrocarbons,,
+,SHRIMPS,Seafood,"2,6,10,14-tetramethylpentadecane (=pristane)",Hydrocarbons,0.5,0.5
+,SHRIMPS,Seafood,limonene,Hydrocarbons,,
+,SHRIMPS,Seafood,benzene,Hydrocarbons,,
+,SHRIMPS,Seafood,methylbenzene (=toluene),Hydrocarbons,0.036,0.036
+,SHRIMPS,Seafood,ethylbenzene (=α-methyltoluene),Hydrocarbons,0.001,0.001
+,SHRIMPS,Seafood,isopropylbenzene (=cumene),Hydrocarbons,0.0009,0.0009
+,SHRIMPS,Seafood,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,trace,trace
+,SHRIMPS,Seafood,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,trace,trace
+,SHRIMPS,Seafood,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,trace,trace
+,SHRIMPS,Seafood,trimethylbenzene (unkn.str.),Hydrocarbons,0.001,0.001
+,SHRIMPS,Seafood,naphthalene,Hydrocarbons,0.0008,0.0008
+,SHRIMPS,Seafood,methanol,Alcohols,,
+,SHRIMPS,Seafood,ethanol,Alcohols,,
+,SHRIMPS,Seafood,2-methyl-1-propanol (=isobutanol),Alcohols,trace,trace
+,SHRIMPS,Seafood,1-butanol,Alcohols,,
+,SHRIMPS,Seafood,2-methyl-1-butanol (=active amyl alcohol),Alcohols,0.002,0.002
+,SHRIMPS,Seafood,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,0.08,0.6
+,SHRIMPS,Seafood,1-pentanol (=amyl alcohol),Alcohols,,
+,SHRIMPS,Seafood,2-pentanol,Alcohols,0.001,0.001
+,SHRIMPS,Seafood,3-pentanol,Alcohols,0.007,0.007
+,SHRIMPS,Seafood,sec-pentanol (unkn.str.) (=2(or 3)-pentanol),Alcohols,0.114,0.114
+,SHRIMPS,Seafood,1-penten-3-ol,Alcohols,0.003,0.1
+,SHRIMPS,Seafood,3-methyl-2-pentanol,Alcohols,trace,trace
+,SHRIMPS,Seafood,2-methyl-1-heptanol,Alcohols,,
+,SHRIMPS,Seafood,1-octen-3-ol,Alcohols,,
+,SHRIMPS,Seafood,(Z)-2-undecen-1-ol,Alcohols,0.004,0.004
+,SHRIMPS,Seafood,(E)-2-undecen-1-ol,Alcohols,0.002,0.002
+,SHRIMPS,Seafood,1-hexadecanol (=cetanol),Alcohols,,
+,SHRIMPS,Seafood,benzyl alcohol (=benzenemethanol),Alcohols,,
+,SHRIMPS,Seafood,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+,SHRIMPS,Seafood,ionol,Alcohols,0.001,0.001
+,SHRIMPS,Seafood,acetaldehyde (=ethanal),"Carbonyls, aldehydes",0.002,0.002
+,SHRIMPS,Seafood,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",0.001,0.001
+,SHRIMPS,Seafood,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",0.005,0.005
+,SHRIMPS,Seafood,2-methyl-2-butenal,"Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,(E)-2-methyl-2-butenal (=tiglicaldehyde),"Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,2-hexenal,"Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,(Z)-4-heptenal,"Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,heptenal (unkn.str.),"Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,"(E,E)-2,4-octadienal","Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,"2,6-nonadienal","Carbonyls, aldehydes",,
+,SHRIMPS,Seafood,decanal (=capraldehyde),"Carbonyls, aldehydes",0.002,0.002
+,SHRIMPS,Seafood,benzaldehyde,"Carbonyls, aldehydes",0.0007,0.2
+,SHRIMPS,Seafood,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+,SHRIMPS,Seafood,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+,SHRIMPS,Seafood,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+,SHRIMPS,Seafood,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+,SHRIMPS,Seafood,2-pentanone,"Carbonyls, ketones",0.0007,0.0007
+,SHRIMPS,Seafood,3-pentanone,"Carbonyls, ketones",0.0007,0.0007
+,SHRIMPS,Seafood,3-penten-2-one,"Carbonyls, ketones",,
+,SHRIMPS,Seafood,2-methyl-3-pentanone,"Carbonyls, ketones",0.004,0.004
+,SHRIMPS,Seafood,4-methyl-3-penten-2-one (=mesityl oxide),"Carbonyls, ketones",,
+,SHRIMPS,Seafood,4-methyl-4-penten-2-one,"Carbonyls, ketones",,
+,SHRIMPS,Seafood,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+,SHRIMPS,Seafood,5-methyl-3-hexen-2-one,"Carbonyls, ketones",,
+,SHRIMPS,Seafood,3-butyl-3-hexen-2-one,"Carbonyls, ketones",,
+,SHRIMPS,Seafood,2-heptanone,"Carbonyls, ketones",0.01,0.01
+,SHRIMPS,Seafood,3-heptanone,"Carbonyls, ketones",0.002,0.002
+,SHRIMPS,Seafood,2-octanone,"Carbonyls, ketones",,
+,SHRIMPS,Seafood,7-octen-2-one,"Carbonyls, ketones",0.003,0.003
+,SHRIMPS,Seafood,"3,5-octadien-2-one","Carbonyls, ketones",0.0005,0.1
+,SHRIMPS,Seafood,"(E,Z)-3,5-octadien-2-one","Carbonyls, ketones",,
+,SHRIMPS,Seafood,"(E,E)-3,5-octadien-2-one","Carbonyls, ketones",,
+,SHRIMPS,Seafood,2-nonanone,"Carbonyls, ketones",,
+,SHRIMPS,Seafood,5-nonanone,"Carbonyls, ketones",0.0007,0.0007
+,SHRIMPS,Seafood,2-decanone,"Carbonyls, ketones",trace,0.2
+,SHRIMPS,Seafood,3-decanone,"Carbonyls, ketones",trace,trace
+,SHRIMPS,Seafood,2-undecanone,"Carbonyls, ketones",0.001,0.001
+,SHRIMPS,Seafood,"(Z,Z,Z)-5,8,11-tetradecatrien-2-one","Carbonyls, ketones",1.8,1.8
+,SHRIMPS,Seafood,"(E,Z,Z)-5,8,11-tetradecatrien-2-one","Carbonyls, ketones",6.6,6.6
+,SHRIMPS,Seafood,"2,3-dimethyl-2-cyclopenten-1-one","Carbonyls, ketones",,
+,SHRIMPS,Seafood,"2,6,6-trimethyl-2-cyclohexene-1,4-dione","Carbonyls, ketones",0.002,0.002
+,SHRIMPS,Seafood,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+,SHRIMPS,Seafood,2-methylpropanoic acid (=isobutyric acid),Acids,,
+,SHRIMPS,Seafood,butanoic acid (=butyric acid),Acids,,
+,SHRIMPS,Seafood,3-methylbutanoic acid (=isovaleric acid),Acids,,
+,SHRIMPS,Seafood,pentanoic acid (=valeric acid),Acids,,
+,SHRIMPS,Seafood,hexanoic acid (=caproic acid),Acids,,
+,SHRIMPS,Seafood,heptanoic acid (=enanthic acid),Acids,,
+,SHRIMPS,Seafood,octanoic acid (=caprylic acid),Acids,,
+,SHRIMPS,Seafood,nonanoic acid (=pelargonic acid),Acids,,
+,SHRIMPS,Seafood,tetradecanoic acid (=myristic acid),Acids,35,35
+,SHRIMPS,Seafood,pentadecanoic acid,Acids,16,16
+,SHRIMPS,Seafood,pentadecenoic acid (unkn.str.),Acids,43,43
+,SHRIMPS,Seafood,hexadecanoic acid (=palmitic acid),Acids,308,308
+,SHRIMPS,Seafood,hexadecenoic acid (unkn.str.),Acids,141,141
+,SHRIMPS,Seafood,heptadecanoic acid (=margaric acid),Acids,21,21
+,SHRIMPS,Seafood,octadecanoic acid (=stearic acid),Acids,209,209
+,SHRIMPS,Seafood,octadecenoic acid (unkn.str.),Acids,329,329
+,SHRIMPS,Seafood,"9,12-octadecadienoic acid",Acids,232,232
+,SHRIMPS,Seafood,"6,9,12,15-octadecatetraenoic acid",Acids,30,30
+,SHRIMPS,Seafood,"5,8,11,14-eicosatetraenoic acid",Acids,317,317
+,SHRIMPS,Seafood,"5,8,11,14,17-eicosapentaenoic acid",Acids,435,435
+,SHRIMPS,Seafood,"10,13,16-docosatrienoic acid",Acids,41,41
+,SHRIMPS,Seafood,"10,13,16,19-docosatetraenoic acid",Acids,60,60
+,SHRIMPS,Seafood,"7,10,13,16,19-docosapentaenoic acid",Acids,60,60
+,SHRIMPS,Seafood,"4,7,10,13,16,19-docosahexaenoic acid",Acids,240,240
+,SHRIMPS,Seafood,allyl formate,Esters,,
+,SHRIMPS,Seafood,ethyl acetate,Esters,,
+,SHRIMPS,Seafood,methyl tetradecanoate (=methyl myristate),Esters,,
+,SHRIMPS,Seafood,methyl hexadecanoate (=methyl palmitate),Esters,,
+,SHRIMPS,Seafood,methyl 9-hexadecenoate,Esters,,
+,SHRIMPS,Seafood,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+,SHRIMPS,Seafood,"5-hydroxynonanoic acid lactone (=5-nonanolide, δ-nonalactone)",Lactones,,
+,SHRIMPS,Seafood,ammonia,Bases,,
+,SHRIMPS,Seafood,trimethylamine,Bases,,
+,SHRIMPS,Seafood,"N,N-dimethylphenethylamine",Bases,trace,23
+,SHRIMPS,Seafood,1-methyl-2-pyrrolidone,Bases,,
+,SHRIMPS,Seafood,pyrrole,Bases,,
+,SHRIMPS,Seafood,1-methylpyrrole,Bases,,
+,SHRIMPS,Seafood,acetylpyrrole (unkn.str.),Bases,,
+,SHRIMPS,Seafood,indole,Bases,trace,0.04
+,SHRIMPS,Seafood,pyridine,Bases,trace,0.01
+,SHRIMPS,Seafood,2-methylpyridine (=α-picoline),Bases,trace,0.02
+,SHRIMPS,Seafood,3-methylpyridine (=β-picoline),Bases,,
+,SHRIMPS,Seafood,4-methylpyridine (=γ-picoline),Bases,trace,trace
+,SHRIMPS,Seafood,3-ethylpyridine,Bases,,
+,SHRIMPS,Seafood,"2,4-dimethylpyridine (=2,4-lutidine)",Bases,0.002,0.002
+,SHRIMPS,Seafood,"3,4-dimethylpyridine (=3,4-lutidine)",Bases,,
+,SHRIMPS,Seafood,2-ethyl-5-methylpyridine,Bases,0.0007,0.0007
+,SHRIMPS,Seafood,5-ethyl-2-methylpyridine,Bases,trace,0.01
+,SHRIMPS,Seafood,trimethylpyridine (unkn.str.),Bases,0.002,0.002
+,SHRIMPS,Seafood,1-methyl-2-pyridinone,Bases,,
+,SHRIMPS,Seafood,pyrazine,Bases,0.02,0.5
+,SHRIMPS,Seafood,methylpyrazine,Bases,0.004,1.8
+,SHRIMPS,Seafood,ethylpyrazine,Bases,,
+,SHRIMPS,Seafood,"2,3-dimethylpyrazine",Bases,0.002,1.3
+,SHRIMPS,Seafood,"2,5-dimethylpyrazine",Bases,0.003,2.4
+,SHRIMPS,Seafood,"2,6-dimethylpyrazine",Bases,0.003,2
+,SHRIMPS,Seafood,2-ethyl-3-methylpyrazine,Bases,,
+,SHRIMPS,Seafood,2-ethyl-5-methylpyrazine,Bases,0.002,0.002
+,SHRIMPS,Seafood,2-ethyl-6-methylpyrazine,Bases,,
+,SHRIMPS,Seafood,2-ethyl-5(or 6)-methylpyrazine,Bases,0.2,0.2
+,SHRIMPS,Seafood,"2,6-diethylpyrazine",Bases,,
+,SHRIMPS,Seafood,trimethylpyrazine,Bases,0.006,9.9
+,SHRIMPS,Seafood,"5-ethyl-2,3-dimethylpyrazine",Bases,,
+,SHRIMPS,Seafood,"3-ethyl-2,5-dimethylpyrazine",Bases,trace,0.3
+,SHRIMPS,Seafood,"2-ethyl-3,5-dimethylpyrazine",Bases,trace,1.6
+,SHRIMPS,Seafood,ethyl-dimethylpyrazine (unkn.str.),Bases,,
+,SHRIMPS,Seafood,"3,5-diethyl-2-methylpyrazine",Bases,0.002,0.002
+,SHRIMPS,Seafood,tetramethylpyrazine,Bases,trace,0.9
+,SHRIMPS,Seafood,2-methoxy-3-pentylpyrazine,Bases,0.004,0.004
+,SHRIMPS,Seafood,"2,4-dimethylquinazoline",Bases,0.002,0.002
+,SHRIMPS,Seafood,"1,3-dimethylpyrrolo[1,2-a]pyrazine",Bases,,
+,SHRIMPS,Seafood,methanethiol (=methyl mercaptan),Sulfur compounds,,
+,SHRIMPS,Seafood,hydrogen sulfide,Sulfur compounds,,
+,SHRIMPS,Seafood,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,0.0005,0.0005
+,SHRIMPS,Seafood,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,0.001,0.3
+,SHRIMPS,Seafood,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,0.0009,0.1
+,SHRIMPS,Seafood,2-(methylthio)ethanol,Sulfur compounds,,
+,SHRIMPS,Seafood,3-(methylthio)-1-propanol (=methionol),Sulfur compounds,,
+,SHRIMPS,Seafood,3-(methylthio)propanal (=methional),Sulfur compounds,,
+,SHRIMPS,Seafood,S-methyl butanethioate (=2-thiahexan-3-one),Sulfur compounds,,
+,SHRIMPS,Seafood,dimethyl sulfoxide (=methylsulfinylmethane),Sulfur compounds,,
+,SHRIMPS,Seafood,dimethyl sulfone (=methylsulfonylmethane),Sulfur compounds,,
+,SHRIMPS,Seafood,2-methylthiophene,Sulfur compounds,0.0009,0.0009
+,SHRIMPS,Seafood,2-octylthiophene,Sulfur compounds,,
+,SHRIMPS,Seafood,"2,3-dimethylthiophene",Sulfur compounds,,
+,SHRIMPS,Seafood,"3,4-bis(ethoxymethyl)thiophene",Sulfur compounds,,
+,SHRIMPS,Seafood,5-methyl-2-thiophenecarbaldehyde,Sulfur compounds,,
+,SHRIMPS,Seafood,"2,6-dimethyl-1,3-dithiin",Sulfur compounds,,
+,SHRIMPS,Seafood,"2,6-dimethyldithiin (unkn.str.)",Sulfur compounds,,
+,SHRIMPS,Seafood,"3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,,
+,SHRIMPS,Seafood,"cis-3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,0.001,0.13
+,SHRIMPS,Seafood,"trans-3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,0.001,0.15
+,SHRIMPS,Seafood,"cis-3,5-diethyl-1,2,4-trithiolane",Sulfur compounds,,
+,SHRIMPS,Seafood,"trans-3,5-diethyl-1,2,4-trithiolane",Sulfur compounds,,
+,SHRIMPS,Seafood,"cis-3-ethyl-5-methyl-1,2,4-trithiolane",Sulfur compounds,,
+,SHRIMPS,Seafood,"trans-3-ethyl-5-methyl-1,2,4-trithiolane",Sulfur compounds,,
+,SHRIMPS,Seafood,4-methylthiazole,Sulfur compounds,,
+,SHRIMPS,Seafood,"4,5-dimethylthiazole",Sulfur compounds,,
+,SHRIMPS,Seafood,2-ethyl-5-methylthiazole,Sulfur compounds,,
+,SHRIMPS,Seafood,"2,4,5-trimethylthiazole",Sulfur compounds,trace,0.6
+,SHRIMPS,Seafood,"2-isobutyl-4,5-dimethylthiazole",Sulfur compounds,,
+,SHRIMPS,Seafood,2-acetylthiazole,Sulfur compounds,0.001,0.1
+,SHRIMPS,Seafood,acetylthiazole (unkn.str.),Sulfur compounds,0.03,0.5
+,SHRIMPS,Seafood,"dihydro-4,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+,SHRIMPS,Seafood,"dihydro-2,4,6-trimethyl-1,3,5(4H)-dithiazine (=thialdine)",Sulfur compounds,0.2,4.5
+,SHRIMPS,Seafood,"4-ethyldihydro-2,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,0.04,0.35
+,SHRIMPS,Seafood,"2-ethyldihydro-4,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,0.04,0.3
+,SHRIMPS,Seafood,"dihydro-2,4,6-triethyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+,SHRIMPS,Seafood,"dihydro-4,6-dimethyl-2-propyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+,SHRIMPS,Seafood,"4-butyldihydro-2,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+,SHRIMPS,Seafood,"tetrahydro-2,4-dimethyl-pyrrolo[2,1-d]-1,3,5-dithiazine",Sulfur compounds,,
+,SHRIMPS,Seafood,"1,1-dimethoxymethane",Acetals,,
+,SHRIMPS,Seafood,trichloromethane (=chloroform),Halogens,,
+,SHRIMPS,Seafood,"phenylacetonitrile (=benzyl cyanide, benzeneacetonitrile)",Nitriles and amides,,
+,SHRIMPS,Seafood,dimethylcyanamide,Nitriles and amides,,
+,SHRIMPS,Seafood,"N,N-dimethylformamide",Nitriles and amides,,
+,SHRIMPS,Seafood,"N,N-dimethylacetamide",Nitriles and amides,,
+,SHRIMPS,Seafood,3-methylbutanamide (=isovaleramide),Nitriles and amides,,
+,SHRIMPS,Seafood,tetramethylurea,Nitriles and amides,,
+,SHRIMPS,Seafood,phenol (=hydroxybenzene),Phenols,0.007,0.1
+,SHRIMPS,Seafood,"1,4-dimethoxybenzene",Phenols,,
+,SHRIMPS,Seafood,2-allylfuran,Furans,0.002,0.002
+,SHRIMPS,Seafood,2-pentylfuran,Furans,0.001,0.001
+,SHRIMPS,Seafood,2-ethyl-5-methylfuran,Furans,0.011,0.011
+,SHRIMPS,Seafood,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+,SHRIMPS,Seafood,5-methylfurfural,Furans,,
+,SHRIMPS,Seafood,"5-ethyl-2(5H)-furanone (=4-ethyl-2-butenolide, 2-hexen-4-olide)",Furans,,
+,SHRIMPS,Seafood,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,0.1,10.5
+,SHRIMPS,Seafood,dioxane (unkn.str.),"(Ep)oxides, pyrans, coumarins",0.2,0.2
+,SHRIMPS,Seafood,oxazole,Oxazol(in)es,,
+,SHRIMPS,Seafood,trimethyloxazole,Oxazol(in)es,,
+SHRIMPS (raw),SHRIMPS,Seafood,"2,4,6,10-tetramethylpentadecane",Hydrocarbons,,
+SHRIMPS (raw),SHRIMPS,Seafood,"2,6,10,14-tetramethylpentadecane (=pristane)",Hydrocarbons,,
+SHRIMPS (raw),SHRIMPS,Seafood,limonene,Hydrocarbons,,
+SHRIMPS (raw),SHRIMPS,Seafood,benzene,Hydrocarbons,,
+SHRIMPS (raw),SHRIMPS,Seafood,methylbenzene (=toluene),Hydrocarbons,,
+SHRIMPS (raw),SHRIMPS,Seafood,methanol,Alcohols,,
+SHRIMPS (raw),SHRIMPS,Seafood,ethanol,Alcohols,,
+SHRIMPS (raw),SHRIMPS,Seafood,2-methyl-1-propanol (=isobutanol),Alcohols,,
+SHRIMPS (raw),SHRIMPS,Seafood,1-butanol,Alcohols,,
+SHRIMPS (raw),SHRIMPS,Seafood,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+SHRIMPS (raw),SHRIMPS,Seafood,1-penten-3-ol,Alcohols,,
+SHRIMPS (raw),SHRIMPS,Seafood,1-octen-3-ol,Alcohols,,
+SHRIMPS (raw),SHRIMPS,Seafood,benzyl alcohol (=benzenemethanol),Alcohols,,
+SHRIMPS (raw),SHRIMPS,Seafood,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+SHRIMPS (raw),SHRIMPS,Seafood,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+SHRIMPS (raw),SHRIMPS,Seafood,(Z)-4-heptenal,"Carbonyls, aldehydes",,
+SHRIMPS (raw),SHRIMPS,Seafood,heptenal (unkn.str.),"Carbonyls, aldehydes",,
+SHRIMPS (raw),SHRIMPS,Seafood,benzaldehyde,"Carbonyls, aldehydes",,
+SHRIMPS (raw),SHRIMPS,Seafood,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+SHRIMPS (raw),SHRIMPS,Seafood,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+SHRIMPS (raw),SHRIMPS,Seafood,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+SHRIMPS (raw),SHRIMPS,Seafood,2-heptanone,"Carbonyls, ketones",,
+SHRIMPS (raw),SHRIMPS,Seafood,"3,5-octadien-2-one","Carbonyls, ketones",,
+SHRIMPS (raw),SHRIMPS,Seafood,2-decanone,"Carbonyls, ketones",,
+SHRIMPS (raw),SHRIMPS,Seafood,2-undecanone,"Carbonyls, ketones",,
+SHRIMPS (raw),SHRIMPS,Seafood,tetradecanoic acid (=myristic acid),Acids,35,35
+SHRIMPS (raw),SHRIMPS,Seafood,pentadecanoic acid,Acids,16,16
+SHRIMPS (raw),SHRIMPS,Seafood,pentadecenoic acid (unkn.str.),Acids,43,43
+SHRIMPS (raw),SHRIMPS,Seafood,hexadecanoic acid (=palmitic acid),Acids,308,308
+SHRIMPS (raw),SHRIMPS,Seafood,hexadecenoic acid (unkn.str.),Acids,141,141
+SHRIMPS (raw),SHRIMPS,Seafood,heptadecanoic acid (=margaric acid),Acids,21,21
+SHRIMPS (raw),SHRIMPS,Seafood,octadecanoic acid (=stearic acid),Acids,209,209
+SHRIMPS (raw),SHRIMPS,Seafood,octadecenoic acid (unkn.str.),Acids,329,329
+SHRIMPS (raw),SHRIMPS,Seafood,"9,12-octadecadienoic acid",Acids,232,232
+SHRIMPS (raw),SHRIMPS,Seafood,"6,9,12,15-octadecatetraenoic acid",Acids,30,30
+SHRIMPS (raw),SHRIMPS,Seafood,"5,8,11,14-eicosatetraenoic acid",Acids,317,317
+SHRIMPS (raw),SHRIMPS,Seafood,"5,8,11,14,17-eicosapentaenoic acid",Acids,435,435
+SHRIMPS (raw),SHRIMPS,Seafood,"10,13,16-docosatrienoic acid",Acids,41,41
+SHRIMPS (raw),SHRIMPS,Seafood,"10,13,16,19-docosatetraenoic acid",Acids,60,60
+SHRIMPS (raw),SHRIMPS,Seafood,"7,10,13,16,19-docosapentaenoic acid",Acids,60,60
+SHRIMPS (raw),SHRIMPS,Seafood,"4,7,10,13,16,19-docosahexaenoic acid",Acids,240,240
+SHRIMPS (raw),SHRIMPS,Seafood,ethyl acetate,Esters,,
+SHRIMPS (raw),SHRIMPS,Seafood,ammonia,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,trimethylamine,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,"N,N-dimethylphenethylamine",Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,pyrrole,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,1-methylpyrrole,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,indole,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,pyridine,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,3-ethylpyridine,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,pyrazine,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,methylpyrazine,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,"2,3-dimethylpyrazine",Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,"2,5-dimethylpyrazine",Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,"2,6-dimethylpyrazine",Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,2-ethyl-3-methylpyrazine,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,trimethylpyrazine,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,"3-ethyl-2,5-dimethylpyrazine",Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,"2-ethyl-3,5-dimethylpyrazine",Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,"3,5-diethyl-2-methylpyrazine",Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,tetramethylpyrazine,Bases,,
+SHRIMPS (raw),SHRIMPS,Seafood,methanethiol (=methyl mercaptan),Sulfur compounds,,
+SHRIMPS (raw),SHRIMPS,Seafood,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+SHRIMPS (raw),SHRIMPS,Seafood,3-(methylthio)propanal (=methional),Sulfur compounds,,
+SHRIMPS (raw),SHRIMPS,Seafood,2-octylthiophene,Sulfur compounds,,
+SHRIMPS (raw),SHRIMPS,Seafood,"cis-3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,,
+SHRIMPS (raw),SHRIMPS,Seafood,"cis-3,5-diethyl-1,2,4-trithiolane",Sulfur compounds,,
+SHRIMPS (raw),SHRIMPS,Seafood,"cis-3-ethyl-5-methyl-1,2,4-trithiolane",Sulfur compounds,,
+SHRIMPS (raw),SHRIMPS,Seafood,2-acetylthiazole,Sulfur compounds,,
+SHRIMPS (raw),SHRIMPS,Seafood,"dihydro-2,4,6-trimethyl-1,3,5(4H)-dithiazine (=thialdine)",Sulfur compounds,,
+SHRIMPS (raw),SHRIMPS,Seafood,trichloromethane (=chloroform),Halogens,,
+SHRIMPS (raw),SHRIMPS,Seafood,phenol (=hydroxybenzene),Phenols,,
+SHRIMPS (raw),SHRIMPS,Seafood,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+SHRIMPS (raw),SHRIMPS,Seafood,dioxane (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+SHRIMPS (cooked),SHRIMPS,Seafood,nonane,Hydrocarbons,0.0005,0.0005
+SHRIMPS (cooked),SHRIMPS,Seafood,decane,Hydrocarbons,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,5-dimethylundecane",Hydrocarbons,0.0007,0.0007
+SHRIMPS (cooked),SHRIMPS,Seafood,dodecane,Hydrocarbons,,
+SHRIMPS (cooked),SHRIMPS,Seafood,tridecane,Hydrocarbons,,
+SHRIMPS (cooked),SHRIMPS,Seafood,tetradecane,Hydrocarbons,,
+SHRIMPS (cooked),SHRIMPS,Seafood,pentadecane,Hydrocarbons,,
+SHRIMPS (cooked),SHRIMPS,Seafood,limonene,Hydrocarbons,,
+SHRIMPS (cooked),SHRIMPS,Seafood,methylbenzene (=toluene),Hydrocarbons,0.036,0.036
+SHRIMPS (cooked),SHRIMPS,Seafood,ethylbenzene (=α-methyltoluene),Hydrocarbons,0.001,0.001
+SHRIMPS (cooked),SHRIMPS,Seafood,isopropylbenzene (=cumene),Hydrocarbons,0.0009,0.0009
+SHRIMPS (cooked),SHRIMPS,Seafood,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,trace,trace
+SHRIMPS (cooked),SHRIMPS,Seafood,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,trace,trace
+SHRIMPS (cooked),SHRIMPS,Seafood,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,trace,trace
+SHRIMPS (cooked),SHRIMPS,Seafood,trimethylbenzene (unkn.str.),Hydrocarbons,0.001,0.001
+SHRIMPS (cooked),SHRIMPS,Seafood,naphthalene,Hydrocarbons,0.0008,0.0008
+SHRIMPS (cooked),SHRIMPS,Seafood,ethanol,Alcohols,,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-methyl-1-propanol (=isobutanol),Alcohols,trace,trace
+SHRIMPS (cooked),SHRIMPS,Seafood,1-butanol,Alcohols,,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-methyl-1-butanol (=active amyl alcohol),Alcohols,0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,0.1,0.1
+SHRIMPS (cooked),SHRIMPS,Seafood,1-pentanol (=amyl alcohol),Alcohols,,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-pentanol,Alcohols,0.001,0.001
+SHRIMPS (cooked),SHRIMPS,Seafood,3-pentanol,Alcohols,0.007,0.007
+SHRIMPS (cooked),SHRIMPS,Seafood,sec-pentanol (unkn.str.) (=2(or 3)-pentanol),Alcohols,0.114,0.114
+SHRIMPS (cooked),SHRIMPS,Seafood,1-penten-3-ol,Alcohols,0.003,0.003
+SHRIMPS (cooked),SHRIMPS,Seafood,3-methyl-2-pentanol,Alcohols,trace,trace
+SHRIMPS (cooked),SHRIMPS,Seafood,2-methyl-1-heptanol,Alcohols,,
+SHRIMPS (cooked),SHRIMPS,Seafood,1-octen-3-ol,Alcohols,,
+SHRIMPS (cooked),SHRIMPS,Seafood,(Z)-2-undecen-1-ol,Alcohols,0.004,0.004
+SHRIMPS (cooked),SHRIMPS,Seafood,(E)-2-undecen-1-ol,Alcohols,0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,1-hexadecanol (=cetanol),Alcohols,,
+SHRIMPS (cooked),SHRIMPS,Seafood,benzyl alcohol (=benzenemethanol),Alcohols,,
+SHRIMPS (cooked),SHRIMPS,Seafood,ionol,Alcohols,0.001,0.001
+SHRIMPS (cooked),SHRIMPS,Seafood,acetaldehyde (=ethanal),"Carbonyls, aldehydes",0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",0.001,0.001
+SHRIMPS (cooked),SHRIMPS,Seafood,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+SHRIMPS (cooked),SHRIMPS,Seafood,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",0.005,0.005
+SHRIMPS (cooked),SHRIMPS,Seafood,2-methyl-2-butenal,"Carbonyls, aldehydes",,
+SHRIMPS (cooked),SHRIMPS,Seafood,(E)-2-methyl-2-butenal (=tiglicaldehyde),"Carbonyls, aldehydes",,
+SHRIMPS (cooked),SHRIMPS,Seafood,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+SHRIMPS (cooked),SHRIMPS,Seafood,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-hexenal,"Carbonyls, aldehydes",,
+SHRIMPS (cooked),SHRIMPS,Seafood,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+SHRIMPS (cooked),SHRIMPS,Seafood,"(E,E)-2,4-octadienal","Carbonyls, aldehydes",,
+SHRIMPS (cooked),SHRIMPS,Seafood,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,6-nonadienal","Carbonyls, aldehydes",,
+SHRIMPS (cooked),SHRIMPS,Seafood,decanal (=capraldehyde),"Carbonyls, aldehydes",0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,benzaldehyde,"Carbonyls, aldehydes",0.0007,0.01
+SHRIMPS (cooked),SHRIMPS,Seafood,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-pentanone,"Carbonyls, ketones",0.0007,0.0007
+SHRIMPS (cooked),SHRIMPS,Seafood,3-pentanone,"Carbonyls, ketones",0.0007,0.0007
+SHRIMPS (cooked),SHRIMPS,Seafood,3-penten-2-one,"Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-methyl-3-pentanone,"Carbonyls, ketones",0.004,0.004
+SHRIMPS (cooked),SHRIMPS,Seafood,4-methyl-3-penten-2-one (=mesityl oxide),"Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,4-methyl-4-penten-2-one,"Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,5-methyl-3-hexen-2-one,"Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,3-butyl-3-hexen-2-one,"Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-heptanone,"Carbonyls, ketones",0.01,0.01
+SHRIMPS (cooked),SHRIMPS,Seafood,3-heptanone,"Carbonyls, ketones",0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,2-octanone,"Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,7-octen-2-one,"Carbonyls, ketones",0.003,0.003
+SHRIMPS (cooked),SHRIMPS,Seafood,"3,5-octadien-2-one","Carbonyls, ketones",0.0005,0.0005
+SHRIMPS (cooked),SHRIMPS,Seafood,"(E,Z)-3,5-octadien-2-one","Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,"(E,E)-3,5-octadien-2-one","Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-nonanone,"Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,5-nonanone,"Carbonyls, ketones",0.0007,0.0007
+SHRIMPS (cooked),SHRIMPS,Seafood,2-decanone,"Carbonyls, ketones",0.1,0.1
+SHRIMPS (cooked),SHRIMPS,Seafood,3-decanone,"Carbonyls, ketones",trace,trace
+SHRIMPS (cooked),SHRIMPS,Seafood,2-undecanone,"Carbonyls, ketones",0.001,0.001
+SHRIMPS (cooked),SHRIMPS,Seafood,"(Z,Z,Z)-5,8,11-tetradecatrien-2-one","Carbonyls, ketones",1.8,1.8
+SHRIMPS (cooked),SHRIMPS,Seafood,"(E,Z,Z)-5,8,11-tetradecatrien-2-one","Carbonyls, ketones",6.6,6.6
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,3-dimethyl-2-cyclopenten-1-one","Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,6,6-trimethyl-2-cyclohexene-1,4-dione","Carbonyls, ketones",0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-methylpropanoic acid (=isobutyric acid),Acids,,
+SHRIMPS (cooked),SHRIMPS,Seafood,butanoic acid (=butyric acid),Acids,,
+SHRIMPS (cooked),SHRIMPS,Seafood,3-methylbutanoic acid (=isovaleric acid),Acids,,
+SHRIMPS (cooked),SHRIMPS,Seafood,pentanoic acid (=valeric acid),Acids,,
+SHRIMPS (cooked),SHRIMPS,Seafood,hexanoic acid (=caproic acid),Acids,,
+SHRIMPS (cooked),SHRIMPS,Seafood,heptanoic acid (=enanthic acid),Acids,,
+SHRIMPS (cooked),SHRIMPS,Seafood,octanoic acid (=caprylic acid),Acids,,
+SHRIMPS (cooked),SHRIMPS,Seafood,nonanoic acid (=pelargonic acid),Acids,,
+SHRIMPS (cooked),SHRIMPS,Seafood,allyl formate,Esters,,
+SHRIMPS (cooked),SHRIMPS,Seafood,ethyl acetate,Esters,,
+SHRIMPS (cooked),SHRIMPS,Seafood,methyl tetradecanoate (=methyl myristate),Esters,,
+SHRIMPS (cooked),SHRIMPS,Seafood,methyl hexadecanoate (=methyl palmitate),Esters,,
+SHRIMPS (cooked),SHRIMPS,Seafood,methyl 9-hexadecenoate,Esters,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"5-hydroxynonanoic acid lactone (=5-nonanolide, δ-nonalactone)",Lactones,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"N,N-dimethylphenethylamine",Bases,0.03,23
+SHRIMPS (cooked),SHRIMPS,Seafood,1-methyl-2-pyrrolidone,Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,1-methylpyrrole,Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,acetylpyrrole (unkn.str.),Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,indole,Bases,0.002,0.03
+SHRIMPS (cooked),SHRIMPS,Seafood,pyridine,Bases,0.01,0.01
+SHRIMPS (cooked),SHRIMPS,Seafood,2-methylpyridine (=α-picoline),Bases,0.02,0.02
+SHRIMPS (cooked),SHRIMPS,Seafood,3-methylpyridine (=β-picoline),Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,4-methylpyridine (=γ-picoline),Bases,trace,trace
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,4-dimethylpyridine (=2,4-lutidine)",Bases,0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,"3,4-dimethylpyridine (=3,4-lutidine)",Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-ethyl-5-methylpyridine,Bases,0.0007,0.0007
+SHRIMPS (cooked),SHRIMPS,Seafood,5-ethyl-2-methylpyridine,Bases,0.01,0.01
+SHRIMPS (cooked),SHRIMPS,Seafood,trimethylpyridine (unkn.str.),Bases,0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,1-methyl-2-pyridinone,Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,pyrazine,Bases,0.02,0.02
+SHRIMPS (cooked),SHRIMPS,Seafood,methylpyrazine,Bases,0.004,0.1
+SHRIMPS (cooked),SHRIMPS,Seafood,ethylpyrazine,Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,3-dimethylpyrazine",Bases,0.002,0.06
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,5-dimethylpyrazine",Bases,0.003,0.1
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,6-dimethylpyrazine",Bases,0.003,0.1
+SHRIMPS (cooked),SHRIMPS,Seafood,2-ethyl-3-methylpyrazine,Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-ethyl-5-methylpyrazine,Bases,0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,2-ethyl-6-methylpyrazine,Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,6-diethylpyrazine",Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,trimethylpyrazine,Bases,0.006,0.07
+SHRIMPS (cooked),SHRIMPS,Seafood,"5-ethyl-2,3-dimethylpyrazine",Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"3-ethyl-2,5-dimethylpyrazine",Bases,trace,0.03
+SHRIMPS (cooked),SHRIMPS,Seafood,"2-ethyl-3,5-dimethylpyrazine",Bases,trace,trace
+SHRIMPS (cooked),SHRIMPS,Seafood,ethyl-dimethylpyrazine (unkn.str.),Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"3,5-diethyl-2-methylpyrazine",Bases,0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,tetramethylpyrazine,Bases,trace,0.003
+SHRIMPS (cooked),SHRIMPS,Seafood,2-methoxy-3-pentylpyrazine,Bases,0.004,0.004
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,4-dimethylquinazoline",Bases,0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,"1,3-dimethylpyrrolo[1,2-a]pyrazine",Bases,,
+SHRIMPS (cooked),SHRIMPS,Seafood,methanethiol (=methyl mercaptan),Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,hydrogen sulfide,Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,0.0005,0.0005
+SHRIMPS (cooked),SHRIMPS,Seafood,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,0.001,0.07
+SHRIMPS (cooked),SHRIMPS,Seafood,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,0.0009,0.0009
+SHRIMPS (cooked),SHRIMPS,Seafood,2-(methylthio)ethanol,Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,3-(methylthio)-1-propanol (=methionol),Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,3-(methylthio)propanal (=methional),Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,S-methyl butanethioate (=2-thiahexan-3-one),Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,dimethyl sulfoxide (=methylsulfinylmethane),Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,dimethyl sulfone (=methylsulfonylmethane),Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-methylthiophene,Sulfur compounds,0.0009,0.0009
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,3-dimethylthiophene",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"3,4-bis(ethoxymethyl)thiophene",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,5-methyl-2-thiophenecarbaldehyde,Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,6-dimethyl-1,3-dithiin",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,6-dimethyldithiin (unkn.str.)",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"cis-3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,0.001,0.13
+SHRIMPS (cooked),SHRIMPS,Seafood,"trans-3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,0.001,0.15
+SHRIMPS (cooked),SHRIMPS,Seafood,"cis-3,5-diethyl-1,2,4-trithiolane",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"trans-3,5-diethyl-1,2,4-trithiolane",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"cis-3-ethyl-5-methyl-1,2,4-trithiolane",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"trans-3-ethyl-5-methyl-1,2,4-trithiolane",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,4-methylthiazole,Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"4,5-dimethylthiazole",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-ethyl-5-methylthiazole,Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"2,4,5-trimethylthiazole",Sulfur compounds,trace,trace
+SHRIMPS (cooked),SHRIMPS,Seafood,"2-isobutyl-4,5-dimethylthiazole",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-acetylthiazole,Sulfur compounds,0.001,0.001
+SHRIMPS (cooked),SHRIMPS,Seafood,acetylthiazole (unkn.str.),Sulfur compounds,0.03,0.03
+SHRIMPS (cooked),SHRIMPS,Seafood,"dihydro-4,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"dihydro-2,4,6-trimethyl-1,3,5(4H)-dithiazine (=thialdine)",Sulfur compounds,4.5,4.5
+SHRIMPS (cooked),SHRIMPS,Seafood,"4-ethyldihydro-2,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,0.35,0.35
+SHRIMPS (cooked),SHRIMPS,Seafood,"2-ethyldihydro-4,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,0.3,0.3
+SHRIMPS (cooked),SHRIMPS,Seafood,"dihydro-2,4,6-triethyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"dihydro-4,6-dimethyl-2-propyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"4-butyldihydro-2,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"tetrahydro-2,4-dimethyl-pyrrolo[2,1-d]-1,3,5-dithiazine",Sulfur compounds,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"1,1-dimethoxymethane",Acetals,,
+SHRIMPS (cooked),SHRIMPS,Seafood,trichloromethane (=chloroform),Halogens,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"phenylacetonitrile (=benzyl cyanide, benzeneacetonitrile)",Nitriles and amides,,
+SHRIMPS (cooked),SHRIMPS,Seafood,dimethylcyanamide,Nitriles and amides,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"N,N-dimethylformamide",Nitriles and amides,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"N,N-dimethylacetamide",Nitriles and amides,,
+SHRIMPS (cooked),SHRIMPS,Seafood,3-methylbutanamide (=isovaleramide),Nitriles and amides,,
+SHRIMPS (cooked),SHRIMPS,Seafood,tetramethylurea,Nitriles and amides,,
+SHRIMPS (cooked),SHRIMPS,Seafood,phenol (=hydroxybenzene),Phenols,0.007,0.07
+SHRIMPS (cooked),SHRIMPS,Seafood,"1,4-dimethoxybenzene",Phenols,,
+SHRIMPS (cooked),SHRIMPS,Seafood,2-allylfuran,Furans,0.002,0.002
+SHRIMPS (cooked),SHRIMPS,Seafood,2-pentylfuran,Furans,0.001,0.001
+SHRIMPS (cooked),SHRIMPS,Seafood,2-ethyl-5-methylfuran,Furans,0.011,0.011
+SHRIMPS (cooked),SHRIMPS,Seafood,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+SHRIMPS (cooked),SHRIMPS,Seafood,5-methylfurfural,Furans,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"5-ethyl-2(5H)-furanone (=4-ethyl-2-butenolide, 2-hexen-4-olide)",Furans,,
+SHRIMPS (cooked),SHRIMPS,Seafood,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,0.14,0.14
+SHRIMPS (cooked),SHRIMPS,Seafood,dioxane (unkn.str.),"(Ep)oxides, pyrans, coumarins",0.2,0.2
+SHRIMPS (cooked),SHRIMPS,Seafood,oxazole,Oxazol(in)es,,
+SHRIMPS (cooked),SHRIMPS,Seafood,trimethyloxazole,Oxazol(in)es,,
+SHRIMPS (fermented),SHRIMPS,Seafood,"2,6,10,14-tetramethylpentadecane (=pristane)",Hydrocarbons,,
+SHRIMPS (fermented),SHRIMPS,Seafood,benzene,Hydrocarbons,,
+SHRIMPS (fermented),SHRIMPS,Seafood,methylbenzene (=toluene),Hydrocarbons,,
+SHRIMPS (fermented),SHRIMPS,Seafood,ethanol,Alcohols,,
+SHRIMPS (fermented),SHRIMPS,Seafood,2-methyl-1-propanol (=isobutanol),Alcohols,,
+SHRIMPS (fermented),SHRIMPS,Seafood,1-butanol,Alcohols,,
+SHRIMPS (fermented),SHRIMPS,Seafood,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+SHRIMPS (fermented),SHRIMPS,Seafood,1-penten-3-ol,Alcohols,,
+SHRIMPS (fermented),SHRIMPS,Seafood,1-octen-3-ol,Alcohols,,
+SHRIMPS (fermented),SHRIMPS,Seafood,benzyl alcohol (=benzenemethanol),Alcohols,,
+SHRIMPS (fermented),SHRIMPS,Seafood,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+SHRIMPS (fermented),SHRIMPS,Seafood,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+SHRIMPS (fermented),SHRIMPS,Seafood,(Z)-4-heptenal,"Carbonyls, aldehydes",,
+SHRIMPS (fermented),SHRIMPS,Seafood,heptenal (unkn.str.),"Carbonyls, aldehydes",,
+SHRIMPS (fermented),SHRIMPS,Seafood,benzaldehyde,"Carbonyls, aldehydes",,
+SHRIMPS (fermented),SHRIMPS,Seafood,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+SHRIMPS (fermented),SHRIMPS,Seafood,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+SHRIMPS (fermented),SHRIMPS,Seafood,2-heptanone,"Carbonyls, ketones",,
+SHRIMPS (fermented),SHRIMPS,Seafood,"3,5-octadien-2-one","Carbonyls, ketones",,
+SHRIMPS (fermented),SHRIMPS,Seafood,2-undecanone,"Carbonyls, ketones",,
+SHRIMPS (fermented),SHRIMPS,Seafood,ethyl acetate,Esters,,
+SHRIMPS (fermented),SHRIMPS,Seafood,"N,N-dimethylphenethylamine",Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,1-methylpyrrole,Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,indole,Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,pyridine,Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,pyrazine,Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,methylpyrazine,Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,"2,3-dimethylpyrazine",Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,"2,5-dimethylpyrazine",Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,"2,6-dimethylpyrazine",Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,2-ethyl-3-methylpyrazine,Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,trimethylpyrazine,Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,"2-ethyl-3,5-dimethylpyrazine",Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,"3,5-diethyl-2-methylpyrazine",Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,tetramethylpyrazine,Bases,,
+SHRIMPS (fermented),SHRIMPS,Seafood,3-(methylthio)propanal (=methional),Sulfur compounds,,
+SHRIMPS (fermented),SHRIMPS,Seafood,2-octylthiophene,Sulfur compounds,,
+SHRIMPS (fermented),SHRIMPS,Seafood,trichloromethane (=chloroform),Halogens,,
+SHRIMPS (fermented),SHRIMPS,Seafood,phenol (=hydroxybenzene),Phenols,,
+SHRIMPS (fermented),SHRIMPS,Seafood,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+SHRIMPS (fermented),SHRIMPS,Seafood,dioxane (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"2,6,10,14-tetramethylpentadecane (=pristane)",Hydrocarbons,0.5,0.5
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,ethanol,Alcohols,,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,1-butanol,Alcohols,,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,0.08,0.6
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,1-penten-3-ol,Alcohols,0.1,0.1
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,1-octen-3-ol,Alcohols,,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,2-methyl-2-butenal,"Carbonyls, aldehydes",,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,benzaldehyde,"Carbonyls, aldehydes",0.02,0.2
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,2-heptanone,"Carbonyls, ketones",,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"3,5-octadien-2-one","Carbonyls, ketones",0.1,0.1
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,2-decanone,"Carbonyls, ketones",trace,0.2
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,2-undecanone,"Carbonyls, ketones",,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"N,N-dimethylphenethylamine",Bases,trace,trace
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,indole,Bases,trace,0.04
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,pyridine,Bases,trace,trace
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,2-methylpyridine (=α-picoline),Bases,trace,trace
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,5-ethyl-2-methylpyridine,Bases,trace,trace
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,pyrazine,Bases,0.5,0.5
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,methylpyrazine,Bases,0.2,1.8
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"2,3-dimethylpyrazine",Bases,0.5,1.3
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"2,5-dimethylpyrazine",Bases,0.7,2.4
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"2,6-dimethylpyrazine",Bases,0.7,2
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,2-ethyl-5-methylpyrazine,Bases,,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,2-ethyl-5(or 6)-methylpyrazine,Bases,0.2,0.2
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,trimethylpyrazine,Bases,4.1,9.9
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"3-ethyl-2,5-dimethylpyrazine",Bases,trace,0.3
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"2-ethyl-3,5-dimethylpyrazine",Bases,0.9,1.6
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,tetramethylpyrazine,Bases,0.3,0.9
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,0.3,0.3
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,0.1,0.1
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,3-(methylthio)propanal (=methional),Sulfur compounds,,
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"cis-3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,0.1,0.1
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"trans-3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,0.1,0.1
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"2,4,5-trimethylthiazole",Sulfur compounds,0.6,0.6
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,2-acetylthiazole,Sulfur compounds,0.1,0.1
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,acetylthiazole (unkn.str.),Sulfur compounds,0.5,0.5
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"dihydro-2,4,6-trimethyl-1,3,5(4H)-dithiazine (=thialdine)",Sulfur compounds,0.2,1.2
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"4-ethyldihydro-2,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,0.04,0.04
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"2-ethyldihydro-4,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,0.04,0.04
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,phenol (=hydroxybenzene),Phenols,0.02,0.1
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,0.1,10.5
+SHRIMPS (cooked fermented),SHRIMPS,Seafood,dioxane (unkn.str.),"(Ep)oxides, pyrans, coumarins",0.2,0.2
+SHRIMPS (roasted),SHRIMPS,Seafood,decane,Hydrocarbons,,
+SHRIMPS (roasted),SHRIMPS,Seafood,tridecane,Hydrocarbons,,
+SHRIMPS (roasted),SHRIMPS,Seafood,tetradecane,Hydrocarbons,,
+SHRIMPS (roasted),SHRIMPS,Seafood,pentadecane,Hydrocarbons,,
+SHRIMPS (roasted),SHRIMPS,Seafood,limonene,Hydrocarbons,,
+SHRIMPS (roasted),SHRIMPS,Seafood,1-pentanol (=amyl alcohol),Alcohols,,
+SHRIMPS (roasted),SHRIMPS,Seafood,1-penten-3-ol,Alcohols,,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-methyl-1-heptanol,Alcohols,,
+SHRIMPS (roasted),SHRIMPS,Seafood,benzyl alcohol (=benzenemethanol),Alcohols,,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-pentanone,"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,3-penten-2-one,"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,4-methyl-3-penten-2-one (=mesityl oxide),"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,4-methyl-4-penten-2-one,"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,5-methyl-3-hexen-2-one,"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,3-butyl-3-hexen-2-one,"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-heptanone,"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-octanone,"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,"(E,Z)-3,5-octadien-2-one","Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,"(E,E)-3,5-octadien-2-one","Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-nonanone,"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-decanone,"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-undecanone,"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,"(Z,Z,Z)-5,8,11-tetradecatrien-2-one","Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,"(E,Z,Z)-5,8,11-tetradecatrien-2-one","Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,"2,3-dimethyl-2-cyclopenten-1-one","Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,"2,6,6-trimethyl-2-cyclohexene-1,4-dione","Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-methylpropanoic acid (=isobutyric acid),Acids,,
+SHRIMPS (roasted),SHRIMPS,Seafood,butanoic acid (=butyric acid),Acids,,
+SHRIMPS (roasted),SHRIMPS,Seafood,3-methylbutanoic acid (=isovaleric acid),Acids,,
+SHRIMPS (roasted),SHRIMPS,Seafood,pentanoic acid (=valeric acid),Acids,,
+SHRIMPS (roasted),SHRIMPS,Seafood,hexanoic acid (=caproic acid),Acids,,
+SHRIMPS (roasted),SHRIMPS,Seafood,heptanoic acid (=enanthic acid),Acids,,
+SHRIMPS (roasted),SHRIMPS,Seafood,octanoic acid (=caprylic acid),Acids,,
+SHRIMPS (roasted),SHRIMPS,Seafood,nonanoic acid (=pelargonic acid),Acids,,
+SHRIMPS (roasted),SHRIMPS,Seafood,methyl tetradecanoate (=methyl myristate),Esters,,
+SHRIMPS (roasted),SHRIMPS,Seafood,methyl hexadecanoate (=methyl palmitate),Esters,,
+SHRIMPS (roasted),SHRIMPS,Seafood,methyl 9-hexadecenoate,Esters,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"5-hydroxynonanoic acid lactone (=5-nonanolide, δ-nonalactone)",Lactones,,
+SHRIMPS (roasted),SHRIMPS,Seafood,1-methyl-2-pyrrolidone,Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,acetylpyrrole (unkn.str.),Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,pyridine,Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-methylpyridine (=α-picoline),Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"3,4-dimethylpyridine (=3,4-lutidine)",Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,1-methyl-2-pyridinone,Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,methylpyrazine,Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,ethylpyrazine,Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"2,3-dimethylpyrazine",Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"2,5-dimethylpyrazine",Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"2,6-dimethylpyrazine",Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-ethyl-5-methylpyrazine,Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-ethyl-6-methylpyrazine,Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"2,6-diethylpyrazine",Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,trimethylpyrazine,Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"3-ethyl-2,5-dimethylpyrazine",Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"2-ethyl-3,5-dimethylpyrazine",Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"3,5-diethyl-2-methylpyrazine",Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,tetramethylpyrazine,Bases,,
+SHRIMPS (roasted),SHRIMPS,Seafood,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,,
+SHRIMPS (roasted),SHRIMPS,Seafood,2-(methylthio)ethanol,Sulfur compounds,,
+SHRIMPS (roasted),SHRIMPS,Seafood,3-(methylthio)-1-propanol (=methionol),Sulfur compounds,,
+SHRIMPS (roasted),SHRIMPS,Seafood,dimethyl sulfoxide (=methylsulfinylmethane),Sulfur compounds,,
+SHRIMPS (roasted),SHRIMPS,Seafood,dimethyl sulfone (=methylsulfonylmethane),Sulfur compounds,,
+SHRIMPS (roasted),SHRIMPS,Seafood,trichloromethane (=chloroform),Halogens,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"phenylacetonitrile (=benzyl cyanide, benzeneacetonitrile)",Nitriles and amides,,
+SHRIMPS (roasted),SHRIMPS,Seafood,dimethylcyanamide,Nitriles and amides,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"N,N-dimethylformamide",Nitriles and amides,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"N,N-dimethylacetamide",Nitriles and amides,,
+SHRIMPS (roasted),SHRIMPS,Seafood,3-methylbutanamide (=isovaleramide),Nitriles and amides,,
+SHRIMPS (roasted),SHRIMPS,Seafood,tetramethylurea,Nitriles and amides,,
+SHRIMPS (roasted),SHRIMPS,Seafood,"5-ethyl-2(5H)-furanone (=4-ethyl-2-butenolide, 2-hexen-4-olide)",Furans,,
+OYSTERS,,Seafood,"1,3,5-octatriene",Hydrocarbons,0.0005,0.0005
+OYSTERS,,Seafood,ethanol,Alcohols,0.03,0.04
+OYSTERS,,Seafood,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+OYSTERS,,Seafood,1-pentanol (=amyl alcohol),Alcohols,0.004,0.005
+OYSTERS,,Seafood,1-penten-3-ol,Alcohols,0.04,0.04
+OYSTERS,,Seafood,3-hexen-1-ol,Alcohols,0.003,0.003
+OYSTERS,,Seafood,1-octanol,Alcohols,,
+OYSTERS,,Seafood,2-octen-1-ol,Alcohols,0.014,0.014
+OYSTERS,,Seafood,1-octen-3-ol,Alcohols,0.03,0.07
+OYSTERS,,Seafood,"2,5-octadien-1-ol",Alcohols,0.02,0.09
+OYSTERS,,Seafood,"1,5-octadien-3-ol",Alcohols,0.07,0.26
+OYSTERS,,Seafood,1-nonanol,Alcohols,,
+OYSTERS,,Seafood,"3,6-nonadien-1-ol",Alcohols,0.015,0.015
+OYSTERS,,Seafood,1-undecanol,Alcohols,,
+OYSTERS,,Seafood,cyclopentanol,Alcohols,0.01,0.02
+OYSTERS,,Seafood,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+OYSTERS,,Seafood,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+OYSTERS,,Seafood,2-pentenal,"Carbonyls, aldehydes",0.001,0.002
+OYSTERS,,Seafood,2-methyl-2-pentenal,"Carbonyls, aldehydes",0.001,0.006
+OYSTERS,,Seafood,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+OYSTERS,,Seafood,2-hexenal,"Carbonyls, aldehydes",,
+OYSTERS,,Seafood,"(E,Z)-2,4-heptadienal","Carbonyls, aldehydes",0.001,0.001
+OYSTERS,,Seafood,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",0.003,0.003
+OYSTERS,,Seafood,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+OYSTERS,,Seafood,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",0.003,0.007
+OYSTERS,,Seafood,"(E,Z)-2,6-nonadienal","Carbonyls, aldehydes",0.005,0.005
+OYSTERS,,Seafood,benzaldehyde,"Carbonyls, aldehydes",0.001,0.002
+OYSTERS,,Seafood,1-penten-3-one,"Carbonyls, ketones",0.004,0.004
+OYSTERS,,Seafood,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",0.001,0.001
+OYSTERS,,Seafood,2-hexanone,"Carbonyls, ketones",,
+OYSTERS,,Seafood,2-heptanone,"Carbonyls, ketones",,
+OYSTERS,,Seafood,1-octen-3-one,"Carbonyls, ketones",0.003,0.003
+OYSTERS,,Seafood,"(E,E)-3,5-octadien-2-one","Carbonyls, ketones",0.002,0.002
+OYSTERS,,Seafood,"1,5-octadien-3-one","Carbonyls, ketones",0.003,0.003
+OYSTERS,,Seafood,acetic acid,Acids,0.02,0.03
+OYSTERS,,Seafood,propanoic acid (=propionic acid),Acids,0.002,0.002
+OYSTERS,,Seafood,butanoic acid (=butyric acid),Acids,,
+OYSTERS,,Seafood,pentanoic acid (=valeric acid),Acids,,
+OYSTERS,,Seafood,methyl hexanoate,Esters,,
+OYSTERS,,Seafood,trimethylamine,Bases,,
+OYSTERS,,Seafood,"1,4-butanediamine (=putrescine)",Bases,,
+OYSTERS,,Seafood,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+OYSTERS,,Seafood,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,0.0005,0.042
+OYSTERS,,Seafood,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,0.005,0.005
+OYSTERS,,Seafood,dimethyl sulfoxide (=methylsulfinylmethane),Sulfur compounds,0.04,0.04
+OYSTERS,,Seafood,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+OYSTERS,,Seafood,5-methylfurfural,Furans,,
+OYSTERS,,Seafood,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,heptane,Hydrocarbons,0.00012,0.00012
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,heptane (unkn.str.),Hydrocarbons,trace,trace
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,octane,Hydrocarbons,0.00013,0.00013
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,octane (branched),Hydrocarbons,,
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,decane (branched),Hydrocarbons,1E-005,1E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,tridecane,Hydrocarbons,1E-005,1E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,tetradecane,Hydrocarbons,trace,trace
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,pentadecane,Hydrocarbons,1E-005,1E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,hexadecane,Hydrocarbons,2E-005,2E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,hexadecene (unkn.str.),Hydrocarbons,trace,trace
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,heptadecane,Hydrocarbons,2E-005,2E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,heptadecane (branched),Hydrocarbons,3E-005,3E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,octadecane,Hydrocarbons,6E-005,6E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,octadecane (branched),Hydrocarbons,1E-005,1E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,nonadecane,Hydrocarbons,0.00011,0.00011
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,nonadecane (branched),Hydrocarbons,5E-005,5E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,eicosane,Hydrocarbons,0.0001,0.0001
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,methylcyclohexane,Hydrocarbons,trace,trace
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,ethylcyclohexane,Hydrocarbons,1E-005,1E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,dimethylcyclohexane (unkn.str.),Hydrocarbons,,
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,bisabolene (unkn.str.),Hydrocarbons,2E-005,2E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,3-carene,Hydrocarbons,8E-005,8E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,β-bergamotene,Hydrocarbons,trace,trace
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,benzene,Hydrocarbons,trace,trace
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,methylbenzene (=toluene),Hydrocarbons,0.00014,0.00014
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,2E-005,2E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,dimethylbenzene (unkn.str.) (=xylene (unkn.str.)),Hydrocarbons,1E-005,1E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,biphenyl,Hydrocarbons,0.0004,0.0004
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,1-hexanol,Alcohols,,
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,2E-005,2E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,linalool,Alcohols,,
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,hexanal (=capronaldehyde),"Carbonyls, aldehydes",3E-005,3E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,heptanal,"Carbonyls, aldehydes",8E-005,8E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,benzaldehyde,"Carbonyls, aldehydes",,
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,3-pentanone,"Carbonyls, ketones",,
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,0.00011,0.00011
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,methylthiophenecarbaldehyde (unkn.str.),Sulfur compounds,2E-005,2E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,dichloromethane (=methylene chloride),Halogens,3E-005,3E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,"1,2-dichlorobenzene",Halogens,,
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,"1,3-dichlorobenzene",Halogens,2E-005,2E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,pentylfuran (unkn.str.),Furans,5E-005,5E-005
+"AUBERGINE, EGGPLANT (Solanum melongena L.)",,Vegetables,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,methanol,Alcohols,28,28
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,ethanol,Alcohols,970,970
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,1-propanol (=propyl alcohol),Alcohols,69,69
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,1-butanol,Alcohols,86,86
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,2-butanol (=sec-butanol),Alcohols,4,4
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,1-pentanol (=amyl alcohol),Alcohols,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,3-methyl-1-pentanol,Alcohols,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,6-methyl-5-hepten-2-ol,Alcohols,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,acetic acid,Acids,737,737
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,propanoic acid (=propionic acid),Acids,84,84
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,2-methylpropanoic acid (=isobutyric acid),Acids,25,25
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,butanoic acid (=butyric acid),Acids,58,58
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,pentanoic acid (=valeric acid),Acids,5,5
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,ethyl acetate,Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,butyl acetate,Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,phenethyl acetate,Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,ethyl butanoate,Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,butyl butanoate,Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,"isopentyl butanoate (=3-methylbutyl butanoate, isoamyl butyrate)",Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,ethyl 2-butenoate (=ethyl crotonate),Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,ethyl pentanoate,Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,ethyl 3-methylpentanoate,Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,ethyl 2-hexenoate,Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,ethyl octanoate (=ethyl caprylate),Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,ethyl benzoate,Esters,,
+"DALIEB, PALMYRA PALM FRUIT (Borassus aethiopum L.)",,Fruits,butyl benzoate,Esters,,
+,PISTACHIO NUT (Pistacia vera),Nuts,hexane,Hydrocarbons,0.16,0.16
+,PISTACHIO NUT (Pistacia vera),Nuts,terpinolene,Hydrocarbons,0.81,0.81
+,PISTACHIO NUT (Pistacia vera),Nuts,limonene,Hydrocarbons,0.54,0.54
+,PISTACHIO NUT (Pistacia vera),Nuts,α-pinene,Hydrocarbons,1.76,1.76
+,PISTACHIO NUT (Pistacia vera),Nuts,benzene,Hydrocarbons,0.4,0.4
+,PISTACHIO NUT (Pistacia vera),Nuts,"1,2,4-trimethylbenzene (=pseudocumene)",Hydrocarbons,0.36,0.36
+,PISTACHIO NUT (Pistacia vera),Nuts,ethanol,Alcohols,0.52,0.52
+,PISTACHIO NUT (Pistacia vera),Nuts,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0.7,0.7
+,PISTACHIO NUT (Pistacia vera),Nuts,nonenal (unkn.str.),"Carbonyls, aldehydes",,
+,PISTACHIO NUT (Pistacia vera),Nuts,benzaldehyde,"Carbonyls, aldehydes",0.16,0.16
+,PISTACHIO NUT (Pistacia vera),Nuts,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",2.9,2.9
+,PISTACHIO NUT (Pistacia vera),Nuts,methylpyrazine,Bases,,
+,PISTACHIO NUT (Pistacia vera),Nuts,"2,5-dimethylpyrazine",Bases,,
+,PISTACHIO NUT (Pistacia vera),Nuts,"2,6-dimethylpyrazine",Bases,,
+,PISTACHIO NUT (Pistacia vera),Nuts,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+,PISTACHIO NUT (Pistacia vera),Nuts,5-methylfurfural,Furans,,
+,PISTACHIO NUT (Pistacia vera),Nuts,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+,PISTACHIO NUT (Pistacia vera),Nuts,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+PISTACHIO NUT (raw) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,hexane,Hydrocarbons,0.16,0.16
+PISTACHIO NUT (raw) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,terpinolene,Hydrocarbons,0.81,0.81
+PISTACHIO NUT (raw) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,limonene,Hydrocarbons,0.54,0.54
+PISTACHIO NUT (raw) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,α-pinene,Hydrocarbons,1.76,1.76
+PISTACHIO NUT (raw) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,benzene,Hydrocarbons,0.4,0.4
+PISTACHIO NUT (raw) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,"1,2,4-trimethylbenzene (=pseudocumene)",Hydrocarbons,0.36,0.36
+PISTACHIO NUT (raw) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,ethanol,Alcohols,0.52,0.52
+PISTACHIO NUT (raw) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0.7,0.7
+PISTACHIO NUT (raw) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,benzaldehyde,"Carbonyls, aldehydes",0.16,0.16
+PISTACHIO NUT (raw) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",2.9,2.9
+PISTACHIO NUT (roasted) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,nonenal (unkn.str.),"Carbonyls, aldehydes",,
+PISTACHIO NUT (roasted) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,methylpyrazine,Bases,,
+PISTACHIO NUT (roasted) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,"2,5-dimethylpyrazine",Bases,,
+PISTACHIO NUT (roasted) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,"2,6-dimethylpyrazine",Bases,,
+PISTACHIO NUT (roasted) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+PISTACHIO NUT (roasted) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,5-methylfurfural,Furans,,
+PISTACHIO NUT (roasted) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+PISTACHIO NUT (roasted) (Pistacia vera),PISTACHIO NUT (Pistacia vera),Nuts,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,(Z)-β-ocimene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,(E)-β-ocimene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,β-myrcene (=myrcene),Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,α-phellandrene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,β-phellandrene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,α-terpinene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,terpinolene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,limonene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,β-elemene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,germacrene D,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,α-humulene (=humulene),Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,α-pinene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,β-pinene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,camphene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,δ-cadinene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,bicyclogermacrene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,β-caryophyllene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,α-cubebene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,β-cubebene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,α-copaene (=copaene),Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,aromadendrene,Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,"1-isopropenyl-4-methylbenzene (=α,p-dimethyl styrene, p-cymenene, dehydro-p-cymene)",Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,viridiflorene (=ledene),Hydrocarbons,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,linalool,Alcohols,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,α-terpineol,Alcohols,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,4-terpineol (=terpinen-4-ol),Alcohols,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,isopinocarveol,Alcohols,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,borneol,Alcohols,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,α-cadinol,Alcohols,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,cadinol-T,Alcohols,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,muurolol-T,Alcohols,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,viridiflorol,Alcohols,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,globulol,Alcohols,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,spathulenol (=(+)-spathulenol),Alcohols,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,myrtenal,"Carbonyls, aldehydes",,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,pinocarvone,"Carbonyls, ketones",,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,butyl acetate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,bornyl acetate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,isobornyl acetate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,isopentyl propanoate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,methyl butanoate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,ethyl butanoate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,propyl butanoate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,butyl butanoate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,sec-butyl butanoate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,pentyl butanoate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,ethyl 2-butenoate (=ethyl crotonate),Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,ethyl 2-methylbutanoate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,methyl 3-methylbutanoate (=methyl isovalerate),Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,ethyl 3-methylpentanoate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,methyl hexanoate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,methyl octanoate,Esters,,
+"CUSTARD APPLE, ATEMOYA (Annona atemoya)",,Fruits,"1,8-cineole (=eucalyptol)",Ethers,,
+TRUFFLE,,Fungi,ethanol,Alcohols,700,700
+TRUFFLE,,Fungi,2(2(2-ethoxy)ethoxy)ethoxyethanol,Alcohols,,
+TRUFFLE,,Fungi,1-propanol (=propyl alcohol),Alcohols,12.8,12.8
+TRUFFLE,,Fungi,2-methyl-1-propanol (=isobutanol),Alcohols,47.4,47.4
+TRUFFLE,,Fungi,"1,2-propanediol (=propylene glycol)",Alcohols,,
+TRUFFLE,,Fungi,1-butanol,Alcohols,,
+TRUFFLE,,Fungi,2-butanol (=sec-butanol),Alcohols,,
+TRUFFLE,,Fungi,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+TRUFFLE,,Fungi,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,39.3,39.3
+TRUFFLE,,Fungi,1-pentanol (=amyl alcohol),Alcohols,,
+TRUFFLE,,Fungi,1-hexanol,Alcohols,,
+TRUFFLE,,Fungi,2-ethyl-1-hexanol,Alcohols,,
+TRUFFLE,,Fungi,1-heptanol,Alcohols,,
+TRUFFLE,,Fungi,6-methyl-1-heptanol (=isooctanol),Alcohols,,
+TRUFFLE,,Fungi,3-octanol,Alcohols,0.4,0.4
+TRUFFLE,,Fungi,1-octen-3-ol,Alcohols,0.3,0.3
+TRUFFLE,,Fungi,2-nonanol,Alcohols,1.8,1.8
+TRUFFLE,,Fungi,2-phenylethanol (=phenethyl alcohol),Alcohols,2.2,2.2
+TRUFFLE,,Fungi,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+TRUFFLE,,Fungi,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+TRUFFLE,,Fungi,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+TRUFFLE,,Fungi,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+TRUFFLE,,Fungi,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+TRUFFLE,,Fungi,2-methyl-2-butenal,"Carbonyls, aldehydes",,
+TRUFFLE,,Fungi,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+TRUFFLE,,Fungi,heptanal,"Carbonyls, aldehydes",,
+TRUFFLE,,Fungi,benzaldehyde,"Carbonyls, aldehydes",,
+TRUFFLE,,Fungi,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+TRUFFLE,,Fungi,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+TRUFFLE,,Fungi,2-octanone,"Carbonyls, ketones",,
+TRUFFLE,,Fungi,3-octanone,"Carbonyls, ketones",,
+TRUFFLE,,Fungi,acetic acid,Acids,,
+TRUFFLE,,Fungi,ethyl acetate,Esters,,
+TRUFFLE,,Fungi,butyl acetate,Esters,,
+TRUFFLE,,Fungi,diethyl phosphate,Esters,,
+TRUFFLE,,Fungi,isopentylamine,Bases,245,245
+TRUFFLE,,Fungi,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,8,8
+TRUFFLE,,Fungi,"2,4-dithiapentane (=bis(methylthio)methane, methylene bis(methyl sulfide))",Sulfur compounds,,
+TRUFFLE,,Fungi,methylidynetris(methyl sulfide) (=tris(methylthio)methane),Sulfur compounds,,
+TRUFFLE,,Fungi,"2,3,5-trithiahexane",Sulfur compounds,,
+TRUFFLE,,Fungi,phenol (=hydroxybenzene),Phenols,,
+TRUFFLE,,Fungi,methylphenol (unkn.str.) (=cresol (unkn.str.)),Phenols,1,2
+TRUFFLE,,Fungi,"2,6-diisobutyl-4-methylphenol",Phenols,,
+TRUFFLE,,Fungi,"methoxybenzene (=anisole, methyl phenyl ether)",Phenols,,
+TRUFFLE,,Fungi,1-methoxy-3-methylbenzene (=3-methylanisole),Phenols,,
+TRUFFLE,,Fungi,furan,Furans,,
+TRUFFLE,,Fungi,2-methylfuran,Furans,,
+TRUFFLE,,Fungi,"dihydro-3,5-dimethyl-2(3H)-furanone",Furans,,
+TRUFFLE,,Fungi,"3,5,5-trimethyl-2(5H)-furanone",Furans,,
+TRUFFLE,,Fungi,2-acetyl-5-methylfuran,Furans,,
+ARRACK,,Alcoholic Beverages > 20% alc.,methanol,Alcohols,25.6,750
+ARRACK,,Alcoholic Beverages > 20% alc.,ethanol,Alcohols,Present,Present
+ARRACK,,Alcoholic Beverages > 20% alc.,1-propanol (=propyl alcohol),Alcohols,0,244
+ARRACK,,Alcoholic Beverages > 20% alc.,3-ethoxy-1-propanol,Alcohols,,
+ARRACK,,Alcoholic Beverages > 20% alc.,2-propen-1-ol (=allyl alcohol),Alcohols,1.6,1.6
+ARRACK,,Alcoholic Beverages > 20% alc.,2-methyl-1-propanol (=isobutanol),Alcohols,0,438
+ARRACK,,Alcoholic Beverages > 20% alc.,1-butanol,Alcohols,6.8,6.8
+ARRACK,,Alcoholic Beverages > 20% alc.,2-butanol (=sec-butanol),Alcohols,4,4
+ARRACK,,Alcoholic Beverages > 20% alc.,2-methyl-1-butanol (=active amyl alcohol),Alcohols,22,22
+ARRACK,,Alcoholic Beverages > 20% alc.,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,92,890
+ARRACK,,Alcoholic Beverages > 20% alc.,1-pentanol (=amyl alcohol),Alcohols,,
+ARRACK,,Alcoholic Beverages > 20% alc.,pentanol (unkn.str.),Alcohols,0,1246
+ARRACK,,Alcoholic Beverages > 20% alc.,1-hexanol,Alcohols,,
+ARRACK,,Alcoholic Beverages > 20% alc.,1-octanol,Alcohols,,
+ARRACK,,Alcoholic Beverages > 20% alc.,2-phenylethanol (=phenethyl alcohol),Alcohols,3.2,3.2
+ARRACK,,Alcoholic Beverages > 20% alc.,acetaldehyde (=ethanal),"Carbonyls, aldehydes",100,100
+ARRACK,,Alcoholic Beverages > 20% alc.,3-ethoxypropanal,"Carbonyls, aldehydes",,
+ARRACK,,Alcoholic Beverages > 20% alc.,benzaldehyde,"Carbonyls, aldehydes",14.8,14.8
+ARRACK,,Alcoholic Beverages > 20% alc.,acetic acid,Acids,,
+ARRACK,,Alcoholic Beverages > 20% alc.,ethyl formate,Esters,,
+ARRACK,,Alcoholic Beverages > 20% alc.,methyl acetate,Esters,15.2,15.2
+ARRACK,,Alcoholic Beverages > 20% alc.,ethyl acetate,Esters,380,1330
+ARRACK,,Alcoholic Beverages > 20% alc.,propyl acetate,Esters,4,4
+ARRACK,,Alcoholic Beverages > 20% alc.,isobutyl acetate (=2-methylpropyl acetate),Esters,,
+ARRACK,,Alcoholic Beverages > 20% alc.,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,1.2,1.2
+ARRACK,,Alcoholic Beverages > 20% alc.,ethyl propanoate,Esters,2,2
+ARRACK,,Alcoholic Beverages > 20% alc.,ethyl 2-hydroxypropanoate (=ethyl lactate),Esters,22.8,22.8
+ARRACK,,Alcoholic Beverages > 20% alc.,ethyl butanoate,Esters,2.4,2.4
+ARRACK,,Alcoholic Beverages > 20% alc.,ethyl hexanoate (=ethyl caproate),Esters,,
+ARRACK,,Alcoholic Beverages > 20% alc.,ethyl octanoate (=ethyl caprylate),Esters,1.2,1.2
+ARRACK,,Alcoholic Beverages > 20% alc.,ethyl decanoate (=ethyl caprate),Esters,1.6,1.6
+ARRACK,,Alcoholic Beverages > 20% alc.,ethyl dodecanoate (=ethyl laurate),Esters,1.2,1.2
+ARRACK,,Alcoholic Beverages > 20% alc.,diethyl succinate (=diethyl butanedioate),Esters,1.6,1.6
+ARRACK,,Alcoholic Beverages > 20% alc.,ethanethiol (=ethyl mercaptan),Sulfur compounds,,
+ARRACK,,Alcoholic Beverages > 20% alc.,diethyl sulfide (=ethylthioethane),Sulfur compounds,,
+ARRACK,,Alcoholic Beverages > 20% alc.,"diethyl disulfide (=ethyldithioethane, 3,4-dithiahexane)",Sulfur compounds,,
+ARRACK,,Alcoholic Beverages > 20% alc.,"1,1-diethoxyethane (=acetal, acetaldehyde diethyl acetal)",Acetals,52,52
+ARRACK,,Alcoholic Beverages > 20% alc.,"1,1-diethoxypropane",Acetals,,
+ARRACK,,Alcoholic Beverages > 20% alc.,"1,1,3-triethoxypropane",Acetals,,
+ARRACK,,Alcoholic Beverages > 20% alc.,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,17.2,17.2

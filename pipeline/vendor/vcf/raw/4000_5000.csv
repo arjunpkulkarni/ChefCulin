@@ -1,0 +1,1890 @@
+Product,Product Category,Product Group,Compound,Compound Group,Quantity Lower Bound,Quantity Upper Bound
+VINEGAR,,Spices & Condiments,methane,Hydrocarbons,,
+VINEGAR,,Spices & Condiments,ethane,Hydrocarbons,,
+VINEGAR,,Spices & Condiments,dodecane,Hydrocarbons,,
+VINEGAR,,Spices & Condiments,tridecane,Hydrocarbons,,
+VINEGAR,,Spices & Condiments,tetradecane,Hydrocarbons,,
+VINEGAR,,Spices & Condiments,methylbenzene (=toluene),Hydrocarbons,,
+VINEGAR,,Spices & Condiments,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+VINEGAR,,Spices & Condiments,vinylbenzene (=styrene),Hydrocarbons,,
+VINEGAR,,Spices & Condiments,methanol,Alcohols,,
+VINEGAR,,Spices & Condiments,ethanol,Alcohols,200,9900
+VINEGAR,,Spices & Condiments,1-propanol (=propyl alcohol),Alcohols,4,49
+VINEGAR,,Spices & Condiments,2-methyl-1-propanol (=isobutanol),Alcohols,21,90
+VINEGAR,,Spices & Condiments,"2,2-dimethyl-1-propanol",Alcohols,,
+VINEGAR,,Spices & Condiments,1-butanol,Alcohols,,
+VINEGAR,,Spices & Condiments,2-butanol (=sec-butanol),Alcohols,25,111
+VINEGAR,,Spices & Condiments,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+VINEGAR,,Spices & Condiments,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,8,86
+VINEGAR,,Spices & Condiments,2-methyl-3-buten-2-ol,Alcohols,,
+VINEGAR,,Spices & Condiments,"2,3-butanediol (=2,3-butylene glycol)",Alcohols,55,851
+VINEGAR,,Spices & Condiments,1-pentanol (=amyl alcohol),Alcohols,34,108
+VINEGAR,,Spices & Condiments,2-pentanol,Alcohols,,
+VINEGAR,,Spices & Condiments,3-pentanol,Alcohols,,
+VINEGAR,,Spices & Condiments,2-methylbenzyl alcohol,Alcohols,,
+VINEGAR,,Spices & Condiments,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+VINEGAR,,Spices & Condiments,acetaldehyde (=ethanal),"Carbonyls, aldehydes",20,1060
+VINEGAR,,Spices & Condiments,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+VINEGAR,,Spices & Condiments,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+VINEGAR,,Spices & Condiments,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+VINEGAR,,Spices & Condiments,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+VINEGAR,,Spices & Condiments,benzaldehyde,"Carbonyls, aldehydes",,
+VINEGAR,,Spices & Condiments,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+VINEGAR,,Spices & Condiments,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+VINEGAR,,Spices & Condiments,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",10,9700
+VINEGAR,,Spices & Condiments,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",0.92,56
+VINEGAR,,Spices & Condiments,2-pentanone,"Carbonyls, ketones",,
+VINEGAR,,Spices & Condiments,4-methyl-2-pentanone,"Carbonyls, ketones",,
+VINEGAR,,Spices & Condiments,acetic acid,Acids,47000,68000
+VINEGAR,,Spices & Condiments,propanoic acid (=propionic acid),Acids,83,25000
+VINEGAR,,Spices & Condiments,2-methylpropanoic acid (=isobutyric acid),Acids,12.5,60
+VINEGAR,,Spices & Condiments,2-methylbutanoic acid,Acids,,
+VINEGAR,,Spices & Condiments,3-methylbutanoic acid (=isovaleric acid),Acids,,
+VINEGAR,,Spices & Condiments,methyl formate,Esters,,
+VINEGAR,,Spices & Condiments,ethyl formate,Esters,32,185
+VINEGAR,,Spices & Condiments,isobutyl formate,Esters,,
+VINEGAR,,Spices & Condiments,isopentyl formate,Esters,,
+VINEGAR,,Spices & Condiments,phenethyl formate,Esters,,
+VINEGAR,,Spices & Condiments,methyl acetate,Esters,,
+VINEGAR,,Spices & Condiments,ethyl acetate,Esters,9.8,130
+VINEGAR,,Spices & Condiments,propyl acetate,Esters,,
+VINEGAR,,Spices & Condiments,butyl acetate,Esters,4,166
+VINEGAR,,Spices & Condiments,isobutyl acetate (=2-methylpropyl acetate),Esters,2.5,600
+VINEGAR,,Spices & Condiments,"sec-butyl acetate (=2-butyl acetate, 1-methylpropyl acetate)",Esters,43,67
+VINEGAR,,Spices & Condiments,2-methylbutyl acetate,Esters,,
+VINEGAR,,Spices & Condiments,pentyl acetate (=amyl acetate),Esters,52,140
+VINEGAR,,Spices & Condiments,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+VINEGAR,,Spices & Condiments,benzyl acetate,Esters,,
+VINEGAR,,Spices & Condiments,phenethyl acetate,Esters,,
+VINEGAR,,Spices & Condiments,ethyl propanoate,Esters,,
+VINEGAR,,Spices & Condiments,ethyl 2-hydroxypropanoate (=ethyl lactate),Esters,,
+VINEGAR,,Spices & Condiments,ethyl butanoate,Esters,,
+VINEGAR,,Spices & Condiments,ethyl pentanoate,Esters,,
+VINEGAR,,Spices & Condiments,diethyl succinate (=diethyl butanedioate),Esters,,
+VINEGAR,,Spices & Condiments,methyl benzoate,Esters,,
+VINEGAR,,Spices & Condiments,ethyl benzoate,Esters,,
+VINEGAR,,Spices & Condiments,isopentyl benzoate,Esters,,
+VINEGAR,,Spices & Condiments,diethyl phthalate,Esters,,
+VINEGAR,,Spices & Condiments,"4-hydroxybutanoic acid lactone (=dihydro-2(3H)-furanone, 4-butanolide, γ-butyrolactone)",Lactones,,
+VINEGAR,,Spices & Condiments,1-ethoxy-1-methoxyethane,Acetals,,
+VINEGAR,,Spices & Condiments,"1,1-diethoxyethane (=acetal, acetaldehyde diethyl acetal)",Acetals,,
+VINEGAR,,Spices & Condiments,"2-bromo-1,1-diethoxyethane",Acetals,,
+VINEGAR,,Spices & Condiments,dimethyl ether,Ethers,,
+VINEGAR,,Spices & Condiments,ethyl isopropyl ether,Ethers,,
+VINEGAR,,Spices & Condiments,sec-butyl ethyl ether,Ethers,,
+VINEGAR,,Spices & Condiments,chloromethane,Halogens,,
+VINEGAR,,Spices & Condiments,tetrachloroethane (unkn.str.),Halogens,,
+VINEGAR,,Spices & Condiments,"1,2,4-trichlorobenzene",Halogens,,
+VINEGAR,,Spices & Condiments,bromomethane,Halogens,,
+VINEGAR,,Spices & Condiments,1-bromoethane,Halogens,,
+VINEGAR,,Spices & Condiments,"1,1-dibromoethane",Halogens,,
+VINEGAR,,Spices & Condiments,1-bromopropane,Halogens,,
+VINEGAR,,Spices & Condiments,1-bromo-2-phenylethane (=phenethyl bromide),Halogens,,
+VINEGAR,,Spices & Condiments,iodomethane,Halogens,,
+VINEGAR,,Spices & Condiments,2-bromo-4-chloropentane,Halogens,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,22000,22000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,(E)-β-farnesene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-phellandrene,Hydrocarbons,17000,17000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,β-phellandrene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-terpinene,Hydrocarbons,75000,75000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,γ-terpinene,Hydrocarbons,116000,116000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,terpinolene,Hydrocarbons,37000,37000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,limonene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,(4R)-(+)-limonene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,(4S)-(-)-limonene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,β-sesquiphellandrene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,β-elemene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-bisabolene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,β-bisabolene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,germacrene D,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-pinene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,(1R)-α-pinene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,(1S)-α-pinene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,β-pinene,Hydrocarbons,106000,106000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,(1R)-β-pinene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,(1S)-β-pinene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,camphene,Hydrocarbons,3000,3000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,cyclocopacamphene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-thujene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,125000,125000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,3-carene,Hydrocarbons,21000,21000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,trans-α-bergamotene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-amorphene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,γ-cadinene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,δ-cadinene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,cubenene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-muurolene,Hydrocarbons,1000,1000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,γ-muurolene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"α-selinene (=5β,7α,10α-selina-3,11-diene)",Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,bicyclogermacrene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,β-caryophyllene,Hydrocarbons,5000,5000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-cubebene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,β-cubebene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,2000,2000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,aromadendrene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-gurjunene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,14000,14000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"1-isopropenyl-4-methylbenzene (=α,p-dimethyl styrene, p-cymenene, dehydro-p-cymene)",Hydrocarbons,1000,1000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,calamenene,Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,viridiflorene (=ledene),Hydrocarbons,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,zonarene,Hydrocarbons,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,geraniol,Alcohols,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,linalool,Alcohols,3000,3000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,(R)-(-)-linalool (=licareol),Alcohols,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,(S)-(+)-linalool (=coriandrol),Alcohols,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-terpineol,Alcohols,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,142000,142000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,cis-p-2-menthen-1-ol,Alcohols,2000,2000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,trans-p-2-menthen-1-ol,Alcohols,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,cis-piperitol,Alcohols,1000,1000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,trans-piperitol,Alcohols,1000,1000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,borneol,Alcohols,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,cis-sabinene hydrate (=cis-4-thujanol),Alcohols,2000,2000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,trans-sabinene hydrate (=trans-4-thujanol),Alcohols,2000,2000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,pentanal (=valeraldehyde),"Carbonyls, aldehydes",1000,1000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,phellandral,"Carbonyls, aldehydes",trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,myrtenal,"Carbonyls, aldehydes",trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,piperitone,"Carbonyls, ketones",trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,citronellyl acetate,Esters,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,geranyl acetate,Esters,1000,1000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,α-terpinyl acetate,Esters,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,4-terpinenyl acetate,Esters,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,cis-myrtanyl acetate,Esters,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,bornyl acetate,Esters,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"1,4-cineole",Ethers,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,1000,1000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"(E)-1,2-dimethoxy-4-(1-propenyl)-benzene (=(E)-methylisoeugenol)",Phenols,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"5-allyl-1,3-benzodioxole (=safrole)",Phenols,2000,19900
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"5-allyl-1,2,3-trimethoxybenzene (=elemicin)",Phenols,20000,20000
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"(Z)-1,2,3-trimethoxy-5-(1-propenyl)benzene (=Z-isoelemicin)",Phenols,,
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"(E)-1,2,3-trimethoxy-5-(1-propenyl)benzene (=E-isoelemicin)",Phenols,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"6-allyl-4-methoxy-1,3-benzodioxole (=myristicin)",Phenols,13000,75500
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"(E)-4-methoxy-6-(1-propenyl)-1,3-benzodioxole (=E-isomyristicin)",Phenols,trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,"6,8-epoxy-p-1-menthene (=pinol)","(Ep)oxides, pyrans, coumarins",trace,trace
+MACE (Myristica fragrans Houttuyn),,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",trace,trace
+,PARSLEY (Petroselium species),Vegetables,nonane,Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,"(E,Z)-1,3,5-undecatriene",Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,tridecane,Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,β-ocimene,Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,(Z)-β-ocimene,Hydrocarbons,2.7,2.7
+,PARSLEY (Petroselium species),Vegetables,(E)-β-ocimene,Hydrocarbons,5.2,5.2
+,PARSLEY (Petroselium species),Vegetables,β-myrcene (=myrcene),Hydrocarbons,90,302
+,PARSLEY (Petroselium species),Vegetables,β-farnesene,Hydrocarbons,trace,247
+,PARSLEY (Petroselium species),Vegetables,α-phellandrene,Hydrocarbons,1.8,51.2
+,PARSLEY (Petroselium species),Vegetables,β-phellandrene,Hydrocarbons,trace,867.2
+,PARSLEY (Petroselium species),Vegetables,α-terpinene,Hydrocarbons,1.6,1.6
+,PARSLEY (Petroselium species),Vegetables,γ-terpinene,Hydrocarbons,9.6,29
+,PARSLEY (Petroselium species),Vegetables,terpinene (unkn.str.),Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,terpinolene,Hydrocarbons,6,148.1
+,PARSLEY (Petroselium species),Vegetables,"(+)-m-1(6),8-menthadiene",Hydrocarbons,980,980
+,PARSLEY (Petroselium species),Vegetables,limonene,Hydrocarbons,6,252
+,PARSLEY (Petroselium species),Vegetables,"p-1,3,8-menthatriene",Hydrocarbons,500,640.7
+,PARSLEY (Petroselium species),Vegetables,β-sesquiphellandrene,Hydrocarbons,1.9,1.9
+,PARSLEY (Petroselium species),Vegetables,α-elemene,Hydrocarbons,69.2,69.2
+,PARSLEY (Petroselium species),Vegetables,β-elemene,Hydrocarbons,6.3,11.9
+,PARSLEY (Petroselium species),Vegetables,γ-elemene,Hydrocarbons,trace,4.3
+,PARSLEY (Petroselium species),Vegetables,β-bisabolene,Hydrocarbons,33.3,92
+,PARSLEY (Petroselium species),Vegetables,germacrene B,Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,α-pinene,Hydrocarbons,0.1,4324
+,PARSLEY (Petroselium species),Vegetables,β-pinene,Hydrocarbons,1.2,3548
+,PARSLEY (Petroselium species),Vegetables,santene,Hydrocarbons,1.2,1.2
+,PARSLEY (Petroselium species),Vegetables,camphene,Hydrocarbons,4.2,33
+,PARSLEY (Petroselium species),Vegetables,α-thujene,Hydrocarbons,0.6,45
+,PARSLEY (Petroselium species),Vegetables,sabinene (=4(10)-thujene),Hydrocarbons,0.6,181
+,PARSLEY (Petroselium species),Vegetables,3-carene,Hydrocarbons,trace,14
+,PARSLEY (Petroselium species),Vegetables,α-cadinene,Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,γ-cadinene,Hydrocarbons,36.8,36.8
+,PARSLEY (Petroselium species),Vegetables,β-caryophyllene,Hydrocarbons,3.6,50
+,PARSLEY (Petroselium species),Vegetables,α-cubebene,Hydrocarbons,12.9,12.9
+,PARSLEY (Petroselium species),Vegetables,α-copaene (=copaene),Hydrocarbons,trace,trace
+,PARSLEY (Petroselium species),Vegetables,benzene,Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,methylbenzene (=toluene),Hydrocarbons,trace,trace
+,PARSLEY (Petroselium species),Vegetables,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,vinylbenzene (=styrene),Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,isopropylbenzene (=cumene),Hydrocarbons,trace,trace
+,PARSLEY (Petroselium species),Vegetables,isobutylbenzene,Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,dimethylbenzene (unkn.str.) (=xylene (unkn.str.)),Hydrocarbons,trace,trace
+,PARSLEY (Petroselium species),Vegetables,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,0.8,97.8
+,PARSLEY (Petroselium species),Vegetables,"1-isopropenyl-4-methylbenzene (=α,p-dimethyl styrene, p-cymenene, dehydro-p-cymene)",Hydrocarbons,9,500.6
+,PARSLEY (Petroselium species),Vegetables,naphthalene,Hydrocarbons,,
+,PARSLEY (Petroselium species),Vegetables,methanol,Alcohols,,
+,PARSLEY (Petroselium species),Vegetables,ethanol,Alcohols,,
+,PARSLEY (Petroselium species),Vegetables,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,6.4,6.4
+,PARSLEY (Petroselium species),Vegetables,isomyrcenol,Alcohols,21,21
+,PARSLEY (Petroselium species),Vegetables,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,47.3,47.3
+,PARSLEY (Petroselium species),Vegetables,α-terpineol,Alcohols,1.7,117.2
+,PARSLEY (Petroselium species),Vegetables,4-terpineol (=terpinen-4-ol),Alcohols,trace,trace
+,PARSLEY (Petroselium species),Vegetables,myrtenol,Alcohols,trace,trace
+,PARSLEY (Petroselium species),Vegetables,δ-cadinol (=torreyol),Alcohols,40.6,40.6
+,PARSLEY (Petroselium species),Vegetables,carotol,Alcohols,,
+,PARSLEY (Petroselium species),Vegetables,falcarinol,Alcohols,30,30
+,PARSLEY (Petroselium species),Vegetables,falcarindiol,Alcohols,10,10
+,PARSLEY (Petroselium species),Vegetables,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+,PARSLEY (Petroselium species),Vegetables,hexanal (=capronaldehyde),"Carbonyls, aldehydes",7.9,7.9
+,PARSLEY (Petroselium species),Vegetables,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+,PARSLEY (Petroselium species),Vegetables,"2,4-decadienal","Carbonyls, aldehydes",,
+,PARSLEY (Petroselium species),Vegetables,"citronellal (=3,7-dimethyl-6-octenal)","Carbonyls, aldehydes",31,31
+,PARSLEY (Petroselium species),Vegetables,benzaldehyde,"Carbonyls, aldehydes",2.4,2.4
+,PARSLEY (Petroselium species),Vegetables,4-isopropylbenzaldehyde (=cuminaldehyde),"Carbonyls, aldehydes",trace,trace
+,PARSLEY (Petroselium species),Vegetables,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",4.8,4.8
+,PARSLEY (Petroselium species),Vegetables,2-(4-methylphenyl)propanal,"Carbonyls, aldehydes",1.7,20.4
+,PARSLEY (Petroselium species),Vegetables,p-1-menthen-9-al,"Carbonyls, aldehydes",66,66
+,PARSLEY (Petroselium species),Vegetables,"p-1,4-menthadien-7-al","Carbonyls, aldehydes",,
+,PARSLEY (Petroselium species),Vegetables,phellandral,"Carbonyls, aldehydes",4.9,4.9
+,PARSLEY (Petroselium species),Vegetables,myrtenal,"Carbonyls, aldehydes",10,10
+,PARSLEY (Petroselium species),Vegetables,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+,PARSLEY (Petroselium species),Vegetables,4-isopropyl-2-cyclohexen-1-one (=cryptone),"Carbonyls, ketones",trace,6.4
+,PARSLEY (Petroselium species),Vegetables,4-methylacetophenone,"Carbonyls, ketones",133.3,133.3
+,PARSLEY (Petroselium species),Vegetables,piperitone,"Carbonyls, ketones",44,44
+,PARSLEY (Petroselium species),Vegetables,campherenone,"Carbonyls, ketones",47,47
+,PARSLEY (Petroselium species),Vegetables,pinocamphone,"Carbonyls, ketones",37,37
+,PARSLEY (Petroselium species),Vegetables,santenone,"Carbonyls, ketones",8.7,8.7
+,PARSLEY (Petroselium species),Vegetables,3-hexenyl acetate,Esters,,
+,PARSLEY (Petroselium species),Vegetables,benzyl benzoate,Esters,,
+,PARSLEY (Petroselium species),Vegetables,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+,PARSLEY (Petroselium species),Vegetables,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+,PARSLEY (Petroselium species),Vegetables,dichloromethane (=methylene chloride),Halogens,,
+,PARSLEY (Petroselium species),Vegetables,1-chloroethane (=ethyl chloride),Halogens,,
+,PARSLEY (Petroselium species),Vegetables,thymol (=2-isopropyl-5-methylphenol),Phenols,,
+,PARSLEY (Petroselium species),Vegetables,"5-allyl-1,2,3-trimethoxybenzene (=elemicin)",Phenols,18.5,743
+,PARSLEY (Petroselium species),Vegetables,"6-allyl-4-methoxy-1,3-benzodioxole (=myristicin)",Phenols,20,5241
+,PARSLEY (Petroselium species),Vegetables,"5-allyl-4,7-dimethoxy-1,3-benzodioxole (=apiole, parsley apiole)",Phenols,trace,1275
+,PARSLEY (Petroselium species),Vegetables,"1-allyl-2,3,4,5-tetramethoxybenzene",Phenols,967,967
+,PARSLEY (Petroselium species),Vegetables,2-pentylfuran,Furans,3.6,3.6
+,PARSLEY (Petroselium species),Vegetables,dimethylbenzofuran (unkn.str.),Furans,trace,trace
+,PARSLEY (Petroselium species),Vegetables,"1,2:3,4-diepoxy-p-8-menthene","(Ep)oxides, pyrans, coumarins",,
+,PARSLEY (Petroselium species),Vegetables,"1,4-epidioxy-p-2,8-menthadiene","(Ep)oxides, pyrans, coumarins",,
+,PARSLEY (Petroselium species),Vegetables,7-methoxy-8-(3-methyl-2-butenyl)coumarin (=osthol),"(Ep)oxides, pyrans, coumarins",33.6,33.6
+,PARSLEY (Petroselium species),Vegetables,"3-butyl-4,5-dihydrophthalide (=sedanenolide, senkyunolide)",Anhydrides and phthalides,5,5
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,nonane,Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"(E,Z)-1,3,5-undecatriene",Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,tridecane,Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,β-ocimene,Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,(Z)-β-ocimene,Hydrocarbons,2.7,2.7
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,(E)-β-ocimene,Hydrocarbons,5.2,5.2
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,β-myrcene (=myrcene),Hydrocarbons,302,302
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,β-farnesene,Hydrocarbons,trace,trace
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,α-phellandrene,Hydrocarbons,1.8,51.2
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,β-phellandrene,Hydrocarbons,trace,867.2
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,α-terpinene,Hydrocarbons,1.6,1.6
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,γ-terpinene,Hydrocarbons,9.6,29
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,terpinene (unkn.str.),Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,terpinolene,Hydrocarbons,6,148.1
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,limonene,Hydrocarbons,6,252
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"p-1,3,8-menthatriene",Hydrocarbons,500,640.7
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,β-sesquiphellandrene,Hydrocarbons,1.9,1.9
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,α-elemene,Hydrocarbons,69.2,69.2
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,β-elemene,Hydrocarbons,6.3,11.9
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,γ-elemene,Hydrocarbons,trace,4.3
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,β-bisabolene,Hydrocarbons,33.3,33.3
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,germacrene B,Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,α-pinene,Hydrocarbons,0.1,353
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,β-pinene,Hydrocarbons,1.2,127.8
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,santene,Hydrocarbons,1.2,1.2
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,camphene,Hydrocarbons,4.2,12.9
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,α-thujene,Hydrocarbons,0.6,24
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,sabinene (=4(10)-thujene),Hydrocarbons,0.6,18.7
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,3-carene,Hydrocarbons,trace,14
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,α-cadinene,Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,γ-cadinene,Hydrocarbons,36.8,36.8
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,β-caryophyllene,Hydrocarbons,3.6,30.1
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,α-cubebene,Hydrocarbons,12.9,12.9
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,α-copaene (=copaene),Hydrocarbons,trace,trace
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,benzene,Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,methylbenzene (=toluene),Hydrocarbons,trace,trace
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,vinylbenzene (=styrene),Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,isopropylbenzene (=cumene),Hydrocarbons,trace,trace
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,isobutylbenzene,Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,dimethylbenzene (unkn.str.) (=xylene (unkn.str.)),Hydrocarbons,trace,trace
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,0.8,97.8
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"1-isopropenyl-4-methylbenzene (=α,p-dimethyl styrene, p-cymenene, dehydro-p-cymene)",Hydrocarbons,9,500.6
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,naphthalene,Hydrocarbons,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,methanol,Alcohols,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,ethanol,Alcohols,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,6.4,6.4
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,47.3,47.3
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,α-terpineol,Alcohols,1.7,117.2
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,4-terpineol (=terpinen-4-ol),Alcohols,trace,trace
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,myrtenol,Alcohols,trace,trace
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,δ-cadinol (=torreyol),Alcohols,40.6,40.6
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,carotol,Alcohols,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,hexanal (=capronaldehyde),"Carbonyls, aldehydes",7.9,7.9
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"2,4-decadienal","Carbonyls, aldehydes",,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,benzaldehyde,"Carbonyls, aldehydes",2.4,2.4
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,4-isopropylbenzaldehyde (=cuminaldehyde),"Carbonyls, aldehydes",trace,trace
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",4.8,4.8
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,2-(4-methylphenyl)propanal,"Carbonyls, aldehydes",1.7,20.4
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"p-1,4-menthadien-7-al","Carbonyls, aldehydes",,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,phellandral,"Carbonyls, aldehydes",4.9,4.9
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,4-isopropyl-2-cyclohexen-1-one (=cryptone),"Carbonyls, ketones",trace,6.4
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,4-methylacetophenone,"Carbonyls, ketones",133.3,133.3
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,3-hexenyl acetate,Esters,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,benzyl benzoate,Esters,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,dichloromethane (=methylene chloride),Halogens,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,1-chloroethane (=ethyl chloride),Halogens,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,thymol (=2-isopropyl-5-methylphenol),Phenols,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"5-allyl-1,2,3-trimethoxybenzene (=elemicin)",Phenols,18.5,18.5
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"6-allyl-4-methoxy-1,3-benzodioxole (=myristicin)",Phenols,20,1435
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"5-allyl-4,7-dimethoxy-1,3-benzodioxole (=apiole, parsley apiole)",Phenols,trace,1275
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"1-allyl-2,3,4,5-tetramethoxybenzene",Phenols,,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,2-pentylfuran,Furans,3.6,3.6
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,dimethylbenzofuran (unkn.str.),Furans,trace,trace
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"1,2:3,4-diepoxy-p-8-menthene","(Ep)oxides, pyrans, coumarins",,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,"1,4-epidioxy-p-2,8-menthadiene","(Ep)oxides, pyrans, coumarins",,
+PARSLEY LEAVES,PARSLEY (Petroselium species),Vegetables,7-methoxy-8-(3-methyl-2-butenyl)coumarin (=osthol),"(Ep)oxides, pyrans, coumarins",33.6,33.6
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,β-myrcene (=myrcene),Hydrocarbons,90,90
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,β-farnesene,Hydrocarbons,247,247
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,"(+)-m-1(6),8-menthadiene",Hydrocarbons,980,980
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,β-bisabolene,Hydrocarbons,92,92
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,α-pinene,Hydrocarbons,4324,4324
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,β-pinene,Hydrocarbons,3548,3548
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,camphene,Hydrocarbons,33,33
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,α-thujene,Hydrocarbons,45,45
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,sabinene (=4(10)-thujene),Hydrocarbons,181,181
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,β-caryophyllene,Hydrocarbons,50,50
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,80,80
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,isomyrcenol,Alcohols,21,21
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,α-terpineol,Alcohols,26,26
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,"citronellal (=3,7-dimethyl-6-octenal)","Carbonyls, aldehydes",31,31
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,p-1-menthen-9-al,"Carbonyls, aldehydes",66,66
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,myrtenal,"Carbonyls, aldehydes",10,10
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,piperitone,"Carbonyls, ketones",44,44
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,campherenone,"Carbonyls, ketones",47,47
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,pinocamphone,"Carbonyls, ketones",37,37
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,santenone,"Carbonyls, ketones",8.7,8.7
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,"5-allyl-1,2,3-trimethoxybenzene (=elemicin)",Phenols,743,743
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,"6-allyl-4-methoxy-1,3-benzodioxole (=myristicin)",Phenols,5241,5241
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,"5-allyl-4,7-dimethoxy-1,3-benzodioxole (=apiole, parsley apiole)",Phenols,68,68
+PARSLEY SEED OIL,PARSLEY (Petroselium species),Vegetables,"1-allyl-2,3,4,5-tetramethoxybenzene",Phenols,967,967
+PARSLEY ROOT,PARSLEY (Petroselium species),Vegetables,falcarinol,Alcohols,30,30
+PARSLEY ROOT,PARSLEY (Petroselium species),Vegetables,falcarindiol,Alcohols,10,10
+PARSLEY ROOT,PARSLEY (Petroselium species),Vegetables,"3-butyl-4,5-dihydrophthalide (=sedanenolide, senkyunolide)",Anhydrides and phthalides,5,5
+,THYME (Thymus species),Spices & Condiments,hexane,Hydrocarbons,26000,26000
+,THYME (Thymus species),Spices & Condiments,heptane,Hydrocarbons,700,1000
+,THYME (Thymus species),Spices & Condiments,"2,8-dimethyl-2-decene",Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,"2,9-dimethyl-2-decene",Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,tetradecane,Hydrocarbons,trace,trace
+,THYME (Thymus species),Spices & Condiments,hexadecane,Hydrocarbons,200,1000
+,THYME (Thymus species),Spices & Condiments,heptadecane,Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,β-ocimene,Hydrocarbons,1000,7300
+,THYME (Thymus species),Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,100,500
+,THYME (Thymus species),Spices & Condiments,(E)-β-ocimene,Hydrocarbons,100,500
+,THYME (Thymus species),Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,1500,49000
+,THYME (Thymus species),Spices & Condiments,"(E,E)-α-farnesene (=α-farnesene)",Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,β-farnesene,Hydrocarbons,1000,1000
+,THYME (Thymus species),Spices & Condiments,(Z)-β-farnesene,Hydrocarbons,<400,<400
+,THYME (Thymus species),Spices & Condiments,(E)-β-farnesene,Hydrocarbons,300,500
+,THYME (Thymus species),Spices & Condiments,α-phellandrene,Hydrocarbons,<100,13600
+,THYME (Thymus species),Spices & Condiments,β-phellandrene,Hydrocarbons,<10000,<10000
+,THYME (Thymus species),Spices & Condiments,phellandrene (unkn.str.),Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,α-terpinene,Hydrocarbons,0,23400
+,THYME (Thymus species),Spices & Condiments,β-terpinene,Hydrocarbons,12200,12200
+,THYME (Thymus species),Spices & Condiments,γ-terpinene,Hydrocarbons,0,224000
+,THYME (Thymus species),Spices & Condiments,terpinolene,Hydrocarbons,0,10000
+,THYME (Thymus species),Spices & Condiments,limonene,Hydrocarbons,1700,79000
+,THYME (Thymus species),Spices & Condiments,β-sesquiphellandrene,Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,β-elemene,Hydrocarbons,<1000,3800
+,THYME (Thymus species),Spices & Condiments,β-bisabolene,Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,β-curcumene,Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,germacrene D,Hydrocarbons,12600,13800
+,THYME (Thymus species),Spices & Condiments,α-humulene (=humulene),Hydrocarbons,trace,3100
+,THYME (Thymus species),Spices & Condiments,α-pinene,Hydrocarbons,0,45300
+,THYME (Thymus species),Spices & Condiments,β-pinene,Hydrocarbons,400,13600
+,THYME (Thymus species),Spices & Condiments,verbenene (=pinadiene),Hydrocarbons,trace,trace
+,THYME (Thymus species),Spices & Condiments,camphene,Hydrocarbons,1200,127800
+,THYME (Thymus species),Spices & Condiments,α-fenchene,Hydrocarbons,0,100
+,THYME (Thymus species),Spices & Condiments,α-thujene,Hydrocarbons,0,21000
+,THYME (Thymus species),Spices & Condiments,thujene (unkn.str.),Hydrocarbons,3600,3600
+,THYME (Thymus species),Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,trace,10000
+,THYME (Thymus species),Spices & Condiments,3-carene,Hydrocarbons,<100,2100
+,THYME (Thymus species),Spices & Condiments,α-bergamotene,Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,α-cadinene,Hydrocarbons,trace,2300
+,THYME (Thymus species),Spices & Condiments,γ-cadinene,Hydrocarbons,100,6400
+,THYME (Thymus species),Spices & Condiments,δ-cadinene,Hydrocarbons,0,9000
+,THYME (Thymus species),Spices & Condiments,"1,4-cadinadiene",Hydrocarbons,<100,200
+,THYME (Thymus species),Spices & Condiments,cadinene (unkn.str.),Hydrocarbons,3300,34500
+,THYME (Thymus species),Spices & Condiments,α-muurolene,Hydrocarbons,<400,2700
+,THYME (Thymus species),Spices & Condiments,γ-muurolene,Hydrocarbons,trace,700
+,THYME (Thymus species),Spices & Condiments,"α-selinene (=5β,7α,10α-selina-3,11-diene)",Hydrocarbons,300,300
+,THYME (Thymus species),Spices & Condiments,"β-selinene (=4(14),11-selinadiene)",Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,valencene,Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,bicyclogermacrene,Hydrocarbons,,
+,THYME (Thymus species),Spices & Condiments,β-caryophyllene,Hydrocarbons,3500,56300
+,THYME (Thymus species),Spices & Condiments,α-cubebene,Hydrocarbons,trace,trace
+,THYME (Thymus species),Spices & Condiments,β-cubebene,Hydrocarbons,1500,2800
+,THYME (Thymus species),Spices & Condiments,α-copaene (=copaene),Hydrocarbons,trace,1200
+,THYME (Thymus species),Spices & Condiments,α-ylangene (=ylangene),Hydrocarbons,trace,300
+,THYME (Thymus species),Spices & Condiments,α-maaliene,Hydrocarbons,500,500
+,THYME (Thymus species),Spices & Condiments,β-cedrene,Hydrocarbons,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,α-bourbonene,Hydrocarbons,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,β-bourbonene,Hydrocarbons,trace,400
+,THYME (Thymus species),Spices & Condiments,aromadendrene,Hydrocarbons,100,4000
+,THYME (Thymus species),Spices & Condiments,alloaromadendrene,Hydrocarbons,trace,500
+,THYME (Thymus species),Spices & Condiments,α-gurjunene,Hydrocarbons,trace,trace
+,THYME (Thymus species),Spices & Condiments,β-gurjunene,Hydrocarbons,<400,<400
+,THYME (Thymus species),Spices & Condiments,tricyclene,Hydrocarbons,trace,26200
+,THYME (Thymus species),Spices & Condiments,methylbenzene (=toluene),Hydrocarbons,trace,trace
+,THYME (Thymus species),Spices & Condiments,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,1-ethyl-3-methylbenzene (=m-ethyltoluene),Hydrocarbons,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,1-isopropyl-3-methylbenzene (=m-cymene),Hydrocarbons,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,11800,301000
+,THYME (Thymus species),Spices & Condiments,"1-isopropenyl-4-methylbenzene (=α,p-dimethyl styrene, p-cymenene, dehydro-p-cymene)",Hydrocarbons,trace,trace
+,THYME (Thymus species),Spices & Condiments,dimethyl-vinylbenzene (unkn.str.),Hydrocarbons,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,calamenene,Hydrocarbons,<100,1100
+,THYME (Thymus species),Spices & Condiments,α-calacorene,Hydrocarbons,trace,trace
+,THYME (Thymus species),Spices & Condiments,calacorene (unkn.str.),Hydrocarbons,300,1500
+,THYME (Thymus species),Spices & Condiments,viridiflorene (=ledene),Hydrocarbons,<400,1000
+,THYME (Thymus species),Spices & Condiments,cyclofenchene,Hydrocarbons,<10000,<10000
+,THYME (Thymus species),Spices & Condiments,ethanol,Alcohols,1000,1000
+,THYME (Thymus species),Spices & Condiments,3-methyl-3-buten-1-ol,Alcohols,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,(Z)-2-penten-1-ol,Alcohols,1000,1000
+,THYME (Thymus species),Spices & Condiments,1-hexanol,Alcohols,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,(E)-2-hexen-1-ol,Alcohols,1000,1000
+,THYME (Thymus species),Spices & Condiments,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,4000,4000
+,THYME (Thymus species),Spices & Condiments,2-octanol,Alcohols,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,3-octanol,Alcohols,trace,1600
+,THYME (Thymus species),Spices & Condiments,3-octenol (unkn.str.),Alcohols,0,2100
+,THYME (Thymus species),Spices & Condiments,1-octen-3-ol,Alcohols,1500,12000
+,THYME (Thymus species),Spices & Condiments,octenol (unkn.str.),Alcohols,,
+,THYME (Thymus species),Spices & Condiments,1-decanol,Alcohols,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,1-dodecanol,Alcohols,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,lavandulol,Alcohols,,
+,THYME (Thymus species),Spices & Condiments,citronellol,Alcohols,<1000,12100
+,THYME (Thymus species),Spices & Condiments,geraniol,Alcohols,8100,316300
+,THYME (Thymus species),Spices & Condiments,nerol,Alcohols,500,10000
+,THYME (Thymus species),Spices & Condiments,linalool,Alcohols,3000,229500
+,THYME (Thymus species),Spices & Condiments,(Z)-myrcen-8-ol,Alcohols,,
+,THYME (Thymus species),Spices & Condiments,nerolidol,Alcohols,,
+,THYME (Thymus species),Spices & Condiments,(E)-nerolidol,Alcohols,300,30700
+,THYME (Thymus species),Spices & Condiments,"4-isopropylbenzyl alcohol (=cumic alcohol, p-cymen-7-ol)",Alcohols,<400,800
+,THYME (Thymus species),Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,trace,1300
+,THYME (Thymus species),Spices & Condiments,menthol,Alcohols,600,1000
+,THYME (Thymus species),Spices & Condiments,α-terpineol,Alcohols,trace,18400
+,THYME (Thymus species),Spices & Condiments,β-terpineol,Alcohols,2400,2400
+,THYME (Thymus species),Spices & Condiments,γ-terpineol,Alcohols,<10000,<10000
+,THYME (Thymus species),Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,1300,80400
+,THYME (Thymus species),Spices & Condiments,terpineol (unkn.str.),Alcohols,,
+,THYME (Thymus species),Spices & Condiments,cis-p-2-menthen-1-ol,Alcohols,trace,trace
+,THYME (Thymus species),Spices & Condiments,"carveol (=p-1(6),8-menthadien-2-ol)",Alcohols,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,elemol,Alcohols,,
+,THYME (Thymus species),Spices & Condiments,α-elemol,Alcohols,,
+,THYME (Thymus species),Spices & Condiments,β-elemol,Alcohols,,
+,THYME (Thymus species),Spices & Condiments,7-hydroxygermacrene,Alcohols,,
+,THYME (Thymus species),Spices & Condiments,hydroxygermacrene (unkn.str.),Alcohols,,
+,THYME (Thymus species),Spices & Condiments,camphene hydrate,Alcohols,14100,14100
+,THYME (Thymus species),Spices & Condiments,pinocarveol,Alcohols,100,100
+,THYME (Thymus species),Spices & Condiments,trans-pinocarveol,Alcohols,trace,trace
+,THYME (Thymus species),Spices & Condiments,isopinocampheol,Alcohols,trace,trace
+,THYME (Thymus species),Spices & Condiments,borneol,Alcohols,trace,436500
+,THYME (Thymus species),Spices & Condiments,isoborneol,Alcohols,21600,21600
+,THYME (Thymus species),Spices & Condiments,fenchol (=fenchyl alcohol),Alcohols,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,cis-sabinene hydrate (=cis-4-thujanol),Alcohols,100,31000
+,THYME (Thymus species),Spices & Condiments,trans-sabinene hydrate (=trans-4-thujanol),Alcohols,trace,11000
+,THYME (Thymus species),Spices & Condiments,α-cadinol,Alcohols,200,4600
+,THYME (Thymus species),Spices & Condiments,δ-cadinol (=torreyol),Alcohols,<400,900
+,THYME (Thymus species),Spices & Condiments,cadinol-T,Alcohols,1400,5000
+,THYME (Thymus species),Spices & Condiments,cubenol,Alcohols,,
+,THYME (Thymus species),Spices & Condiments,hedycaryol,Alcohols,,
+,THYME (Thymus species),Spices & Condiments,ledol,Alcohols,,
+,THYME (Thymus species),Spices & Condiments,globulol,Alcohols,,
+,THYME (Thymus species),Spices & Condiments,acetaldehyde (=ethanal),"Carbonyls, aldehydes",<1000,<1000
+,THYME (Thymus species),Spices & Condiments,hexanal (=capronaldehyde),"Carbonyls, aldehydes",1000,1000
+,THYME (Thymus species),Spices & Condiments,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",0,25000
+,THYME (Thymus species),Spices & Condiments,(Z)-2-hexenal,"Carbonyls, aldehydes",<1000,<1000
+,THYME (Thymus species),Spices & Condiments,"2,4-hexadienal","Carbonyls, aldehydes",,
+,THYME (Thymus species),Spices & Condiments,"(E,E)-2,4-hexadienal","Carbonyls, aldehydes",<1000,<1000
+,THYME (Thymus species),Spices & Condiments,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+,THYME (Thymus species),Spices & Condiments,"citral (=3,7-dimethyl-2,6-octadienal)","Carbonyls, aldehydes",<10000,<10000
+,THYME (Thymus species),Spices & Condiments,geranial (=α-citral),"Carbonyls, aldehydes",1000,2900
+,THYME (Thymus species),Spices & Condiments,neral (=β-citral),"Carbonyls, aldehydes",<10000,<10000
+,THYME (Thymus species),Spices & Condiments,4-isopropylbenzaldehyde (=cuminaldehyde),"Carbonyls, aldehydes",trace,1200
+,THYME (Thymus species),Spices & Condiments,campholenal (unkn.str.),"Carbonyls, aldehydes",,
+,THYME (Thymus species),Spices & Condiments,myrtenal,"Carbonyls, aldehydes",<1000,<1000
+,THYME (Thymus species),Spices & Condiments,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",<1000,<1000
+,THYME (Thymus species),Spices & Condiments,methylheptanone (unkn.str.),"Carbonyls, ketones",200,1900
+,THYME (Thymus species),Spices & Condiments,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+,THYME (Thymus species),Spices & Condiments,methylheptenone (unkn.str.),"Carbonyls, ketones",,
+,THYME (Thymus species),Spices & Condiments,3-octanone,"Carbonyls, ketones",<100,1700
+,THYME (Thymus species),Spices & Condiments,3-nonanone,"Carbonyls, ketones",,
+,THYME (Thymus species),Spices & Condiments,thymoquinone,"Carbonyls, ketones",<400,<400
+,THYME (Thymus species),Spices & Condiments,α-ionone,"Carbonyls, ketones",,
+,THYME (Thymus species),Spices & Condiments,menthone,"Carbonyls, ketones",,
+,THYME (Thymus species),Spices & Condiments,isomenthone,"Carbonyls, ketones",,
+,THYME (Thymus species),Spices & Condiments,dihydrocarvone (=p-8-menthen-2-one),"Carbonyls, ketones",<1000,<1000
+,THYME (Thymus species),Spices & Condiments,trans-dihydrocarvone,"Carbonyls, ketones",,
+,THYME (Thymus species),Spices & Condiments,cis-dihydrocarvone,"Carbonyls, ketones",trace,trace
+,THYME (Thymus species),Spices & Condiments,"carvone (=p-6,8-menthadien-2-one)","Carbonyls, ketones",,
+,THYME (Thymus species),Spices & Condiments,"isopiperitenone (=p-1,8-menthadien-3-one)","Carbonyls, ketones",,
+,THYME (Thymus species),Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",0,60500
+,THYME (Thymus species),Spices & Condiments,thujone (=α-thujone),"Carbonyls, ketones",trace,5100
+,THYME (Thymus species),Spices & Condiments,isothujone (=β-thujone),"Carbonyls, ketones",0,1500
+,THYME (Thymus species),Spices & Condiments,pinocarvone,"Carbonyls, ketones",,
+,THYME (Thymus species),Spices & Condiments,verbenone (=2-pinen-4-one),"Carbonyls, ketones",1400,1400
+,THYME (Thymus species),Spices & Condiments,hexanoic acid (=caproic acid),Acids,,
+,THYME (Thymus species),Spices & Condiments,heptanoic acid (=enanthic acid),Acids,,
+,THYME (Thymus species),Spices & Condiments,nonanoic acid (=pelargonic acid),Acids,,
+,THYME (Thymus species),Spices & Condiments,decanoic acid (=capric acid),Acids,,
+,THYME (Thymus species),Spices & Condiments,tetradecanoic acid (=myristic acid),Acids,,
+,THYME (Thymus species),Spices & Condiments,hexadecanoic acid (=palmitic acid),Acids,1400,1400
+,THYME (Thymus species),Spices & Condiments,octadecanoic acid (=stearic acid),Acids,,
+,THYME (Thymus species),Spices & Condiments,geranic acid,Acids,,
+,THYME (Thymus species),Spices & Condiments,benzoic acid,Acids,6,57.1
+,THYME (Thymus species),Spices & Condiments,isopropylbenzoic acid (unkn.str.),Acids,,
+,THYME (Thymus species),Spices & Condiments,bornyl formate,Esters,,
+,THYME (Thymus species),Spices & Condiments,ethyl acetate,Esters,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,butyl acetate,Esters,1000,1000
+,THYME (Thymus species),Spices & Condiments,(Z)-3-hexenyl acetate,Esters,,
+,THYME (Thymus species),Spices & Condiments,1-octen-3-yl acetate,Esters,,
+,THYME (Thymus species),Spices & Condiments,octenyl acetate (unkn.str.),Esters,,
+,THYME (Thymus species),Spices & Condiments,citronellyl acetate,Esters,<100,98900
+,THYME (Thymus species),Spices & Condiments,geranyl acetate,Esters,800,92500
+,THYME (Thymus species),Spices & Condiments,neryl acetate,Esters,,
+,THYME (Thymus species),Spices & Condiments,linalyl acetate,Esters,trace,18400
+,THYME (Thymus species),Spices & Condiments,lavandulyl acetate,Esters,,
+,THYME (Thymus species),Spices & Condiments,thymyl acetate,Esters,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,α-terpinyl acetate,Esters,<10000,11900
+,THYME (Thymus species),Spices & Condiments,terpinyl acetate (unkn.str.),Esters,,
+,THYME (Thymus species),Spices & Condiments,myrtenyl acetate,Esters,,
+,THYME (Thymus species),Spices & Condiments,bornyl acetate,Esters,trace,85700
+,THYME (Thymus species),Spices & Condiments,isobornyl acetate,Esters,,
+,THYME (Thymus species),Spices & Condiments,fenchyl acetate,Esters,,
+,THYME (Thymus species),Spices & Condiments,carvacryl acetate,Esters,900,1100
+,THYME (Thymus species),Spices & Condiments,(Z)-3-hexenyl propanoate,Esters,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,bornyl propanoate,Esters,,
+,THYME (Thymus species),Spices & Condiments,geranyl 2-methylpropanoate (=geranyl isobutyrate),Esters,,
+,THYME (Thymus species),Spices & Condiments,hexyl butanoate,Esters,,
+,THYME (Thymus species),Spices & Condiments,geranyl butanoate,Esters,,
+,THYME (Thymus species),Spices & Condiments,methyl 2-methylbutanoate,Esters,1000,1000
+,THYME (Thymus species),Spices & Condiments,hexyl 2-methylbutanoate,Esters,,
+,THYME (Thymus species),Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,1200,32300
+,THYME (Thymus species),Spices & Condiments,thymol (=2-isopropyl-5-methylphenol),Phenols,<10000,482600
+,THYME (Thymus species),Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,2800,512000
+,THYME (Thymus species),Spices & Condiments,"(E)-anethole (=(E)-1-methoxy-4-(1-propenyl)benzene, anise camphor)",Phenols,trace,trace
+,THYME (Thymus species),Spices & Condiments,4-isopropyl-2-methoxy-1-methylbenzene (=methylcarvacrol),Phenols,1000,14400
+,THYME (Thymus species),Spices & Condiments,"1-isopropyl-2-methoxy-4-methylbenzene (=methyl thymyl ether, methylthymol)",Phenols,0,45000
+,THYME (Thymus species),Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,<1000,<1000
+,THYME (Thymus species),Spices & Condiments,5-isopropyl-2-methyl-2-vinyl-tetrahydrofuran,Furans,,
+,THYME (Thymus species),Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",trace,98000
+,THYME (Thymus species),Spices & Condiments,rose oxide,"(Ep)oxides, pyrans, coumarins",,
+,THYME (Thymus species),Spices & Condiments,linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+,THYME (Thymus species),Spices & Condiments,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",1000,1000
+,THYME (Thymus species),Spices & Condiments,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",trace,1000
+,THYME (Thymus species),Spices & Condiments,α-bisabolol oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",900,2100
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,hexane,Hydrocarbons,26000,26000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,heptane,Hydrocarbons,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,hexadecane,Hydrocarbons,200,200
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,heptadecane,Hydrocarbons,,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-ocimene,Hydrocarbons,1000,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,100,100
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,(E)-β-ocimene,Hydrocarbons,500,500
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,7900,21400
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-farnesene,Hydrocarbons,1000,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,(Z)-β-farnesene,Hydrocarbons,<400,<400
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,α-phellandrene,Hydrocarbons,800,13600
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-phellandrene,Hydrocarbons,,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,α-terpinene,Hydrocarbons,10300,23400
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,γ-terpinene,Hydrocarbons,3800,140000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,terpinolene,Hydrocarbons,<1000,4700
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,limonene,Hydrocarbons,1700,79000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-elemene,Hydrocarbons,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,α-humulene (=humulene),Hydrocarbons,1000,2300
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,α-pinene,Hydrocarbons,4900,14200
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-pinene,Hydrocarbons,1000,4100
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,camphene,Hydrocarbons,1800,127800
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,α-thujene,Hydrocarbons,8700,21000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,thujene (unkn.str.),Hydrocarbons,3600,3600
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,trace,2000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,3-carene,Hydrocarbons,200,2100
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,γ-cadinene,Hydrocarbons,600,3400
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,δ-cadinene,Hydrocarbons,1000,2500
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,α-muurolene,Hydrocarbons,<400,800
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,γ-muurolene,Hydrocarbons,400,700
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,valencene,Hydrocarbons,,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-caryophyllene,Hydrocarbons,4100,42800
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,α-copaene (=copaene),Hydrocarbons,<400,1200
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,α-ylangene (=ylangene),Hydrocarbons,trace,trace
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-cedrene,Hydrocarbons,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,α-bourbonene,Hydrocarbons,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-bourbonene,Hydrocarbons,<400,<400
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,aromadendrene,Hydrocarbons,<400,4000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-gurjunene,Hydrocarbons,<400,<400
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,tricyclene,Hydrocarbons,trace,26200
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,1-ethyl-3-methylbenzene (=m-ethyltoluene),Hydrocarbons,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,1-isopropyl-3-methylbenzene (=m-cymene),Hydrocarbons,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,132000,300000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,dimethyl-vinylbenzene (unkn.str.),Hydrocarbons,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,viridiflorene (=ledene),Hydrocarbons,<400,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,ethanol,Alcohols,1000,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,3-methyl-3-buten-1-ol,Alcohols,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,(Z)-2-penten-1-ol,Alcohols,1000,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,1-hexanol,Alcohols,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,(E)-2-hexen-1-ol,Alcohols,1000,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,4000,4000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,2-octanol,Alcohols,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,3-octanol,Alcohols,1000,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,1-octen-3-ol,Alcohols,4100,12000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,1-decanol,Alcohols,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,1-dodecanol,Alcohols,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,citronellol,Alcohols,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,geraniol,Alcohols,,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,linalool,Alcohols,6700,28200
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,(Z)-myrcen-8-ol,Alcohols,,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,"4-isopropylbenzyl alcohol (=cumic alcohol, p-cymen-7-ol)",Alcohols,<400,800
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,<400,<400
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,α-terpineol,Alcohols,1500,2600
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-terpineol,Alcohols,2400,2400
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,7000,11000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,"carveol (=p-1(6),8-menthadien-2-ol)",Alcohols,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,pinocarveol,Alcohols,100,100
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,trans-pinocarveol,Alcohols,,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,borneol,Alcohols,4400,12900
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,fenchol (=fenchyl alcohol),Alcohols,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,trans-sabinene hydrate (=trans-4-thujanol),Alcohols,11000,11000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,α-cadinol,Alcohols,<400,500
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,δ-cadinol (=torreyol),Alcohols,<400,900
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,acetaldehyde (=ethanal),"Carbonyls, aldehydes",<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,hexanal (=capronaldehyde),"Carbonyls, aldehydes",1000,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",25000,25000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,(Z)-2-hexenal,"Carbonyls, aldehydes",<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,"2,4-hexadienal","Carbonyls, aldehydes",,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,"(E,E)-2,4-hexadienal","Carbonyls, aldehydes",<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,geranial (=α-citral),"Carbonyls, aldehydes",1000,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,myrtenal,"Carbonyls, aldehydes",<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,3-octanone,"Carbonyls, ketones",1000,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,thymoquinone,"Carbonyls, ketones",<400,<400
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,dihydrocarvone (=p-8-menthen-2-one),"Carbonyls, ketones",<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",<400,3000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,thujone (=α-thujone),"Carbonyls, ketones",0,5100
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,isothujone (=β-thujone),"Carbonyls, ketones",0,1500
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,pinocarvone,"Carbonyls, ketones",,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,hexadecanoic acid (=palmitic acid),Acids,1400,1400
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,octadecanoic acid (=stearic acid),Acids,,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,benzoic acid,Acids,6,57.1
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,ethyl acetate,Esters,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,butyl acetate,Esters,1000,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,(Z)-3-hexenyl acetate,Esters,,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,geranyl acetate,Esters,,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,thymyl acetate,Esters,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,terpinyl acetate (unkn.str.),Esters,,
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,bornyl acetate,Esters,400,2400
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,(Z)-3-hexenyl propanoate,Esters,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,methyl 2-methylbutanoate,Esters,1000,1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,2500,26200
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,thymol (=2-isopropyl-5-methylphenol),Phenols,72900,482600
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,6100,63800
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,4-isopropyl-2-methoxy-1-methylbenzene (=methylcarvacrol),Phenols,1000,5500
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,"1-isopropyl-2-methoxy-4-methylbenzene (=methyl thymyl ether, methylthymol)",Phenols,1000,15200
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,<1000,<1000
+THYMUS VULGARIS L.,THYME (Thymus species),Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",2000,4500
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,(E)-β-ocimene,Hydrocarbons,500,500
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,3000,20300
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-phellandrene,Hydrocarbons,2300,2300
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-terpinene,Hydrocarbons,0,22200
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,γ-terpinene,Hydrocarbons,0,101000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,terpinolene,Hydrocarbons,0,4400
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,limonene,Hydrocarbons,6000,34000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-pinene,Hydrocarbons,0,18600
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,β-pinene,Hydrocarbons,1000,3000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,verbenene (=pinadiene),Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,camphene,Hydrocarbons,2000,9000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-thujene,Hydrocarbons,0,3000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-cadinene,Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,γ-cadinene,Hydrocarbons,100,100
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,δ-cadinene,Hydrocarbons,0,9000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-muurolene,Hydrocarbons,1700,1700
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,γ-muurolene,Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,"α-selinene (=5β,7α,10α-selina-3,11-diene)",Hydrocarbons,300,300
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,β-caryophyllene,Hydrocarbons,3500,31000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-cubebene,Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-copaene (=copaene),Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-maaliene,Hydrocarbons,500,500
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,β-bourbonene,Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,aromadendrene,Hydrocarbons,100,100
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,alloaromadendrene,Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-gurjunene,Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,methylbenzene (=toluene),Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,190100,285000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,"1-isopropenyl-4-methylbenzene (=α,p-dimethyl styrene, p-cymenene, dehydro-p-cymene)",Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,calamenene,Hydrocarbons,200,200
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-calacorene,Hydrocarbons,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,3-octanol,Alcohols,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,1-octen-3-ol,Alcohols,1500,1500
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,geraniol,Alcohols,,
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,linalool,Alcohols,3000,40000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,trace,1300
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-terpineol,Alcohols,trace,2800
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,1300,11000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,terpineol (unkn.str.),Alcohols,,
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,cis-p-2-menthen-1-ol,Alcohols,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,trans-pinocarveol,Alcohols,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,isopinocampheol,Alcohols,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,borneol,Alcohols,trace,35000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,cis-sabinene hydrate (=cis-4-thujanol),Alcohols,31000,31000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,trans-sabinene hydrate (=trans-4-thujanol),Alcohols,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,"citral (=3,7-dimethyl-2,6-octadienal)","Carbonyls, aldehydes",,
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,cis-dihydrocarvone,"Carbonyls, ketones",trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",0,16900
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,thujone (=α-thujone),"Carbonyls, ketones",trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,verbenone (=2-pinen-4-one),"Carbonyls, ketones",1400,1400
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,geranyl acetate,Esters,1000,1000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,linalyl acetate,Esters,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,α-terpinyl acetate,Esters,11900,11900
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,terpinyl acetate (unkn.str.),Esters,,
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,bornyl acetate,Esters,trace,1200
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,5500,5500
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,thymol (=2-isopropyl-5-methylphenol),Phenols,11000,476000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,26000,429000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,"(E)-anethole (=(E)-1-methoxy-4-(1-propenyl)benzene, anise camphor)",Phenols,trace,trace
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,4-isopropyl-2-methoxy-1-methylbenzene (=methylcarvacrol),Phenols,14400,14400
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,"1-isopropyl-2-methoxy-4-methylbenzene (=methyl thymyl ether, methylthymol)",Phenols,0,45000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",trace,98000
+THYMUS ZYGIS L.,THYME (Thymus species),Spices & Condiments,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",trace,trace
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,heptane,Hydrocarbons,700,800
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"2,8-dimethyl-2-decene",Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"2,9-dimethyl-2-decene",Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,tetradecane,Hydrocarbons,trace,trace
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,hexadecane,Hydrocarbons,1000,1000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-ocimene,Hydrocarbons,7300,7300
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,200,500
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,(E)-β-ocimene,Hydrocarbons,100,400
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,1500,49000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"(E,E)-α-farnesene (=α-farnesene)",Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,(E)-β-farnesene,Hydrocarbons,300,500
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-phellandrene,Hydrocarbons,<100,200
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-phellandrene,Hydrocarbons,<10000,<10000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,phellandrene (unkn.str.),Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-terpinene,Hydrocarbons,600,10000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-terpinene,Hydrocarbons,12200,12200
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,γ-terpinene,Hydrocarbons,2100,224000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,terpinolene,Hydrocarbons,500,10000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,limonene,Hydrocarbons,1800,10500
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-sesquiphellandrene,Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-elemene,Hydrocarbons,1900,3800
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-bisabolene,Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-curcumene,Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,germacrene D,Hydrocarbons,12600,13800
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-humulene (=humulene),Hydrocarbons,trace,3100
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-pinene,Hydrocarbons,1100,45300
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-pinene,Hydrocarbons,400,13600
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,camphene,Hydrocarbons,1200,107400
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-fenchene,Hydrocarbons,0,100
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-thujene,Hydrocarbons,300,14900
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,400,10000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,3-carene,Hydrocarbons,<100,<100
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-bergamotene,Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-cadinene,Hydrocarbons,0,2300
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,γ-cadinene,Hydrocarbons,1500,6400
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,δ-cadinene,Hydrocarbons,3500,4000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"1,4-cadinadiene",Hydrocarbons,<100,200
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,cadinene (unkn.str.),Hydrocarbons,3300,34500
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-muurolene,Hydrocarbons,2100,2700
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,γ-muurolene,Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"β-selinene (=4(14),11-selinadiene)",Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,bicyclogermacrene,Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-caryophyllene,Hydrocarbons,9000,56300
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-cubebene,Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-cubebene,Hydrocarbons,1500,2800
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-copaene (=copaene),Hydrocarbons,400,400
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-ylangene (=ylangene),Hydrocarbons,<100,300
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-bourbonene,Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,aromadendrene,Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,alloaromadendrene,Hydrocarbons,100,500
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,tricyclene,Hydrocarbons,100,200
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,11800,301000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"1-isopropenyl-4-methylbenzene (=α,p-dimethyl styrene, p-cymenene, dehydro-p-cymene)",Hydrocarbons,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,calamenene,Hydrocarbons,<100,1100
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,calacorene (unkn.str.),Hydrocarbons,300,1500
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,cyclofenchene,Hydrocarbons,<10000,<10000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,3-octanol,Alcohols,800,1600
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,3-octenol (unkn.str.),Alcohols,0,2100
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,1-octen-3-ol,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,octenol (unkn.str.),Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,lavandulol,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,citronellol,Alcohols,10100,12100
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,geraniol,Alcohols,8100,316300
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,nerol,Alcohols,500,10000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,linalool,Alcohols,6400,229500
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,nerolidol,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,(E)-nerolidol,Alcohols,300,30700
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,menthol,Alcohols,600,1000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-terpineol,Alcohols,2800,18400
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,γ-terpineol,Alcohols,<10000,<10000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,1300,80400
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,terpineol (unkn.str.),Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"carveol (=p-1(6),8-menthadien-2-ol)",Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,elemol,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-elemol,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-elemol,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,7-hydroxygermacrene,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,hydroxygermacrene (unkn.str.),Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,camphene hydrate,Alcohols,14100,14100
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,trans-pinocarveol,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,borneol,Alcohols,8000,436500
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,isoborneol,Alcohols,21600,21600
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,cis-sabinene hydrate (=cis-4-thujanol),Alcohols,100,3200
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,trans-sabinene hydrate (=trans-4-thujanol),Alcohols,500,4400
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-cadinol,Alcohols,200,4600
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,cadinol-T,Alcohols,1400,5000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,cubenol,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,hedycaryol,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,ledol,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,globulol,Alcohols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",0,100
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"citral (=3,7-dimethyl-2,6-octadienal)","Carbonyls, aldehydes",<10000,<10000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,geranial (=α-citral),"Carbonyls, aldehydes",1100,2900
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,neral (=β-citral),"Carbonyls, aldehydes",<10000,<10000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,4-isopropylbenzaldehyde (=cuminaldehyde),"Carbonyls, aldehydes",trace,1200
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,campholenal (unkn.str.),"Carbonyls, aldehydes",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,myrtenal,"Carbonyls, aldehydes",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,methylheptanone (unkn.str.),"Carbonyls, ketones",200,1900
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,methylheptenone (unkn.str.),"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,3-octanone,"Carbonyls, ketones",<100,1700
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,3-nonanone,"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-ionone,"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,menthone,"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,isomenthone,"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,dihydrocarvone (=p-8-menthen-2-one),"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,trans-dihydrocarvone,"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,cis-dihydrocarvone,"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"carvone (=p-6,8-menthadien-2-one)","Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"isopiperitenone (=p-1,8-menthadien-3-one)","Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",1900,60500
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,thujone (=α-thujone),"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,pinocarvone,"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,verbenone (=2-pinen-4-one),"Carbonyls, ketones",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,hexanoic acid (=caproic acid),Acids,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,heptanoic acid (=enanthic acid),Acids,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,nonanoic acid (=pelargonic acid),Acids,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,decanoic acid (=capric acid),Acids,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,tetradecanoic acid (=myristic acid),Acids,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,geranic acid,Acids,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,isopropylbenzoic acid (unkn.str.),Acids,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,bornyl formate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,1-octen-3-yl acetate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,octenyl acetate (unkn.str.),Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,citronellyl acetate,Esters,<100,98900
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,geranyl acetate,Esters,800,92500
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,neryl acetate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,linalyl acetate,Esters,<100,18400
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,lavandulyl acetate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,thymyl acetate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-terpinyl acetate,Esters,<10000,<10000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,terpinyl acetate (unkn.str.),Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,myrtenyl acetate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,bornyl acetate,Esters,700,85700
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,isobornyl acetate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,fenchyl acetate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,carvacryl acetate,Esters,900,1100
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,bornyl propanoate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,geranyl 2-methylpropanoate (=geranyl isobutyrate),Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,hexyl butanoate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,geranyl butanoate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,hexyl 2-methylbutanoate,Esters,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,1200,32300
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,thymol (=2-isopropyl-5-methylphenol),Phenols,<10000,320000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,2800,512000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,4-isopropyl-2-methoxy-1-methylbenzene (=methylcarvacrol),Phenols,12000,12000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,"1-isopropyl-2-methoxy-4-methylbenzene (=methyl thymyl ether, methylthymol)",Phenols,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,5-isopropyl-2-methyl-2-vinyl-tetrahydrofuran,Furans,,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",7900,24500
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,rose oxide,"(Ep)oxides, pyrans, coumarins",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",1000,1000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",1000,1000
+"THYMUS, OTHER TYPES",THYME (Thymus species),Spices & Condiments,α-bisabolol oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",900,2100
+WHEATEN BREAD,,Bread & Cereals,octane,Hydrocarbons,,
+WHEATEN BREAD,,Bread & Cereals,tridecadiene (unkn.str.),Hydrocarbons,,
+WHEATEN BREAD,,Bread & Cereals,limonene,Hydrocarbons,,
+WHEATEN BREAD,,Bread & Cereals,methylbenzene (=toluene),Hydrocarbons,,
+WHEATEN BREAD,,Bread & Cereals,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+WHEATEN BREAD,,Bread & Cereals,1-ethyl-2-methylbenzene (=o-ethyltoluene),Hydrocarbons,,
+WHEATEN BREAD,,Bread & Cereals,1-ethyl-3-methylbenzene (=m-ethyltoluene),Hydrocarbons,,
+WHEATEN BREAD,,Bread & Cereals,"1,2-diethylbenzene",Hydrocarbons,,
+WHEATEN BREAD,,Bread & Cereals,"1,2,3-trimethylbenzene (=hemimellitene)",Hydrocarbons,,
+WHEATEN BREAD,,Bread & Cereals,"1,2,4-trimethylbenzene (=pseudocumene)",Hydrocarbons,,
+WHEATEN BREAD,,Bread & Cereals,"1,3,5-trimethylbenzene (=mesitylene)",Hydrocarbons,,
+WHEATEN BREAD,,Bread & Cereals,ethanol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,2-butoxyethanol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,1-propanol (=propyl alcohol),Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,3-ethoxy-1-propanol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,2-propanol (=isopropyl alcohol),Alcohols,0.12,0.12
+WHEATEN BREAD,,Bread & Cereals,2-methyl-1-propanol (=isobutanol),Alcohols,0.96,0.96
+WHEATEN BREAD,,Bread & Cereals,1-methoxy-2-propanol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,1-butanol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,5.3,5.3
+WHEATEN BREAD,,Bread & Cereals,"2,3-butanediol (=2,3-butylene glycol)",Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,1-pentanol (=amyl alcohol),Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,2-pentanol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,3-pentanol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,1-penten-3-ol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,1-hexanol,Alcohols,0.09,0.09
+WHEATEN BREAD,,Bread & Cereals,2-ethyl-1-hexanol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,1-octanol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,1-octen-3-ol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,1-nonanol,Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,sec-nonanol (unkn.str.),Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,benzyl alcohol (=benzenemethanol),Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+WHEATEN BREAD,,Bread & Cereals,formaldehyde (=methanal),"Carbonyls, aldehydes",3.3,3.6
+WHEATEN BREAD,,Bread & Cereals,acetaldehyde (=ethanal),"Carbonyls, aldehydes",6.1,7
+WHEATEN BREAD,,Bread & Cereals,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-propenal (=acrolein),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",6.7,6.7
+WHEATEN BREAD,,Bread & Cereals,"2-oxopropanal (=pyruvaldehyde, methyl glyoxal, acetylformaldehyde)","Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-butenal (=crotonaldehyde),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",9.5,9.5
+WHEATEN BREAD,,Bread & Cereals,2-methyl-2-butenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,3-methyl-2-butenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-ethylbutanal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-pentenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-methylpentanal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,3-methylpentanal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-hexenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"2,4-hexadienal","Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-ethylhexanal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,heptanal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-heptenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,(E)-2-heptenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,(Z)-4-heptenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"2,4-heptadienal","Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,6-methyl-2-heptenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-octenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,(E)-2-octenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"2,4-octadienal","Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-nonenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,(Z)-2-nonenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,(E)-2-nonenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"2,4-nonadienal","Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"(E,E)-2,4-nonadienal","Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"(E,Z)-2,6-nonadienal","Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,2-decenal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"2,4-decadienal","Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"(E,Z)-2,4-decadienal","Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,dodecanal,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,benzaldehyde,"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,4-hydroxybenzaldehyde (=4-formylphenol),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+WHEATEN BREAD,,Bread & Cereals,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",9.8,9.8
+WHEATEN BREAD,,Bread & Cereals,"1-hydroxy-2-propanone (=acetol, pyruvic alcohol)","Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,3-methyl-2-butanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-pentanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,3-pentanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,3-penten-2-one,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,4-methyl-2-pentanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-hexanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-heptanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,"2,6-dimethyl-4-heptanone","Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-octanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,1-octen-3-one,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-octen-4-one,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-nonanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-nonen-4-one,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-decanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-decen-4-one,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-decen-5-one,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-undecanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-dodecanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,1-dodecen-3-one,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-dodecen-4-one,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-dodecen-5-one,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-pentadecanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-heptadecanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,cyclopentanone,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,2-cyclopenten-1-one,"Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,"3-methyl-1,2-cyclopentanedione (=cyclotene)","Carbonyls, ketones",,
+WHEATEN BREAD,,Bread & Cereals,formic acid,Acids,,
+WHEATEN BREAD,,Bread & Cereals,acetic acid,Acids,55,123
+WHEATEN BREAD,,Bread & Cereals,propanoic acid (=propionic acid),Acids,0.7,0.7
+WHEATEN BREAD,,Bread & Cereals,2-propenoic acid (=acrylic acid),Acids,,
+WHEATEN BREAD,,Bread & Cereals,2-methylpropanoic acid (=isobutyric acid),Acids,1.44,4.7
+WHEATEN BREAD,,Bread & Cereals,2-hydroxypropanoic acid (=lactic acid),Acids,,
+WHEATEN BREAD,,Bread & Cereals,butanoic acid (=butyric acid),Acids,0.18,0.26
+WHEATEN BREAD,,Bread & Cereals,2-methylbutanoic acid,Acids,,
+WHEATEN BREAD,,Bread & Cereals,3-methylbutanoic acid (=isovaleric acid),Acids,0.56,1.8
+WHEATEN BREAD,,Bread & Cereals,2-ethylbutanoic acid,Acids,,
+WHEATEN BREAD,,Bread & Cereals,3-methyl-2-butenoic acid (=senecioic acid),Acids,,
+WHEATEN BREAD,,Bread & Cereals,pentanoic acid (=valeric acid),Acids,0.16,0.16
+WHEATEN BREAD,,Bread & Cereals,4-methylpentanoic acid (=isocaproic acid),Acids,,
+WHEATEN BREAD,,Bread & Cereals,4-oxopentanoic acid (=levulinic acid),Acids,,
+WHEATEN BREAD,,Bread & Cereals,hexanoic acid (=caproic acid),Acids,1,1.1
+WHEATEN BREAD,,Bread & Cereals,heptanoic acid (=enanthic acid),Acids,,
+WHEATEN BREAD,,Bread & Cereals,octanoic acid (=caprylic acid),Acids,,
+WHEATEN BREAD,,Bread & Cereals,nonanoic acid (=pelargonic acid),Acids,,
+WHEATEN BREAD,,Bread & Cereals,decanoic acid (=capric acid),Acids,,
+WHEATEN BREAD,,Bread & Cereals,dodecanoic acid (=lauric acid),Acids,,
+WHEATEN BREAD,,Bread & Cereals,benzoic acid,Acids,,
+WHEATEN BREAD,,Bread & Cereals,methyl formate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl formate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,butyl formate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,isobutyl formate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,pentyl formate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,phenethyl formate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl carbamate (=urethane),Esters,<0.005,<0.005
+WHEATEN BREAD,,Bread & Cereals,methyl acetate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl acetate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,"1,2-ethanediol diacetate (=ethylene acetate, 1,2-diacetoxyethane)",Esters,,
+WHEATEN BREAD,,Bread & Cereals,propyl acetate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,"2-oxopropyl acetate (=acetol acetate, 1-acetoxyacetone, acetonyl acetate)",Esters,,
+WHEATEN BREAD,,Bread & Cereals,butyl acetate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,isobutyl acetate (=2-methylpropyl acetate),Esters,,
+WHEATEN BREAD,,Bread & Cereals,"tert-butyl acetate (=1,1-dimethylethyl acetate)",Esters,,
+WHEATEN BREAD,,Bread & Cereals,pentyl acetate (=amyl acetate),Esters,,
+WHEATEN BREAD,,Bread & Cereals,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+WHEATEN BREAD,,Bread & Cereals,octyl acetate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,phenethyl acetate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,methyl 2-methyl-2-propenoate (=methyl methacrylate),Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl 2-hydroxypropanoate (=ethyl lactate),Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl butanoate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,"ethyl 4-oxopentanoate (=ethyl levulate, ethyl levulinate)",Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl octanoate (=ethyl caprylate),Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl nonanoate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl decanoate (=ethyl caprate),Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl undecanoate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl dodecanoate (=ethyl laurate),Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl benzoate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,ethyl phenylacetate,Esters,,
+WHEATEN BREAD,,Bread & Cereals,"4-hydroxybutanoic acid lactone (=dihydro-2(3H)-furanone, 4-butanolide, γ-butyrolactone)",Lactones,,
+WHEATEN BREAD,,Bread & Cereals,"4-hydroxypentanoic acid lactone (=γ-valerolactone, 4-pentanolide)",Lactones,,
+WHEATEN BREAD,,Bread & Cereals,"4-hydroxyhexanoic acid lactone (=γ-hexalactone, γ-caprolactone, 4-hexanolide)",Lactones,,
+WHEATEN BREAD,,Bread & Cereals,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+WHEATEN BREAD,,Bread & Cereals,"4-hydroxydecanoic acid lactone (=4-decanolide, γ-decalactone)",Lactones,,
+WHEATEN BREAD,,Bread & Cereals,methylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,ethylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,propylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,isopropylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,butylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,isobutylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,pentylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,isopentylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,hexylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,heptylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,dimethylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,diethylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,dipropylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,diisopropylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,N-butylisopropylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,dibutylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,diisopentylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,trimethylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,"N,N-dimethyloctylamine",Bases,,
+WHEATEN BREAD,,Bread & Cereals,triethylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,N-butyldiethylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,tripropylamine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,pyrrolidine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-pyrrolidone (=γ-butyrolactam),Bases,,
+WHEATEN BREAD,,Bread & Cereals,pyrroline (unkn.str.),Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-acetyl-1-pyrroline,Bases,0.072,0.078
+WHEATEN BREAD,,Bread & Cereals,pyrrole,Bases,,
+WHEATEN BREAD,,Bread & Cereals,1-methylpyrrole,Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-methylpyrrole,Bases,,
+WHEATEN BREAD,,Bread & Cereals,1-furfurylpyrrole,Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-pyrrolecarbaldehyde (=2-formylpyrrole),Bases,,
+WHEATEN BREAD,,Bread & Cereals,1-methyl-2-pyrrolecarbaldehyde (=2-formyl-1-methylpyrrole),Bases,,
+WHEATEN BREAD,,Bread & Cereals,5-methyl-2-pyrrolecarbaldehyde (=2-formyl-5-methylpyrrole),Bases,,
+WHEATEN BREAD,,Bread & Cereals,1-furfuryl-2-pyrrolecarbaldehyde (=2-formyl-1-furfurylpyrrole),Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-acetylpyrrole (=methyl 2-pyrrolyl ketone),Bases,,
+WHEATEN BREAD,,Bread & Cereals,piperidine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,"2-acetyl-1,4,5,6-tetrahydro-pyridine",Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-acetyltetrahydropyridine (unkn.str.),Bases,,
+WHEATEN BREAD,,Bread & Cereals,pyridine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-methylpyridine (=α-picoline),Bases,,
+WHEATEN BREAD,,Bread & Cereals,3-methylpyridine (=β-picoline),Bases,,
+WHEATEN BREAD,,Bread & Cereals,4-methylpyridine (=γ-picoline),Bases,,
+WHEATEN BREAD,,Bread & Cereals,4-ethylpyridine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,"2,4-dimethylpyridine (=2,4-lutidine)",Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-pyridinecarbaldehyde,Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-acetylpyridine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,3-acetylpyridine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,pyrazine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,methylpyrazine,Bases,6,6
+WHEATEN BREAD,,Bread & Cereals,ethylpyrazine,Bases,0.21,0.21
+WHEATEN BREAD,,Bread & Cereals,vinylpyrazine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,propylpyrazine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,(2-furyl)pyrazine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,"2,3-dimethylpyrazine",Bases,0.03,0.03
+WHEATEN BREAD,,Bread & Cereals,"2,5-dimethylpyrazine",Bases,,
+WHEATEN BREAD,,Bread & Cereals,"2,6-dimethylpyrazine",Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-ethyl-3-methylpyrazine,Bases,0.066,0.29
+WHEATEN BREAD,,Bread & Cereals,2-ethyl-5-methylpyrazine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-ethyl-6-methylpyrazine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-ethyl-5(or 6)-methylpyrazine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,2-methyl-6-propylpyrazine,Bases,0.26,0.26
+WHEATEN BREAD,,Bread & Cereals,2-(2-furyl)-5(or 6)-methyl-pyrazine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,ethyl-vinylpyrazine (unkn.str.),Bases,,
+WHEATEN BREAD,,Bread & Cereals,trimethylpyrazine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,"3-ethyl-2,5-dimethylpyrazine",Bases,,
+WHEATEN BREAD,,Bread & Cereals,"2-ethyl-3,5-dimethylpyrazine",Bases,,
+WHEATEN BREAD,,Bread & Cereals,diethyl-methylpyrazine (unkn.str.),Bases,,
+WHEATEN BREAD,,Bread & Cereals,tetramethylpyrazine,Bases,,
+WHEATEN BREAD,,Bread & Cereals,acetylpyrazine,Bases,0.019,0.034
+WHEATEN BREAD,,Bread & Cereals,5-methyl-5H-cyclopentapyrazine,Bases,0.015,0.029
+WHEATEN BREAD,,Bread & Cereals,"6,7-dihydro-5-methyl-5H-cyclopentapyrazine",Bases,,
+WHEATEN BREAD,,Bread & Cereals,"5,6,7,8-tetrahydroquinoxaline",Bases,,
+WHEATEN BREAD,,Bread & Cereals,methanethiol (=methyl mercaptan),Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,furfuryl methyl disulfide,Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,3-(methylthio)propanal (=methional),Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,3-butenyl isothiocyanate,Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,thiophene,Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,2-methylthiophene,Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,"2,5-dimethylthiophene",Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,benzothiophene,Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,2-thiophenecarbaldehyde (=2-formylthiophene),Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,5-methyl-2-thiophenecarbaldehyde,Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,2-acetylthiophene,Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,3-acetylthiophene,Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,benzothiazole,Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,2-methylbenzothiazole,Sulfur compounds,,
+WHEATEN BREAD,,Bread & Cereals,"1,1-diethoxyethane (=acetal, acetaldehyde diethyl acetal)",Acetals,,
+WHEATEN BREAD,,Bread & Cereals,"1,1-diethoxy-3-methylbutane",Acetals,,
+WHEATEN BREAD,,Bread & Cereals,"1,1-diethoxynonane",Acetals,,
+WHEATEN BREAD,,Bread & Cereals,"1,1-diethoxyundecane",Acetals,,
+WHEATEN BREAD,,Bread & Cereals,diethylene glycol monobutyl ether (=2-(2-butoxyethoxy)ethanol),Ethers,,
+WHEATEN BREAD,,Bread & Cereals,nitrobenzene,Nitriles and amides,,
+WHEATEN BREAD,,Bread & Cereals,phenol (=hydroxybenzene),Phenols,,
+WHEATEN BREAD,,Bread & Cereals,4-allylphenol (=chavicol),Phenols,,
+WHEATEN BREAD,,Bread & Cereals,furan,Furans,,
+WHEATEN BREAD,,Bread & Cereals,2-methylfuran,Furans,,
+WHEATEN BREAD,,Bread & Cereals,2-pentylfuran,Furans,,
+WHEATEN BREAD,,Bread & Cereals,pentylfuran (unkn.str.),Furans,,
+WHEATEN BREAD,,Bread & Cereals,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+WHEATEN BREAD,,Bread & Cereals,"3-furancarbaldehyde (=3-formylfuran, 3-furaldehyde)",Furans,,
+WHEATEN BREAD,,Bread & Cereals,5-methylfurfural,Furans,,
+WHEATEN BREAD,,Bread & Cereals,5-(hydroxymethyl)furfural,Furans,11.6,19.1
+WHEATEN BREAD,,Bread & Cereals,2-methyldihydro-3(2H)-furanone,Furans,,
+WHEATEN BREAD,,Bread & Cereals,"2(5H)-furanone (=crotonolactone, 2-buten-4-olide, 4-hydroxy-2-butenoic acid lactone)",Furans,,
+WHEATEN BREAD,,Bread & Cereals,"5-methyl-2(5H)-furanone (=β-angelica lactone, 4-methyl-2-butenolide)",Furans,,
+WHEATEN BREAD,,Bread & Cereals,"5-methyl-2(3H)-furanone (=4-hydroxy-3-pentenoic acid lactone, α-angelica lactone)",Furans,,
+WHEATEN BREAD,,Bread & Cereals,5-ethyl-2(3H)-furanone (=4-hydroxy-3-hexenoic acid lactone),Furans,,
+WHEATEN BREAD,,Bread & Cereals,"5-ethyl-2(5H)-furanone (=4-ethyl-2-butenolide, 2-hexen-4-olide)",Furans,,
+WHEATEN BREAD,,Bread & Cereals,"2,5-dimethyl-3(2H)-furanone",Furans,,
+WHEATEN BREAD,,Bread & Cereals,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+WHEATEN BREAD,,Bread & Cereals,2-acetyl-3-hydroxyfuran (=isomaltol),Furans,,
+WHEATEN BREAD,,Bread & Cereals,2-(2-oxopropyl)furan (=2-acetonylfuran),Furans,,
+WHEATEN BREAD,,Bread & Cereals,2-propanoylfuran,Furans,,
+WHEATEN BREAD,,Bread & Cereals,"1-(2-furyl)-1,2-propanedione",Furans,,
+WHEATEN BREAD,,Bread & Cereals,"1-(5-methyl-2-furyl)-1,2-propanedione",Furans,,
+WHEATEN BREAD,,Bread & Cereals,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+WHEATEN BREAD,,Bread & Cereals,2-furancarboxylic acid (=2-furoic acid),Furans,,
+WHEATEN BREAD,,Bread & Cereals,furfuryl formate,Furans,,
+WHEATEN BREAD,,Bread & Cereals,furfuryl acetate (=2-furanmethanol acetate),Furans,,
+WHEATEN BREAD,,Bread & Cereals,ethyl furfuryl ether (=2-(ethoxymethyl)furan),Furans,,
+WHEATEN BREAD,,Bread & Cereals,difurfuryl ether,Furans,,
+WHEATEN BREAD,,Bread & Cereals,"trans-(E)-4,5-epoxy-2-decenal","(Ep)oxides, pyrans, coumarins",,
+WHEATEN BREAD,,Bread & Cereals,3-hydroxy-2-methyl-4-pyrone (=maltol),"(Ep)oxides, pyrans, coumarins",,
+CRISPBREAD,,Bread & Cereals,2-methyl-1-propanol (=isobutanol),Alcohols,,
+CRISPBREAD,,Bread & Cereals,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+CRISPBREAD,,Bread & Cereals,1-pentanol (=amyl alcohol),Alcohols,,
+CRISPBREAD,,Bread & Cereals,1-penten-3-ol,Alcohols,,
+CRISPBREAD,,Bread & Cereals,1-hexanol,Alcohols,,
+CRISPBREAD,,Bread & Cereals,1-octanol,Alcohols,,
+CRISPBREAD,,Bread & Cereals,benzyl alcohol (=benzenemethanol),Alcohols,,
+CRISPBREAD,,Bread & Cereals,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+CRISPBREAD,,Bread & Cereals,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,heptanal,"Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,"2,4-heptadienal","Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,2-octenal,"Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,2-nonenal,"Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,"(E,Z)-2,4-decadienal","Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,benzaldehyde,"Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,vanillin (=4-hydroxy-3-methoxybenzaldehyde),"Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+CRISPBREAD,,Bread & Cereals,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+CRISPBREAD,,Bread & Cereals,4-methyl-3-penten-2-one (=mesityl oxide),"Carbonyls, ketones",,
+CRISPBREAD,,Bread & Cereals,2-octanone,"Carbonyls, ketones",,
+CRISPBREAD,,Bread & Cereals,"6,10,14-trimethyl-2-pentadecanone (=hexahydrofarnesylacetone)","Carbonyls, ketones",,
+CRISPBREAD,,Bread & Cereals,2-heptadecanone,"Carbonyls, ketones",,
+CRISPBREAD,,Bread & Cereals,acetic acid,Acids,,
+CRISPBREAD,,Bread & Cereals,2-methylpropanoic acid (=isobutyric acid),Acids,,
+CRISPBREAD,,Bread & Cereals,butanoic acid (=butyric acid),Acids,,
+CRISPBREAD,,Bread & Cereals,pentanoic acid (=valeric acid),Acids,,
+CRISPBREAD,,Bread & Cereals,hexanoic acid (=caproic acid),Acids,,
+CRISPBREAD,,Bread & Cereals,octanoic acid (=caprylic acid),Acids,,
+CRISPBREAD,,Bread & Cereals,decanoic acid (=capric acid),Acids,,
+CRISPBREAD,,Bread & Cereals,dodecanoic acid (=lauric acid),Acids,,
+CRISPBREAD,,Bread & Cereals,phenethyl formate,Esters,,
+CRISPBREAD,,Bread & Cereals,"1,2-ethanediol diacetate (=ethylene acetate, 1,2-diacetoxyethane)",Esters,,
+CRISPBREAD,,Bread & Cereals,phenethyl acetate,Esters,,
+CRISPBREAD,,Bread & Cereals,ethyl decanoate (=ethyl caprate),Esters,,
+CRISPBREAD,,Bread & Cereals,ethyl dodecanoate (=ethyl laurate),Esters,,
+CRISPBREAD,,Bread & Cereals,ethyl tetradecanoate (=ethyl myristate),Esters,,
+CRISPBREAD,,Bread & Cereals,ethyl pentadecanoate,Esters,,
+CRISPBREAD,,Bread & Cereals,ethyl hexadecanoate (=ethyl palmitate),Esters,,
+CRISPBREAD,,Bread & Cereals,pentyl benzoate,Esters,,
+CRISPBREAD,,Bread & Cereals,ethyl phenylacetate,Esters,,
+CRISPBREAD,,Bread & Cereals,"4-hydroxybutanoic acid lactone (=dihydro-2(3H)-furanone, 4-butanolide, γ-butyrolactone)",Lactones,,
+CRISPBREAD,,Bread & Cereals,hydroxypentanoic acid lactone (unkn.str.),Lactones,,
+CRISPBREAD,,Bread & Cereals,"4-hydroxyhexanoic acid lactone (=γ-hexalactone, γ-caprolactone, 4-hexanolide)",Lactones,,
+CRISPBREAD,,Bread & Cereals,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+CRISPBREAD,,Bread & Cereals,dihydroactinidiolide,Lactones,,
+CRISPBREAD,,Bread & Cereals,pyrrole,Bases,,
+CRISPBREAD,,Bread & Cereals,1-methyl-2-pyrrolecarbaldehyde (=2-formyl-1-methylpyrrole),Bases,,
+CRISPBREAD,,Bread & Cereals,5-methyl-2-pyrrolecarbaldehyde (=2-formyl-5-methylpyrrole),Bases,,
+CRISPBREAD,,Bread & Cereals,1-furfuryl-2-pyrrolecarbaldehyde (=2-formyl-1-furfurylpyrrole),Bases,,
+CRISPBREAD,,Bread & Cereals,2-acetyl-1-methylpyrrole,Bases,,
+CRISPBREAD,,Bread & Cereals,indole,Bases,,
+CRISPBREAD,,Bread & Cereals,pyrazine,Bases,,
+CRISPBREAD,,Bread & Cereals,methylpyrazine,Bases,,
+CRISPBREAD,,Bread & Cereals,ethylpyrazine,Bases,,
+CRISPBREAD,,Bread & Cereals,vinylpyrazine,Bases,,
+CRISPBREAD,,Bread & Cereals,propylpyrazine,Bases,,
+CRISPBREAD,,Bread & Cereals,"2,3-dimethylpyrazine",Bases,,
+CRISPBREAD,,Bread & Cereals,"2,5-dimethylpyrazine",Bases,,
+CRISPBREAD,,Bread & Cereals,2-ethyl-3-methylpyrazine,Bases,,
+CRISPBREAD,,Bread & Cereals,2-ethyl-6-methylpyrazine,Bases,,
+CRISPBREAD,,Bread & Cereals,2-methyl-6-vinylpyrazine,Bases,,
+CRISPBREAD,,Bread & Cereals,trimethylpyrazine,Bases,,
+CRISPBREAD,,Bread & Cereals,"3-ethyl-2,5-dimethylpyrazine",Bases,,
+CRISPBREAD,,Bread & Cereals,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+CRISPBREAD,,Bread & Cereals,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,,
+CRISPBREAD,,Bread & Cereals,2-thiophenecarbaldehyde (=2-formylthiophene),Sulfur compounds,,
+CRISPBREAD,,Bread & Cereals,phenol (=hydroxybenzene),Phenols,,
+CRISPBREAD,,Bread & Cereals,methylphenol (unkn.str.) (=cresol (unkn.str.)),Phenols,,
+CRISPBREAD,,Bread & Cereals,ethylphenol (unkn.str.),Phenols,,
+CRISPBREAD,,Bread & Cereals,2-methoxyphenol (=guaiacol),Phenols,,
+CRISPBREAD,,Bread & Cereals,2-methoxy-4-vinylphenol (=4-vinylguaiacol),Phenols,,
+CRISPBREAD,,Bread & Cereals,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+CRISPBREAD,,Bread & Cereals,2-pentylfuran,Furans,,
+CRISPBREAD,,Bread & Cereals,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+CRISPBREAD,,Bread & Cereals,5-methylfurfural,Furans,,
+CRISPBREAD,,Bread & Cereals,2-methyldihydro-3(2H)-furanone,Furans,,
+CRISPBREAD,,Bread & Cereals,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+CRISPBREAD,,Bread & Cereals,2-acetyl-5-methylfuran,Furans,,
+CRISPBREAD,,Bread & Cereals,2-propanoylfuran,Furans,,
+CRISPBREAD,,Bread & Cereals,"1-(2-furyl)-1,2-propanedione",Furans,,
+CRISPBREAD,,Bread & Cereals,"1-(5-methyl-2-furyl)-1,2-propanedione",Furans,,
+CRISPBREAD,,Bread & Cereals,"1-(2-furyl)-1,2-butanedione",Furans,,
+CRISPBREAD,,Bread & Cereals,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+CRISPBREAD,,Bread & Cereals,furfuryl formate,Furans,,
+CRISPBREAD,,Bread & Cereals,furfuryl acetate (=2-furanmethanol acetate),Furans,,
+RYE BREAD,,Bread & Cereals,tetrahydrotrimethylnaphthalene (unkn.str.),Hydrocarbons,,
+RYE BREAD,,Bread & Cereals,ethanol,Alcohols,,
+RYE BREAD,,Bread & Cereals,1-propanol (=propyl alcohol),Alcohols,,
+RYE BREAD,,Bread & Cereals,2-methyl-1-propanol (=isobutanol),Alcohols,,
+RYE BREAD,,Bread & Cereals,1-butanol,Alcohols,,
+RYE BREAD,,Bread & Cereals,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+RYE BREAD,,Bread & Cereals,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+RYE BREAD,,Bread & Cereals,"2,3-butanediol (=2,3-butylene glycol)",Alcohols,,
+RYE BREAD,,Bread & Cereals,1-pentanol (=amyl alcohol),Alcohols,,
+RYE BREAD,,Bread & Cereals,1-penten-3-ol,Alcohols,,
+RYE BREAD,,Bread & Cereals,1-hexanol,Alcohols,,
+RYE BREAD,,Bread & Cereals,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+RYE BREAD,,Bread & Cereals,dodecanol (unkn.str.),Alcohols,,
+RYE BREAD,,Bread & Cereals,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+RYE BREAD,,Bread & Cereals,2-(4-hydroxyphenyl)ethanol (=tyrosol),Alcohols,,
+RYE BREAD,,Bread & Cereals,phenylpropanol (unkn.str.),Alcohols,,
+RYE BREAD,,Bread & Cereals,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,(E)-2-heptenal,"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,(Z)-4-heptenal,"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,(E)-2-octenal,"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,(E)-2-nonenal,"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,"(E,E)-2,4-nonadienal","Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,"(E,Z)-2,6-nonadienal","Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,"(E,Z)-2,4-decadienal","Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,benzaldehyde,"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,vanillin (=4-hydroxy-3-methoxybenzaldehyde),"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+RYE BREAD,,Bread & Cereals,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+RYE BREAD,,Bread & Cereals,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+RYE BREAD,,Bread & Cereals,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+RYE BREAD,,Bread & Cereals,2-heptanone,"Carbonyls, ketones",,
+RYE BREAD,,Bread & Cereals,2-octanone,"Carbonyls, ketones",,
+RYE BREAD,,Bread & Cereals,1-octen-3-one,"Carbonyls, ketones",,
+RYE BREAD,,Bread & Cereals,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",,
+RYE BREAD,,Bread & Cereals,acetic acid,Acids,,
+RYE BREAD,,Bread & Cereals,propanoic acid (=propionic acid),Acids,,
+RYE BREAD,,Bread & Cereals,2-methylpropanoic acid (=isobutyric acid),Acids,,
+RYE BREAD,,Bread & Cereals,butanoic acid (=butyric acid),Acids,,
+RYE BREAD,,Bread & Cereals,2-methylbutanoic acid,Acids,,
+RYE BREAD,,Bread & Cereals,3-methylbutanoic acid (=isovaleric acid),Acids,,
+RYE BREAD,,Bread & Cereals,pentanoic acid (=valeric acid),Acids,,
+RYE BREAD,,Bread & Cereals,hexanoic acid (=caproic acid),Acids,,
+RYE BREAD,,Bread & Cereals,"(E,E)-2,4-hexadienoic acid (=sorbic acid)",Acids,,
+RYE BREAD,,Bread & Cereals,heptanoic acid (=enanthic acid),Acids,,
+RYE BREAD,,Bread & Cereals,octanoic acid (=caprylic acid),Acids,,
+RYE BREAD,,Bread & Cereals,nonanoic acid (=pelargonic acid),Acids,,
+RYE BREAD,,Bread & Cereals,decanoic acid (=capric acid),Acids,,
+RYE BREAD,,Bread & Cereals,pentadecanoic acid,Acids,,
+RYE BREAD,,Bread & Cereals,benzoic acid,Acids,,
+RYE BREAD,,Bread & Cereals,phenylacetic acid,Acids,,
+RYE BREAD,,Bread & Cereals,methyl acetate,Esters,,
+RYE BREAD,,Bread & Cereals,ethyl acetate,Esters,,
+RYE BREAD,,Bread & Cereals,propyl acetate,Esters,,
+RYE BREAD,,Bread & Cereals,butyl acetate,Esters,,
+RYE BREAD,,Bread & Cereals,2-methylbutyl acetate,Esters,,
+RYE BREAD,,Bread & Cereals,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+RYE BREAD,,Bread & Cereals,hexyl acetate,Esters,,
+RYE BREAD,,Bread & Cereals,ethyl 2-hydroxypropanoate (=ethyl lactate),Esters,,
+RYE BREAD,,Bread & Cereals,methyl hexanoate,Esters,,
+RYE BREAD,,Bread & Cereals,ethyl hexanoate (=ethyl caproate),Esters,,
+RYE BREAD,,Bread & Cereals,"4-hydroxybutanoic acid lactone (=dihydro-2(3H)-furanone, 4-butanolide, γ-butyrolactone)",Lactones,,
+RYE BREAD,,Bread & Cereals,"4-hydroxyhexanoic acid lactone (=γ-hexalactone, γ-caprolactone, 4-hexanolide)",Lactones,,
+RYE BREAD,,Bread & Cereals,"4-hydroxyheptanoic acid lactone (=4-heptanolide, γ-heptalactone)",Lactones,,
+RYE BREAD,,Bread & Cereals,2-acetyl-1-pyrroline,Bases,0.001,0.004
+RYE BREAD,,Bread & Cereals,"2-acetyl-1,4,5,6-tetrahydro-pyridine",Bases,,
+RYE BREAD,,Bread & Cereals,pyridine,Bases,,
+RYE BREAD,,Bread & Cereals,2-acetylpyridine,Bases,,
+RYE BREAD,,Bread & Cereals,2-ethyl-3-methylpyrazine,Bases,0.007,0.094
+RYE BREAD,,Bread & Cereals,2-ethyl-5-methylpyrazine,Bases,,
+RYE BREAD,,Bread & Cereals,trimethylpyrazine,Bases,,
+RYE BREAD,,Bread & Cereals,"3-ethyl-2,5-dimethylpyrazine",Bases,,
+RYE BREAD,,Bread & Cereals,"2-ethyl-3,5-dimethylpyrazine",Bases,,
+RYE BREAD,,Bread & Cereals,"2,3-diethyl-5-methylpyrazine",Bases,,
+RYE BREAD,,Bread & Cereals,diethyl-methylpyrazine (unkn.str.),Bases,,
+RYE BREAD,,Bread & Cereals,acetylpyrazine,Bases,0.007,0.08
+RYE BREAD,,Bread & Cereals,5-methyl-5H-cyclopentapyrazine,Bases,0.003,0.037
+RYE BREAD,,Bread & Cereals,"6,7-dihydro-5-methyl-5H-cyclopentapyrazine",Bases,,
+RYE BREAD,,Bread & Cereals,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+RYE BREAD,,Bread & Cereals,3-(methylthio)-1-propanol (=methionol),Sulfur compounds,,
+RYE BREAD,,Bread & Cereals,3-(methylthio)propanal (=methional),Sulfur compounds,,
+RYE BREAD,,Bread & Cereals,2-methoxyphenol (=guaiacol),Phenols,,
+RYE BREAD,,Bread & Cereals,2-methoxy-4-vinylphenol (=4-vinylguaiacol),Phenols,,
+RYE BREAD,,Bread & Cereals,2-pentylfuran,Furans,,
+RYE BREAD,,Bread & Cereals,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+RYE BREAD,,Bread & Cereals,5-methylfurfural,Furans,,
+RYE BREAD,,Bread & Cereals,5-ethyl-2(3H)-furanone (=4-hydroxy-3-hexenoic acid lactone),Furans,,
+RYE BREAD,,Bread & Cereals,"5-ethyl-2(5H)-furanone (=4-ethyl-2-butenolide, 2-hexen-4-olide)",Furans,,
+RYE BREAD,,Bread & Cereals,"4-hydroxy-2,5-dimethyl-3(2H)-furanone (=furaneol)",Furans,,
+RYE BREAD,,Bread & Cereals,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+RYE BREAD,,Bread & Cereals,2-acetyl-3-hydroxyfuran (=isomaltol),Furans,,
+RYE BREAD,,Bread & Cereals,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+RYE BREAD,,Bread & Cereals,"trans-(E)-4,5-epoxy-2-decenal","(Ep)oxides, pyrans, coumarins",,
+RYE BREAD,,Bread & Cereals,3-hydroxy-2-methyl-4-pyrone (=maltol),"(Ep)oxides, pyrans, coumarins",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,ethanol,Alcohols,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,1-propanol (=propyl alcohol),Alcohols,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,2-methyl-1-propanol (=isobutanol),Alcohols,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,"2,3-butanediol (=2,3-butylene glycol)",Alcohols,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,formaldehyde (=methanal),"Carbonyls, aldehydes",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,formic acid,Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,acetic acid,Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,propanoic acid (=propionic acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,2-methylpropanoic acid (=isobutyric acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,"2-oxopropanoic acid (=pyruvic acid, acetylformic acid)",Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,butanoic acid (=butyric acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,2-butenoic acid (=crotonic acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,3-methylbutanoic acid (=isovaleric acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,3-methyl-2-oxobutanoic acid,Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,pentanoic acid (=valeric acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,4-methylpentanoic acid (=isocaproic acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,hexanoic acid (=caproic acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,heptanoic acid (=enanthic acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,octanoic acid (=caprylic acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,nonanoic acid (=pelargonic acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,decanoic acid (=capric acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,dodecanoic acid (=lauric acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,tetradecanoic acid (=myristic acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,hexadecanoic acid (=palmitic acid),Acids,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,ethyl formate,Esters,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,ethyl acetate,Esters,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,"1,3-propanediol monoacetate (=3-acetoxy-1-propanol)",Esters,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,ethyl 2-hydroxypropanoate (=ethyl lactate),Esters,,
+BREAD and BREAD PREFERMENT,,Bread & Cereals,"4-hydroxybutanoic acid lactone (=dihydro-2(3H)-furanone, 4-butanolide, γ-butyrolactone)",Lactones,,
+BLUE CHEESES,,Dairy Products,dimethylcyclohexane (unkn.str.),Hydrocarbons,,
+BLUE CHEESES,,Dairy Products,benzene,Hydrocarbons,,
+BLUE CHEESES,,Dairy Products,methylbenzene (=toluene),Hydrocarbons,,
+BLUE CHEESES,,Dairy Products,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+BLUE CHEESES,,Dairy Products,methanol,Alcohols,,
+BLUE CHEESES,,Dairy Products,ethanol,Alcohols,,
+BLUE CHEESES,,Dairy Products,2-propanol (=isopropyl alcohol),Alcohols,,
+BLUE CHEESES,,Dairy Products,2-methyl-1-propanol (=isobutanol),Alcohols,,
+BLUE CHEESES,,Dairy Products,1-butanol,Alcohols,,
+BLUE CHEESES,,Dairy Products,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+BLUE CHEESES,,Dairy Products,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+BLUE CHEESES,,Dairy Products,1-pentanol (=amyl alcohol),Alcohols,,
+BLUE CHEESES,,Dairy Products,2-pentanol,Alcohols,0.2,1.9
+BLUE CHEESES,,Dairy Products,1-hexanol,Alcohols,,
+BLUE CHEESES,,Dairy Products,2-hexanol,Alcohols,,
+BLUE CHEESES,,Dairy Products,1-heptanol,Alcohols,,
+BLUE CHEESES,,Dairy Products,2-heptanol,Alcohols,0.9,9.8
+BLUE CHEESES,,Dairy Products,2-octanol,Alcohols,,
+BLUE CHEESES,,Dairy Products,1-octen-3-ol,Alcohols,,
+BLUE CHEESES,,Dairy Products,2-nonanol,Alcohols,0.3,13
+BLUE CHEESES,,Dairy Products,nonen-2-ol (unkn.str.),Alcohols,0.3,0.4
+BLUE CHEESES,,Dairy Products,2-decanol,Alcohols,,
+BLUE CHEESES,,Dairy Products,2-undecanol,Alcohols,0.1,0.3
+BLUE CHEESES,,Dairy Products,2-phenylethanol (=phenethyl alcohol),Alcohols,0,1.8
+BLUE CHEESES,,Dairy Products,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+BLUE CHEESES,,Dairy Products,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+BLUE CHEESES,,Dairy Products,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+BLUE CHEESES,,Dairy Products,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+BLUE CHEESES,,Dairy Products,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+BLUE CHEESES,,Dairy Products,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+BLUE CHEESES,,Dairy Products,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+BLUE CHEESES,,Dairy Products,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+BLUE CHEESES,,Dairy Products,benzaldehyde,"Carbonyls, aldehydes",,
+BLUE CHEESES,,Dairy Products,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+BLUE CHEESES,,Dairy Products,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",0,3.9
+BLUE CHEESES,,Dairy Products,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+BLUE CHEESES,,Dairy Products,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+BLUE CHEESES,,Dairy Products,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+BLUE CHEESES,,Dairy Products,2-pentanone,"Carbonyls, ketones",0.08,20.9
+BLUE CHEESES,,Dairy Products,3-methyl-2-pentanone,"Carbonyls, ketones",,
+BLUE CHEESES,,Dairy Products,2-hexanone,"Carbonyls, ketones",,
+BLUE CHEESES,,Dairy Products,2-heptanone,"Carbonyls, ketones",0.4,69.9
+BLUE CHEESES,,Dairy Products,2-octanone,"Carbonyls, ketones",,
+BLUE CHEESES,,Dairy Products,3-octanone,"Carbonyls, ketones",,
+BLUE CHEESES,,Dairy Products,2-nonanone,"Carbonyls, ketones",0.4,88.3
+BLUE CHEESES,,Dairy Products,8-nonen-2-one,"Carbonyls, ketones",,
+BLUE CHEESES,,Dairy Products,nonen-2-one (unkn.str.),"Carbonyls, ketones",0.2,3.8
+BLUE CHEESES,,Dairy Products,2-decanone,"Carbonyls, ketones",0,0.6
+BLUE CHEESES,,Dairy Products,2-undecanone,"Carbonyls, ketones",0.1,29.9
+BLUE CHEESES,,Dairy Products,2-dodecanone,"Carbonyls, ketones",0.2,0.7
+BLUE CHEESES,,Dairy Products,2-tridecanone,"Carbonyls, ketones",0.04,1.2
+BLUE CHEESES,,Dairy Products,2-pentadecanone,"Carbonyls, ketones",0.2,0.7
+BLUE CHEESES,,Dairy Products,pentadecanone (unkn.str.),"Carbonyls, ketones",,
+BLUE CHEESES,,Dairy Products,2-heptadecanone,"Carbonyls, ketones",0.02,0.1
+BLUE CHEESES,,Dairy Products,acetophenone (=1-phenylethanone),"Carbonyls, ketones",0,1.2
+BLUE CHEESES,,Dairy Products,formic acid,Acids,420,420
+BLUE CHEESES,,Dairy Products,acetic acid,Acids,38,1417
+BLUE CHEESES,,Dairy Products,oxoacetic acid (=glyoxylic acid),Acids,,
+BLUE CHEESES,,Dairy Products,propanoic acid (=propionic acid),Acids,3,570
+BLUE CHEESES,,Dairy Products,2-methylpropanoic acid (=isobutyric acid),Acids,10,40
+BLUE CHEESES,,Dairy Products,2-hydroxypropanoic acid (=lactic acid),Acids,3080,3080
+BLUE CHEESES,,Dairy Products,"2-oxopropanoic acid (=pyruvic acid, acetylformic acid)",Acids,27,27
+BLUE CHEESES,,Dairy Products,3-hydroxy-2-oxopropanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,3-(4-imidazolyl)-2-oxopropanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,butanoic acid (=butyric acid),Acids,0.2,2517
+BLUE CHEESES,,Dairy Products,2-methylbutanoic acid,Acids,1.6,8.7
+BLUE CHEESES,,Dairy Products,3-methylbutanoic acid (=isovaleric acid),Acids,0.98,400
+BLUE CHEESES,,Dairy Products,2-ethylbutanoic acid,Acids,3.2,3.2
+BLUE CHEESES,,Dairy Products,3-methyl-2-oxobutanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,3-hydroxy-2-oxobutanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,pentanoic acid (=valeric acid),Acids,0.48,0.48
+BLUE CHEESES,,Dairy Products,4-methylpentanoic acid (=isocaproic acid),Acids,50,50
+BLUE CHEESES,,Dairy Products,3-methyl-2-oxopentanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,4-methyl-2-oxopentanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,5-guanido-2-oxopentanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,hexanoic acid (=caproic acid),Acids,0.4,1471
+BLUE CHEESES,,Dairy Products,4-methylhexanoic acid,Acids,0.17,0.17
+BLUE CHEESES,,Dairy Products,2-ethylhexanoic acid,Acids,0.61,0.61
+BLUE CHEESES,,Dairy Products,5-amino-2-oxohexanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,heptanoic acid (=enanthic acid),Acids,1.3,1.6
+BLUE CHEESES,,Dairy Products,heptenoic acid (unkn.str.),Acids,0.21,0.21
+BLUE CHEESES,,Dairy Products,methylheptanoic acid (unkn.str.),Acids,0.11,0.11
+BLUE CHEESES,,Dairy Products,4-ethylheptanoic acid,Acids,0.27,0.27
+BLUE CHEESES,,Dairy Products,ethylheptanoic acid (unkn.str.),Acids,0.04,0.04
+BLUE CHEESES,,Dairy Products,ethylheptenoic acid (unkn.str.),Acids,0.75,1.12
+BLUE CHEESES,,Dairy Products,octanoic acid (=caprylic acid),Acids,0,1237
+BLUE CHEESES,,Dairy Products,4-methyloctanoic acid,Acids,0.3,1.5
+BLUE CHEESES,,Dairy Products,6-methyloctanoic acid,Acids,0.05,0.05
+BLUE CHEESES,,Dairy Products,4-ethyloctanoic acid,Acids,0.01,0.01
+BLUE CHEESES,,Dairy Products,nonanoic acid (=pelargonic acid),Acids,2.3,2.5
+BLUE CHEESES,,Dairy Products,decanoic acid (=capric acid),Acids,1.9,2026
+BLUE CHEESES,,Dairy Products,9-decenoic acid,Acids,10.1,19.6
+BLUE CHEESES,,Dairy Products,decenoic acid (unkn.str.),Acids,,
+BLUE CHEESES,,Dairy Products,methyldecanoic acid (unkn.str.),Acids,0.24,0.24
+BLUE CHEESES,,Dairy Products,2-ethyldecanoic acid,Acids,0.51,0.51
+BLUE CHEESES,,Dairy Products,undecanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,dodecanoic acid (=lauric acid),Acids,1.2,2458
+BLUE CHEESES,,Dairy Products,dodecenoic acid (unkn.str.),Acids,,
+BLUE CHEESES,,Dairy Products,tridecanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,tetradecanoic acid (=myristic acid),Acids,0.1,9324
+BLUE CHEESES,,Dairy Products,pentadecanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,hexadecanoic acid (=palmitic acid),Acids,4848,20308
+BLUE CHEESES,,Dairy Products,hexadecenoic acid (unkn.str.),Acids,,
+BLUE CHEESES,,Dairy Products,octadecanoic acid (=stearic acid),Acids,1610,6239
+BLUE CHEESES,,Dairy Products,(Z)-9-octadecenoic acid (=oleic acid),Acids,4819,18199
+BLUE CHEESES,,Dairy Products,"(Z,Z)-9,12-octadecadienoic acid (=linoleic acid)",Acids,266,1615
+BLUE CHEESES,,Dairy Products,"(Z,Z,Z)-9,12,15-octadecatrienoic acid (=linolenic acid)",Acids,283,1587
+BLUE CHEESES,,Dairy Products,2-oxobutanedioic acid,Acids,,
+BLUE CHEESES,,Dairy Products,2-oxopentanedioic acid,Acids,,
+BLUE CHEESES,,Dairy Products,benzoic acid,Acids,trace,trace
+BLUE CHEESES,,Dairy Products,2-oxo-3-phenylpropanoic acid (=3-phenylpyruvic acid),Acids,,
+BLUE CHEESES,,Dairy Products,3-(4-hydroxyphenyl)-2-oxopropanoic acid,Acids,,
+BLUE CHEESES,,Dairy Products,ethyl formate,Esters,,
+BLUE CHEESES,,Dairy Products,ethyl acetate,Esters,,
+BLUE CHEESES,,Dairy Products,butyl acetate,Esters,,
+BLUE CHEESES,,Dairy Products,"isopentyl acetate (=3-methylbutyl acetate, isoamyl acetate)",Esters,,
+BLUE CHEESES,,Dairy Products,hexyl acetate,Esters,,
+BLUE CHEESES,,Dairy Products,heptyl acetate,Esters,,
+BLUE CHEESES,,Dairy Products,octyl acetate,Esters,,
+BLUE CHEESES,,Dairy Products,decyl acetate,Esters,,
+BLUE CHEESES,,Dairy Products,tetradecyl acetate,Esters,,
+BLUE CHEESES,,Dairy Products,hexadecyl acetate,Esters,,
+BLUE CHEESES,,Dairy Products,octadecenyl acetate (unkn.str.),Esters,,
+BLUE CHEESES,,Dairy Products,phenethyl acetate,Esters,0,10.8
+BLUE CHEESES,,Dairy Products,phenethyl propanoate,Esters,,
+BLUE CHEESES,,Dairy Products,phenethyl 2-methylpropanoate (=phenethyl isobutyrate),Esters,,
+BLUE CHEESES,,Dairy Products,methyl butanoate,Esters,,
+BLUE CHEESES,,Dairy Products,ethyl butanoate,Esters,0.3,0.6
+BLUE CHEESES,,Dairy Products,isopropyl butanoate,Esters,,
+BLUE CHEESES,,Dairy Products,butyl butanoate,Esters,,
+BLUE CHEESES,,Dairy Products,isobutyl butanoate,Esters,,
+BLUE CHEESES,,Dairy Products,methylbutyl butanoate (unkn.str.),Esters,,
+BLUE CHEESES,,Dairy Products,pentyl butanoate,Esters,,
+BLUE CHEESES,,Dairy Products,"isopentyl butanoate (=3-methylbutyl butanoate, isoamyl butyrate)",Esters,,
+BLUE CHEESES,,Dairy Products,1-methylhexyl butanoate (=2-heptyl butanoate),Esters,,
+BLUE CHEESES,,Dairy Products,decyl butanoate,Esters,,
+BLUE CHEESES,,Dairy Products,phenethyl butanoate,Esters,,
+BLUE CHEESES,,Dairy Products,methyl 3-methylbutanoate (=methyl isovalerate),Esters,,
+BLUE CHEESES,,Dairy Products,methyl hexanoate,Esters,2.7,4.4
+BLUE CHEESES,,Dairy Products,ethyl hexanoate (=ethyl caproate),Esters,0.3,3.9
+BLUE CHEESES,,Dairy Products,isopropyl hexanoate,Esters,,
+BLUE CHEESES,,Dairy Products,isobutyl hexanoate,Esters,,
+BLUE CHEESES,,Dairy Products,pentyl hexanoate,Esters,,
+BLUE CHEESES,,Dairy Products,isopentyl hexanoate,Esters,,
+BLUE CHEESES,,Dairy Products,phenethyl hexanoate,Esters,,
+BLUE CHEESES,,Dairy Products,methyl octanoate,Esters,0.2,3.9
+BLUE CHEESES,,Dairy Products,ethyl octanoate (=ethyl caprylate),Esters,0.08,13.9
+BLUE CHEESES,,Dairy Products,isopropyl octanoate,Esters,,
+BLUE CHEESES,,Dairy Products,isobutyl octanoate,Esters,,
+BLUE CHEESES,,Dairy Products,methyl nonanoate,Esters,,
+BLUE CHEESES,,Dairy Products,isopropyl nonanoate,Esters,,
+BLUE CHEESES,,Dairy Products,ethyl 2-methylnonanoate,Esters,,
+BLUE CHEESES,,Dairy Products,methyl decanoate,Esters,1.6,10.1
+BLUE CHEESES,,Dairy Products,ethyl decanoate (=ethyl caprate),Esters,0.7,5.6
+BLUE CHEESES,,Dairy Products,propyl decanoate,Esters,,
+BLUE CHEESES,,Dairy Products,isopropyl decanoate,Esters,,
+BLUE CHEESES,,Dairy Products,isobutyl decanoate,Esters,,
+BLUE CHEESES,,Dairy Products,isopentyl decanoate,Esters,,
+BLUE CHEESES,,Dairy Products,methyl dodecanoate (=methyl laurate),Esters,0,1.3
+BLUE CHEESES,,Dairy Products,ethyl dodecanoate (=ethyl laurate),Esters,,
+BLUE CHEESES,,Dairy Products,isopropyl dodecanoate,Esters,,
+BLUE CHEESES,,Dairy Products,isobutyl dodecanoate,Esters,,
+BLUE CHEESES,,Dairy Products,methyl tetradecanoate (=methyl myristate),Esters,0,0.3
+BLUE CHEESES,,Dairy Products,ethyl tetradecanoate (=ethyl myristate),Esters,0.2,0.4
+BLUE CHEESES,,Dairy Products,methyl pentadecanoate,Esters,0.8,1.6
+BLUE CHEESES,,Dairy Products,methyl hexadecanoate (=methyl palmitate),Esters,,
+BLUE CHEESES,,Dairy Products,"5-hydroxyhexanoic acid lactone (=δ-caprolactone, δ-hexalactone)",Lactones,0.2,0.2
+BLUE CHEESES,,Dairy Products,"4-hydroxyoctanoic acid lactone (=4-octanolide, γ-octalactone, 5-butyldihydro-2(3H)-furanone)",Lactones,,
+BLUE CHEESES,,Dairy Products,"5-hydroxyoctanoic acid lactone (=5-octanolide, δ-octalactone)",Lactones,,
+BLUE CHEESES,,Dairy Products,"4-hydroxydecanoic acid lactone (=4-decanolide, γ-decalactone)",Lactones,,
+BLUE CHEESES,,Dairy Products,"5-hydroxydecanoic acid lactone (=5-decanolide, δ-decalactone)",Lactones,,
+BLUE CHEESES,,Dairy Products,"4-hydroxydodecanoic acid lactone (=4-dodecanolide, γ-dodecalactone)",Lactones,,
+BLUE CHEESES,,Dairy Products,"5-hydroxydodecanoic acid lactone (=5-dodecanolide, δ-dodecalactone)",Lactones,0,0.2
+BLUE CHEESES,,Dairy Products,5-hydroxytetradecanoic acid lactone (=δ-tetradecalactone),Lactones,0,0.1
+BLUE CHEESES,,Dairy Products,methylamine,Bases,,
+BLUE CHEESES,,Dairy Products,ethylamine,Bases,,
+BLUE CHEESES,,Dairy Products,butylamine,Bases,,
+BLUE CHEESES,,Dairy Products,isobutylamine,Bases,,
+BLUE CHEESES,,Dairy Products,isopentylamine,Bases,,
+BLUE CHEESES,,Dairy Products,dimethylamine,Bases,,
+BLUE CHEESES,,Dairy Products,diethylamine,Bases,,
+BLUE CHEESES,,Dairy Products,dipropylamine,Bases,,
+BLUE CHEESES,,Dairy Products,dibutylamine,Bases,,
+BLUE CHEESES,,Dairy Products,"1,4-butanediamine (=putrescine)",Bases,44,44
+BLUE CHEESES,,Dairy Products,"1,5-pentanediamine (=cadaverine)",Bases,42,42
+BLUE CHEESES,,Dairy Products,phenethylamine,Bases,10,25
+BLUE CHEESES,,Dairy Products,2-(4-hydroxyphenyl)ethylamine (=tyramine),Bases,166,500
+BLUE CHEESES,,Dairy Products,histamine,Bases,97,240
+BLUE CHEESES,,Dairy Products,indole,Bases,0.04,0.6
+BLUE CHEESES,,Dairy Products,"2,6-dimethylpyrazine",Bases,,
+BLUE CHEESES,,Dairy Products,trimethylpyrazine,Bases,,
+BLUE CHEESES,,Dairy Products,methanethiol (=methyl mercaptan),Sulfur compounds,,
+BLUE CHEESES,,Dairy Products,hydrogen sulfide,Sulfur compounds,,
+BLUE CHEESES,,Dairy Products,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+BLUE CHEESES,,Dairy Products,carbon disulfide,Sulfur compounds,,
+BLUE CHEESES,,Dairy Products,acetamide,Nitriles and amides,,
+BLUE CHEESES,,Dairy Products,propanamide,Nitriles and amides,,
+BLUE CHEESES,,Dairy Products,2-methylpropanamide (=isobutanamide),Nitriles and amides,,
+BLUE CHEESES,,Dairy Products,butanamide,Nitriles and amides,,
+BLUE CHEESES,,Dairy Products,3-methylbutanamide (=isovaleramide),Nitriles and amides,,
+BLUE CHEESES,,Dairy Products,pentanamide,Nitriles and amides,,
+BLUE CHEESES,,Dairy Products,4-ethylphenol,Phenols,,
+BLUE CHEESES,,Dairy Products,"1-methoxy-4-methylbenzene (=4-methylanisole, 4-methoxy-toluene, p-cresyl methyl ether)",Phenols,,
+BLUE CHEESES,,Dairy Products,methoxy-methylbenzene (unkn.str.),Phenols,,
+BLUE CHEESES,,Dairy Products,"1,3-dimethoxybenzene (=resorcinol dimethyl ether)",Phenols,,
+BLUE CHEESES,,Dairy Products,"1,2-dimethoxy-4-methylbenzene",Phenols,,
+BLUE CHEESES,,Dairy Products,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+CHEDDAR CHEESE,,Dairy Products,pentane,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,octane,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,1-octene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,nonane,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,1-nonene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,decane,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,1-decene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,undecane,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,1-undecene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,dodecane,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,1-dodecene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,tetradecane,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,pentadecane,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,hexadecane,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,1-phytene,Hydrocarbons,0.019,0.63
+CHEDDAR CHEESE,,Dairy Products,2-phytene,Hydrocarbons,0.045,0.11
+CHEDDAR CHEESE,,Dairy Products,phytadiene (unkn.str.),Hydrocarbons,0.051,0.2
+CHEDDAR CHEESE,,Dairy Products,limonene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,α-pinene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,β-pinene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,camphene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,benzene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,methylbenzene (=toluene),Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,propylbenzene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,butylbenzene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,pentylbenzene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,ethyl-methylbenzene (unkn.str.),Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,diethylbenzene (unkn.str.),Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,trimethylbenzene (unkn.str.),Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,ethyl-dimethylbenzene (unkn.str.),Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,naphthalene,Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,methylnaphthalene (unkn.str.),Hydrocarbons,,
+CHEDDAR CHEESE,,Dairy Products,methanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,ethanol,Alcohols,0,620
+CHEDDAR CHEESE,,Dairy Products,1-propanol (=propyl alcohol),Alcohols,0.5,11
+CHEDDAR CHEESE,,Dairy Products,2-propanol (=isopropyl alcohol),Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,2-methyl-1-propanol (=isobutanol),Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,1-butanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,2-butanol (=sec-butanol),Alcohols,0.1,36
+CHEDDAR CHEESE,,Dairy Products,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,"2,3-butanediol (=2,3-butylene glycol)",Alcohols,1,91
+CHEDDAR CHEESE,,Dairy Products,1-pentanol (=amyl alcohol),Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,2-pentanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,2-methyl-1-pentanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,1-hexanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,2-hexanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,1-heptanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,2-heptanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,1-octanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,2-octanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,2-nonanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,1-decanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,2-undecanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,1-dodecanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,2-dodecanol,Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,"(E)-3,7,11,15-tetramethyl-2-hexadecen-1-ol (=phytol)",Alcohols,0.12,0.27
+CHEDDAR CHEESE,,Dairy Products,benzyl alcohol (=benzenemethanol),Alcohols,,
+CHEDDAR CHEESE,,Dairy Products,2-phenylethanol (=phenethyl alcohol),Alcohols,0.01,0.08
+CHEDDAR CHEESE,,Dairy Products,formaldehyde (=methanal),"Carbonyls, aldehydes",1,1
+CHEDDAR CHEESE,,Dairy Products,acetaldehyde (=ethanal),"Carbonyls, aldehydes",0.1,7.5
+CHEDDAR CHEESE,,Dairy Products,propanal (=propionaldehyde),"Carbonyls, aldehydes",2.6,2.6
+CHEDDAR CHEESE,,Dairy Products,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+CHEDDAR CHEESE,,Dairy Products,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+CHEDDAR CHEESE,,Dairy Products,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",trace,trace
+CHEDDAR CHEESE,,Dairy Products,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+CHEDDAR CHEESE,,Dairy Products,heptanal,"Carbonyls, aldehydes",,
+CHEDDAR CHEESE,,Dairy Products,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+CHEDDAR CHEESE,,Dairy Products,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+CHEDDAR CHEESE,,Dairy Products,dodecanal,"Carbonyls, aldehydes",,
+CHEDDAR CHEESE,,Dairy Products,hexadecanal,"Carbonyls, aldehydes",0.042,0.14
+CHEDDAR CHEESE,,Dairy Products,benzaldehyde,"Carbonyls, aldehydes",,
+CHEDDAR CHEESE,,Dairy Products,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",0.02,0.04
+CHEDDAR CHEESE,,Dairy Products,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",0.1,8.5
+CHEDDAR CHEESE,,Dairy Products,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",0.1,67.1
+CHEDDAR CHEESE,,Dairy Products,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",0.13,40
+CHEDDAR CHEESE,,Dairy Products,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",0.5,4.2
+CHEDDAR CHEESE,,Dairy Products,2-pentanone,"Carbonyls, ketones",0.1,3
+CHEDDAR CHEESE,,Dairy Products,3-pentanone,"Carbonyls, ketones",,
+CHEDDAR CHEESE,,Dairy Products,4-methyl-2-pentanone,"Carbonyls, ketones",,
+CHEDDAR CHEESE,,Dairy Products,2-hexanone,"Carbonyls, ketones",0.3,0.9
+CHEDDAR CHEESE,,Dairy Products,5-methyl-2-hexanone,"Carbonyls, ketones",,
+CHEDDAR CHEESE,,Dairy Products,2-heptanone,"Carbonyls, ketones",0.58,6.6
+CHEDDAR CHEESE,,Dairy Products,heptanone (unkn.str.),"Carbonyls, ketones",,
+CHEDDAR CHEESE,,Dairy Products,2-octanone,"Carbonyls, ketones",,
+CHEDDAR CHEESE,,Dairy Products,2-nonanone,"Carbonyls, ketones",0.2,1.7
+CHEDDAR CHEESE,,Dairy Products,2-undecanone,"Carbonyls, ketones",0.15,1.5
+CHEDDAR CHEESE,,Dairy Products,undecanone (unkn.str.),"Carbonyls, ketones",,
+CHEDDAR CHEESE,,Dairy Products,2-dodecanone,"Carbonyls, ketones",,
+CHEDDAR CHEESE,,Dairy Products,2-tridecanone,"Carbonyls, ketones",0.11,2.1
+CHEDDAR CHEESE,,Dairy Products,2-pentadecanone,"Carbonyls, ketones",0.059,2.3
+CHEDDAR CHEESE,,Dairy Products,1-(4-hydroxyphenyl)-2-buten-1-one,"Carbonyls, ketones",,
+CHEDDAR CHEESE,,Dairy Products,formic acid,Acids,420,420
+CHEDDAR CHEESE,,Dairy Products,acetic acid,Acids,90,2440
+CHEDDAR CHEESE,,Dairy Products,propanoic acid (=propionic acid),Acids,0,3240
+CHEDDAR CHEESE,,Dairy Products,2-methylpropanoic acid (=isobutyric acid),Acids,,
+CHEDDAR CHEESE,,Dairy Products,2-hydroxypropanoic acid (=lactic acid),Acids,5140,12300
+CHEDDAR CHEESE,,Dairy Products,"2-oxopropanoic acid (=pyruvic acid, acetylformic acid)",Acids,26,63
+CHEDDAR CHEESE,,Dairy Products,butanoic acid (=butyric acid),Acids,0.034,1439
+CHEDDAR CHEESE,,Dairy Products,2-methylbutanoic acid,Acids,15.4,15.4
+CHEDDAR CHEESE,,Dairy Products,3-methylbutanoic acid (=isovaleric acid),Acids,0.3,0.3
+CHEDDAR CHEESE,,Dairy Products,2-ethylbutanoic acid,Acids,1.6,1.6
+CHEDDAR CHEESE,,Dairy Products,2-hydroxy-3-methylbutanoic acid,Acids,,
+CHEDDAR CHEESE,,Dairy Products,pentanoic acid (=valeric acid),Acids,0.83,3.7
+CHEDDAR CHEESE,,Dairy Products,2-hydroxy-3-methylpentanoic acid,Acids,,
+CHEDDAR CHEESE,,Dairy Products,2-hydroxy-4-methylpentanoic acid,Acids,,
+CHEDDAR CHEESE,,Dairy Products,hexanoic acid (=caproic acid),Acids,0.27,304
+CHEDDAR CHEESE,,Dairy Products,hexenoic acid (unkn.str.),Acids,0.05,0.05
+CHEDDAR CHEESE,,Dairy Products,2-ethylhexanoic acid,Acids,0.08,0.08
+CHEDDAR CHEESE,,Dairy Products,2-hydroxyhexanoic acid,Acids,,
+CHEDDAR CHEESE,,Dairy Products,heptanoic acid (=enanthic acid),Acids,0.25,0.25
+CHEDDAR CHEESE,,Dairy Products,4-ethylheptanoic acid,Acids,0.05,0.05
+CHEDDAR CHEESE,,Dairy Products,propylheptanoic acid (unkn.str.),Acids,0.11,0.11
+CHEDDAR CHEESE,,Dairy Products,octanoic acid (=caprylic acid),Acids,0.74,250
+CHEDDAR CHEESE,,Dairy Products,4-methyloctanoic acid,Acids,0.11,0.11
+CHEDDAR CHEESE,,Dairy Products,nonanoic acid (=pelargonic acid),Acids,0.032,0.64
+CHEDDAR CHEESE,,Dairy Products,decanoic acid (=capric acid),Acids,2,218
+CHEDDAR CHEESE,,Dairy Products,9-decenoic acid,Acids,2.37,2.37
+CHEDDAR CHEESE,,Dairy Products,decenoic acid (unkn.str.),Acids,0.12,0.63
+CHEDDAR CHEESE,,Dairy Products,methyldecanoic acid (unkn.str.),Acids,0.07,0.07
+CHEDDAR CHEESE,,Dairy Products,2-ethyldecanoic acid,Acids,0.07,0.07
+CHEDDAR CHEESE,,Dairy Products,undecanoic acid,Acids,0.03,0.13
+CHEDDAR CHEESE,,Dairy Products,dodecanoic acid (=lauric acid),Acids,0.89,81
+CHEDDAR CHEESE,,Dairy Products,dodecenoic acid (unkn.str.),Acids,,
+CHEDDAR CHEESE,,Dairy Products,tridecanoic acid,Acids,,
+CHEDDAR CHEESE,,Dairy Products,tetradecanoic acid (=myristic acid),Acids,0.71,265
+CHEDDAR CHEESE,,Dairy Products,tetradecenoic acid (unkn.str.),Acids,0.087,0.45
+CHEDDAR CHEESE,,Dairy Products,pentadecanoic acid,Acids,,
+CHEDDAR CHEESE,,Dairy Products,hexadecanoic acid (=palmitic acid),Acids,0.22,503
+CHEDDAR CHEESE,,Dairy Products,hexadecenoic acid (unkn.str.),Acids,0.017,24
+CHEDDAR CHEESE,,Dairy Products,heptadecanoic acid (=margaric acid),Acids,,
+CHEDDAR CHEESE,,Dairy Products,octadecanoic acid (=stearic acid),Acids,140,179
+CHEDDAR CHEESE,,Dairy Products,(Z)-9-octadecenoic acid (=oleic acid),Acids,467,467
+CHEDDAR CHEESE,,Dairy Products,octadecenoic acid (unkn.str.),Acids,360,484
+CHEDDAR CHEESE,,Dairy Products,"(Z,Z)-9,12-octadecadienoic acid (=linoleic acid)",Acids,69,69
+CHEDDAR CHEESE,,Dairy Products,octadecadienoic acid (unkn.str.),Acids,13,44
+CHEDDAR CHEESE,,Dairy Products,"(Z,Z,Z)-9,12,15-octadecatrienoic acid (=linolenic acid)",Acids,40,40
+CHEDDAR CHEESE,,Dairy Products,benzoic acid,Acids,17,35
+CHEDDAR CHEESE,,Dairy Products,2-hydroxybenzoic acid (=salicylic acid),Acids,,
+CHEDDAR CHEESE,,Dairy Products,2-methoxybenzoic acid,Acids,,
+CHEDDAR CHEESE,,Dairy Products,3-methoxybenzoic acid (=m-anisic acid),Acids,,
+CHEDDAR CHEESE,,Dairy Products,4-methoxybenzoic acid (=p-anisic acid),Acids,,
+CHEDDAR CHEESE,,Dairy Products,phenylacetic acid,Acids,,
+CHEDDAR CHEESE,,Dairy Products,3-phenylpropanoic acid (=hydrocinnamic acid),Acids,,
+CHEDDAR CHEESE,,Dairy Products,ethyl formate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,methyl acetate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,ethyl acetate,Esters,0.2,0.8
+CHEDDAR CHEESE,,Dairy Products,isopropyl acetate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,butyl acetate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,"sec-butyl acetate (=2-butyl acetate, 1-methylpropyl acetate)",Esters,,
+CHEDDAR CHEESE,,Dairy Products,hexyl acetate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,octyl acetate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,methyl propanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,ethyl propanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,sec-butyl 2-hydroxypropanoate (=sec-butyl lactate),Esters,,
+CHEDDAR CHEESE,,Dairy Products,phenethyl 2-hydroxypropanoate (=phenethyl lactate),Esters,,
+CHEDDAR CHEESE,,Dairy Products,methyl butanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,ethyl butanoate,Esters,0.12,1.2
+CHEDDAR CHEESE,,Dairy Products,sec-butyl butanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,2-methylbutyl 3-methylbutanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,pentyl 3-methylbutanoate (=amyl isovalerate),Esters,,
+CHEDDAR CHEESE,,Dairy Products,ethyl pentanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,isopropyl pentanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,isobutyl pentanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,methyl hexanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,ethyl hexanoate (=ethyl caproate),Esters,0.02,0.13
+CHEDDAR CHEESE,,Dairy Products,sec-butyl hexanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,methyl octanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,ethyl octanoate (=ethyl caprylate),Esters,0.01,0.08
+CHEDDAR CHEESE,,Dairy Products,methyl decanoate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,ethyl decanoate (=ethyl caprate),Esters,0.013,0.13
+CHEDDAR CHEESE,,Dairy Products,methyl dodecanoate (=methyl laurate),Esters,,
+CHEDDAR CHEESE,,Dairy Products,ethyl dodecanoate (=ethyl laurate),Esters,,
+CHEDDAR CHEESE,,Dairy Products,dimethyl phthalate,Esters,,
+CHEDDAR CHEESE,,Dairy Products,"4-hydroxyhexanoic acid lactone (=γ-hexalactone, γ-caprolactone, 4-hexanolide)",Lactones,,
+CHEDDAR CHEESE,,Dairy Products,"4-hydroxyoctanoic acid lactone (=4-octanolide, γ-octalactone, 5-butyldihydro-2(3H)-furanone)",Lactones,,
+CHEDDAR CHEESE,,Dairy Products,"5-hydroxyoctanoic acid lactone (=5-octanolide, δ-octalactone)",Lactones,,
+CHEDDAR CHEESE,,Dairy Products,"5-hydroxydecanoic acid lactone (=5-decanolide, δ-decalactone)",Lactones,0.098,0.23
+CHEDDAR CHEESE,,Dairy Products,"(Z)-5-hydroxy-7-decenoic acid lactone (=δ-jasmolactone, (Z)-jasmin lactone)",Lactones,,
+CHEDDAR CHEESE,,Dairy Products,"4-hydroxydodecanoic acid lactone (=4-dodecanolide, γ-dodecalactone)",Lactones,0.022,0.48
+CHEDDAR CHEESE,,Dairy Products,"5-hydroxydodecanoic acid lactone (=5-dodecanolide, δ-dodecalactone)",Lactones,0.15,0.32
+CHEDDAR CHEESE,,Dairy Products,4-hydroxytetradecanoic acid lactone (=γ-tetradecalactone),Lactones,,
+CHEDDAR CHEESE,,Dairy Products,5-hydroxytetradecanoic acid lactone (=δ-tetradecalactone),Lactones,0.087,0.25
+CHEDDAR CHEESE,,Dairy Products,5-hydroxypentadecanoic acid lactone,Lactones,,
+CHEDDAR CHEESE,,Dairy Products,4-hydroxyhexadecanoic acid lactone,Lactones,,
+CHEDDAR CHEESE,,Dairy Products,5-hydroxyhexadecanoic acid lactone,Lactones,,
+CHEDDAR CHEESE,,Dairy Products,methylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,ethylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,propylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,isopropylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,butylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,isobutylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,pentylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,isopentylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,dimethylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,diethylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,dipropylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,dibutylamine,Bases,,
+CHEDDAR CHEESE,,Dairy Products,"1,4-butanediamine (=putrescine)",Bases,trace,3.3
+CHEDDAR CHEESE,,Dairy Products,"1,5-pentanediamine (=cadaverine)",Bases,trace,2.5
+CHEDDAR CHEESE,,Dairy Products,2-(4-hydroxyphenyl)ethylamine (=tyramine),Bases,1.4,5.8
+CHEDDAR CHEESE,,Dairy Products,adrenaline,Bases,trace,3.1
+CHEDDAR CHEESE,,Dairy Products,histamine,Bases,7.5,18.5
+CHEDDAR CHEESE,,Dairy Products,tryptamine,Bases,trace,trace
+CHEDDAR CHEESE,,Dairy Products,methanethiol (=methyl mercaptan),Sulfur compounds,0.003,0.03
+CHEDDAR CHEESE,,Dairy Products,ethanethiol (=ethyl mercaptan),Sulfur compounds,,
+CHEDDAR CHEESE,,Dairy Products,1-butanethiol (=butyl mercaptan),Sulfur compounds,,
+CHEDDAR CHEESE,,Dairy Products,hydrogen sulfide,Sulfur compounds,0.45,0.8
+CHEDDAR CHEESE,,Dairy Products,carbonyl sulfide,Sulfur compounds,,
+CHEDDAR CHEESE,,Dairy Products,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+CHEDDAR CHEESE,,Dairy Products,3-(methylthio)propanal (=methional),Sulfur compounds,0.1,0.1
+CHEDDAR CHEESE,,Dairy Products,diethyl ether,Ethers,,
+CHEDDAR CHEESE,,Dairy Products,dichloromethane (=methylene chloride),Halogens,0.033,0.071
+CHEDDAR CHEESE,,Dairy Products,trichloromethane (=chloroform),Halogens,0.046,0.08
+CHEDDAR CHEESE,,Dairy Products,tetrachloromethane (=carbon tetrachloride),Halogens,0.0003,0.0011
+CHEDDAR CHEESE,,Dairy Products,"1,2-dichloroethylene",Halogens,,
+CHEDDAR CHEESE,,Dairy Products,"(Z)-1,2-dichloroethylene",Halogens,,
+CHEDDAR CHEESE,,Dairy Products,"1,1,1-trichloroethane (=methylchloroform)",Halogens,0.0019,0.013
+CHEDDAR CHEESE,,Dairy Products,"1,1,2-trichloroethene (=trichloroethylene)",Halogens,0.0012,0.0031
+CHEDDAR CHEESE,,Dairy Products,tetrachloroethene (=tetrachloroethylene),Halogens,0.00096,0.0032
+CHEDDAR CHEESE,,Dairy Products,chlorobenzene,Halogens,,
+CHEDDAR CHEESE,,Dairy Products,acetamide,Nitriles and amides,,
+CHEDDAR CHEESE,,Dairy Products,propanamide,Nitriles and amides,,
+CHEDDAR CHEESE,,Dairy Products,2-methylpropanamide (=isobutanamide),Nitriles and amides,,
+CHEDDAR CHEESE,,Dairy Products,butanamide,Nitriles and amides,,
+CHEDDAR CHEESE,,Dairy Products,3-methylbutanamide (=isovaleramide),Nitriles and amides,,
+CHEDDAR CHEESE,,Dairy Products,pentanamide,Nitriles and amides,,
+CHEDDAR CHEESE,,Dairy Products,phenol (=hydroxybenzene),Phenols,0,0.15
+CHEDDAR CHEESE,,Dairy Products,2-methylphenol (=o-cresol),Phenols,,
+CHEDDAR CHEESE,,Dairy Products,4-methylphenol (=p-cresol),Phenols,0.03,0.07
+CHEDDAR CHEESE,,Dairy Products,methylphenol (unkn.str.) (=cresol (unkn.str.)),Phenols,,
+CHEDDAR CHEESE,,Dairy Products,"2,6-di-tert-butyl-4-methyl-phenol (=B.H.T.)",Phenols,0.069,0.14
+CHEDDAR CHEESE,,Dairy Products,dilactide,"(Ep)oxides, pyrans, coumarins",,

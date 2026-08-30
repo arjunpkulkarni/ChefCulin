@@ -1,0 +1,581 @@
+Product,Product Category,Product Group,Compound,Compound Group,Quantity Lower Bound,Quantity Upper Bound
+CHAYOTE (Sechium edule L.),,Vegetables,hexane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,"2,4-dimethylhexane",Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,3-methylheptane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,octane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,octadecane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,nonadecane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,1-nonadecene,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,eicosane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,1-eicosene,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,heneicosane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,docosane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,1-docosene,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,tricosane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,1-tricosene,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,tetracosane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,pentacosane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,1-pentacosene,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,cyclohexane,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,dimethylcyclohexane (unkn.str.),Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,limonene,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,methylbenzene (=toluene),Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,naphthalene,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,1-methylnaphthalene,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,2-vinylnaphthalene,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,phenanthrene,Hydrocarbons,,
+CHAYOTE (Sechium edule L.),,Vegetables,2-methyl-2-butanol (=tert-amyl alcohol),Alcohols,,
+CHAYOTE (Sechium edule L.),,Vegetables,1-penten-3-ol,Alcohols,,
+CHAYOTE (Sechium edule L.),,Vegetables,1-hexanol,Alcohols,,
+CHAYOTE (Sechium edule L.),,Vegetables,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+CHAYOTE (Sechium edule L.),,Vegetables,1-octen-3-ol,Alcohols,,
+CHAYOTE (Sechium edule L.),,Vegetables,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+CHAYOTE (Sechium edule L.),,Vegetables,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+CHAYOTE (Sechium edule L.),,Vegetables,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+CHAYOTE (Sechium edule L.),,Vegetables,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+CHAYOTE (Sechium edule L.),,Vegetables,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",,
+CHAYOTE (Sechium edule L.),,Vegetables,benzaldehyde,"Carbonyls, aldehydes",,
+CHAYOTE (Sechium edule L.),,Vegetables,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+CHAYOTE (Sechium edule L.),,Vegetables,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+CHAYOTE (Sechium edule L.),,Vegetables,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+CHAYOTE (Sechium edule L.),,Vegetables,2-decanone,"Carbonyls, ketones",,
+CHAYOTE (Sechium edule L.),,Vegetables,tetradecanoic acid (=myristic acid),Acids,,
+CHAYOTE (Sechium edule L.),,Vegetables,hexadecanoic acid (=palmitic acid),Acids,,
+CHAYOTE (Sechium edule L.),,Vegetables,"9,12-octadecadienoic acid",Acids,,
+CHAYOTE (Sechium edule L.),,Vegetables,diethyl phthalate,Esters,,
+CHAYOTE (Sechium edule L.),,Vegetables,dibutyl phthalate,Esters,,
+CHAYOTE (Sechium edule L.),,Vegetables,diisobutyl phthalate,Esters,,
+CHAYOTE (Sechium edule L.),,Vegetables,dioctyl phthalate,Esters,,
+CHAYOTE (Sechium edule L.),,Vegetables,pyridine,Bases,,
+CHAYOTE (Sechium edule L.),,Vegetables,benzothiazole,Sulfur compounds,,
+CHAYOTE (Sechium edule L.),,Vegetables,2-methoxy-4-vinylphenol (=4-vinylguaiacol),Phenols,,
+CHAYOTE (Sechium edule L.),,Vegetables,2-pentylfuran,Furans,,
+CHAYOTE (Sechium edule L.),,Vegetables,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+UDO (Aralia cordata Thunb.),,Vegetables,β-ocimene,Hydrocarbons,,
+UDO (Aralia cordata Thunb.),,Vegetables,β-myrcene (=myrcene),Hydrocarbons,,
+UDO (Aralia cordata Thunb.),,Vegetables,limonene,Hydrocarbons,,
+UDO (Aralia cordata Thunb.),,Vegetables,α-pinene,Hydrocarbons,,
+UDO (Aralia cordata Thunb.),,Vegetables,β-pinene,Hydrocarbons,,
+UDO (Aralia cordata Thunb.),,Vegetables,camphene,Hydrocarbons,,
+UDO (Aralia cordata Thunb.),,Vegetables,sabinene (=4(10)-thujene),Hydrocarbons,,
+UDO (Aralia cordata Thunb.),,Vegetables,3-carene,Hydrocarbons,,
+UDO (Aralia cordata Thunb.),,Vegetables,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,hexadecanoic acid (=palmitic acid),Acids,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,(Z)-9-octadecenoic acid (=oleic acid),Acids,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,"(Z,Z)-9,12-octadecadienoic acid (=linoleic acid)",Acids,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,ammonia,Bases,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,isopropyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,allyl isothiocyanate (=allyl mustard oil),Sulfur compounds,9585,9585
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,butyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,sec-butyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,3-butenyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,4-pentenyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,5-hexenyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,6-heptenyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,phenethyl isothiocyanate,Sulfur compounds,13,13
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,3-(methylthio)propyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,5-(methylthio)pentyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,6-(methylthio)hexyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,7-(methylthio)heptyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,8-(methylthio)octyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,5-(methylsulfinyl)pentyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,6-(methylsulfinyl)hexyl isothiocyanate,Sulfur compounds,,
+WASABI (Wasabi japonica) (Japanese horseradish),,Vegetables,7-(methylsulfinyl)heptyl isothiocyanate,Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,propylbenzene,Hydrocarbons,,
+,BRASSICA CAMPESTRIS,Vegetables,2-methyl-1-propanol (=isobutanol),Alcohols,,
+,BRASSICA CAMPESTRIS,Vegetables,2-pentanol,Alcohols,,
+,BRASSICA CAMPESTRIS,Vegetables,1-hexanol,Alcohols,<1,5
+,BRASSICA CAMPESTRIS,Vegetables,(E)-2-hexen-1-ol,Alcohols,<1,<1
+,BRASSICA CAMPESTRIS,Vegetables,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,1,22
+,BRASSICA CAMPESTRIS,Vegetables,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+,BRASSICA CAMPESTRIS,Vegetables,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0,1
+,BRASSICA CAMPESTRIS,Vegetables,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",1,5
+,BRASSICA CAMPESTRIS,Vegetables,benzyl acetate,Esters,,
+,BRASSICA CAMPESTRIS,Vegetables,methyl decanoate,Esters,,
+,BRASSICA CAMPESTRIS,Vegetables,methyl dodecanoate (=methyl laurate),Esters,,
+,BRASSICA CAMPESTRIS,Vegetables,methyl tetradecanoate (=methyl myristate),Esters,,
+,BRASSICA CAMPESTRIS,Vegetables,methyl hexadecanoate (=methyl palmitate),Esters,,
+,BRASSICA CAMPESTRIS,Vegetables,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,4-(methylthio)butanenitrile (=3-(methylthio)propyl cyanide),Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,5-(methylthio)pentanenitrile,Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,6-(methylthio)hexanenitrile (=5-methyl thiopentyl cyanide),Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,7-(methylthio)heptanenitrile,Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,"4,5-epithiopentanenitrile",Sulfur compounds,1.4,1.4
+,BRASSICA CAMPESTRIS,Vegetables,"5,6-epithiohexanenitrile",Sulfur compounds,1.9,1.9
+,BRASSICA CAMPESTRIS,Vegetables,ethyl isothiocyanate,Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,allyl isothiocyanate (=allyl mustard oil),Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,butyl isothiocyanate,Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,sec-butyl isothiocyanate,Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,3-butenyl isothiocyanate,Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,4-pentenyl isothiocyanate,Sulfur compounds,1.1,1.1
+,BRASSICA CAMPESTRIS,Vegetables,hexyl isothiocyanate,Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,phenethyl isothiocyanate,Sulfur compounds,21,63
+,BRASSICA CAMPESTRIS,Vegetables,4-(methylthio)butyl isothiocyanate,Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,5-(methylthio)pentyl isothiocyanate,Sulfur compounds,,
+,BRASSICA CAMPESTRIS,Vegetables,"3-butenenitrile (=allyl cyanide, vinylacetonitrile)",Nitriles and amides,,
+,BRASSICA CAMPESTRIS,Vegetables,3-methylbutanenitrile (=isobutyl cyanide),Nitriles and amides,,
+,BRASSICA CAMPESTRIS,Vegetables,pentanenitrile,Nitriles and amides,,
+,BRASSICA CAMPESTRIS,Vegetables,4-pentenenitrile,Nitriles and amides,,
+,BRASSICA CAMPESTRIS,Vegetables,5-hexenenitrile,Nitriles and amides,,
+,BRASSICA CAMPESTRIS,Vegetables,"3-phenylpropanenitrile (=phenethyl cyanide, benzenepropanenitrile)",Nitriles and amides,2.9,2.9
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,propylbenzene,Hydrocarbons,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,2-methyl-1-propanol (=isobutanol),Alcohols,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,2-pentanol,Alcohols,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,1-hexanol,Alcohols,<1,5
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,(E)-2-hexen-1-ol,Alcohols,<1,<1
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,1,5
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0,1
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",1,5
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,methyl decanoate,Esters,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,methyl dodecanoate (=methyl laurate),Esters,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,methyl tetradecanoate (=methyl myristate),Esters,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,methyl hexadecanoate (=methyl palmitate),Esters,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,5-(methylthio)pentanenitrile,Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,6-(methylthio)hexanenitrile (=5-methyl thiopentyl cyanide),Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,"4,5-epithiopentanenitrile",Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,"5,6-epithiohexanenitrile",Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,ethyl isothiocyanate,Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,allyl isothiocyanate (=allyl mustard oil),Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,butyl isothiocyanate,Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,sec-butyl isothiocyanate,Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,3-butenyl isothiocyanate,Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,4-pentenyl isothiocyanate,Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,phenethyl isothiocyanate,Sulfur compounds,37.4,63
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,4-(methylthio)butyl isothiocyanate,Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,5-(methylthio)pentyl isothiocyanate,Sulfur compounds,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,"3-butenenitrile (=allyl cyanide, vinylacetonitrile)",Nitriles and amides,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,3-methylbutanenitrile (=isobutyl cyanide),Nitriles and amides,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,pentanenitrile,Nitriles and amides,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,4-pentenenitrile,Nitriles and amides,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,5-hexenenitrile,Nitriles and amides,,
+TURNIP,BRASSICA CAMPESTRIS,Vegetables,"3-phenylpropanenitrile (=phenethyl cyanide, benzenepropanenitrile)",Nitriles and amides,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,propylbenzene,Hydrocarbons,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,1-hexanol,Alcohols,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,22,22
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",2.1,2.1
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,benzyl acetate,Esters,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,methyl decanoate,Esters,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,methyl dodecanoate (=methyl laurate),Esters,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,methyl tetradecanoate (=methyl myristate),Esters,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,methyl hexadecanoate (=methyl palmitate),Esters,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,4-(methylthio)butanenitrile (=3-(methylthio)propyl cyanide),Sulfur compounds,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,5-(methylthio)pentanenitrile,Sulfur compounds,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,6-(methylthio)hexanenitrile (=5-methyl thiopentyl cyanide),Sulfur compounds,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,7-(methylthio)heptanenitrile,Sulfur compounds,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,"4,5-epithiopentanenitrile",Sulfur compounds,1.4,1.4
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,"5,6-epithiohexanenitrile",Sulfur compounds,1.9,1.9
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,allyl isothiocyanate (=allyl mustard oil),Sulfur compounds,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,sec-butyl isothiocyanate,Sulfur compounds,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,3-butenyl isothiocyanate,Sulfur compounds,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,4-pentenyl isothiocyanate,Sulfur compounds,1.1,1.1
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,hexyl isothiocyanate,Sulfur compounds,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,phenethyl isothiocyanate,Sulfur compounds,21,21
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,4-(methylthio)butyl isothiocyanate,Sulfur compounds,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,5-(methylthio)pentyl isothiocyanate,Sulfur compounds,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,"3-butenenitrile (=allyl cyanide, vinylacetonitrile)",Nitriles and amides,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,3-methylbutanenitrile (=isobutyl cyanide),Nitriles and amides,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,pentanenitrile,Nitriles and amides,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,4-pentenenitrile,Nitriles and amides,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,5-hexenenitrile,Nitriles and amides,,
+CHINESE CABBAGE,BRASSICA CAMPESTRIS,Vegetables,"3-phenylpropanenitrile (=phenethyl cyanide, benzenepropanenitrile)",Nitriles and amides,2.9,2.9
+CRAB,,Seafood,"2,5-dimethyl-2,4-hexadiene",Hydrocarbons,,
+CRAB,,Seafood,nonane,Hydrocarbons,,
+CRAB,,Seafood,decane,Hydrocarbons,,
+CRAB,,Seafood,undecane,Hydrocarbons,,
+CRAB,,Seafood,limonene,Hydrocarbons,,
+CRAB,,Seafood,benzene,Hydrocarbons,,
+CRAB,,Seafood,methylbenzene (=toluene),Hydrocarbons,,
+CRAB,,Seafood,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+CRAB,,Seafood,vinylbenzene (=styrene),Hydrocarbons,,
+CRAB,,Seafood,propylbenzene,Hydrocarbons,,
+CRAB,,Seafood,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+CRAB,,Seafood,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+CRAB,,Seafood,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,,
+CRAB,,Seafood,1-ethyl-2-methylbenzene (=o-ethyltoluene),Hydrocarbons,,
+CRAB,,Seafood,1-ethyl-3-methylbenzene (=m-ethyltoluene),Hydrocarbons,,
+CRAB,,Seafood,1-ethyl-4-methylbenzene (=p-ethyltoluene),Hydrocarbons,,
+CRAB,,Seafood,ethyl-methylbenzene (unkn.str.),Hydrocarbons,,
+CRAB,,Seafood,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+CRAB,,Seafood,"1,2,3-trimethylbenzene (=hemimellitene)",Hydrocarbons,,
+CRAB,,Seafood,"1,2,4-trimethylbenzene (=pseudocumene)",Hydrocarbons,,
+CRAB,,Seafood,"1,3,5-trimethylbenzene (=mesitylene)",Hydrocarbons,,
+CRAB,,Seafood,naphthalene,Hydrocarbons,,
+CRAB,,Seafood,methanol,Alcohols,,
+CRAB,,Seafood,ethanol,Alcohols,,
+CRAB,,Seafood,2-propanol (=isopropyl alcohol),Alcohols,,
+CRAB,,Seafood,1-butanol,Alcohols,,
+CRAB,,Seafood,3-ethyl-3-pentanol,Alcohols,,
+CRAB,,Seafood,1-hexanol,Alcohols,,
+CRAB,,Seafood,2-ethyl-1-hexanol,Alcohols,,
+CRAB,,Seafood,"3,5,5-trimethyl-1-hexanol",Alcohols,,
+CRAB,,Seafood,1-heptanol,Alcohols,,
+CRAB,,Seafood,"4-ethyl-2,6-dimethyl-4-heptanol",Alcohols,,
+CRAB,,Seafood,5-octen-2-ol,Alcohols,,
+CRAB,,Seafood,7-octen-4-ol,Alcohols,,
+CRAB,,Seafood,"2,5-octadien-1-ol",Alcohols,,
+CRAB,,Seafood,1-nonanol,Alcohols,,
+CRAB,,Seafood,1-decanol,Alcohols,,
+CRAB,,Seafood,5-decanol,Alcohols,,
+CRAB,,Seafood,1-dodecanol,Alcohols,,
+CRAB,,Seafood,1-tetradecanol,Alcohols,,
+CRAB,,Seafood,1-hexadecanol (=cetanol),Alcohols,,
+CRAB,,Seafood,1-methylcyclohexanol,Alcohols,,
+CRAB,,Seafood,benzyl alcohol (=benzenemethanol),Alcohols,,
+CRAB,,Seafood,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+CRAB,,Seafood,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+CRAB,,Seafood,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+CRAB,,Seafood,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+CRAB,,Seafood,heptanal,"Carbonyls, aldehydes",,
+CRAB,,Seafood,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+CRAB,,Seafood,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+CRAB,,Seafood,benzaldehyde,"Carbonyls, aldehydes",,
+CRAB,,Seafood,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+CRAB,,Seafood,2-pentanone,"Carbonyls, ketones",,
+CRAB,,Seafood,4-methyl-2-pentanone,"Carbonyls, ketones",,
+CRAB,,Seafood,2-hexanone,"Carbonyls, ketones",,
+CRAB,,Seafood,3-hexanone,"Carbonyls, ketones",,
+CRAB,,Seafood,2-heptanone,"Carbonyls, ketones",,
+CRAB,,Seafood,2-octanone,"Carbonyls, ketones",,
+CRAB,,Seafood,tetradecanoic acid (=myristic acid),Acids,101,101
+CRAB,,Seafood,pentadecanoic acid,Acids,41,41
+CRAB,,Seafood,pentadecenoic acid (unkn.str.),Acids,33,33
+CRAB,,Seafood,hexadecanoic acid (=palmitic acid),Acids,897,897
+CRAB,,Seafood,hexadecenoic acid (unkn.str.),Acids,294,294
+CRAB,,Seafood,heptadecanoic acid (=margaric acid),Acids,22,22
+CRAB,,Seafood,octadecanoic acid (=stearic acid),Acids,362,362
+CRAB,,Seafood,octadecenoic acid (unkn.str.),Acids,835,835
+CRAB,,Seafood,"9,12-octadecadienoic acid",Acids,224,224
+CRAB,,Seafood,"9,12,15-octadecatrienoic acid",Acids,17,17
+CRAB,,Seafood,"6,9,12,15-octadecatetraenoic acid",Acids,112,112
+CRAB,,Seafood,eicosadienoic acid (unkn.str.),Acids,6,6
+CRAB,,Seafood,"5,8,11,14-eicosatetraenoic acid",Acids,551,551
+CRAB,,Seafood,"5,8,11,14,17-eicosapentaenoic acid",Acids,1246,1246
+CRAB,,Seafood,docosenoic acid (unkn.str.),Acids,3,3
+CRAB,,Seafood,"10,13,16-docosatrienoic acid",Acids,16,16
+CRAB,,Seafood,"10,13,16,19-docosatetraenoic acid",Acids,126,126
+CRAB,,Seafood,"7,10,13,16,19-docosapentaenoic acid",Acids,158,158
+CRAB,,Seafood,"4,7,10,13,16,19-docosahexaenoic acid",Acids,562,562
+CRAB,,Seafood,trimethylamine,Bases,,
+CRAB,,Seafood,2-acetylpyrrole (=methyl 2-pyrrolyl ketone),Bases,,
+CRAB,,Seafood,indole,Bases,,
+CRAB,,Seafood,pyridine,Bases,,
+CRAB,,Seafood,"2,5-dimethylpyrazine",Bases,,
+CRAB,,Seafood,2-ethyl-5-methylpyrazine,Bases,,
+CRAB,,Seafood,trimethylpyrazine,Bases,,
+CRAB,,Seafood,"3-ethyl-2,5-dimethylpyrazine",Bases,,
+CRAB,,Seafood,tetramethylpyrazine,Bases,,
+CRAB,,Seafood,ethyl-trimethylpyrazine,Bases,,
+CRAB,,Seafood,"3-acetyl-2,5-dimethylpyrazine",Bases,,
+CRAB,,Seafood,methanethiol (=methyl mercaptan),Sulfur compounds,,
+CRAB,,Seafood,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+CRAB,,Seafood,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+CRAB,,Seafood,thiophene,Sulfur compounds,,
+CRAB,,Seafood,2-methylthiophene,Sulfur compounds,,
+CRAB,,Seafood,3-methyl-2-thiophenecarbaldehyde,Sulfur compounds,,
+CRAB,,Seafood,thiazole,Sulfur compounds,,
+CRAB,,Seafood,"1,4-dichlorobenzene",Halogens,,
+CRAB,,Seafood,phenol (=hydroxybenzene),Phenols,,
+CRAB,,Seafood,"methoxybenzene (=anisole, methyl phenyl ether)",Phenols,,
+CRAB,,Seafood,2-ethylfuran,Furans,,
+CRAB,,Seafood,2-pentylfuran,Furans,,
+CRAB,,Seafood,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+LOBSTER,,Seafood,"2,4-dithiapentane (=bis(methylthio)methane, methylene bis(methyl sulfide))",Sulfur compounds,0,0.014
+CRAYFISH,,Seafood,nonane,Hydrocarbons,,
+CRAYFISH,,Seafood,decane,Hydrocarbons,,
+CRAYFISH,,Seafood,undecane,Hydrocarbons,,
+CRAYFISH,,Seafood,tridecane,Hydrocarbons,,
+CRAYFISH,,Seafood,tetradecane,Hydrocarbons,,
+CRAYFISH,,Seafood,pentadecane,Hydrocarbons,,
+CRAYFISH,,Seafood,hexadecane,Hydrocarbons,,
+CRAYFISH,,Seafood,heptadecane,Hydrocarbons,,
+CRAYFISH,,Seafood,octadecane,Hydrocarbons,,
+CRAYFISH,,Seafood,nonadecane,Hydrocarbons,,
+CRAYFISH,,Seafood,limonene,Hydrocarbons,,
+CRAYFISH,,Seafood,α-pinene,Hydrocarbons,,
+CRAYFISH,,Seafood,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+CRAYFISH,,Seafood,vinylbenzene (=styrene),Hydrocarbons,,
+CRAYFISH,,Seafood,propylbenzene,Hydrocarbons,,
+CRAYFISH,,Seafood,butylbenzene (unkn.str.),Hydrocarbons,,
+CRAYFISH,,Seafood,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+CRAYFISH,,Seafood,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+CRAYFISH,,Seafood,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,,
+CRAYFISH,,Seafood,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+CRAYFISH,,Seafood,"1,4-diethylbenzene",Hydrocarbons,,
+CRAYFISH,,Seafood,"1,2,3-trimethylbenzene (=hemimellitene)",Hydrocarbons,,
+CRAYFISH,,Seafood,"1,2,4-trimethylbenzene (=pseudocumene)",Hydrocarbons,,
+CRAYFISH,,Seafood,"1,3,5-trimethylbenzene (=mesitylene)",Hydrocarbons,,
+CRAYFISH,,Seafood,cyclopropylbenzene,Hydrocarbons,,
+CRAYFISH,,Seafood,naphthalene,Hydrocarbons,,
+CRAYFISH,,Seafood,1-methylnaphthalene,Hydrocarbons,,
+CRAYFISH,,Seafood,2-methylnaphthalene,Hydrocarbons,,
+CRAYFISH,,Seafood,2-butoxyethanol,Alcohols,,
+CRAYFISH,,Seafood,1-butanol,Alcohols,,
+CRAYFISH,,Seafood,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+CRAYFISH,,Seafood,1-pentanol (=amyl alcohol),Alcohols,,
+CRAYFISH,,Seafood,2-penten-1-ol,Alcohols,,
+CRAYFISH,,Seafood,1-hexanol,Alcohols,,
+CRAYFISH,,Seafood,1-heptanol,Alcohols,,
+CRAYFISH,,Seafood,1-octanol,Alcohols,,
+CRAYFISH,,Seafood,1-octen-3-ol,Alcohols,,
+CRAYFISH,,Seafood,1-nonanol,Alcohols,,
+CRAYFISH,,Seafood,1-decanol,Alcohols,,
+CRAYFISH,,Seafood,1-undecanol,Alcohols,,
+CRAYFISH,,Seafood,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,2-methyl-2-butenal,"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,(E)-2-pentenal,"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,heptanal,"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,(E)-2-heptenal,"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,(E)-2-octenal,"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,(E)-2-nonenal,"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,benzaldehyde,"Carbonyls, aldehydes",,
+CRAYFISH,,Seafood,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+CRAYFISH,,Seafood,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+CRAYFISH,,Seafood,2-hexanone,"Carbonyls, ketones",,
+CRAYFISH,,Seafood,2-heptanone,"Carbonyls, ketones",,
+CRAYFISH,,Seafood,2-octanone,"Carbonyls, ketones",,
+CRAYFISH,,Seafood,2-nonanone,"Carbonyls, ketones",,
+CRAYFISH,,Seafood,3-nonanone,"Carbonyls, ketones",,
+CRAYFISH,,Seafood,2-decanone,"Carbonyls, ketones",,
+CRAYFISH,,Seafood,2-undecanone,"Carbonyls, ketones",,
+CRAYFISH,,Seafood,cyclohexanone,"Carbonyls, ketones",,
+CRAYFISH,,Seafood,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+CRAYFISH,,Seafood,pyrrole,Bases,,
+CRAYFISH,,Seafood,pyridine,Bases,,
+CRAYFISH,,Seafood,methylpyrazine,Bases,,
+CRAYFISH,,Seafood,ethylpyrazine,Bases,,
+CRAYFISH,,Seafood,"2,5-dimethylpyrazine",Bases,,
+CRAYFISH,,Seafood,"2,6-dimethylpyrazine",Bases,,
+CRAYFISH,,Seafood,2-ethyl-3-methylpyrazine,Bases,,
+CRAYFISH,,Seafood,trimethylpyrazine,Bases,,
+CRAYFISH,,Seafood,ethyl-dimethylpyrazine (unkn.str.),Bases,,
+CRAYFISH,,Seafood,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+CRAYFISH,,Seafood,3-(methylthio)propanal (=methional),Sulfur compounds,,
+CRAYFISH,,Seafood,2-methylthiophene,Sulfur compounds,,
+CRAYFISH,,Seafood,thiazole,Sulfur compounds,,
+CRAYFISH,,Seafood,"1,2-dichlorobenzene",Halogens,,
+CRAYFISH,,Seafood,"1,3-dichlorobenzene",Halogens,,
+CRAYFISH,,Seafood,"1,4-dichlorobenzene",Halogens,,
+CRAYFISH,,Seafood,phenol (=hydroxybenzene),Phenols,,
+PRAWN,,Seafood,"2,4-dithiapentane (=bis(methylthio)methane, methylene bis(methyl sulfide))",Sulfur compounds,<0.001,0.004
+PRAWN,,Seafood,2-bromophenol,Halogens,0.0005,0.053
+PRAWN,,Seafood,4-bromophenol,Halogens,trace,0.41
+PRAWN,,Seafood,"2,4-dibromophenol",Halogens,0.0059,0.39
+PRAWN,,Seafood,"2,6-dibromophenol",Halogens,0.0027,0.25
+PRAWN,,Seafood,"2,4,6-tribromophenol",Halogens,0.0024,0.27
+CLAM,,Seafood,"2,2,4,6,6-pentamethylheptane",Hydrocarbons,0.041,0.041
+CLAM,,Seafood,heptadecane,Hydrocarbons,,
+CLAM,,Seafood,limonene,Hydrocarbons,0,0.01
+CLAM,,Seafood,α-pinene,Hydrocarbons,0.009,0.009
+CLAM,,Seafood,sabinene (=4(10)-thujene),Hydrocarbons,0.02,0.02
+CLAM,,Seafood,methylbenzene (=toluene),Hydrocarbons,,
+CLAM,,Seafood,ethanol,Alcohols,0.003,0.022
+CLAM,,Seafood,2-butoxyethanol,Alcohols,,
+CLAM,,Seafood,2-(dimethylamino)ethanol,Alcohols,,
+CLAM,,Seafood,1-propanol (=propyl alcohol),Alcohols,0.013,0.014
+CLAM,,Seafood,2-propanol (=isopropyl alcohol),Alcohols,,
+CLAM,,Seafood,1-butanol,Alcohols,0.0003,0.012
+CLAM,,Seafood,1-pentanol (=amyl alcohol),Alcohols,0.003,0.05
+CLAM,,Seafood,(Z)-2-penten-1-ol,Alcohols,0.01,0.01
+CLAM,,Seafood,(E)-2-penten-1-ol,Alcohols,,
+CLAM,,Seafood,1-penten-3-ol,Alcohols,0.011,0.05
+CLAM,,Seafood,1-hexanol,Alcohols,0.0009,0.02
+CLAM,,Seafood,2-ethyl-1-hexanol,Alcohols,0.02,0.02
+CLAM,,Seafood,1-heptanol,Alcohols,0.009,0.03
+CLAM,,Seafood,1-octanol,Alcohols,0.01,0.01
+CLAM,,Seafood,1-octen-3-ol,Alcohols,0.004,0.03
+CLAM,,Seafood,1-nonanol,Alcohols,0.003,0.003
+CLAM,,Seafood,1-dodecanol,Alcohols,0.009,0.009
+CLAM,,Seafood,1-pentadecanol,Alcohols,0.08,0.08
+CLAM,,Seafood,1-hexadecanol (=cetanol),Alcohols,0.1,0.1
+CLAM,,Seafood,benzyl alcohol (=benzenemethanol),Alcohols,0.009,0.013
+CLAM,,Seafood,geosmin,Alcohols,0.02,0.02
+CLAM,,Seafood,menthol,Alcohols,,
+CLAM,,Seafood,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+CLAM,,Seafood,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+CLAM,,Seafood,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+CLAM,,Seafood,2-methyl-2-butenal,"Carbonyls, aldehydes",0.02,0.02
+CLAM,,Seafood,pentanal (=valeraldehyde),"Carbonyls, aldehydes",0.005,0.1
+CLAM,,Seafood,(E)-2-pentenal,"Carbonyls, aldehydes",0.03,0.03
+CLAM,,Seafood,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0.015,0.05
+CLAM,,Seafood,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",0.02,0.02
+CLAM,,Seafood,"(E,E)-2,4-hexadienal","Carbonyls, aldehydes",0.03,0.03
+CLAM,,Seafood,heptanal,"Carbonyls, aldehydes",0.001,0.04
+CLAM,,Seafood,(Z)-4-heptenal,"Carbonyls, aldehydes",0.022,0.022
+CLAM,,Seafood,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",0,0.06
+CLAM,,Seafood,octanal (=caprylaldehyde),"Carbonyls, aldehydes",0.05,0.05
+CLAM,,Seafood,(E)-2-octenal,"Carbonyls, aldehydes",0.02,0.02
+CLAM,,Seafood,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",0.02,0.02
+CLAM,,Seafood,"(E,Z)-2,6-nonadienal","Carbonyls, aldehydes",0.04,0.04
+CLAM,,Seafood,decanal (=capraldehyde),"Carbonyls, aldehydes",0.05,0.05
+CLAM,,Seafood,(Z)-4-decenal,"Carbonyls, aldehydes",0.009,0.009
+CLAM,,Seafood,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",0,0.02
+CLAM,,Seafood,dodecanal,"Carbonyls, aldehydes",0.02,0.02
+CLAM,,Seafood,tridecanal,"Carbonyls, aldehydes",0.01,0.01
+CLAM,,Seafood,hexadecanal,"Carbonyls, aldehydes",,
+CLAM,,Seafood,benzaldehyde,"Carbonyls, aldehydes",0.007,0.03
+CLAM,,Seafood,"2,4-dimethylbenzaldehyde","Carbonyls, aldehydes",0.001,0.001
+CLAM,,Seafood,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",0,0.008
+CLAM,,Seafood,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+CLAM,,Seafood,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+CLAM,,Seafood,3-methyl-2-butanone,"Carbonyls, ketones",,
+CLAM,,Seafood,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",0.0003,0.02
+CLAM,,Seafood,1-penten-3-one,"Carbonyls, ketones",,
+CLAM,,Seafood,4-methyl-2-pentanone,"Carbonyls, ketones",,
+CLAM,,Seafood,4-methyl-3-penten-2-one (=mesityl oxide),"Carbonyls, ketones",,
+CLAM,,Seafood,4-hydroxy-4-methyl-2-pentanone (=diacetone alcohol),"Carbonyls, ketones",,
+CLAM,,Seafood,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",0,0.001
+CLAM,,Seafood,"2,3-hexanedione","Carbonyls, ketones",0.02,0.02
+CLAM,,Seafood,heptanone (unkn.str.),"Carbonyls, ketones",0.02,0.02
+CLAM,,Seafood,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+CLAM,,Seafood,2-octanone,"Carbonyls, ketones",0,0.0003
+CLAM,,Seafood,octanone (unkn.str.),"Carbonyls, ketones",0.01,0.01
+CLAM,,Seafood,2-nonanone,"Carbonyls, ketones",0.004,0.007
+CLAM,,Seafood,nonanone (unkn.str.),"Carbonyls, ketones",0.03,0.03
+CLAM,,Seafood,2-undecanone,"Carbonyls, ketones",0,0.01
+CLAM,,Seafood,undecanone (unkn.str.),"Carbonyls, ketones",0.01,0.01
+CLAM,,Seafood,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",0.008,0.008
+CLAM,,Seafood,tridecanone (unkn.str.),"Carbonyls, ketones",0.0027,0.0027
+CLAM,,Seafood,cyclohexanone,"Carbonyls, ketones",,
+CLAM,,Seafood,2-cyclohexen-1-one,"Carbonyls, ketones",0.02,0.02
+CLAM,,Seafood,3-methyl-2-cyclohexen-1-one,"Carbonyls, ketones",,
+CLAM,,Seafood,acetophenone (=1-phenylethanone),"Carbonyls, ketones",0,0.002
+CLAM,,Seafood,menthone,"Carbonyls, ketones",,
+CLAM,,Seafood,camphor (=alcanfor),"Carbonyls, ketones",0.02,0.02
+CLAM,,Seafood,fenchone,"Carbonyls, ketones",,
+CLAM,,Seafood,thujone (=α-thujone),"Carbonyls, ketones",,
+CLAM,,Seafood,acetic acid,Acids,0.006,0.007
+CLAM,,Seafood,hexanoic acid (=caproic acid),Acids,0.002,0.002
+CLAM,,Seafood,octanoic acid (=caprylic acid),Acids,,
+CLAM,,Seafood,nonanoic acid (=pelargonic acid),Acids,,
+CLAM,,Seafood,decanoic acid (=capric acid),Acids,,
+CLAM,,Seafood,tetradecanoic acid (=myristic acid),Acids,,
+CLAM,,Seafood,hexadecanoic acid (=palmitic acid),Acids,,
+CLAM,,Seafood,ethyl acetate,Esters,,
+CLAM,,Seafood,"methyl N,N-dimethylglycinate",Esters,,
+CLAM,,Seafood,methyl tetradecanoate (=methyl myristate),Esters,0,0.005
+CLAM,,Seafood,methyl hexadecanoate (=methyl palmitate),Esters,0,0.004
+CLAM,,Seafood,methyl octadecanoate (=methyl stearate),Esters,,
+CLAM,,Seafood,dibutyl phthalate,Esters,,
+CLAM,,Seafood,methyl 1-methylprolinate,Esters,,
+CLAM,,Seafood,"4-hydroxybutanoic acid lactone (=dihydro-2(3H)-furanone, 4-butanolide, γ-butyrolactone)",Lactones,,
+CLAM,,Seafood,aniline,Bases,,
+CLAM,,Seafood,diphenylamine (=N-phenylaniline),Bases,,
+CLAM,,Seafood,1-methylpyrrolidine,Bases,,
+CLAM,,Seafood,1-ethylpyrrolidine,Bases,,
+CLAM,,Seafood,1-acetylpyrrolidine,Bases,,
+CLAM,,Seafood,N-methylsuccinimide,Bases,,
+CLAM,,Seafood,1-pyrroline,Bases,0,0.033
+CLAM,,Seafood,pyrrole,Bases,0.003,0.003
+CLAM,,Seafood,2-methylpyrrole,Bases,,
+CLAM,,Seafood,"2,5-dimethylpyrrole",Bases,,
+CLAM,,Seafood,2-acetylpyrrole (=methyl 2-pyrrolyl ketone),Bases,,
+CLAM,,Seafood,2-acetyl-1-methylpyrrole,Bases,,
+CLAM,,Seafood,indole,Bases,0,0.014
+CLAM,,Seafood,pyridine,Bases,0.014,0.017
+CLAM,,Seafood,2-methylpyridine (=α-picoline),Bases,,
+CLAM,,Seafood,3-methylpyridine (=β-picoline),Bases,,
+CLAM,,Seafood,3-ethylpyridine,Bases,,
+CLAM,,Seafood,"2,3-dimethylpyridine (=2,3-lutidine)",Bases,,
+CLAM,,Seafood,"2,4-dimethylpyridine (=2,4-lutidine)",Bases,,
+CLAM,,Seafood,pyrazine,Bases,0,0.0003
+CLAM,,Seafood,methylpyrazine,Bases,0.002,0.07
+CLAM,,Seafood,ethylpyrazine,Bases,,
+CLAM,,Seafood,"2,3-dimethylpyrazine",Bases,0.004,0.005
+CLAM,,Seafood,"2,5-dimethylpyrazine",Bases,0,0.04
+CLAM,,Seafood,"2,6-dimethylpyrazine",Bases,0.004,0.05
+CLAM,,Seafood,trimethylpyrazine,Bases,0,0.02
+CLAM,,Seafood,"3-ethyl-2,5-dimethylpyrazine",Bases,,
+CLAM,,Seafood,"2-ethyl-3,5-dimethylpyrazine",Bases,,
+CLAM,,Seafood,acetylpyrazine,Bases,0.0006,0.0006
+CLAM,,Seafood,2-acetyl-3-methylpyrazine,Bases,0.006,0.006
+CLAM,,Seafood,1-(methylthio)ethanethiol,Sulfur compounds,,
+CLAM,,Seafood,hydrogen sulfide,Sulfur compounds,,
+CLAM,,Seafood,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+CLAM,,Seafood,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+CLAM,,Seafood,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,,
+CLAM,,Seafood,"4-isopropyl-2,3,5-trithiahexane",Sulfur compounds,,
+CLAM,,Seafood,2-methylthiophene,Sulfur compounds,,
+CLAM,,Seafood,2-thiophenecarbaldehyde (=2-formylthiophene),Sulfur compounds,0.0007,0.0007
+CLAM,,Seafood,3-thiophenecarbaldehyde,Sulfur compounds,0.008,0.008
+CLAM,,Seafood,"3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,,
+CLAM,,Seafood,"cis-3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,0,0.04
+CLAM,,Seafood,"trans-3,5-dimethyl-1,2,4-trithiolane",Sulfur compounds,0,0.04
+CLAM,,Seafood,"cis-3-ethyl-5-methyl-1,2,4-trithiolane",Sulfur compounds,0,0.01
+CLAM,,Seafood,"trans-3-ethyl-5-methyl-1,2,4-trithiolane",Sulfur compounds,0,0.02
+CLAM,,Seafood,thiazole,Sulfur compounds,0.0001,0.0001
+CLAM,,Seafood,benzothiazole,Sulfur compounds,0,0.04
+CLAM,,Seafood,2-acetylthiazole,Sulfur compounds,0.02,0.02
+CLAM,,Seafood,acetylthiazole (unkn.str.),Sulfur compounds,0.02,0.02
+CLAM,,Seafood,2-methyl-2-thiazoline,Sulfur compounds,,
+CLAM,,Seafood,"dihydro-2,4,6-trimethyl-1,3,5(4H)-dithiazine (=thialdine)",Sulfur compounds,,
+CLAM,,Seafood,"tetrahydro-2,4,6-trimethyl-1,3,5(2H)-thiadiazine",Sulfur compounds,,
+CLAM,,Seafood,"tetrahydro-2,4-dimethyl-pyrrolo[2,1-d]-1,3,5-dithiazine",Sulfur compounds,0.04,0.04
+CLAM,,Seafood,"N,N-dimethylformamide",Nitriles and amides,,
+CLAM,,Seafood,"N,N-dimethylacetamide",Nitriles and amides,,
+CLAM,,Seafood,"N,N-dimethylpropanamide",Nitriles and amides,,
+CLAM,,Seafood,hexadecanamide,Nitriles and amides,,
+CLAM,,Seafood,N-methylhexadecanamide,Nitriles and amides,,
+CLAM,,Seafood,phenol (=hydroxybenzene),Phenols,0.003,0.014
+CLAM,,Seafood,"2,6-di-tert-butyl-4-methyl-phenol (=B.H.T.)",Phenols,,
+CLAM,,Seafood,2-tert-butyl-4-methoxyphenol (=B.H.A.),Phenols,,
+CLAM,,Seafood,2-pentylfuran,Furans,0.003,0.02
+CLAM,,Seafood,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+CLAM,,Seafood,5-methylfurfural,Furans,,
+CLAM,,Seafood,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+CLAM,,Seafood,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,0.008,0.008
+CLAM,,Seafood,3-hydroxy-2-methyl-4-pyrone (=maltol),"(Ep)oxides, pyrans, coumarins",,
+CLAM,,Seafood,proline anhydride,Anhydrides and phthalides,,
+MUSSEL,,Seafood,1-pentadecene,Hydrocarbons,0.03,0.03
+MUSSEL,,Seafood,nonadecane,Hydrocarbons,0.05,0.05
+MUSSEL,,Seafood,benzene,Hydrocarbons,7.34,7.34
+MUSSEL,,Seafood,ethanol,Alcohols,,
+MUSSEL,,Seafood,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,0.03,0.03
+MUSSEL,,Seafood,3-methyl-2-butanol,Alcohols,0.11,0.11
+MUSSEL,,Seafood,2-butenal (=crotonaldehyde),"Carbonyls, aldehydes",11.5,11.5
+MUSSEL,,Seafood,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0.09,0.09
+MUSSEL,,Seafood,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",0.16,0.16
+MUSSEL,,Seafood,acetic acid,Acids,7.33,7.33
+MUSSEL,,Seafood,propanoic acid (=propionic acid),Acids,2.73,2.73
+MUSSEL,,Seafood,butanoic acid (=butyric acid),Acids,0.08,0.08
+MUSSEL,,Seafood,2-butenoic acid (=crotonic acid),Acids,0.16,0.16
+MUSSEL,,Seafood,3-methylbutanoic acid (=isovaleric acid),Acids,0.16,0.16
+MUSSEL,,Seafood,4-methylpentanoic acid (=isocaproic acid),Acids,0.2,0.2
+MUSSEL,,Seafood,hexanoic acid (=caproic acid),Acids,0.05,0.05
+MUSSEL,,Seafood,nonanoic acid (=pelargonic acid),Acids,0.08,0.08
+MUSSEL,,Seafood,ethyl formate,Esters,4.08,4.08
+MUSSEL,,Seafood,ethyl acetate,Esters,97.1,97.1
+MUSSEL,,Seafood,methyl propanoate,Esters,4.23,4.23
+MUSSEL,,Seafood,ethyl propanoate,Esters,0.14,0.14
+MUSSEL,,Seafood,ethyl butanoate,Esters,0.29,0.29
+MUSSEL,,Seafood,ethyl (Z)-2-butenoate (=ethyl (Z)-crotonate),Esters,0.33,0.33
+MUSSEL,,Seafood,ethyl (E)-2-butenoate (=ethyl (E)-crotonate),Esters,0.99,0.99
+MUSSEL,,Seafood,ethyl 3-methylbutanoate (=ethyl isovalerate),Esters,0.07,0.07
+MUSSEL,,Seafood,methyl heptanoate,Esters,0.06,0.06
+MUSSEL,,Seafood,methyl octanoate,Esters,0.14,0.14
+MUSSEL,,Seafood,methyl dodecanoate (=methyl laurate),Esters,0.06,0.06
+MUSSEL,,Seafood,methyl tridecanoate,Esters,0.37,0.37
+MUSSEL,,Seafood,methyl tetradecanoate (=methyl myristate),Esters,0.03,0.03
+MUSSEL,,Seafood,methyl pentadecanoate,Esters,,
+MUSSEL,,Seafood,methyl isopentadecanoate (branched),Esters,0.16,0.16
+MUSSEL,,Seafood,methyl hexadecanoate (=methyl palmitate),Esters,,
+MUSSEL,,Seafood,methyl (Z)-9-hexadecenoate (=methyl palmitoleate),Esters,0.45,0.45
+MUSSEL,,Seafood,methyl (E)-9-hexadecenoate,Esters,0.07,0.07
+MUSSEL,,Seafood,methyl isohexadecanoate (branched),Esters,1.62,1.62
+MUSSEL,,Seafood,methyl heptadecanoate,Esters,0.32,0.32
+MUSSEL,,Seafood,methyl isoheptadecanoate (branched),Esters,0.48,0.48
+MUSSEL,,Seafood,methyl octadecanoate (=methyl stearate),Esters,0.16,0.16
+MUSSEL,,Seafood,dimethyl sulfone (=methylsulfonylmethane),Sulfur compounds,0.29,0.29
+MUSSEL,,Seafood,N-methylformamide,Nitriles and amides,0.09,0.09

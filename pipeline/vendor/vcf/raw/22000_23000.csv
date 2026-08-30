@@ -1,0 +1,516 @@
+Product,Product Category,Product Group,Compound,Compound Group,Quantity Lower Bound,Quantity Upper Bound
+SCALLOP,,Seafood,hexane,Hydrocarbons,,
+SCALLOP,,Seafood,heptane,Hydrocarbons,,
+SCALLOP,,Seafood,octane,Hydrocarbons,,
+SCALLOP,,Seafood,2-octene,Hydrocarbons,,
+SCALLOP,,Seafood,nonane,Hydrocarbons,,
+SCALLOP,,Seafood,undecane,Hydrocarbons,,
+SCALLOP,,Seafood,dodecane,Hydrocarbons,,
+SCALLOP,,Seafood,methylcyclopentane,Hydrocarbons,,
+SCALLOP,,Seafood,cyclohexane,Hydrocarbons,,
+SCALLOP,,Seafood,pinene (unkn.str.),Hydrocarbons,,
+SCALLOP,,Seafood,benzene,Hydrocarbons,,
+SCALLOP,,Seafood,methylbenzene (=toluene),Hydrocarbons,,
+SCALLOP,,Seafood,propylbenzene,Hydrocarbons,,
+SCALLOP,,Seafood,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+SCALLOP,,Seafood,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+SCALLOP,,Seafood,dimethylbenzene (unkn.str.) (=xylene (unkn.str.)),Hydrocarbons,,
+SCALLOP,,Seafood,ethanol,Alcohols,,
+SCALLOP,,Seafood,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+SCALLOP,,Seafood,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+SCALLOP,,Seafood,1-pentanol (=amyl alcohol),Alcohols,,
+SCALLOP,,Seafood,3-pentanol,Alcohols,,
+SCALLOP,,Seafood,1-penten-3-ol,Alcohols,,
+SCALLOP,,Seafood,1-hexen-3-ol,Alcohols,,
+SCALLOP,,Seafood,1-octen-3-ol,Alcohols,,
+SCALLOP,,Seafood,"1,5-octadien-3-ol",Alcohols,,
+SCALLOP,,Seafood,1-decanol,Alcohols,,
+SCALLOP,,Seafood,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+SCALLOP,,Seafood,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+SCALLOP,,Seafood,2-ethylbutanal,"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,"2,4-hexadienal","Carbonyls, aldehydes",,
+SCALLOP,,Seafood,2-ethylhexanal,"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,heptanal,"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,"2,4-heptadienal","Carbonyls, aldehydes",,
+SCALLOP,,Seafood,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,dodecanal,"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,tetradecanal,"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,hexadecanal,"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,benzaldehyde,"Carbonyls, aldehydes",,
+SCALLOP,,Seafood,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+SCALLOP,,Seafood,"1-hydroxy-2-propanone (=acetol, pyruvic alcohol)","Carbonyls, ketones",,
+SCALLOP,,Seafood,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+SCALLOP,,Seafood,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+SCALLOP,,Seafood,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+SCALLOP,,Seafood,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+SCALLOP,,Seafood,2-nonanone,"Carbonyls, ketones",,
+SCALLOP,,Seafood,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+SCALLOP,,Seafood,acetic acid,Acids,,
+SCALLOP,,Seafood,propanoic acid (=propionic acid),Acids,,
+SCALLOP,,Seafood,2-methylpropanoic acid (=isobutyric acid),Acids,,
+SCALLOP,,Seafood,butanoic acid (=butyric acid),Acids,,
+SCALLOP,,Seafood,2-methylbutanoic acid,Acids,,
+SCALLOP,,Seafood,pentanoic acid (=valeric acid),Acids,,
+SCALLOP,,Seafood,hexanoic acid (=caproic acid),Acids,,
+SCALLOP,,Seafood,heptanoic acid (=enanthic acid),Acids,,
+SCALLOP,,Seafood,octanoic acid (=caprylic acid),Acids,,
+SCALLOP,,Seafood,nonanoic acid (=pelargonic acid),Acids,,
+SCALLOP,,Seafood,decanoic acid (=capric acid),Acids,,
+SCALLOP,,Seafood,decenoic acid (unkn.str.),Acids,,
+SCALLOP,,Seafood,undecanoic acid,Acids,,
+SCALLOP,,Seafood,dodecanoic acid (=lauric acid),Acids,,
+SCALLOP,,Seafood,tetradecanoic acid (=myristic acid),Acids,,
+SCALLOP,,Seafood,hexadecanoic acid (=palmitic acid),Acids,,
+SCALLOP,,Seafood,"4-hydroxybutanoic acid lactone (=dihydro-2(3H)-furanone, 4-butanolide, γ-butyrolactone)",Lactones,,
+SCALLOP,,Seafood,trimethylamine,Bases,,
+SCALLOP,,Seafood,1-methylpyrrole,Bases,,
+SCALLOP,,Seafood,2-acetylpyrrole (=methyl 2-pyrrolyl ketone),Bases,,
+SCALLOP,,Seafood,pyridine,Bases,,
+SCALLOP,,Seafood,pyrazine,Bases,,
+SCALLOP,,Seafood,"2,3-dimethylpyrazine",Bases,,
+SCALLOP,,Seafood,"2,6-dimethylpyrazine",Bases,,
+SCALLOP,,Seafood,trimethylpyrazine,Bases,,
+SCALLOP,,Seafood,tetramethylpyrazine,Bases,,
+SCALLOP,,Seafood,acetylpyrazine,Bases,,
+SCALLOP,,Seafood,2-acetyl-3-methylpyrazine,Bases,,
+SCALLOP,,Seafood,methanethiol (=methyl mercaptan),Sulfur compounds,,
+SCALLOP,,Seafood,"dimethyl sulfide (=thiobismethane, methylthiomethane, methyl sulfide)",Sulfur compounds,,
+SCALLOP,,Seafood,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+SCALLOP,,Seafood,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,,
+SCALLOP,,Seafood,3-(methylthio)propanal (=methional),Sulfur compounds,,
+SCALLOP,,Seafood,"4,5-dimethylthiazole",Sulfur compounds,,
+SQUID,,Seafood,pentadecane,Hydrocarbons,,
+SQUID,,Seafood,2-(dimethylamino)ethanol,Alcohols,,
+SQUID,,Seafood,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+SQUID,,Seafood,"2-methylpropanal (=isobutanal, isobutyraldehyde)","Carbonyls, aldehydes",,
+SQUID,,Seafood,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+SQUID,,Seafood,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+SQUID,,Seafood,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+SQUID,,Seafood,2-hexadecanone,"Carbonyls, ketones",,
+SQUID,,Seafood,tetradecanoic acid (=myristic acid),Acids,,
+SQUID,,Seafood,pentadecanoic acid,Acids,,
+SQUID,,Seafood,hexadecanoic acid (=palmitic acid),Acids,,
+SQUID,,Seafood,"methyl N,N-dimethylglycinate",Esters,,
+SQUID,,Seafood,methyl tetradecanoate (=methyl myristate),Esters,,
+SQUID,,Seafood,methyl pentadecanoate,Esters,,
+SQUID,,Seafood,methyl hexadecanoate (=methyl palmitate),Esters,,
+SQUID,,Seafood,methyl octadecanoate (=methyl stearate),Esters,,
+SQUID,,Seafood,"4-hydroxybutanoic acid lactone (=dihydro-2(3H)-furanone, 4-butanolide, γ-butyrolactone)",Lactones,,
+SQUID,,Seafood,dimethylamine,Bases,11.6,1200
+SQUID,,Seafood,trimethylamine,Bases,4.6,2120
+SQUID,,Seafood,trimethylamine oxide,Bases,43200,43200
+SQUID,,Seafood,N-(2-methyl-1-propenyl)- (2-methylpropylidene)amine,Bases,,
+SQUID,,Seafood,"1,4-butanediamine (=putrescine)",Bases,5.23,8.75
+SQUID,,Seafood,"1,5-pentanediamine (=cadaverine)",Bases,4.1,5.4
+SQUID,,Seafood,"N,N'-bis(3-aminopropyl)-1,4-butanediamine (=spermine)",Bases,5.57,6.11
+SQUID,,Seafood,2-(4-hydroxyphenyl)ethylamine (=tyramine),Bases,2.61,2.99
+SQUID,,Seafood,(4-aminobutyl)guanidine (=agmatine),Bases,5.2,7.06
+SQUID,,Seafood,histamine,Bases,0,1.29
+SQUID,,Seafood,1-methylpyrrolidine,Bases,,
+SQUID,,Seafood,1-butylpyrrolidine,Bases,,
+SQUID,,Seafood,1-acetylpyrrolidine,Bases,,
+SQUID,,Seafood,1-pyrroline,Bases,,
+SQUID,,Seafood,pyrrole,Bases,,
+SQUID,,Seafood,1-methylpyrrole,Bases,,
+SQUID,,Seafood,2-methylpyrrole,Bases,,
+SQUID,,Seafood,"2,5-dimethylpyrrole",Bases,,
+SQUID,,Seafood,indole,Bases,,
+SQUID,,Seafood,3-methylindole (=skatole),Bases,,
+SQUID,,Seafood,pyridine,Bases,,
+SQUID,,Seafood,2-methylpyridine (=α-picoline),Bases,,
+SQUID,,Seafood,3-methylpyridine (=β-picoline),Bases,,
+SQUID,,Seafood,3-ethylpyridine,Bases,,
+SQUID,,Seafood,2-phenylpyridine,Bases,,
+SQUID,,Seafood,"2,3-dimethylpyridine (=2,3-lutidine)",Bases,,
+SQUID,,Seafood,"3,5-dimethylpyridine (=3,5-lutidine)",Bases,,
+SQUID,,Seafood,methylpyrazine,Bases,,
+SQUID,,Seafood,"2,3-dimethylpyrazine",Bases,,
+SQUID,,Seafood,"2,5-dimethylpyrazine",Bases,,
+SQUID,,Seafood,trimethylpyrazine,Bases,,
+SQUID,,Seafood,"3-ethyl-2,5-dimethylpyrazine",Bases,,
+SQUID,,Seafood,"2-ethyl-3,5-dimethylpyrazine",Bases,,
+SQUID,,Seafood,tetramethylpyrazine,Bases,,
+SQUID,,Seafood,methanethiol (=methyl mercaptan),Sulfur compounds,,
+SQUID,,Seafood,hydrogen sulfide,Sulfur compounds,,
+SQUID,,Seafood,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+SQUID,,Seafood,"dimethyl trisulfide (=2,3,4-trithiapentane, methyltrithiomethane)",Sulfur compounds,,
+SQUID,,Seafood,"3-isopropyl-5-methyl-1,2,4-trithiolane",Sulfur compounds,,
+SQUID,,Seafood,"3-ethyl-5-isopropyl-1,2,4-trithiolane",Sulfur compounds,,
+SQUID,,Seafood,"3,5-diisopropyl-1,2,4-trithiolane",Sulfur compounds,,
+SQUID,,Seafood,benzothiazole,Sulfur compounds,,
+SQUID,,Seafood,"dihydro-2,4,6-trimethyl-1,3,5(4H)-dithiazine (=thialdine)",Sulfur compounds,,
+SQUID,,Seafood,"2-ethyldihydro-4,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+SQUID,,Seafood,"dihydro-2-isopropyl-4,6-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+SQUID,,Seafood,"dihydro-6-isopropyl-2,4-dimethyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+SQUID,,Seafood,"dihydro-2,4-diisopropyl-6-methyl-1,3,5(4H)-dithiazine",Sulfur compounds,,
+SQUID,,Seafood,"tetrahydro-2,4,6-trimethyl-1,3,5(2H)-thiadiazine",Sulfur compounds,,
+SQUID,,Seafood,"tetrahydro-2,4-dimethyl-pyrrolo[2,1-d]-1,3,5-dithiazine",Sulfur compounds,,
+SQUID,,Seafood,"1,2-diethoxyethane",Acetals,,
+SQUID,,Seafood,(dimethylamino)acetonitrile,Nitriles and amides,,
+SQUID,,Seafood,"N,N-dimethylformamide",Nitriles and amides,,
+SQUID,,Seafood,hexadecanamide,Nitriles and amides,,
+SQUID,,Seafood,phenol (=hydroxybenzene),Phenols,,
+SQUID,,Seafood,4-methylphenol (=p-cresol),Phenols,,
+SQUID,,Seafood,tetrahydrofuran (=oxolane),Furans,,
+SQUID,,Seafood,2-acetyl-5-methylfuran,Furans,,
+SQUID,,Seafood,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+CUTTLEFISH,,Seafood,phenol (=hydroxybenzene),Phenols,,
+CUTTLEFISH,,Seafood,2-methylphenol (=o-cresol),Phenols,,
+CUTTLEFISH,,Seafood,3-methylphenol (=m-cresol),Phenols,,
+CUTTLEFISH,,Seafood,4-methylphenol (=p-cresol),Phenols,,
+CUTTLEFISH,,Seafood,"2,3-dimethylphenol",Phenols,,
+CUTTLEFISH,,Seafood,"2,4-dimethylphenol",Phenols,,
+CUTTLEFISH,,Seafood,2-methoxyphenol (=guaiacol),Phenols,,
+CUTTLEFISH,,Seafood,"2-methoxy-4-methylphenol (=4-methylguaiacol, creosol)",Phenols,,
+CUTTLEFISH,,Seafood,4-ethyl-2-methoxyphenol (=4-ethylguaiacol),Phenols,,
+CUTTLEFISH,,Seafood,2-methoxy-4-vinylphenol (=4-vinylguaiacol),Phenols,,
+CUTTLEFISH,,Seafood,2-methoxy-4-propylphenol (=4-propylguaiacol),Phenols,,
+CUTTLEFISH,,Seafood,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+CUTTLEFISH,,Seafood,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,,
+CUTTLEFISH,,Seafood,"2,6-dimethoxyphenol (=syringol)",Phenols,,
+CUTTLEFISH,,Seafood,"2,6-dimethoxy-4-methylphenol (=4-methylsyringol)",Phenols,,
+CUTTLEFISH,,Seafood,"4-ethyl-2,6-dimethoxyphenol (=4-ethylsyringol)",Phenols,,
+CUTTLEFISH,,Seafood,"4-allyl-2,6-dimethoxyphenol (=5-methoxyeugenol)",Phenols,,
+CUTTLEFISH,,Seafood,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+CUTTLEFISH,,Seafood,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,tridecane,Hydrocarbons,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,tetradecane,Hydrocarbons,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,β-myrcene (=myrcene),Hydrocarbons,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,camphene,Hydrocarbons,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,3-methyl-2-buten-1-ol (=prenol),Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,1-pentanol (=amyl alcohol),Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,1-hexanol,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,(E)-3-hexen-1-ol,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,1-heptanol,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,2-heptanol,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,6-methyl-5-hepten-2-ol,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"3,7-dimethyl-1,5,7-octatrien-3-ol (=hotrienol)",Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"3,7-dimethyl-1-octene-3,7-diol",Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,geraniol,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,nerol,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,linalool,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,myrcenol,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,benzyl alcohol (=benzenemethanol),Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,4-phenyl-2-butanol,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,α-terpineol,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,4-terpineol (=terpinen-4-ol),Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"p-2,8-menthadien-1-ol",Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"cis-p-menthane-1,8-diol (=cis-terpin)",Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"trans-p-menthane-1,8-diol (=trans-terpin)",Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,dihydro-β-ionol,Alcohols,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,acetaldehyde (=ethanal),"Carbonyls, aldehydes",1.3,1.3
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,propanal (=propionaldehyde),"Carbonyls, aldehydes",0.006,0.006
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,butanal (=butyraldehyde),"Carbonyls, aldehydes",0.04,0.04
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,pentanal (=valeraldehyde),"Carbonyls, aldehydes",0.04,0.04
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,2-pentenal,"Carbonyls, aldehydes",0.002,0.002
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,hexanal (=capronaldehyde),"Carbonyls, aldehydes",0.03,0.03
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,2-hexenal,"Carbonyls, aldehydes",0.015,0.015
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,heptanal,"Carbonyls, aldehydes",0.02,0.02
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,2-heptenal,"Carbonyls, aldehydes",0.002,0.002
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",0.02,0.02
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,decanal (=capraldehyde),"Carbonyls, aldehydes",0.02,0.02
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,undecanal,"Carbonyls, aldehydes",0.01,0.01
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,dodecanal,"Carbonyls, aldehydes",0.02,0.02
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,tridecanal,"Carbonyls, aldehydes",0.02,0.02
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",0.16,0.16
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,2-heptanone,"Carbonyls, ketones",0.03,0.03
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,α-ionone,"Carbonyls, ketones",,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"4-(4-hydroxyphenyl)-2-butanone (=raspberry ketone, frambinone)","Carbonyls, ketones",,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,butanoic acid (=butyric acid),Acids,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,3-methylbutanoic acid (=isovaleric acid),Acids,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,hexanoic acid (=caproic acid),Acids,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,(E)-2-hexenoic acid,Acids,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,(Z)-3-hexenoic acid,Acids,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,octanoic acid (=caprylic acid),Acids,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,benzoic acid,Acids,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,4-methylbenzoic acid (=p-toluic acid),Acids,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,ethyl acetate,Esters,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,ethyl butanoate,Esters,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,methyl hexanoate,Esters,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"5-hydroxydecanoic acid lactone (=5-decanolide, δ-decalactone)",Lactones,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"linalool oxide B (cis, 5-ring)",Furans,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"linalool oxide A (trans, 5-ring)",Furans,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"anhydrolinalool oxide (6) (=2,2,6-trimethyl-6-vinyl-tetrahydropyran)","(Ep)oxides, pyrans, coumarins",,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"linalool oxide D (cis, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+LOGANBERRY (Rubus ursinus var. loganobaccus),,Fruits,"linalool oxide C (trans, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,γ-terpinene,Hydrocarbons,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,limonene,Hydrocarbons,0.13,0.13
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,1-hexanol,Alcohols,0.1,0.1
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,(E)-2-hexen-1-ol,Alcohols,0.03,0.03
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,0.02,0.02
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,benzyl alcohol (=benzenemethanol),Alcohols,0.05,0.05
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,2-phenylethanol (=phenethyl alcohol),Alcohols,0.01,0.01
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",0.14,0.14
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,benzaldehyde,"Carbonyls, aldehydes",0.21,0.21
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,2-hydroxybenzaldehyde (=salicylaldehyde),"Carbonyls, aldehydes",trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,2-heptanone,"Carbonyls, ketones",0.04,0.04
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,2-nonanone,"Carbonyls, ketones",0.05,0.05
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,acetophenone (=1-phenylethanone),"Carbonyls, ketones",trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,2-hydroxyacetophenone,"Carbonyls, ketones",trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,4-methoxyacetophenone (=acetanisole),"Carbonyls, ketones",trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,1-phenyl-2-propanone,"Carbonyls, ketones",trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,"dihydro-β-ionone (=4-(2,6,6-trimethyl-1-cyclohexenyl)-2-butanone)","Carbonyls, ketones",trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,acetic acid,Acids,0.14,0.14
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,butanoic acid (=butyric acid),Acids,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,2-methylbutanoic acid,Acids,0.01,0.01
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,hexanoic acid (=caproic acid),Acids,0.12,0.12
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,2-hexenoic acid,Acids,0.14,0.14
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,3-hexenoic acid,Acids,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,octanoic acid (=caprylic acid),Acids,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,decanoic acid (=capric acid),Acids,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,dodecanoic acid (=lauric acid),Acids,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,succinic acid (=butanedioic acid),Acids,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,maleic acid (=(Z)-butenedioic acid),Acids,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,benzoic acid,Acids,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,4-hydroxy-3-methoxybenzoic acid (=vanillic acid),Acids,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,phenylacetic acid,Acids,0.06,0.06
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,(E)-cinnamic acid,Acids,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,hydrocyanic acid,Acids,1.1,1.1
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,hexyl formate,Esters,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,(Z)-3-hexenyl formate,Esters,0.1,0.1
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,(Z)-3-hexenyl acetate,Esters,0.07,0.07
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,isopentyl pentanoate,Esters,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,hexyl hexanoate,Esters,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,(Z)-3-hexenyl hexanoate,Esters,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,methyl benzoate,Esters,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,benzaldehydecyanhydrin,Nitriles and amides,2.8,2.8
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,phenol (=hydroxybenzene),Phenols,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,"1,2-benzenediol (=pyrocatechol, catechol and catechin)",Phenols,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,2-methoxyphenol (=guaiacol),Phenols,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,2-methoxy-5-vinylphenol,Phenols,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,eugenol (=4-allyl-2-methoxyphenol),Phenols,trace,trace
+BLACK CHOKE BERRY (Aronia melanocarpa Ell.),,Fruits,theaspirane,"(Ep)oxides, pyrans, coumarins",trace,trace
+CROWBERRY (Empetrum nigrum coll.),,Fruits,α-phellandrene,Hydrocarbons,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,"1,2,3,4,7,8-hexahydro-1,1,6-trimethylnaphthalene (=dihydro-β-ionene)",Hydrocarbons,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,2-methyl-2-buten-1-ol,Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,3-penten-1-ol,Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,1-penten-3-ol,Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,1-hexanol,Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,7-octen-4-ol,Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,linalool,Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,benzyl alcohol (=benzenemethanol),Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,"3-phenyl-1-propanol (=benzenepropanol, dihydrocinnamic alcohol)",Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,(E)-3-phenyl-2-propen-1-ol (=(E)-cinnamic alcohol),Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,α-terpineol,Alcohols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,2-hexenal,"Carbonyls, aldehydes",,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,benzaldehyde,"Carbonyls, aldehydes",,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,acetic acid,Acids,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,butanoic acid (=butyric acid),Acids,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,2-methylbutanoic acid,Acids,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,3-methylbutanoic acid (=isovaleric acid),Acids,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,dodecanoic acid (=lauric acid),Acids,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,benzyl formate,Esters,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,methyl benzoate,Esters,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,phenol (=hydroxybenzene),Phenols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,4-ethylphenol,Phenols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,4-vinylphenol,Phenols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,2-methoxyphenol (=guaiacol),Phenols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,2-methoxy-5-vinylphenol,Phenols,,
+CROWBERRY (Empetrum nigrum coll.),,Fruits,linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,β-myrcene (=myrcene),Hydrocarbons,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,terpinolene,Hydrocarbons,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,limonene,Hydrocarbons,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,α-pinene,Hydrocarbons,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,β-pinene,Hydrocarbons,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-propanol (=propyl alcohol),Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,2-methyl-1-propanol (=isobutanol),Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-butanol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,2-butanol (=sec-butanol),Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-pentanol (=amyl alcohol),Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,2-pentanol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,3-pentanol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-penten-3-ol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-hexanol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-octanol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-decanol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-dodecanol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-tetradecanol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-hexadecanol (=cetanol),Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-octadecanol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,geraniol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"(E,E)-farnesol",Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,benzyl alcohol (=benzenemethanol),Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,α-terpineol,Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,4-terpineol (=terpinen-4-ol),Alcohols,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,(E)-2-butenal,"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,2-methyl-2-butenal,"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,(E)-2-pentenal,"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,geranial (=α-citral),"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,benzaldehyde,"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,β-cyclocitral,"Carbonyls, aldehydes",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,2-pentanone,"Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,3-pentanone,"Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,2-methyl-3-pentanone,"Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,3-hexanone,"Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,1-octen-3-one,"Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,2-hexadecanone,"Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"2-hydroxy-2,6,6-trimethylcyclohexanone","Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,(E)-β-ionone,"Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"5,6-epoxy-β-ionone (=epoxy-β-ionone)","Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,camphor (=alcanfor),"Carbonyls, ketones",,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,acetic acid,Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,2-methylpropanoic acid (=isobutyric acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,2-hydroxypropanoic acid (=lactic acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,butanoic acid (=butyric acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,2-methylbutanoic acid,Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,3-methylbutanoic acid (=isovaleric acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,pentanoic acid (=valeric acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,hexanoic acid (=caproic acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,octanoic acid (=caprylic acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,nonanoic acid (=pelargonic acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,decanoic acid (=capric acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,dodecanoic acid (=lauric acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,tetradecanoic acid (=myristic acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,pentadecanoic acid,Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,hexadecanoic acid (=palmitic acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,heptadecanoic acid (=margaric acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,octadecanoic acid (=stearic acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,(Z)-9-octadecenoic acid (=oleic acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,(E)-9-octadecenoic acid,Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"(Z,Z)-9,12-octadecadienoic acid (=linoleic acid)",Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"(Z,Z,Z)-9,12,15-octadecatrienoic acid (=linolenic acid)",Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,oxalic acid (=ethanedioic acid),Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,citric acid,Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,benzoic acid,Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,cinnamic acid,Acids,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,butyl acetate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,isobutyl acetate (=2-methylpropyl acetate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl 2-methylpropanoate (=methyl isobutyrate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl butanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl butanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl 2-methylbutanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl 2-methylbutanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl 3-methylbutanoate (=methyl isovalerate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl 3-methylbutanoate (=ethyl isovalerate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl 2-hydroxy-3-methyl-butanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl 2-hydroxy-3-methylpentanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl hexanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl hexanoate (=ethyl caproate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl octanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl octanoate (=ethyl caprylate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,butyl octanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,isobutyl octanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,hexyl octanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl (E)-2-octenoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl 3-hydroxyoctanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl 3-hydroxyoctanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl 5-hydroxyoctanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl decanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl decanoate (=ethyl caprate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,butyl decanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,isobutyl decanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl dodecanoate (=methyl laurate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl dodecanoate (=ethyl laurate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,butyl dodecanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,isobutyl dodecanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl tetradecanoate (=methyl myristate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl tetradecanoate (=ethyl myristate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl pentadecanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl hexadecanoate (=methyl palmitate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl hexadecanoate (=ethyl palmitate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,isobutyl hexadecanoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl octadecanoate (=methyl stearate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl (Z)-9-octadecenoate (=methyl oleate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl (E)-9-octadecenoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"methyl (Z,Z)-9,12-octadecadienoate (=methyl linoleate)",Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl (E)-geranate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,diethyl malonate (=diethyl propanedioate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl benzoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl benzoate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl 2-hydroxybenzoate (=methyl salicylate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl 2-hydroxybenzoate (=ethyl salicylate),Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,methyl (E)-cinnamate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl (E)-cinnamate,Esters,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"4-hydroxyhexanoic acid lactone (=γ-hexalactone, γ-caprolactone, 4-hexanolide)",Lactones,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"4-hydroxyheptanoic acid lactone (=4-heptanolide, γ-heptalactone)",Lactones,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"4-hydroxyoctanoic acid lactone (=4-octanolide, γ-octalactone, 5-butyldihydro-2(3H)-furanone)",Lactones,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"5-hydroxyoctanoic acid lactone (=5-octanolide, δ-octalactone)",Lactones,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,4-hydroxy-2-octenoic acid lactone,Lactones,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"4-hydroxydecanoic acid lactone (=4-decanolide, γ-decalactone)",Lactones,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,dihydroactinidiolide,Lactones,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,ethyl nicotinate,Bases,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,benzyl methyl ether,Ethers,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"1,8-cineole (=eucalyptol)",Ethers,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"4-hydroxy-2,5-dimethyl-3(2H)-furanone (=furaneol)",Furans,,
+CAPE GOOSEBERRY (Physalis peruviana L.),,Fruits,"4-methoxy-2,5-dimethyl-3(2H)-furanone (=mesifurane)",Furans,,
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,1-hexanol,Alcohols,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,benzaldehyde,"Carbonyls, aldehydes",<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,butanoic acid (=butyric acid),Acids,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,hexanoic acid (=caproic acid),Acids,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,octanoic acid (=caprylic acid),Acids,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,decanoic acid (=capric acid),Acids,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,dodecanoic acid (=lauric acid),Acids,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,butyl acetate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,isobutyl acetate (=2-methylpropyl acetate),Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,butyl propanoate,Esters,11.2,11.2
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,isobutyl propanoate (=2-methylpropyl propanoate),Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,hexyl propanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,ethyl 2-methylpropanoate (=ethyl isobutyrate),Esters,31,31
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,propyl 2-methylpropanoate (=propyl isobutyrate),Esters,7.6,7.6
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,butyl 2-methylpropanoate (=butyl isobutyrate),Esters,135.2,135.2
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,isobutyl 2-methylpropanoate (=isobutyl isobutyrate),Esters,5.2,5.2
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,pentyl 2-methylpropanoate (=amyl isobutyrate),Esters,25.2,25.2
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,hexyl 2-methylpropanoate (=hexyl isobutyrate),Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,methyl butanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,ethyl butanoate,Esters,52.8,52.8
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,propyl butanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,isopropyl butanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,butyl butanoate,Esters,168.5,168.5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,pentyl butanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,"isopentyl butanoate (=3-methylbutyl butanoate, isoamyl butyrate)",Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,hexyl butanoate,Esters,,
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,(Z)-3-hexenyl butanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,butyl 2-butenoate (=butyl crotonate),Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,ethyl 2-methylbutanoate,Esters,12.1,12.1
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,butyl 2-methylbutanoate,Esters,44.1,44.1
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,hexyl 2-methylbutanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,methyl hexanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,ethyl hexanoate (=ethyl caproate),Esters,40,40
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,propyl hexanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,butyl hexanoate,Esters,,
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,isobutyl hexanoate,Esters,17.6,17.6
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,hexyl hexanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,methyl heptanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,ethyl heptanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,methyl octanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,ethyl octanoate (=ethyl caprylate),Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,butyl octanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,methyl nonanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,methyl decanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,ethyl decanoate (=ethyl caprate),Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,butyl decanoate,Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,"methyl (E,Z)-2,4-decadienoate",Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,"ethyl (E,Z)-2,4-decadienoate",Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,"ethyl (E,E)-2,4-decadienoate",Esters,<5,<5
+SPINELESS MONKEY ORANGE (Strychnos madagasc.),,Fruits,butyl dodecanoate,Esters,<5,<5
+KARAKA (Corynocarpus laevigatus J.R. et G. Forst.),,Fruits,ethene (=ethylene),Hydrocarbons,,
+KARAKA (Corynocarpus laevigatus J.R. et G. Forst.),,Fruits,ethanol,Alcohols,,
+KARAKA (Corynocarpus laevigatus J.R. et G. Forst.),,Fruits,acetaldehyde (=ethanal),"Carbonyls, aldehydes",,
+KARAKA (Corynocarpus laevigatus J.R. et G. Forst.),,Fruits,methyl acetate,Esters,,
+KARAKA (Corynocarpus laevigatus J.R. et G. Forst.),,Fruits,ethyl acetate,Esters,,
+KARAKA (Corynocarpus laevigatus J.R. et G. Forst.),,Fruits,methyl 2-methylbutanoate,Esters,,
+KARAKA (Corynocarpus laevigatus J.R. et G. Forst.),,Fruits,ethyl 2-methylbutanoate,Esters,,

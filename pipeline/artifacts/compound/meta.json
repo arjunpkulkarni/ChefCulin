@@ -1,0 +1,8 @@
+{
+  "source": "/Users/vedbuddaraju/CodeBases/ChefCulin/pipeline/vendor/flavor_network/ingredient_filtered_named_edges.csv",
+  "seeds": 1255,
+  "neighbor_rows": 34256,
+  "weight_min": 2,
+  "weight_max": 227,
+  "per_seed": 32
+}

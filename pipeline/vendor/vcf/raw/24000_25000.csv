@@ -1,0 +1,1384 @@
+Product,Product Category,Product Group,Compound,Compound Group,Quantity Lower Bound,Quantity Upper Bound
+,ALPINIA SPECIES,Spices & Condiments,tridecane,Hydrocarbons,2700,2700
+,ALPINIA SPECIES,Spices & Condiments,tetradecane,Hydrocarbons,5800,5800
+,ALPINIA SPECIES,Spices & Condiments,pentadecane,Hydrocarbons,89800,89800
+,ALPINIA SPECIES,Spices & Condiments,hexadecane,Hydrocarbons,2300,2300
+,ALPINIA SPECIES,Spices & Condiments,heptadecane,Hydrocarbons,3600,3600
+,ALPINIA SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,900,6200
+,ALPINIA SPECIES,Spices & Condiments,β-farnesene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,(E)-β-farnesene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,γ-terpinene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,terpinolene,Hydrocarbons,<500,900
+,ALPINIA SPECIES,Spices & Condiments,limonene,Hydrocarbons,<500,40000
+,ALPINIA SPECIES,Spices & Condiments,β-sesquiphellandrene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,β-elemene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,γ-elemene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,β-bisabolene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,ar-curcumene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,1900,1900
+,ALPINIA SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,1100,66000
+,ALPINIA SPECIES,Spices & Condiments,camphene,Hydrocarbons,4100,46000
+,ALPINIA SPECIES,Spices & Condiments,α-thujene,Hydrocarbons,900,900
+,ALPINIA SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,3-carene,Hydrocarbons,32600,32600
+,ALPINIA SPECIES,Spices & Condiments,α-bergamotene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,trans-α-bergamotene,Hydrocarbons,16000,16000
+,ALPINIA SPECIES,Spices & Condiments,(+)-α-amorphene (=zizanene),Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,γ-cadinene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,δ-cadinene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,γ-muurolene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,"α-selinene (=5β,7α,10α-selina-3,11-diene)",Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,α-guaiene,Hydrocarbons,7200,7200
+,ALPINIA SPECIES,Spices & Condiments,δ-guaiene (=α-bulnesene),Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,600,600
+,ALPINIA SPECIES,Spices & Condiments,α-cubebene,Hydrocarbons,400,400
+,ALPINIA SPECIES,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,<500,4100
+,ALPINIA SPECIES,Spices & Condiments,β-copaene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,α-santalene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,β-santalene,Hydrocarbons,4800,4800
+,ALPINIA SPECIES,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,2700,16000
+,ALPINIA SPECIES,Spices & Condiments,1-allyl-2-methylbenzene,Hydrocarbons,<500,<500
+,ALPINIA SPECIES,Spices & Condiments,calamenene,Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,calacorene (unkn.str.),Hydrocarbons,,
+,ALPINIA SPECIES,Spices & Condiments,1-heptanol,Alcohols,<500,<500
+,ALPINIA SPECIES,Spices & Condiments,1-octanol,Alcohols,<500,<500
+,ALPINIA SPECIES,Spices & Condiments,linalool,Alcohols,3200,3200
+,ALPINIA SPECIES,Spices & Condiments,nerolidol,Alcohols,,
+,ALPINIA SPECIES,Spices & Condiments,p-cymenol (unkn.str.),Alcohols,,
+,ALPINIA SPECIES,Spices & Condiments,α-terpineol,Alcohols,3900,3900
+,ALPINIA SPECIES,Spices & Condiments,δ-terpineol,Alcohols,,
+,ALPINIA SPECIES,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,,
+,ALPINIA SPECIES,Spices & Condiments,carveol I,Alcohols,,
+,ALPINIA SPECIES,Spices & Condiments,carveol II,Alcohols,,
+,ALPINIA SPECIES,Spices & Condiments,borneol,Alcohols,27200,27200
+,ALPINIA SPECIES,Spices & Condiments,octanal (=caprylaldehyde),"Carbonyls, aldehydes",2300,2300
+,ALPINIA SPECIES,Spices & Condiments,benzaldehyde,"Carbonyls, aldehydes",<500,<500
+,ALPINIA SPECIES,Spices & Condiments,4-methoxybenzaldehyde (=anisaldehyde),"Carbonyls, aldehydes",6300,6300
+,ALPINIA SPECIES,Spices & Condiments,vanillin (=4-hydroxy-3-methoxybenzaldehyde),"Carbonyls, aldehydes",<500,<500
+,ALPINIA SPECIES,Spices & Condiments,4-phenyl-2-butanone (=benzylacetone),"Carbonyls, ketones",,
+,ALPINIA SPECIES,Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",<500,10000
+,ALPINIA SPECIES,Spices & Condiments,butyl acetate,Esters,,
+,ALPINIA SPECIES,Spices & Condiments,isobutyl acetate (=2-methylpropyl acetate),Esters,,
+,ALPINIA SPECIES,Spices & Condiments,citronellyl acetate,Esters,,
+,ALPINIA SPECIES,Spices & Condiments,geranyl acetate,Esters,,
+,ALPINIA SPECIES,Spices & Condiments,neryl acetate,Esters,,
+,ALPINIA SPECIES,Spices & Condiments,4-allylphenyl acetate (=chavicol acetate),Esters,,
+,ALPINIA SPECIES,Spices & Condiments,eugenyl acetate (=acetyl eugenol),Esters,,
+,ALPINIA SPECIES,Spices & Condiments,bornyl acetate,Esters,500,500
+,ALPINIA SPECIES,Spices & Condiments,fenchyl acetate,Esters,5100,5100
+,ALPINIA SPECIES,Spices & Condiments,phenethyl 2-methylpropanoate (=phenethyl isobutyrate),Esters,200,200
+,ALPINIA SPECIES,Spices & Condiments,phenethyl 2-methylbutanoate,Esters,3400,3400
+,ALPINIA SPECIES,Spices & Condiments,methyl 3-methylbutanoate (=methyl isovalerate),Esters,,
+,ALPINIA SPECIES,Spices & Condiments,isobutyl 3-methylbutanoate (=isobutyl isovalerate),Esters,2100,2100
+,ALPINIA SPECIES,Spices & Condiments,butyl benzoate,Esters,200,200
+,ALPINIA SPECIES,Spices & Condiments,isobutyl benzoate,Esters,,
+,ALPINIA SPECIES,Spices & Condiments,4-acetoxy-α-vinyl-benzenemethanol (=1-hydroxychavicol acetate),Esters,,
+,ALPINIA SPECIES,Spices & Condiments,4-hydroxy-2-vinylbenzenemethanol di-acetate (=1-acetoxychavicol acetate),Esters,,
+,ALPINIA SPECIES,Spices & Condiments,4-hydroxy-3-methoxy-α-vinyl-benzenemethanol diacetate (=1-acetoxyeugenol ac.),Esters,,
+,ALPINIA SPECIES,Spices & Condiments,ethyl 3-phenylpropanoate (=ethyl hydrocinnamate),Esters,<500,<500
+,ALPINIA SPECIES,Spices & Condiments,ethyl (E)-cinnamate,Esters,164700,164700
+,ALPINIA SPECIES,Spices & Condiments,methyl (E)-4-methoxycinnamate,Esters,<500,<500
+,ALPINIA SPECIES,Spices & Condiments,ethyl (E)-4-methoxycinnamate,Esters,515900,515900
+,ALPINIA SPECIES,Spices & Condiments,indole,Bases,1300,1300
+,ALPINIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,57200,496000
+,ALPINIA SPECIES,Spices & Condiments,4-allylphenol (=chavicol),Phenols,,
+,ALPINIA SPECIES,Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,2800,2800
+,ALPINIA SPECIES,Spices & Condiments,4-methoxyphenol,Phenols,<500,<500
+,ALPINIA SPECIES,Spices & Condiments,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,,
+,ALPINIA SPECIES,Spices & Condiments,"2,3-dihydrobenzofuran (=coumaran)",Furans,1100,1100
+,ALPINIA SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",500,500
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,6200,6200
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,β-farnesene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,γ-terpinene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,terpinolene,Hydrocarbons,900,900
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,limonene,Hydrocarbons,40000,40000
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,β-elemene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,γ-elemene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,β-bisabolene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,ar-curcumene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,66000,66000
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,camphene,Hydrocarbons,46000,46000
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,α-thujene,Hydrocarbons,900,900
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,trans-α-bergamotene,Hydrocarbons,16000,16000
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,(+)-α-amorphene (=zizanene),Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,γ-cadinene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,δ-cadinene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,γ-muurolene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,"α-selinene (=5β,7α,10α-selina-3,11-diene)",Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,α-guaiene,Hydrocarbons,7200,7200
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,δ-guaiene (=α-bulnesene),Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,α-cubebene,Hydrocarbons,400,400
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,4100,4100
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,β-copaene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,α-santalene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,β-santalene,Hydrocarbons,4800,4800
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,16000,16000
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,calamenene,Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,calacorene (unkn.str.),Hydrocarbons,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,linalool,Alcohols,3200,3200
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,nerolidol,Alcohols,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,α-terpineol,Alcohols,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,δ-terpineol,Alcohols,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,4-phenyl-2-butanone (=benzylacetone),"Carbonyls, ketones",,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",10000,10000
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,bornyl acetate,Esters,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,fenchyl acetate,Esters,5100,5100
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,phenethyl 2-methylpropanoate (=phenethyl isobutyrate),Esters,200,200
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,phenethyl 2-methylbutanoate,Esters,3400,3400
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,methyl 3-methylbutanoate (=methyl isovalerate),Esters,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,isobutyl 3-methylbutanoate (=isobutyl isovalerate),Esters,2100,2100
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,butyl benzoate,Esters,200,200
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,isobutyl benzoate,Esters,,
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,496000,496000
+SMALLER GALANGA (Alpinia officinarum Hance),ALPINIA SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,tridecane,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,pentadecane,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,(E)-β-farnesene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,γ-terpinene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,terpinolene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,limonene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,β-sesquiphellandrene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,β-bisabolene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,ar-curcumene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,camphene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,α-bergamotene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,linalool,Alcohols,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,p-cymenol (unkn.str.),Alcohols,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,α-terpineol,Alcohols,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,carveol I,Alcohols,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,carveol II,Alcohols,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,borneol,Alcohols,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,butyl acetate,Esters,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,isobutyl acetate (=2-methylpropyl acetate),Esters,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,citronellyl acetate,Esters,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,geranyl acetate,Esters,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,neryl acetate,Esters,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,4-allylphenyl acetate (=chavicol acetate),Esters,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,eugenyl acetate (=acetyl eugenol),Esters,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,bornyl acetate,Esters,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,4-acetoxy-α-vinyl-benzenemethanol (=1-hydroxychavicol acetate),Esters,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,4-hydroxy-2-vinylbenzenemethanol di-acetate (=1-acetoxychavicol acetate),Esters,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,4-hydroxy-3-methoxy-α-vinyl-benzenemethanol diacetate (=1-acetoxyeugenol ac.),Esters,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,4-allylphenol (=chavicol),Phenols,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,,
+GREATER GALANGA (Laos) (Alpinia galanga Willd.),ALPINIA SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",,
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,tridecane,Hydrocarbons,2700,2700
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,tetradecane,Hydrocarbons,5800,5800
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,pentadecane,Hydrocarbons,89800,89800
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,hexadecane,Hydrocarbons,2300,2300
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,heptadecane,Hydrocarbons,3600,3600
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,900,900
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,terpinolene,Hydrocarbons,<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,limonene,Hydrocarbons,<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,1900,1900
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,1100,1100
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,camphene,Hydrocarbons,4100,4100
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,3-carene,Hydrocarbons,32600,32600
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,600,600
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,2700,2700
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,1-allyl-2-methylbenzene,Hydrocarbons,<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,1-heptanol,Alcohols,<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,1-octanol,Alcohols,<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,α-terpineol,Alcohols,3900,3900
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,borneol,Alcohols,27200,27200
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,octanal (=caprylaldehyde),"Carbonyls, aldehydes",2300,2300
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,benzaldehyde,"Carbonyls, aldehydes",<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,4-methoxybenzaldehyde (=anisaldehyde),"Carbonyls, aldehydes",6300,6300
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,vanillin (=4-hydroxy-3-methoxybenzaldehyde),"Carbonyls, aldehydes",<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,bornyl acetate,Esters,500,500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,ethyl 3-phenylpropanoate (=ethyl hydrocinnamate),Esters,<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,ethyl (E)-cinnamate,Esters,164700,164700
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,methyl (E)-4-methoxycinnamate,Esters,<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,ethyl (E)-4-methoxycinnamate,Esters,515900,515900
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,indole,Bases,1300,1300
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,57200,57200
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,2800,2800
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,4-methoxyphenol,Phenols,<500,<500
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,"2,3-dihydrobenzofuran (=coumaran)",Furans,1100,1100
+CHEKUR (Alpinia sessilis = Kaempferia galanga),ALPINIA SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",500,500
+DRAGONHEAD (Dracocephalum moldavica L.),,Spices & Condiments,geraniol,Alcohols,,
+DRAGONHEAD (Dracocephalum moldavica L.),,Spices & Condiments,geranial (=α-citral),"Carbonyls, aldehydes",,
+DRAGONHEAD (Dracocephalum moldavica L.),,Spices & Condiments,neral (=β-citral),"Carbonyls, aldehydes",,
+DRAGONHEAD (Dracocephalum moldavica L.),,Spices & Condiments,geranyl acetate,Esters,,
+DRAGONHEAD (Dracocephalum moldavica L.),,Spices & Condiments,thymol (=2-isopropyl-5-methylphenol),Phenols,,
+DRAGONHEAD (Dracocephalum moldavica L.),,Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,,
+,AGASTACHE SPECIES,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,,
+,AGASTACHE SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,1000,1000
+,AGASTACHE SPECIES,Spices & Condiments,limonene,Hydrocarbons,85000,85000
+,AGASTACHE SPECIES,Spices & Condiments,germacrene B,Hydrocarbons,33000,33000
+,AGASTACHE SPECIES,Spices & Condiments,germacrene D,Hydrocarbons,4000,4000
+,AGASTACHE SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,1000,1000
+,AGASTACHE SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,,
+,AGASTACHE SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,<1000,<1000
+,AGASTACHE SPECIES,Spices & Condiments,camphene,Hydrocarbons,,
+,AGASTACHE SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,<1000,<1000
+,AGASTACHE SPECIES,Spices & Condiments,α-amorphene,Hydrocarbons,<1000,<1000
+,AGASTACHE SPECIES,Spices & Condiments,γ-cadinene,Hydrocarbons,<1000,<1000
+,AGASTACHE SPECIES,Spices & Condiments,δ-cadinene,Hydrocarbons,4000,4000
+,AGASTACHE SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,55000,55000
+,AGASTACHE SPECIES,Spices & Condiments,"1,2,3,4,4a,7-hexahydro-4-isopropyl-1,6-dimethylnaphthalene",Hydrocarbons,<1000,<1000
+,AGASTACHE SPECIES,Spices & Condiments,1-butanol,Alcohols,<1000,<1000
+,AGASTACHE SPECIES,Spices & Condiments,1-octen-3-ol,Alcohols,4000,4000
+,AGASTACHE SPECIES,Spices & Condiments,7-octen-4-ol,Alcohols,,
+,AGASTACHE SPECIES,Spices & Condiments,geraniol,Alcohols,1000,1000
+,AGASTACHE SPECIES,Spices & Condiments,linalool,Alcohols,6000,6000
+,AGASTACHE SPECIES,Spices & Condiments,dihydroterpineol,Alcohols,,
+,AGASTACHE SPECIES,Spices & Condiments,camphene hydrate,Alcohols,,
+,AGASTACHE SPECIES,Spices & Condiments,α-cadinol,Alcohols,6000,6000
+,AGASTACHE SPECIES,Spices & Condiments,δ-cadinol (=torreyol),Alcohols,7000,7000
+,AGASTACHE SPECIES,Spices & Condiments,spathulenol (=(+)-spathulenol),Alcohols,12000,12000
+,AGASTACHE SPECIES,Spices & Condiments,3-octanone,"Carbonyls, ketones",6000,6000
+,AGASTACHE SPECIES,Spices & Condiments,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",<1000,<1000
+,AGASTACHE SPECIES,Spices & Condiments,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",1000,1000
+,AGASTACHE SPECIES,Spices & Condiments,(E)-β-ionone,"Carbonyls, ketones",2000,2000
+,AGASTACHE SPECIES,Spices & Condiments,menthone,"Carbonyls, ketones",13000,13000
+,AGASTACHE SPECIES,Spices & Condiments,isomenthone,"Carbonyls, ketones",,
+,AGASTACHE SPECIES,Spices & Condiments,pulegone,"Carbonyls, ketones",,
+,AGASTACHE SPECIES,Spices & Condiments,pinocamphone,"Carbonyls, ketones",<1000,<1000
+,AGASTACHE SPECIES,Spices & Condiments,1-octen-3-yl acetate,Esters,4000,4000
+,AGASTACHE SPECIES,Spices & Condiments,bornyl acetate,Esters,,
+,AGASTACHE SPECIES,Spices & Condiments,thymol (=2-isopropyl-5-methylphenol),Phenols,<1000,<1000
+,AGASTACHE SPECIES,Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,<1000,<1000
+,AGASTACHE SPECIES,Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,746000,746000
+,AGASTACHE SPECIES,Spices & Condiments,anethole (=1-methoxy-4-(1-propenyl)benzene),Phenols,<1000,<1000
+,AGASTACHE SPECIES,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,1000,1000
+,AGASTACHE SPECIES,Spices & Condiments,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,2000,2000
+,AGASTACHE SPECIES,Spices & Condiments,2-pentylfuran,Furans,1000,1000
+,AGASTACHE SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",2000,2000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,,
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,1000,1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,limonene,Hydrocarbons,85000,85000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,germacrene B,Hydrocarbons,33000,33000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,germacrene D,Hydrocarbons,4000,4000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,1000,1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,,
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,<1000,<1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,camphene,Hydrocarbons,,
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,<1000,<1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,α-amorphene,Hydrocarbons,<1000,<1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,γ-cadinene,Hydrocarbons,<1000,<1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,δ-cadinene,Hydrocarbons,4000,4000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,55000,55000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,"1,2,3,4,4a,7-hexahydro-4-isopropyl-1,6-dimethylnaphthalene",Hydrocarbons,<1000,<1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,1-butanol,Alcohols,<1000,<1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,1-octen-3-ol,Alcohols,4000,4000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,7-octen-4-ol,Alcohols,,
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,geraniol,Alcohols,1000,1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,linalool,Alcohols,6000,6000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,dihydroterpineol,Alcohols,,
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,camphene hydrate,Alcohols,,
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,α-cadinol,Alcohols,6000,6000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,δ-cadinol (=torreyol),Alcohols,7000,7000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,spathulenol (=(+)-spathulenol),Alcohols,12000,12000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,3-octanone,"Carbonyls, ketones",6000,6000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",<1000,<1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",1000,1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,(E)-β-ionone,"Carbonyls, ketones",2000,2000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,menthone,"Carbonyls, ketones",13000,13000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,isomenthone,"Carbonyls, ketones",,
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,pulegone,"Carbonyls, ketones",,
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,pinocamphone,"Carbonyls, ketones",<1000,<1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,1-octen-3-yl acetate,Esters,4000,4000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,bornyl acetate,Esters,,
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,thymol (=2-isopropyl-5-methylphenol),Phenols,<1000,<1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,<1000,<1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,746000,746000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,anethole (=1-methoxy-4-(1-propenyl)benzene),Phenols,<1000,<1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,1000,1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,2000,2000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,2-pentylfuran,Furans,1000,1000
+ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze),AGASTACHE SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",2000,2000
+CATNIP GIANT HYSSOP (Agastache nepetoides K.),AGASTACHE SPECIES,Spices & Condiments,limonene,Hydrocarbons,,
+CATNIP GIANT HYSSOP (Agastache nepetoides K.),AGASTACHE SPECIES,Spices & Condiments,camphene,Hydrocarbons,,
+CATNIP GIANT HYSSOP (Agastache nepetoides K.),AGASTACHE SPECIES,Spices & Condiments,7-octen-4-ol,Alcohols,,
+CATNIP GIANT HYSSOP (Agastache nepetoides K.),AGASTACHE SPECIES,Spices & Condiments,linalool,Alcohols,,
+CATNIP GIANT HYSSOP (Agastache nepetoides K.),AGASTACHE SPECIES,Spices & Condiments,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",,
+CATNIP GIANT HYSSOP (Agastache nepetoides K.),AGASTACHE SPECIES,Spices & Condiments,(E)-β-ionone,"Carbonyls, ketones",,
+CATNIP GIANT HYSSOP (Agastache nepetoides K.),AGASTACHE SPECIES,Spices & Condiments,bornyl acetate,Esters,,
+CATNIP GIANT HYSSOP (Agastache nepetoides K.),AGASTACHE SPECIES,Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,,
+KOREAN MINT (Agastache rugosa Kuntze),AGASTACHE SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,,
+KOREAN MINT (Agastache rugosa Kuntze),AGASTACHE SPECIES,Spices & Condiments,limonene,Hydrocarbons,,
+KOREAN MINT (Agastache rugosa Kuntze),AGASTACHE SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,,
+KOREAN MINT (Agastache rugosa Kuntze),AGASTACHE SPECIES,Spices & Condiments,7-octen-4-ol,Alcohols,,
+KOREAN MINT (Agastache rugosa Kuntze),AGASTACHE SPECIES,Spices & Condiments,linalool,Alcohols,,
+KOREAN MINT (Agastache rugosa Kuntze),AGASTACHE SPECIES,Spices & Condiments,camphene hydrate,Alcohols,,
+KOREAN MINT (Agastache rugosa Kuntze),AGASTACHE SPECIES,Spices & Condiments,isomenthone,"Carbonyls, ketones",,
+KOREAN MINT (Agastache rugosa Kuntze),AGASTACHE SPECIES,Spices & Condiments,pulegone,"Carbonyls, ketones",,
+KOREAN MINT (Agastache rugosa Kuntze),AGASTACHE SPECIES,Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,,
+KOREAN MINT (Agastache rugosa Kuntze),AGASTACHE SPECIES,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+KOREAN MINT (Agastache rugosa Kuntze),AGASTACHE SPECIES,Spices & Condiments,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,,
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,12000,12000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,(E)-β-ocimene,Hydrocarbons,5000,5000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,3500,79000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,α-phellandrene,Hydrocarbons,700,488000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,β-phellandrene,Hydrocarbons,17000,17000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,α-terpinene,Hydrocarbons,300,5000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,limonene,Hydrocarbons,10000,87000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,β-elemene,Hydrocarbons,1200,1200
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,α-pinene,Hydrocarbons,4300,159000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,α-thujene,Hydrocarbons,63000,63000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,γ-cadinene,Hydrocarbons,2000,9700
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,δ-cadinene,Hydrocarbons,2300,4000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,α-muurolene,Hydrocarbons,,
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,α-cubebene,Hydrocarbons,1200,1200
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,2500,2500
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,40000,171000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,α-calacorene,Hydrocarbons,3400,3400
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,"4-isopropyl-1,6-dimethylnaphthalene (=cadalene)",Hydrocarbons,1600,1600
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,3-methyl-2-butanol,Alcohols,400,400
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,linalool,Alcohols,30000,46000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,"4-isopropylbenzyl alcohol (=cumic alcohol, p-cymen-7-ol)",Alcohols,7800,7800
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,16000,16000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,α-terpineol,Alcohols,2000,17000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,700,700
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,trans-piperitol,Alcohols,8900,8900
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,isopulegol,Alcohols,9300,9300
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,cis-sabinol (=cis-4(10)-thujenol),Alcohols,11000,11000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,α-cadinol,Alcohols,9300,9300
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,cadinol-T,Alcohols,3500,3500
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,cubenol,Alcohols,2000,2000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,epicubenol,Alcohols,2400,2400
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,spathulenol (=(+)-spathulenol),Alcohols,3000,3000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,geranial (=α-citral),"Carbonyls, aldehydes",,
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,benzaldehyde,"Carbonyls, aldehydes",,
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,4-isopropylbenzaldehyde (=cuminaldehyde),"Carbonyls, aldehydes",9100,9100
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,"(2,2,3-trimethyl-3-cyclopentenyl)-acetaldehyde (=α-campholene aldehyde)","Carbonyls, aldehydes",1100,1100
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,myrtenal,"Carbonyls, aldehydes",600,600
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,6-methyl-5-hepten-2-one,"Carbonyls, ketones",100,100
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,4-methylacetophenone,"Carbonyls, ketones",3700,3700
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,carvotanacetone (=p-1-menthen-6-one),"Carbonyls, ketones",4000,4000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,verbenone (=2-pinen-4-one),"Carbonyls, ketones",2200,2200
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,geranyl acetate,Esters,2300,2300
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,bornyl acetate,Esters,1100,1100
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,1600,1600
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,thymol (=2-isopropyl-5-methylphenol),Phenols,4800,4800
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,carvacrol (=5-isopropyl-2-methylphenol),Phenols,11000,11000
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,3200,3200
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,"2-isopropyl-5-methyl-1,4-benzenediol (=thymohydroquinone)",Phenols,3900,3900
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,3-(4-methyl-3-pentenyl)furan (=perillene),Furans,1200,1200
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,rose furan,Furans,1200,1200
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,"6,8-epoxy-p-1-menthene (=pinol)","(Ep)oxides, pyrans, coumarins",100,100
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,"α-pinene oxide (=1,2-epoxypinane)","(Ep)oxides, pyrans, coumarins",100,100
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",5100,5100
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",6800,6800
+CALABASH NUTMEG (Monodora myristica Dunal),,Spices & Condiments,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",5500,5500
+,XYLOPIA SPECIES,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,6000,6000
+,XYLOPIA SPECIES,Spices & Condiments,(E)-β-ocimene,Hydrocarbons,54000,54000
+,XYLOPIA SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,4000,4000
+,XYLOPIA SPECIES,Spices & Condiments,α-phellandrene,Hydrocarbons,20000,20000
+,XYLOPIA SPECIES,Spices & Condiments,β-phellandrene,Hydrocarbons,69000,69000
+,XYLOPIA SPECIES,Spices & Condiments,α-terpinene,Hydrocarbons,10000,10000
+,XYLOPIA SPECIES,Spices & Condiments,γ-terpinene,Hydrocarbons,37000,37000
+,XYLOPIA SPECIES,Spices & Condiments,terpinolene,Hydrocarbons,10000,10000
+,XYLOPIA SPECIES,Spices & Condiments,limonene,Hydrocarbons,11000,11000
+,XYLOPIA SPECIES,Spices & Condiments,β-elemene,Hydrocarbons,4000,9000
+,XYLOPIA SPECIES,Spices & Condiments,γ-elemene,Hydrocarbons,2000,2000
+,XYLOPIA SPECIES,Spices & Condiments,δ-elemene,Hydrocarbons,7000,7000
+,XYLOPIA SPECIES,Spices & Condiments,germacrene D,Hydrocarbons,7000,7000
+,XYLOPIA SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,,
+,XYLOPIA SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,88000,140000
+,XYLOPIA SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,174000,400000
+,XYLOPIA SPECIES,Spices & Condiments,camphene,Hydrocarbons,40000,40000
+,XYLOPIA SPECIES,Spices & Condiments,α-thujene,Hydrocarbons,15000,15000
+,XYLOPIA SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,4000,239000
+,XYLOPIA SPECIES,Spices & Condiments,α-bergamotene,Hydrocarbons,22000,22000
+,XYLOPIA SPECIES,Spices & Condiments,δ-cadinene,Hydrocarbons,3000,13000
+,XYLOPIA SPECIES,Spices & Condiments,α-muurolene,Hydrocarbons,43000,43000
+,XYLOPIA SPECIES,Spices & Condiments,ε-muurolene,Hydrocarbons,12000,12000
+,XYLOPIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,3000,5000
+,XYLOPIA SPECIES,Spices & Condiments,α-cubebene,Hydrocarbons,8000,8000
+,XYLOPIA SPECIES,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,13000,13000
+,XYLOPIA SPECIES,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,18000,30000
+,XYLOPIA SPECIES,Spices & Condiments,linalool,Alcohols,3000,10000
+,XYLOPIA SPECIES,Spices & Condiments,α-terpineol,Alcohols,3000,98000
+,XYLOPIA SPECIES,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,5000,129000
+,XYLOPIA SPECIES,Spices & Condiments,isopulegol,Alcohols,6000,6000
+,XYLOPIA SPECIES,Spices & Condiments,pinocarveol,Alcohols,27000,27000
+,XYLOPIA SPECIES,Spices & Condiments,myrtenol,Alcohols,22000,22000
+,XYLOPIA SPECIES,Spices & Condiments,borneol,Alcohols,4000,4000
+,XYLOPIA SPECIES,Spices & Condiments,myrtenal,"Carbonyls, aldehydes",15000,15000
+,XYLOPIA SPECIES,Spices & Condiments,α-terpinyl acetate,Esters,4000,4000
+,XYLOPIA SPECIES,Spices & Condiments,bornyl acetate,Esters,8000,8000
+,XYLOPIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,14000,21000
+,XYLOPIA SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",6000,6000
+,XYLOPIA SPECIES,Spices & Condiments,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+,XYLOPIA SPECIES,Spices & Condiments,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,6000,6000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,β-phellandrene,Hydrocarbons,69000,69000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,α-terpinene,Hydrocarbons,10000,10000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,γ-terpinene,Hydrocarbons,37000,37000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,terpinolene,Hydrocarbons,10000,10000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,β-elemene,Hydrocarbons,4000,4000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,γ-elemene,Hydrocarbons,2000,2000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,δ-elemene,Hydrocarbons,7000,7000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,,
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,88000,88000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,174000,174000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,α-thujene,Hydrocarbons,15000,15000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,239000,239000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,δ-cadinene,Hydrocarbons,3000,3000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,α-muurolene,Hydrocarbons,43000,43000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,3000,3000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,α-cubebene,Hydrocarbons,8000,8000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,13000,13000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,18000,18000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,linalool,Alcohols,3000,3000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,α-terpineol,Alcohols,98000,98000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,129000,129000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,21000,21000
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,cis-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+"ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",XYLOPIA SPECIES,Spices & Condiments,trans-linalool oxide (unkn.str.),"(Ep)oxides, pyrans, coumarins",,
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,(E)-β-ocimene,Hydrocarbons,54000,54000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,4000,4000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,α-phellandrene,Hydrocarbons,20000,20000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,limonene,Hydrocarbons,11000,11000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,β-elemene,Hydrocarbons,9000,9000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,germacrene D,Hydrocarbons,7000,7000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,α-pinene,Hydrocarbons,140000,140000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,β-pinene,Hydrocarbons,400000,400000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,camphene,Hydrocarbons,40000,40000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,4000,4000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,α-bergamotene,Hydrocarbons,22000,22000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,δ-cadinene,Hydrocarbons,13000,13000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,ε-muurolene,Hydrocarbons,12000,12000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,β-caryophyllene,Hydrocarbons,5000,5000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,13000,13000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,30000,30000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,linalool,Alcohols,10000,10000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,α-terpineol,Alcohols,3000,3000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,5000,5000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,isopulegol,Alcohols,6000,6000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,pinocarveol,Alcohols,27000,27000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,myrtenol,Alcohols,22000,22000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,borneol,Alcohols,4000,4000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,myrtenal,"Carbonyls, aldehydes",15000,15000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,α-terpinyl acetate,Esters,4000,4000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,bornyl acetate,Esters,8000,8000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,14000,14000
+XYLOPIA PARVIFLORA (A. RICH) BENTH.,XYLOPIA SPECIES,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",6000,6000
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,5600,5600
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,3300,3300
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,(E)-β-farnesene,Hydrocarbons,6300,6300
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,α-phellandrene,Hydrocarbons,18500,18500
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,β-phellandrene,Hydrocarbons,,
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,γ-terpinene,Hydrocarbons,700,700
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,terpinolene,Hydrocarbons,5500,5500
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,limonene,Hydrocarbons,,
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,β-elemene,Hydrocarbons,11500,11500
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,δ-elemene,Hydrocarbons,5800,5800
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,β-bisabolene,Hydrocarbons,13900,13900
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,germacrene D,Hydrocarbons,23100,23100
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,α-humulene (=humulene),Hydrocarbons,3900,3900
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,α-pinene,Hydrocarbons,19800,19800
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,β-pinene,Hydrocarbons,49000,49000
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,camphene,Hydrocarbons,1900,1900
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,α-thujene,Hydrocarbons,700,700
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,5700,5700
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,3-carene,Hydrocarbons,6700,6700
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,trans-α-bergamotene,Hydrocarbons,1700,1700
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,δ-cadinene,Hydrocarbons,13100,13100
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,"1,4-cadinadiene",Hydrocarbons,13300,13300
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,β-caryophyllene,Hydrocarbons,18200,18200
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,α-cubebene,Hydrocarbons,9400,9400
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,α-copaene (=copaene),Hydrocarbons,38700,38700
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,α-gurjunene,Hydrocarbons,2300,2300
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,3400,3400
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,calamenene,Hydrocarbons,56900,56900
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,linalool,Alcohols,18700,18700
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,nerolidol,Alcohols,11100,11100
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,"p-cymen-8-ol (=α,α,p-trimethyl-benzyl alcohol)",Alcohols,1000,1000
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,α-terpineol,Alcohols,6600,6600
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,4-terpineol (=terpinen-4-ol),Alcohols,2700,2700
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,α-bisabolol,Alcohols,3300,3300
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,elemol,Alcohols,11100,11100
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,borneol,Alcohols,1000,1000
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,isoborneol,Alcohols,2500,2500
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,cis-sabinene hydrate (=cis-4-thujanol),Alcohols,trace,trace
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,α-cadinol,Alcohols,5800,5800
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,"1,4-cadinadien-3-ol",Alcohols,6700,6700
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,muurolol-T,Alcohols,2000,2000
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,cubenol,Alcohols,1400,1400
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,guaiol,Alcohols,17000,17000
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,bulnesol,Alcohols,3700,3700
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,spathulenol (=(+)-spathulenol),Alcohols,13000,13000
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,piperitone,"Carbonyls, ketones",800,800
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,camphor (=alcanfor),"Carbonyls, ketones",2500,2500
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,piperanine (=dihydropiperine),Bases,,
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,piperine,Bases,,
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,"N-isobutyl-2,4-eicosadienamide",Nitriles and amides,,
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,700,700
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,15300,15300
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,"5-allyl-1,3-benzodioxole (=safrole)",Phenols,48100,48100
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,"5-allyl-1,2,3-trimethoxybenzene (=elemicin)",Phenols,39100,39100
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,"(E)-1,2,3-trimethoxy-5-(1-propenyl)benzene (=E-isoelemicin)",Phenols,2100,2100
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,"6-allyl-4-methoxy-1,3-benzodioxole (=myristicin)",Phenols,165500,165500
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,"6-allyl-5-methoxy-1,3-benzodioxole (=sarisan)",Phenols,157000,157000
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,"6-allyl-4,5-dimethoxy-1,3-benzodioxole (=dill apiole)",Phenols,900,900
+ASHANTI PEPPER (Piper guineense Schum and Thom),,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",2200,2200
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,(Z)-β-ocimene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,(E)-β-ocimene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,allo-ocimene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,β-myrcene (=myrcene),Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,β-phellandrene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,α-terpinene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,γ-terpinene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,terpinolene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,limonene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,"1,5,5-trimethyl-6-methylenecyclohexene",Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,β-elemene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,γ-elemene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,α-pinene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,β-pinene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,bornylene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,camphene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,α-thujene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,sabinene (=4(10)-thujene),Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,α-cadinene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,γ-cadinene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,δ-cadinene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,"β-selinene (=4(14),11-selinadiene)",Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,cis-caryophyllene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,trans-caryophyllene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,α-cubebene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,β-cubebene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,aromadendrene,Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,geraniol,Alcohols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,linalool,Alcohols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,dihydrophytol,Alcohols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,α-terpineol,Alcohols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,1-terpineol (=p-3-menthen-1-ol),Alcohols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,δ-cadinol (=torreyol),Alcohols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,α-costol,Alcohols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,dodecanal,"Carbonyls, aldehydes",,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,octadecanal,"Carbonyls, aldehydes",,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,hexadecanoic acid (=palmitic acid),Acids,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,eugenyl acetate (=acetyl eugenol),Esters,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,methyl benzoate,Esters,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,"1,8-cineole (=eucalyptol)",Ethers,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,4-allylphenol (=chavicol),Phenols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,"1-allyl-4-methoxybenzene (=estragole, methylchavicol)",Phenols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,anethole (=1-methoxy-4-(1-propenyl)benzene),Phenols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,5-allyl-2-methoxyphenol (=chavibetol),Phenols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,"methyleugenol (=4-allyl-1,2-dimethoxybenzene)",Phenols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,"5-allyl-1,3-benzodioxole (=safrole)",Phenols,,
+PIPER BETLE L. CULTIVARS,,Spices & Condiments,β-caryophyllene oxide,"(Ep)oxides, pyrans, coumarins",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,hexane,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,heptane,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,octane,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,decane,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,dodecane,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,tridecane,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,tetradecane,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,pentadecane,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,hexadecane,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,β-myrcene (=myrcene),Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,α-terpinene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,γ-terpinene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,terpinolene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,limonene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,α-pinene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,δ-cadinene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,α-muurolene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,benzene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methylbenzene (=toluene),Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,vinylbenzene (=styrene),Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,isopropylbenzene (=cumene),Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"1,2-dimethylbenzene (=o-xylene)",Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"1,3-dimethylbenzene (=m-xylene)",Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"1,4-dimethylbenzene (=p-xylene)",Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"1,2,3,4-tetrahydro-1-methylnaphthalene",Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"1,2,3,4-tetrahydro-8-methylnaphthalene",Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,calamene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,calamenene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,naphthalene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-methylnaphthalene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methylnaphthalene,Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"4-isopropyl-1,6-dimethylnaphthalene (=cadalene)",Hydrocarbons,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,ethanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-ethoxyethanol (=ethylene glycol monoethyl ether),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-propanol (=propyl alcohol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-propanol (=isopropyl alcohol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-propen-1-ol (=allyl alcohol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methyl-1-propanol (=isobutanol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methylpropanol (unkn.str.),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-butanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-butanol (=sec-butanol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-buten-1-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methyl-1-butanol (=active amyl alcohol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methyl-2-butanol (=tert-amyl alcohol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methyl-3-buten-2-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-methyl-3-buten-2-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-pentanol (=amyl alcohol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-pentanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-pentanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-penten-1-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(Z)-2-penten-1-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,4-penten-1-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-penten-3-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-methyl-1-penten-3-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,4-pentanediol",Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-hexanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-hexanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-hexanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-2-hexen-1-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,5-hexen-1-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methyl-1-hexanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-ethyl-1-hexanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,5-hexanediol",Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-heptanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-heptanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-heptanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,4-heptanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-hepten-1-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-hepten-3-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-octanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-octanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-2-octen-1-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-octen-3-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-nonanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-3-nonen-2-ol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-decanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-tridecanol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,linalool,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,nerolidol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,benzyl alcohol (=benzenemethanol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,α-terpineol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,β-terpineol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,borneol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,isoborneol,Alcohols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-butenal (=crotonaldehyde),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methylbutanal (=α-methylbutanal),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-methyl-2-butenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-2-pentenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(Z)-3-hexenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,heptanal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-heptenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(Z)-2-heptenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(Z)-4-heptenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,4-heptadienal","Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(E,Z)-2,4-heptadienal","Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-octenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-2-octenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,4-octadienal","Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-nonenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-2-nonenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-6-nonenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,6-nonadienal","Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(E,Z)-2,6-nonadienal","Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-2-decenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,undecanal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-2-undecenal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,dodecanal,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,geranial (=α-citral),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,neral (=β-citral),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,benzaldehyde,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,4-methylbenzaldehyde (=p-tolualdehyde),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-hydroxybenzaldehyde (=salicylaldehyde),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,β-cyclocitral,"Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"safranal (=2,6,6-trimethyl-1,3-cyclohexadienecarbaldehyde)","Carbonyls, aldehydes",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"acetone (=2-propanone, dimethyl ketone)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-methyl-2-butanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-pentanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-penten-2-one,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-3-penten-2-one,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-hexanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,5-hexanedione (=acetonylacetone)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-heptanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-heptanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,4-heptanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(E)-6-methyl-3,5-heptadien-2-one","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(Z)-6-methyl-3,5-heptadien-2-one","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-octanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-3-octen-2-one,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"3,5-octadien-2-one","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(E,Z)-3,5-octadien-2-one","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(E,E)-3,5-octadien-2-one","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-nonanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,4-decanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-undecanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"6,10-dimethyl-2-undecanone","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(E),(E)-6,10-dimethyl-3,5,9-undecatrien-2-one (=(E),(E)-pseudoionone)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(E),(Z)-6,10-dimethyl-3,5,9-undecatrien-2-one (=(E),(Z)-pseudoionone)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-tridecanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"6,10,14-trimethyl-2-pentadecanone (=hexahydrofarnesylacetone)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"6,10,14-trimethyl-5,9,13-pentadecatrien-2-one (=farnesylacetone)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,cyclopentanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,cyclohexanone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,2,6-trimethylcyclohexanone","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,6,6-trimethyl-2-cyclohexen-1-one","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"3,5,5-trimethyl-2-cyclohexen-1-one (=isophorone)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2-hydroxy-2,6,6-trimethylcyclohexanone","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,6,6-trimethyl-2-cyclohexene-1,4-dione","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,acetophenone (=1-phenylethanone),"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methylacetophenone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,4-methylacetophenone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,β-damascenone (=(E)-β-damascenone),"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"(Z)-1-(2,6,6-trimethyl-1,3-cyclo-hexadienyl)-2-buten-1-one (=(Z)-β-damascenone)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,(E)-β-ionone,"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"5,6-epoxy-β-ionone (=epoxy-β-ionone)","Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,camphor (=alcanfor),"Carbonyls, ketones",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,acetic acid,Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,propanoic acid (=propionic acid),Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methylpropanoic acid (=isobutyric acid),Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,butanoic acid (=butyric acid),Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-methylbutanoic acid (=isovaleric acid),Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,pentanoic acid (=valeric acid),Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,hexanoic acid (=caproic acid),Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,heptanoic acid (=enanthic acid),Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,octanoic acid (=caprylic acid),Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,nonanoic acid (=pelargonic acid),Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,decanoic acid (=capric acid),Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,dodecanoic acid (=lauric acid),Acids,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,phenethyl formate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl acetate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,ethyl acetate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,propyl acetate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,butyl acetate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,hexyl acetate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,neryl acetate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,eugenyl acetate (=acetyl eugenol),Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,phenethyl acetate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl propanoate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl butanoate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl 2-methylbutanoate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl 3-methylbutanoate (=methyl isovalerate),Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl pentanoate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl heptanoate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl octanoate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl nonanoate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl hexadecanoate (=methyl palmitate),Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,dimethyl oxalate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl benzoate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl 2-hydroxybenzoate (=methyl salicylate),Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl phenylacetate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,diethyl phthalate,Esters,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"4-hydroxybutanoic acid lactone (=dihydro-2(3H)-furanone, 4-butanolide, γ-butyrolactone)",Lactones,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,4-hydroxy-2-methylbutanoic acid lactone (=3-methyl-tetrahydrofuran-2-one),Lactones,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,4-hydroxy-3-methylbutanoic acid lactone,Lactones,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"4-hydroxypentanoic acid lactone (=γ-valerolactone, 4-pentanolide)",Lactones,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"5-hydroxypentanoic acid lactone (=δ-pentalactone, tetrahydro-2-pyrone)",Lactones,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"4-hydroxyhexanoic acid lactone (=γ-hexalactone, γ-caprolactone, 4-hexanolide)",Lactones,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"4-hydroxyoctanoic acid lactone (=4-octanolide, γ-octalactone, 5-butyldihydro-2(3H)-furanone)",Lactones,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"5-hydroxyoctanoic acid lactone (=5-octanolide, δ-octalactone)",Lactones,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,dihydroactinidiolide,Lactones,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2-ethyl-3-methylmaleimide (=3-ethyl-4-methyl-1H-pyrrole-2,5-dione)",Bases,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,dimethyl disulfide (=methyldithiomethane),Sulfur compounds,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,benzothiazole,Sulfur compounds,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,diethyl ether,Ethers,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,nitromethane,Nitriles and amides,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,phenol (=hydroxybenzene),Phenols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methylphenol (=o-cresol),Phenols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,4-methylphenol (=p-cresol),Phenols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,4-ethylphenol,Phenols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,thymol (=2-isopropyl-5-methylphenol),Phenols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,1-methoxy-2-methylbenzene (=2-methylanisole),Phenols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"1-methoxy-4-methylbenzene (=4-methylanisole, 4-methoxy-toluene, p-cresyl methyl ether)",Phenols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methoxyphenol (=guaiacol),Phenols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-methoxy-4-vinylphenol (=4-vinylguaiacol),Phenols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,tetrahydrofuran (=oxolane),Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"linalool oxide B (cis, 5-ring)",Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"linalool oxide A (trans, 5-ring)",Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"4-methyl-2,3-dihydrofuran",Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-propylfuran,Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,2-pentylfuran,Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2,5-dimethylfuran",Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,5-methylfurfural,Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2(5H)-furanone (=crotonolactone, 2-buten-4-olide, 4-hydroxy-2-butenoic acid lactone)",Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,3-methoxy-2(5H)-furanone (=2-methoxy-2-buten-4-olide),Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"5-methyl-2(5H)-furanone (=β-angelica lactone, 4-methyl-2-butenolide)",Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"5-ethyl-2(5H)-furanone (=4-ethyl-2-butenolide, 2-hexen-4-olide)",Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"3,4-dimethyl-5-pentyl-2(5H)-furanone (=dihydrobovolide)",Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"3,4-dimethyl-5-pentylidene-2(5H)-furanone (=bovolide)",Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,methyl furancarboxylate (unkn.str.),Furans,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,"3,4-dihydro-2H-pyran","(Ep)oxides, pyrans, coumarins",,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,acetic anhydride,Anhydrides and phthalides,,
+ROOIBOS TEA (Aspalathus linearis),,Coffee Tea Cocoa,dimethylmaleic anhydride,Anhydrides and phthalides,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,β-myrcene (=myrcene),Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,α-phellandrene,Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,γ-terpinene,Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,terpinolene,Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,limonene,Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,α-pinene,Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,β-pinene,Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,δ-cadinene,Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,methylbenzene (=toluene),Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethyl-methylbenzene (unkn.str.),Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-(1,3-butadienyl)-1,3,5-trimethylbenzene",Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,naphthalene,Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-vinylnaphthalene,Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,2-dimethylnaphthalene",Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,6,7-trimethylnaphthalene",Hydrocarbons,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-butoxyethanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-butanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyl-3-buten-2-ol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-pentanol (=amyl alcohol),Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(Z)-2-penten-1-ol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-penten-1-ol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-penten-3-ol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-methyl-1-pentanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-hexanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-ethyl-1-hexanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-heptanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,6-methyl-2-heptanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-octanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-octen-3-ol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,7-dimethyl-1,5,7-octatrien-3-ol (=hotrienol)",Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-nonanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-decanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-undecanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-dodecanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-tridecanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-tetradecanol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,geraniol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,nerol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,linalool,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,nerolidol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E)-3,7,11,15-tetramethyl-2-hexadecen-1-ol (=phytol)",Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,benzyl alcohol (=benzenemethanol),Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,α-terpineol,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,cadinol-T,Alcohols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-butenal,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyl-2-butenal,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-pentenal,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyl-2-pentenal,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-2,4-hexadienal","Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,heptanal,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,Z)-2,4-heptadienal","Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-2,4-octadienal","Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-nonenal,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,Z)-2,6-nonadienal","Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-decenal,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,undecanal,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-undecenal,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,dodecanal,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,geranial (=α-citral),"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,neral (=β-citral),"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,benzaldehyde,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,p-1-menthen-9-al,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,β-cyclocitral,"Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"safranal (=2,6,6-trimethyl-1,3-cyclohexadienecarbaldehyde)","Carbonyls, aldehydes",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-buten-2-one,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-penten-3-one,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyl-3-pentanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-methyl-3-penten-2-one (=mesityl oxide),"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-3-hexen-2-one,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-heptanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,6-methyl-2-heptanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E)-6-methyl-3,5-heptadien-2-one","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(Z)-6-methyl-3,5-heptadien-2-one","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-octanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-octanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,Z)-3,5-octadien-2-one","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-3,5-octadien-2-one","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-nonanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-decanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-undecanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"6,10-dimethyl-2-undecanone","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"6,10-dimethylundecanone (unkn.str.)","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"6,10-dimethyl-3,5,9-undecatrien-2-one (=ψ-ionone, pseudoionone)","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-dodecanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-tridecanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-tetradecanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-pentadecanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6,10-trimethylpentadecanone (unkn.str.)","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-indanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-cyclopentene-1,4-dione","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,2,6-trimethylcyclohexanone","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6,6-trimethyl-2-cyclohexen-1-one","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,3,5-trimethylcyclohexanone","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,5,5-trimethyl-3-cyclohexen-1-one","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-hydroxy-2,6,6-trimethylcyclohexanone","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6,6-trimethyl-2-cyclohexene-1,4-dione","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,4-dihydroxyacetophenone","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-phenyl-2-propanone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,α-ionone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-β-ionone,"Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"5,6-epoxy-β-ionone (=epoxy-β-ionone)","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1-(2,3,6-trimethylphenyl)-3-buten-2-one","Carbonyls, ketones",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,acetic acid,Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,propanoic acid (=propionic acid),Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,butanoic acid (=butyric acid),Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methylbutanoic acid,Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-methylbutanoic acid (=isovaleric acid),Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-methyl-2-butenoic acid (=senecioic acid),Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,pentanoic acid (=valeric acid),Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,hexanoic acid (=caproic acid),Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,heptanoic acid (=enanthic acid),Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,octanoic acid (=caprylic acid),Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,nonanoic acid (=pelargonic acid),Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,decanoic acid (=capric acid),Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,undecanoic acid,Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,dodecanoic acid (=lauric acid),Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-geranic acid,Acids,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,2-ethanediol acetate propanoate (=1-acetoxy-2-propanoyloxy-ethane)",Esters,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-hydroxypropanal acetate (=2-acetoxypropanal),Esters,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,benzyl acetate,Esters,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,methyl hexadecanoate (=methyl palmitate),Esters,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,methyl 2-hydroxybenzoate (=methyl salicylate),Esters,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-hydroxy-4-methyl-5-hexenoic acid lactone (=lavender lactone),Lactones,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-hydroxyheptanoic acid lactone (=4-heptanolide, γ-heptalactone)",Lactones,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-hydroxyoctanoic acid lactone (=4-octanolide, γ-octalactone, 5-butyldihydro-2(3H)-furanone)",Lactones,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-hydroxydecanoic acid lactone (=4-decanolide, γ-decalactone)",Lactones,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,dihydroactinidiolide,Lactones,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-pyrrolecarbaldehyde (=2-formylpyrrole),Bases,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-methyl-2-pyrrolecarbaldehyde (=2-formyl-1-methylpyrrole),Bases,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,indole,Bases,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,methylpyrazine,Bases,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethylpyrazine,Bases,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,3-dimethylpyrazine",Bases,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,5-dimethylpyrazine",Bases,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6-dimethylpyrazine",Bases,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-ethyl-5-methylpyrazine,Bases,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,8-cineole (=eucalyptol)",Ethers,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,2-dichlorobenzene",Halogens,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"phenylacetonitrile (=benzyl cyanide, benzeneacetonitrile)",Nitriles and amides,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,phenol (=hydroxybenzene),Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methylphenol (=o-cresol),Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-methylphenol (=m-cresol),Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-methylphenol (=p-cresol),Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-ethylphenol,Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-ethylphenol,Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-vinylphenol,Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methoxyphenol (=guaiacol),Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-methoxy-4-methylphenol (=4-methylguaiacol, creosol)",Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-ethyl-2-methoxyphenol (=4-ethylguaiacol),Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methoxy-4-propylphenol (=4-propylguaiacol),Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"5-allyl-1,3-benzodioxole (=safrole)",Phenols,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"linalool oxide B (cis, 5-ring)",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"linalool oxide A (trans, 5-ring)",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-methyl-2,3-dihydrofuran",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,5-dimethyl-2,3-dihydrofuran",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-ethylfuran,Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-pentylfuran,Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,3-dihydro-2-methylbenzofuran",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3-furancarbaldehyde (=3-formylfuran, 3-furaldehyde)",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,5-methylfurfural,Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyldihydro-3(2H)-furanone,Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,4-dimethyl-5-pentyl-2(5H)-furanone (=dihydrobovolide)",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,4-dimethyl-5-pentylidene-2(5H)-furanone (=bovolide)",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-acetyl-5-methylfuran,Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1-(2-furyl)-1,2-propanedione",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"linalool oxide D (cis, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"linalool oxide C (trans, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,vitispirane,"(Ep)oxides, pyrans, coumarins",,
+,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,4-dioxane","(Ep)oxides, pyrans, coumarins",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,β-myrcene (=myrcene),Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,α-phellandrene,Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,γ-terpinene,Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,terpinolene,Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,limonene,Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,α-pinene,Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,β-pinene,Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,δ-cadinene,Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,methylbenzene (=toluene),Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethyl-methylbenzene (unkn.str.),Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-(1,3-butadienyl)-1,3,5-trimethylbenzene",Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,naphthalene,Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-vinylnaphthalene,Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,6,7-trimethylnaphthalene",Hydrocarbons,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-butoxyethanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-butanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyl-3-buten-2-ol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-pentanol (=amyl alcohol),Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(Z)-2-penten-1-ol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-penten-1-ol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-penten-3-ol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-hexanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-ethyl-1-hexanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-heptanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,6-methyl-2-heptanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-octanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-octen-3-ol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,7-dimethyl-1,5,7-octatrien-3-ol (=hotrienol)",Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-nonanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-decanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-undecanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-dodecanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-tridecanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-tetradecanol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,geraniol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,nerol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,linalool,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,nerolidol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E)-3,7,11,15-tetramethyl-2-hexadecen-1-ol (=phytol)",Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,benzyl alcohol (=benzenemethanol),Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,α-terpineol,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,cadinol-T,Alcohols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,butanal (=butyraldehyde),"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-butenal,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyl-2-butenal,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-pentenal,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyl-2-pentenal,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-2,4-hexadienal","Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,heptanal,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,Z)-2,4-heptadienal","Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-2,4-octadienal","Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-nonenal,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,Z)-2,6-nonadienal","Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,decanal (=capraldehyde),"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-decenal,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,undecanal,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-undecenal,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,dodecanal,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,geranial (=α-citral),"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,neral (=β-citral),"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,benzaldehyde,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,p-1-menthen-9-al,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,β-cyclocitral,"Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"safranal (=2,6,6-trimethyl-1,3-cyclohexadienecarbaldehyde)","Carbonyls, aldehydes",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-butanone (=ethyl methyl ketone),"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-buten-2-one,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-penten-3-one,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyl-3-pentanone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-methyl-3-penten-2-one (=mesityl oxide),"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-3-hexen-2-one,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-heptanone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,6-methyl-2-heptanone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E)-6-methyl-3,5-heptadien-2-one","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-octanone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,Z)-3,5-octadien-2-one","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-3,5-octadien-2-one","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-nonanone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-decanone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"6,10-dimethylundecanone (unkn.str.)","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"6,10-dimethyl-3,5,9-undecatrien-2-one (=ψ-ionone, pseudoionone)","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-dodecanone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-tridecanone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-tetradecanone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-pentadecanone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6,10-trimethylpentadecanone (unkn.str.)","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-cyclopentene-1,4-dione","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,2,6-trimethylcyclohexanone","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6,6-trimethyl-2-cyclohexen-1-one","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,3,5-trimethylcyclohexanone","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,5,5-trimethyl-3-cyclohexen-1-one","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-hydroxy-2,6,6-trimethylcyclohexanone","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6,6-trimethyl-2-cyclohexene-1,4-dione","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-phenyl-2-propanone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,α-ionone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-β-ionone,"Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"5,6-epoxy-β-ionone (=epoxy-β-ionone)","Carbonyls, ketones",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,acetic acid,Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,propanoic acid (=propionic acid),Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,butanoic acid (=butyric acid),Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methylbutanoic acid,Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-methylbutanoic acid (=isovaleric acid),Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-methyl-2-butenoic acid (=senecioic acid),Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,pentanoic acid (=valeric acid),Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,hexanoic acid (=caproic acid),Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,heptanoic acid (=enanthic acid),Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,octanoic acid (=caprylic acid),Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,nonanoic acid (=pelargonic acid),Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,decanoic acid (=capric acid),Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,undecanoic acid,Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,dodecanoic acid (=lauric acid),Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-geranic acid,Acids,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,methyl hexadecanoate (=methyl palmitate),Esters,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,methyl 2-hydroxybenzoate (=methyl salicylate),Esters,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-hydroxy-4-methyl-5-hexenoic acid lactone (=lavender lactone),Lactones,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-hydroxyoctanoic acid lactone (=4-octanolide, γ-octalactone, 5-butyldihydro-2(3H)-furanone)",Lactones,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-hydroxydecanoic acid lactone (=4-decanolide, γ-decalactone)",Lactones,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,dihydroactinidiolide,Lactones,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-pyrrolecarbaldehyde (=2-formylpyrrole),Bases,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,indole,Bases,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,methylpyrazine,Bases,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethylpyrazine,Bases,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,5-dimethylpyrazine",Bases,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6-dimethylpyrazine",Bases,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,8-cineole (=eucalyptol)",Ethers,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"phenylacetonitrile (=benzyl cyanide, benzeneacetonitrile)",Nitriles and amides,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,phenol (=hydroxybenzene),Phenols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methylphenol (=o-cresol),Phenols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-methylphenol (=m-cresol),Phenols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-methylphenol (=p-cresol),Phenols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-ethylphenol,Phenols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-vinylphenol,Phenols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methoxyphenol (=guaiacol),Phenols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-methoxy-4-methylphenol (=4-methylguaiacol, creosol)",Phenols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methoxy-4-propylphenol (=4-propylguaiacol),Phenols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"5-allyl-1,3-benzodioxole (=safrole)",Phenols,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"linalool oxide B (cis, 5-ring)",Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"linalool oxide A (trans, 5-ring)",Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-methyl-2,3-dihydrofuran",Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,5-dimethyl-2,3-dihydrofuran",Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-ethylfuran,Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-pentylfuran,Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,3-dihydro-2-methylbenzofuran",Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,5-methylfurfural,Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyldihydro-3(2H)-furanone,Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,4-dimethyl-5-pentyl-2(5H)-furanone (=dihydrobovolide)",Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,4-dimethyl-5-pentylidene-2(5H)-furanone (=bovolide)",Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-acetyl-5-methylfuran,Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1-(2-furyl)-1,2-propanedione",Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"linalool oxide C (trans, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+GREEN MATE,MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,4-dioxane","(Ep)oxides, pyrans, coumarins",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,limonene,Hydrocarbons,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,α-pinene,Hydrocarbons,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,β-pinene,Hydrocarbons,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethylbenzene (=α-methyltoluene),Hydrocarbons,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethyl-methylbenzene (unkn.str.),Hydrocarbons,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-isopropyl-4-methylbenzene (=p-cymene),Hydrocarbons,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-(1,3-butadienyl)-1,3,5-trimethylbenzene",Hydrocarbons,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,naphthalene,Hydrocarbons,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-vinylnaphthalene,Hydrocarbons,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,2-dimethylnaphthalene",Hydrocarbons,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,6,7-trimethylnaphthalene",Hydrocarbons,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-butoxyethanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-butanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-methyl-1-butanol (=isoamyl alcohol),Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyl-3-buten-2-ol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-pentanol (=amyl alcohol),Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,(Z)-2-penten-1-ol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-penten-1-ol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-penten-3-ol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-methyl-1-pentanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-hexanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,(Z)-3-hexen-1-ol (=leaf alcohol),Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-ethyl-1-hexanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-heptanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,6-methyl-2-heptanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-octanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-decanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-undecanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-dodecanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-tridecanol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,geraniol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,nerol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,linalool,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,nerolidol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E)-3,7,11,15-tetramethyl-2-hexadecen-1-ol (=phytol)",Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,benzyl alcohol (=benzenemethanol),Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-phenylethanol (=phenethyl alcohol),Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,α-terpineol,Alcohols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,propanal (=propionaldehyde),"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3-methylbutanal (=isopentanal, isovaleraldehyde)","Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyl-2-butenal,"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,pentanal (=valeraldehyde),"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-pentenal,"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyl-2-pentenal,"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,hexanal (=capronaldehyde),"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-hexenal (=leaf aldehyde),"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-2,4-hexadienal","Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,heptanal,"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,Z)-2,4-heptadienal","Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-2,4-heptadienal","Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,octanal (=caprylaldehyde),"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,nonanal (=pelargonaldehyde),"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-nonenal,"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,Z)-2,6-nonadienal","Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-decenal,"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-2,4-decadienal","Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-2-undecenal,"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,geranial (=α-citral),"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,neral (=β-citral),"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,benzaldehyde,"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,phenylacetaldehyde (=benzeneacetaldehyde),"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,p-1-menthen-9-al,"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,β-cyclocitral,"Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"safranal (=2,6,6-trimethyl-1,3-cyclohexadienecarbaldehyde)","Carbonyls, aldehydes",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-hydroxy-2-butanone (=acetoin),"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,3-butanedione (=diacetyl)","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-penten-3-one,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-methyl-3-penten-2-one (=mesityl oxide),"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,3-pentanedione (=acetylpropionyl)","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-3-hexen-2-one,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-heptanone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,6-methyl-2-heptanone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,6-methyl-5-hepten-2-one,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E)-6-methyl-3,5-heptadien-2-one","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(Z)-6-methyl-3,5-heptadien-2-one","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-octanone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-octanone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,Z)-3,5-octadien-2-one","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E,E)-3,5-octadien-2-one","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-nonanone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-decanone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-undecanone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"6,10-dimethyl-2-undecanone","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"(E)-6,10-dimethyl-5,9-undecadien-2-one (=geranylacetone)","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"6,10-dimethyl-3,5,9-undecatrien-2-one (=ψ-ionone, pseudoionone)","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-dodecanone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-tridecanone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6,10-trimethylpentadecanone (unkn.str.)","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-indanone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-cyclopentene-1,4-dione","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,2,6-trimethylcyclohexanone","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6,6-trimethyl-2-cyclohexen-1-one","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,3,5-trimethylcyclohexanone","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-hydroxy-2,6,6-trimethylcyclohexanone","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6,6-trimethyl-2-cyclohexene-1,4-dione","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,4-dihydroxyacetophenone","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-phenyl-2-propanone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,α-ionone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-β-ionone,"Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"5,6-epoxy-β-ionone (=epoxy-β-ionone)","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1-(2,3,6-trimethylphenyl)-3-buten-2-one","Carbonyls, ketones",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,acetic acid,Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,propanoic acid (=propionic acid),Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,butanoic acid (=butyric acid),Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methylbutanoic acid,Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-methyl-2-butenoic acid (=senecioic acid),Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,pentanoic acid (=valeric acid),Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,hexanoic acid (=caproic acid),Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,heptanoic acid (=enanthic acid),Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,octanoic acid (=caprylic acid),Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,nonanoic acid (=pelargonic acid),Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,decanoic acid (=capric acid),Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,undecanoic acid,Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,dodecanoic acid (=lauric acid),Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,(E)-geranic acid,Acids,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,2-ethanediol acetate propanoate (=1-acetoxy-2-propanoyloxy-ethane)",Esters,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-hydroxypropanal acetate (=2-acetoxypropanal),Esters,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,benzyl acetate,Esters,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,methyl 2-hydroxybenzoate (=methyl salicylate),Esters,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-hydroxy-4-methyl-5-hexenoic acid lactone (=lavender lactone),Lactones,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-hydroxyheptanoic acid lactone (=4-heptanolide, γ-heptalactone)",Lactones,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-hydroxyoctanoic acid lactone (=4-octanolide, γ-octalactone, 5-butyldihydro-2(3H)-furanone)",Lactones,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-hydroxynonanoic acid lactone (=4-nonanolide, γ-nonalactone)",Lactones,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-hydroxydecanoic acid lactone (=4-decanolide, γ-decalactone)",Lactones,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,dihydroactinidiolide,Lactones,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-pyrrolecarbaldehyde (=2-formylpyrrole),Bases,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,1-methyl-2-pyrrolecarbaldehyde (=2-formyl-1-methylpyrrole),Bases,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,methylpyrazine,Bases,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,ethylpyrazine,Bases,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,3-dimethylpyrazine",Bases,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,5-dimethylpyrazine",Bases,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,6-dimethylpyrazine",Bases,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-ethyl-5-methylpyrazine,Bases,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,8-cineole (=eucalyptol)",Ethers,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,2-dichlorobenzene",Halogens,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"phenylacetonitrile (=benzyl cyanide, benzeneacetonitrile)",Nitriles and amides,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,phenol (=hydroxybenzene),Phenols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methylphenol (=o-cresol),Phenols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-methylphenol (=m-cresol),Phenols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-methylphenol (=p-cresol),Phenols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,3-ethylphenol,Phenols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-ethylphenol,Phenols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methoxyphenol (=guaiacol),Phenols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,4-ethyl-2-methoxyphenol (=4-ethylguaiacol),Phenols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methoxy-4-propylphenol (=4-propylguaiacol),Phenols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,eugenol (=4-allyl-2-methoxyphenol),Phenols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,isoeugenol (=2-methoxy-4-(1-propenyl)-phenol),Phenols,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"linalool oxide B (cis, 5-ring)",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"linalool oxide A (trans, 5-ring)",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"4-methyl-2,3-dihydrofuran",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,5-dimethyl-2,3-dihydrofuran",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-pentylfuran,Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2,3-dihydro-2-methylbenzofuran",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"furfural (=2-formylfuran, 2-furancarbaldehyde, 2-furaldehyde)",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3-furancarbaldehyde (=3-formylfuran, 3-furaldehyde)",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,5-methylfurfural,Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-methyldihydro-3(2H)-furanone,Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,4-dimethyl-5-pentyl-2(5H)-furanone (=dihydrobovolide)",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"3,4-dimethyl-5-pentylidene-2(5H)-furanone (=bovolide)",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"2-acetylfuran (=2-furyl methyl ketone, 1-(2-furyl)ethanone)",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,2-acetyl-5-methylfuran,Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1-(2-furyl)-1,2-propanedione",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"furfuryl alcohol (=(2-furyl)-methanol, 2-furanmethanol)",Furans,,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"linalool oxide D (cis, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"linalool oxide C (trans, 6-ring)","(Ep)oxides, pyrans, coumarins",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,vitispirane,"(Ep)oxides, pyrans, coumarins",,
+MATE (roasted),MATE (Ilex paraguayensis),Coffee Tea Cocoa,"1,4-dioxane","(Ep)oxides, pyrans, coumarins",,
