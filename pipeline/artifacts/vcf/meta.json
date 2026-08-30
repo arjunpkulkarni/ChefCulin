@@ -1,0 +1,1911 @@
+{
+  "n_products": 573,
+  "n_needs_review": 0,
+  "class_counts": {
+    "culinary": 521,
+    "reference": 52
+  },
+  "n_source_files": 28,
+  "n_rows_kept": 67206,
+  "n_distinct_compounds": 7216,
+  "spine": {
+    "n_spine_entries": 357,
+    "n_products_total": 577,
+    "n_products_culinary": 525,
+    "n_products_reference": 52,
+    "n_multi_member_entries": 55,
+    "n_pure_reference_entries": 42,
+    "n_mixed_class_entries": 1,
+    "idf_corpus": "culinary",
+    "vocabulary_version": "vcf_spine_v2_plus_beef",
+    "vocabulary_hash": "7bb9bac59464c6b92a1b304eafba79d07213991eef2e6ffcdb28cc5b0d4006c0",
+    "frozen_at": "2026-08-30T14:13:11+00:00",
+    "vocabulary_version_pre_beef_ingestion": "vcf_spine_v1"
+  },
+  "compounds": {
+    "n_raw_compound_strings": 7216,
+    "n_matched": 5326,
+    "match_rate": 0.7381,
+    "match_method_counts": {
+      "unmatched": 1890,
+      "exact": 5053,
+      "greek_normalized": 212,
+      "stereo_stripped+greek_normalized": 12,
+      "stereo_stripped": 43,
+      "embedded_cas": 2,
+      "exact_ambiguous_name": 2,
+      "name_override": 2
+    },
+    "n_ambiguous_crosswalk_matches": 2,
+    "n_distinct_compound_ids_after_canonicalization": 7141,
+    "dedup_delta": 75,
+    "crosswalk_rows": 5879,
+    "n_known_bad_pubchem_cid_nulled": 236,
+    "known_bad_pubchem_cid_note": "16 confirmed-bad crosswalk groups (259 CAS numbers) had their pubchem_cid nulled, including 2 found via a live PubChem re-verification pass over 716 residual collisions and 4 more found by extending that same classifier signature beyond just those collisions (2026-08-29 audit) \u2014 see KNOWN_BAD_PUBCHEM_CID_CAS in this script for the full investigation and its explicit scope limits, including that the crosswalk's much larger unaudited remainder has not been hand-checked. compound_id (CAS-based) is unaffected."
+  },
+  "phase": {
+    "n_compounds_total": 7308,
+    "n_compounds_with_xlogp": 5193,
+    "xlogp_coverage": 0.7106,
+    "n_crosswalk_rows_null_xlogp_string": 143,
+    "overall_median_xlogp": 2.3,
+    "overall_quartiles_xlogp": [
+      1.2,
+      3.4
+    ],
+    "bucket_counts": {
+      "fat_leaning": 2108,
+      "fat_phase": 957,
+      "both_phases": 1861,
+      "water_phase": 267
+    },
+    "bucket_shares": {
+      "fat_leaning": 0.4059,
+      "fat_phase": 0.1843,
+      "both_phases": 0.3584,
+      "water_phase": 0.0514
+    },
+    "group_medians_xlogp": {
+      "Hydrocarbons": {
+        "n": 645,
+        "median_xlogp": 4.3
+      },
+      "Esters": {
+        "n": 987,
+        "median_xlogp": 2.7
+      },
+      "Phenols": {
+        "n": 203,
+        "median_xlogp": 2.6
+      },
+      "Halogens": {
+        "n": 89,
+        "median_xlogp": 2.4
+      },
+      "Acetals": {
+        "n": 54,
+        "median_xlogp": 2.35
+      },
+      "Alcohols": {
+        "n": 556,
+        "median_xlogp": 2.1
+      },
+      "Carbonyls, aldehydes": {
+        "n": 298,
+        "median_xlogp": 2.1
+      },
+      "Sulfur compounds": {
+        "n": 468,
+        "median_xlogp": 2.1
+      },
+      "Lactones": {
+        "n": 57,
+        "median_xlogp": 2.0
+      },
+      "Ethers": {
+        "n": 60,
+        "median_xlogp": 2.0
+      },
+      "Carbonyls, ketones": {
+        "n": 459,
+        "median_xlogp": 1.9
+      },
+      "Acids": {
+        "n": 337,
+        "median_xlogp": 1.8
+      },
+      "(Ep)oxides, pyrans, coumarins": {
+        "n": 171,
+        "median_xlogp": 1.8
+      },
+      "Oxazol(in)es": {
+        "n": 48,
+        "median_xlogp": 1.75
+      },
+      "Anhydrides and phthalides": {
+        "n": 26,
+        "median_xlogp": 1.55
+      },
+      "Bases": {
+        "n": 430,
+        "median_xlogp": 1.4
+      },
+      "Furans": {
+        "n": 214,
+        "median_xlogp": 1.4
+      },
+      "Nitriles and amides": {
+        "n": 90,
+        "median_xlogp": 1.15
+      }
+    },
+    "reliability_hydrocarbons_top_group": true,
+    "reliability_bases_furans_below_hydrocarbons_esters_phenols": true,
+    "bucket_cutpoints_note": "water_phase: xlogp<0; both_phases: 0<=xlogp<2; fat_leaning: 2<=xlogp<4; fat_phase: xlogp>=4. Half-open intervals so every value lands in exactly one bucket. Compounds with no xlogp (no CAS match, or a crosswalk '$null$' row) get phase_bucket=null, not defaulted into water_phase."
+  },
+  "profiles": {
+    "n_profiles_total": 577,
+    "n_profiles_vcf_source": 573,
+    "n_profiles_external_source_merged": 4,
+    "external_profile_sources_seen": [
+      "culinai_protein_v21"
+    ],
+    "include_protein_flag_passed": true,
+    "external_protein_files_present_but_skipped": [],
+    "n_profiles_culinary": 525,
+    "n_profiles_reference": 52,
+    "median_compounds_per_product": 75,
+    "mean_compounds_per_product": 119.1,
+    "products_with_ge_100_compounds": "206 of 525",
+    "distinct_compounds_culinary": 7043,
+    "compounds_in_exactly_one_product": 2502,
+    "compounds_in_ge_75pct_products": 0,
+    "most_ubiquitous_compound": {
+      "compound_id": "100-52-7",
+      "raw_compound": "benzaldehyde",
+      "n_products": 314,
+      "of_products": 525,
+      "fraction": 0.5981
+    },
+    "ubiquity_gate_threshold": 0.9,
+    "sample_comparison_182_products": {
+      "median": 87,
+      "mean": 123,
+      "ge_100_of_182": 80,
+      "distinct_compounds": 4733,
+      "exactly_one_product": 2476,
+      "most_ubiquitous": "1-hexanol, 108/182 (59%)",
+      "ge_75pct": 0
+    }
+  },
+  "pairs": {
+    "n_culinary_products_paired": 525,
+    "top_k_stored_per_product": 20,
+    "n_pair_rows": 10318,
+    "corpus_scope": "mixed_with_external_protein",
+    "corpus_scope_note": "Derived live from meta['profiles']['n_profiles_external_source_merged'] (4), not hardcoded. median_top1_score values in near_duplicate_suppression below are only comparable to another pairs.jsonl run with the SAME corpus_scope \u2014 a vcf_only run and a mixed_with_external_protein run measure different, non-comparable corpora even though the field name is identical.",
+    "coffee_validation": {
+      "hazelnut (roasted)": {
+        "raw_name": "FILBERT, HAZELNUT (roasted)",
+        "rank_in_top_20": 2
+      },
+      "peanut (roasted)": {
+        "raw_name": "PEANUT (roasted)",
+        "rank_in_top_20": 6
+      },
+      "cocoa liquor": {
+        "raw_name": "COCOA LIQUOR",
+        "rank_in_top_20": 5
+      },
+      "roasted cocoa beans": {
+        "raw_name": "ROASTED COCOA BEANS",
+        "rank_in_top_20": 7
+      },
+      "popcorn": {
+        "raw_name": "POPCORN",
+        "rank_in_top_20": 9
+      }
+    },
+    "hub_check_top5": [
+      {
+        "raw_name": "RICE BRAN",
+        "n_top10_appearances": 78,
+        "fraction": 0.1486
+      },
+      {
+        "raw_name": "XYLOPIA SPECIES",
+        "n_top10_appearances": 75,
+        "fraction": 0.1429
+      },
+      {
+        "raw_name": "RICE (Oryza sativa L.)",
+        "n_top10_appearances": 65,
+        "fraction": 0.1238
+      },
+      {
+        "raw_name": "ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",
+        "n_top10_appearances": 58,
+        "fraction": 0.1105
+      },
+      {
+        "raw_name": "SOYBEAN (heated)",
+        "n_top10_appearances": 54,
+        "fraction": 0.1029
+      }
+    ],
+    "hub_check_warn_threshold": 0.4,
+    "hub_check_exceeded_warn_threshold": false,
+    "sample_comparison_hub_check": "roasted hazelnut, 36/182 (20%)",
+    "near_duplicate_suppression": {
+      "overlap_threshold": 0.85,
+      "n_pairs_suppressed": 0,
+      "n_anchors_affected": 0,
+      "suppressed_reason_value": "near_duplicate_same_spine",
+      "median_top1_score_after_suppression": 0.2604,
+      "median_top1_score_raw_pre_suppression": 0.2604,
+      "n_anchors_with_high_overlap_top1": 59,
+      "sample_high_overlap_top1_pairs": [
+        "ANISE BRANDY/OUZO",
+        "OUZO/ANISE BRANDY",
+        "BLACK RASPBERRY (leaves)/BLACKBERRY (leaves)",
+        "BLACKBERRY (leaves)/BLACK RASPBERRY (leaves)",
+        "RASPBERRY (leaves)/BLACK RASPBERRY (leaves)",
+        "CHINESE CABBAGE/BRASSICA CAMPESTRIS",
+        "TURNIP/BRASSICA CAMPESTRIS",
+        "XYLOPIA PARVIFLORA (A. RICH) BENTH./XYLOPIA SPECIES"
+      ],
+      "finding": "n_pairs_suppressed=0, still. Condition 2 (same spine_id as anchor) can never be satisfied by anything in this file: the candidate-generation loop above already excludes same-spine_id pairs unconditionally ('if a[\"spine_id\"] == b[\"spine_id\"]: continue') before pairing scores are even computed, precisely so PEANUT (raw) never 'pairs' with PEANUT (roasted). Every pair that reaches this file, by construction, already has DIFFERENT spine_ids on the two sides \u2014 so a second condition that requires SAME spine_id is checking something that structurally cannot be true here. This is not a defect in the suppression code; Fix 3's second condition, AS SPECIFIED, remains a no-op against this corpus, for the same structural reason as before. What HAS changed: n_anchors_with_high_overlap_top1 (>=85% of the anchor's own compound set) is 59 as of this run \u2014 the real fix for this class of near-duplicate is spine-level clustering (Build 1, apply_spine_clusters.py), which removes a matched pair from candidate generation entirely rather than suppressing it after the fact, and has now been applied for the clusters spine_cluster_proposals.xlsx's human review approved. It is necessarily partial \u2014 100 candidate pairs (meta.spine_clustering.n_coverage_gap_pairs_pending_review) had no binomial/genus data on either side to confirm or reject and were left for human review rather than merged \u2014 so this count is not expected to be zero. Sample of what's still here: ANISE BRANDY/OUZO, OUZO/ANISE BRANDY, BLACK RASPBERRY (leaves)/BLACKBERRY (leaves), BLACKBERRY (leaves)/BLACK RASPBERRY (leaves), RASPBERRY (leaves)/BLACK RASPBERRY (leaves), CHINESE CABBAGE/BRASSICA CAMPESTRIS, TURNIP/BRASSICA CAMPESTRIS, XYLOPIA PARVIFLORA (A. RICH) BENTH./XYLOPIA SPECIES. median_top1_score_raw_pre_suppression reports the actual pre-suppression median honestly on every run rather than a frozen historical figure, since that figure moves as clustering coverage improves."
+    }
+  },
+  "spine_clustering": {
+    "source": "spine_cluster_candidates.py + human review (spine_cluster_proposals.xlsx)",
+    "n_clusters_approved": 35,
+    "n_clusters_rejected": 8,
+    "clusters_rejected": [
+      {
+        "cluster_id": "cluster_121",
+        "reason": "REJECT: Claude, deciding per James request: same species/cultivar-group (Brassica oleracea) but not culinarily substitutable \u2014 a chef querying broccoli should not get cauliflower back under any merge policy, category included. Note: cluster_83 (Brussels Sprouts/Cabbage, also both B. oleracea) has the identical structural issue and was NOT flagged separately \u2014 worth confirming with James whether it should also be reconsidered."
+      },
+      {
+        "cluster_id": "cluster_452",
+        "reason": "REJECT: James 2026-08-30: bundles a legitimate rice-variant relationship with RICE BRAN, a milling byproduct (different tissue, like wheat bran to wheat) \u2014 reject the whole cluster; RICE/PARBOILED RICE/SCENTED RICE would need reproposing without RICE BRAN once the algorithm can separate part-of from variant-of."
+      },
+      {
+        "cluster_id": "cluster_446",
+        "reason": "REJECT: James 2026-08-30 (citing his own 2026-08-28 ruling): raspberry, blackberry and boysenberry are three distinct species VCF grouped under one head, not a synonym pair \u2014 that decision already rejects this merge."
+      },
+      {
+        "cluster_id": "cluster_494",
+        "reason": "REJECT: James 2026-08-30: DEFATTED SOYBEAN is an industrial processing output (oil extraction), not a plant part or variant of soybean."
+      },
+      {
+        "cluster_id": "cluster_281",
+        "reason": "REJECT: James 2026-08-30: malting + roasting is a transformation, not a variant of raw barley."
+      },
+      {
+        "cluster_id": "cluster_83",
+        "reason": "REJECT: James 2026-08-30 (third pass): same Brassica oleracea cultivar-group structure as cluster_121 (Broccoli/Cauliflower), which he already rejected. The genus rule is botanically correct but culinarily wrong \u2014 a chef querying cabbage getting brussels sprouts back is a substitution error, not a granularity resolution. The 'category (high) rows are fine as generated' blanket approval was too broad for this specific case; checked kale/kohlrabi/collard for the same door \u2014 neither was proposed as a cluster at all, so this is isolated to cluster_83."
+      },
+      {
+        "cluster_id": "cluster_374",
+        "reason": "REJECT: James 2026-08-30: PEATED MALT is the one place in the corpus that records the peat/smoke resolution \u2014 merging destroys the distinction it exists to preserve."
+      },
+      {
+        "cluster_id": "cluster_504",
+        "reason": "REJECT: James 2026-08-30: whole-fruit vs cooked+sugar-added preparation, a recipe transformation, not a variant."
+      }
+    ],
+    "n_clusters_merged_new_spine_entries": 35,
+    "n_clusters_already_single_spine_entry": 0,
+    "n_spine_entries_before": 458,
+    "n_spine_entries_after": 355,
+    "policy_overrides_applied_to": {
+      "culin:wine": "category",
+      "culin:whisky": "category",
+      "culin:tea": "category",
+      "culin:lovage": "category",
+      "culin:black_currants": "category",
+      "culin:olive": "category",
+      "culin:caraway": "category",
+      "culin:coconut": "category",
+      "culin:mate": "category",
+      "culin:myrtle": "category",
+      "culin:pimento": "category",
+      "culin:pear": "category",
+      "culin:mace": "category",
+      "culin:parsley": "category"
+    },
+    "policy_override_reason": "Second review pass (2026-08-30): 15 clusters given an explicit policy_override in spine_cluster_proposals.xlsx rather than left to build_vcf_resolution_policy.py's mechanical rule \u2014 wine and whisky (no form/cure_state/binomial variation among merged members; the real distinction, style/region, lives only in free text in raw_name), plant-part clusters (lovage, caraway, myrtle, pimento, blackcurrant, parsley \u2014 different tissues, different profiles), and processing-state clusters (tea, olive, mate \u2014 green/black/roasted are not the same product to average over). James: these should show members or ask which, not be collapsed into a range. Recorded here as {spine_id: policy}; build_vcf_resolution_policy.py should read this block directly rather than keep its own second copy of the same mapping.",
+    "binomial_coverage": "261/521",
+    "binomial_coverage_note": "261/521 (50.1%) of VCF's culinary products carry a binomial field, computed live from vcf_product_parse.jsonl at apply time (not a frozen constant \u2014 see the module note on why that broke before). The clustering rule's genus half only has data to work with for that slice \u2014 the rest can only qualify via name containment. This is a floor set by data coverage, not a ceiling on how many real near-duplicates exist in the corpus.",
+    "clustering_pass": "partial",
+    "clustering_pass_note": "35 clusters approved (8 rejected) this pass; the coverage-gap counts below are read live from spine_cluster_proposals.xlsx, not a frozen constant. Split 2026-08-30 (James) into 'Needs Review' (a textual signal ties the untagged side to the tagged one) and 'No Signal (Info)' (pure compound-overlap coincidence, or neither side genus-confirmable at all) \u2014 see n_coverage_gap_pairs_pending_review for both counts separately; conflating them into one number is exactly the thing the split was meant to stop. Duplicate suppression downstream (pairs.jsonl) is incomplete by that known amount; anyone reading the rebaselined median top-1 score after this pass needs to know that, not just the after-number. Note also that this pass's baseline is VCF-only (521 products) \u2014 beef is temporarily excluded from compounds/profiles/pairs, so this number is not comparable to any prior baseline that included beef's 4 products.",
+    "n_coverage_gap_pairs_pending_review": {
+      "needs_review": null,
+      "no_signal_info": null,
+      "total": 147,
+      "pre_split_format": true
+    },
+    "clusters_merged": [
+      {
+        "cluster_id": "cluster_326",
+        "canonical_spine_id": "culin:leek",
+        "canonical_raw_name": "LEEK (heated) (Allium porrum L.)",
+        "merged_spine_ids": [
+          "culin:allium_species",
+          "culin:chive",
+          "culin:garlic",
+          "culin:nira",
+          "culin:nobiru",
+          "culin:onion",
+          "culin:shallot"
+        ],
+        "n_members_after_merge": 10
+      },
+      {
+        "cluster_id": "cluster_562",
+        "canonical_spine_id": "culin:bilberry",
+        "canonical_raw_name": "BILBERRY (Vaccinium myrtillus L.)",
+        "merged_spine_ids": [
+          "culin:bog_blueberry",
+          "culin:cranberry",
+          "culin:high_bush_blueberry",
+          "culin:lingonberry",
+          "culin:rabbiteye_blueberry",
+          "culin:vaccinium_species",
+          "culin:wild_blueberry"
+        ],
+        "n_members_after_merge": 10
+      },
+      {
+        "cluster_id": "cluster_565",
+        "canonical_spine_id": "culin:wine",
+        "canonical_raw_name": "WINE",
+        "merged_spine_ids": [
+          "culin:bilberry_wine",
+          "culin:botrytised_wine",
+          "culin:port_wine",
+          "culin:red_wine",
+          "culin:rose_wine",
+          "culin:sparkling_wine",
+          "culin:white_wine"
+        ],
+        "n_members_after_merge": 8
+      },
+      {
+        "cluster_id": "cluster_560",
+        "canonical_spine_id": "culin:whisky",
+        "canonical_raw_name": "WHISKY",
+        "merged_spine_ids": [
+          "culin:bourbon_whiskey",
+          "culin:canadian_whisky",
+          "culin:finnish_whisky",
+          "culin:irish_whiskey",
+          "culin:japanese_whisky",
+          "culin:malt_whisky",
+          "culin:scotch_blended_whisky"
+        ],
+        "n_members_after_merge": 8
+      },
+      {
+        "cluster_id": "cluster_230",
+        "canonical_spine_id": "culin:dill",
+        "canonical_raw_name": "DILL (Anethum species)",
+        "merged_spine_ids": [
+          "culin:dill_blossom",
+          "culin:dill_herb",
+          "culin:dill_root",
+          "culin:dill_seed",
+          "culin:indian_dill_herb",
+          "culin:indian_dill_seed"
+        ],
+        "n_members_after_merge": 7
+      },
+      {
+        "cluster_id": "cluster_287",
+        "canonical_spine_id": "culin:kuini",
+        "canonical_raw_name": "KUINI (Mangifera odorata Griff.)",
+        "merged_spine_ids": [
+          "culin:bachang",
+          "culin:bambangan",
+          "culin:binjai",
+          "culin:mangifera_species",
+          "culin:mango"
+        ],
+        "n_members_after_merge": 7
+      },
+      {
+        "cluster_id": "cluster_520",
+        "canonical_spine_id": "culin:tea",
+        "canonical_raw_name": "TEA",
+        "merged_spine_ids": [
+          "culin:black_tea",
+          "culin:green_tea",
+          "culin:microbial_fermented_tea",
+          "culin:partially_fermented_tea"
+        ],
+        "n_members_after_merge": 7
+      },
+      {
+        "cluster_id": "cluster_534",
+        "canonical_spine_id": "culin:turmeric",
+        "canonical_raw_name": "TURMERIC (Curcuma longa L.= C. domestica Val.)",
+        "merged_spine_ids": [
+          "culin:curcuma_aeruginosa_roxb",
+          "culin:curcuma_heyneana_val",
+          "culin:curcuma_species",
+          "culin:temoe_lawak"
+        ],
+        "n_members_after_merge": 6
+      },
+      {
+        "cluster_id": "cluster_470",
+        "canonical_spine_id": "culin:summer_savory",
+        "canonical_raw_name": "SUMMER SAVORY (Satureja hortensis L.)",
+        "merged_spine_ids": [
+          "culin:satureja_species",
+          "culin:satureja_thymbra_l",
+          "culin:winter_savory"
+        ],
+        "n_members_after_merge": 4
+      },
+      {
+        "cluster_id": "cluster_542",
+        "canonical_spine_id": "culin:plum",
+        "canonical_raw_name": "PLUM (Prunus species)",
+        "merged_spine_ids": [
+          "culin:japanese_plum",
+          "culin:plumcot",
+          "culin:prunus_mume_sieb_et_zucc",
+          "culin:umezuke_and_umeboshi"
+        ],
+        "n_members_after_merge": 7
+      },
+      {
+        "cluster_id": "cluster_129",
+        "canonical_spine_id": "culin:chekur",
+        "canonical_raw_name": "CHEKUR (Alpinia sessilis = Kaempferia galanga)",
+        "merged_spine_ids": [
+          "culin:alpinia_species",
+          "culin:greater_galanga",
+          "culin:smaller_galanga"
+        ],
+        "n_members_after_merge": 4
+      },
+      {
+        "cluster_id": "cluster_516",
+        "canonical_spine_id": "culin:vanilla",
+        "canonical_raw_name": "VANILLA",
+        "merged_spine_ids": [
+          "culin:bourbon_vanilla",
+          "culin:tahiti_vanilla"
+        ],
+        "n_members_after_merge": 3
+      },
+      {
+        "cluster_id": "cluster_234",
+        "canonical_spine_id": "culin:chestnut",
+        "canonical_raw_name": "CHESTNUT (Castanea species)",
+        "merged_spine_ids": [
+          "culin:chinese_chestnut",
+          "culin:italian_chestnut"
+        ],
+        "n_members_after_merge": 7
+      },
+      {
+        "cluster_id": "cluster_496",
+        "canonical_spine_id": "culin:sage",
+        "canonical_raw_name": "SAGE (Salvia officinalis L.)",
+        "merged_spine_ids": [
+          "culin:clary_sage",
+          "culin:salvia_species",
+          "culin:spanish_sage"
+        ],
+        "n_members_after_merge": 4
+      },
+      {
+        "cluster_id": "cluster_572",
+        "canonical_spine_id": "culin:honey",
+        "canonical_raw_name": "HONEY",
+        "merged_spine_ids": [
+          "culin:dandelion_honey",
+          "culin:longan_honey",
+          "culin:yellow_box_honey"
+        ],
+        "n_members_after_merge": 4
+      },
+      {
+        "cluster_id": "cluster_347",
+        "canonical_spine_id": "culin:grape",
+        "canonical_raw_name": "GRAPE (Vitis species)",
+        "merged_spine_ids": [
+          "culin:other_vitis_species",
+          "culin:vitis_labrusca_l",
+          "culin:vitis_vinifera_l"
+        ],
+        "n_members_after_merge": 4
+      },
+      {
+        "cluster_id": "cluster_550",
+        "canonical_spine_id": "culin:walnut",
+        "canonical_raw_name": "WALNUT (Juglans species)",
+        "merged_spine_ids": [
+          "culin:green_walnut_husk",
+          "culin:walnut_kernel"
+        ],
+        "n_members_after_merge": 4
+      },
+      {
+        "cluster_id": "cluster_273",
+        "canonical_spine_id": "culin:lovage",
+        "canonical_raw_name": "LOVAGE (Levisticum officinale Koch)",
+        "merged_spine_ids": [
+          "culin:lovage_leaf",
+          "culin:lovage_root",
+          "culin:lovage_seed"
+        ],
+        "n_members_after_merge": 4
+      },
+      {
+        "cluster_id": "cluster_526",
+        "canonical_spine_id": "culin:thyme",
+        "canonical_raw_name": "THYME (Thymus species)",
+        "merged_spine_ids": [
+          "culin:thymus",
+          "culin:thymus_vulgaris_l",
+          "culin:thymus_zygis_l"
+        ],
+        "n_members_after_merge": 4
+      },
+      {
+        "cluster_id": "cluster_510",
+        "canonical_spine_id": "culin:fennel",
+        "canonical_raw_name": "FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",
+        "merged_spine_ids": [
+          "culin:bitter_fennel",
+          "culin:sweet_fennel"
+        ],
+        "n_members_after_merge": 3
+      },
+      {
+        "cluster_id": "cluster_62",
+        "canonical_spine_id": "culin:black_currants",
+        "canonical_raw_name": "BLACK CURRANTS (Ribes nigrum L.)",
+        "merged_spine_ids": [
+          "culin:black_currants_berries",
+          "culin:black_currants_buds"
+        ],
+        "n_members_after_merge": 3
+      },
+      {
+        "cluster_id": "cluster_342",
+        "canonical_spine_id": "culin:olive",
+        "canonical_raw_name": "OLIVE (Olea europaea)",
+        "merged_spine_ids": [
+          "culin:black_olive",
+          "culin:green_olive"
+        ],
+        "n_members_after_merge": 4
+      },
+      {
+        "cluster_id": "cluster_104",
+        "canonical_spine_id": "culin:caraway",
+        "canonical_raw_name": "CARAWAY (Carum carvi L.)",
+        "merged_spine_ids": [
+          "culin:caraway_herb",
+          "culin:caraway_seed"
+        ],
+        "n_members_after_merge": 3
+      },
+      {
+        "cluster_id": "cluster_124",
+        "canonical_spine_id": "culin:celery",
+        "canonical_raw_name": "CELERY (Apium graveolens L.)",
+        "merged_spine_ids": [
+          "culin:celery_leaves_and_or_stalks",
+          "culin:celery_root"
+        ],
+        "n_members_after_merge": 3
+      },
+      {
+        "cluster_id": "cluster_508",
+        "canonical_spine_id": "culin:cherry",
+        "canonical_raw_name": "CHERRY",
+        "merged_spine_ids": [
+          "culin:sour_cherry",
+          "culin:sweet_cherry"
+        ],
+        "n_members_after_merge": 3
+      },
+      {
+        "cluster_id": "cluster_155",
+        "canonical_spine_id": "culin:coconut",
+        "canonical_raw_name": "COCONUT (Cocos nucifera L.)",
+        "merged_spine_ids": [
+          "culin:coconut_meat",
+          "culin:coconut_milk"
+        ],
+        "n_members_after_merge": 5
+      },
+      {
+        "cluster_id": "cluster_299",
+        "canonical_spine_id": "culin:mate",
+        "canonical_raw_name": "MATE (Ilex paraguayensis)",
+        "merged_spine_ids": [
+          "culin:green_mate"
+        ],
+        "n_members_after_merge": 3
+      },
+      {
+        "cluster_id": "cluster_322",
+        "canonical_spine_id": "culin:myrtle",
+        "canonical_raw_name": "MYRTLE (Myrtus communis L.)",
+        "merged_spine_ids": [
+          "culin:myrtle_berry",
+          "culin:myrtle_leaf"
+        ],
+        "n_members_after_merge": 3
+      },
+      {
+        "cluster_id": "cluster_384",
+        "canonical_spine_id": "culin:pimento",
+        "canonical_raw_name": "PIMENTO (ALLSPICE) (Pimenta dioica L. Merr.)",
+        "merged_spine_ids": [
+          "culin:pimento_berry",
+          "culin:pimento_leaf"
+        ],
+        "n_members_after_merge": 3
+      },
+      {
+        "cluster_id": "cluster_14",
+        "canonical_spine_id": "culin:anise_hyssop",
+        "canonical_raw_name": "ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze)",
+        "merged_spine_ids": [
+          "culin:agastache_species"
+        ],
+        "n_members_after_merge": 2
+      },
+      {
+        "cluster_id": "cluster_380",
+        "canonical_spine_id": "culin:pepper",
+        "canonical_raw_name": "PEPPER (Piper nigrum L.)",
+        "merged_spine_ids": [
+          "culin:ashanti_pepper"
+        ],
+        "n_members_after_merge": 2
+      },
+      {
+        "cluster_id": "cluster_370",
+        "canonical_spine_id": "culin:pear",
+        "canonical_raw_name": "PEAR (Pyrus communis L.)",
+        "merged_spine_ids": [
+          "culin:bartlett_pear"
+        ],
+        "n_members_after_merge": 3
+      },
+      {
+        "cluster_id": "cluster_329",
+        "canonical_spine_id": "culin:mace",
+        "canonical_raw_name": "MACE (Myristica fragrans Houttuyn)",
+        "merged_spine_ids": [
+          "culin:nutmeg"
+        ],
+        "n_members_after_merge": 2
+      },
+      {
+        "cluster_id": "cluster_522",
+        "canonical_spine_id": "culin:mezcal",
+        "canonical_raw_name": "MEZCAL (Agave salmiana)",
+        "merged_spine_ids": [
+          "culin:tequila"
+        ],
+        "n_members_after_merge": 2
+      },
+      {
+        "cluster_id": "cluster_353",
+        "canonical_spine_id": "culin:parsley",
+        "canonical_raw_name": "PARSLEY (Petroselium species)",
+        "merged_spine_ids": [
+          "culin:parsley_leaves"
+        ],
+        "n_members_after_merge": 2
+      }
+    ],
+    "clusters_already_single_spine_entry": []
+  },
+  "resolution_policy": {
+    "policy_counts": {
+      "single": 244,
+      "null": 42,
+      "category": 42,
+      "expand": 29
+    },
+    "rule": "category if form varies (>=2 distinct non-null), or cure_state includes both cured and uncured, or binomial varies (>=2 distinct non-null); else expand if >=2 culinary members; else single (1) or null (0, not applicable).",
+    "spec_named_examples": {
+      "culin:apple": {
+        "policy": "category",
+        "default_member_raw_name": "APPLE FRESH (generic)"
+      },
+      "culin:pork": {
+        "policy": "category",
+        "default_member_raw_name": "PORK"
+      },
+      "culin:tomato": {
+        "policy": "category",
+        "default_member_raw_name": "TOMATO (Lycopersicon esculentum Mill.)"
+      }
+    },
+    "n_low_confidence_expand": 3,
+    "low_confidence_expand_entries": [
+      {
+        "spine_id": "culin:calamus",
+        "members": [
+          "CALAMUS (ASIAN ORIGIN)",
+          "CALAMUS (EUROPEAN ORIGIN)",
+          "CALAMUS (NORTH AMERICAN ORIGIN)",
+          "CALAMUS (sweet flag) (Acorus calamus L.)"
+        ]
+      },
+      {
+        "spine_id": "culin:raspberry",
+        "members": [
+          "RASPBERRY (Rubus idaeus L.)",
+          "RASPBERRY (leaves)",
+          "RASPBERRY, BLACKBERRY and BOYSENBERRY"
+        ]
+      },
+      {
+        "spine_id": "culin:rum",
+        "members": [
+          "RUM",
+          "RUM Category I (total volatiles > 3600 ppm)",
+          "RUM Category II (total volatiles 1100-3600 ppm)",
+          "RUM Category III (total volatiles 240-1100 ppm)"
+        ]
+      }
+    ],
+    "low_confidence_note": "These spine entries have >=2 culinary members classified 'expand' where NOT ONE of preparation/cure_state/state/form/cultivar/binomial varies across the members \u2014 the only difference is free text in raw_name (geographic origin, a lab concentration band, a plant part, a named multi-species blend) that Step 2's parser doesn't capture as a structured field. Flagged rather than silently trusted; a human call, same as Step 2's own reviewable-tail precedent.",
+    "balance_lens_note": "Policy values are stored per spec so a future Balance-lens VCF integration (heat axis, volatile-pungency side only) can consult them. No Balance-lens code path reads them yet \u2014 that wiring is separate work, not part of this build.",
+    "policy_overrides_applied": [
+      {
+        "spine_id": "culin:black_currants",
+        "rule_output": "expand/low",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:caraway",
+        "rule_output": "expand/low",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:coconut",
+        "rule_output": "category/high",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:lovage",
+        "rule_output": "expand/low",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:mace",
+        "rule_output": "expand/low",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:mate",
+        "rule_output": "expand/high",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:myrtle",
+        "rule_output": "expand/low",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:olive",
+        "rule_output": "category/high",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:parsley",
+        "rule_output": "expand/low",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:pear",
+        "rule_output": "expand/high",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:pimento",
+        "rule_output": "expand/low",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:tea",
+        "rule_output": "expand/high",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:whisky",
+        "rule_output": "expand/low",
+        "override": "category"
+      },
+      {
+        "spine_id": "culin:wine",
+        "rule_output": "expand/low",
+        "override": "category"
+      }
+    ],
+    "policy_overrides_note": "A human override of this rule's mechanical output \u2014 see POLICY_OVERRIDES in this script for why. 'rule_output' is what classify() computed before the override; 'override' is what was actually written. confidence='override' distinguishes this from the rule's own high/low so a reader never mistakes a deliberate call for the mechanical result."
+  },
+  "compound_roles": {
+    "n_role_rows": 811,
+    "n_distinct_compounds_with_a_role": 811,
+    "coverage": {
+      "smoke_marker": {
+        "n_tagged": 29,
+        "n_curated_target": 36,
+        "gap_note": "Reviewer's spec named 28 compounds explicitly plus 'the remaining alkyl-guaiacol and alkyl-syringol variants' for a total of 36. Only one additional unambiguous alkylguaiacol variant (CAS 80652-16-0) was found by inspecting every Phenols-group compound matching 'methoxyphenol' in this corpus \u2014 giving 29, not 36. Candidates considered and rejected (eugenol-family allyl/propenyl methoxyphenols, likely synthetic antioxidants) are recorded in this script's docstring rather than tagged to hit the target count."
+      },
+      "maillard_marker": {
+        "n_tagged": 575,
+        "by_compound_group": {
+          "Bases": 352,
+          "Furans": 50,
+          "Halogens": 4,
+          "Sulfur compounds": 169
+        },
+        "note": "Name-pattern based, no CAS-curated list from the review for this role. furanone restricted to compound_group == 'Furans' to exclude gamma-lactones whose IUPAC alias happens to contain the word 'furanone' (they are Lactones, not Furans, in this corpus's own classification) \u2014 not every 'furanone' match is a Maillard product, matching the review's own caution about 'Bases' not being blanket-taggable."
+      },
+      "lipid_oxidation_marker": {
+        "n_tagged": 71,
+        "note": "3 explicitly-named compounds (hexanal, (E)-2-nonenal, (E,E)-2,4-decadienal) plus every OTHER unsubstituted C6-C10 alkenal/alkadienal isomer in Carbonyls,aldehydes. Excludes chain lengths past C10 (dodecenal, tetradecenal, hexadecenal...), branched/aryl/furyl-substituted variants (2-phenyl-2-hexenal, terpenoid citral/citronellal, furyl-hexenals), and epoxide derivatives \u2014 none of these are the classic straight-chain lipid-autoxidation series this role is meant to capture."
+      },
+      "lipid_degradation_fragment": {
+        "n_tagged": 18,
+        "note": "MR-15 guard (Beef Ingestion Build Spec Step 3): every straight-chain alkane in the corpus, regardless of source family. Currently inert as a terpene-collision fix on this corpus (checked: none of these MWs land in TERPENE_MONO_MW/TERPENE_SESQUI_MW) \u2014 exists as a hard exclusion for future protein families."
+      },
+      "terpene_mono": {
+        "n_tagged": 50
+      },
+      "terpene_sesqui": {
+        "n_tagged": 68
+      },
+      "terpene_split_note": "866 Hydrocarbons-group compounds total (657 with a molecular_weight). Split by EXACT molecular weight (tolerance 0.005), not a rounded band \u2014 see module docstring for the contamination found at rounded MW 134/138/202 (real terpenes mixed with tetramethylbenzenes, 1-decyne, decalin, and \u2014 caught and excluded \u2014 fluoranthene and pyrene, both PAHs, at rounded MW 202). 118 of 866 (13.6%) classified; the rest (plain alkanes/alkenes, aromatic hydrocarbons, diterpenes, and the genuinely ambiguous MW 134/138 bands) are left unclassified rather than guessed."
+    }
+  },
+  "volatility": {
+    "n_distinct_pubchem_cids_in_corpus": 4664,
+    "n_distinct_cids_with_boiling_point": 1684,
+    "coverage_fraction": 0.3611,
+    "coverage_suppress_threshold": 0.5,
+    "volatility_claims_suppressed": true,
+    "tertile_cutpoints_c": [
+      139.5,
+      206.5
+    ],
+    "bucket_counts": {},
+    "fetch_source_note": "Boiling points came from a live PubChem PUG View fetch run through the linked Mac's browser pane (this environment's own network egress cannot reach pubchem.ncbi.nlm.nih.gov directly \u2014 confirmed proxy-blocked from both the cloud container and the Mac's shell). PUG View does not offer a batch endpoint for this property, and was intermittently returning 503 under sustained load during this build, capping how much of the corpus could be fetched in the time available \u2014 see n_distinct_cids_with_boiling_point vs n_distinct_pubchem_cids_in_corpus for exactly how much."
+  },
+  "quantities": {
+    "n_rows": 67206,
+    "n_with_lower_bound": 26900,
+    "n_with_upper_bound": 26900,
+    "n_with_either_bound": 26900,
+    "fraction_with_either_bound": 0.4003,
+    "sample_comparison_fraction_with_bound": 0.44,
+    "bound_literal_kind_counts": {
+      "censored": 4717,
+      "missing": 80612,
+      "numeric": 44386,
+      "trace": 4661,
+      "present": 36
+    },
+    "n_known_csv_artifacts_corrected": 1,
+    "known_csv_artifacts_note": "1 row (DATE x carvone, 28000_29000.csv line 107) has an unquoted comma in its Compound Group value, shifting a 'Carbonyls, ketones' fragment into Quantity Lower Bound as literal 'ketones\"'. Treated as missing, not a real value \u2014 see KNOWN_CSV_ARTIFACT_VALUES.",
+    "scored_on": false,
+    "note": "v1 per spec: presence/absence only. These fields are stored for future use and are not read by build_vcf_profiles.py (IDF) or build_vcf_pairs.py (pairing score) \u2014 mixing quantity-weighted and unweighted scores would rank on two silently different scales."
+  },
+  "form_diffs": {
+    "n_aging_delta_rows_appended": 7,
+    "aging_delta_note": "A quantitative value_a/value_b delta (dry-aged vs wet-aged, day 28), not a gained/lost set diff \u2014 kept as its own diff_type so a reader never confuses the two shapes. See ingest_protein_beef.py.",
+    "n_spine_entries_total": 357,
+    "n_spine_zero_culinary_members": 42,
+    "n_spine_single_state_culinary": 244,
+    "n_spine_multi_state_culinary": 71,
+    "form_lens_size_note": "71 base ingredients have more than one culinary form \u2014 that is the real size of the Form lens from the full pull.",
+    "sample_comparison_182_products": {
+      "multi_state_of_total_base_names": "24 of 132",
+      "note": "4 of the sample's top 6 by member count were essential oils."
+    },
+    "n_diff_pairs_unordered": 562,
+    "n_diff_rows_written": 1131,
+    "df_floor": 3,
+    "single_state_spine_ids_sample": [
+      "culin:acerola",
+      "culin:agaricus_varieties",
+      "culin:alga",
+      "culin:almond",
+      "culin:angelica",
+      "culin:anise",
+      "culin:anise_brandy",
+      "culin:annatto",
+      "culin:apple_brandy",
+      "culin:apricot",
+      "culin:arctic_bramble",
+      "culin:arrack",
+      "culin:artichoke",
+      "culin:artocarpus_species",
+      "culin:assa_peixe_honey",
+      "culin:avocado",
+      "culin:babaco_fruit",
+      "culin:bacuri",
+      "culin:bael",
+      "culin:banana"
+    ],
+    "n_single_state_spine_ids_total": 244,
+    "validation_peanut_raw_to_roasted": {
+      "from": "PEANUT (raw)",
+      "to": "PEANUT (roasted)",
+      "lost_total_unfiltered": 15,
+      "lost_after_df_floor": [
+        {
+          "raw_compound": "3-hydroxy-4-methoxycinnamic acid (=isoferulic acid)",
+          "df_culinary": 8
+        },
+        {
+          "raw_compound": "2-hydroxycinnamic acid (=o-coumaric acid)",
+          "df_culinary": 8
+        },
+        {
+          "raw_compound": "4-hydroxy-3,5-dimethoxycinnamic acid (=sinapic acid)",
+          "df_culinary": 14
+        },
+        {
+          "raw_compound": "2,5-dihydroxybenzoic acid (=gentisic acid)",
+          "df_culinary": 15
+        },
+        {
+          "raw_compound": "methyl formate",
+          "df_culinary": 18
+        },
+        {
+          "raw_compound": "3,4-dihydroxycinnamic acid (=caffeic acid)",
+          "df_culinary": 26
+        },
+        {
+          "raw_compound": "4-hydroxybenzoic acid",
+          "df_culinary": 28
+        },
+        {
+          "raw_compound": "4-hydroxy-3,5-dimethoxybenzoic acid (=syringic acid)",
+          "df_culinary": 29
+        },
+        {
+          "raw_compound": "3,4-dihydroxybenzoic acid (=protocatechuic acid)",
+          "df_culinary": 30
+        },
+        {
+          "raw_compound": "2-hydroxybenzoic acid (=salicylic acid)",
+          "df_culinary": 31
+        },
+        {
+          "raw_compound": "4-hydroxycinnamic acid (=p-coumaric acid)",
+          "df_culinary": 34
+        },
+        {
+          "raw_compound": "2-isopropyl-3-methoxypyrazine",
+          "df_culinary": 35
+        },
+        {
+          "raw_compound": "4-hydroxy-3-methoxycinnamic acid (=ferulic acid)",
+          "df_culinary": 37
+        },
+        {
+          "raw_compound": "4-hydroxy-3-methoxybenzoic acid (=vanillic acid)",
+          "df_culinary": 42
+        },
+        {
+          "raw_compound": "octane",
+          "df_culinary": 90
+        }
+      ]
+    },
+    "note": "Spine entries with 0 or 1 culinary members are deliberately absent from form_diffs.jsonl \u2014 a lens must report 'only one known form' for those rather than fabricate a comparison. This block is how a caller tells that case apart from 'not in the corpus at all' (0 culinary members) without guessing from absence."
+  },
+  "profile_roles": {
+    "roles": [
+      "lipid_degradation_fragment",
+      "lipid_oxidation_marker",
+      "maillard_marker",
+      "smoke_marker",
+      "terpene_mono",
+      "terpene_sesqui"
+    ],
+    "n_culinary_products": 525,
+    "n_culinary_products_with_role_present": {
+      "lipid_degradation_fragment": 236,
+      "lipid_oxidation_marker": 335,
+      "maillard_marker": 272,
+      "smoke_marker": 193,
+      "terpene_mono": 329,
+      "terpene_sesqui": 217
+    },
+    "share_definition": "role_count / len(profile.compound_ids) \u2014 the WHOLE profile, unrestricted"
+  },
+  "competition": {
+    "n_pairs_scanned": 8123,
+    "n_candidates_same_bucket_excl_both_phases": 2664,
+    "n_competition_rows": 1444,
+    "n_competition_rows_previous_revision_flat_floor": 297,
+    "percentile_gate": 75,
+    "tightening": {
+      "dropped_both_phases": 2818,
+      "dropped_below_percentile_gate": 1152,
+      "dropped_terpene_subtype_neither_clears": 64,
+      "dropped_terpene_subtype_mono_vs_sesqui": 4,
+      "dropped_suppressed_near_duplicate": 0,
+      "note": "both_phases dropped entirely. Every remaining candidate (same bucket, fat_phase or fat_leaning) must clear its OWN group's 75th percentile share on BOTH sides. REVISION 4: Hydrocarbons-vs-Hydrocarbons rows additionally must clear a terpene_mono/terpene_sesqui role-share gate on BOTH sides for the SAME role \u2014 see terpene_subtype_counts below."
+    },
+    "conflict_type_counts": {
+      "same_group_crowding": 715,
+      "cross_group_carrier": 729
+    },
+    "conflict_subtype_counts": {
+      "mono_crowding": 370,
+      "sesqui_crowding": 35
+    },
+    "terpene_subtype_gate": {
+      "role_percentiles": {
+        "terpene_mono": {
+          "n_products": 329,
+          "median_share": 0.0426,
+          "p75_share": 0.1429,
+          "p90_share": 0.2401
+        },
+        "terpene_sesqui": {
+          "n_products": 217,
+          "median_share": 0.0426,
+          "p75_share": 0.1091,
+          "p90_share": 0.1764
+        }
+      },
+      "n_hydrocarbons_vs_hydrocarbons_rows_before_gate": 473,
+      "n_kept_mono_crowding": 370,
+      "n_kept_sesqui_crowding": 35,
+      "n_dropped_neither_clears_role_gate": 64,
+      "n_dropped_mono_vs_sesqui": 4,
+      "sanity_target_from_spec": {
+        "mono_crowding": 370,
+        "sesqui_crowding": 23,
+        "dropped_neither": 63,
+        "dropped_mono_vs_sesqui": 3,
+        "note": "James's own hand-computed sanity check, explicitly offered as a target to verify against rather than assume. The actual rebuild's 'dropped_neither' count matches this exactly under every tie-break rule tried; the mono_crowding/sesqui_crowding/mono_vs_sesqui split differs \u2014 see classify_hydrocarbons_terpene_subtype's docstring for why (~122 of 459 rows clear BOTH roles' gates on BOTH sides simultaneously, a case the sanity table doesn't appear to have accounted for). Reported as a finding about the corpus, not forced to match."
+      }
+    },
+    "render_mode_counts": {
+      "data_only": 1245,
+      "framed": 199
+    },
+    "n_rows_with_authored_frame": 199,
+    "n_rows_without_authored_frame": 1245,
+    "bucket_conflict_counts": {
+      "fat_leaning": 1409,
+      "fat_phase": 35
+    },
+    "group_percentiles": {
+      "Hydrocarbons": {
+        "n_products": 426,
+        "median_share": 0.1802,
+        "p75_share": 0.3306,
+        "p90_share": 0.5
+      },
+      "Alcohols": {
+        "n_products": 490,
+        "median_share": 0.1684,
+        "p75_share": 0.2315,
+        "p90_share": 0.3014
+      },
+      "Carbonyls, aldehydes": {
+        "n_products": 455,
+        "median_share": 0.1062,
+        "p75_share": 0.16,
+        "p90_share": 0.2275
+      },
+      "Acids": {
+        "n_products": 339,
+        "median_share": 0.0882,
+        "p75_share": 0.1497,
+        "p90_share": 0.2388
+      },
+      "Esters": {
+        "n_products": 406,
+        "median_share": 0.1303,
+        "p75_share": 0.2642,
+        "p90_share": 0.3933
+      },
+      "Carbonyls, ketones": {
+        "n_products": 459,
+        "median_share": 0.0847,
+        "p75_share": 0.1223,
+        "p90_share": 0.1577
+      },
+      "Bases": {
+        "n_products": 267,
+        "median_share": 0.0667,
+        "p75_share": 0.1784,
+        "p90_share": 0.3158
+      },
+      "Phenols": {
+        "n_products": 338,
+        "median_share": 0.0447,
+        "p75_share": 0.0747,
+        "p90_share": 0.1257
+      },
+      "Furans": {
+        "n_products": 370,
+        "median_share": 0.0407,
+        "p75_share": 0.0656,
+        "p90_share": 0.0988
+      },
+      "Lactones": {
+        "n_products": 123,
+        "median_share": 0.0085,
+        "p75_share": 0.0159,
+        "p90_share": 0.0355
+      },
+      "Ethers": {
+        "n_products": 197,
+        "median_share": 0.0118,
+        "p75_share": 0.0217,
+        "p90_share": 0.0327
+      },
+      "(Ep)oxides, pyrans, coumarins": {
+        "n_products": 238,
+        "median_share": 0.0207,
+        "p75_share": 0.0316,
+        "p90_share": 0.05
+      },
+      "Sulfur compounds": {
+        "n_products": 267,
+        "median_share": 0.036,
+        "p75_share": 0.0991,
+        "p90_share": 0.2175
+      },
+      "Halogens": {
+        "n_products": 88,
+        "median_share": 0.0134,
+        "p75_share": 0.0304,
+        "p90_share": 0.055
+      },
+      "Nitriles and amides": {
+        "n_products": 116,
+        "median_share": 0.0138,
+        "p75_share": 0.0317,
+        "p90_share": 0.0639
+      },
+      "Acetals": {
+        "n_products": 99,
+        "median_share": 0.0135,
+        "p75_share": 0.0284,
+        "p90_share": 0.0521
+      },
+      "Oxazol(in)es": {
+        "n_products": 28,
+        "median_share": 0.0113,
+        "p75_share": 0.0226,
+        "p90_share": 0.033
+      },
+      "Anhydrides and phthalides": {
+        "n_products": 40,
+        "median_share": 0.0094,
+        "p75_share": 0.0671,
+        "p90_share": 0.1535
+      }
+    },
+    "group_percentiles_note": "For every culinary product where a compound_group is present at all (share > 0 of that product's valid compounds), its share of the whole profile is one sample. NOT restricted to 'group is dominant'.",
+    "top_group_pairs": {
+      "Hydrocarbons vs Hydrocarbons (mono_crowding)": 370,
+      "Alcohols vs Hydrocarbons": 318,
+      "Esters vs Esters": 154,
+      "Alcohols vs Alcohols": 108,
+      "Esters vs Hydrocarbons": 68,
+      "Carbonyls, aldehydes vs Hydrocarbons": 62,
+      "Alcohols vs Esters": 59,
+      "Hydrocarbons vs Phenols": 43,
+      "Hydrocarbons vs Hydrocarbons (sesqui_crowding)": 35,
+      "Alcohols vs Carbonyls, aldehydes": 31
+    },
+    "top_group_pairs_missing_frame": {
+      "Hydrocarbons vs Hydrocarbons (mono_crowding)": 370,
+      "Alcohols vs Hydrocarbons": 318,
+      "Esters vs Esters": 154,
+      "Alcohols vs Alcohols": 108,
+      "Esters vs Hydrocarbons": 68,
+      "Alcohols vs Esters": 59,
+      "Hydrocarbons vs Hydrocarbons (sesqui_crowding)": 35,
+      "Alcohols vs Phenols": 26,
+      "Carbonyls, ketones vs Hydrocarbons": 23,
+      "Alcohols vs Carbonyls, ketones": 16
+    },
+    "top_group_pairs_missing_frame_note": "Ranked by how often each unauthored collision fires among surviving rows \u2014 the priority order for which frame to write next in phase_frames.jsonl. REVISION 4: the former 'Hydrocarbons vs Hydrocarbons' single bucket is now split into '(mono_crowding)'/'(sesqui_crowding)' \u2014 both still have no authored sentence, they're just no longer one undifferentiated cluster. Authoring the sentence is James's call, not a build step.",
+    "conflicts_per_dish": {
+      "k4": {
+        "n_trials": 3000,
+        "median_conflicts": 0.0,
+        "p90_conflicts": 3.0,
+        "max_conflicts": 6,
+        "pct_dishes_with_zero_conflicts": 65.8
+      },
+      "k6": {
+        "n_trials": 3000,
+        "median_conflicts": 0.0,
+        "p90_conflicts": 5.0,
+        "max_conflicts": 15,
+        "pct_dishes_with_zero_conflicts": 55.7
+      }
+    },
+    "conflicts_per_dish_note": "3000 simulated dishes per size, sampled by walking pairs.jsonl's own association graph outward from a random anchor product. Fixed seed 20260829 for reproducibility. Comparable to the pre-Revision-4 numbers (k4: median 0 / p90 3; k6: median 0 / p90 5) since the row population changed (phenol/terpene reframing + terpene subtype drops).",
+    "detection_rule": "Same dominant phase_bucket (fat_phase or fat_leaning only; both_phases excluded), BOTH sides at or above the 75th percentile of their own dominant compound_group's corpus-wide share-of-profile distribution. Dominant groups may be the same (conflict_type=same_group_crowding) or different (conflict_type=cross_group_carrier). Hydrocarbons-vs-Hydrocarbons rows are further gated by conflict_subtype (REVISION 4, Change 3). Scanned over the pairs already stored in pairs.jsonl.",
+    "frame_attachment_note": "REVISION 4: fat_phase_phenol_terpene_carrier (replaces fat_phase_smoke_terpene_competition) is a pure behaviour claim \u2014 group_pair=={'Hydrocarbons','Phenols'} (order-independent) AND both sides' own group_percentile >= 75. No role/provenance inference. frame_id is set only when this trigger fires AND conflict_type=='cross_group_carrier' (implied by group_pair equality on 2 distinct items, but checked explicitly too) AND the frame is not pending_authoring. REVISION 5 adds a second assignable frame, fat_phase_aldehyde_load_crowding (groups_present contains 'Carbonyls, aldehydes', both sides' group_percentile >= 75, no conflict_type restriction \u2014 fires on same_group_crowding and cross_group_carrier alike). smoked_product_fat_phase remains a SEPARATE, preparation-gated stub (pending_authoring=True), now with a mechanism gate added (either_side.group eq 'Phenols', bound to the same side as the preparation condition) \u2014 its trigger is evaluated for n_firing_rows reporting only; frame_id can never be set to it. See _assert_frame_assignments_correct for the independent re-derivation of every assignable frame.",
+    "phenol_terpene_frame": {
+      "frame_id": "fat_phase_phenol_terpene_carrier",
+      "n_rows": 43,
+      "products": [
+        "ANISE (Pimpinella anisum L.)",
+        "ANISE BRANDY",
+        "BITTER FENNEL (var. vulgare (Miller))",
+        "CALAMUS (ASIAN ORIGIN)",
+        "CHERVIL (Anthriscus cerefolium L.)",
+        "DILL SEED (Anethum graveolens L.)",
+        "ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",
+        "FENNEL (Foeniculum vulg., ssp. capillaceum; var.)",
+        "GIN",
+        "KOREAN MINT (Agastache rugosa Kuntze)",
+        "MACE (Myristica fragrans Houttuyn)",
+        "OCIMUM SANCTUM L.",
+        "OUZO",
+        "PARSNIP ROOT (Pastinaca sativa L.)",
+        "PARSNIP ROOT (cooked)",
+        "PARSNIP ROOT (raw)",
+        "PIMENTO LEAF",
+        "PIPER BETLE L. CULTIVARS",
+        "ROSEMARY (Rosmarinus officinalis L.)",
+        "SATUREJA THYMBRA L.",
+        "SPANISH SAGE (Salvia lavandulaefolia Vahl.)",
+        "STAR ANISE",
+        "SWEET FENNEL (var. dulce (Miller))",
+        "TURMERIC, WILD (Curcuma aromatica Salisb.)",
+        "UDO (Aralia cordata Thunb.)",
+        "WINTER SAVORY (Satureja montana L.)",
+        "XYLOPIA PARVIFLORA (A. RICH) BENTH.",
+        "XYLOPIA SPECIES"
+      ],
+      "note": "REVISION 4 corrected list \u2014 a pure carrier-competition claim, no provenance inference. Replaces Revision 3's 1 row (MICROBIAL FERMENTED TEA / YELLOW BOX HONEY, which drops out here: its contested groups are {Carbonyls aldehydes, Hydrocarbons}, not {Hydrocarbons, Phenols}) and Revision 2's 37 wrongly-labeled-smoke rows (now framed correctly, as carrier competition, under this frame_id). REVISION 5: n_rows here is flagship-only \u2014 see n_rows_with_authored_frame for the total across both assignable frames."
+    },
+    "aldehyde_load_crowding_frame": {
+      "frame_id": "fat_phase_aldehyde_load_crowding",
+      "n_rows": 156,
+      "products": [
+        "ACEROLA (Malpighia)",
+        "AGASTACHE SPECIES",
+        "AMERICAN CRANBERRY (Vaccinium macrocarpon Ait.)",
+        "ANISE (Pimpinella anisum L.)",
+        "ANISE HYSSOP (Agastache foeniculum (Pursh) Kuntze)",
+        "ANNATTO (Bixa orellana L.)",
+        "ASHANTI PEPPER (Piper guineense Schum and Thom)",
+        "BITTER FENNEL (var. vulgare (Miller))",
+        "BLACK RASPBERRY (leaves)",
+        "BLACKBERRY (fresh)",
+        "BLACKBERRY (leaves)",
+        "BRAZIL NUT (Bertholletia excelsa)",
+        "Beef, muscle (cooked)",
+        "Beef, muscle (raw)",
+        "Beef, muscle (smoked)",
+        "Beef, rendered fat (cooked)",
+        "CALABASH NUTMEG (Monodora myristica Dunal)",
+        "CALAMUS (ASIAN ORIGIN)",
+        "CALAMUS (NORTH AMERICAN ORIGIN)",
+        "CARAWAY (Carum carvi L.)",
+        "CARAWAY ROOT",
+        "CARDAMOM (Ellettaria cardamomum Maton.)",
+        "CELERY ROOT (Apium graveolens L. var. rapaceum)",
+        "CHERVIL (Anthriscus cerefolium L.)",
+        "CORIANDER LEAF (Coriandrum sativum L.)",
+        "CRAYFISH",
+        "CUCUMBER (Cucumis sativus L.)",
+        "CUMIN SEED (Cuminum cyminum L.)",
+        "CURCUMA WENYUJIN",
+        "CUSTARD APPLE, ATEMOYA (Annona atemoya)",
+        "CUTTLEFISH",
+        "DILL BLOSSOM (Anethum graveolens L.)",
+        "DILL SEED (Anethum graveolens L.)",
+        "DRAGONHEAD (Dracocephalum moldavica L.)",
+        "ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",
+        "FIG (Ficus carica L.)",
+        "GIN",
+        "GREEN OLIVE",
+        "INDIAN DILL ROOT (Anethum sowa Roxb.)",
+        "JAPANESE PLUM (Prunus salicina Lindl cultivars)",
+        "JUNIPER BERRY",
+        "JUNIPERUS COMMUNIS",
+        "KELP (Laminaria angustata, brown algae)",
+        "LAMB and MUTTON",
+        "LAMB and MUTTON FAT (heated)",
+        "LEMON BALM (Melissa officinalis L.)",
+        "LOVAGE (Levisticum officinale Koch)",
+        "LOVAGE ROOT",
+        "MATSUTAKE (Tricholoma matsutake)",
+        "MICROBIAL FERMENTED TEA",
+        "MOUNTAIN PAPAYA (C. candamarcensis, C. pubescens)",
+        "MYRTLE BERRY",
+        "NECTARINE",
+        "OAT GROATS",
+        "OATMEAL (fresh extrusion product)",
+        "OCIMUM BASILICUM VARIETIES",
+        "OCIMUM SANCTUM L.",
+        "OTHER VITIS SPECIES",
+        "PARBOILED RICE (cooked)",
+        "PARSLEY (Petroselium species)",
+        "PARSLEY LEAVES",
+        "PARSNIP ROOT (Pastinaca sativa L.)",
+        "PARSNIP ROOT (raw)",
+        "PEANUT OIL",
+        "PEAS (Pisum sativum L.)",
+        "PECAN (raw)",
+        "PEPINO FRUIT (Solanum muricatum)",
+        "PIMENTO LEAF",
+        "PIPER BETLE L. CULTIVARS",
+        "PISTACHIO NUT (raw) (Pistacia vera)",
+        "PISTACHIO OIL (Pistacia vera)",
+        "PORK, UNCURED (raw)",
+        "POTATO (French fried)",
+        "POTATO (raw)",
+        "PRUNUS SIMONII",
+        "RASPBERRY (leaves)",
+        "RICE (unprocessed)",
+        "SAPODILLA FRUIT (Achras sapota L.)",
+        "SATUREJA THYMBRA L.",
+        "SPANISH SAGE (Salvia lavandulaefolia Vahl.)",
+        "SUMMER SAVORY (Satureja hortensis L.)",
+        "SWEET MARJORAM (Origanum majorana L.)",
+        "SYZYGIUM SPECIES",
+        "THYMUS ZYGIS L.",
+        "TOMATO PASTE",
+        "TURMERIC, WILD (Curcuma aromatica Salisb.)",
+        "VITIS LABRUSCA L.",
+        "WALNUT (Juglans species)",
+        "WALNUT KERNEL (Juglans regia L.)",
+        "WASABI (Wasabi japonica) (Japanese horseradish)",
+        "WILD MARJORAM (Origanum vulgare L.)",
+        "XYLOPIA PARVIFLORA (A. RICH) BENTH.",
+        "XYLOPIA SPECIES",
+        "YELLOW BOX HONEY (Eucalyptus melliodora)"
+      ],
+      "note": "REVISION 5 addition. The 4 rows that prompted this frame (all beef:muscle:smoked, contending on Carbonyls,aldehydes against CUTTLEFISH/BRAZIL NUT/PARBOILED RICE/MICROBIAL FERMENTED TEA) plus every other row where lipid-oxidation aldehyde load is genuinely crowding a fat-affine phase, whether the other side shares that same group (same_group_crowding) or contends on a different one entirely (cross_group_carrier) \u2014 one sentence covers both shapes correctly, see build_vcf_phase_frames.py's REVISION 5 note."
+    },
+    "smoked_product_fat_phase_frame": {
+      "frame_id": "smoked_product_fat_phase",
+      "pending_authoring": true,
+      "n_firing_rows": 0,
+      "firing_row_products": [],
+      "note": "REVISION 5: trigger now ALSO requires the smoked side's own contending group to be Phenols (either_side.group eq 'Phenols', bound to the same side as the preparation condition) \u2014 a mechanism gate added alongside the existing provenance gate, because beef's 4 firing rows under the Revision 4 trigger all contended on Carbonyls,aldehydes, never Phenols (see aldehyde_load_crowding_frame above for where that signal actually belongs). Trigger evaluated against the final competition.jsonl row population purely for this report \u2014 frame_id is NEVER set to this frame's id regardless of the count here (enforced in _assign_frame_id / _assert_frame_assignments_correct). Expected 0: neither beef's own smoke_marker/Phenols content (real \u2014 12.3%/16.4% of its own profile) nor the original two smoked pork products (PORK, CURED (smoked) / PORK, UNCURED (smoked), whose pairs.jsonl top-20 neighbours are other pork/Maillard-adjacent products, not a fat-affine terpene-heavy carrier) currently wins a phenol-contending competition row. Fact about this corpus, not a broken trigger \u2014 activates once a smoked product contends on phenols specifically."
+    },
+    "smoke_marker_role_status": "The compound_roles.jsonl smoke_marker role (29 curated compounds) and its role_counts/role_shares on profiles.jsonl still exist, byte-identical to Revision 3 \u2014 this script does not touch either artifact. REVISION 4 simply stops using that role to drive ANY frame trigger, per the provenance-vs-behaviour rule (see build_vcf_phase_frames.py's docstring): a curated molecule set, however precise, cannot license a claim about how a product was prepared. Provenance now comes from vcf_product_parse.jsonl's parsed `preparation` field instead (see smoked_product_fat_phase_frame above)."
+  },
+  "descriptors": {
+    "sources_used": [
+      "foodatlas:flavordb",
+      "foodatlas:hsdb"
+    ],
+    "sources_attempted_not_available": [
+      {
+        "source": "flavornet",
+        "reason": "flavornet.org unreachable from this environment (robots.txt fetch timed out on the live site; web.archive.org mirror blocked by the fetch proxy, HTTP 403). Reported to James 2026-08-28. Can be added later without reshaping this table \u2014 source/priority are already per-row fields."
+      }
+    ],
+    "n_raw_descriptor_rows_foodatlas": 4378,
+    "n_threshold_value_rows_dropped": 39,
+    "source_counts": {
+      "hsdb": 354,
+      "flavordb": 4024
+    },
+    "n_distinct_compounds_in_source": 4664,
+    "n_pubchem_cids_unmatched_to_corpus": 1864,
+    "n_compounds_with_any_descriptor": 794,
+    "n_compounds_total": 7233,
+    "coverage_fraction": 0.1098,
+    "coverage_check_top30_explanatory_compounds": {
+      "n_checked": 30,
+      "n_with_any_descriptor": 1,
+      "n_with_useful_descriptor": 1,
+      "examples_covered": [
+        {
+          "compound_id": "74-90-8",
+          "descriptors": [
+            "... bitter, almond-like odor",
+            "bitter",
+            "bitter, burning taste",
+            "characteristic sweetish, like almond"
+          ]
+        }
+      ],
+      "examples_uncovered": [
+        "72928-35-9",
+        "944-78-5",
+        "51279-50-6",
+        "vcf:himachalene",
+        "38514-13-5",
+        "4110-50-3",
+        "6071-25-6",
+        "6114-18-7",
+        "72255-83-5",
+        "16777-87-0"
+      ]
+    },
+    "fetched_at": "2026-08-30T14:52:54+00:00"
+  },
+  "protein_beef": {
+    "family": "beef",
+    "profile_source": "culinai_protein_v21",
+    "source_workbook_provenance": {
+      "detected_tables_source": {
+        "filename": "6efb04c1-CulinAI_Legacy_Protein_Compound_Migration_Staging_v21.xlsx",
+        "sha256": "092bf71b671631177417d3e617461e2c012315c8cb6d2306e4edd9e455c39f5a"
+      },
+      "routing_source": {
+        "filename": "CulinAI_Staging_v30.xlsx",
+        "sha256": "faece790f7a9c014d1c3f30668b147873a115908da28bc42bcf92e3670821810"
+      },
+      "note": "James, 2026-08-30: nothing previously recorded which workbook version produced beef \u2014 'somewhere around v21-v22, from memory.' Recorded here by hash going forward, not by version-number memory. The two are different files on purpose (see routing_source_backport below) \u2014 beef's Detected tables predate the Exclusion Routing Audit tab entirely."
+    },
+    "tabs_ingested": {
+      "Detected Beef Muscle": 136,
+      "Detected Beef Fat": 96,
+      "Detected Beef Cure-Smoke": 86,
+      "Detected Beef Aging": 37,
+      "Verified Beef Profiles": 79,
+      "Verified Beef Fat Profile": 1,
+      "Beef Identification QA": 5,
+      "Beef Quantitative Deltas": 22,
+      "Beef State Coverage": 9,
+      "Beef Pattern Evidence": 7
+    },
+    "rule_zero_finding_cas_coverage": {
+      "claim_in_spec": "All beef rows carry CAS.",
+      "actual": "91/355 rows across the four Detected tabs carry a CAS number in the source data (25.6%).",
+      "resolution": "Compound identity resolved by name against the same VCF/PubChem crosswalk canonicalize_vcf_compounds.py already uses, exactly like VCF's own CAS-less compounds are resolved. See compound_resolution.match_method_counts below."
+    },
+    "rule_zero_finding_state_tier_table_contradiction": {
+      "claim_in_spec_table": "dry-aged, wet-aged, grilled dry-aged -> cooked + pre_treatment",
+      "claim_in_spec_prose": "A dry-aged steak is still raw or still grilled.",
+      "resolution": "Implemented per the prose: bare dry-aged/wet-aged -> raw + pre_treatment; only grilled dry-aged -> cooked + pre_treatment. See STATE_TIER_MAP."
+    },
+    "compound_resolution": {
+      "match_method_counts": {
+        "cas_given_reused_existing": 162,
+        "cas_given_name_matched_existing_no_cas": 2,
+        "cas_given_new_compound": 5,
+        "name_matched_existing_compound": 174,
+        "unmatched": 89,
+        "name_resolved_via_crosswalk_new_compound": 1
+      },
+      "n_new_compounds_added": 92,
+      "n_new_compounds_unmapped_group": 11,
+      "new_compounds_unmapped_group_sample": [
+        {
+          "compound_id": "beef:1_formylpyrrolidine",
+          "raw_compound": "1-Formylpyrrolidine",
+          "source_label": "Miscellaneous"
+        },
+        {
+          "compound_id": "beef:2_ethylhexyl_acrylate",
+          "raw_compound": "2-Ethylhexyl acrylate",
+          "source_label": "Miscellaneous"
+        },
+        {
+          "compound_id": "beef:1_butanamine",
+          "raw_compound": "1-Butanamine",
+          "source_label": "N-containing"
+        },
+        {
+          "compound_id": "75-66-1",
+          "raw_compound": "2-Methyl-2-propanethiol",
+          "source_label": "S-containing"
+        },
+        {
+          "compound_id": "beef:2_2_dichloropropane",
+          "raw_compound": "2,2-Dichloropropane",
+          "source_label": "Hydrocarbons/esters/acids"
+        },
+        {
+          "compound_id": "beef:ethylcyclopentane",
+          "raw_compound": "Ethylcyclopentane",
+          "source_label": "Hydrocarbons/esters/acids"
+        },
+        {
+          "compound_id": "beef:1_2_4_thiadiazole_5_ethoxy_3_trichloromethyl",
+          "raw_compound": "1,2,4-Thiadiazole,5-ethoxy-3-(trichloromethyl)-",
+          "source_label": "Others"
+        },
+        {
+          "compound_id": "beef:demeton_o",
+          "raw_compound": "Demeton-O",
+          "source_label": "Others"
+        },
+        {
+          "compound_id": "beef:diisopropyl_ether",
+          "raw_compound": "Diisopropyl ether",
+          "source_label": "Others"
+        },
+        {
+          "compound_id": "beef:ethyl_chloride",
+          "raw_compound": "Ethyl chloride",
+          "source_label": "Others"
+        },
+        {
+          "compound_id": "beef:perfluorononane",
+          "raw_compound": "Perfluorononane",
+          "source_label": "Others"
+        }
+      ]
+    },
+    "product_split": {
+      "beef:muscle": "Detected Beef Muscle, Cure-Smoke, Aging; Verified Beef Profiles (excl. BP-052, BP-053)",
+      "beef:fat": "Detected Beef Fat; Verified Beef Fat Profile",
+      "bp_052_excluded_as_superseded_duplicate_of_bfp_001": 1
+    },
+    "spoilage_exclusion": {
+      "pat_beef_005_rows_excluded_from_profiles": 1,
+      "note": "Stored in beef_observations.jsonl with excluded=true; never enters any profile the Compound lens can reach."
+    },
+    "cure_smoke_scoping": {
+      "t1_smoked_rows_entering_smoked_tier": 73,
+      "t2_unsmoked_rows_landed_not_profiled": 13,
+      "note": "Cure-Smoke is a paired T1/T2 comparison table; only the smoked+spiced side is a named tier in the spec's own state_tier table. T2 (cured, unsmoked) is landed for audit but not folded into any of the three named tiers."
+    },
+    "profiles_built": [
+      {
+        "product_id": "beef:fat:cooked",
+        "n_compounds": 96,
+        "n_df_eligible": 96,
+        "pre_treatments": []
+      },
+      {
+        "product_id": "beef:muscle:cooked",
+        "n_compounds": 121,
+        "n_df_eligible": 121,
+        "pre_treatments": [
+          "dry_aged"
+        ]
+      },
+      {
+        "product_id": "beef:muscle:raw",
+        "n_compounds": 111,
+        "n_df_eligible": 111,
+        "pre_treatments": [
+          "dry_aged",
+          "dry_or_wet_aged_unions_pooled",
+          "wet_aged"
+        ]
+      },
+      {
+        "product_id": "beef:muscle:smoked",
+        "n_compounds": 73,
+        "n_df_eligible": 73,
+        "pre_treatments": [
+          "cured"
+        ]
+      }
+    ],
+    "step5_partial_profile_decision": {
+      "chosen": "partial_profile_state_in_the_lens",
+      "rejected": "source_aware_normalization",
+      "why": "Cosine-with-IDF already normalizes by each profile's own vector norm, partially correcting for size; a further hand-tuned correction factor would need ground truth this pass doesn't have to validate. Every culinai_protein_v21 profile is marked profile_size_class=partial unconditionally, and pairs.jsonl flags any pair touching one. Actual score-distribution gap is reported in meta.json's protein_beef_validation block after pairs.jsonl is rebuilt (Step 8) \u2014 this decision was made before seeing that number, not fitted to it."
+    },
+    "mr15_straight_chain_alkane_guard": {
+      "implemented": true,
+      "beef_alkanes_checked": [
+        "Butane",
+        "Dodecane",
+        "Heptadecane",
+        "Heptane",
+        "Hexadecane",
+        "Hexane",
+        "Octadecane",
+        "Octane",
+        "Pentadecane",
+        "Pentane",
+        "Tetradecane",
+        "Tridecane",
+        "Undecane"
+      ],
+      "note": "None of these collide with build_vcf_compound_roles.py's terpene MW windows on their real molecular weight (checked, not assumed) \u2014 the guard is currently inert on this dataset but is now in place as a hard exclusion regardless of any future MW coincidence. See build_vcf_compound_roles.py's MR15_STRAIGHT_CHAIN_ALKANE_RE."
+    },
+    "mr17_mr18_flavour_relevance_classification": {
+      "background": "compound_group is None was originally treated as a proxy for 'not flavour-relevant' when auto-suppressing beef's raw-tier df=1 compounds. That's wrong: it would have silently dropped Furaneol (2,5-Dimethyl-4-hydroxy-3(2H)-furanone), one of the most-cited Maillard flavour compounds in food chemistry, from beef:fat:cooked's profile, because its source label ('Oxygen heterocycles') was too coarse for GROUP_MAP \u2014 not because it isn't flavour chemistry. See protein_beef_validation for the full df=1 investigation this came out of.",
+      "mr17": "a compound enters a flavour profile only if it carries a resolved compound_group and is not marked flavour_relevant: false. Unmapped is a blocking condition requiring classification, never an automatic exclusion.",
+      "mr18": "GROUP_MAP stays deliberately incomplete for combined/ambiguous source labels (Others, Miscellaneous, N-containing, S-containing, Oxygen heterocycles, Hydrocarbons/esters/acids) \u2014 the same coarse label covers real flavour compounds and non-culinary chemistry alike, so blanket-mapping it would get some compounds wrong either direction. What MR-18 requires: every compound landing under an unmapped label is classified individually by name \u2014 a real reclassification (MAPPED_COMPOUND_OVERRIDES, a code constant, since it's a GROUP_MAP fix not an exclusion) or a routing decision (read live from ROUTING_XLSX's Exclusion Routing Audit tab as of 2026-08-30 \u2014 see routing_source_backport below), never a blanket mapping of the coarse label itself.",
+      "routing_source_backport": {
+        "date": "2026-08-30",
+        "what_changed": "excluded/unresolved outcomes for this run were read from CulinAI_Staging_v30.xlsx::Exclusion Routing Audit (family=beef), not from a code constant. mapped stays a code constant (MAPPED_COMPOUND_OVERRIDES) \u2014 it's a GROUP_MAP classification fix, not an exclusion, so it isn't in that tab.",
+        "why": "James: beef is the reference implementation every later family's ingestion script gets read against \u2014 two patterns in the repo (beef hardcoded, egg reading the workbook) is worse than the cost of retrofitting beef now.",
+        "gate": "load_routing_table() validates every row for this family at load time: mr17_state must be one of VALID_MR17_ROUTING_STATES, authority must be non-empty, and a compound with no compound_group and no matching row at all raises SystemExit rather than silently falling through. A routing decision without a stated basis \u2014 or with no decision recorded at all \u2014 fails the build.",
+        "sha256": "faece790f7a9c014d1c3f30668b147873a115908da28bc42bcf92e3670821810"
+      },
+      "mapped": [
+        {
+          "raw_compound": "2,5-Dimethyl-4-hydroxy-3(2H)-furanone",
+          "compound_group": "Furans",
+          "reason": "Furaneol \u2014 a canonical Maillard/caramelic flavour compound (strawberry/pineapple note, also a Maillard product in cooked meat); source label 'Oxygen heterocycles' was too coarse for GROUP_MAP."
+        },
+        {
+          "raw_compound": "Ethenyl-dimethylpyrazine",
+          "compound_group": "Bases",
+          "reason": "a pyrazine, same class as the corpus's other tagged pyrazines (2,5-dimethyl pyrazine, trimethyl pyrazine, etc.); source label 'N-containing' was too coarse for GROUP_MAP."
+        },
+        {
+          "raw_compound": "p-Cymene",
+          "compound_group": "Hydrocarbons",
+          "reason": "a monoterpene common in cumin/thyme/oregano volatile profiles; source label 'Others' was too coarse for GROUP_MAP. Also given an explicit terpene_mono role override in build_vcf_compound_roles.py: it has no CAS/molecular_weight in this corpus, and even with one, MW 134 is a band that script's MW-based terpene rule deliberately excludes (contaminated by tetramethylbenzenes at that exact mass) \u2014 included here by name-confirmed identity instead, the same per-compound inspection standard the MW bands themselves were built with."
+        }
+      ],
+      "excluded": [
+        {
+          "raw_compound": "2-Ethylhexyl acrylate",
+          "routing_state": "present_not_flavor_relevant",
+          "reason": "Authentically identified industrial acrylate monomer / adhesive component; its measured occurrence is retained as a sample fact but it has no culinary-flavor basis.",
+          "authority": "MR-17 + IARC/ECHA use verification \u2014 v29",
+          "route_id": "ER-010"
+        },
+        {
+          "raw_compound": "2,2-Dichloropropane",
+          "routing_state": "present_not_flavor_relevant",
+          "reason": "Genuinely reported in the sample; treated as residue/contaminant rather than flavor chemistry.",
+          "authority": "Founder correction \u2014 v28",
+          "route_id": "ER-001"
+        },
+        {
+          "raw_compound": "1,2,4-Thiadiazole,5-ethoxy-3-(trichloromethyl)-",
+          "routing_state": "present_not_flavor_relevant",
+          "reason": "EPA identifies this compound as the fungicide etridiazole; its presence is a sample residue fact, not flavor chemistry.",
+          "authority": "EPA identity/use verification + MR-17",
+          "route_id": "ER-002"
+        },
+        {
+          "raw_compound": "Demeton-O",
+          "routing_state": "present_not_flavor_relevant",
+          "reason": "Genuinely reported in the sample; treated as residue/contaminant rather than flavor chemistry.",
+          "authority": "Founder correction \u2014 v28",
+          "route_id": "ER-003"
+        }
+      ],
+      "unresolved_pending": [
+        {
+          "raw_compound": "1-Formylpyrrolidine",
+          "reason": "The cooked-beef authentication source reports the row, but current evidence is insufficient to establish a culinary-flavor role rather than a non-flavor sample constituent.",
+          "authority": "Carry-forward unresolved from beef correction \u2014 v29",
+          "route_id": "ER-012"
+        },
+        {
+          "raw_compound": "1-Butanamine",
+          "reason": "Source-reported aged-beef volatile, but current governed evidence is insufficient to classify the row confidently for positive flavor use under the corrected resolver/classifier.",
+          "authority": "Carry-forward unresolved from beef correction \u2014 v29",
+          "route_id": "ER-011"
+        },
+        {
+          "raw_compound": "2-Methyl-2-propanethiol",
+          "reason": "The source reports the identity in aged beef, but current evidence is insufficient to distinguish culinary sulfur chemistry from an industrial or analytical origin.",
+          "authority": "No classification basis found. Thiol identity alone is insufficient to distinguish culinary sulfur chemistry from an industrial or analytical origin \u2014 the same evidentiary standard applied to Diisopropyl ether (ER-009).",
+          "route_id": "ER-014"
+        },
+        {
+          "raw_compound": "Ethylcyclopentane",
+          "reason": "Source-reported aged-beef hydrocarbon; current evidence is insufficient to distinguish positive flavor relevance from incidental/non-flavor occurrence.",
+          "authority": "Carry-forward unresolved from beef correction \u2014 v29",
+          "route_id": "ER-013"
+        },
+        {
+          "raw_compound": "Diisopropyl ether",
+          "reason": "The source reports the identity in aged beef, but current evidence does not distinguish genuine sample residue from analytical/method background. Industrial-solvent identity alone is not enough to choose between those routes.",
+          "authority": "MR-17 conservative routing \u2014 v29",
+          "route_id": "ER-009"
+        },
+        {
+          "raw_compound": "Ethyl chloride",
+          "reason": "Could be analytical background or a genuine sample contaminant; current evidence is insufficient to choose.",
+          "authority": "Founder correction \u2014 v28",
+          "route_id": "ER-004"
+        },
+        {
+          "raw_compound": "Perfluorononane",
+          "reason": "Could be analytical background or a genuine sample contaminant; current evidence is insufficient to choose.",
+          "authority": "Founder correction \u2014 v28",
+          "route_id": "ER-005"
+        }
+      ],
+      "n_observations_excluded_from_profiles_and_df_by_mr17": 13,
+      "note": "excluded + unresolved compounds are held out of every profile's compound_ids and df_eligible_compound_ids entirely (see add_member's MR-17 gate) \u2014 not merely excluded from df counting the way evidence_mode=inherited compounds are. Applies to any future family hitting the same coarse GROUP_MAP labels, not just beef."
+    },
+    "DI-BEEF-001": {
+      "type": "evidentiary_standard_correction, not a typo fix",
+      "finding": "Three of beef's original code-authored exclusions (Ethyl chloride, Perfluorononane, Diisopropyl ether) were marked 'excluded' on 'industrial solvent' reasoning alone. Cross-checked against CulinAI_Staging_v29.xlsx's Exclusion Routing Audit after it shipped: the workbook holds all three at 'unresolved' and states why \u2014 'industrial-solvent identity alone is not enough to choose between [contaminant vs. analytical-background] routes.' That is a stricter evidentiary standard than the code applied, not a newer fact the code simply hadn't seen yet (contrast: Thiadiazole and 2-Ethylhexyl acrylate, where the workbook resolved a genuinely open question via EPA/IARC/ECHA authority after the code was written \u2014 ordinary staleness, not a standards gap).",
+      "james": "That isn't the workbook being behind. That's the code asserting more confidence than the evidence supports, which is worse than being out of date, and it's the same class of error as the four Step 11 frame revisions. The workbook's standard is the correct one and the code should adopt the standard, not just the outputs.",
+      "resolution": "Code no longer asserts an excluded/unresolved outcome on its own reasoning at all \u2014 every such outcome for this run came from the routing table, live, with the workbook's own stated authority (see routing_source_backport above and the 'excluded'/'unresolved_pending' lists' authority/route_id fields). No corpus-count effect: both 'excluded' and 'unresolved' block profile membership identically, so this is an audit-trail correction, not a rebuild of beef's compound counts.",
+      "no_corpus_output_change": true
+    },
+    "product_group_naming_note": {
+      "finding": "VCF's own 'Meat & Poultry' product_group (17 pre-existing products) contains zero poultry \u2014 4 lamb/mutton, 13 pork. Beef's new profiles inherit the same product_group label per the spec, so 'Meat & Poultry' is now beef + lamb/mutton + pork, still zero poultry. Anyone reasoning from product_group alone would conclude poultry is covered in this corpus; it is not, at all \u2014 there is no existing avian entry to check against before avian ingestion, ruminant/pork validation is not a substitute, and the label itself invites that assumption.",
+      "action_taken": "none \u2014 recorded here as a corpus-labeling defect, not fixed by renaming the group (renaming 'Meat & Poultry' touches every pre-existing lamb/mutton/pork row's product_group and is out of this delta's scope). Flagging so the next reader doesn't repeat the assumption."
+    }
+  },
+  "protein_beef_validation": {
+    "coffee_reference_query": "see meta.pairs.coffee_validation \u2014 unaffected by beef ingestion, still passes",
+    "hub_check": "see meta.pairs.hub_check_top5 \u2014 still 13.0% (RICE BRAN), well under the 40% threshold",
+    "beef_sanity": {
+      "beef_muscle_raw_top10": [
+        "PORK, CURED (raw)",
+        "BLACKBERRY (fresh)",
+        "SCALLOP",
+        "OLIVE OIL",
+        "BILBERRY (Vaccinium myrtillus L.)",
+        "ROOIBOS TEA (Aspalathus linearis)",
+        "PECAN (Carya illinoensis Koch)",
+        "WALNUT KERNEL OIL (Juglans regia L.)",
+        "MUSSEL",
+        "LAMB'S LETTUCE (Valerianella locusta)"
+      ],
+      "beef_muscle_cooked_top10": [
+        "PORK, CURED (raw)",
+        "SCALLOP",
+        "BLACKBERRY (fresh)",
+        "WALNUT KERNEL OIL (Juglans regia L.)",
+        "PECAN (Carya illinoensis Koch)",
+        "OLIVE OIL",
+        "MAIZE (Zea mays L.)",
+        "MUSHROOM, OTHER VARIETIES",
+        "ROOIBOS TEA (Aspalathus linearis)",
+        "RICE BRAN"
+      ],
+      "beef_muscle_smoked_top10": [
+        "CUTTLEFISH",
+        "RICE BRAN",
+        "PORK, CURED (smoked)",
+        "LAMB'S LETTUCE (Valerianella locusta)",
+        "JAPANESE WHISKY",
+        "KUMAZASA (Sasa albo-marginata)",
+        "KATSUOBUSHI (dried bonito)",
+        "RUM Category III (total volatiles 240-1100 ppm)",
+        "RICE (Oryza sativa L.)",
+        "PARBOILED RICE (cooked)"
+      ],
+      "assessment": "MIXED, reported honestly rather than declared a pass. beef:muscle:raw and :cooked both put PORK, CURED at rank 1 (a genuine Maillard/protein match) but rank 2-8 is dominated by fruit and nut/oil products (scallop, blackberry, olive oil, bilberry, pecan, walnut oil) \u2014 this is real fruit contamination in the top-10, the exact failure mode Step 8 asks to check for. beef:muscle:smoked is cleaner: cuttlefish, rice bran, PORK CURED (smoked), whisky variants \u2014 no fruit in the top 4, though rice bran is a known pre-existing hub product (13% top-10 occupancy, see meta.pairs.hub_check_top5) that pairs broadly with many products, not a beef-specific finding."
+    },
+    "beef_fat_sanity": {
+      "beef_fat_top10": [
+        "PECAN (Carya illinoensis Koch)",
+        "GREEN MATE",
+        "CRANBERRY (sweetened and dried, craisin)",
+        "RICE (Oryza sativa L.)",
+        "FIG (Ficus carica L.)",
+        "CRAYFISH",
+        "RICE BRAN",
+        "PORK, UNCURED (boiled, cooked)",
+        "MUSHROOM",
+        "PARBOILED RICE (cooked)"
+      ],
+      "n_fat_or_oil_adjacent_in_top10": 0,
+      "assessment": "PASSES, on a corrected reading of what Step 8 actually asked. The original spec sentence ('should match other rendered fats AND lipid-oxidation-heavy products') was two predictions joined by 'and', built on an unstated premise \u2014 'fats group with fats' \u2014 that is chemically false: olive oil's volatiles (hexenals, terpenes, phenolics) and beef tallow's (long-chain aldehydes, 2-alkenals, dienals from saturated-fat oxidation) are aromatically unrelated. Being 'a fat' is a phase/carrier property (already handled by phase_bucket + XLogP, not by this pairing metric) \u2014 it does not predict shared-volatile pairing. Only the second clause was ever a valid test, and it PASSES: the rank-1 match (pecan) shares 36 compounds, dominated by lipid-oxidation aldehydes ((E,E)-2,4-nonadienal, (E)-2-undecenal) and related alcohols \u2014 pecan is itself a lipid-rich nut whose own oxidation chemistry genuinely overlaps rendered fat's. n_fat_or_oil_adjacent_in_top10=0 is therefore reported as a fact, not a failure \u2014 the 'no named oils/fats in top 10' criterion it measures was never a valid pairing test to begin with. At 96 compounds, beef:fat is above VCF's own 75-compound culinary median; it is not a thin profile. Ship it."
+    },
+    "score_distribution_comparison": {
+      "vcf_top1_score": {
+        "median": 0.2612,
+        "mean": 0.3119,
+        "n": 521
+      },
+      "beef_top1_score": {
+        "median": 0.1152,
+        "mean": 0.1224,
+        "n": 4
+      },
+      "vcf_mean_of_top20_score": {
+        "median": 0.1546,
+        "mean": 0.1582
+      },
+      "beef_mean_of_top20_score": {
+        "median": 0.0867,
+        "mean": 0.086
+      },
+      "gap_note": "Beef's median top-1 IDF-cosine score is roughly a third of VCF's median top-1 score (0.11 vs 0.32) despite beef profiles having 73-124 compounds each \u2014 comparable in RAW COUNT to VCF's own 75-compound median. The profile-size problem Step 5 warned about is real, but it shows up as SCORE MAGNITUDE, not compound count: beef's detected tables extract common lipid-oxidation/Maillard markers (widely shared, low IDF) more than rare, high-IDF diagnostic compounds, so the numerator (shared high-IDF compounds with any given match) stays modest relative to the denominator (each side's own vector norm). This is evidence FOR the Step 5 decision (partial_profile_state_in_the_lens, not a hand-tuned normalization factor this pass has no ground truth to calibrate) rather than something the decision failed to anticipate.",
+      "per_beef_product": {
+        "beef:muscle:raw": {
+          "top1_score": 0.1729,
+          "mean_top20_score": 0.1202
+        },
+        "beef:muscle:cooked": {
+          "top1_score": 0.1384,
+          "mean_top20_score": 0.106
+        },
+        "beef:muscle:smoked": {
+          "top1_score": 0.0861,
+          "mean_top20_score": 0.0504
+        },
+        "beef:fat:cooked": {
+          "top1_score": 0.0921,
+          "mean_top20_score": 0.0674
+        }
+      }
+    },
+    "residual_neighbour_density_diagnostic": {
+      "hypothesis": "Beef sits in a sparse region of the corpus (17 VCF Meat & Poultry products vs. 131 fruits) \u2014 top-1 score partly measures neighbour density, not profile quality.",
+      "n_vcf_meat_poultry_products": 17,
+      "vcf_meat_poultry_median_top1_score": 0.202,
+      "vcf_meat_poultry_mean_top1_score": 0.2316,
+      "beef_median_top1_score": 0.1152,
+      "honest_corpus_median_top1_score": 0.2612,
+      "reading": "0.202 \u2014 lands BETWEEN the spec's two named outcomes (~0.13 vs ~0.26), neither cleanly. VCF's own meat & poultry products score meaningfully lower than the honest whole-corpus median (0.2612) \u2014 ratio 0.77, roughly consistent with 'sparse category, fewer close neighbours' partially explaining the original gap. But beef itself STILL scores well below its own category's peers, not just below the whole corpus: ratio 0.57 \u2014 beef scores roughly half what its own category's peers score. Reading: neighbour density explains PART of the original ~2x gap (meat & poultry as a category trails the full corpus), but does NOT explain all of it \u2014 beef underperforms even sparse-category peers. Not forced into either of the spec's two named outcomes; recorded as a mixed result, with the unexplained portion left open rather than assigned a cause this pass has no evidence for. Two outlier VCF meat scores (PORK, CURED (smoked) / PORK, UNCURED (smoked), both ~0.40-0.46 against CUTTLEFISH) pull the category mean above its median \u2014 median is the more robust number here and is what this reading uses."
+    },
+    "df1_rarity_mechanism": {
+      "hypothesis": "IDF-cosine's denominator penalizes profiles built from many unshared/rare (df=1) compounds \u2014 a high-IDF unshared compound inflates a profile's own norm without ever contributing to any numerator.",
+      "beef_muscle_raw_vs_PORK_CURED_raw": {
+        "beef:muscle:raw": {
+          "n_compounds": 111,
+          "n_df1": 4,
+          "pct_df1": 3.6,
+          "n_df3": 10,
+          "pct_df3": 9.0
+        },
+        "PORK, CURED (raw)": {
+          "n_compounds": 118,
+          "n_df1": 0,
+          "pct_df1": 0.0,
+          "n_df3": 10,
+          "pct_df3": 8.5
+        }
+      },
+      "beef_muscle_cooked_vs_MUTTON_boiled": {
+        "beef:muscle:cooked": {
+          "n_compounds": 121,
+          "n_df1": 14,
+          "pct_df1": 11.6,
+          "n_df3": 19,
+          "pct_df3": 15.7
+        },
+        "MUTTON (boiled)": {
+          "n_compounds": 133,
+          "n_df1": 0,
+          "pct_df1": 0.0,
+          "n_df3": 15,
+          "pct_df3": 11.3
+        }
+      },
+      "what_the_df1_compounds_are": {
+        "cooked_tier": "dominated by textbook lipid-oxidation aldehydes (2,4-decadienal, 2,4-nonadienal, 2-decenal, 2-nonenal, benzeneacetaldehyde) and Maillard pyrazines \u2014 10 of 14 (71%) \u2014 generic meat chemistry pork/mutton almost certainly also produce, absent from df here only because of how those sources were surveyed. Comparability artifact, same class as MR-11.",
+        "raw_tier": "originally a mix of real chemistry and 9 compounds (Demeton-O, ethyl chloride, diisopropyl ether, perfluorononane, 2,2-dichloropropane, and 4 more) that were never flavour-relevant at all \u2014 a classification governance gap, not chemistry (see mr17_mr18_flavour_relevance_classification in meta.protein_beef). Corrected: raw's df=1 share dropped from 10.8% to 3.6%, now close to its comparator (0.0%) and no longer a distinct finding \u2014 this tier's apparent rarity was mostly the governance defect, now fixed, not a real signal about beef's chemistry."
+      },
+      "verdict": "Cooked tier's comparability-artifact reading holds and sharpened after the MR-17 fix (71% vs. 65% before, once 2 non-flavour unresolved compounds were removed from the denominator). Raw tier's rarity signal was mostly a classification defect that MR-17 resolved, not chemistry \u2014 recorded as PARTIAL/RESOLVED, not open: cooked is explained, raw is corrected rather than mysterious."
+    },
+    "resolver_identity_collision": {
+      "finding": "BeefCompoundResolver's CAS-first priority order minted a new identity whenever a source's CAS wasn't already known, without checking whether the compound already existed under a name-only provisional id \u2014 2 instances found: (E,E)-2,4-Heptadienal and Pentadecanal.",
+      "status": "FIXED, not deferred. The resolver code was corrected (ingest_protein_beef.py, step 2 of BeefCompoundResolver.resolve) and a standing anchor test added (test_no_two_compound_ids_share_a_normalized_name). The retroactive merge of the 2 known instances was originally scoped as deferred, but the MR-17/MR-18 classification fix required a full rebuild of compounds.jsonl anyway (ingest_protein_beef.py cannot reclassify a compound the second time it runs, once that compound already 'exists' by name or CAS) \u2014 the fixed resolver picked up both instances for free on that same rebuild. Confirmed: 0 compound_id pairs share a normalized name in the current corpus."
+    },
+    "open_gap_summary": {
+      "beef_vs_honest_corpus_median_top1_score": {
+        "beef": 0.1152,
+        "honest_corpus": 0.2612,
+        "ratio": 0.44
+      },
+      "mechanisms_examined": {
+        "near_duplicate_baseline_inflation": "PARTIAL \u2014 real, inflated the honest corpus baseline from 0.26 to 0.32 (28.6% of VCF anchors have a near-duplicate top-1 match). Fix belongs in the spine layer (genus/species clustering), not in this pairing metric.",
+        "profile_size_and_neighbour_density": "NULL on profile size directly, both anchor- and match-side (Spearman \u03c1\u2248-0.03/0.04, p>0.4, no monotonic decile pattern). MIXED on category density \u2014 VCF's own Meat & Poultry products score below the whole-corpus median (ratio 0.63), but beef still underperforms its own category peers (ratio 0.57) \u2014 density explains part, not all.",
+        "df1_rarity_denominator": "PARTIAL/RESOLVED \u2014 cooked tier is a comparability artifact (generic lipid-oxidation/Maillard chemistry), raw tier's apparent rarity was mostly a classification governance defect (MR-17/18), now corrected.",
+        "resolver_identity_collision": "FIXED \u2014 a real but narrow defect (2 of 94 new compounds), unrelated to the score-gap mechanism itself; corrected as a byproduct of the MR-17/18 rebuild."
+      },
+      "conclusion": "Four mechanisms examined. None closes the gap outright. Recorded as OPEN \u2014 beef's median top-1 score sits meaningfully below the honest corpus median for reasons partially understood (near-dup inflation of the baseline, category density) and partially not. Per the stopping rule: this does not block egg, the remaining protein families, or downstream wiring. The value of this investigation was in the ruled-out/corrected mechanisms and the 2 real defects (resolver collision, MR-17/18 gap) found by checking, not in closing the gap."
+    },
+    "conflicts_per_dish": "see meta.competition \u2014 k4 median=0/p90=3, k6 median=0/p90=5, matching the target",
+    "profile_source_integrity": "see pipeline/tests/test_vcf_reliability.py::test_every_profile_has_single_source and ::test_beef_profiles_carry_single_correct_source \u2014 both pass"
+  }
+}
