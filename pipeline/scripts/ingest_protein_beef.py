@@ -764,7 +764,50 @@ def main():
 
     mr17_excluded_observations = []  # (product_id, tier, compound_id, raw_compound, mr17_outcome, mr17_reason)
 
-    def add_member(product_id, tier, compound_row, evidence_mode, pre_treatment=None):
+    def route_verdict(raw_compound_name: str):
+        """Occurrence-gated vs. identity-gated routing — the same class of
+        gap egg's ingestion found and fixed (see ingest_protein_egg.py's
+        route_verdict docstring) audited here for beef, 2026-08-31.
+
+        BeefCompoundResolver's routing check lives inside _new_compound(),
+        which only runs when resolve() decides a compound is genuinely new
+        to the corpus. Any beef routing-table entry (ER-001..ER-014) for a
+        compound_name that resolve() instead matches to an EXISTING corpus
+        identity (CAS already known, name-matched, or crosswalk-reused)
+        would silently never have its exclusion applied — mr17_outcome
+        would stay whatever the pre-existing row already carried (usually
+        None), and _mr17_blocked() would let it straight into the profile.
+        That's exactly the bug egg hit on Dibutyl phthalate.
+
+        Audited 2026-08-31: all 11 of beef's current routing-table entries
+        were checked against the live compounds.jsonl. Every one currently
+        resolves via 'unmatched' or a *_new_compound match_method — none of
+        them collided with a pre-existing identity, so none of the current
+        11 rows are silently unenforced today. This is not a guarantee for
+        the next routing-table addition, so the check is added here
+        unconditionally, the same as egg, rather than left as a documented
+        risk. Confirmed a no-op against current data — no revert/re-run of
+        beef's compounds.jsonl/spine.jsonl was needed, and no test
+        snapshot changed.
+
+        A routing decision is about a (family, compound_name) OCCURRENCE,
+        not about the resolved identity's global mapping state, so this
+        runs per-row, independent of resolve()'s new/existing branch."""
+        return routing_table.get(raw_compound_name)
+
+    def add_member(product_id, tier, compound_row, evidence_mode, pre_treatment=None, route_override=None):
+        # Any routing verdict — excluded OR unresolved — blocks membership,
+        # regardless of whether resolve() returned a new or a pre-existing
+        # compound (see route_verdict's docstring above). Checked before
+        # the compound_group/mr17_outcome check below so a pre-existing
+        # identity's routing verdict for THIS occurrence isn't silently
+        # skipped just because compound_row itself carries no mr17 fields.
+        if route_override is not None:
+            mr17_excluded_observations.append((
+                product_id, tier, compound_row["compound_id"], compound_row.get("raw_compound"),
+                route_override["mr17_state"], route_override["meaning"],
+            ))
+            return False
         # MR-17: a compound enters a flavour profile only if it carries a
         # resolved compound_group and is not marked flavour_relevant: false.
         # flavour_relevant is False (excluded, reason on record) or None
@@ -791,12 +834,16 @@ def main():
     def _mr17_reason(compound_row):
         return f"mr17_{compound_row.get('mr17_outcome')}: {compound_row.get('mr17_reason')}"
 
+    def _route_reason(route):
+        return f"mr17_{route['mr17_state']} (route_id={route.get('route_id')}): {route['meaning']}"
+
     # --- Detected Beef Muscle (136 rows: 91 Morsli raw/grill + 45 cooked ID-QA) ---
     for row in tabs["Detected Beef Muscle"]:
         name = csv_val(row, "compound_name")
         cas = csv_val(row, "cas")
         group = csv_val(row, "compound_group")
         cid_row = resolver.resolve(str(name), str(cas) if cas else None, group)
+        route = route_verdict(str(name))
         tiers_hit = []
         if csv_val(row, "state_scope") == "cooked beef identification-QA benchmark":
             tiers_hit.append("cooked")
@@ -807,15 +854,17 @@ def main():
                 if is_present(csv_val(row, col)):
                     tiers_hit.append("cooked")
                     break
-        blocked = _mr17_blocked(cid_row)
+        blocked = route is not None or _mr17_blocked(cid_row)
         for tier in tiers_hit:
-            add_member("beef:muscle", tier, cid_row, "measured")
+            add_member("beef:muscle", tier, cid_row, "measured", route_override=route)
         record_obs(source_tab="Detected Beef Muscle", detected_record_id=row.get("detected_record_id"),
                    compound_name=name, cas_given=cas, resolved_compound_id=cid_row["compound_id"],
                    match_method=cid_row.get("match_method"), product_id="beef:muscle",
                    tiers=[] if blocked else tiers_hit, evidence_mode="measured",
                    excluded=blocked or not tiers_hit,
-                   exclusion_reason=_mr17_reason(cid_row) if blocked else (None if tiers_hit else "no_state_column_positive"))
+                   exclusion_reason=(_route_reason(route) if route is not None else
+                                     (_mr17_reason(cid_row) if blocked else
+                                      (None if tiers_hit else "no_state_column_positive"))))
 
     # --- Detected Beef Fat (96 rows, all dry-rendered -> beef:fat, cooked tier) ---
     for row in tabs["Detected Beef Fat"]:
@@ -823,12 +872,14 @@ def main():
         cas = csv_val(row, "cas")
         group = csv_val(row, "normalized_compound_group") or csv_val(row, "source_compound_group")
         cid_row = resolver.resolve(str(name), str(cas) if cas else None, group)
-        added = add_member("beef:fat", "cooked", cid_row, "measured")
+        route = route_verdict(str(name))
+        added = add_member("beef:fat", "cooked", cid_row, "measured", route_override=route)
         record_obs(source_tab="Detected Beef Fat", detected_record_id=row.get("detected_record_id"),
                    compound_name=name, cas_given=cas, resolved_compound_id=cid_row["compound_id"],
                    match_method=cid_row.get("match_method"), product_id="beef:fat",
                    tiers=["cooked"] if added else [], evidence_mode="measured", excluded=not added,
-                   exclusion_reason=_mr17_reason(cid_row) if not added else None)
+                   exclusion_reason=(_route_reason(route) if route is not None else
+                                     (_mr17_reason(cid_row) if not added else None)))
 
     # --- Detected Beef Cure-Smoke (86 rows; T1 smoked+spiced side only enters the smoked tier) ---
     for row in tabs["Detected Beef Cure-Smoke"]:
@@ -836,18 +887,21 @@ def main():
         cas = csv_val(row, "cas")
         group = csv_val(row, "compound_group")
         cid_row = resolver.resolve(str(name), str(cas) if cas else None, group)
+        route = route_verdict(str(name))
         t1 = str(csv_val(row, "t1_detected") or "").strip().lower() == "yes"
         added = False
         if t1:
-            added = add_member("beef:muscle", "smoked", cid_row, "measured", pre_treatment="cured")
+            added = add_member("beef:muscle", "smoked", cid_row, "measured", pre_treatment="cured",
+                                route_override=route)
         else:
             n_cure_smoke_t2_landed_not_profiled += 1
         record_obs(source_tab="Detected Beef Cure-Smoke", detected_record_id=row.get("detected_record_id"),
                    compound_name=name, cas_given=cas, resolved_compound_id=cid_row["compound_id"],
                    match_method=cid_row.get("match_method"), product_id="beef:muscle",
                    tiers=["smoked"] if added else [], evidence_mode="measured", excluded=not added,
-                   exclusion_reason=(_mr17_reason(cid_row) if (t1 and not added) else
-                                     (None if t1 else "t1_not_detected_t2_unsmoked_side_not_a_named_tier")))
+                   exclusion_reason=(_route_reason(route) if (t1 and route is not None) else
+                                     (_mr17_reason(cid_row) if (t1 and not added) else
+                                      (None if t1 else "t1_not_detected_t2_unsmoked_side_not_a_named_tier"))))
 
     # --- Detected Beef Aging (37 rows; folded into RAW tier per corrected Step 2 rule) ---
     for row in tabs["Detected Beef Aging"]:
@@ -855,13 +909,17 @@ def main():
         cas = csv_val(row, "cas")
         group = csv_val(row, "compound_group")
         cid_row = resolver.resolve(str(name), str(cas) if cas else None, group)
-        added = add_member("beef:muscle", "raw", cid_row, "measured", pre_treatment="dry_or_wet_aged_unions_pooled")
+        route = route_verdict(str(name))
+        added = add_member("beef:muscle", "raw", cid_row, "measured",
+                            pre_treatment="dry_or_wet_aged_unions_pooled", route_override=route)
         record_obs(source_tab="Detected Beef Aging", detected_record_id=row.get("detected_record_id"),
                    compound_name=name, cas_given=cas, resolved_compound_id=cid_row["compound_id"],
                    match_method=cid_row.get("match_method"), product_id="beef:muscle",
                    tiers=["raw"] if added else [], evidence_mode="measured",
                    note="folded into raw tier; aging pooled dry+wet, day 0-28, not state-specific",
-                   excluded=not added, exclusion_reason=_mr17_reason(cid_row) if not added else None)
+                   excluded=not added,
+                   exclusion_reason=(_route_reason(route) if route is not None else
+                                     (_mr17_reason(cid_row) if not added else None)))
 
     # --- Verified Beef Profiles (79 rows; excludes BP-052 fat-duplicate and BP-053 spoilage) ---
     for row in tabs["Verified Beef Profiles"]:
@@ -898,12 +956,16 @@ def main():
 
         product_id = csv_val(row, "product_id") or "beef:muscle"
         cid_row = resolver.resolve(str(name), str(cas) if cas else None, group)
-        added = add_member(product_id, tier, cid_row, evidence_mode, pre_treatment=pre_treatment)
+        route = route_verdict(str(name))
+        added = add_member(product_id, tier, cid_row, evidence_mode, pre_treatment=pre_treatment,
+                            route_override=route)
         record_obs(source_tab="Verified Beef Profiles", detected_record_id=record_id,
                    compound_name=name, cas_given=cas, resolved_compound_id=cid_row["compound_id"],
                    match_method=cid_row.get("match_method"), product_id=product_id,
                    tiers=[tier] if added else [], pre_treatment=pre_treatment, evidence_mode=evidence_mode,
-                   excluded=not added, exclusion_reason=_mr17_reason(cid_row) if not added else None,
+                   excluded=not added,
+                   exclusion_reason=(_route_reason(route) if route is not None else
+                                     (_mr17_reason(cid_row) if not added else None)),
                    preparation_state=prep_state)
 
     # --- Verified Beef Fat Profile (1 row) ---
@@ -913,13 +975,15 @@ def main():
         group = csv_val(row, "compound_group")
         evidence_mode = str(csv_val(row, "evidence_mode") or "measured").strip().lower()
         cid_row = resolver.resolve(str(name), str(cas) if cas else None, group)
-        added = add_member("beef:fat", "cooked", cid_row, evidence_mode)
+        route = route_verdict(str(name))
+        added = add_member("beef:fat", "cooked", cid_row, evidence_mode, route_override=route)
         record_obs(source_tab="Verified Beef Fat Profile", detected_record_id=row.get("profile_record_id"),
                    compound_name=name, cas_given=cas, resolved_compound_id=cid_row["compound_id"],
                    match_method=cid_row.get("match_method"), product_id="beef:fat",
                    tiers=["cooked"] if added else [],
                    evidence_mode=evidence_mode, excluded=not added,
-                   exclusion_reason=_mr17_reason(cid_row) if not added else None)
+                   exclusion_reason=(_route_reason(route) if route is not None else
+                                     (_mr17_reason(cid_row) if not added else None)))
 
     with open(BEEF_OBSERVATIONS_OUT, "w") as f:
         for o in observations:
