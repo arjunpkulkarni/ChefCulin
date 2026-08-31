@@ -10,9 +10,9 @@ GitHub cannot host the full FooDB dataset (~1.8 GB). **Bundle the project folder
 npm run pack:demo
 ```
 
-Creates `dist/chefculin-demo-YYYYMMDD.zip` (~1–2 GB) with all vendor data, artifacts, and code. **Too large to email as an attachment** — upload to Google Drive, Dropbox, or WeTransfer and send the link plus `FOUNDERS.md`.
+Creates `dist/chefculin-demo-YYYYMMDD.zip` (~1–2 GB) with all vendor data, artifacts, and code. **Too large to email as an attachment** — upload to Google Drive, Dropbox, or WeTransfer and send the link plus `setupinstructios.md`.
 
-Founders unzip and follow **[FOUNDERS.md](FOUNDERS.md)** — about 5 minutes to `npm run demo`.
+Founders unzip and follow **[setupinstructios.md](setupinstructios.md)** — about 5 minutes to `npm run demo`.
 
 The zip includes `.env` with the demo OpenAI key (founder handoff only — do not commit or publish the zip).
 

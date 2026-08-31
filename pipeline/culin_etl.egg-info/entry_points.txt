@@ -1,0 +1,3 @@
+[console_scripts]
+culin-build = culin_etl.build:main
+culin-serve = culin_etl.serve:main
