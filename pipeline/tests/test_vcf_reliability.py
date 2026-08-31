@@ -337,8 +337,26 @@ def test_form_diffs_nonempty_for_every_multistate_base(vcf_artifacts):
 # (MR-17 occurrence-gating fix + identity-fragmentation audit documented
 # there). Recomputed from the live profiles.jsonl after the full
 # downstream rebuild.
+#
+# Updated 2026-08-31: Furaneol identity merge, explicitly authorized by
+# James on the absence-of-evidence default (non-chiral GC-MS cannot
+# resolve R/S enantiomers; no source in this corpus reports a chiral
+# method for any of the 3 VCF-native Furaneol entries, and the one
+# traceable source — SRC-BEEF-FAT-001, beef's stray entry — confirms
+# ordinary SAFE+GC-MS+GC-O+OAV, no chiral separation). (R)-Furaneol
+# (131222-82-7) and (S)-Furaneol (131222-81-6) repointed to racemic
+# Furaneol (3658-77-3) as permanent raw-name aliases (see
+# compounds.jsonl); beef's stray duplicate
+# (beef:2_5_dimethyl_4_hydroxy_3_2h_furanone) merged the same way via
+# beef_profiles_prebuilt.jsonl. Profile COUNT unchanged (581); GRAPE,
+# STRAWBERRY, and VITIS LABRUSCA L. each drop by 2 compounds (both
+# stereo-labelled duplicates removed, racemic form already present in
+# all three); beef:fat:cooked's count is unchanged (straight
+# substitution). Ethylfuraneol (65330-49-6) is NOT part of this merge —
+# a chemically distinct compound that happens to share the word
+# "furaneol" in its common name, verified separately.
 FROZEN_PROFILE_COMPOUND_COUNT_HASH = (
-    "fd660bb47353e3f0f71e0b0a3ad95c0f5bffc98d4e7f3e55f24282c568cca88d"
+    "03816c1dd9797aa64ab651bfac84fd6b38d2f65ecd44535604674504afc84af0"
 )
 FROZEN_PROFILE_COUNT = 581
 
