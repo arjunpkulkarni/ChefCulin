@@ -96,6 +96,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from vcf_trigger_lib import evaluate_trigger, generate_trigger_description  # noqa: E402
 from ingest_protein_beef import (  # noqa: E402
     normalize_name,
+    loose_key,
     ROUTING_XLSX,
     ROUTING_SHEET,
     VALID_MR17_ROUTING_STATES,
@@ -440,6 +441,60 @@ def test_no_two_compound_ids_share_a_normalized_name(vcf_artifacts):
         f"instances — a resolver is minting a duplicate identity for a "
         f"compound the corpus already has under a name-only provisional "
         f"id: {unexpected_collisions}"
+    )
+
+
+# --- 7c. Standing anchor: no two compound_ids share a LOOSE (space/hyphen- -
+#         collapsed) normalized name. ----------------------------------------
+#
+# James, 2026-08-31: 7b's normalize_name() collapses repeated whitespace but
+# never removes it, so it never caught beef:4_methyl_phenol duplicating the
+# pre-existing p-cresol (106-44-5) — '4-methylphenol (=p-cresol)' normalizes
+# to '4-methylphenol', '4-Methyl phenol' normalizes to '4-methyl phenol',
+# one space apart, no collision detected. Auditing the full corpus
+# vocabulary this way (not just the one reported case) found 5 more
+# instances of the exact same shape, all beef-minted, all sitting in the
+# corpus undetected until this audit: 2,5-dimethylpyrazine,
+# 2-ethyl-5-methylpyrazine, 2-pentylfuran, 3-ethyl-2,5-dimethylpyrazine,
+# trimethylpyrazine. The resolver now has a loose_key() fallback tier (see
+# its docstring in ingest_protein_beef.py) so none of these can be minted
+# again — this test is the standing anchor, same role as 7b, so a future
+# family can't reintroduce the pattern a fourth time undetected.
+#
+# The 6 pairs below are NOT yet merged — that's a data decision pending
+# James's row-by-row review (same gate as the CID-collision candidates and
+# the Furaneol stereochemistry question), not a resolver bug anymore. This
+# allowlist exists so the anchor can go live today without waiting on that
+# review, and should shrink to empty once the merge lands.
+KNOWN_DEFERRED_LOOSE_NAME_COLLISIONS = {
+    frozenset({"123-32-0", "beef:2_5_dimethyl_pyrazine"}),
+    frozenset({"13360-64-0", "beef:2_ethyl_5_methyl_pyrazine"}),
+    frozenset({"3777-69-3", "beef:2_pentyl_furan"}),
+    frozenset({"13360-65-1", "beef:3_ethyl_2_5_dimethyl_pyrazine"}),
+    frozenset({"106-44-5", "beef:4_methyl_phenol"}),
+    frozenset({"14667-55-1", "beef:trimethyl_pyrazine"}),
+}
+
+
+def test_no_two_compound_ids_share_a_loose_normalized_name(vcf_artifacts):
+    compounds = vcf_artifacts["compounds"]
+
+    ids_by_loose_name = defaultdict(set)
+    for c in compounds:
+        ids_by_loose_name[loose_key(c["raw_compound"])].add(c["compound_id"])
+
+    unexpected_collisions = {
+        name: ids
+        for name, ids in ids_by_loose_name.items()
+        if len(ids) > 1 and frozenset(ids) not in KNOWN_DEFERRED_LOOSE_NAME_COLLISIONS
+    }
+
+    assert not unexpected_collisions, (
+        f"{len(unexpected_collisions)} loosely-normalized (space/hyphen-"
+        f"collapsed) compound name(s) map to more than one compound_id, "
+        f"beyond the 6 known-and-deferred instances — a resolver is "
+        f"minting a duplicate identity for a compound the corpus already "
+        f"has under a differently-spaced name: {unexpected_collisions}"
     )
 
 

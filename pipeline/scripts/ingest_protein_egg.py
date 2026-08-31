@@ -467,6 +467,20 @@ def normalize_name(name: str) -> str:
     return s
 
 
+def loose_key(name: str) -> str:
+    """Third-tier match key — see ingest_protein_beef.py's loose_key()
+    docstring (added 2026-08-31, same audit run against the full corpus
+    vocabulary). normalize_name() never removes an internal space, so
+    'p-cresol' stored as '4-methylphenol (=p-cresol)' never matches a
+    source row spelled '4-Methyl phenol'. Ported here defensively: no
+    instance of this pattern was found among egg's own no-CAS names
+    during the 2026-08-30 identity audit (see EGG_IDENTITY_FIXES and the
+    module docstring's compound_identity_fragmentation finding), but
+    egg's resolver shares beef's exact architecture, so the same gap
+    would otherwise be waiting for the next family to trip it."""
+    return re.sub(r"[\s\-]+", "", normalize_name(name))
+
+
 def is_present(val) -> bool:
     if val is None:
         return False
@@ -509,20 +523,24 @@ def land_to_csv(tabs: dict[str, list[dict]]) -> None:
         df.to_csv(VENDOR_DIR / f"{slugify(name)}.csv", index=False)
 
 
-def build_existing_indexes(compound_rows: list[dict]) -> tuple[dict, dict]:
+def build_existing_indexes(compound_rows: list[dict]) -> tuple[dict, dict, dict]:
     by_cas = {r["cas"]: r for r in compound_rows if r.get("cas")}
     by_norm_name = {}
+    by_loose_name = {}
     for r in compound_rows:
         key = normalize_name(r["raw_compound"])
         by_norm_name.setdefault(key, r)
-    return by_cas, by_norm_name
+        by_loose_name.setdefault(loose_key(r["raw_compound"]), r)
+    return by_cas, by_norm_name, by_loose_name
 
 
 def load_crosswalk():
     xw = pd.read_excel(CROSSWALK_XLSX)
     by_norm_name = {}
+    by_loose_name = {}
     for row in xw.itertuples(index=False):
         by_norm_name.setdefault(normalize_name(row.Name), {"cas": row.CAS, "cid": int(row.CID)})
+        by_loose_name.setdefault(loose_key(row.Name), {"cas": row.CAS, "cid": int(row.CID)})
     props_by_cas = {}
     for row in xw.itertuples(index=False):
         def f(v):
@@ -532,7 +550,7 @@ def load_crosswalk():
             except (TypeError, ValueError):
                 return None
         props_by_cas[row.CAS] = {"xlogp": f(row.XLogP), "molecular_weight": f(row.MolecularWeight), "tpsa": f(row.TPSA)}
-    return by_norm_name, props_by_cas
+    return by_norm_name, by_loose_name, props_by_cas
 
 
 class EggCompoundResolver:
@@ -545,8 +563,8 @@ class EggCompoundResolver:
     routing check would have missed that."""
 
     def __init__(self, existing_compound_rows: list[dict], routing_table: dict[str, dict]):
-        self.by_cas, self.by_norm_name = build_existing_indexes(existing_compound_rows)
-        self.crosswalk_by_name, self.crosswalk_props = load_crosswalk()
+        self.by_cas, self.by_norm_name, self.by_loose_name = build_existing_indexes(existing_compound_rows)
+        self.crosswalk_by_name, self.crosswalk_by_loose_name, self.crosswalk_props = load_crosswalk()
         self.new_rows: dict[str, dict] = {}
         self.method_counts: Counter = Counter()
         self.routing_table = routing_table
@@ -571,6 +589,11 @@ class EggCompoundResolver:
             self.method_counts["name_matched_existing_compound"] += 1
             return {**self.by_norm_name[norm], "_new": False}
 
+        loose = loose_key(compound_name)
+        if loose in self.by_loose_name:
+            self.method_counts["name_matched_existing_compound_loose"] += 1
+            return {**self.by_loose_name[loose], "_new": False}
+
         if norm in self.crosswalk_by_name:
             hit = self.crosswalk_by_name[norm]
             resolved_cas = hit["cas"]
@@ -580,6 +603,16 @@ class EggCompoundResolver:
             self.method_counts["name_resolved_via_crosswalk_new_compound"] += 1
             return self._new_compound(compound_name, resolved_cas, group_label, cid=hit["cid"],
                                        match_method="name_resolved_via_crosswalk_new_compound")
+
+        if loose in self.crosswalk_by_loose_name:
+            hit = self.crosswalk_by_loose_name[loose]
+            resolved_cas = hit["cas"]
+            if resolved_cas in self.by_cas:
+                self.method_counts["name_resolved_via_crosswalk_loose_reused_existing"] += 1
+                return {**self.by_cas[resolved_cas], "_new": False}
+            self.method_counts["name_resolved_via_crosswalk_loose_new_compound"] += 1
+            return self._new_compound(compound_name, resolved_cas, group_label, cid=hit["cid"],
+                                       match_method="name_resolved_via_crosswalk_loose_new_compound")
 
         self.method_counts["unmatched"] += 1
         return self._new_compound(compound_name, None, group_label, match_method="unmatched")

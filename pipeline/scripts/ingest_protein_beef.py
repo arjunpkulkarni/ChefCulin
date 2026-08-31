@@ -479,6 +479,29 @@ def normalize_name(name: str) -> str:
     return s
 
 
+def loose_key(name: str) -> str:
+    """Third-tier match key, added 2026-08-31 after auditing the full corpus
+    vocabulary for the same shape of gap that produced beef:4_methyl_phenol
+    (a stray duplicate of the pre-existing p-cresol, CAS 106-44-5).
+    normalize_name() collapses repeated whitespace but never REMOVES a
+    space, so 'p-cresol' the corpus stores as '4-methylphenol (=p-cresol)'
+    (no internal space before 'phenol') never matches a source row spelled
+    '4-Methyl phenol' (with one) — two strings, one molecule, one
+    character apart. Auditing every raw_compound in compounds.jsonl this
+    way found the SAME pattern in 5 more pairs already sitting in the
+    corpus, undetected, all beef-minted, all a stray provisional id next
+    to an existing VCF identity that differs only by a space or hyphen
+    before a trailing ring/group word (pyrazine, furan, phenol):
+    2,5-dimethylpyrazine, 2-ethyl-5-methylpyrazine, 2-pentylfuran,
+    3-ethyl-2,5-dimethylpyrazine, trimethylpyrazine. Commas are preserved
+    (locant separators like '2,5-' carry real information); only
+    whitespace and hyphens are stripped, so this stays a formatting-
+    equivalence key, not a fuzzy one. A miss here still falls through to
+    the crosswalk and then to a new provisional id, same as normalize_name
+    — this raises the bar before minting, it never guesses a match."""
+    return re.sub(r"[\s\-]+", "", normalize_name(name))
+
+
 def is_present(val) -> bool:
     """Detected-table abundance cell: blank/None = not measured in this
     state; a literal 0 = source-reported not detected (per the sheets'
@@ -530,20 +553,24 @@ def land_to_csv(tabs: dict[str, list[dict]]) -> None:
 # unlike VCF, sometimes supplies its own CAS directly.
 # =====================================================================
 
-def build_existing_indexes(compound_rows: list[dict]) -> tuple[dict, dict]:
+def build_existing_indexes(compound_rows: list[dict]) -> tuple[dict, dict, dict]:
     by_cas = {r["cas"]: r for r in compound_rows if r.get("cas")}
     by_norm_name = {}
+    by_loose_name = {}
     for r in compound_rows:
         key = normalize_name(r["raw_compound"])
         by_norm_name.setdefault(key, r)
-    return by_cas, by_norm_name
+        by_loose_name.setdefault(loose_key(r["raw_compound"]), r)
+    return by_cas, by_norm_name, by_loose_name
 
 
 def load_crosswalk_for_beef():
     xw = pd.read_excel(CROSSWALK_XLSX)
     by_norm_name = {}
+    by_loose_name = {}
     for row in xw.itertuples(index=False):
         by_norm_name.setdefault(normalize_name(row.Name), {"cas": row.CAS, "cid": int(row.CID)})
+        by_loose_name.setdefault(loose_key(row.Name), {"cas": row.CAS, "cid": int(row.CID)})
     props_by_cas = {}
     for row in xw.itertuples(index=False):
         def f(v):
@@ -555,13 +582,13 @@ def load_crosswalk_for_beef():
         props_by_cas[row.CAS] = {
             "xlogp": f(row.XLogP), "molecular_weight": f(row.MolecularWeight), "tpsa": f(row.TPSA),
         }
-    return by_norm_name, props_by_cas
+    return by_norm_name, by_loose_name, props_by_cas
 
 
 class BeefCompoundResolver:
     def __init__(self, existing_compound_rows: list[dict], routing_table: dict[str, dict] | None = None):
-        self.by_cas, self.by_norm_name = build_existing_indexes(existing_compound_rows)
-        self.crosswalk_by_name, self.crosswalk_props = load_crosswalk_for_beef()
+        self.by_cas, self.by_norm_name, self.by_loose_name = build_existing_indexes(existing_compound_rows)
+        self.crosswalk_by_name, self.crosswalk_by_loose_name, self.crosswalk_props = load_crosswalk_for_beef()
         self.new_rows: dict[str, dict] = {}  # compound_id -> row, for genuinely new compounds
         self.method_counts: Counter = Counter()
         # {} rather than None default so a resolver built for read-only reuse
@@ -605,6 +632,16 @@ class BeefCompoundResolver:
             self.method_counts["name_matched_existing_compound"] += 1
             return {**self.by_norm_name[norm], "_new": False}
 
+        # 3b. No CAS, no exact-normalized match — try the loose (space/hyphen-
+        #     collapsed) key against the same existing-compound index. See
+        #     loose_key()'s docstring: this is what beef:4_methyl_phenol and
+        #     5 siblings needed and didn't have, found by a full-corpus audit
+        #     2026-08-31, not by a single reported bug.
+        loose = loose_key(compound_name)
+        if loose in self.by_loose_name:
+            self.method_counts["name_matched_existing_compound_loose"] += 1
+            return {**self.by_loose_name[loose], "_new": False}
+
         # 4. No CAS — try normalized name against the crosswalk itself (same resolution VCF's
         #    own canonicalization uses), independent of whether VCF happens to use that compound.
         if norm in self.crosswalk_by_name:
@@ -617,6 +654,17 @@ class BeefCompoundResolver:
             self.method_counts["name_resolved_via_crosswalk_new_compound"] += 1
             return self._new_compound(compound_name, resolved_cas, True, group_label, cid=hit["cid"],
                                        match_method="name_resolved_via_crosswalk_new_compound")
+
+        # 4b. Same loose fallback against the crosswalk, before minting new.
+        if loose in self.crosswalk_by_loose_name:
+            hit = self.crosswalk_by_loose_name[loose]
+            resolved_cas = hit["cas"]
+            if resolved_cas in self.by_cas:
+                self.method_counts["name_resolved_via_crosswalk_loose_reused_existing"] += 1
+                return {**self.by_cas[resolved_cas], "_new": False}
+            self.method_counts["name_resolved_via_crosswalk_loose_new_compound"] += 1
+            return self._new_compound(compound_name, resolved_cas, True, group_label, cid=hit["cid"],
+                                       match_method="name_resolved_via_crosswalk_loose_new_compound")
 
         # 5. Genuinely unmatched — provisional beef:<slug> identity, same convention as VCF's vcf:<slug>.
         self.method_counts["unmatched"] += 1
