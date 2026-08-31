@@ -85,7 +85,10 @@ META_JSON = OUT_DIR / "meta.json"
 # disk but doesn't pass the flag prints that fact loudly rather than
 # staying silent about what it skipped.
 EXTERNAL_PROFILES_DIR = REPO_ROOT / "pipeline" / "artifacts" / "protein"
-EXTERNAL_PROFILE_FILES = [EXTERNAL_PROFILES_DIR / "beef_profiles_prebuilt.jsonl"]
+EXTERNAL_PROFILE_FILES = [
+    EXTERNAL_PROFILES_DIR / "beef_profiles_prebuilt.jsonl",
+    EXTERNAL_PROFILES_DIR / "egg_profiles_prebuilt.jsonl",  # added 2026-08-30, egg ingestion
+]
 
 UBIQUITY_GATE = 0.90
 

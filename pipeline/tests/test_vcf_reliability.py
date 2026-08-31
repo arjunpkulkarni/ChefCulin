@@ -327,10 +327,19 @@ def test_form_diffs_nonempty_for_every_multistate_base(vcf_artifacts):
 # VCF identities. Deliberate, reviewed change — see meta.json's
 # protein_beef_validation entry. Profile COUNT is unchanged (577); only
 # per-product compound counts for the affected beef profiles moved.
+#
+# Updated 2026-08-30: egg ingestion adds 4 profiles
+# (egg:whole_chicken:scrambled, egg:yolk_chicken:boiled,
+# egg:yolk_duck_salted:salted, egg:yolk_duck_salted:roasted_salted) on top
+# of the 577-profile beef baseline -> 581 profiles, N=529 culinary.
+# Deliberate, reviewed change — see meta.json's protein_egg entry
+# (MR-17 occurrence-gating fix + identity-fragmentation audit documented
+# there). Recomputed from the live profiles.jsonl after the full
+# downstream rebuild.
 FROZEN_PROFILE_COMPOUND_COUNT_HASH = (
-    "cccf07aaccc88c2fde24cfb93a6e7622d21848d2f0b9adea458fcb667e893549"
+    "fd660bb47353e3f0f71e0b0a3ad95c0f5bffc98d4e7f3e55f24282c568cca88d"
 )
-FROZEN_PROFILE_COUNT = 577
+FROZEN_PROFILE_COUNT = 581
 
 
 def test_compound_counts_match_frozen_snapshot(vcf_artifacts):
@@ -449,7 +458,12 @@ def test_no_two_compound_ids_share_a_normalized_name(vcf_artifacts):
 # never blending two sources' data together. That's what this rewrite
 # checks instead.
 
-ALLOWED_PROFILE_SOURCES = {"VCF", "culinai_protein_v21"}
+# Updated 2026-08-30: egg ingestion adds a third known source,
+# culinai_protein_v30_egg (see ingest_protein_egg.py's own "rule zero"
+# docstring) — same reasoning as the beef revision above: a new source
+# appearing is the expected, correct state, not a bug, as long as no
+# single profile blends two sources together.
+ALLOWED_PROFILE_SOURCES = {"VCF", "culinai_protein_v21", "culinai_protein_v30_egg"}
 
 
 def test_every_profile_has_single_source(vcf_artifacts):

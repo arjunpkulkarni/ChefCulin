@@ -602,6 +602,10 @@
 {"compound_id": "beef:4_methyl_5_thiazoleethanol", "role": "maillard_marker", "confidence": "high", "basis": "name_pattern", "note": "matched pyrazine/pyrrole/pyridine/thiophene/thiazole/furanone name pattern (group=Sulfur compounds)"}
 {"compound_id": "beef:2_5_dimethyl_4_hydroxy_3_2h_furanone", "role": "maillard_marker", "confidence": "high", "basis": "name_pattern", "note": "matched pyrazine/pyrrole/pyridine/thiophene/thiazole/furanone name pattern (group=Furans)"}
 {"compound_id": "beef:ethenyl_dimethylpyrazine", "role": "maillard_marker", "confidence": "high", "basis": "name_pattern", "note": "matched pyrazine/pyrrole/pyridine/thiophene/thiazole/furanone name pattern (group=Bases)"}
+{"compound_id": "79-50-5", "role": "maillard_marker", "confidence": "high", "basis": "name_pattern", "note": "matched pyrazine/pyrrole/pyridine/thiophene/thiazole/furanone name pattern (group=Furans)"}
+{"compound_id": "32780-06-6", "role": "maillard_marker", "confidence": "high", "basis": "name_pattern", "note": "matched pyrazine/pyrrole/pyridine/thiophene/thiazole/furanone name pattern (group=Furans)"}
+{"compound_id": "5469-16-9", "role": "maillard_marker", "confidence": "high", "basis": "name_pattern", "note": "matched pyrazine/pyrrole/pyridine/thiophene/thiazole/furanone name pattern (group=Furans)"}
+{"compound_id": "egg:2_ethyl_3_6_dimethylpyrazine", "role": "maillard_marker", "confidence": "high", "basis": "name_pattern", "note": "matched pyrazine/pyrrole/pyridine/thiophene/thiazole/furanone name pattern (group=Bases)"}
 {"compound_id": "3913-81-3", "role": "lipid_oxidation_marker", "confidence": "high", "basis": "name_pattern", "note": "unsubstituted C6-C10 alkenal/alkadienal"}
 {"compound_id": "18829-55-5", "role": "lipid_oxidation_marker", "confidence": "high", "basis": "name_pattern", "note": "unsubstituted C6-C10 alkenal/alkadienal"}
 {"compound_id": "6728-26-3", "role": "lipid_oxidation_marker", "confidence": "high", "basis": "name_pattern", "note": "unsubstituted C6-C10 alkenal/alkadienal"}

@@ -9,18 +9,19 @@
   "n_rows_kept": 67206,
   "n_distinct_compounds": 7216,
   "spine": {
-    "n_spine_entries": 357,
-    "n_products_total": 577,
-    "n_products_culinary": 525,
+    "n_spine_entries": 360,
+    "n_products_total": 581,
+    "n_products_culinary": 529,
     "n_products_reference": 52,
     "n_multi_member_entries": 55,
     "n_pure_reference_entries": 42,
     "n_mixed_class_entries": 1,
     "idf_corpus": "culinary",
-    "vocabulary_version": "vcf_spine_v2_plus_beef",
-    "vocabulary_hash": "7bb9bac59464c6b92a1b304eafba79d07213991eef2e6ffcdb28cc5b0d4006c0",
+    "vocabulary_version": "vcf_spine_v2_plus_beef_plus_egg",
     "frozen_at": "2026-08-30T14:13:11+00:00",
-    "vocabulary_version_pre_beef_ingestion": "vcf_spine_v1"
+    "vocabulary_version_pre_beef_ingestion": "vcf_spine_v1",
+    "vocabulary_hash": "8e0b10e01a815e1fc2b552086b20164e3e1d696ba0b0587f3a556f53c4de3ca1",
+    "vocabulary_version_pre_egg_ingestion": "vcf_spine_v2_plus_beef"
   },
   "compounds": {
     "n_raw_compound_strings": 7216,
@@ -44,9 +45,9 @@
     "known_bad_pubchem_cid_note": "16 confirmed-bad crosswalk groups (259 CAS numbers) had their pubchem_cid nulled, including 2 found via a live PubChem re-verification pass over 716 residual collisions and 4 more found by extending that same classifier signature beyond just those collisions (2026-08-29 audit) \u2014 see KNOWN_BAD_PUBCHEM_CID_CAS in this script for the full investigation and its explicit scope limits, including that the crosswalk's much larger unaudited remainder has not been hand-checked. compound_id (CAS-based) is unaffected."
   },
   "phase": {
-    "n_compounds_total": 7308,
-    "n_compounds_with_xlogp": 5193,
-    "xlogp_coverage": 0.7106,
+    "n_compounds_total": 7403,
+    "n_compounds_with_xlogp": 5194,
+    "xlogp_coverage": 0.7016,
     "n_crosswalk_rows_null_xlogp_string": 143,
     "overall_median_xlogp": 2.3,
     "overall_quartiles_xlogp": [
@@ -55,14 +56,14 @@
     ],
     "bucket_counts": {
       "fat_leaning": 2108,
-      "fat_phase": 957,
+      "fat_phase": 958,
       "both_phases": 1861,
       "water_phase": 267
     },
     "bucket_shares": {
       "fat_leaning": 0.4059,
-      "fat_phase": 0.1843,
-      "both_phases": 0.3584,
+      "fat_phase": 0.1844,
+      "both_phases": 0.3583,
       "water_phase": 0.0514
     },
     "group_medians_xlogp": {
@@ -75,7 +76,7 @@
         "median_xlogp": 2.7
       },
       "Phenols": {
-        "n": 203,
+        "n": 204,
         "median_xlogp": 2.6
       },
       "Halogens": {
@@ -144,28 +145,29 @@
     "bucket_cutpoints_note": "water_phase: xlogp<0; both_phases: 0<=xlogp<2; fat_leaning: 2<=xlogp<4; fat_phase: xlogp>=4. Half-open intervals so every value lands in exactly one bucket. Compounds with no xlogp (no CAS match, or a crosswalk '$null$' row) get phase_bucket=null, not defaulted into water_phase."
   },
   "profiles": {
-    "n_profiles_total": 577,
+    "n_profiles_total": 581,
     "n_profiles_vcf_source": 573,
-    "n_profiles_external_source_merged": 4,
+    "n_profiles_external_source_merged": 8,
     "external_profile_sources_seen": [
-      "culinai_protein_v21"
+      "culinai_protein_v21",
+      "culinai_protein_v30_egg"
     ],
     "include_protein_flag_passed": true,
     "external_protein_files_present_but_skipped": [],
-    "n_profiles_culinary": 525,
+    "n_profiles_culinary": 529,
     "n_profiles_reference": 52,
     "median_compounds_per_product": 75,
-    "mean_compounds_per_product": 119.1,
-    "products_with_ge_100_compounds": "206 of 525",
-    "distinct_compounds_culinary": 7043,
-    "compounds_in_exactly_one_product": 2502,
+    "mean_compounds_per_product": 118.5,
+    "products_with_ge_100_compounds": "206 of 529",
+    "distinct_compounds_culinary": 7112,
+    "compounds_in_exactly_one_product": 2564,
     "compounds_in_ge_75pct_products": 0,
     "most_ubiquitous_compound": {
       "compound_id": "100-52-7",
       "raw_compound": "benzaldehyde",
-      "n_products": 314,
-      "of_products": 525,
-      "fraction": 0.5981
+      "n_products": 315,
+      "of_products": 529,
+      "fraction": 0.5955
     },
     "ubiquity_gate_threshold": 0.9,
     "sample_comparison_182_products": {
@@ -179,11 +181,11 @@
     }
   },
   "pairs": {
-    "n_culinary_products_paired": 525,
+    "n_culinary_products_paired": 529,
     "top_k_stored_per_product": 20,
-    "n_pair_rows": 10318,
+    "n_pair_rows": 10398,
     "corpus_scope": "mixed_with_external_protein",
-    "corpus_scope_note": "Derived live from meta['profiles']['n_profiles_external_source_merged'] (4), not hardcoded. median_top1_score values in near_duplicate_suppression below are only comparable to another pairs.jsonl run with the SAME corpus_scope \u2014 a vcf_only run and a mixed_with_external_protein run measure different, non-comparable corpora even though the field name is identical.",
+    "corpus_scope_note": "Derived live from meta['profiles']['n_profiles_external_source_merged'] (8), not hardcoded. median_top1_score values in near_duplicate_suppression below are only comparable to another pairs.jsonl run with the SAME corpus_scope \u2014 a vcf_only run and a mixed_with_external_protein run measure different, non-comparable corpora even though the field name is identical.",
     "coffee_validation": {
       "hazelnut (roasted)": {
         "raw_name": "FILBERT, HAZELNUT (roasted)",
@@ -209,28 +211,28 @@
     "hub_check_top5": [
       {
         "raw_name": "RICE BRAN",
-        "n_top10_appearances": 78,
-        "fraction": 0.1486
+        "n_top10_appearances": 79,
+        "fraction": 0.1493
       },
       {
         "raw_name": "XYLOPIA SPECIES",
         "n_top10_appearances": 75,
-        "fraction": 0.1429
+        "fraction": 0.1418
       },
       {
         "raw_name": "RICE (Oryza sativa L.)",
-        "n_top10_appearances": 65,
-        "fraction": 0.1238
+        "n_top10_appearances": 63,
+        "fraction": 0.1191
       },
       {
         "raw_name": "ETHIOPIAN PEPPER, GUINEA PEPPER (X. aethiopica)",
         "n_top10_appearances": 58,
-        "fraction": 0.1105
+        "fraction": 0.1096
       },
       {
         "raw_name": "SOYBEAN (heated)",
         "n_top10_appearances": 54,
-        "fraction": 0.1029
+        "fraction": 0.1021
       }
     ],
     "hub_check_warn_threshold": 0.4,
@@ -241,8 +243,8 @@
       "n_pairs_suppressed": 0,
       "n_anchors_affected": 0,
       "suppressed_reason_value": "near_duplicate_same_spine",
-      "median_top1_score_after_suppression": 0.2604,
-      "median_top1_score_raw_pre_suppression": 0.2604,
+      "median_top1_score_after_suppression": 0.2595,
+      "median_top1_score_raw_pre_suppression": 0.2595,
       "n_anchors_with_high_overlap_top1": 59,
       "sample_high_overlap_top1_pairs": [
         "ANISE BRANDY/OUZO",
@@ -841,8 +843,8 @@
     "policy_overrides_note": "A human override of this rule's mechanical output \u2014 see POLICY_OVERRIDES in this script for why. 'rule_output' is what classify() computed before the override; 'override' is what was actually written. confidence='override' distinguishes this from the rule's own high/low so a reader never mistakes a deliberate call for the mechanical result."
   },
   "compound_roles": {
-    "n_role_rows": 811,
-    "n_distinct_compounds_with_a_role": 811,
+    "n_role_rows": 815,
+    "n_distinct_compounds_with_a_role": 815,
     "coverage": {
       "smoke_marker": {
         "n_tagged": 29,
@@ -850,10 +852,10 @@
         "gap_note": "Reviewer's spec named 28 compounds explicitly plus 'the remaining alkyl-guaiacol and alkyl-syringol variants' for a total of 36. Only one additional unambiguous alkylguaiacol variant (CAS 80652-16-0) was found by inspecting every Phenols-group compound matching 'methoxyphenol' in this corpus \u2014 giving 29, not 36. Candidates considered and rejected (eugenol-family allyl/propenyl methoxyphenols, likely synthetic antioxidants) are recorded in this script's docstring rather than tagged to hit the target count."
       },
       "maillard_marker": {
-        "n_tagged": 575,
+        "n_tagged": 579,
         "by_compound_group": {
-          "Bases": 352,
-          "Furans": 50,
+          "Bases": 353,
+          "Furans": 53,
           "Halogens": 4,
           "Sulfur compounds": 169
         },
@@ -873,7 +875,7 @@
       "terpene_sesqui": {
         "n_tagged": 68
       },
-      "terpene_split_note": "866 Hydrocarbons-group compounds total (657 with a molecular_weight). Split by EXACT molecular weight (tolerance 0.005), not a rounded band \u2014 see module docstring for the contamination found at rounded MW 134/138/202 (real terpenes mixed with tetramethylbenzenes, 1-decyne, decalin, and \u2014 caught and excluded \u2014 fluoranthene and pyrene, both PAHs, at rounded MW 202). 118 of 866 (13.6%) classified; the rest (plain alkanes/alkenes, aromatic hydrocarbons, diterpenes, and the genuinely ambiguous MW 134/138 bands) are left unclassified rather than guessed."
+      "terpene_split_note": "915 Hydrocarbons-group compounds total (657 with a molecular_weight). Split by EXACT molecular weight (tolerance 0.005), not a rounded band \u2014 see module docstring for the contamination found at rounded MW 134/138/202 (real terpenes mixed with tetramethylbenzenes, 1-decyne, decalin, and \u2014 caught and excluded \u2014 fluoranthene and pyrene, both PAHs, at rounded MW 202). 118 of 915 (12.9%) classified; the rest (plain alkanes/alkenes, aromatic hydrocarbons, diterpenes, and the genuinely ambiguous MW 134/138 bands) are left unclassified rather than guessed."
     }
   },
   "volatility": {
@@ -911,17 +913,17 @@
   "form_diffs": {
     "n_aging_delta_rows_appended": 7,
     "aging_delta_note": "A quantitative value_a/value_b delta (dry-aged vs wet-aged, day 28), not a gained/lost set diff \u2014 kept as its own diff_type so a reader never confuses the two shapes. See ingest_protein_beef.py.",
-    "n_spine_entries_total": 357,
+    "n_spine_entries_total": 360,
     "n_spine_zero_culinary_members": 42,
-    "n_spine_single_state_culinary": 244,
-    "n_spine_multi_state_culinary": 71,
-    "form_lens_size_note": "71 base ingredients have more than one culinary form \u2014 that is the real size of the Form lens from the full pull.",
+    "n_spine_single_state_culinary": 246,
+    "n_spine_multi_state_culinary": 72,
+    "form_lens_size_note": "72 base ingredients have more than one culinary form \u2014 that is the real size of the Form lens from the full pull.",
     "sample_comparison_182_products": {
       "multi_state_of_total_base_names": "24 of 132",
       "note": "4 of the sample's top 6 by member count were essential oils."
     },
-    "n_diff_pairs_unordered": 562,
-    "n_diff_rows_written": 1131,
+    "n_diff_pairs_unordered": 563,
+    "n_diff_rows_written": 1133,
     "df_floor": 3,
     "single_state_spine_ids_sample": [
       "culin:acerola",
@@ -945,7 +947,7 @@
       "culin:bael",
       "culin:banana"
     ],
-    "n_single_state_spine_ids_total": 244,
+    "n_single_state_spine_ids_total": 246,
     "validation_peanut_raw_to_roasted": {
       "from": "PEANUT (raw)",
       "to": "PEANUT (roasted)",
@@ -1024,26 +1026,26 @@
       "terpene_mono",
       "terpene_sesqui"
     ],
-    "n_culinary_products": 525,
+    "n_culinary_products": 529,
     "n_culinary_products_with_role_present": {
-      "lipid_degradation_fragment": 236,
-      "lipid_oxidation_marker": 335,
-      "maillard_marker": 272,
-      "smoke_marker": 193,
+      "lipid_degradation_fragment": 237,
+      "lipid_oxidation_marker": 338,
+      "maillard_marker": 275,
+      "smoke_marker": 194,
       "terpene_mono": 329,
       "terpene_sesqui": 217
     },
     "share_definition": "role_count / len(profile.compound_ids) \u2014 the WHOLE profile, unrestricted"
   },
   "competition": {
-    "n_pairs_scanned": 8123,
-    "n_candidates_same_bucket_excl_both_phases": 2664,
-    "n_competition_rows": 1444,
+    "n_pairs_scanned": 8193,
+    "n_candidates_same_bucket_excl_both_phases": 2666,
+    "n_competition_rows": 1445,
     "n_competition_rows_previous_revision_flat_floor": 297,
     "percentile_gate": 75,
     "tightening": {
-      "dropped_both_phases": 2818,
-      "dropped_below_percentile_gate": 1152,
+      "dropped_both_phases": 2869,
+      "dropped_below_percentile_gate": 1153,
       "dropped_terpene_subtype_neither_clears": 64,
       "dropped_terpene_subtype_mono_vs_sesqui": 4,
       "dropped_suppressed_near_duplicate": 0,
@@ -1051,7 +1053,7 @@
     },
     "conflict_type_counts": {
       "same_group_crowding": 715,
-      "cross_group_carrier": 729
+      "cross_group_carrier": 730
     },
     "conflict_subtype_counts": {
       "mono_crowding": 370,
@@ -1087,38 +1089,38 @@
     },
     "render_mode_counts": {
       "data_only": 1245,
-      "framed": 199
+      "framed": 200
     },
-    "n_rows_with_authored_frame": 199,
+    "n_rows_with_authored_frame": 200,
     "n_rows_without_authored_frame": 1245,
     "bucket_conflict_counts": {
-      "fat_leaning": 1409,
+      "fat_leaning": 1410,
       "fat_phase": 35
     },
     "group_percentiles": {
       "Hydrocarbons": {
-        "n_products": 426,
-        "median_share": 0.1802,
-        "p75_share": 0.3306,
+        "n_products": 427,
+        "median_share": 0.1806,
+        "p75_share": 0.3321,
         "p90_share": 0.5
       },
       "Alcohols": {
-        "n_products": 490,
-        "median_share": 0.1684,
-        "p75_share": 0.2315,
-        "p90_share": 0.3014
+        "n_products": 493,
+        "median_share": 0.1682,
+        "p75_share": 0.2316,
+        "p90_share": 0.3011
       },
       "Carbonyls, aldehydes": {
-        "n_products": 455,
-        "median_share": 0.1062,
+        "n_products": 459,
+        "median_share": 0.1067,
         "p75_share": 0.16,
-        "p90_share": 0.2275
+        "p90_share": 0.2288
       },
       "Acids": {
-        "n_products": 339,
-        "median_share": 0.0882,
-        "p75_share": 0.1497,
-        "p90_share": 0.2388
+        "n_products": 343,
+        "median_share": 0.0884,
+        "p75_share": 0.1485,
+        "p90_share": 0.2384
       },
       "Esters": {
         "n_products": 406,
@@ -1127,28 +1129,28 @@
         "p90_share": 0.3933
       },
       "Carbonyls, ketones": {
-        "n_products": 459,
-        "median_share": 0.0847,
-        "p75_share": 0.1223,
-        "p90_share": 0.1577
+        "n_products": 463,
+        "median_share": 0.085,
+        "p75_share": 0.1226,
+        "p90_share": 0.1576
       },
       "Bases": {
-        "n_products": 267,
+        "n_products": 271,
         "median_share": 0.0667,
         "p75_share": 0.1784,
-        "p90_share": 0.3158
+        "p90_share": 0.313
       },
       "Phenols": {
-        "n_products": 338,
-        "median_share": 0.0447,
-        "p75_share": 0.0747,
-        "p90_share": 0.1257
+        "n_products": 341,
+        "median_share": 0.0451,
+        "p75_share": 0.0748,
+        "p90_share": 0.1273
       },
       "Furans": {
-        "n_products": 370,
-        "median_share": 0.0407,
+        "n_products": 373,
+        "median_share": 0.0411,
         "p75_share": 0.0656,
-        "p90_share": 0.0988
+        "p90_share": 0.0985
       },
       "Lactones": {
         "n_products": 123,
@@ -1157,10 +1159,10 @@
         "p90_share": 0.0355
       },
       "Ethers": {
-        "n_products": 197,
-        "median_share": 0.0118,
-        "p75_share": 0.0217,
-        "p90_share": 0.0327
+        "n_products": 199,
+        "median_share": 0.0121,
+        "p75_share": 0.0222,
+        "p90_share": 0.0333
       },
       "(Ep)oxides, pyrans, coumarins": {
         "n_products": 238,
@@ -1169,10 +1171,10 @@
         "p90_share": 0.05
       },
       "Sulfur compounds": {
-        "n_products": 267,
-        "median_share": 0.036,
-        "p75_share": 0.0991,
-        "p90_share": 0.2175
+        "n_products": 271,
+        "median_share": 0.0366,
+        "p75_share": 0.1021,
+        "p90_share": 0.2222
       },
       "Halogens": {
         "n_products": 88,
@@ -1212,7 +1214,7 @@
       "Esters vs Esters": 154,
       "Alcohols vs Alcohols": 108,
       "Esters vs Hydrocarbons": 68,
-      "Carbonyls, aldehydes vs Hydrocarbons": 62,
+      "Carbonyls, aldehydes vs Hydrocarbons": 63,
       "Alcohols vs Esters": 59,
       "Hydrocarbons vs Phenols": 43,
       "Hydrocarbons vs Hydrocarbons (sesqui_crowding)": 35,
@@ -1237,13 +1239,13 @@
         "median_conflicts": 0.0,
         "p90_conflicts": 3.0,
         "max_conflicts": 6,
-        "pct_dishes_with_zero_conflicts": 65.8
+        "pct_dishes_with_zero_conflicts": 66.2
       },
       "k6": {
         "n_trials": 3000,
         "median_conflicts": 0.0,
         "p90_conflicts": 5.0,
-        "max_conflicts": 15,
+        "max_conflicts": 12,
         "pct_dishes_with_zero_conflicts": 55.7
       }
     },
@@ -1287,7 +1289,7 @@
     },
     "aldehyde_load_crowding_frame": {
       "frame_id": "fat_phase_aldehyde_load_crowding",
-      "n_rows": 156,
+      "n_rows": 157,
       "products": [
         "ACEROLA (Malpighia)",
         "AGASTACHE SPECIES",
@@ -1415,8 +1417,8 @@
     "n_distinct_compounds_in_source": 4664,
     "n_pubchem_cids_unmatched_to_corpus": 1864,
     "n_compounds_with_any_descriptor": 794,
-    "n_compounds_total": 7233,
-    "coverage_fraction": 0.1098,
+    "n_compounds_total": 7328,
+    "coverage_fraction": 0.1084,
     "coverage_check_top30_explanatory_compounds": {
       "n_checked": 30,
       "n_with_any_descriptor": 1,
@@ -1445,7 +1447,7 @@
         "16777-87-0"
       ]
     },
-    "fetched_at": "2026-08-30T14:52:54+00:00"
+    "fetched_at": "2026-08-31T13:15:42+00:00"
   },
   "protein_beef": {
     "family": "beef",
@@ -1753,8 +1755,8 @@
         "BILBERRY (Vaccinium myrtillus L.)",
         "ROOIBOS TEA (Aspalathus linearis)",
         "PECAN (Carya illinoensis Koch)",
-        "WALNUT KERNEL OIL (Juglans regia L.)",
         "MUSSEL",
+        "WALNUT KERNEL OIL (Juglans regia L.)",
         "LAMB'S LETTUCE (Valerianella locusta)"
       ],
       "beef_muscle_cooked_top10": [
@@ -1792,60 +1794,60 @@
         "FIG (Ficus carica L.)",
         "CRAYFISH",
         "RICE BRAN",
-        "PORK, UNCURED (boiled, cooked)",
         "MUSHROOM",
-        "PARBOILED RICE (cooked)"
+        "PORK, UNCURED (boiled, cooked)",
+        "POPCORN"
       ],
       "n_fat_or_oil_adjacent_in_top10": 0,
       "assessment": "PASSES, on a corrected reading of what Step 8 actually asked. The original spec sentence ('should match other rendered fats AND lipid-oxidation-heavy products') was two predictions joined by 'and', built on an unstated premise \u2014 'fats group with fats' \u2014 that is chemically false: olive oil's volatiles (hexenals, terpenes, phenolics) and beef tallow's (long-chain aldehydes, 2-alkenals, dienals from saturated-fat oxidation) are aromatically unrelated. Being 'a fat' is a phase/carrier property (already handled by phase_bucket + XLogP, not by this pairing metric) \u2014 it does not predict shared-volatile pairing. Only the second clause was ever a valid test, and it PASSES: the rank-1 match (pecan) shares 36 compounds, dominated by lipid-oxidation aldehydes ((E,E)-2,4-nonadienal, (E)-2-undecenal) and related alcohols \u2014 pecan is itself a lipid-rich nut whose own oxidation chemistry genuinely overlaps rendered fat's. n_fat_or_oil_adjacent_in_top10=0 is therefore reported as a fact, not a failure \u2014 the 'no named oils/fats in top 10' criterion it measures was never a valid pairing test to begin with. At 96 compounds, beef:fat is above VCF's own 75-compound culinary median; it is not a thin profile. Ship it."
     },
     "score_distribution_comparison": {
       "vcf_top1_score": {
-        "median": 0.2612,
-        "mean": 0.3119,
-        "n": 521
+        "median": 0.2605,
+        "mean": 0.3107,
+        "n": 525
       },
       "beef_top1_score": {
-        "median": 0.1152,
+        "median": 0.1154,
         "mean": 0.1224,
         "n": 4
       },
       "vcf_mean_of_top20_score": {
-        "median": 0.1546,
-        "mean": 0.1582
+        "median": 0.1547,
+        "mean": 0.1579
       },
       "beef_mean_of_top20_score": {
-        "median": 0.0867,
-        "mean": 0.086
+        "median": 0.0869,
+        "mean": 0.0862
       },
       "gap_note": "Beef's median top-1 IDF-cosine score is roughly a third of VCF's median top-1 score (0.11 vs 0.32) despite beef profiles having 73-124 compounds each \u2014 comparable in RAW COUNT to VCF's own 75-compound median. The profile-size problem Step 5 warned about is real, but it shows up as SCORE MAGNITUDE, not compound count: beef's detected tables extract common lipid-oxidation/Maillard markers (widely shared, low IDF) more than rare, high-IDF diagnostic compounds, so the numerator (shared high-IDF compounds with any given match) stays modest relative to the denominator (each side's own vector norm). This is evidence FOR the Step 5 decision (partial_profile_state_in_the_lens, not a hand-tuned normalization factor this pass has no ground truth to calibrate) rather than something the decision failed to anticipate.",
       "per_beef_product": {
         "beef:muscle:raw": {
-          "top1_score": 0.1729,
-          "mean_top20_score": 0.1202
+          "top1_score": 0.1726,
+          "mean_top20_score": 0.1203
         },
         "beef:muscle:cooked": {
-          "top1_score": 0.1384,
-          "mean_top20_score": 0.106
+          "top1_score": 0.1386,
+          "mean_top20_score": 0.1064
         },
         "beef:muscle:smoked": {
-          "top1_score": 0.0861,
-          "mean_top20_score": 0.0504
+          "top1_score": 0.0863,
+          "mean_top20_score": 0.0505
         },
         "beef:fat:cooked": {
-          "top1_score": 0.0921,
-          "mean_top20_score": 0.0674
+          "top1_score": 0.0922,
+          "mean_top20_score": 0.0675
         }
       }
     },
     "residual_neighbour_density_diagnostic": {
       "hypothesis": "Beef sits in a sparse region of the corpus (17 VCF Meat & Poultry products vs. 131 fruits) \u2014 top-1 score partly measures neighbour density, not profile quality.",
       "n_vcf_meat_poultry_products": 17,
-      "vcf_meat_poultry_median_top1_score": 0.202,
-      "vcf_meat_poultry_mean_top1_score": 0.2316,
-      "beef_median_top1_score": 0.1152,
-      "honest_corpus_median_top1_score": 0.2612,
-      "reading": "0.202 \u2014 lands BETWEEN the spec's two named outcomes (~0.13 vs ~0.26), neither cleanly. VCF's own meat & poultry products score meaningfully lower than the honest whole-corpus median (0.2612) \u2014 ratio 0.77, roughly consistent with 'sparse category, fewer close neighbours' partially explaining the original gap. But beef itself STILL scores well below its own category's peers, not just below the whole corpus: ratio 0.57 \u2014 beef scores roughly half what its own category's peers score. Reading: neighbour density explains PART of the original ~2x gap (meat & poultry as a category trails the full corpus), but does NOT explain all of it \u2014 beef underperforms even sparse-category peers. Not forced into either of the spec's two named outcomes; recorded as a mixed result, with the unexplained portion left open rather than assigned a cause this pass has no evidence for. Two outlier VCF meat scores (PORK, CURED (smoked) / PORK, UNCURED (smoked), both ~0.40-0.46 against CUTTLEFISH) pull the category mean above its median \u2014 median is the more robust number here and is what this reading uses."
+      "vcf_meat_poultry_median_top1_score": 0.2021,
+      "vcf_meat_poultry_mean_top1_score": 0.2317,
+      "beef_median_top1_score": 0.1154,
+      "honest_corpus_median_top1_score": 0.2605,
+      "reading": "0.2021 \u2014 lands BETWEEN the spec's two named outcomes (~0.13 vs ~0.26), neither cleanly. VCF's own meat & poultry products score meaningfully lower than the honest whole-corpus median (0.2605) \u2014 ratio 0.78, roughly consistent with 'sparse category, fewer close neighbours' partially explaining the original gap. But beef itself STILL scores well below its own category's peers, not just below the whole corpus: ratio 0.57 \u2014 beef scores roughly half what its own category's peers score. Reading: neighbour density explains PART of the original ~2x gap (meat & poultry as a category trails the full corpus), but does NOT explain all of it \u2014 beef underperforms even sparse-category peers. Not forced into either of the spec's two named outcomes; recorded as a mixed result, with the unexplained portion left open rather than assigned a cause this pass has no evidence for. Two outlier VCF meat scores (PORK, CURED (smoked) / PORK, UNCURED (smoked), both ~0.40-0.46 against CUTTLEFISH) pull the category mean above its median \u2014 median is the more robust number here and is what this reading uses."
     },
     "df1_rarity_mechanism": {
       "hypothesis": "IDF-cosine's denominator penalizes profiles built from many unshared/rare (df=1) compounds \u2014 a high-IDF unshared compound inflates a profile's own norm without ever contributing to any numerator.",
@@ -1868,8 +1870,8 @@
       "beef_muscle_cooked_vs_MUTTON_boiled": {
         "beef:muscle:cooked": {
           "n_compounds": 121,
-          "n_df1": 14,
-          "pct_df1": 11.6,
+          "n_df1": 13,
+          "pct_df1": 10.7,
           "n_df3": 19,
           "pct_df3": 15.7
         },
@@ -1893,8 +1895,8 @@
     },
     "open_gap_summary": {
       "beef_vs_honest_corpus_median_top1_score": {
-        "beef": 0.1152,
-        "honest_corpus": 0.2612,
+        "beef": 0.1154,
+        "honest_corpus": 0.2605,
         "ratio": 0.44
       },
       "mechanisms_examined": {
@@ -1907,5 +1909,136 @@
     },
     "conflicts_per_dish": "see meta.competition \u2014 k4 median=0/p90=3, k6 median=0/p90=5, matching the target",
     "profile_source_integrity": "see pipeline/tests/test_vcf_reliability.py::test_every_profile_has_single_source and ::test_beef_profiles_carry_single_correct_source \u2014 both pass"
+  },
+  "protein_egg": {
+    "family": "egg",
+    "profile_source": "culinai_protein_v30_egg",
+    "source_workbook_provenance": {
+      "staging_workbook": {
+        "filename": "CulinAI_Staging_v30.xlsx",
+        "sha256": "faece790f7a9c014d1c3f30668b147873a115908da28bc42bcf92e3670821810"
+      },
+      "note": "Single workbook for both Detected/Sensomics tables and the Exclusion Routing Audit tab \u2014 unlike beef, there is no earlier version predating the routing tab to reconcile."
+    },
+    "tabs_ingested": {
+      "Detected Egg Boiled Yolk": 123,
+      "Detected Egg Salted Yolk": 45,
+      "Egg Scrambled Sensomics": 22
+    },
+    "product_split": {
+      "egg:yolk_chicken": "Detected Egg Boiled Yolk -> boiled tier only",
+      "egg:yolk_duck_salted": "Detected Egg Salted Yolk -> salted + roasted_salted tiers (18 salted / 43 roasted_salted / 16 shared, all 45 rows accounted for)",
+      "egg:whole_chicken": "Egg Scrambled Sensomics -> scrambled tier only",
+      "egg:white_chicken": "NOT ingested this pass \u2014 every chicken-white source in Egg Product Coverage is 'full_table_pending'; no row-level table exists yet. Nothing fabricated to fill this gap."
+    },
+    "boiled_yolk_inline_routing_cross_check": {
+      "note": "Detected Egg Boiled Yolk carries its own culinary_relevance_route column per row, unlike Salted Yolk/Scrambled which rely entirely on GROUP_MAP + the routing table. Cross-checked its two excluded rows against the Exclusion Routing Audit tab's own family=egg entries: both agree exactly (Cyclotetrasiloxane/ER-006 analytical_background; Dibutyl phthalate/ER-007 present_not_flavor_relevant). No discrepancy found.",
+      "n_excluded_present_not_flavor_relevant": 1,
+      "n_excluded_analytical_background": 1,
+      "n_included_with_quality_caution": 2
+    },
+    "mr17_precedence_generalization": {
+      "finding_1_label_gated": "Beef's _new_compound() only consults the routing table when a compound's group label fails to map. Egg's Dibutyl phthalate (DEY-SALT-040, ER-008) has compound_group='Esters', which maps cleanly via GROUP_MAP, yet the workbook explicitly excludes it by name. Beef's label-gated shortcut would have missed this.",
+      "finding_2_identity_gated_the_one_that_actually_broke_the_first_run": "Worse: Dibutyl phthalate already exists in VCF's own corpus as an ordinary compound (compound_group='Esters', df_culinary=37 \u2014 used in 37 VCF products, predating MR-17 entirely). resolve() returns that existing row before _new_compound() is ever called, so ANY routing check placed inside _new_compound() \u2014 including the fix for finding 1 \u2014 silently never fires. Found by checking actual output against expected exclusion counts on the first run of this script (Detected Egg Salted Yolk showed 0 excluded rows when ER-008 says it should show 1), not by re-reading the code.",
+      "resolution": "route_verdict() runs at the per-ROW level in main(), for every table without its own inline verdict column, independent of whether resolve() returned a new or a reused compound \u2014 a routing decision is about a (family, compound_name) OCCURRENCE, not a global identity fact, so it cannot correctly live only inside the new-compound path. This is a stricter reading of the SAME MR-17 rule beef's own prose already states ('not marked flavour_relevant: false'), not a new rule.",
+      "beef_not_retrofitted": "Beef's script is unchanged by either finding \u2014 out of scope for this pass, same as DI-BEEF-001's own handling. Whether any of beef's own routing-table compounds already existed elsewhere in the corpus before beef's ingestion ran (which would mean beef has this same silent-miss risk today, undetected because beef has no per-family cross-check the way this run's actual-vs-expected exclusion count happened to catch) has not been checked. Flagged for James to decide whether it needs a look before more families are added."
+    },
+    "provisional_routing_pending_confirmation": {
+      "compounds": [
+        "Nitrous oxide",
+        "Butane, 1-isocyano-"
+      ],
+      "n_new_compound_rows_affected": 2,
+      "why": "Neither compound has a GROUP_MAP hit or a row in CulinAI_Staging_v30.xlsx's Exclusion Routing Audit tab for family=egg. James was unreachable for the rest of the day and had already asked ingestion to proceed rather than wait; a code-authored placeholder was used so the run completes instead of aborting on two trace compounds, exactly as the routing gate would otherwise force. NOT a workbook decision \u2014 supersede this the moment a real ER-xxx row exists for either compound.",
+      "detail": {
+        "Nitrous oxide": {
+          "mr17_state": "analytical_background",
+          "authority": "PROVISIONAL \u2014 code-authored, not workbook-sourced (2026-08-30)",
+          "meaning": "An inorganic atmospheric/carrier gas, not an organic flavor compound in any of VCF's 18 fixed groups; most plausible read is a headspace-method background artifact rather than a genuine egg constituent. No corpus precedent to ground this against (VCF has no existing Nitrous oxide entry at all). James has not confirmed this.",
+          "route_id": null
+        },
+        "Butane, 1-isocyano-": {
+          "mr17_state": "unresolved",
+          "authority": "PROVISIONAL \u2014 code-authored, not workbook-sourced (2026-08-30)",
+          "meaning": "An isocyanide \u2014 a real, if unusual in food chemistry, functional group. Unlike Nitrous oxide, there is no confident basis here to call it non-flavor-relevant; held pending rather than excluded. No corpus precedent (VCF has no existing isonitrile-classified compound to ground a mapping against either). James has not confirmed this.",
+          "route_id": null
+        }
+      }
+    },
+    "compound_identity_fragmentation": {
+      "finding": "Checked every no-CAS egg compound name (Boiled Yolk, Scrambled Sensomics \u2014 CAS-given rows are anchored and immune) against compounds.jsonl and the crosswalk under exact and stereo/locant-prefix-stripped normalization. 6 genuine near-misses found and fixed via EGG_IDENTITY_FIXES so this run doesn't ADD to the problem: (+)-2-Bornanone, (S)-(+)-3-Methyl-1-pentanol, 3-(Methylsulfanyl)propanal (methional), 3-Hydroxy-4,5-dimethyl-2(5H)-furanone (sotolon), 4-Hydroxy-2,5-dimethyl-3(2H)-furanone, 4-Methylphenol (p-cresol), trans-4,5-Epoxy-(E)-2-decenal.",
+      "pre_existing_fragmentation_surfaced_not_fixed": {
+        "furaneol": "Now 4 identities in the corpus: (R)-131222-82-7, (S)-131222-81-6, this run's racemic 3658-77-3 (correctly pinned), and beef's stray word-order-shifted 'beef:2_5_dimethyl_4_hydroxy_3_2h_furanone' (beef's own occurrence never matched the crosswalk's racemic entry \u2014 different word order, exact-string-only matching, same failure mode this run's EGG_IDENTITY_FIXES exists to prevent).",
+        "p_cresol": "Two identities: the real CAS 106-44-5 entry, and beef's stray 'beef:4_methyl_phenol' (a space-vs-hyphen mismatch, same root cause).",
+        "note": "Not retroactively merged \u2014 that needs a deliberate rebuild, same rule as beef's own documented (E,E)-2,4-Heptadienal/Pentadecanal cases. Reported so it doesn't stay invisible a second time."
+      }
+    },
+    "compound_resolution": {
+      "match_method_counts": {
+        "unmatched": 88,
+        "name_matched_existing_compound": 51,
+        "cas_given_reused_existing": 44,
+        "cas_given_new_compound": 7
+      },
+      "n_new_compounds_added": 95,
+      "n_new_compounds_unmapped_group_unresolved_pending": 0
+    },
+    "profiles_built": [
+      {
+        "product_id": "egg:whole_chicken:scrambled",
+        "n_compounds": 17,
+        "n_df_eligible": 17
+      },
+      {
+        "product_id": "egg:yolk_chicken:boiled",
+        "n_compounds": 87,
+        "n_df_eligible": 87
+      },
+      {
+        "product_id": "egg:yolk_duck_salted:roasted_salted",
+        "n_compounds": 42,
+        "n_df_eligible": 42
+      },
+      {
+        "product_id": "egg:yolk_duck_salted:salted",
+        "n_compounds": 18,
+        "n_df_eligible": 18
+      }
+    ],
+    "mr15_straight_chain_alkane_guard_note": {
+      "egg_alkanes_checked": [
+        "Decane",
+        "Dodecane",
+        "Heptadecane",
+        "Hexadecane",
+        "Nonane",
+        "Pentadecane",
+        "Tetradecane",
+        "Tridecane",
+        "Undecane"
+      ]
+    }
+  },
+  "compound_disease": {
+    "source": "FoodAtlas v4.9 (Apache-2.0), source KGC run 20260821T135611Z, released 2026-08-21",
+    "provenance_note": "Blocked earlier in this build \u2014 the parquet bundle wasn't present in this environment and there was no Drive file id for it in the spec's Inputs section (unlike the VCF CSVs and crosswalk). James supplied it directly as a connected device folder ('foodatlas-v4.9') after being asked.",
+    "join_method": "PubChem CID (compounds.jsonl's pubchem_cid, from Step 3b) against FoodAtlas chemical entities' external_ids.pubchem_compound \u2014 FoodAtlas has no CAS field on chemical entities, so CID is the only join key that exists on both sides. Output rows are still keyed by our own CAS-based compound_id.",
+    "n_foodatlas_disease_entities": 13298,
+    "n_foodatlas_positive_correlation_triplets": 84099,
+    "n_foodatlas_negative_correlation_triplets": 46757,
+    "n_vcf_distinct_pubchem_cids": 4664,
+    "n_vcf_cids_matched_in_foodatlas": 2354,
+    "n_cids_matching_multiple_foodatlas_entities": 84,
+    "multi_entity_cid_note": "84 PubChem CID(s) matched more than one FoodAtlas chemical entity (FoodAtlas's own duplicate/legacy-record noise). Policy: union their disease edges rather than adjudicate by hand \u2014 acceptable because this table isn't read by any lens yet (spec: 'build now, don't surface'); revisit if that changes.",
+    "n_rows_written": 9016,
+    "n_distinct_compounds_with_disease_edges": 533,
+    "n_distinct_diseases_touched": 1514,
+    "n_rows_with_evidence_pmid": 9016,
+    "n_rows_with_trust_score": 0,
+    "trust_score_sparsity_note": "trust_score is null on every row in this release, by construction, not as missing data: trust_signals.parquet's 5377 rows cover only LLM-literature-mining-sourced attestations (lit2kg:*), which back a different edge type (CONTAINS). Every r3/r4 disease-correlation attestation in this release comes from FoodAtlas's 'ctd' source instead, and the overlap between the two attestation sets is exactly zero (verified). The averaging logic is implemented and will activate automatically if a future FoodAtlas release scores CTD attestations or adds another scored disease-correlation source.",
+    "evidence_source_note": "Every r3/r4-backing attestation in this release comes from FoodAtlas's 'ctd' source (Comparative Toxicogenomics Database), every one of which cites a real PMID. FoodAtlas's own source_type='pubmed' evidence rows back a different edge type (r1/CONTAINS) and are not used here.",
+    "n_chemical_disease_pairs_with_conflicting_direction": 470,
+    "conflicting_direction_note": "470 (compound, disease) pair(s) have BOTH a positive and a negative correlation row \u2014 conflicting literature, not a bug. Both rows are kept; direction is a per-row field here, not a per-pair verdict.",
+    "not_wired_into_any_lens": "Per spec: stored, not displayed. Surfacing food-disease correlations is a regulated health claim. No frontend or API code reads this table."
   }
 }
