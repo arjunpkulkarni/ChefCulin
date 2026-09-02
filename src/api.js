@@ -58,6 +58,27 @@ export async function compound(ingredient, n = 24) {
   return get('/compound', { ingredient, n })
 }
 
+/** VCF compound layer — shared-compound neighbours for one spine entry (§2.3). */
+export async function vcfPairs(spineId, n = 24) {
+  return get('/vcf/pairs', { spine_id: spineId, n })
+}
+
+/** VCF form diffs for one spine entry, with an explicit coverage state (§2.4). */
+export async function vcfForms(spineId, n = 24) {
+  return get('/vcf/forms', { spine_id: spineId, n })
+}
+
+/** VCF phase-behaviour rows for one product (§2.5). */
+export async function vcfPhase(productId, { against = null, n = 24 } = {}) {
+  return get('/vcf/phase', { product_id: productId, against, n })
+}
+
+/** Counts and provenance for the VCF tables — used by lens disclosure (§2.7). */
+export async function vcfMeta() {
+  return get('/vcf/meta')
+}
+
+
 export async function techniques(ingredient, n = 10) {
   return get('/techniques', { ingredient, n })
 }

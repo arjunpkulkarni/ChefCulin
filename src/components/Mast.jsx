@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { useWorkspace } from '../context/WorkspaceContext.jsx'
-import { searchIngredients } from '../data/ingredients.js'
+import { searchSpine, SPINE_PICKER_LIST } from '../lib/spineResolve.js'
 
 export default function Mast() {
   const {
@@ -29,7 +29,10 @@ export default function Mast() {
     return () => document.removeEventListener('click', onDoc)
   }, [setScopeMenuOpen])
 
-  const focusHits = searchIngredients(focusQuery, { limit: 30 })
+  // Spine, not the Foodb list: of 933 Foodb names only 148 had any route into
+  // the compound layer, so 84% of what a chef could pick led nowhere. Every
+  // name offered here resolves by construction (see spineResolve.test.js).
+  const focusHits = searchSpine(focusQuery, { limit: 30 })
 
   return (
     <div className="mast">
@@ -54,23 +57,24 @@ export default function Mast() {
                   type="search"
                   value={focusQuery}
                   autoFocus
-                  placeholder="Search Foodb list (933)…"
+                  placeholder={`Search ingredients (${SPINE_PICKER_LIST.length})…`}
                   onChange={(e) => setFocusQuery(e.target.value)}
                   aria-label="Search focus ingredient"
                 />
                 <div className="focus-hits">
-                  {focusHits.map((name) => (
+                  {focusHits.map((hit) => (
                     <button
-                      key={name}
+                      key={`${hit.spine_id}:${hit.member_id}`}
                       type="button"
-                      className={`focus-hit${name === focusIngredient ? ' on' : ''}`}
+                      className={`focus-hit${hit.label === focusIngredient ? ' on' : ''}`}
+                      title={hit.product_group || ''}
                       onClick={() => {
-                        setFocusIngredient(name)
+                        setFocusIngredient(hit.label)
                         setFocusOpen(false)
                         setFocusQuery('')
                       }}
                     >
-                      {name}
+                      {hit.label}
                     </button>
                   ))}
                   {!focusHits.length && <div className="focus-empty">No matches</div>}

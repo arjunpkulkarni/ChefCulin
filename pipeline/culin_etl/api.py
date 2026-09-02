@@ -14,9 +14,14 @@ from culin_etl.compound_network import index_neighbors, top_compound_neighbors
 from culin_etl.lookup import index_cooccur, index_techniques, top_cooccur, top_techniques
 from culin_etl.normalize import canonicalize
 from culin_etl.palate import PalateStore, get_database_url
+from culin_etl.vcf_serve import DEFAULT_VCF, empty_vcf_tables, load_vcf_tables
 
 DEFAULT_ARTIFACTS = Path(__file__).resolve().parents[1] / "artifacts" / "corpus"
 DEFAULT_COMPOUND = Path(__file__).resolve().parents[1] / "artifacts" / "compound"
+
+# Which table the Compound lens answers from. "pairs" is the VCF compound layer;
+# "flavor_network" is the vendored Ahn/FooDB projection the prototype shipped on.
+COMPOUND_SOURCE = os.environ.get("CULIN_COMPOUND_SOURCE", "pairs")
 
 
 class PalateSaveBody(BaseModel):
@@ -53,6 +58,8 @@ def create_app(
     compound: Optional[dict] = None,
     compound_dir: Optional[Path] = None,
     palate_store: Optional[PalateStore] = None,
+    vcf: Optional[dict] = None,
+    vcf_dir: Optional[Path] = None,
 ) -> FastAPI:
     """
     Serve precomputed cooccur/technique tables + Palate Memory.
@@ -83,6 +90,10 @@ def create_app(
             compound = {"neighbors": [], "meta": {}, "_dir": str(croot.resolve())}
     else:
         compound.setdefault("_dir", "memory")
+
+    if vcf is None:
+        vroot = Path(vcf_dir or os.environ.get("CULIN_VCF", DEFAULT_VCF))
+        vcf = load_vcf_tables(vroot) if (vroot / "spine.jsonl").exists() else empty_vcf_tables(vroot)
 
     co_idx = index_cooccur(artifacts["cooccur"])
     tech_idx = index_techniques(artifacts["ingredient_technique"])
@@ -126,6 +137,9 @@ def create_app(
             "compound_edges": len(compound["neighbors"]),
             "technique_edges": len(artifacts["ingredient_technique"]),
             "palate_db": palate_ok,
+            "compound_source": COMPOUND_SOURCE,
+            "vcf_artifacts": vcf.get("_dir"),
+            "vcf": vcf.get("counts"),
         }
 
     @app.get("/meta")
@@ -178,6 +192,107 @@ def create_app(
         }
 
     # ---------- Palate Memory ----------
+
+    # ---------------------------------------------------------------- VCF --
+
+    def _culinary_members(entry: dict) -> list[dict]:
+        return [m for m in (entry.get("members") or []) if m.get("class") == "culinary"]
+
+    @app.get("/vcf/spine")
+    def vcf_spine(spine_id: str = Query(...)):
+        entry = vcf["spine_by_id"].get(spine_id)
+        if entry is None:
+            raise HTTPException(status_code=404, detail=f"no spine entry {spine_id}")
+        return entry
+
+    @app.get("/vcf/pairs")
+    def vcf_pairs(
+        spine_id: str = Query(..., description="anchor spine id, e.g. culin:coffee"),
+        n: int = Query(24, ge=1, le=200),
+    ):
+        """
+        Shared-compound neighbours for one spine entry.
+
+        Returns the compounds, not just the score: a chef cannot verify 0.211,
+        but "they share pyrroles and pyrazines" is evidence they can act on.
+        """
+        rows = vcf["pairs_by_spine"].get(spine_id, [])[:n]
+        return {
+            "spine_id": spine_id,
+            "source": "pairs",
+            "count": len(rows),
+            "results": rows,
+        }
+
+    @app.get("/vcf/forms")
+    def vcf_forms(spine_id: str = Query(...), n: int = Query(24, ge=1, le=200)):
+        """
+        Form diffs for one spine entry, plus an explicit coverage state.
+
+        A lens must be able to say "one known culinary form" and "not in the
+        corpus" differently — absence of diff rows means both, and inferring
+        which from the absence is exactly the guess this endpoint removes.
+        """
+        entry = vcf["spine_by_id"].get(spine_id)
+        if entry is None:
+            return {"spine_id": spine_id, "coverage": "not_in_corpus", "count": 0, "results": []}
+        n_culinary = len(_culinary_members(entry))
+        if n_culinary == 0:
+            coverage = "not_in_corpus"
+        elif n_culinary == 1:
+            coverage = "single_form"
+        else:
+            coverage = "multi_form"
+        rows = vcf["forms_by_spine"].get(spine_id, [])[:n]
+        return {
+            "spine_id": spine_id,
+            "coverage": coverage,
+            "n_culinary_members": n_culinary,
+            "count": len(rows),
+            "results": rows,
+        }
+
+    @app.get("/vcf/phase")
+    def vcf_phase(
+        product_id: int = Query(..., description="vcf_product_id of one plate component"),
+        against: Optional[int] = Query(None, description="optional second product id"),
+        n: int = Query(24, ge=1, le=200),
+    ):
+        """
+        Phase-behaviour rows for a product, with the authored sentence attached
+        where one fires.
+
+        render_mode is the contract: "framed" rows carry a sentence authored in
+        phase_frames.jsonl and it is rendered verbatim; "data_only" rows carry
+        shares and percentiles and nothing else. There is deliberately no
+        fallback sentence for data_only — a generic default would satisfy the
+        letter of "no sentence outside phase_frames.jsonl" while doing the exact
+        damage that rule exists to prevent, leaving the chef an alert they
+        cannot interpret and teaching them to dismiss the category.
+        """
+        rows = vcf["competition_by_product"].get(product_id, [])
+        if against is not None:
+            rows = [
+                r for r in rows
+                if against in (r.get("vcf_product_id_a"), r.get("vcf_product_id_b"))
+            ]
+        frames = {f["frame_id"]: f for f in vcf["phase_frames"]}
+        out = []
+        for r in rows[:n]:
+            row = dict(r)
+            frame = frames.get(r.get("frame_id")) if r.get("frame_id") else None
+            row["sentence"] = frame["sentence"] if frame else None
+            out.append(row)
+        return {
+            "product_id": product_id,
+            "count": len(out),
+            "n_framed": sum(1 for r in out if r.get("sentence")),
+            "results": out,
+        }
+
+    @app.get("/vcf/meta")
+    def vcf_meta():
+        return {"counts": vcf.get("counts"), "dir": vcf.get("_dir"), "meta": vcf.get("meta") or {}}
 
     def _require_store() -> PalateStore:
         if store is None:
