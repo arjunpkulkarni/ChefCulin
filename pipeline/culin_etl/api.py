@@ -24,6 +24,18 @@ DEFAULT_COMPOUND = Path(__file__).resolve().parents[1] / "artifacts" / "compound
 COMPOUND_SOURCE = os.environ.get("CULIN_COMPOUND_SOURCE", "pairs")
 
 
+class LlmChatBody(BaseModel):
+    """An OpenAI chat-completions body, minus the credential."""
+
+    messages: list[dict] = Field(default_factory=list)
+    model: Optional[str] = None
+    temperature: Optional[float] = None
+    tools: Optional[list[dict]] = None
+    tool_choice: Optional[Any] = None
+    response_format: Optional[dict] = None
+    max_tokens: Optional[int] = None
+
+
 class PalateSaveBody(BaseModel):
     user_id: str
     dish: list[Any] = Field(default_factory=list)
@@ -192,6 +204,59 @@ def create_app(
         }
 
     # ---------- Palate Memory ----------
+
+    # ---------------------------------------------------------------- LLM --
+
+    @app.post("/llm/chat")
+    def llm_chat(body: LlmChatBody):
+        """
+        Proxy chat completions so the OpenAI key stays server-side (§2.9).
+
+        As a VITE_ variable the key compiles into the browser bundle and is
+        readable from the network tab of any hosted page. Localhost is fine;
+        a demo link is not. The key is read from the process environment here
+        and never leaves it.
+        """
+        import httpx
+
+        key = os.environ.get("OPENAI_API_KEY") or os.environ.get("VITE_OPENAI_API_KEY")
+        if not key:
+            raise HTTPException(
+                status_code=503,
+                detail="OPENAI_API_KEY is not set on the API process. Export it before `npm run api`.",
+            )
+
+        payload: dict[str, Any] = {
+            k: v for k, v in body.model_dump().items() if v is not None
+        }
+        payload.setdefault(
+            "model", os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+        )
+
+        try:
+            with httpx.Client(timeout=60.0) as client:
+                res = client.post(
+                    "https://api.openai.com/v1/chat/completions",
+                    headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                    json=payload,
+                )
+        except httpx.HTTPError as exc:
+            raise HTTPException(status_code=502, detail=f"upstream error: {exc}") from exc
+
+        if res.status_code >= 400:
+            # Pass the upstream status through, but not the key or headers.
+            raise HTTPException(status_code=res.status_code, detail=res.text[:400])
+        return res.json()
+
+    @app.get("/llm/status")
+    def llm_status():
+        """Whether the proxy can serve — the browser must never see the key itself."""
+        return {
+            "configured": bool(
+                os.environ.get("OPENAI_API_KEY") or os.environ.get("VITE_OPENAI_API_KEY")
+            ),
+            "model": os.environ.get("OPENAI_MODEL", "gpt-4o-mini"),
+        }
 
     # ---------------------------------------------------------------- VCF --
 
