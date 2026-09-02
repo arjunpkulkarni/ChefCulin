@@ -82,15 +82,12 @@ export default function TraditionPane() {
       }
       setDetail(full)
       const companions = full.companionIngredients || []
-      for (const name of companions) {
-        addIngredient(name, 'tradition')
-      }
       setStatus({
         kind: 'ok',
         text:
           companions.length > 0
-            ? `Added ${companions.length} companion ingredient${companions.length === 1 ? '' : 's'} to the dish`
-            : 'Selected — no companion ingredients on file',
+            ? `${companions.length} companion ingredient${companions.length === 1 ? '' : 's'} on file — none added yet`
+            : 'Opened — no companion ingredients on file',
       })
     } catch (err) {
       setStatus({ kind: 'err', text: err?.message || String(err) })
@@ -99,12 +96,24 @@ export default function TraditionPane() {
     }
   }
 
+  function onCommitCompanions() {
+    const companions = detail?.companionIngredients || []
+    if (!companions.length) return
+    for (const name of companions) {
+      addIngredient(name, 'tradition')
+    }
+    setStatus({
+      kind: 'ok',
+      text: `Added ${companions.length} companion ingredient${companions.length === 1 ? '' : 's'} to the dish`,
+    })
+  }
+
   return (
     <section className="pane pane-t on">
       <p className="pane-intro">
         Documented dishes that feature <strong>{focusIngredient}</strong>
         {dish.length ? ' — ranked by how many other gathered ingredients they share' : ''}.
-        Pick a card to pull its companion ingredients onto the plate.
+        Pick a card to read the dish; add its companions individually or all at once.
       </p>
 
       {cuisineScope && (
@@ -173,12 +182,17 @@ export default function TraditionPane() {
               <Chip key={name} name={name} lens="tradition" />
             ))}
           </div>
+          {(detail.companionIngredients || []).length > 0 && (
+            <button type="button" className="mini" onClick={onCommitCompanions}>
+              Add all {detail.companionIngredients.length} to the dish
+            </button>
+          )}
         </div>
       )}
 
       <div className="closer">
-        Selecting a card commits every companion ingredient into the sidebar dish list. Remove any
-        you don&apos;t want from there.
+        Opening a card only reads it — nothing reaches the sidebar dish list until you add a
+        companion, either by tapping one or with the add-all button.
       </div>
     </section>
   )

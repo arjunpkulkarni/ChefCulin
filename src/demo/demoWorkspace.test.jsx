@@ -278,13 +278,26 @@ describe('demo Tradition lens', () => {
     expect(arg.limit).toBe(5)
   })
 
-  it('selecting a card adds companion ingredients to the dish', async () => {
+  it('selecting a card reads the dish without touching the plate', async () => {
     renderApp()
     fireEvent.click(screen.getByRole('button', { name: /^Tradition$/ }))
     fireEvent.click(await screen.findByText('Kung Pao Chicken'))
 
     await waitFor(() => expect(getDishDetail).toHaveBeenCalledWith({ record_id: 'R0001' }))
-    expect(document.querySelectorAll('.ing').length).toBeGreaterThanOrEqual(3)
+    expect(await screen.findByText('Companions on the dish')).toBeTruthy()
+    expect(document.querySelectorAll('.ing').length).toBe(0)
+  })
+
+  it('adds companion ingredients only on the explicit add-all action', async () => {
+    renderApp()
+    fireEvent.click(screen.getByRole('button', { name: /^Tradition$/ }))
+    fireEvent.click(await screen.findByText('Kung Pao Chicken'))
+
+    await waitFor(() => expect(getDishDetail).toHaveBeenCalledWith({ record_id: 'R0001' }))
+    fireEvent.click(await screen.findByRole('button', { name: /Add all \d+ to the dish/ }))
+    await waitFor(() =>
+      expect(document.querySelectorAll('.ing').length).toBeGreaterThanOrEqual(3)
+    )
     expect([...document.querySelectorAll('.ing-n')].map((n) => n.textContent)).toEqual(
       expect.arrayContaining(['peanut', 'chili', 'scallion'])
     )
