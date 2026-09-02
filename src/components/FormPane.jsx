@@ -1,47 +1,215 @@
+import { useEffect, useState } from 'react'
 import { useWorkspace } from '../context/WorkspaceContext.jsx'
+import * as api from '../api.js'
+import { resolveIngredient } from '../lib/spineResolve.js'
+import { groupsFor } from '../lib/compoundLanguage.js'
+
+/** 'PEANUT (roasted)' -> 'Peanut (roasted)'. */
+function stateLabel(raw) {
+  return String(raw || '')
+    .replace(/\s*\([A-Z][a-z]+ (?:[a-z]+|species)[^)]*\)/g, '')
+    .trim()
+    .toLowerCase()
+    .replace(/\b\w/g, (c) => c.toUpperCase())
+}
 
 export default function FormPane() {
   const { form, commitForm, focusIngredient, formCatalog } = useWorkspace()
   const { loading, forms, source, error, rationale } = formCatalog
+  const [measured, setMeasured] = useState(null)
+  const [resolution, setResolution] = useState(null)
+
+  useEffect(() => {
+    if (!focusIngredient) {
+      setMeasured(null)
+      setResolution(null)
+      return
+    }
+    const r = resolveIngredient(focusIngredient)
+    setResolution(r)
+    if (r.state !== 'resolved') {
+      setMeasured({ coverage: 'not_in_corpus', results: [] })
+      return
+    }
+    let cancelled = false
+    ;(async () => {
+      try {
+        const res = await api.vcfForms(r.spine_id, 24)
+        if (!cancelled) setMeasured(res)
+      } catch {
+        if (!cancelled) setMeasured(null)
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [focusIngredient])
 
   if (!focusIngredient) {
     return (
       <section className="pane pane-f on">
-        <div className="notice">Choose a focus ingredient in the mast — form frames load from the LLM for that ingredient.</div>
+        <div className="notice">Choose a focus ingredient in the mast to load its forms.</div>
       </section>
     )
   }
 
+  const coverage = measured?.coverage
+  // With one known culinary form there is nothing to compare, so the lens says
+  // so rather than generating a comparison. meta.json's form_diffs block is
+  // what distinguishes "one known form" from "not in the corpus" — absence of
+  // diff rows means both, and guessing which is the failure this avoids (§2.4).
+  const singleForm = coverage === 'single_form'
+  const notInCorpus = coverage === 'not_in_corpus'
+  const diffs = measured?.results || []
+
   return (
     <section className="pane pane-f on">
       <p className="pane-intro">
-        Preparation states for {focusIngredient}
-        {forms.length ? ` — ${forms.length} frames from ${source === 'llm' ? 'the LLM' : source}` : ''}.
-        Commit to one if it clarifies the plate.
+        Preparation states for {resolution?.display || focusIngredient} — what measurably changes in
+        the aroma profile between one form and another.
       </p>
 
-      {loading && <div className="notice">Generating process frames for {focusIngredient}…</div>}
-      {error && (
-        <div className="notice err">
-          <strong>Form lens unavailable.</strong> {error} Set <code>VITE_OPENAI_API_KEY</code> in{' '}
-          <code>.env</code> and restart <code>npm run dev</code>.
+      {/* §2.7 disclosure */}
+      <div className="lens-source">
+        <span className="ls-lbl">Source</span>
+        {notInCorpus ? (
+          <>Not in the VCF corpus — no measured forms for this ingredient.</>
+        ) : singleForm ? (
+          <>VCF volatile compound data, licensed. One known culinary form.</>
+        ) : (
+          <>
+            VCF volatile compound data, licensed. {measured?.n_culinary_members || 0} measured
+            culinary forms, {diffs.length} comparison{diffs.length === 1 ? '' : 's'}.
+          </>
+        )}
+      </div>
+
+      {notInCorpus && (
+        <div className="notice">
+          The compound corpus has no entry for {resolution?.display || focusIngredient}, so there is
+          nothing measured to compare. This is a gap in coverage, not a finding about the
+          ingredient.
         </div>
       )}
-      {rationale && !loading && <p className="agent-rationale">{rationale}</p>}
 
-      {forms.map((f) => (
-        <FrameCard key={f.name} card={f} active={form?.name === f.name} onCommit={commitForm} />
-      ))}
+      {singleForm && (
+        <div className="notice">
+          <strong>One known culinary form.</strong> The corpus records a single form of{' '}
+          {resolution?.display || focusIngredient}, so there is no measured state comparison to
+          show — not an empty result.
+        </div>
+      )}
 
-      {!loading && !error && !forms.length && (
-        <div className="notice">No form frames returned — try another focus ingredient.</div>
+      {!singleForm && !notInCorpus && diffs.length > 0 && (
+        <div className="group">
+          <div className="g-label">
+            Measured state differences <span className="posture p-doc">VCF</span>
+          </div>
+          {diffs.slice(0, 8).map((d) => (
+            <FormDiffCard key={`${d.from_vcf_product_id}-${d.to_vcf_product_id}`} diff={d} />
+          ))}
+        </div>
+      )}
+
+      {/* Generated frames stay available, but never stand in for measurement. */}
+      {!singleForm && (
+        <>
+          {loading && <div className="notice">Generating process frames for {focusIngredient}…</div>}
+          {error && (
+            <div className="notice err">
+              <strong>Generated frames unavailable.</strong> {error}
+            </div>
+          )}
+          {forms.length > 0 && (
+            <>
+              <div className="lens-source">
+                <span className="ls-lbl">Source</span>
+                Generated by the language model from {source === 'llm' ? 'the LLM' : source} — craft
+                guidance, not corpus measurement.
+              </div>
+              {rationale && !loading && <p className="agent-rationale">{rationale}</p>}
+              {forms.map((f) => (
+                <FrameCard
+                  key={f.name}
+                  card={f}
+                  active={form?.name === f.name}
+                  onCommit={commitForm}
+                />
+              ))}
+            </>
+          )}
+        </>
       )}
 
       <div className="closer">
         Form answers state and process for this ingredient. Ingredients still gather from the other
-        lenses (compound network, corpus, tradition DB).
+        lenses.
       </div>
     </section>
+  )
+}
+
+function FormDiffCard({ diff }) {
+  const [open, setOpen] = useState(false)
+  const gained = diff.gained || []
+  const lost = diff.lost || []
+  const gainedGroups = groupsFor(gained).slice(0, 3)
+  const lostGroups = groupsFor(lost).slice(0, 3)
+
+  return (
+    <div className="compound-row">
+      <div className="cr-head">
+        <strong>{stateLabel(diff.from_raw_name)}</strong>
+        <span className="cr-shared">→ {stateLabel(diff.to_raw_name)}</span>
+      </div>
+      {gained.length === 0 && lost.length === 0 ? (
+        <div className="cr-why">
+          No compound difference above the corpus floor (df ≥ {diff.df_floor}).
+        </div>
+      ) : (
+        <div className="cr-why">
+          Gains {gainedGroups.map((g) => g.phrase).join(', ') || 'nothing measurable'}; loses{' '}
+          {lostGroups.map((g) => g.phrase).join(', ') || 'nothing measurable'}.
+        </div>
+      )}
+      {(gained.length > 0 || lost.length > 0) && (
+        <>
+          <button type="button" className="mini" onClick={() => setOpen((o) => !o)}>
+            {open ? 'Hide compounds' : `Show ${gained.length + lost.length} compounds`}
+          </button>
+          {open && (
+            <div className="cr-detail">
+              {gained.length > 0 && (
+                <>
+                  <div className="g-label">Gained ({diff.gained_total})</div>
+                  <ul className="cr-compounds">
+                    {gained.slice(0, 8).map((c) => (
+                      <li key={`g-${c.compound_id || c.raw_compound}`}>
+                        {c.raw_compound}
+                        <span className="chip-meta">{c.compound_group}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+              {lost.length > 0 && (
+                <>
+                  <div className="g-label">Lost ({diff.lost_total})</div>
+                  <ul className="cr-compounds">
+                    {lost.slice(0, 8).map((c) => (
+                      <li key={`l-${c.compound_id || c.raw_compound}`}>
+                        {c.raw_compound}
+                        <span className="chip-meta">{c.compound_group}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </div>
+          )}
+        </>
+      )}
+    </div>
   )
 }
 

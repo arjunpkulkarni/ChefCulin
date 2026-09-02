@@ -8,6 +8,7 @@ export default function OptionCard({
   onSelect,
   stamp = null,
   disabled = false,
+  className = '',
 }) {
   return (
     <button
@@ -24,7 +25,7 @@ export default function OptionCard({
       </div>
       {option.subtitle && <div className="option-card-sub">{option.subtitle}</div>}
       {stamp && (
-        <div className="option-stamp" title={stamp.title || ''}>
+        <div className={`option-stamp${className ? ' ' + className : ''}`} title={stamp.title || ''}>
           {stamp.label}
         </div>
       )}

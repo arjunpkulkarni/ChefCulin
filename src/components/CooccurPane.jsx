@@ -93,6 +93,18 @@ export default function CooccurPane() {
         )}
       </div>
 
+      {/*
+        §2.7 disclosure. Naming the corpus is the point, not a formality: the
+        canned-olives result from the first test session is an accurate reading
+        of what home cooks in this corpus write down, and a chef needs to know
+        that is what they are looking at before they judge it wrong.
+      */}
+      <div className="lens-source">
+        <span className="ls-lbl">Source</span>
+        247,719 English-language home recipes (RecipeNLG). Ranked by NPMI, so this reflects what
+        home cooks write down — not what a kitchen would necessarily do.
+      </div>
+
       {cuisineScope && (
         <div className="scope-lens-note">
           <span className="sn-lbl">Cuisine scope locked · {cuisineScope.label}</span>

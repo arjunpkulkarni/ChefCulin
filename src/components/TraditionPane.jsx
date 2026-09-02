@@ -116,6 +116,14 @@ export default function TraditionPane() {
         Pick a card to read the dish; add its companions individually or all at once.
       </p>
 
+      {/* §2.7 disclosure — and §2.6: Pending is unassessed, not Low. */}
+      <div className="lens-source">
+        <span className="ls-lbl">Source</span>
+        Tradition database — documented dishes with cited sources. Matches are limited to dishes
+        where the ingredient is a main, seasoning, aromatic or listed ingredient, so a dish does not
+        qualify merely for being cooked in it.
+      </div>
+
       {cuisineScope && (
         <div className="scope-lens-note">
           <span className="sn-lbl">Cuisine scope · {cuisineScope.label}</span>
@@ -149,9 +157,14 @@ export default function TraditionPane() {
               onSelect={onSelectOption}
               disabled={busy}
               stamp={{
-                label: o.plateHits ? `${o.plateHits} plate hit${o.plateHits === 1 ? '' : 's'}` : 'Tradition DB',
-                title: o.id,
+                label: o.confidenceIsAssessed
+                  ? `${o.confidence} confidence · ${o.sourceCount} source${o.sourceCount === 1 ? '' : 's'}`
+                  : `Unassessed · ${o.sourceCount} source${o.sourceCount === 1 ? '' : 's'}`,
+                title: o.confidenceIsAssessed
+                  ? `${o.id} — confidence ${o.confidence}`
+                  : `${o.id} — confidence not yet assessed (this is not the same as low)`,
               }}
+              className={o.confidenceIsAssessed ? '' : 'conf-pending'}
             />
           ))}
         </div>

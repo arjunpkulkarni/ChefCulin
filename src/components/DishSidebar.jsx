@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useWorkspace } from '../context/WorkspaceContext.jsx'
 import { COLORS } from '../data/domain.js'
 import { AXIS_LABELS, BALANCE_DECISIONS } from '../lib/balance.js'
+import PhaseNotes from './PhaseNotes.jsx'
 
 const DECISION_LABELS = { accept: 'Accept', adjust: 'Adjust', override: 'Override' }
 
@@ -322,6 +323,7 @@ export default function DishSidebar() {
           </>
         )}
       </div>
+      <PhaseNotes />
     </aside>
   )
 }
