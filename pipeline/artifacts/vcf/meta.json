@@ -42,7 +42,7 @@
     "dedup_delta": 75,
     "crosswalk_rows": 5879,
     "n_known_bad_pubchem_cid_nulled": 236,
-    "known_bad_pubchem_cid_note": "16 confirmed-bad crosswalk groups (259 CAS numbers) had their pubchem_cid nulled, including 2 found via a live PubChem re-verification pass over 716 residual collisions and 4 more found by extending that same classifier signature beyond just those collisions (2026-08-29 audit) — see KNOWN_BAD_PUBCHEM_CID_CAS in this script for the full investigation and its explicit scope limits, including that the crosswalk's much larger unaudited remainder has not been hand-checked. compound_id (CAS-based) is unaffected."
+    "known_bad_pubchem_cid_note": "16 confirmed-bad crosswalk groups (259 CAS numbers) had their pubchem_cid nulled, including 2 found via a live PubChem re-verification pass over 716 residual collisions and 4 more found by extending that same classifier signature beyond just those collisions (2026-08-29 audit) \u2014 see KNOWN_BAD_PUBCHEM_CID_CAS in this script for the full investigation and its explicit scope limits, including that the crosswalk's much larger unaudited remainder has not been hand-checked. compound_id (CAS-based) is unaffected."
   },
   "phase": {
     "n_compounds_total": 7403,
@@ -185,7 +185,7 @@
     "top_k_stored_per_product": 20,
     "n_pair_rows": 10398,
     "corpus_scope": "mixed_with_external_protein",
-    "corpus_scope_note": "Derived live from meta['profiles']['n_profiles_external_source_merged'] (8), not hardcoded. median_top1_score values in near_duplicate_suppression below are only comparable to another pairs.jsonl run with the SAME corpus_scope — a vcf_only run and a mixed_with_external_protein run measure different, non-comparable corpora even though the field name is identical.",
+    "corpus_scope_note": "Derived live from meta['profiles']['n_profiles_external_source_merged'] (8), not hardcoded. median_top1_score values in near_duplicate_suppression below are only comparable to another pairs.jsonl run with the SAME corpus_scope \u2014 a vcf_only run and a mixed_with_external_protein run measure different, non-comparable corpora even though the field name is identical.",
     "coffee_validation": {
       "hazelnut (roasted)": {
         "raw_name": "FILBERT, HAZELNUT (roasted)",
@@ -256,7 +256,7 @@
         "TURNIP/BRASSICA CAMPESTRIS",
         "XYLOPIA PARVIFLORA (A. RICH) BENTH./XYLOPIA SPECIES"
       ],
-      "finding": "n_pairs_suppressed=0, still. Condition 2 (same spine_id as anchor) can never be satisfied by anything in this file: the candidate-generation loop above already excludes same-spine_id pairs unconditionally ('if a[\"spine_id\"] == b[\"spine_id\"]: continue') before pairing scores are even computed, precisely so PEANUT (raw) never 'pairs' with PEANUT (roasted). Every pair that reaches this file, by construction, already has DIFFERENT spine_ids on the two sides — so a second condition that requires SAME spine_id is checking something that structurally cannot be true here. This is not a defect in the suppression code; Fix 3's second condition, AS SPECIFIED, remains a no-op against this corpus, for the same structural reason as before. What HAS changed: n_anchors_with_high_overlap_top1 (>=85% of the anchor's own compound set) is 59 as of this run — the real fix for this class of near-duplicate is spine-level clustering (Build 1, apply_spine_clusters.py), which removes a matched pair from candidate generation entirely rather than suppressing it after the fact, and has now been applied for the clusters spine_cluster_proposals.xlsx's human review approved. It is necessarily partial — 100 candidate pairs (meta.spine_clustering.n_coverage_gap_pairs_pending_review) had no binomial/genus data on either side to confirm or reject and were left for human review rather than merged — so this count is not expected to be zero. Sample of what's still here: ANISE BRANDY/OUZO, OUZO/ANISE BRANDY, BLACK RASPBERRY (leaves)/BLACKBERRY (leaves), BLACKBERRY (leaves)/BLACK RASPBERRY (leaves), RASPBERRY (leaves)/BLACK RASPBERRY (leaves), CHINESE CABBAGE/BRASSICA CAMPESTRIS, TURNIP/BRASSICA CAMPESTRIS, XYLOPIA PARVIFLORA (A. RICH) BENTH./XYLOPIA SPECIES. median_top1_score_raw_pre_suppression reports the actual pre-suppression median honestly on every run rather than a frozen historical figure, since that figure moves as clustering coverage improves."
+      "finding": "n_pairs_suppressed=0, still. Condition 2 (same spine_id as anchor) can never be satisfied by anything in this file: the candidate-generation loop above already excludes same-spine_id pairs unconditionally ('if a[\"spine_id\"] == b[\"spine_id\"]: continue') before pairing scores are even computed, precisely so PEANUT (raw) never 'pairs' with PEANUT (roasted). Every pair that reaches this file, by construction, already has DIFFERENT spine_ids on the two sides \u2014 so a second condition that requires SAME spine_id is checking something that structurally cannot be true here. This is not a defect in the suppression code; Fix 3's second condition, AS SPECIFIED, remains a no-op against this corpus, for the same structural reason as before. What HAS changed: n_anchors_with_high_overlap_top1 (>=85% of the anchor's own compound set) is 59 as of this run \u2014 the real fix for this class of near-duplicate is spine-level clustering (Build 1, apply_spine_clusters.py), which removes a matched pair from candidate generation entirely rather than suppressing it after the fact, and has now been applied for the clusters spine_cluster_proposals.xlsx's human review approved. It is necessarily partial \u2014 100 candidate pairs (meta.spine_clustering.n_coverage_gap_pairs_pending_review) had no binomial/genus data on either side to confirm or reject and were left for human review rather than merged \u2014 so this count is not expected to be zero. Sample of what's still here: ANISE BRANDY/OUZO, OUZO/ANISE BRANDY, BLACK RASPBERRY (leaves)/BLACKBERRY (leaves), BLACKBERRY (leaves)/BLACK RASPBERRY (leaves), RASPBERRY (leaves)/BLACK RASPBERRY (leaves), CHINESE CABBAGE/BRASSICA CAMPESTRIS, TURNIP/BRASSICA CAMPESTRIS, XYLOPIA PARVIFLORA (A. RICH) BENTH./XYLOPIA SPECIES. median_top1_score_raw_pre_suppression reports the actual pre-suppression median honestly on every run rather than a frozen historical figure, since that figure moves as clustering coverage improves."
     }
   },
   "spine_clustering": {
@@ -266,15 +266,15 @@
     "clusters_rejected": [
       {
         "cluster_id": "cluster_121",
-        "reason": "REJECT: Claude, deciding per James request: same species/cultivar-group (Brassica oleracea) but not culinarily substitutable — a chef querying broccoli should not get cauliflower back under any merge policy, category included. Note: cluster_83 (Brussels Sprouts/Cabbage, also both B. oleracea) has the identical structural issue and was NOT flagged separately — worth confirming with James whether it should also be reconsidered."
+        "reason": "REJECT: Claude, deciding per James request: same species/cultivar-group (Brassica oleracea) but not culinarily substitutable \u2014 a chef querying broccoli should not get cauliflower back under any merge policy, category included. Note: cluster_83 (Brussels Sprouts/Cabbage, also both B. oleracea) has the identical structural issue and was NOT flagged separately \u2014 worth confirming with James whether it should also be reconsidered."
       },
       {
         "cluster_id": "cluster_452",
-        "reason": "REJECT: James 2026-08-30: bundles a legitimate rice-variant relationship with RICE BRAN, a milling byproduct (different tissue, like wheat bran to wheat) — reject the whole cluster; RICE/PARBOILED RICE/SCENTED RICE would need reproposing without RICE BRAN once the algorithm can separate part-of from variant-of."
+        "reason": "REJECT: James 2026-08-30: bundles a legitimate rice-variant relationship with RICE BRAN, a milling byproduct (different tissue, like wheat bran to wheat) \u2014 reject the whole cluster; RICE/PARBOILED RICE/SCENTED RICE would need reproposing without RICE BRAN once the algorithm can separate part-of from variant-of."
       },
       {
         "cluster_id": "cluster_446",
-        "reason": "REJECT: James 2026-08-30 (citing his own 2026-08-28 ruling): raspberry, blackberry and boysenberry are three distinct species VCF grouped under one head, not a synonym pair — that decision already rejects this merge."
+        "reason": "REJECT: James 2026-08-30 (citing his own 2026-08-28 ruling): raspberry, blackberry and boysenberry are three distinct species VCF grouped under one head, not a synonym pair \u2014 that decision already rejects this merge."
       },
       {
         "cluster_id": "cluster_494",
@@ -286,11 +286,11 @@
       },
       {
         "cluster_id": "cluster_83",
-        "reason": "REJECT: James 2026-08-30 (third pass): same Brassica oleracea cultivar-group structure as cluster_121 (Broccoli/Cauliflower), which he already rejected. The genus rule is botanically correct but culinarily wrong — a chef querying cabbage getting brussels sprouts back is a substitution error, not a granularity resolution. The 'category (high) rows are fine as generated' blanket approval was too broad for this specific case; checked kale/kohlrabi/collard for the same door — neither was proposed as a cluster at all, so this is isolated to cluster_83."
+        "reason": "REJECT: James 2026-08-30 (third pass): same Brassica oleracea cultivar-group structure as cluster_121 (Broccoli/Cauliflower), which he already rejected. The genus rule is botanically correct but culinarily wrong \u2014 a chef querying cabbage getting brussels sprouts back is a substitution error, not a granularity resolution. The 'category (high) rows are fine as generated' blanket approval was too broad for this specific case; checked kale/kohlrabi/collard for the same door \u2014 neither was proposed as a cluster at all, so this is isolated to cluster_83."
       },
       {
         "cluster_id": "cluster_374",
-        "reason": "REJECT: James 2026-08-30: PEATED MALT is the one place in the corpus that records the peat/smoke resolution — merging destroys the distinction it exists to preserve."
+        "reason": "REJECT: James 2026-08-30: PEATED MALT is the one place in the corpus that records the peat/smoke resolution \u2014 merging destroys the distinction it exists to preserve."
       },
       {
         "cluster_id": "cluster_504",
@@ -317,11 +317,11 @@
       "culin:mace": "category",
       "culin:parsley": "category"
     },
-    "policy_override_reason": "Second review pass (2026-08-30): 15 clusters given an explicit policy_override in spine_cluster_proposals.xlsx rather than left to build_vcf_resolution_policy.py's mechanical rule — wine and whisky (no form/cure_state/binomial variation among merged members; the real distinction, style/region, lives only in free text in raw_name), plant-part clusters (lovage, caraway, myrtle, pimento, blackcurrant, parsley — different tissues, different profiles), and processing-state clusters (tea, olive, mate — green/black/roasted are not the same product to average over). James: these should show members or ask which, not be collapsed into a range. Recorded here as {spine_id: policy}; build_vcf_resolution_policy.py should read this block directly rather than keep its own second copy of the same mapping.",
+    "policy_override_reason": "Second review pass (2026-08-30): 15 clusters given an explicit policy_override in spine_cluster_proposals.xlsx rather than left to build_vcf_resolution_policy.py's mechanical rule \u2014 wine and whisky (no form/cure_state/binomial variation among merged members; the real distinction, style/region, lives only in free text in raw_name), plant-part clusters (lovage, caraway, myrtle, pimento, blackcurrant, parsley \u2014 different tissues, different profiles), and processing-state clusters (tea, olive, mate \u2014 green/black/roasted are not the same product to average over). James: these should show members or ask which, not be collapsed into a range. Recorded here as {spine_id: policy}; build_vcf_resolution_policy.py should read this block directly rather than keep its own second copy of the same mapping.",
     "binomial_coverage": "261/521",
-    "binomial_coverage_note": "261/521 (50.1%) of VCF's culinary products carry a binomial field, computed live from vcf_product_parse.jsonl at apply time (not a frozen constant — see the module note on why that broke before). The clustering rule's genus half only has data to work with for that slice — the rest can only qualify via name containment. This is a floor set by data coverage, not a ceiling on how many real near-duplicates exist in the corpus.",
+    "binomial_coverage_note": "261/521 (50.1%) of VCF's culinary products carry a binomial field, computed live from vcf_product_parse.jsonl at apply time (not a frozen constant \u2014 see the module note on why that broke before). The clustering rule's genus half only has data to work with for that slice \u2014 the rest can only qualify via name containment. This is a floor set by data coverage, not a ceiling on how many real near-duplicates exist in the corpus.",
     "clustering_pass": "partial",
-    "clustering_pass_note": "35 clusters approved (8 rejected) this pass; the coverage-gap counts below are read live from spine_cluster_proposals.xlsx, not a frozen constant. Split 2026-08-30 (James) into 'Needs Review' (a textual signal ties the untagged side to the tagged one) and 'No Signal (Info)' (pure compound-overlap coincidence, or neither side genus-confirmable at all) — see n_coverage_gap_pairs_pending_review for both counts separately; conflating them into one number is exactly the thing the split was meant to stop. Duplicate suppression downstream (pairs.jsonl) is incomplete by that known amount; anyone reading the rebaselined median top-1 score after this pass needs to know that, not just the after-number. Note also that this pass's baseline is VCF-only (521 products) — beef is temporarily excluded from compounds/profiles/pairs, so this number is not comparable to any prior baseline that included beef's 4 products.",
+    "clustering_pass_note": "35 clusters approved (8 rejected) this pass; the coverage-gap counts below are read live from spine_cluster_proposals.xlsx, not a frozen constant. Split 2026-08-30 (James) into 'Needs Review' (a textual signal ties the untagged side to the tagged one) and 'No Signal (Info)' (pure compound-overlap coincidence, or neither side genus-confirmable at all) \u2014 see n_coverage_gap_pairs_pending_review for both counts separately; conflating them into one number is exactly the thing the split was meant to stop. Duplicate suppression downstream (pairs.jsonl) is incomplete by that known amount; anyone reading the rebaselined median top-1 score after this pass needs to know that, not just the after-number. Note also that this pass's baseline is VCF-only (521 products) \u2014 beef is temporarily excluded from compounds/profiles/pairs, so this number is not comparable to any prior baseline that included beef's 4 products.",
     "n_coverage_gap_pairs_pending_review": {
       "needs_review": null,
       "no_signal_info": null,
@@ -766,8 +766,8 @@
         ]
       }
     ],
-    "low_confidence_note": "These spine entries have >=2 culinary members classified 'expand' where NOT ONE of preparation/cure_state/state/form/cultivar/binomial varies across the members — the only difference is free text in raw_name (geographic origin, a lab concentration band, a plant part, a named multi-species blend) that Step 2's parser doesn't capture as a structured field. Flagged rather than silently trusted; a human call, same as Step 2's own reviewable-tail precedent.",
-    "balance_lens_note": "Policy values are stored per spec so a future Balance-lens VCF integration (heat axis, volatile-pungency side only) can consult them. No Balance-lens code path reads them yet — that wiring is separate work, not part of this build.",
+    "low_confidence_note": "These spine entries have >=2 culinary members classified 'expand' where NOT ONE of preparation/cure_state/state/form/cultivar/binomial varies across the members \u2014 the only difference is free text in raw_name (geographic origin, a lab concentration band, a plant part, a named multi-species blend) that Step 2's parser doesn't capture as a structured field. Flagged rather than silently trusted; a human call, same as Step 2's own reviewable-tail precedent.",
+    "balance_lens_note": "Policy values are stored per spec so a future Balance-lens VCF integration (heat axis, volatile-pungency side only) can consult them. No Balance-lens code path reads them yet \u2014 that wiring is separate work, not part of this build.",
     "policy_overrides_applied": [
       {
         "spine_id": "culin:black_currants",
@@ -840,7 +840,7 @@
         "override": "category"
       }
     ],
-    "policy_overrides_note": "A human override of this rule's mechanical output — see POLICY_OVERRIDES in this script for why. 'rule_output' is what classify() computed before the override; 'override' is what was actually written. confidence='override' distinguishes this from the rule's own high/low so a reader never mistakes a deliberate call for the mechanical result."
+    "policy_overrides_note": "A human override of this rule's mechanical output \u2014 see POLICY_OVERRIDES in this script for why. 'rule_output' is what classify() computed before the override; 'override' is what was actually written. confidence='override' distinguishes this from the rule's own high/low so a reader never mistakes a deliberate call for the mechanical result."
   },
   "compound_roles": {
     "n_role_rows": 812,
@@ -849,7 +849,7 @@
       "smoke_marker": {
         "n_tagged": 29,
         "n_curated_target": 36,
-        "gap_note": "Reviewer's spec named 28 compounds explicitly plus 'the remaining alkyl-guaiacol and alkyl-syringol variants' for a total of 36. Only one additional unambiguous alkylguaiacol variant (CAS 80652-16-0) was found by inspecting every Phenols-group compound matching 'methoxyphenol' in this corpus — giving 29, not 36. Candidates considered and rejected (eugenol-family allyl/propenyl methoxyphenols, likely synthetic antioxidants) are recorded in this script's docstring rather than tagged to hit the target count."
+        "gap_note": "Reviewer's spec named 28 compounds explicitly plus 'the remaining alkyl-guaiacol and alkyl-syringol variants' for a total of 36. Only one additional unambiguous alkylguaiacol variant (CAS 80652-16-0) was found by inspecting every Phenols-group compound matching 'methoxyphenol' in this corpus \u2014 giving 29, not 36. Candidates considered and rejected (eugenol-family allyl/propenyl methoxyphenols, likely synthetic antioxidants) are recorded in this script's docstring rather than tagged to hit the target count."
       },
       "maillard_marker": {
         "n_tagged": 576,
@@ -859,15 +859,15 @@
           "Halogens": 4,
           "Sulfur compounds": 169
         },
-        "note": "Name-pattern based, no CAS-curated list from the review for this role. furanone restricted to compound_group == 'Furans' to exclude gamma-lactones whose IUPAC alias happens to contain the word 'furanone' (they are Lactones, not Furans, in this corpus's own classification) — not every 'furanone' match is a Maillard product, matching the review's own caution about 'Bases' not being blanket-taggable."
+        "note": "Name-pattern based, no CAS-curated list from the review for this role. furanone restricted to compound_group == 'Furans' to exclude gamma-lactones whose IUPAC alias happens to contain the word 'furanone' (they are Lactones, not Furans, in this corpus's own classification) \u2014 not every 'furanone' match is a Maillard product, matching the review's own caution about 'Bases' not being blanket-taggable."
       },
       "lipid_oxidation_marker": {
         "n_tagged": 71,
-        "note": "3 explicitly-named compounds (hexanal, (E)-2-nonenal, (E,E)-2,4-decadienal) plus every OTHER unsubstituted C6-C10 alkenal/alkadienal isomer in Carbonyls,aldehydes. Excludes chain lengths past C10 (dodecenal, tetradecenal, hexadecenal...), branched/aryl/furyl-substituted variants (2-phenyl-2-hexenal, terpenoid citral/citronellal, furyl-hexenals), and epoxide derivatives — none of these are the classic straight-chain lipid-autoxidation series this role is meant to capture."
+        "note": "3 explicitly-named compounds (hexanal, (E)-2-nonenal, (E,E)-2,4-decadienal) plus every OTHER unsubstituted C6-C10 alkenal/alkadienal isomer in Carbonyls,aldehydes. Excludes chain lengths past C10 (dodecenal, tetradecenal, hexadecenal...), branched/aryl/furyl-substituted variants (2-phenyl-2-hexenal, terpenoid citral/citronellal, furyl-hexenals), and epoxide derivatives \u2014 none of these are the classic straight-chain lipid-autoxidation series this role is meant to capture."
       },
       "lipid_degradation_fragment": {
         "n_tagged": 18,
-        "note": "MR-15 guard (Beef Ingestion Build Spec Step 3): every straight-chain alkane in the corpus, regardless of source family. Currently inert as a terpene-collision fix on this corpus (checked: none of these MWs land in TERPENE_MONO_MW/TERPENE_SESQUI_MW) — exists as a hard exclusion for future protein families."
+        "note": "MR-15 guard (Beef Ingestion Build Spec Step 3): every straight-chain alkane in the corpus, regardless of source family. Currently inert as a terpene-collision fix on this corpus (checked: none of these MWs land in TERPENE_MONO_MW/TERPENE_SESQUI_MW) \u2014 exists as a hard exclusion for future protein families."
       },
       "terpene_mono": {
         "n_tagged": 50
@@ -875,7 +875,7 @@
       "terpene_sesqui": {
         "n_tagged": 68
       },
-      "terpene_split_note": "915 Hydrocarbons-group compounds total (657 with a molecular_weight). Split by EXACT molecular weight (tolerance 0.005), not a rounded band — see module docstring for the contamination found at rounded MW 134/138/202 (real terpenes mixed with tetramethylbenzenes, 1-decyne, decalin, and — caught and excluded — fluoranthene and pyrene, both PAHs, at rounded MW 202). 118 of 915 (12.9%) classified; the rest (plain alkanes/alkenes, aromatic hydrocarbons, diterpenes, and the genuinely ambiguous MW 134/138 bands) are left unclassified rather than guessed."
+      "terpene_split_note": "915 Hydrocarbons-group compounds total (657 with a molecular_weight). Split by EXACT molecular weight (tolerance 0.005), not a rounded band \u2014 see module docstring for the contamination found at rounded MW 134/138/202 (real terpenes mixed with tetramethylbenzenes, 1-decyne, decalin, and \u2014 caught and excluded \u2014 fluoranthene and pyrene, both PAHs, at rounded MW 202). 118 of 915 (12.9%) classified; the rest (plain alkanes/alkenes, aromatic hydrocarbons, diterpenes, and the genuinely ambiguous MW 134/138 bands) are left unclassified rather than guessed."
     }
   },
   "volatility": {
@@ -889,7 +889,7 @@
       206.5
     ],
     "bucket_counts": {},
-    "fetch_source_note": "Boiling points came from a live PubChem PUG View fetch run through the linked Mac's browser pane (this environment's own network egress cannot reach pubchem.ncbi.nlm.nih.gov directly — confirmed proxy-blocked from both the cloud container and the Mac's shell). PUG View does not offer a batch endpoint for this property, and was intermittently returning 503 under sustained load during this build, capping how much of the corpus could be fetched in the time available — see n_distinct_cids_with_boiling_point vs n_distinct_pubchem_cids_in_corpus for exactly how much."
+    "fetch_source_note": "Boiling points came from a live PubChem PUG View fetch run through the linked Mac's browser pane (this environment's own network egress cannot reach pubchem.ncbi.nlm.nih.gov directly \u2014 confirmed proxy-blocked from both the cloud container and the Mac's shell). PUG View does not offer a batch endpoint for this property, and was intermittently returning 503 under sustained load during this build, capping how much of the corpus could be fetched in the time available \u2014 see n_distinct_cids_with_boiling_point vs n_distinct_pubchem_cids_in_corpus for exactly how much."
   },
   "quantities": {
     "n_rows": 67206,
@@ -906,18 +906,18 @@
       "present": 36
     },
     "n_known_csv_artifacts_corrected": 1,
-    "known_csv_artifacts_note": "1 row (DATE x carvone, 28000_29000.csv line 107) has an unquoted comma in its Compound Group value, shifting a 'Carbonyls, ketones' fragment into Quantity Lower Bound as literal 'ketones\"'. Treated as missing, not a real value — see KNOWN_CSV_ARTIFACT_VALUES.",
+    "known_csv_artifacts_note": "1 row (DATE x carvone, 28000_29000.csv line 107) has an unquoted comma in its Compound Group value, shifting a 'Carbonyls, ketones' fragment into Quantity Lower Bound as literal 'ketones\"'. Treated as missing, not a real value \u2014 see KNOWN_CSV_ARTIFACT_VALUES.",
     "scored_on": false,
-    "note": "v1 per spec: presence/absence only. These fields are stored for future use and are not read by build_vcf_profiles.py (IDF) or build_vcf_pairs.py (pairing score) — mixing quantity-weighted and unweighted scores would rank on two silently different scales."
+    "note": "v1 per spec: presence/absence only. These fields are stored for future use and are not read by build_vcf_profiles.py (IDF) or build_vcf_pairs.py (pairing score) \u2014 mixing quantity-weighted and unweighted scores would rank on two silently different scales."
   },
   "form_diffs": {
     "n_aging_delta_rows_appended": 7,
-    "aging_delta_note": "A quantitative value_a/value_b delta (dry-aged vs wet-aged, day 28), not a gained/lost set diff — kept as its own diff_type so a reader never confuses the two shapes. See ingest_protein_beef.py.",
+    "aging_delta_note": "A quantitative value_a/value_b delta (dry-aged vs wet-aged, day 28), not a gained/lost set diff \u2014 kept as its own diff_type so a reader never confuses the two shapes. See ingest_protein_beef.py.",
     "n_spine_entries_total": 360,
     "n_spine_zero_culinary_members": 42,
     "n_spine_single_state_culinary": 246,
     "n_spine_multi_state_culinary": 72,
-    "form_lens_size_note": "72 base ingredients have more than one culinary form — that is the real size of the Form lens from the full pull.",
+    "form_lens_size_note": "72 base ingredients have more than one culinary form \u2014 that is the real size of the Form lens from the full pull.",
     "sample_comparison_182_products": {
       "multi_state_of_total_base_names": "24 of 132",
       "note": "4 of the sample's top 6 by member count were essential oils."
@@ -1015,7 +1015,7 @@
         }
       ]
     },
-    "note": "Spine entries with 0 or 1 culinary members are deliberately absent from form_diffs.jsonl — a lens must report 'only one known form' for those rather than fabricate a comparison. This block is how a caller tells that case apart from 'not in the corpus at all' (0 culinary members) without guessing from absence."
+    "note": "Spine entries with 0 or 1 culinary members are deliberately absent from form_diffs.jsonl \u2014 a lens must report 'only one known form' for those rather than fabricate a comparison. This block is how a caller tells that case apart from 'not in the corpus at all' (0 culinary members) without guessing from absence."
   },
   "profile_roles": {
     "roles": [
@@ -1035,7 +1035,7 @@
       "terpene_mono": 329,
       "terpene_sesqui": 217
     },
-    "share_definition": "role_count / len(profile.compound_ids) — the WHOLE profile, unrestricted"
+    "share_definition": "role_count / len(profile.compound_ids) \u2014 the WHOLE profile, unrestricted"
   },
   "competition": {
     "n_pairs_scanned": 8192,
@@ -1049,7 +1049,7 @@
       "dropped_terpene_subtype_neither_clears": 64,
       "dropped_terpene_subtype_mono_vs_sesqui": 4,
       "dropped_suppressed_near_duplicate": 0,
-      "note": "both_phases dropped entirely. Every remaining candidate (same bucket, fat_phase or fat_leaning) must clear its OWN group's 75th percentile share on BOTH sides. REVISION 4: Hydrocarbons-vs-Hydrocarbons rows additionally must clear a terpene_mono/terpene_sesqui role-share gate on BOTH sides for the SAME role — see terpene_subtype_counts below."
+      "note": "both_phases dropped entirely. Every remaining candidate (same bucket, fat_phase or fat_leaning) must clear its OWN group's 75th percentile share on BOTH sides. REVISION 4: Hydrocarbons-vs-Hydrocarbons rows additionally must clear a terpene_mono/terpene_sesqui role-share gate on BOTH sides for the SAME role \u2014 see terpene_subtype_counts below."
     },
     "conflict_type_counts": {
       "same_group_crowding": 712,
@@ -1084,7 +1084,7 @@
         "sesqui_crowding": 23,
         "dropped_neither": 63,
         "dropped_mono_vs_sesqui": 3,
-        "note": "James's own hand-computed sanity check, explicitly offered as a target to verify against rather than assume. The actual rebuild's 'dropped_neither' count matches this exactly under every tie-break rule tried; the mono_crowding/sesqui_crowding/mono_vs_sesqui split differs — see classify_hydrocarbons_terpene_subtype's docstring for why (~122 of 459 rows clear BOTH roles' gates on BOTH sides simultaneously, a case the sanity table doesn't appear to have accounted for). Reported as a finding about the corpus, not forced to match."
+        "note": "James's own hand-computed sanity check, explicitly offered as a target to verify against rather than assume. The actual rebuild's 'dropped_neither' count matches this exactly under every tie-break rule tried; the mono_crowding/sesqui_crowding/mono_vs_sesqui split differs \u2014 see classify_hydrocarbons_terpene_subtype's docstring for why (~122 of 459 rows clear BOTH roles' gates on BOTH sides simultaneously, a case the sanity table doesn't appear to have accounted for). Reported as a finding about the corpus, not forced to match."
       }
     },
     "render_mode_counts": {
@@ -1232,7 +1232,7 @@
       "Carbonyls, ketones vs Hydrocarbons": 23,
       "Alcohols vs Carbonyls, ketones": 16
     },
-    "top_group_pairs_missing_frame_note": "Ranked by how often each unauthored collision fires among surviving rows — the priority order for which frame to write next in phase_frames.jsonl. REVISION 4: the former 'Hydrocarbons vs Hydrocarbons' single bucket is now split into '(mono_crowding)'/'(sesqui_crowding)' — both still have no authored sentence, they're just no longer one undifferentiated cluster. Authoring the sentence is James's call, not a build step.",
+    "top_group_pairs_missing_frame_note": "Ranked by how often each unauthored collision fires among surviving rows \u2014 the priority order for which frame to write next in phase_frames.jsonl. REVISION 4: the former 'Hydrocarbons vs Hydrocarbons' single bucket is now split into '(mono_crowding)'/'(sesqui_crowding)' \u2014 both still have no authored sentence, they're just no longer one undifferentiated cluster. Authoring the sentence is James's call, not a build step.",
     "conflicts_per_dish": {
       "k4": {
         "n_trials": 3000,
@@ -1251,7 +1251,7 @@
     },
     "conflicts_per_dish_note": "3000 simulated dishes per size, sampled by walking pairs.jsonl's own association graph outward from a random anchor product. Fixed seed 20260829 for reproducibility. Comparable to the pre-Revision-4 numbers (k4: median 0 / p90 3; k6: median 0 / p90 5) since the row population changed (phenol/terpene reframing + terpene subtype drops).",
     "detection_rule": "Same dominant phase_bucket (fat_phase or fat_leaning only; both_phases excluded), BOTH sides at or above the 75th percentile of their own dominant compound_group's corpus-wide share-of-profile distribution. Dominant groups may be the same (conflict_type=same_group_crowding) or different (conflict_type=cross_group_carrier). Hydrocarbons-vs-Hydrocarbons rows are further gated by conflict_subtype (REVISION 4, Change 3). Scanned over the pairs already stored in pairs.jsonl.",
-    "frame_attachment_note": "REVISION 4: fat_phase_phenol_terpene_carrier (replaces fat_phase_smoke_terpene_competition) is a pure behaviour claim — group_pair=={'Hydrocarbons','Phenols'} (order-independent) AND both sides' own group_percentile >= 75. No role/provenance inference. frame_id is set only when this trigger fires AND conflict_type=='cross_group_carrier' (implied by group_pair equality on 2 distinct items, but checked explicitly too) AND the frame is not pending_authoring. REVISION 5 adds a second assignable frame, fat_phase_aldehyde_load_crowding (groups_present contains 'Carbonyls, aldehydes', both sides' group_percentile >= 75, no conflict_type restriction — fires on same_group_crowding and cross_group_carrier alike). smoked_product_fat_phase remains a SEPARATE, preparation-gated stub (pending_authoring=True), now with a mechanism gate added (either_side.group eq 'Phenols', bound to the same side as the preparation condition) — its trigger is evaluated for n_firing_rows reporting only; frame_id can never be set to it. See _assert_frame_assignments_correct for the independent re-derivation of every assignable frame.",
+    "frame_attachment_note": "REVISION 4: fat_phase_phenol_terpene_carrier (replaces fat_phase_smoke_terpene_competition) is a pure behaviour claim \u2014 group_pair=={'Hydrocarbons','Phenols'} (order-independent) AND both sides' own group_percentile >= 75. No role/provenance inference. frame_id is set only when this trigger fires AND conflict_type=='cross_group_carrier' (implied by group_pair equality on 2 distinct items, but checked explicitly too) AND the frame is not pending_authoring. REVISION 5 adds a second assignable frame, fat_phase_aldehyde_load_crowding (groups_present contains 'Carbonyls, aldehydes', both sides' group_percentile >= 75, no conflict_type restriction \u2014 fires on same_group_crowding and cross_group_carrier alike). smoked_product_fat_phase remains a SEPARATE, preparation-gated stub (pending_authoring=True), now with a mechanism gate added (either_side.group eq 'Phenols', bound to the same side as the preparation condition) \u2014 its trigger is evaluated for n_firing_rows reporting only; frame_id can never be set to it. See _assert_frame_assignments_correct for the independent re-derivation of every assignable frame.",
     "phenol_terpene_frame": {
       "frame_id": "fat_phase_phenol_terpene_carrier",
       "n_rows": 43,
@@ -1285,7 +1285,7 @@
         "XYLOPIA PARVIFLORA (A. RICH) BENTH.",
         "XYLOPIA SPECIES"
       ],
-      "note": "REVISION 4 corrected list — a pure carrier-competition claim, no provenance inference. Replaces Revision 3's 1 row (MICROBIAL FERMENTED TEA / YELLOW BOX HONEY, which drops out here: its contested groups are {Carbonyls aldehydes, Hydrocarbons}, not {Hydrocarbons, Phenols}) and Revision 2's 37 wrongly-labeled-smoke rows (now framed correctly, as carrier competition, under this frame_id). REVISION 5: n_rows here is flagship-only — see n_rows_with_authored_frame for the total across both assignable frames."
+      "note": "REVISION 4 corrected list \u2014 a pure carrier-competition claim, no provenance inference. Replaces Revision 3's 1 row (MICROBIAL FERMENTED TEA / YELLOW BOX HONEY, which drops out here: its contested groups are {Carbonyls aldehydes, Hydrocarbons}, not {Hydrocarbons, Phenols}) and Revision 2's 37 wrongly-labeled-smoke rows (now framed correctly, as carrier competition, under this frame_id). REVISION 5: n_rows here is flagship-only \u2014 see n_rows_with_authored_frame for the total across both assignable frames."
     },
     "aldehyde_load_crowding_frame": {
       "frame_id": "fat_phase_aldehyde_load_crowding",
@@ -1385,16 +1385,16 @@
         "XYLOPIA SPECIES",
         "YELLOW BOX HONEY (Eucalyptus melliodora)"
       ],
-      "note": "REVISION 5 addition. The 4 rows that prompted this frame (all beef:muscle:smoked, contending on Carbonyls,aldehydes against CUTTLEFISH/BRAZIL NUT/PARBOILED RICE/MICROBIAL FERMENTED TEA) plus every other row where lipid-oxidation aldehyde load is genuinely crowding a fat-affine phase, whether the other side shares that same group (same_group_crowding) or contends on a different one entirely (cross_group_carrier) — one sentence covers both shapes correctly, see build_vcf_phase_frames.py's REVISION 5 note."
+      "note": "REVISION 5 addition. The 4 rows that prompted this frame (all beef:muscle:smoked, contending on Carbonyls,aldehydes against CUTTLEFISH/BRAZIL NUT/PARBOILED RICE/MICROBIAL FERMENTED TEA) plus every other row where lipid-oxidation aldehyde load is genuinely crowding a fat-affine phase, whether the other side shares that same group (same_group_crowding) or contends on a different one entirely (cross_group_carrier) \u2014 one sentence covers both shapes correctly, see build_vcf_phase_frames.py's REVISION 5 note."
     },
     "smoked_product_fat_phase_frame": {
       "frame_id": "smoked_product_fat_phase",
       "pending_authoring": true,
       "n_firing_rows": 0,
       "firing_row_products": [],
-      "note": "REVISION 5: trigger now ALSO requires the smoked side's own contending group to be Phenols (either_side.group eq 'Phenols', bound to the same side as the preparation condition) — a mechanism gate added alongside the existing provenance gate, because beef's 4 firing rows under the Revision 4 trigger all contended on Carbonyls,aldehydes, never Phenols (see aldehyde_load_crowding_frame above for where that signal actually belongs). Trigger evaluated against the final competition.jsonl row population purely for this report — frame_id is NEVER set to this frame's id regardless of the count here (enforced in _assign_frame_id / _assert_frame_assignments_correct). Expected 0: neither beef's own smoke_marker/Phenols content (real — 12.3%/16.4% of its own profile) nor the original two smoked pork products (PORK, CURED (smoked) / PORK, UNCURED (smoked), whose pairs.jsonl top-20 neighbours are other pork/Maillard-adjacent products, not a fat-affine terpene-heavy carrier) currently wins a phenol-contending competition row. Fact about this corpus, not a broken trigger — activates once a smoked product contends on phenols specifically."
+      "note": "REVISION 5: trigger now ALSO requires the smoked side's own contending group to be Phenols (either_side.group eq 'Phenols', bound to the same side as the preparation condition) \u2014 a mechanism gate added alongside the existing provenance gate, because beef's 4 firing rows under the Revision 4 trigger all contended on Carbonyls,aldehydes, never Phenols (see aldehyde_load_crowding_frame above for where that signal actually belongs). Trigger evaluated against the final competition.jsonl row population purely for this report \u2014 frame_id is NEVER set to this frame's id regardless of the count here (enforced in _assign_frame_id / _assert_frame_assignments_correct). Expected 0: neither beef's own smoke_marker/Phenols content (real \u2014 12.3%/16.4% of its own profile) nor the original two smoked pork products (PORK, CURED (smoked) / PORK, UNCURED (smoked), whose pairs.jsonl top-20 neighbours are other pork/Maillard-adjacent products, not a fat-affine terpene-heavy carrier) currently wins a phenol-contending competition row. Fact about this corpus, not a broken trigger \u2014 activates once a smoked product contends on phenols specifically."
     },
-    "smoke_marker_role_status": "The compound_roles.jsonl smoke_marker role (29 curated compounds) and its role_counts/role_shares on profiles.jsonl still exist, byte-identical to Revision 3 — this script does not touch either artifact. REVISION 4 simply stops using that role to drive ANY frame trigger, per the provenance-vs-behaviour rule (see build_vcf_phase_frames.py's docstring): a curated molecule set, however precise, cannot license a claim about how a product was prepared. Provenance now comes from vcf_product_parse.jsonl's parsed `preparation` field instead (see smoked_product_fat_phase_frame above)."
+    "smoke_marker_role_status": "The compound_roles.jsonl smoke_marker role (29 curated compounds) and its role_counts/role_shares on profiles.jsonl still exist, byte-identical to Revision 3 \u2014 this script does not touch either artifact. REVISION 4 simply stops using that role to drive ANY frame trigger, per the provenance-vs-behaviour rule (see build_vcf_phase_frames.py's docstring): a curated molecule set, however precise, cannot license a claim about how a product was prepared. Provenance now comes from vcf_product_parse.jsonl's parsed `preparation` field instead (see smoked_product_fat_phase_frame above)."
   },
   "descriptors": {
     "sources_used": [
@@ -1404,7 +1404,7 @@
     "sources_attempted_not_available": [
       {
         "source": "flavornet",
-        "reason": "flavornet.org unreachable from this environment (robots.txt fetch timed out on the live site; web.archive.org mirror blocked by the fetch proxy, HTTP 403). Reported to James 2026-08-28. Can be added later without reshaping this table — source/priority are already per-row fields."
+        "reason": "flavornet.org unreachable from this environment (robots.txt fetch timed out on the live site; web.archive.org mirror blocked by the fetch proxy, HTTP 403). Reported to James 2026-08-28. Can be added later without reshaping this table \u2014 source/priority are already per-row fields."
       }
     ],
     "n_raw_descriptor_rows_foodatlas": 4354,
@@ -1460,7 +1460,7 @@
         "filename": "CulinAI_Staging_v30.xlsx",
         "sha256": "faece790f7a9c014d1c3f30668b147873a115908da28bc42bcf92e3670821810"
       },
-      "note": "James, 2026-08-30: nothing previously recorded which workbook version produced beef — 'somewhere around v21-v22, from memory.' Recorded here by hash going forward, not by version-number memory. The two are different files on purpose (see routing_source_backport below) — beef's Detected tables predate the Exclusion Routing Audit tab entirely."
+      "note": "James, 2026-08-30: nothing previously recorded which workbook version produced beef \u2014 'somewhere around v21-v22, from memory.' Recorded here by hash going forward, not by version-number memory. The two are different files on purpose (see routing_source_backport below) \u2014 beef's Detected tables predate the Exclusion Routing Audit tab entirely."
     },
     "tabs_ingested": {
       "Detected Beef Muscle": 136,
@@ -1604,7 +1604,7 @@
     "step5_partial_profile_decision": {
       "chosen": "partial_profile_state_in_the_lens",
       "rejected": "source_aware_normalization",
-      "why": "Cosine-with-IDF already normalizes by each profile's own vector norm, partially correcting for size; a further hand-tuned correction factor would need ground truth this pass doesn't have to validate. Every culinai_protein_v21 profile is marked profile_size_class=partial unconditionally, and pairs.jsonl flags any pair touching one. Actual score-distribution gap is reported in meta.json's protein_beef_validation block after pairs.jsonl is rebuilt (Step 8) — this decision was made before seeing that number, not fitted to it."
+      "why": "Cosine-with-IDF already normalizes by each profile's own vector norm, partially correcting for size; a further hand-tuned correction factor would need ground truth this pass doesn't have to validate. Every culinai_protein_v21 profile is marked profile_size_class=partial unconditionally, and pairs.jsonl flags any pair touching one. Actual score-distribution gap is reported in meta.json's protein_beef_validation block after pairs.jsonl is rebuilt (Step 8) \u2014 this decision was made before seeing that number, not fitted to it."
     },
     "mr15_straight_chain_alkane_guard": {
       "implemented": true,
@@ -1623,24 +1623,24 @@
         "Tridecane",
         "Undecane"
       ],
-      "note": "None of these collide with build_vcf_compound_roles.py's terpene MW windows on their real molecular weight (checked, not assumed) — the guard is currently inert on this dataset but is now in place as a hard exclusion regardless of any future MW coincidence. See build_vcf_compound_roles.py's MR15_STRAIGHT_CHAIN_ALKANE_RE."
+      "note": "None of these collide with build_vcf_compound_roles.py's terpene MW windows on their real molecular weight (checked, not assumed) \u2014 the guard is currently inert on this dataset but is now in place as a hard exclusion regardless of any future MW coincidence. See build_vcf_compound_roles.py's MR15_STRAIGHT_CHAIN_ALKANE_RE."
     },
     "mr17_mr18_flavour_relevance_classification": {
-      "background": "compound_group is None was originally treated as a proxy for 'not flavour-relevant' when auto-suppressing beef's raw-tier df=1 compounds. That's wrong: it would have silently dropped Furaneol (2,5-Dimethyl-4-hydroxy-3(2H)-furanone), one of the most-cited Maillard flavour compounds in food chemistry, from beef:fat:cooked's profile, because its source label ('Oxygen heterocycles') was too coarse for GROUP_MAP — not because it isn't flavour chemistry. See protein_beef_validation for the full df=1 investigation this came out of.",
+      "background": "compound_group is None was originally treated as a proxy for 'not flavour-relevant' when auto-suppressing beef's raw-tier df=1 compounds. That's wrong: it would have silently dropped Furaneol (2,5-Dimethyl-4-hydroxy-3(2H)-furanone), one of the most-cited Maillard flavour compounds in food chemistry, from beef:fat:cooked's profile, because its source label ('Oxygen heterocycles') was too coarse for GROUP_MAP \u2014 not because it isn't flavour chemistry. See protein_beef_validation for the full df=1 investigation this came out of.",
       "mr17": "a compound enters a flavour profile only if it carries a resolved compound_group and is not marked flavour_relevant: false. Unmapped is a blocking condition requiring classification, never an automatic exclusion.",
-      "mr18": "GROUP_MAP stays deliberately incomplete for combined/ambiguous source labels (Others, Miscellaneous, N-containing, S-containing, Oxygen heterocycles, Hydrocarbons/esters/acids) — the same coarse label covers real flavour compounds and non-culinary chemistry alike, so blanket-mapping it would get some compounds wrong either direction. What MR-18 requires: every compound landing under an unmapped label is classified individually by name — a real reclassification (MAPPED_COMPOUND_OVERRIDES, a code constant, since it's a GROUP_MAP fix not an exclusion) or a routing decision (read live from ROUTING_XLSX's Exclusion Routing Audit tab as of 2026-08-30 — see routing_source_backport below), never a blanket mapping of the coarse label itself.",
+      "mr18": "GROUP_MAP stays deliberately incomplete for combined/ambiguous source labels (Others, Miscellaneous, N-containing, S-containing, Oxygen heterocycles, Hydrocarbons/esters/acids) \u2014 the same coarse label covers real flavour compounds and non-culinary chemistry alike, so blanket-mapping it would get some compounds wrong either direction. What MR-18 requires: every compound landing under an unmapped label is classified individually by name \u2014 a real reclassification (MAPPED_COMPOUND_OVERRIDES, a code constant, since it's a GROUP_MAP fix not an exclusion) or a routing decision (read live from ROUTING_XLSX's Exclusion Routing Audit tab as of 2026-08-30 \u2014 see routing_source_backport below), never a blanket mapping of the coarse label itself.",
       "routing_source_backport": {
         "date": "2026-08-30",
-        "what_changed": "excluded/unresolved outcomes for this run were read from CulinAI_Staging_v30.xlsx::Exclusion Routing Audit (family=beef), not from a code constant. mapped stays a code constant (MAPPED_COMPOUND_OVERRIDES) — it's a GROUP_MAP classification fix, not an exclusion, so it isn't in that tab.",
-        "why": "James: beef is the reference implementation every later family's ingestion script gets read against — two patterns in the repo (beef hardcoded, egg reading the workbook) is worse than the cost of retrofitting beef now.",
-        "gate": "load_routing_table() validates every row for this family at load time: mr17_state must be one of VALID_MR17_ROUTING_STATES, authority must be non-empty, and a compound with no compound_group and no matching row at all raises SystemExit rather than silently falling through. A routing decision without a stated basis — or with no decision recorded at all — fails the build.",
+        "what_changed": "excluded/unresolved outcomes for this run were read from CulinAI_Staging_v30.xlsx::Exclusion Routing Audit (family=beef), not from a code constant. mapped stays a code constant (MAPPED_COMPOUND_OVERRIDES) \u2014 it's a GROUP_MAP classification fix, not an exclusion, so it isn't in that tab.",
+        "why": "James: beef is the reference implementation every later family's ingestion script gets read against \u2014 two patterns in the repo (beef hardcoded, egg reading the workbook) is worse than the cost of retrofitting beef now.",
+        "gate": "load_routing_table() validates every row for this family at load time: mr17_state must be one of VALID_MR17_ROUTING_STATES, authority must be non-empty, and a compound with no compound_group and no matching row at all raises SystemExit rather than silently falling through. A routing decision without a stated basis \u2014 or with no decision recorded at all \u2014 fails the build.",
         "sha256": "faece790f7a9c014d1c3f30668b147873a115908da28bc42bcf92e3670821810"
       },
       "mapped": [
         {
           "raw_compound": "2,5-Dimethyl-4-hydroxy-3(2H)-furanone",
           "compound_group": "Furans",
-          "reason": "Furaneol — a canonical Maillard/caramelic flavour compound (strawberry/pineapple note, also a Maillard product in cooked meat); source label 'Oxygen heterocycles' was too coarse for GROUP_MAP."
+          "reason": "Furaneol \u2014 a canonical Maillard/caramelic flavour compound (strawberry/pineapple note, also a Maillard product in cooked meat); source label 'Oxygen heterocycles' was too coarse for GROUP_MAP."
         },
         {
           "raw_compound": "Ethenyl-dimethylpyrazine",
@@ -1650,7 +1650,7 @@
         {
           "raw_compound": "p-Cymene",
           "compound_group": "Hydrocarbons",
-          "reason": "a monoterpene common in cumin/thyme/oregano volatile profiles; source label 'Others' was too coarse for GROUP_MAP. Also given an explicit terpene_mono role override in build_vcf_compound_roles.py: it has no CAS/molecular_weight in this corpus, and even with one, MW 134 is a band that script's MW-based terpene rule deliberately excludes (contaminated by tetramethylbenzenes at that exact mass) — included here by name-confirmed identity instead, the same per-compound inspection standard the MW bands themselves were built with."
+          "reason": "a monoterpene common in cumin/thyme/oregano volatile profiles; source label 'Others' was too coarse for GROUP_MAP. Also given an explicit terpene_mono role override in build_vcf_compound_roles.py: it has no CAS/molecular_weight in this corpus, and even with one, MW 134 is a band that script's MW-based terpene rule deliberately excludes (contaminated by tetramethylbenzenes at that exact mass) \u2014 included here by name-confirmed identity instead, the same per-compound inspection standard the MW bands themselves were built with."
         }
       ],
       "excluded": [
@@ -1658,14 +1658,14 @@
           "raw_compound": "2-Ethylhexyl acrylate",
           "routing_state": "present_not_flavor_relevant",
           "reason": "Authentically identified industrial acrylate monomer / adhesive component; its measured occurrence is retained as a sample fact but it has no culinary-flavor basis.",
-          "authority": "MR-17 + IARC/ECHA use verification — v29",
+          "authority": "MR-17 + IARC/ECHA use verification \u2014 v29",
           "route_id": "ER-010"
         },
         {
           "raw_compound": "2,2-Dichloropropane",
           "routing_state": "present_not_flavor_relevant",
           "reason": "Genuinely reported in the sample; treated as residue/contaminant rather than flavor chemistry.",
-          "authority": "Founder correction — v28",
+          "authority": "Founder correction \u2014 v28",
           "route_id": "ER-001"
         },
         {
@@ -1679,7 +1679,7 @@
           "raw_compound": "Demeton-O",
           "routing_state": "present_not_flavor_relevant",
           "reason": "Genuinely reported in the sample; treated as residue/contaminant rather than flavor chemistry.",
-          "authority": "Founder correction — v28",
+          "authority": "Founder correction \u2014 v28",
           "route_id": "ER-003"
         }
       ],
@@ -1687,64 +1687,64 @@
         {
           "raw_compound": "1-Formylpyrrolidine",
           "reason": "The cooked-beef authentication source reports the row, but current evidence is insufficient to establish a culinary-flavor role rather than a non-flavor sample constituent.",
-          "authority": "Carry-forward unresolved from beef correction — v29",
+          "authority": "Carry-forward unresolved from beef correction \u2014 v29",
           "route_id": "ER-012"
         },
         {
           "raw_compound": "1-Butanamine",
           "reason": "Source-reported aged-beef volatile, but current governed evidence is insufficient to classify the row confidently for positive flavor use under the corrected resolver/classifier.",
-          "authority": "Carry-forward unresolved from beef correction — v29",
+          "authority": "Carry-forward unresolved from beef correction \u2014 v29",
           "route_id": "ER-011"
         },
         {
           "raw_compound": "2-Methyl-2-propanethiol",
           "reason": "The source reports the identity in aged beef, but current evidence is insufficient to distinguish culinary sulfur chemistry from an industrial or analytical origin.",
-          "authority": "No classification basis found. Thiol identity alone is insufficient to distinguish culinary sulfur chemistry from an industrial or analytical origin — the same evidentiary standard applied to Diisopropyl ether (ER-009).",
+          "authority": "No classification basis found. Thiol identity alone is insufficient to distinguish culinary sulfur chemistry from an industrial or analytical origin \u2014 the same evidentiary standard applied to Diisopropyl ether (ER-009).",
           "route_id": "ER-014"
         },
         {
           "raw_compound": "Ethylcyclopentane",
           "reason": "Source-reported aged-beef hydrocarbon; current evidence is insufficient to distinguish positive flavor relevance from incidental/non-flavor occurrence.",
-          "authority": "Carry-forward unresolved from beef correction — v29",
+          "authority": "Carry-forward unresolved from beef correction \u2014 v29",
           "route_id": "ER-013"
         },
         {
           "raw_compound": "Diisopropyl ether",
           "reason": "The source reports the identity in aged beef, but current evidence does not distinguish genuine sample residue from analytical/method background. Industrial-solvent identity alone is not enough to choose between those routes.",
-          "authority": "MR-17 conservative routing — v29",
+          "authority": "MR-17 conservative routing \u2014 v29",
           "route_id": "ER-009"
         },
         {
           "raw_compound": "Ethyl chloride",
           "reason": "Could be analytical background or a genuine sample contaminant; current evidence is insufficient to choose.",
-          "authority": "Founder correction — v28",
+          "authority": "Founder correction \u2014 v28",
           "route_id": "ER-004"
         },
         {
           "raw_compound": "Perfluorononane",
           "reason": "Could be analytical background or a genuine sample contaminant; current evidence is insufficient to choose.",
-          "authority": "Founder correction — v28",
+          "authority": "Founder correction \u2014 v28",
           "route_id": "ER-005"
         }
       ],
       "n_observations_excluded_from_profiles_and_df_by_mr17": 13,
-      "note": "excluded + unresolved compounds are held out of every profile's compound_ids and df_eligible_compound_ids entirely (see add_member's MR-17 gate) — not merely excluded from df counting the way evidence_mode=inherited compounds are. Applies to any future family hitting the same coarse GROUP_MAP labels, not just beef."
+      "note": "excluded + unresolved compounds are held out of every profile's compound_ids and df_eligible_compound_ids entirely (see add_member's MR-17 gate) \u2014 not merely excluded from df counting the way evidence_mode=inherited compounds are. Applies to any future family hitting the same coarse GROUP_MAP labels, not just beef."
     },
     "DI-BEEF-001": {
       "type": "evidentiary_standard_correction, not a typo fix",
-      "finding": "Three of beef's original code-authored exclusions (Ethyl chloride, Perfluorononane, Diisopropyl ether) were marked 'excluded' on 'industrial solvent' reasoning alone. Cross-checked against CulinAI_Staging_v29.xlsx's Exclusion Routing Audit after it shipped: the workbook holds all three at 'unresolved' and states why — 'industrial-solvent identity alone is not enough to choose between [contaminant vs. analytical-background] routes.' That is a stricter evidentiary standard than the code applied, not a newer fact the code simply hadn't seen yet (contrast: Thiadiazole and 2-Ethylhexyl acrylate, where the workbook resolved a genuinely open question via EPA/IARC/ECHA authority after the code was written — ordinary staleness, not a standards gap).",
+      "finding": "Three of beef's original code-authored exclusions (Ethyl chloride, Perfluorononane, Diisopropyl ether) were marked 'excluded' on 'industrial solvent' reasoning alone. Cross-checked against CulinAI_Staging_v29.xlsx's Exclusion Routing Audit after it shipped: the workbook holds all three at 'unresolved' and states why \u2014 'industrial-solvent identity alone is not enough to choose between [contaminant vs. analytical-background] routes.' That is a stricter evidentiary standard than the code applied, not a newer fact the code simply hadn't seen yet (contrast: Thiadiazole and 2-Ethylhexyl acrylate, where the workbook resolved a genuinely open question via EPA/IARC/ECHA authority after the code was written \u2014 ordinary staleness, not a standards gap).",
       "james": "That isn't the workbook being behind. That's the code asserting more confidence than the evidence supports, which is worse than being out of date, and it's the same class of error as the four Step 11 frame revisions. The workbook's standard is the correct one and the code should adopt the standard, not just the outputs.",
-      "resolution": "Code no longer asserts an excluded/unresolved outcome on its own reasoning at all — every such outcome for this run came from the routing table, live, with the workbook's own stated authority (see routing_source_backport above and the 'excluded'/'unresolved_pending' lists' authority/route_id fields). No corpus-count effect: both 'excluded' and 'unresolved' block profile membership identically, so this is an audit-trail correction, not a rebuild of beef's compound counts.",
+      "resolution": "Code no longer asserts an excluded/unresolved outcome on its own reasoning at all \u2014 every such outcome for this run came from the routing table, live, with the workbook's own stated authority (see routing_source_backport above and the 'excluded'/'unresolved_pending' lists' authority/route_id fields). No corpus-count effect: both 'excluded' and 'unresolved' block profile membership identically, so this is an audit-trail correction, not a rebuild of beef's compound counts.",
       "no_corpus_output_change": true
     },
     "product_group_naming_note": {
-      "finding": "VCF's own 'Meat & Poultry' product_group (17 pre-existing products) contains zero poultry — 4 lamb/mutton, 13 pork. Beef's new profiles inherit the same product_group label per the spec, so 'Meat & Poultry' is now beef + lamb/mutton + pork, still zero poultry. Anyone reasoning from product_group alone would conclude poultry is covered in this corpus; it is not, at all — there is no existing avian entry to check against before avian ingestion, ruminant/pork validation is not a substitute, and the label itself invites that assumption.",
-      "action_taken": "none — recorded here as a corpus-labeling defect, not fixed by renaming the group (renaming 'Meat & Poultry' touches every pre-existing lamb/mutton/pork row's product_group and is out of this delta's scope). Flagging so the next reader doesn't repeat the assumption."
+      "finding": "VCF's own 'Meat & Poultry' product_group (17 pre-existing products) contains zero poultry \u2014 4 lamb/mutton, 13 pork. Beef's new profiles inherit the same product_group label per the spec, so 'Meat & Poultry' is now beef + lamb/mutton + pork, still zero poultry. Anyone reasoning from product_group alone would conclude poultry is covered in this corpus; it is not, at all \u2014 there is no existing avian entry to check against before avian ingestion, ruminant/pork validation is not a substitute, and the label itself invites that assumption.",
+      "action_taken": "none \u2014 recorded here as a corpus-labeling defect, not fixed by renaming the group (renaming 'Meat & Poultry' touches every pre-existing lamb/mutton/pork row's product_group and is out of this delta's scope). Flagging so the next reader doesn't repeat the assumption."
     }
   },
   "protein_beef_validation": {
-    "coffee_reference_query": "see meta.pairs.coffee_validation — unaffected by beef ingestion, still passes",
-    "hub_check": "see meta.pairs.hub_check_top5 — still 13.0% (RICE BRAN), well under the 40% threshold",
+    "coffee_reference_query": "see meta.pairs.coffee_validation \u2014 unaffected by beef ingestion, still passes",
+    "hub_check": "see meta.pairs.hub_check_top5 \u2014 still 13.0% (RICE BRAN), well under the 40% threshold",
     "beef_sanity": {
       "beef_muscle_raw_top10": [
         "PORK, CURED (raw)",
@@ -1782,7 +1782,7 @@
         "RICE (Oryza sativa L.)",
         "PARBOILED RICE (cooked)"
       ],
-      "assessment": "MIXED, reported honestly rather than declared a pass. beef:muscle:raw and :cooked both put PORK, CURED at rank 1 (a genuine Maillard/protein match) but rank 2-8 is dominated by fruit and nut/oil products (scallop, blackberry, olive oil, bilberry, pecan, walnut oil) — this is real fruit contamination in the top-10, the exact failure mode Step 8 asks to check for. beef:muscle:smoked is cleaner: cuttlefish, rice bran, PORK CURED (smoked), whisky variants — no fruit in the top 4, though rice bran is a known pre-existing hub product (13% top-10 occupancy, see meta.pairs.hub_check_top5) that pairs broadly with many products, not a beef-specific finding."
+      "assessment": "MIXED, reported honestly rather than declared a pass. beef:muscle:raw and :cooked both put PORK, CURED at rank 1 (a genuine Maillard/protein match) but rank 2-8 is dominated by fruit and nut/oil products (scallop, blackberry, olive oil, bilberry, pecan, walnut oil) \u2014 this is real fruit contamination in the top-10, the exact failure mode Step 8 asks to check for. beef:muscle:smoked is cleaner: cuttlefish, rice bran, PORK CURED (smoked), whisky variants \u2014 no fruit in the top 4, though rice bran is a known pre-existing hub product (13% top-10 occupancy, see meta.pairs.hub_check_top5) that pairs broadly with many products, not a beef-specific finding."
     },
     "beef_fat_sanity": {
       "beef_fat_top10": [
@@ -1798,7 +1798,7 @@
         "POPCORN"
       ],
       "n_fat_or_oil_adjacent_in_top10": 0,
-      "assessment": "PASSES, on a corrected reading of what Step 8 actually asked. The original spec sentence ('should match other rendered fats AND lipid-oxidation-heavy products') was two predictions joined by 'and', built on an unstated premise — 'fats group with fats' — that is chemically false: olive oil's volatiles (hexenals, terpenes, phenolics) and beef tallow's (long-chain aldehydes, 2-alkenals, dienals from saturated-fat oxidation) are aromatically unrelated. Being 'a fat' is a phase/carrier property (already handled by phase_bucket + XLogP, not by this pairing metric) — it does not predict shared-volatile pairing. Only the second clause was ever a valid test, and it PASSES: the rank-1 match (pecan) shares 36 compounds, dominated by lipid-oxidation aldehydes ((E,E)-2,4-nonadienal, (E)-2-undecenal) and related alcohols — pecan is itself a lipid-rich nut whose own oxidation chemistry genuinely overlaps rendered fat's. n_fat_or_oil_adjacent_in_top10=0 is therefore reported as a fact, not a failure — the 'no named oils/fats in top 10' criterion it measures was never a valid pairing test to begin with. At 96 compounds, beef:fat is above VCF's own 75-compound culinary median; it is not a thin profile. Ship it."
+      "assessment": "PASSES, on a corrected reading of what Step 8 actually asked. The original spec sentence ('should match other rendered fats AND lipid-oxidation-heavy products') was two predictions joined by 'and', built on an unstated premise \u2014 'fats group with fats' \u2014 that is chemically false: olive oil's volatiles (hexenals, terpenes, phenolics) and beef tallow's (long-chain aldehydes, 2-alkenals, dienals from saturated-fat oxidation) are aromatically unrelated. Being 'a fat' is a phase/carrier property (already handled by phase_bucket + XLogP, not by this pairing metric) \u2014 it does not predict shared-volatile pairing. Only the second clause was ever a valid test, and it PASSES: the rank-1 match (pecan) shares 36 compounds, dominated by lipid-oxidation aldehydes ((E,E)-2,4-nonadienal, (E)-2-undecenal) and related alcohols \u2014 pecan is itself a lipid-rich nut whose own oxidation chemistry genuinely overlaps rendered fat's. n_fat_or_oil_adjacent_in_top10=0 is therefore reported as a fact, not a failure \u2014 the 'no named oils/fats in top 10' criterion it measures was never a valid pairing test to begin with. At 96 compounds, beef:fat is above VCF's own 75-compound culinary median; it is not a thin profile. Ship it."
     },
     "score_distribution_comparison": {
       "vcf_top1_score": {
@@ -1819,7 +1819,7 @@
         "median": 0.0869,
         "mean": 0.0862
       },
-      "gap_note": "Beef's median top-1 IDF-cosine score is roughly a third of VCF's median top-1 score (0.11 vs 0.32) despite beef profiles having 73-124 compounds each — comparable in RAW COUNT to VCF's own 75-compound median. The profile-size problem Step 5 warned about is real, but it shows up as SCORE MAGNITUDE, not compound count: beef's detected tables extract common lipid-oxidation/Maillard markers (widely shared, low IDF) more than rare, high-IDF diagnostic compounds, so the numerator (shared high-IDF compounds with any given match) stays modest relative to the denominator (each side's own vector norm). This is evidence FOR the Step 5 decision (partial_profile_state_in_the_lens, not a hand-tuned normalization factor this pass has no ground truth to calibrate) rather than something the decision failed to anticipate.",
+      "gap_note": "Beef's median top-1 IDF-cosine score is roughly a third of VCF's median top-1 score (0.11 vs 0.32) despite beef profiles having 73-124 compounds each \u2014 comparable in RAW COUNT to VCF's own 75-compound median. The profile-size problem Step 5 warned about is real, but it shows up as SCORE MAGNITUDE, not compound count: beef's detected tables extract common lipid-oxidation/Maillard markers (widely shared, low IDF) more than rare, high-IDF diagnostic compounds, so the numerator (shared high-IDF compounds with any given match) stays modest relative to the denominator (each side's own vector norm). This is evidence FOR the Step 5 decision (partial_profile_state_in_the_lens, not a hand-tuned normalization factor this pass has no ground truth to calibrate) rather than something the decision failed to anticipate.",
       "per_beef_product": {
         "beef:muscle:raw": {
           "top1_score": 0.1726,
@@ -1840,16 +1840,16 @@
       }
     },
     "residual_neighbour_density_diagnostic": {
-      "hypothesis": "Beef sits in a sparse region of the corpus (17 VCF Meat & Poultry products vs. 131 fruits) — top-1 score partly measures neighbour density, not profile quality.",
+      "hypothesis": "Beef sits in a sparse region of the corpus (17 VCF Meat & Poultry products vs. 131 fruits) \u2014 top-1 score partly measures neighbour density, not profile quality.",
       "n_vcf_meat_poultry_products": 17,
       "vcf_meat_poultry_median_top1_score": 0.2021,
       "vcf_meat_poultry_mean_top1_score": 0.2317,
       "beef_median_top1_score": 0.1154,
       "honest_corpus_median_top1_score": 0.2605,
-      "reading": "0.2021 — lands BETWEEN the spec's two named outcomes (~0.13 vs ~0.26), neither cleanly. VCF's own meat & poultry products score meaningfully lower than the honest whole-corpus median (0.2605) — ratio 0.78, roughly consistent with 'sparse category, fewer close neighbours' partially explaining the original gap. But beef itself STILL scores well below its own category's peers, not just below the whole corpus: ratio 0.57 — beef scores roughly half what its own category's peers score. Reading: neighbour density explains PART of the original ~2x gap (meat & poultry as a category trails the full corpus), but does NOT explain all of it — beef underperforms even sparse-category peers. Not forced into either of the spec's two named outcomes; recorded as a mixed result, with the unexplained portion left open rather than assigned a cause this pass has no evidence for. Two outlier VCF meat scores (PORK, CURED (smoked) / PORK, UNCURED (smoked), both ~0.40-0.46 against CUTTLEFISH) pull the category mean above its median — median is the more robust number here and is what this reading uses."
+      "reading": "0.2021 \u2014 lands BETWEEN the spec's two named outcomes (~0.13 vs ~0.26), neither cleanly. VCF's own meat & poultry products score meaningfully lower than the honest whole-corpus median (0.2605) \u2014 ratio 0.78, roughly consistent with 'sparse category, fewer close neighbours' partially explaining the original gap. But beef itself STILL scores well below its own category's peers, not just below the whole corpus: ratio 0.57 \u2014 beef scores roughly half what its own category's peers score. Reading: neighbour density explains PART of the original ~2x gap (meat & poultry as a category trails the full corpus), but does NOT explain all of it \u2014 beef underperforms even sparse-category peers. Not forced into either of the spec's two named outcomes; recorded as a mixed result, with the unexplained portion left open rather than assigned a cause this pass has no evidence for. Two outlier VCF meat scores (PORK, CURED (smoked) / PORK, UNCURED (smoked), both ~0.40-0.46 against CUTTLEFISH) pull the category mean above its median \u2014 median is the more robust number here and is what this reading uses."
     },
     "df1_rarity_mechanism": {
-      "hypothesis": "IDF-cosine's denominator penalizes profiles built from many unshared/rare (df=1) compounds — a high-IDF unshared compound inflates a profile's own norm without ever contributing to any numerator.",
+      "hypothesis": "IDF-cosine's denominator penalizes profiles built from many unshared/rare (df=1) compounds \u2014 a high-IDF unshared compound inflates a profile's own norm without ever contributing to any numerator.",
       "beef_muscle_raw_vs_PORK_CURED_raw": {
         "beef:muscle:raw": {
           "n_compounds": 111,
@@ -1883,14 +1883,14 @@
         }
       },
       "what_the_df1_compounds_are": {
-        "cooked_tier": "dominated by textbook lipid-oxidation aldehydes (2,4-decadienal, 2,4-nonadienal, 2-decenal, 2-nonenal, benzeneacetaldehyde) and Maillard pyrazines — 10 of 14 (71%) — generic meat chemistry pork/mutton almost certainly also produce, absent from df here only because of how those sources were surveyed. Comparability artifact, same class as MR-11.",
-        "raw_tier": "originally a mix of real chemistry and 9 compounds (Demeton-O, ethyl chloride, diisopropyl ether, perfluorononane, 2,2-dichloropropane, and 4 more) that were never flavour-relevant at all — a classification governance gap, not chemistry (see mr17_mr18_flavour_relevance_classification in meta.protein_beef). Corrected: raw's df=1 share dropped from 10.8% to 3.6%, now close to its comparator (0.0%) and no longer a distinct finding — this tier's apparent rarity was mostly the governance defect, now fixed, not a real signal about beef's chemistry."
+        "cooked_tier": "dominated by textbook lipid-oxidation aldehydes (2,4-decadienal, 2,4-nonadienal, 2-decenal, 2-nonenal, benzeneacetaldehyde) and Maillard pyrazines \u2014 10 of 14 (71%) \u2014 generic meat chemistry pork/mutton almost certainly also produce, absent from df here only because of how those sources were surveyed. Comparability artifact, same class as MR-11.",
+        "raw_tier": "originally a mix of real chemistry and 9 compounds (Demeton-O, ethyl chloride, diisopropyl ether, perfluorononane, 2,2-dichloropropane, and 4 more) that were never flavour-relevant at all \u2014 a classification governance gap, not chemistry (see mr17_mr18_flavour_relevance_classification in meta.protein_beef). Corrected: raw's df=1 share dropped from 10.8% to 3.6%, now close to its comparator (0.0%) and no longer a distinct finding \u2014 this tier's apparent rarity was mostly the governance defect, now fixed, not a real signal about beef's chemistry."
       },
-      "verdict": "Cooked tier's comparability-artifact reading holds and sharpened after the MR-17 fix (71% vs. 65% before, once 2 non-flavour unresolved compounds were removed from the denominator). Raw tier's rarity signal was mostly a classification defect that MR-17 resolved, not chemistry — recorded as PARTIAL/RESOLVED, not open: cooked is explained, raw is corrected rather than mysterious."
+      "verdict": "Cooked tier's comparability-artifact reading holds and sharpened after the MR-17 fix (71% vs. 65% before, once 2 non-flavour unresolved compounds were removed from the denominator). Raw tier's rarity signal was mostly a classification defect that MR-17 resolved, not chemistry \u2014 recorded as PARTIAL/RESOLVED, not open: cooked is explained, raw is corrected rather than mysterious."
     },
     "resolver_identity_collision": {
-      "finding": "BeefCompoundResolver's CAS-first priority order minted a new identity whenever a source's CAS wasn't already known, without checking whether the compound already existed under a name-only provisional id — 2 instances found: (E,E)-2,4-Heptadienal and Pentadecanal.",
-      "status": "FIXED, not deferred. The resolver code was corrected (ingest_protein_beef.py, step 2 of BeefCompoundResolver.resolve) and a standing anchor test added (test_no_two_compound_ids_share_a_normalized_name). The retroactive merge of the 2 known instances was originally scoped as deferred, but the MR-17/MR-18 classification fix required a full rebuild of compounds.jsonl anyway (ingest_protein_beef.py cannot reclassify a compound the second time it runs, once that compound already 'exists' by name or CAS) — the fixed resolver picked up both instances for free on that same rebuild. Confirmed: 0 compound_id pairs share a normalized name in the current corpus."
+      "finding": "BeefCompoundResolver's CAS-first priority order minted a new identity whenever a source's CAS wasn't already known, without checking whether the compound already existed under a name-only provisional id \u2014 2 instances found: (E,E)-2,4-Heptadienal and Pentadecanal.",
+      "status": "FIXED, not deferred. The resolver code was corrected (ingest_protein_beef.py, step 2 of BeefCompoundResolver.resolve) and a standing anchor test added (test_no_two_compound_ids_share_a_normalized_name). The retroactive merge of the 2 known instances was originally scoped as deferred, but the MR-17/MR-18 classification fix required a full rebuild of compounds.jsonl anyway (ingest_protein_beef.py cannot reclassify a compound the second time it runs, once that compound already 'exists' by name or CAS) \u2014 the fixed resolver picked up both instances for free on that same rebuild. Confirmed: 0 compound_id pairs share a normalized name in the current corpus."
     },
     "open_gap_summary": {
       "beef_vs_honest_corpus_median_top1_score": {
@@ -1899,15 +1899,15 @@
         "ratio": 0.44
       },
       "mechanisms_examined": {
-        "near_duplicate_baseline_inflation": "PARTIAL — real, inflated the honest corpus baseline from 0.26 to 0.32 (28.6% of VCF anchors have a near-duplicate top-1 match). Fix belongs in the spine layer (genus/species clustering), not in this pairing metric.",
-        "profile_size_and_neighbour_density": "NULL on profile size directly, both anchor- and match-side (Spearman ρ≈-0.03/0.04, p>0.4, no monotonic decile pattern). MIXED on category density — VCF's own Meat & Poultry products score below the whole-corpus median (ratio 0.63), but beef still underperforms its own category peers (ratio 0.57) — density explains part, not all.",
-        "df1_rarity_denominator": "PARTIAL/RESOLVED — cooked tier is a comparability artifact (generic lipid-oxidation/Maillard chemistry), raw tier's apparent rarity was mostly a classification governance defect (MR-17/18), now corrected.",
-        "resolver_identity_collision": "FIXED — a real but narrow defect (2 of 94 new compounds), unrelated to the score-gap mechanism itself; corrected as a byproduct of the MR-17/18 rebuild."
+        "near_duplicate_baseline_inflation": "PARTIAL \u2014 real, inflated the honest corpus baseline from 0.26 to 0.32 (28.6% of VCF anchors have a near-duplicate top-1 match). Fix belongs in the spine layer (genus/species clustering), not in this pairing metric.",
+        "profile_size_and_neighbour_density": "NULL on profile size directly, both anchor- and match-side (Spearman \u03c1\u2248-0.03/0.04, p>0.4, no monotonic decile pattern). MIXED on category density \u2014 VCF's own Meat & Poultry products score below the whole-corpus median (ratio 0.63), but beef still underperforms its own category peers (ratio 0.57) \u2014 density explains part, not all.",
+        "df1_rarity_denominator": "PARTIAL/RESOLVED \u2014 cooked tier is a comparability artifact (generic lipid-oxidation/Maillard chemistry), raw tier's apparent rarity was mostly a classification governance defect (MR-17/18), now corrected.",
+        "resolver_identity_collision": "FIXED \u2014 a real but narrow defect (2 of 94 new compounds), unrelated to the score-gap mechanism itself; corrected as a byproduct of the MR-17/18 rebuild."
       },
-      "conclusion": "Four mechanisms examined. None closes the gap outright. Recorded as OPEN — beef's median top-1 score sits meaningfully below the honest corpus median for reasons partially understood (near-dup inflation of the baseline, category density) and partially not. Per the stopping rule: this does not block egg, the remaining protein families, or downstream wiring. The value of this investigation was in the ruled-out/corrected mechanisms and the 2 real defects (resolver collision, MR-17/18 gap) found by checking, not in closing the gap."
+      "conclusion": "Four mechanisms examined. None closes the gap outright. Recorded as OPEN \u2014 beef's median top-1 score sits meaningfully below the honest corpus median for reasons partially understood (near-dup inflation of the baseline, category density) and partially not. Per the stopping rule: this does not block egg, the remaining protein families, or downstream wiring. The value of this investigation was in the ruled-out/corrected mechanisms and the 2 real defects (resolver collision, MR-17/18 gap) found by checking, not in closing the gap."
     },
-    "conflicts_per_dish": "see meta.competition — k4 median=0/p90=3, k6 median=0/p90=5, matching the target",
-    "profile_source_integrity": "see pipeline/tests/test_vcf_reliability.py::test_every_profile_has_single_source and ::test_beef_profiles_carry_single_correct_source — both pass"
+    "conflicts_per_dish": "see meta.competition \u2014 k4 median=0/p90=3, k6 median=0/p90=5, matching the target",
+    "profile_source_integrity": "see pipeline/tests/test_vcf_reliability.py::test_every_profile_has_single_source and ::test_beef_profiles_carry_single_correct_source \u2014 both pass"
   },
   "protein_egg": {
     "family": "egg",
@@ -1917,7 +1917,7 @@
         "filename": "CulinAI_Staging_v30.xlsx",
         "sha256": "faece790f7a9c014d1c3f30668b147873a115908da28bc42bcf92e3670821810"
       },
-      "note": "Single workbook for both Detected/Sensomics tables and the Exclusion Routing Audit tab — unlike beef, there is no earlier version predating the routing tab to reconcile."
+      "note": "Single workbook for both Detected/Sensomics tables and the Exclusion Routing Audit tab \u2014 unlike beef, there is no earlier version predating the routing tab to reconcile."
     },
     "tabs_ingested": {
       "Detected Egg Boiled Yolk": 123,
@@ -1928,7 +1928,7 @@
       "egg:yolk_chicken": "Detected Egg Boiled Yolk -> boiled tier only",
       "egg:yolk_duck_salted": "Detected Egg Salted Yolk -> salted + roasted_salted tiers (18 salted / 43 roasted_salted / 16 shared, all 45 rows accounted for)",
       "egg:whole_chicken": "Egg Scrambled Sensomics -> scrambled tier only",
-      "egg:white_chicken": "NOT ingested this pass — every chicken-white source in Egg Product Coverage is 'full_table_pending'; no row-level table exists yet. Nothing fabricated to fill this gap."
+      "egg:white_chicken": "NOT ingested this pass \u2014 every chicken-white source in Egg Product Coverage is 'full_table_pending'; no row-level table exists yet. Nothing fabricated to fill this gap."
     },
     "boiled_yolk_inline_routing_cross_check": {
       "note": "Detected Egg Boiled Yolk carries its own culinary_relevance_route column per row, unlike Salted Yolk/Scrambled which rely entirely on GROUP_MAP + the routing table. Cross-checked its two excluded rows against the Exclusion Routing Audit tab's own family=egg entries: both agree exactly (Cyclotetrasiloxane/ER-006 analytical_background; Dibutyl phthalate/ER-007 present_not_flavor_relevant). No discrepancy found.",
@@ -1938,9 +1938,9 @@
     },
     "mr17_precedence_generalization": {
       "finding_1_label_gated": "Beef's _new_compound() only consults the routing table when a compound's group label fails to map. Egg's Dibutyl phthalate (DEY-SALT-040, ER-008) has compound_group='Esters', which maps cleanly via GROUP_MAP, yet the workbook explicitly excludes it by name. Beef's label-gated shortcut would have missed this.",
-      "finding_2_identity_gated_the_one_that_actually_broke_the_first_run": "Worse: Dibutyl phthalate already exists in VCF's own corpus as an ordinary compound (compound_group='Esters', df_culinary=37 — used in 37 VCF products, predating MR-17 entirely). resolve() returns that existing row before _new_compound() is ever called, so ANY routing check placed inside _new_compound() — including the fix for finding 1 — silently never fires. Found by checking actual output against expected exclusion counts on the first run of this script (Detected Egg Salted Yolk showed 0 excluded rows when ER-008 says it should show 1), not by re-reading the code.",
-      "resolution": "route_verdict() runs at the per-ROW level in main(), for every table without its own inline verdict column, independent of whether resolve() returned a new or a reused compound — a routing decision is about a (family, compound_name) OCCURRENCE, not a global identity fact, so it cannot correctly live only inside the new-compound path. This is a stricter reading of the SAME MR-17 rule beef's own prose already states ('not marked flavour_relevant: false'), not a new rule.",
-      "beef_not_retrofitted": "Beef's script is unchanged by either finding — out of scope for this pass, same as DI-BEEF-001's own handling. Whether any of beef's own routing-table compounds already existed elsewhere in the corpus before beef's ingestion ran (which would mean beef has this same silent-miss risk today, undetected because beef has no per-family cross-check the way this run's actual-vs-expected exclusion count happened to catch) has not been checked. Flagged for James to decide whether it needs a look before more families are added."
+      "finding_2_identity_gated_the_one_that_actually_broke_the_first_run": "Worse: Dibutyl phthalate already exists in VCF's own corpus as an ordinary compound (compound_group='Esters', df_culinary=37 \u2014 used in 37 VCF products, predating MR-17 entirely). resolve() returns that existing row before _new_compound() is ever called, so ANY routing check placed inside _new_compound() \u2014 including the fix for finding 1 \u2014 silently never fires. Found by checking actual output against expected exclusion counts on the first run of this script (Detected Egg Salted Yolk showed 0 excluded rows when ER-008 says it should show 1), not by re-reading the code.",
+      "resolution": "route_verdict() runs at the per-ROW level in main(), for every table without its own inline verdict column, independent of whether resolve() returned a new or a reused compound \u2014 a routing decision is about a (family, compound_name) OCCURRENCE, not a global identity fact, so it cannot correctly live only inside the new-compound path. This is a stricter reading of the SAME MR-17 rule beef's own prose already states ('not marked flavour_relevant: false'), not a new rule.",
+      "beef_not_retrofitted": "Beef's script is unchanged by either finding \u2014 out of scope for this pass, same as DI-BEEF-001's own handling. Whether any of beef's own routing-table compounds already existed elsewhere in the corpus before beef's ingestion ran (which would mean beef has this same silent-miss risk today, undetected because beef has no per-family cross-check the way this run's actual-vs-expected exclusion count happened to catch) has not been checked. Flagged for James to decide whether it needs a look before more families are added."
     },
     "provisional_routing_pending_confirmation": {
       "compounds": [
@@ -1948,28 +1948,28 @@
         "Butane, 1-isocyano-"
       ],
       "n_new_compound_rows_affected": 2,
-      "why": "Neither compound has a GROUP_MAP hit or a row in CulinAI_Staging_v30.xlsx's Exclusion Routing Audit tab for family=egg. James was unreachable for the rest of the day and had already asked ingestion to proceed rather than wait; a code-authored placeholder was used so the run completes instead of aborting on two trace compounds, exactly as the routing gate would otherwise force. NOT a workbook decision — supersede this the moment a real ER-xxx row exists for either compound.",
+      "why": "Neither compound has a GROUP_MAP hit or a row in CulinAI_Staging_v30.xlsx's Exclusion Routing Audit tab for family=egg. James was unreachable for the rest of the day and had already asked ingestion to proceed rather than wait; a code-authored placeholder was used so the run completes instead of aborting on two trace compounds, exactly as the routing gate would otherwise force. NOT a workbook decision \u2014 supersede this the moment a real ER-xxx row exists for either compound.",
       "detail": {
         "Nitrous oxide": {
           "mr17_state": "analytical_background",
-          "authority": "PROVISIONAL — code-authored, not workbook-sourced (2026-08-30)",
+          "authority": "PROVISIONAL \u2014 code-authored, not workbook-sourced (2026-08-30)",
           "meaning": "An inorganic atmospheric/carrier gas, not an organic flavor compound in any of VCF's 18 fixed groups; most plausible read is a headspace-method background artifact rather than a genuine egg constituent. No corpus precedent to ground this against (VCF has no existing Nitrous oxide entry at all). James has not confirmed this.",
           "route_id": null
         },
         "Butane, 1-isocyano-": {
           "mr17_state": "unresolved",
-          "authority": "PROVISIONAL — code-authored, not workbook-sourced (2026-08-30)",
-          "meaning": "An isocyanide — a real, if unusual in food chemistry, functional group. Unlike Nitrous oxide, there is no confident basis here to call it non-flavor-relevant; held pending rather than excluded. No corpus precedent (VCF has no existing isonitrile-classified compound to ground a mapping against either). James has not confirmed this.",
+          "authority": "PROVISIONAL \u2014 code-authored, not workbook-sourced (2026-08-30)",
+          "meaning": "An isocyanide \u2014 a real, if unusual in food chemistry, functional group. Unlike Nitrous oxide, there is no confident basis here to call it non-flavor-relevant; held pending rather than excluded. No corpus precedent (VCF has no existing isonitrile-classified compound to ground a mapping against either). James has not confirmed this.",
           "route_id": null
         }
       }
     },
     "compound_identity_fragmentation": {
-      "finding": "Checked every no-CAS egg compound name (Boiled Yolk, Scrambled Sensomics — CAS-given rows are anchored and immune) against compounds.jsonl and the crosswalk under exact and stereo/locant-prefix-stripped normalization. 6 genuine near-misses found and fixed via EGG_IDENTITY_FIXES so this run doesn't ADD to the problem: (+)-2-Bornanone, (S)-(+)-3-Methyl-1-pentanol, 3-(Methylsulfanyl)propanal (methional), 3-Hydroxy-4,5-dimethyl-2(5H)-furanone (sotolon), 4-Hydroxy-2,5-dimethyl-3(2H)-furanone, 4-Methylphenol (p-cresol), trans-4,5-Epoxy-(E)-2-decenal.",
+      "finding": "Checked every no-CAS egg compound name (Boiled Yolk, Scrambled Sensomics \u2014 CAS-given rows are anchored and immune) against compounds.jsonl and the crosswalk under exact and stereo/locant-prefix-stripped normalization. 6 genuine near-misses found and fixed via EGG_IDENTITY_FIXES so this run doesn't ADD to the problem: (+)-2-Bornanone, (S)-(+)-3-Methyl-1-pentanol, 3-(Methylsulfanyl)propanal (methional), 3-Hydroxy-4,5-dimethyl-2(5H)-furanone (sotolon), 4-Hydroxy-2,5-dimethyl-3(2H)-furanone, 4-Methylphenol (p-cresol), trans-4,5-Epoxy-(E)-2-decenal.",
       "pre_existing_fragmentation_surfaced_not_fixed": {
-        "furaneol": "Now 4 identities in the corpus: (R)-131222-82-7, (S)-131222-81-6, this run's racemic 3658-77-3 (correctly pinned), and beef's stray word-order-shifted 'beef:2_5_dimethyl_4_hydroxy_3_2h_furanone' (beef's own occurrence never matched the crosswalk's racemic entry — different word order, exact-string-only matching, same failure mode this run's EGG_IDENTITY_FIXES exists to prevent).",
+        "furaneol": "Now 4 identities in the corpus: (R)-131222-82-7, (S)-131222-81-6, this run's racemic 3658-77-3 (correctly pinned), and beef's stray word-order-shifted 'beef:2_5_dimethyl_4_hydroxy_3_2h_furanone' (beef's own occurrence never matched the crosswalk's racemic entry \u2014 different word order, exact-string-only matching, same failure mode this run's EGG_IDENTITY_FIXES exists to prevent).",
         "p_cresol": "Two identities: the real CAS 106-44-5 entry, and beef's stray 'beef:4_methyl_phenol' (a space-vs-hyphen mismatch, same root cause).",
-        "note": "Not retroactively merged — that needs a deliberate rebuild, same rule as beef's own documented (E,E)-2,4-Heptadienal/Pentadecanal cases. Reported so it doesn't stay invisible a second time."
+        "note": "Not retroactively merged \u2014 that needs a deliberate rebuild, same rule as beef's own documented (E,E)-2,4-Heptadienal/Pentadecanal cases. Reported so it doesn't stay invisible a second time."
       }
     },
     "compound_resolution": {
@@ -2020,15 +2020,15 @@
   },
   "compound_disease": {
     "source": "FoodAtlas v4.9 (Apache-2.0), source KGC run 20260821T135611Z, released 2026-08-21",
-    "provenance_note": "Blocked earlier in this build — the parquet bundle wasn't present in this environment and there was no Drive file id for it in the spec's Inputs section (unlike the VCF CSVs and crosswalk). James supplied it directly as a connected device folder ('foodatlas-v4.9') after being asked.",
-    "join_method": "PubChem CID (compounds.jsonl's pubchem_cid, from Step 3b) against FoodAtlas chemical entities' external_ids.pubchem_compound — FoodAtlas has no CAS field on chemical entities, so CID is the only join key that exists on both sides. Output rows are still keyed by our own CAS-based compound_id.",
+    "provenance_note": "Blocked earlier in this build \u2014 the parquet bundle wasn't present in this environment and there was no Drive file id for it in the spec's Inputs section (unlike the VCF CSVs and crosswalk). James supplied it directly as a connected device folder ('foodatlas-v4.9') after being asked.",
+    "join_method": "PubChem CID (compounds.jsonl's pubchem_cid, from Step 3b) against FoodAtlas chemical entities' external_ids.pubchem_compound \u2014 FoodAtlas has no CAS field on chemical entities, so CID is the only join key that exists on both sides. Output rows are still keyed by our own CAS-based compound_id.",
     "n_foodatlas_disease_entities": 13298,
     "n_foodatlas_positive_correlation_triplets": 84099,
     "n_foodatlas_negative_correlation_triplets": 46757,
     "n_vcf_distinct_pubchem_cids": 4664,
     "n_vcf_cids_matched_in_foodatlas": 2354,
     "n_cids_matching_multiple_foodatlas_entities": 84,
-    "multi_entity_cid_note": "84 PubChem CID(s) matched more than one FoodAtlas chemical entity (FoodAtlas's own duplicate/legacy-record noise). Policy: union their disease edges rather than adjudicate by hand — acceptable because this table isn't read by any lens yet (spec: 'build now, don't surface'); revisit if that changes.",
+    "multi_entity_cid_note": "84 PubChem CID(s) matched more than one FoodAtlas chemical entity (FoodAtlas's own duplicate/legacy-record noise). Policy: union their disease edges rather than adjudicate by hand \u2014 acceptable because this table isn't read by any lens yet (spec: 'build now, don't surface'); revisit if that changes.",
     "n_rows_written": 9016,
     "n_distinct_compounds_with_disease_edges": 533,
     "n_distinct_diseases_touched": 1514,
@@ -2037,7 +2037,7 @@
     "trust_score_sparsity_note": "trust_score is null on every row in this release, by construction, not as missing data: trust_signals.parquet's 5377 rows cover only LLM-literature-mining-sourced attestations (lit2kg:*), which back a different edge type (CONTAINS). Every r3/r4 disease-correlation attestation in this release comes from FoodAtlas's 'ctd' source instead, and the overlap between the two attestation sets is exactly zero (verified). The averaging logic is implemented and will activate automatically if a future FoodAtlas release scores CTD attestations or adds another scored disease-correlation source.",
     "evidence_source_note": "Every r3/r4-backing attestation in this release comes from FoodAtlas's 'ctd' source (Comparative Toxicogenomics Database), every one of which cites a real PMID. FoodAtlas's own source_type='pubmed' evidence rows back a different edge type (r1/CONTAINS) and are not used here.",
     "n_chemical_disease_pairs_with_conflicting_direction": 470,
-    "conflicting_direction_note": "470 (compound, disease) pair(s) have BOTH a positive and a negative correlation row — conflicting literature, not a bug. Both rows are kept; direction is a per-row field here, not a per-pair verdict.",
+    "conflicting_direction_note": "470 (compound, disease) pair(s) have BOTH a positive and a negative correlation row \u2014 conflicting literature, not a bug. Both rows are kept; direction is a per-row field here, not a per-pair verdict.",
     "not_wired_into_any_lens": "Per spec: stored, not displayed. Surfacing food-disease correlations is a regulated health claim. No frontend or API code reads this table."
   },
   "phase_frames": {
@@ -2045,7 +2045,7 @@
     "n_authored": 4,
     "n_pending_volatility_data": 1,
     "n_pending_authoring": 1,
-    "pending_authoring_note": "1 of 5 frames (smoked_product_fat_phase) is a stub this revision: trigger defined and evaluated for reporting (n_firing_rows), sentence intentionally empty. REVISION 5: this stub's trigger now ALSO gates on mechanism (either_side.group eq 'Phenols'), not just provenance — see this file's REVISION 5 docstring section. No row may ever render frame_id set to a pending_authoring frame's id — enforced in build_vcf_competition.py. See build_vcf_competition.py's meta.json top_group_pairs_missing_frame for which OTHER unauthored collision to write a frame for next.",
+    "pending_authoring_note": "1 of 5 frames (smoked_product_fat_phase) is a stub this revision: trigger defined and evaluated for reporting (n_firing_rows), sentence intentionally empty. REVISION 5: this stub's trigger now ALSO gates on mechanism (either_side.group eq 'Phenols'), not just provenance \u2014 see this file's REVISION 5 docstring section. No row may ever render frame_id set to a pending_authoring frame's id \u2014 enforced in build_vcf_competition.py. See build_vcf_competition.py's meta.json top_group_pairs_missing_frame for which OTHER unauthored collision to write a frame for next.",
     "source": "src/data/domain.js FRAMES/OVERLAYS (the '5.1 prototype')",
     "n_overlays_in_prototype_not_ported": 7,
     "overlays_not_ported": [
@@ -2057,14 +2057,14 @@
       "terrine",
       "raw"
     ],
-    "overlays_not_ported_reason": "Describe cooking-technique mechanics (dry contact, distribution, cold/fat muting) that don't reduce to a compound-chemistry or parsed-preparation trigger this pipeline can evaluate — left out rather than force a false justification onto process-shaped prose.",
-    "verbatim_check": "passed against src/data/domain.js at build time (broth, confit only — see below)",
-    "verbatim_check_note": "REVISION 4: fat_phase_phenol_terpene_carrier's sentence is a deliberate authored rewrite (see its own note/source fields), not a verbatim prototype quote, so it is intentionally excluded from this check — checking it against domain.js would either fail permanently or silently re-legitimize the old smoke-specific wording.",
-    "trigger_schema": "trigger is a structured {'all': [condition, ...]} object evaluated by vcf_trigger_lib.evaluate_trigger (the ONE function that decides whether any trigger fires). trigger_description is generated mechanically from the same structure via generate_trigger_description, never hand-authored — checked at build time. REVISION 4 extended the schema with 'group_pair'/'equals' (order-independent set equality) and 'either_side.'/'other_side.' (a relationship between the pair's two sides, for provenance-on-one-side-plus-carrier-on-the-other claims) — see vcf_trigger_lib.py's own docstring for the full schema.",
-    "revision_4_provenance_vs_behaviour_rule": "Provenance claims (smoked, roasted, cured...) come from the parsed `preparation`/`cure_state` fields in vcf_product_parse.jsonl. Behaviour claims (shares a carrier, disperses in water, infuses over time) come from the chemistry (phase_bucket, compound_group, percentile share). Never the reverse — a molecule's identity cannot license a claim about how a product was prepared, however tightly the molecule set is curated. This is the fix for three prior revisions' repeated failure mode (see this file's module docstring)."
+    "overlays_not_ported_reason": "Describe cooking-technique mechanics (dry contact, distribution, cold/fat muting) that don't reduce to a compound-chemistry or parsed-preparation trigger this pipeline can evaluate \u2014 left out rather than force a false justification onto process-shaped prose.",
+    "verbatim_check": "passed against src/data/domain.js at build time (broth, confit only \u2014 see below)",
+    "verbatim_check_note": "REVISION 4: fat_phase_phenol_terpene_carrier's sentence is a deliberate authored rewrite (see its own note/source fields), not a verbatim prototype quote, so it is intentionally excluded from this check \u2014 checking it against domain.js would either fail permanently or silently re-legitimize the old smoke-specific wording.",
+    "trigger_schema": "trigger is a structured {'all': [condition, ...]} object evaluated by vcf_trigger_lib.evaluate_trigger (the ONE function that decides whether any trigger fires). trigger_description is generated mechanically from the same structure via generate_trigger_description, never hand-authored \u2014 checked at build time. REVISION 4 extended the schema with 'group_pair'/'equals' (order-independent set equality) and 'either_side.'/'other_side.' (a relationship between the pair's two sides, for provenance-on-one-side-plus-carrier-on-the-other claims) \u2014 see vcf_trigger_lib.py's own docstring for the full schema.",
+    "revision_4_provenance_vs_behaviour_rule": "Provenance claims (smoked, roasted, cured...) come from the parsed `preparation`/`cure_state` fields in vcf_product_parse.jsonl. Behaviour claims (shares a carrier, disperses in water, infuses over time) come from the chemistry (phase_bucket, compound_group, percentile share). Never the reverse \u2014 a molecule's identity cannot license a claim about how a product was prepared, however tightly the molecule set is curated. This is the fix for three prior revisions' repeated failure mode (see this file's module docstring)."
   },
   "compound_identity_merges": {
-    "purpose": "Durable audit log of retroactive compound-identity merges — distinct from the ingestion-script meta blocks (protein_beef, protein_egg) because a merge is a cross-cutting corpus edit, not tied to one family's ingestion run. Each entry is deliberate and explicitly authorized (see authorized_by), never a silent default.",
+    "purpose": "Durable audit log of retroactive compound-identity merges \u2014 distinct from the ingestion-script meta blocks (protein_beef, protein_egg) because a merge is a cross-cutting corpus edit, not tied to one family's ingestion run. Each entry is deliberate and explicitly authorized (see authorized_by), never a silent default.",
     "merges": [
       {
         "date": "2026-08-31",
@@ -2094,13 +2094,13 @@
             }
           ]
         },
-        "reasoning": "Ordinary (achiral-column) GC-MS cannot distinguish R/S enantiomers; only a chiral/enantioselective method can, and food-volatile papers using one report it prominently. Checked every traceable source: SRC-BEEF-FAT-001 (the one entry with a citation, Yang et al. 2023, Foods, SAFE+GC-MS+GC-O+OAV) reports no chiral method. The 3 VCF-native entries ((R)-, (S)-, racemic) have NO traceable citation anywhere in this repo — vendor/vcf/raw/*.csv carries only Product, Product Category, Product Group, Compound, Compound Group, Quantity bounds, no method or citation field at all. That absence is itself the basis for the default: non-chiral GC-MS is the overwhelming norm in food volatile work, so absence of any evidence for chiral separation, across every checkable source, defaults to \"none used\" and the three entries are treated as one measured peak carrying three labels rather than three independent identities. This is an explicit, authorized default standing in for a fact VCF has not yet confirmed — not a claim that the fact is known. Three questions on VCF corpus provenance (method/citation completeness, how the 3 Furaneol entries were actually distinguished, whether the live feed will carry provenance) are pending with the data partner; this merge is reversible if their answer contradicts the default.",
+        "reasoning": "Ordinary (achiral-column) GC-MS cannot distinguish R/S enantiomers; only a chiral/enantioselective method can, and food-volatile papers using one report it prominently. Checked every traceable source: SRC-BEEF-FAT-001 (the one entry with a citation, Yang et al. 2023, Foods, SAFE+GC-MS+GC-O+OAV) reports no chiral method. The 3 VCF-native entries ((R)-, (S)-, racemic) have NO traceable citation anywhere in this repo \u2014 vendor/vcf/raw/*.csv carries only Product, Product Category, Product Group, Compound, Compound Group, Quantity bounds, no method or citation field at all. That absence is itself the basis for the default: non-chiral GC-MS is the overwhelming norm in food volatile work, so absence of any evidence for chiral separation, across every checkable source, defaults to \"none used\" and the three entries are treated as one measured peak carrying three labels rather than three independent identities. This is an explicit, authorized default standing in for a fact VCF has not yet confirmed \u2014 not a claim that the fact is known. Three questions on VCF corpus provenance (method/citation completeness, how the 3 Furaneol entries were actually distinguished, whether the live feed will carry provenance) are pending with the data partner; this merge is reversible if their answer contradicts the default.",
         "not_included": {
           "compound_id": "65330-49-6",
           "raw_compound": "4-ethoxy-2,5-dimethyl-3(2H)-furanone (=ethylfuraneol)",
-          "why": "Chemically distinct compound (ethyl ether analog, different molecular weight/CAS/CID) — shares the word furaneol in its common name only, verified separately, not part of this merge."
+          "why": "Chemically distinct compound (ethyl ether analog, different molecular weight/CAS/CID) \u2014 shares the word furaneol in its common name only, verified separately, not part of this merge."
         },
-        "mechanism": "compounds.jsonl: the 2 VCF-native duplicates were repointed (compound_id and cas both set to 3658-77-3) rather than deleted, because build_vcf_profiles.py and build_vcf_quantities.py both do a strict raw_compound -> compound_id lookup against every row of the raw VCF parquet and raise SystemExit on a miss (\"drifted apart, re-run canonicalize_vcf_compounds.py\") — deleting instead of repointing would have broken every future rebuild touching this compound, not just this one. The 3 repointed/aliased rows now share one compound_id, kept internally consistent (same cas as the id) so no id_to_cas conflict is raised by test_no_compound_split_across_two_compound_ids. The beef stray (never present in VCF raw parquet) was deleted outright after its one reference in beef_profiles_prebuilt.jsonl was repointed to the canonical id — that file, not profiles.jsonl directly, is the persistent source build_vcf_profiles.py re-reads on every --include-protein rebuild.",
+        "mechanism": "compounds.jsonl: the 2 VCF-native duplicates were repointed (compound_id and cas both set to 3658-77-3) rather than deleted, because build_vcf_profiles.py and build_vcf_quantities.py both do a strict raw_compound -> compound_id lookup against every row of the raw VCF parquet and raise SystemExit on a miss (\"drifted apart, re-run canonicalize_vcf_compounds.py\") \u2014 deleting instead of repointing would have broken every future rebuild touching this compound, not just this one. The 3 repointed/aliased rows now share one compound_id, kept internally consistent (same cas as the id) so no id_to_cas conflict is raised by test_no_compound_split_across_two_compound_ids. The beef stray (never present in VCF raw parquet) was deleted outright after its one reference in beef_profiles_prebuilt.jsonl was repointed to the canonical id \u2014 that file, not profiles.jsonl directly, is the persistent source build_vcf_profiles.py re-reads on every --include-protein rebuild.",
         "profile_impact": {
           "213": {
             "raw_name": "GRAPE (Vitis species)",
