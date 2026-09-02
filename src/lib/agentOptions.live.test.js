@@ -31,6 +31,24 @@ vi.mock('./openai.js', async () => {
 import { runAgent } from './runAgent.js'
 import { matchRecipeNlg, _clearMatchCache } from './matchRecipeNlg.js'
 
+
+/**
+ * Always runs. A skipped group must be loud, not a quiet green run — the same
+ * guard reliability.live.test.js uses. Set CULIN_REQUIRE_LIVE=1 (CI does) to
+ * turn a skip into a failure; without it the skip is only reported.
+ */
+const REQUIRE_LIVE = process.env.CULIN_REQUIRE_LIVE === '1'
+
+it('no live agent group was silently skipped', () => {
+  const detail = HAS_KEY
+    ? 'no groups skipped'
+    : "live LLM/agent checks did not run: neither VITE_OPENAI_API_KEY nor " +
+      "OPENAI_API_KEY is set. A green run that called no model proves nothing."
+  if (REQUIRE_LIVE) expect(HAS_KEY, detail).toBe(true)
+  else if (!HAS_KEY) console.warn(`[agentOptions:live] ${detail}`)
+  expect(true).toBe(true)
+})
+
 describe.skipIf(!HAS_KEY)('live Tradition agent — option cards from real LLM + DB', () => {
   let handleTool
 

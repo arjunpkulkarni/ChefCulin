@@ -300,6 +300,9 @@ export async function getTraditionAssociation(seed, opts = {}) {
       ur.cuisine,
       ur.country,
       ur.region_or_community,
+      ur.confidence,
+      ur.documentation_status,
+      (SELECT COUNT(*) FROM sources sx WHERE sx.dish_id = ur.dish_id) AS source_count,
       COUNT(DISTINCT ci2.dish_id) AS dish_count
     FROM companion_ingredients ci1
     JOIN companion_ingredients ci2
@@ -442,6 +445,11 @@ function rowToOption(row) {
     score: Number(row.traditionality_score) || 0,
     plateHits: Number(row.plate_hits) || 0,
     dish_id: row.dish_id,
+    // Pending means unassessed, not low. A lens that renders the two the same
+    // way lies about what it knows (§2.6).
+    confidence: row.confidence || 'Pending',
+    confidenceIsAssessed: Boolean(row.confidence),
+    sourceCount: Number(row.source_count) || 0,
   }
 }
 
@@ -462,19 +470,47 @@ export function plateTokensFromNames(focusName, plateNames = []) {
   return traditionSearchTokens(plateNames).filter((t) => !focusSet.has(t))
 }
 
-function tokenWhereClause(tokens) {
+function tokenWhereClause(tokens, roles = FOCUS_ROLES) {
   if (!tokens.length) return { sql: '1=0', params: [] }
+  // The companion arm is role-gated: matching on ci.ingredient_name alone is
+  // what let a dish qualify because it is FRIED IN the queried ingredient.
+  const role = focusRoleClause(roles)
   const whereLikes = tokens
     .map(
       () =>
-        `(LOWER(ur.item) LIKE ? OR LOWER(COALESCE(ur.use_or_dish,'')) LIKE ? OR LOWER(COALESCE(ci.ingredient_name,'')) LIKE ?)`
+        `(LOWER(ur.item) LIKE ? OR LOWER(COALESCE(ur.use_or_dish,'')) LIKE ?` +
+        ` OR (LOWER(COALESCE(ci.ingredient_name,'')) LIKE ? AND ${role.sql}))`
     )
     .join(' OR ')
   const params = tokens.flatMap((t) => {
     const like = `%${t}%`
-    return [like, like, like]
+    return [like, like, like, ...role.params]
   })
   return { sql: `(${whereLikes})`, params }
+}
+
+/**
+ * Roles that mean the ingredient is IN the dish, as opposed to something the
+ * dish is cooked in (§2.6).
+ *
+ * A chef asking about olives wants dishes where olives are the main event or a
+ * seasoning — not the rows where olive oil is the cooking medium. Without this
+ * filter "olive" returns olive oil, which was the original test failure. `fat`
+ * and `garnish` are excluded from the focus match for that reason; they remain
+ * perfectly valid companion rows once a dish is opened.
+ */
+export const FOCUS_ROLES = ['main', 'seasoning', 'aromatic', 'ingredient']
+
+/** Roles a focus match must NOT be carried by alone. */
+export const MEDIUM_ROLES = ['fat', 'garnish']
+
+function focusRoleClause(roles = FOCUS_ROLES) {
+  if (!roles.length) return { sql: '1=1', params: [] }
+  const placeholders = roles.map(() => '?').join(', ')
+  return {
+    sql: `LOWER(COALESCE(ci.role_in_dish,'')) IN (${placeholders})`,
+    params: roles.map((r) => r.toLowerCase()),
+  }
 }
 
 function companionHitClause(tokens) {
@@ -485,11 +521,11 @@ function companionHitClause(tokens) {
 
 function queryTraditionRows(
   db,
-  { focusTokens, plateTokens = [], cuisineTerms = [], limit = 5, excludeIds = new Set() }
+  { focusTokens, plateTokens = [], cuisineTerms = [], limit = 5, excludeIds = new Set(), roles = FOCUS_ROLES }
 ) {
   if (!focusTokens.length) return []
 
-  const focus = tokenWhereClause(focusTokens)
+  const focus = tokenWhereClause(focusTokens, roles)
   const plateHits = companionHitClause(plateTokens)
 
   let cuisineSql = ''
@@ -541,6 +577,7 @@ export async function bestTraditionMatches({
   cuisine = null,
   cuisineScope = null,
   limit = 5,
+  roles = FOCUS_ROLES,
 } = {}) {
   const db = await getDb()
   const focusName = focus || names[0]
@@ -572,6 +609,7 @@ export async function bestTraditionMatches({
       cuisineTerms: cuisineFilter,
       limit: n,
       excludeIds,
+      roles,
     })
 
   let options = take(query(cuisineTerms, cap))

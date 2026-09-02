@@ -24,6 +24,35 @@ const api = vi.hoisted(() => ({
       { ingredient: 'salt', confidence: 0.9, freq: 2000 },
     ],
   })),
+  vcfPairs: vi.fn(async () => ({
+    spine_id: 'culin:coffee',
+    source: 'pairs',
+    count: 2,
+    results: [
+      {
+        match_vcf_product_id: 400,
+        match_raw_name: 'PORK (Sus scrofa L.)',
+        rank: 1,
+        score: 0.187,
+        shared_count: 255,
+        top_shared_compounds: [
+          { compound_id: 'p1', raw_compound: '2-methylpyrazine', compound_group: 'Bases', df_culinary: 40, idf: 2.6 },
+        ],
+      },
+      {
+        match_vcf_product_id: 401,
+        match_raw_name: 'MALT',
+        rank: 2,
+        score: 0.158,
+        shared_count: 187,
+        top_shared_compounds: [
+          { compound_id: 'm1', raw_compound: 'furfural', compound_group: 'Furans', df_culinary: 12, idf: 3.8 },
+        ],
+      },
+    ],
+  })),
+  vcfForms: vi.fn(async () => ({ spine_id: 'culin:coffee', coverage: 'single_form', count: 0, results: [] })),
+  vcfPhase: vi.fn(async () => ({ product_id: 0, count: 0, n_framed: 0, results: [] })),
   compound: vi.fn(async (seed) => ({
     canonical: 'chicken',
     results: [
@@ -198,8 +227,8 @@ beforeEach(() => {
 
 afterEach(cleanup)
 
-function renderApp() {
-  return render(<App initialFocus="Chicken" />)
+function renderApp(focus = 'Chicken') {
+  return render(<App initialFocus={focus} />)
 }
 
 describe('demo shell', () => {
@@ -239,15 +268,34 @@ describe('demo shell', () => {
 })
 
 describe('demo Compound lens', () => {
-  it('loads flavor-network neighbors ranked by shared compounds', async () => {
-    renderApp()
+  it('loads shared-compound neighbours from the VCF pairs table', async () => {
+    renderApp('Coffee')
     expect(screen.getAllByText(/shared volatile compounds/i).length).toBeGreaterThan(0)
-    expect(await screen.findByText('White Wine')).toBeTruthy()
-    expect(api.compound).toHaveBeenCalled()
-    const chip = screen.getByText('White Wine').closest('.chip')
-    fireEvent.click(chip)
+    expect(await screen.findByText('Pork')).toBeTruthy()
+    expect(api.vcfPairs).toHaveBeenCalled()
+    // Resolution happens before the fetch, so the API is asked for a spine id.
+    expect(api.vcfPairs.mock.calls[0][0]).toMatch(/^culin:/)
+  })
+
+  it('names compound families instead of the similarity score', async () => {
+    renderApp('Coffee')
+    expect(await screen.findByText(/pyrazines and pyridines/)).toBeTruthy()
+    expect(screen.queryByText(/0\.187/)).toBeNull()
+  })
+
+  it('gathers a neighbour onto the plate', async () => {
+    renderApp('Coffee')
+    const chip = await screen.findByText('Pork')
+    fireEvent.click(chip.closest('.chip'))
     expect(document.querySelectorAll('.ing').length).toBe(1)
-    expect(document.querySelector('.ing-n').textContent).toBe('White Wine')
+    expect(document.querySelector('.ing-n').textContent).toBe('Pork')
+  })
+
+  it('says plainly that chicken has no compound data rather than showing nothing', async () => {
+    // Avian is staged, not ingested — the corpus genuinely has no chicken.
+    renderApp('Chicken')
+    expect(await screen.findByText(/No VCF compound data/)).toBeTruthy()
+    expect(api.vcfPairs).not.toHaveBeenCalled()
   })
 })
 
@@ -347,13 +395,13 @@ describe('demo sidebar', () => {
   })
 
   it('keeps gathered ingredients when switching lenses', async () => {
-    renderApp()
-    const chip = await screen.findByText('White Wine')
+    renderApp('Coffee')
+    const chip = await screen.findByText('Pork')
     fireEvent.click(chip.closest('.chip'))
     fireEvent.click(screen.getByRole('button', { name: /^Form$/ }))
     expect(document.querySelectorAll('.ing').length).toBe(1)
     fireEvent.click(screen.getByRole('button', { name: /^Compound$/ }))
-    expect(document.querySelector('.ing-n').textContent).toBe('White Wine')
+    expect(document.querySelector('.ing-n').textContent).toBe('Pork')
   })
 })
 

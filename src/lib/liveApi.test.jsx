@@ -30,9 +30,31 @@ async function probe() {
 
 const health = await probe()
 const live = Boolean(health)
+const SKIPPED_GROUPS = []
 if (!live) {
+  SKIPPED_GROUPS.push(`live corpus API at ${BASE} (not reachable)`)
   console.log(`[liveApi] API not reachable at ${BASE} — skipping integration tests.`)
 }
+
+
+/**
+ * Always runs. A skipped group must be loud, not a quiet green run — the same
+ * guard reliability.live.test.js uses. Set CULIN_REQUIRE_LIVE=1 (CI does) to
+ * turn a skip into a failure; without it the skip is only reported.
+ */
+const REQUIRE_LIVE = process.env.CULIN_REQUIRE_LIVE === '1'
+
+it('no live API group was silently skipped', () => {
+  const detail = SKIPPED_GROUPS.length
+    ? `${SKIPPED_GROUPS.length} group(s) did not run:\n` +
+      SKIPPED_GROUPS.map((g) => `  - ${g}`).join('\n') +
+      `\nStart them with 'npm run demo'. A green run that verified nothing is ` +
+      `worse than a red one that says so.`
+    : 'no groups skipped'
+  if (REQUIRE_LIVE) expect(SKIPPED_GROUPS.length === 0, detail).toBe(true)
+  else if (SKIPPED_GROUPS.length) console.warn(`[liveApi] ${detail}`)
+  expect(true).toBe(true)
+})
 
 describe.skipIf(!live)('live corpus API', () => {
   it('serves the built artifact tables', async () => {
@@ -89,6 +111,7 @@ describe.skipIf(!live)('Association Engine against the live corpus', () => {
 
 const palateUp = live && health.palate_db
 if (live && !palateUp) {
+  SKIPPED_GROUPS.push('F6 Palate round-trip (palate_db is false — Postgres down)')
   console.log('[liveApi] palate_db is false — skipping F6 round-trip. Start Postgres.')
 }
 
